@@ -4,7 +4,7 @@ id: Deployment_configurations
 
 # Deployment configurations
 
-A **deployment configuration** is a set of parameter-value pairs. In this set, each of a fixed set of [deployment configurations parameters](/docs/Authorisation%20and%20access/Deployment%20configurations/Deployment%20configuration%20parameters.md) is set to a specific value. These settings influence the runtime behavior of USoft during a session.
+A **deployment configuration** is a set of parameter-value pairs. In this set, each of a fixed set of [deployment configurations parameters](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md) is set to a specific value. These settings influence the runtime behavior of USoft during a session.
 
 When a user logs on to the application, exactly 1 deployment configuration is selected:
 
@@ -18,7 +18,7 @@ When you run Create Tables for USoft Authorizer, USoft automatically creates a d
 > Do not differentiate between deployment configurations unless and until you have a clear need. Until that time, use the 'LAN' default.
 
 > [!TIP]
-> You can influence a number of other aspects of Rules Engine behaviour by setting [Rules Engine parameters](/docs/Modeller%20and%20Rules%20Engine/Introducing%20USoft%20Modeller%20and%20Rules%20Engine/Rules%20Engine%20parameters.md).
+> You can influence a number of other aspects of Rules Engine behaviour by setting [Rules Engine parameters](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md).
 
 ## Contexts
 

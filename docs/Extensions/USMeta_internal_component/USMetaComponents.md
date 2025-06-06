@@ -7,7 +7,7 @@ id: USMetaComponents
 
 
 > [!NOTE]
-> This article is about the **Components** method of the [USMeta internal component](/docs/Extensions/USMeta%20internal%20component).
+> This article is about the **Components** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
 
 ## **USMeta.Components**
 

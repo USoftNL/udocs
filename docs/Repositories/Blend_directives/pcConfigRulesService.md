@@ -7,12 +7,12 @@ id: pcConfigRulesService
 
 
 > [!NOTE]
-> This article is about the **pc:ConfigRulesService**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:ConfigRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
 
-- [pc:ConfigRulesService](#pc:ConfigRulesService)
-- [Choosing a port number for a Rules Service](#Choosing+a+port+number+for+a+Rules+Service)
-- [Configuring a Rules Service on the basis of an existing file](#Configuring+a+Rules+Service+on+the+basis+of+an+existing+file)
-- [Manual configuration of a Rules Service](#Manual+configuration+of+a+Rules+Service)
+- [pc:ConfigRulesService](#pc:configrulesservice)
+- [Choosing a port number for a Rules Service](#choosing-a-port-number-for-a-rules-service)
+- [Configuring a Rules Service on the basis of an existing file](#configuring-a-rules-service-on-the-basis-of-an-existing-file)
+- [Manual configuration of a Rules Service](#manual-configuration-of-a-rules-service)
 
 ## **pc:ConfigRulesService**
 

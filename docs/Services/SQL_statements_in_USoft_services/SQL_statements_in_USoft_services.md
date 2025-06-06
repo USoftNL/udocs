@@ -63,4 +63,4 @@ VALUES (
 
 This example uses a reference to a structure, then a simple string, then a second reference to the structure, and then a second string. The object passed contains the structure and the 2 string values. For the 2nd reference to the structure, the same instance of the structure is used as for the 1st.
 
-But it does not really matter where the structure is in the array. The structure is picked up by looking for the **Entity** annotation, as explained in [Structures](/docs/Services/USoft%20Service%20Definer%20objects/Structures.md).
+But it does not really matter where the structure is in the array. The structure is picked up by looking for the **Entity** annotation, as explained in [Structures](/docs/Services/USoft_Service_Definer_objects/Structures.md).

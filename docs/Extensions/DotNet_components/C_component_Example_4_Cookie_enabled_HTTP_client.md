@@ -12,7 +12,7 @@ This example assumes you are calling a USoft REST service to query a table “RE
 
 - localhost:8112/API/TRAVEL_CONN_API/reservations
 
-The server uses HTTP Basic authentication. The endpoint allows GET and POST requests. Visit the [following](/docs/Services/Introducing%20USoft%20Services/Getting%20started%20with%20USoft%20services%20Quick%20WalkThrough.md) article to get started with creating your own USoft REST Service.
+The server uses HTTP Basic authentication. The endpoint allows GET and POST requests. Visit the [following](/docs/Services/Introducing_USoft_Services/Getting_started_with_USoft_services_Quick_WalkThrough.md) article to get started with creating your own USoft REST Service.
 
 ## Defining C# Component
 

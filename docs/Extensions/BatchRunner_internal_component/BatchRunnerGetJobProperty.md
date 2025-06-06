@@ -7,7 +7,7 @@ id: BatchRunnerGetJobProperty
 
 
 > [!NOTE]
-> This article is about the **GetJobProperty** method of the [BatchRunner internal component](/docs/Extensions/BatchRunner%20internal%20component).
+> This article is about the **GetJobProperty** method of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
 
 ## **BatchRunner.GetJobProperty**
 

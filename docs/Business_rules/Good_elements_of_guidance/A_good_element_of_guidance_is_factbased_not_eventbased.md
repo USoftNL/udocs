@@ -6,7 +6,7 @@ id: A_good_element_of_guidance_is_factbased_not_eventbased
 
 > [!NOTE]
 > **Summary:**  A rule or advice typically does not say when it is needed.
-> [More SBVR principles for good elements of guidance](/docs/Business%20rules/Good%20elements%20of%20guidance/Good%20elements%20of%20guidance.md)
+> [More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
 
 Elements of guidance are fact-based, not event-based. They say *what must be the case.* They don't usually say *when something is to happen.*
 

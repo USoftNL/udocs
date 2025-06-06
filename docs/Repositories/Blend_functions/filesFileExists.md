@@ -7,7 +7,7 @@ id: filesFileExists
 
 
 > [!NOTE]
-> This article is about the **files:FileExists**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **files:FileExists**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **files:FileExists**
 

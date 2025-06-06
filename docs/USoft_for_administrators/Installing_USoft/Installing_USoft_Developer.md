@@ -48,7 +48,7 @@ for more information about the central USoft log folder.
 > [!NOTE]
 > It is possible to install multiple patch versions and major versions of USoft alongside each other, e.g. 10.0.1A and 10.0.1K  or USoft 9 and 10 on one machine. This is generally intended for test or diagnostic purposes and should not reflect a production use of USoft. This can be done by selecting a different folder other other than an existing USoft install folder during the setup.
 
-You will now be asked to type the path to your license file (LICENSE.DAT). This file will have been provided to you by the USoft Service desk. You should refer to the [License ](/docs/USoft%20for%20administrators/USoft%20license%20management)documentation for details of how to install and use it.
+You will now be asked to type the path to your license file (LICENSE.DAT). This file will have been provided to you by the USoft Service desk. You should refer to the [License ](/docs/USoft_for_administrators/USoft_license_management)documentation for details of how to install and use it.
 
 > [!NOTE]
 > You cannot install or use USoft Series products without a valid LICENSE.DAT file. You also cannot place the LICENSE.DAT file in the same folder as the installation folder defined in the previous dialog as the installer will copy it for you.

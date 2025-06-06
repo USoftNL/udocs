@@ -93,8 +93,8 @@ Data exported to the XML format are *re-importable.* Exactly how exported data a
 
 Export files may be re-imported:
 
-- By calling a Delivery Manager****[Import appdata](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Import%20appdata.md) or [Import metadata](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Import%20metadata.md) action and passing the export file as a parameter.
-- By calling [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md).
+- By calling a Delivery Manager****[Import appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Import_appdata.md) or [Import metadata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Import_metadata.md) action and passing the export file as a parameter.
+- By calling [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
 
 ### Overview of Delivery Manager export actions
 

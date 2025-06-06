@@ -7,8 +7,8 @@ id: XMLJSON2XML
 
 
 > [!NOTE]
-> This article is about the **JSON2XML** method of the [XML internal component](/docs/Extensions/XML%20internal%20component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON) section.
+> This article is about the **JSON2XML** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
 
 ## **XML.JSON2XML**
 

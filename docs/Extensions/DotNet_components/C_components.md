@@ -154,4 +154,4 @@ where MY_DUMMY_PATH is declared on the system environment variable list.
 
 ### Having referenced nuget packages installed automatically
 
-You can [have referenced nuget packages installed automatically](/docs/Extensions/DotNet%20components/Nugets.md).
+You can [have referenced nuget packages installed automatically](/docs/Extensions/DotNet_components/Nugets.md).

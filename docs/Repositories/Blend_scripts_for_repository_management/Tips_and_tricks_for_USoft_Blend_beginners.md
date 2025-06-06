@@ -46,7 +46,7 @@ If you wanted to return the value “xy” instead, you would need to quote the 
 </pc:value-of>
 ```
 
-Node sets and strings are the 2 most important data types in XSLT and in USoft Blend. If node sets are new to you, start by reading the "Node set expressions” section of the "[Guide to Blend expressions and data types](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Guide%20to%20Blend%20expressions%20and%20data%20types.md)” article.
+Node sets and strings are the 2 most important data types in XSLT and in USoft Blend. If node sets are new to you, start by reading the "Node set expressions” section of the "[Guide to Blend expressions and data types](/docs/Repositories/Blend_scripts_for_repository_management/Guide_to_Blend_expressions_and_data_types.md)” article.
 
 ## Curly braces are needed to have values computed
 
@@ -82,7 +82,7 @@ By contrast, in contexts that DO expect string values, such as the following con
 </pc:DeleteDirectories>
 ```
 
-For more, read the "Evaluated expressions vs. literal expressions” sections at the end of the "[Guide to Blend expressions and data types](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Guide%20to%20Blend%20expressions%20and%20data%20types.md)” article.
+For more, read the "Evaluated expressions vs. literal expressions” sections at the end of the "[Guide to Blend expressions and data types](/docs/Repositories/Blend_scripts_for_repository_management/Guide_to_Blend_expressions_and_data_types.md)” article.
 
 ## Sandbox scripts are best for debugging
 
@@ -107,6 +107,6 @@ Put this in a file called "mytest.xml” and call that file like so:
 > *usoft-bindir*\ublendit.exe mytest.xml
 ```
 
-Please click [here](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Guide%20to%20Blend%20debugging.md) for more debugging tips.
+Please click [here](/docs/Repositories/Blend_scripts_for_repository_management/Guide_to_Blend_debugging.md) for more debugging tips.
 
  

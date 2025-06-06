@@ -5,11 +5,11 @@ id: SQL_functions_IM
 # SQL functions I-M
 
 > [!NOTE]
-> [SQL functions  A - C](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20AC.md)
-> [SQL functions  D - H](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20DH.md)
+> [SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
+> [SQL functions  D - H](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md)
 > SQL functions  I - M
-> [SQL functions  N - R](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20NR.md)
-> [SQL functions  S - Z](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20SZ.md)
+> [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md)
+> [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md)
 
  
 
@@ -31,8 +31,8 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**INDEX_COL**|-       |-       |INDEX_COL|-       |-       |
 |**INITCAP**|-       |INITCAP |-       |-       |-       |
 |**INSERT**|-       |-       |-       |INSERT  |-       |
-|**INSTR**|CHARINDEX|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|
-|        |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|
+|**INSTR**|CHARINDEX|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|
+|        |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|
 |**INSTRB**|-       |INSTRB  |-       |-       |INSTRB  |
 |**ISINTEGER**|ISINTEGER|ISINTEGER|ISINTEGER|ISINTEGER|ISINTEGER|
 |**ISNULL**|IFNULL  |NVL     |ISNULL  |IFNULL  |COALESCE|
@@ -47,12 +47,12 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**LCASE**|LOWER   |LOWER   |LOWER   |LCASE   |LOWER   |
 |**LEAST**|-       |LEAST   |-       |-       |-       |
 |**LEFT**|-       |-       |LEFT    |LEFT    |-       |
-|**LEN** |LENGTH  |LENGTH  |[LEN](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/DATALENGTH%20LEN.md)|LENGTH  |LENGTH  |
-|**LENGTH**|LENGTH  |LENGTH  |[LEN](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/DATALENGTH%20LEN.md)|LENGTH  |LENGTH  |
+|**LEN** |LENGTH  |LENGTH  |[LEN](/docs/Modeller_and_Rules_Engine/SQL_functions/DATALENGTH_LEN.md)|LENGTH  |LENGTH  |
+|**LENGTH**|LENGTH  |LENGTH  |[LEN](/docs/Modeller_and_Rules_Engine/SQL_functions/DATALENGTH_LEN.md)|LENGTH  |LENGTH  |
 |**LENGTHB**|-       |LENGTHB |-       |-       |LENGTHB |
 |**LN**  |LOG     |LN      |LOG     |LOG     |LN      |
-|**LOCATE**|LOCATE  |CHARINDEX|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|LOCATE  |LOCATE  |
-|        |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|CHARINDEX|LOCATE  |
+|**LOCATE**|LOCATE  |CHARINDEX|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|LOCATE  |LOCATE  |
+|        |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|CHARINDEX|LOCATE  |
 
 
 

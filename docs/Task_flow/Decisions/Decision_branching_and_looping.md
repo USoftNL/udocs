@@ -8,7 +8,7 @@ USoft uses SQL as its primary expression language. SQL has WHERE clauses for con
 
 With Decisions, you can combine SQL expressions with branching. Based on the outcome of a SQL statement, the application branches either into the Yes Action or the No action.
 
-You can easily construct complex decision trees with repeated branching, because in the Yes Action and No Action scripts you can call sub-decisions using [ActionDecision()](/docs/Task%20flow/Action%20Language%20reference%20A-C/ActionDecision.md).
+You can easily construct complex decision trees with repeated branching, because in the Yes Action and No Action scripts you can call sub-decisions using [ActionDecision()](/docs/Task_flow/Action_Language_reference_A-C/ActionDecision.md).
 
 You can also achieve looping, because it is possible to call a decision from its own Yes Action. In addition, you can call a decision that you passed through earlier, which gives you repeated looping through the same sequence of decisions until some value is reached or computed.
 

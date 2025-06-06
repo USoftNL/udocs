@@ -4,12 +4,12 @@ id: Nugets
 
 # Nugets
 
-- [USoft as a Nuget client](#USoft+as+a+Nuget+client)
-- [Viewing installed nugets](#Viewing+installed+nugets)
-- [Installing an available nuget version](#Installing+an+available+nuget+version)
-- [Having a referenced nuget version installed automatically](#Having+a+referenced+nuget+version+installed+automatically)
-- [Deleting an installed nuget version](#Deleting+an+installed+nuget+version)
-- [Delivering a nuget version as part of your USoft application](#Delivering+a+nuget+version+as+part+of+your+USoft+application)
+- [USoft as a Nuget client](#usoft-as-a-nuget-client)
+- [Viewing installed nugets](#viewing-installed-nugets)
+- [Installing an available nuget version](#installing-an-available-nuget-version)
+- [Having a referenced nuget version installed automatically](#having-a-referenced-nuget-version-installed-automatically)
+- [Deleting an installed nuget version](#deleting-an-installed-nuget-version)
+- [Delivering a nuget version as part of your USoft application](#delivering-a-nuget-version-as-part-of-your-usoft-application)
 
 ## USoft as a Nuget client
 
@@ -87,6 +87,6 @@ To deliver a nuget version to a Production environment where you do not run USof
 2. If you can see the nuget you want to deliver in the Installed Nugets tab, right-click that nuget version and choose .
 3. Otherwise, if you need help finding the nuget version you want to deliver, click the Find Nugets tab. Follow the instructions to find the nuget version you want to deliver. When you have found the nuget version you want to deliver, click on its Name, then in the Nuget Versions related box, right-click the version number you require and choose from the context menu.
 
-This gives you a [USoft Blend](/docs/Repositories/Blend%20scripts%20for%20repository%20management) snippet that you can either paste-to-clipboard or save as a file. You can deliver the nuget version to Production by including this snippet in your release deliverables. A most convenient way to do this is by releasing through [USoft Delivery Manager](/docs/Continuous%20delivery) and declaring the script as a [deploy script](/docs/Continuous%20delivery/Blend%20deploy%20scripts/Blend%20deploy%20scripts.md).
+This gives you a [USoft Blend](/docs/Repositories/Blend_scripts_for_repository_management) snippet that you can either paste-to-clipboard or save as a file. You can deliver the nuget version to Production by including this snippet in your release deliverables. A most convenient way to do this is by releasing through [USoft Delivery Manager](/docs/Continuous_delivery) and declaring the script as a [deploy script](/docs/Continuous_delivery/Blend_deploy_scripts/Blend_deploy_scripts.md).
 
  

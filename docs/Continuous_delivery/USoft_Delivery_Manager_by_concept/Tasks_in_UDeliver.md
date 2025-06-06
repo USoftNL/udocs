@@ -9,9 +9,9 @@ id: Tasks_in_UDeliver
 
 **See also**
 
-- [Defining a task](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Defining%20a%20task.md)
-- [Running a task](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Running%20a%20task.md)
-- [Defining a task category](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Defining%20a%20task%20category.md)
+- [Defining a task](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Defining_a_task.md)
+- [Running a task](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Running_a_task.md)
+- [Defining a task category](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Defining_a_task_category.md)
 
 You can perform delivery and data management operations by defining and then running *tasks.* A task is a series of actions that you perform in a set order. Most actions require *parameters.* For example, when you run the action "Release flatfiles", you must pass a parameter called Database Account to indicate the repository where the flatfiles are to be generated from.
 

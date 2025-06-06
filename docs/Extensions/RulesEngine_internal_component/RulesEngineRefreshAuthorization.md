@@ -1,7 +1,7 @@
 ---
 id: RulesEngineRefreshAuthorization
+tags: [USoft10]
 ---
-
 # RulesEngine.RefreshAuthorization
 
 `USoft 10``{.vs_10}`

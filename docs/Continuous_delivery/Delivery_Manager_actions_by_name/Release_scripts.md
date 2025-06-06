@@ -7,18 +7,18 @@ id: Release_scripts
 
 
 > [!NOTE]
-> This article is about the **Release scripts**[Delivery Manager action](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name).
+> This article is about the **Release scripts**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 ## **Release scripts**
 
 1.    (Re-)checks all upgrade scripts (if any) that are associated with the current release version of "Application".
 2.    If Step 1. is successful, copies the scripts to the "scripts" subfolder of the current release folder.
-3.    If "Include physical tables upgrade script" = Yes, the [Release create-tables script](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Release%20createtables%20script.md) action is called as part of the routine. This causes the create-tables script to be (re-)compiled and written to the \\scripts folder. The create-tables script is named "*application*.200.upg.rdbms.sql".
+3.    If "Include physical tables upgrade script" = Yes, the [Release create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_createtables_script.md) action is called as part of the routine. This causes the create-tables script to be (re-)compiled and written to the \\scripts folder. The create-tables script is named "*application*.200.upg.rdbms.sql".
 
 In Step 3, data for this create-tables script is read from the Database Account that is set as the "Source for Post-upgrade Check" property of "Application".
 
 > [!CAUTION]
-> In Step 3, the set of tables included in the create-tables script depends on the list of Application Tables in Delivery Manager with Skip = No (the default). But this list is not automatically brought up-to-date. To bring it up-to-date, you must call [Populate tables list](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Populate%20tables%20list.md). See [Release create-tables script](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Release%20createtables%20script.md) for details.
+> In Step 3, the set of tables included in the create-tables script depends on the list of Application Tables in Delivery Manager with Skip = No (the default). But this list is not automatically brought up-to-date. To bring it up-to-date, you must call [Populate tables list](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Populate_tables_list.md). See [Release create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_createtables_script.md) for details.
 
 If you have previously released scripts for this version of this application other than the create-tables script, they are now overwritten.
 

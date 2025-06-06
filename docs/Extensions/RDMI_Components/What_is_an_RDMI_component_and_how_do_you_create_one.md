@@ -32,9 +32,9 @@ USoft has 3 types of RDMI components.
 
 5. Consider what else is needed to make the USoft calls that you want to make to this component. Special action may or may not be needed in the following fields:
 
-- You may need to make settings about the component's [state](/docs/Extensions/RDMI%20Components/Component%20state.md) or lack of statefulness.
+- You may need to make settings about the component's [state](/docs/Extensions/RDMI_Components/Component_state.md) or lack of statefulness.
 - You may need to define [Constructor SQL]().
-- You may need to define a [query protocol](/docs/Extensions/RDMI%20Components/Query%20protocol%20component%20table.md) or [aggregate protocol](/docs/Extensions/RDMI%20Components/Aggregate%20protocol.md).
+- You may need to define a [query protocol](/docs/Extensions/RDMI_Components/Query_protocol_component_table.md) or [aggregate protocol](/docs/Extensions/RDMI_Components/Aggregate_protocol.md).
 
 ## Internal RDMI components
 
@@ -61,6 +61,6 @@ Details about these internal components can be found [here](/docs/Extensions).
 
 ## Off-the-shelf RDMI components
 
-USoft offers a variable library of [off-the-shelf components](/docs/Extensions/Off-the-shelf%20components/Importing%20offtheshelf%20components%20and%20models.md) that you can choose to install after you have installed USoft.
+USoft offers a variable library of [off-the-shelf components](/docs/Extensions/Off-the-shelf_components/Importing_offtheshelf_components_and_models.md) that you can choose to install after you have installed USoft.
 
 ##  

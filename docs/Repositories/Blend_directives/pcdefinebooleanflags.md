@@ -7,7 +7,7 @@ id: pcdefinebooleanflags
 
 
 > [!NOTE]
-> This article is about the **pc:define-boolean-flags**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:define-boolean-flags**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:define-boolean-flags**
 

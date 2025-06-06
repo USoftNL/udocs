@@ -7,11 +7,11 @@ id: MaxDriverConditions
 
 
 > [!NOTE]
-> This article is about the **MaxDriverConditions**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **MaxDriverConditions**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **MaxDriverConditions**
 
-The **MaxDriverConditions** Rules Engine property can be used to override the [Max_Driver_Conditions](/docs/Authorisation%20and%20access/Deployment%20configurations/Max_Driver_Conditions.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **MaxDriverConditions** Rules Engine property can be used to override the [Max_Driver_Conditions](/docs/Authorisation_and_access/Deployment_configurations/Max_Driver_Conditions.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 > [!TIP]
 > You can set deployment configuration parameters in USoft Authorizer for 3 different deployment contexts: Client/Server, RunBatch, and Rules Service.

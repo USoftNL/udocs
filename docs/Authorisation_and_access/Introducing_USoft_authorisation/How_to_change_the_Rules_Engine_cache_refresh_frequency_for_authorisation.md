@@ -1,7 +1,7 @@
 ---
 id: How_to_change_the_Rules_Engine_cache_refresh_frequency_for_authorisation
+tags: [USoft10]
 ---
-
 # How to change the Rules Engine cache refresh frequency for authorisation
 
 `USoft 10``{.vs_10}`

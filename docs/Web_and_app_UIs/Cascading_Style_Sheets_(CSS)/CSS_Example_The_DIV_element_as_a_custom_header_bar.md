@@ -10,7 +10,7 @@ In HTML pages, the DIV element marks the beginning of a new division. DIV elemen
 
 Follow these steps to add a custom header bar like this:
 
-![](/api/Web%20and%20app%20UIs/Cascading%20Style%20Sheets%20(CSS)/assets/5fd9b570-6d42-4a88-9a69-fef53bd3312e.png)
+![](/api/Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/assets/5fd9b570-6d42-4a88-9a69-fef53bd3312e.png)
 
 across the top of all the pages in your web application.
 
@@ -42,7 +42,7 @@ You need to set this up differently now, so that the page will appear UNDER the 
 
 The object tree should now look something like this:
 
-![](/api/Web%20and%20app%20UIs/Cascading%20Style%20Sheets%20(CSS)/assets/fbf035ca-9f8e-4b79-97f7-3bcf57f3ddb0.png)
+![](/api/Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/assets/fbf035ca-9f8e-4b79-97f7-3bcf57f3ddb0.png)
 
 ### CSS
 

@@ -6,8 +6,8 @@ id: How_USoft_displays_web_menus
 
 This article helps you understand the general mechanism by which USoft displays menus in your web pages. If you want more immediately practical information:
 
-- Click [here](/docs/Web%20and%20app%20UIs/Web%20menus/Web%20menus%20Quick%20Start.md) for step-by-step instructions for creating a custom, **role-independent** initial web menu.
-- Click [here](/docs/Web%20and%20app%20UIs/Web%20menus/Rolebased%20web%20menus.md) for step-by-step instructions for creating a custom, **role-based** initial web menu.
+- Click [here](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md) for step-by-step instructions for creating a custom, **role-independent** initial web menu.
+- Click [here](/docs/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for step-by-step instructions for creating a custom, **role-based** initial web menu.
 
 Menus in your web pages are displayed by **MenuControls**. When the user browses a page that has one or more MenuControls, the properties of this (these) MenuControls are interpreted and this results in a menu (the menus) being displayed:
 
@@ -17,7 +17,7 @@ Menus in your web pages are displayed by **MenuControls**. When the user browses
 > [!TIP]
 > **Tying menus to pages: Easy drag-and-drop**
 > Experienced users of Web Designer can easily tie menus to pages, and pages to menus:
-> These easy-to-use options are for developers who understand the class hierarchies and object hierarchies they have been creating. Beginners should prefer the step-by-step instructions in [Web Menus: Quick Start](/docs/Web%20and%20app%20UIs/Web%20menus/Web%20menus%20Quick%20Start.md).
+> These easy-to-use options are for developers who understand the class hierarchies and object hierarchies they have been creating. Beginners should prefer the step-by-step instructions in [Web Menus: Quick Start](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md).
 
 ### Freedom of design
 
@@ -54,4 +54,4 @@ Now, create an appropriate initial menu for each role. Map each role to its menu
 Consider that if you run with merged roles, role merge will influence the initial menu. USoft will automatically attempt to compose a suitable menu for users who hold multiple roles.
 
 > [!NOTE]
-> Click [here](/docs/Web%20and%20app%20UIs/Web%20menus/Menu%20XML%20files.md) for more explanation about menu XML files.
+> Click [here](/docs/Web_and_app_UIs/Web_menus/Menu_XML_files.md) for more explanation about menu XML files.

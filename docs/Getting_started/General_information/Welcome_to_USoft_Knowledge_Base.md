@@ -12,8 +12,8 @@ Do you want identify or assess USoft knowledge and skills in yourself or others?
 
 This page is the good place to start! It tells you about :
 
-- [Product information](#Product+information)
-- [Tutorials and courseware](#Tutorials+and+courseware)
+- [Product information](#product-information)
+- [Tutorials and courseware](#tutorials-and-courseware)
 
 ## Product information
 

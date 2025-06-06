@@ -7,7 +7,7 @@ id: ConstraintsActive
 
 
 > [!NOTE]
-> This article is about the **ConstraintsActive**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **ConstraintsActive**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **ConstraintsActive**
 
@@ -18,7 +18,7 @@ If constraint disabling is allowed (see "Prerequisite..." below), the **Constrai
 
 ## Prerequisite: Allow_Disable_Constraint = True
 
-Setting this property only has an effect if you have set the [Allow_Disable_Constraint](/docs/Authorisation%20and%20access/Deployment%20configurations/Allow_Disable_Constraint.md) deployment configuration parameter to True.
+Setting this property only has an effect if you have set the [Allow_Disable_Constraint](/docs/Authorisation_and_access/Deployment_configurations/Allow_Disable_Constraint.md) deployment configuration parameter to True.
 
 ## Setting this property
 

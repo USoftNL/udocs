@@ -13,7 +13,7 @@ id: Modules_in_UDeliver
 
 In UDeliver, you can keep a list of modules run by your user application. Choose Define, Applications from the UDeliver menu, then click the Modules tab. When you release, this is where Delivery Manager looks to determine what module deliverables to include in the release.
 
-Why keep this list if you already have a list of these modules in USoft Definer? Because this allows you to define which module deliverables UDeliver should include in your application release when you call the [Release modules](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Release%20modules.md) action. At that time, UDeliver needs to know 2 things:
+Why keep this list if you already have a list of these modules in USoft Definer? Because this allows you to define which module deliverables UDeliver should include in your application release when you call the [Release modules](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_modules.md) action. At that time, UDeliver needs to know 2 things:
 
 - **Root folder:** The location in the file system where it can find the module's deliverables.
 - **Version:** The version of the module that you want to include in the release.
@@ -35,7 +35,7 @@ then version 4.5 of the module deliverables should be made available in folder:
 
 ### Releasing modules from UDeliver
 
-To actually (re)release the module deliverables, as part of your release task, run the [Release modules](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Release%20modules.md) action for the user application that runs the modules.
+To actually (re)release the module deliverables, as part of your release task, run the [Release modules](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_modules.md) action for the user application that runs the modules.
 
 ### Release history
 

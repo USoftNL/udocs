@@ -7,7 +7,7 @@ id: USFormatIsAlphanumeric
 
 
 > [!NOTE]
-> This article is about the **IsAlphanumeric** method of the [USFormat internal component](/docs/Extensions/USFormat%20internal%20component).
+> This article is about the **IsAlphanumeric** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
 
 ## **USFormat.IsAlphanumeric**
 

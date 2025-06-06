@@ -7,7 +7,7 @@ id: xslutilnodeset
 
 
 > [!NOTE]
-> This article is about the **xslutil:nodeset**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **xslutil:nodeset**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **xslutil:nodeset**
 

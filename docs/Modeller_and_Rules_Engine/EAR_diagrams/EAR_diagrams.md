@@ -1,7 +1,7 @@
 ---
 id: EAR_diagrams
+tags: [USoft11, USoft10]
 ---
-
 # EAR diagrams
 
 ## What is an EAR diagram?

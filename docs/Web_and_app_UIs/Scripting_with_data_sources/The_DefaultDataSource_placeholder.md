@@ -16,7 +16,7 @@ ${DefaultDataSource}
 
 This placeholder allows you to re-use controls and routines in multiple pages without the need to hard-code a different data source name each time.
 
-You can combine this placeholder with elements from [data source path syntax](/docs/Web%20and%20app%20UIs/Data%20sources/Data%20source%20path%20syntax.md). For example, you can write the following to refer to the default data source of the page from which the current page was called (see Example 1), or from the page in which the current page is embedded:
+You can combine this placeholder with elements from [data source path syntax](/docs/Web_and_app_UIs/Data_sources/Data_source_path_syntax.md). For example, you can write the following to refer to the default data source of the page from which the current page was called (see Example 1), or from the page in which the current page is embedded:
 
 ```
 ../${DefaultDataSource}

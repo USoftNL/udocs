@@ -7,11 +7,11 @@ id: AllowSetManipulations
 
 
 > [!NOTE]
-> This article is about the **AllowSetManipulations**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **AllowSetManipulations**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **AllowSetManipulations**
 
-The **AllowSetManipulations** Rules Engine property can be used to override the  [ALLOW_SET_MANIPULATIONS](/docs/Modeller%20and%20Rules%20Engine/Introducing%20USoft%20Modeller%20and%20Rules%20Engine/Rules%20Engine%20parameters.md) Rules Engine parameter for the current deployment context and for the duration of the current session.
+The **AllowSetManipulations** Rules Engine property can be used to override the  [ALLOW_SET_MANIPULATIONS](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter for the current deployment context and for the duration of the current session.
 
 ## Setting this property
 

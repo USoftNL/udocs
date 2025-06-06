@@ -7,14 +7,14 @@ id: DeactivateConstraint
 
 
 > [!NOTE]
-> This article is about the **DeactivateConstraint** action in the [USoft Action Language](/docs/Task%20flow/Action%20Language%20reference/USoft%20Action%20Language.md).
+> This article is about the **DeactivateConstraint** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 ## **DeactivateConstraint()**
 
 Dynamically sets a constraint to Active = No. The result is that, temporarily, the Rules Engine will **ignore** the constraint.
 
 > [!WARNING]
-> This action is effective only if you have set the [Allow_Disable_Constraint](/docs/Authorisation%20and%20access/Deployment%20configurations/Allow_Disable_Constraint.md) deployment configuration parameter for the runtime environment.
+> This action is effective only if you have set the [Allow_Disable_Constraint](/docs/Authorisation_and_access/Deployment_configurations/Allow_Disable_Constraint.md) deployment configuration parameter for the runtime environment.
 
 > [!CAUTION]
 > Deactivating constraints goes counter to the general purpose of USoft Rules Engines.

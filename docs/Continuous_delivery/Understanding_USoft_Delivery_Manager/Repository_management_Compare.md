@@ -20,7 +20,7 @@ To execute the comparison, call the Compare data files action.
 
 ### Input data format
 
-The expected input data format for the comparison (the data format of the left file and right file) is the standard USoft XML format used also by most of the USoft 9.1 export and import routines. For more information, go to [USoft XML formats](/docs/Repositories/USoft%20XML%20formats/USoft%20XML%20formats.md). Here is an example snippet of this data format:
+The expected input data format for the comparison (the data format of the left file and right file) is the standard USoft XML format used also by most of the USoft 9.1 export and import routines. For more information, go to [USoft XML formats](/docs/Repositories/USoft_XML_formats/USoft_XML_formats.md). Here is an example snippet of this data format:
 
 ```
   <Accredited_Persons>

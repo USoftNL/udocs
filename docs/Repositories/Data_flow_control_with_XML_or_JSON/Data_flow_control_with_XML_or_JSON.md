@@ -12,20 +12,20 @@ The principal capability of the Rules Engine's XML and JSON support is data exch
 
 - **Importing** data from an XML file or JSON file into a USoft application.
 
-The facility is offered as a small collection of *internal components.* Internal components are [RDMI components](/docs/Extensions/RDMI%20Components) that come as part of the USoft installation: you do not need to install these components separately.
+The facility is offered as a small collection of *internal components.* Internal components are [RDMI components](/docs/Extensions/RDMI_Components) that come as part of the USoft installation: you do not need to install these components separately.
 
-You can export data to XML by calling [XML.Export](/docs/Extensions/XML%20internal%20component/XMLExport.md) (for a single table) or [XML.MultiExportTables](/docs/Extensions/XML%20internal%20component/XMLMultiExportTables.md) (for multiple tables).
+You can export data to XML by calling [XML.Export](/docs/Extensions/XML_internal_component/XMLExport.md) (for a single table) or [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md) (for multiple tables).
 
-You can export data to JSON by calling [JSON.Export](/docs/Extensions/JSON%20internal%20component/JSONExport.md) (for a single table) or [JSON.MultiExportTables](/docs/Extensions/JSON%20internal%20component/JSONMultiExportTables.md) (for multiple tables).
+You can export data to JSON by calling [JSON.Export](/docs/Extensions/JSON_internal_component/JSONExport.md) (for a single table) or [JSON.MultiExportTables](/docs/Extensions/JSON_internal_component/JSONMultiExportTables.md) (for multiple tables).
 
 > [!WARNING]
-> You can also call [XML.SQLExport](/docs/Extensions/XML%20internal%20component/XMLSQLExport.md) for an output format with more metadata information, but this format is not automatically re-importable.
+> You can also call [XML.SQLExport](/docs/Extensions/XML_internal_component/XMLSQLExport.md) for an output format with more metadata information, but this format is not automatically re-importable.
 
 ![](./assets/bdbd6fa9-bf4f-43d4-92ac-554db9115968.png)
 
-You can re-import XML data exported in this way. Call [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md).
+You can re-import XML data exported in this way. Call [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
 
-You can re-import JSON data exported in this way. Call [JSON.Import](/docs/Extensions/JSON%20internal%20component/JSONImport.md).
+You can re-import JSON data exported in this way. Call [JSON.Import](/docs/Extensions/JSON_internal_component/JSONImport.md).
 
 ![](./assets/a9a3c9f5-bf18-4583-b156-db194b4af3f6.png)
 
@@ -35,7 +35,7 @@ When you import data from XML to USoft, you need to make sure that this data has
 
 One way to achieve this kind of data transformation is to apply an XSLT stylesheet to the data.
 
-Call the **apply** or **apply2file** methods of the [USXSL](/docs/Extensions/USXSL%20internal%20component) or [USCSXSL](/docs/Extensions/USCSXSL%20internal%20component) components:
+Call the **apply** or **apply2file** methods of the [USXSL](/docs/Extensions/USXSL_internal_component) or [USCSXSL](/docs/Extensions/USCSXSL_internal_component) components:
 
 ![](./assets/6fd705c0-26f1-46f1-85ca-238805b0dfb5.png)
 

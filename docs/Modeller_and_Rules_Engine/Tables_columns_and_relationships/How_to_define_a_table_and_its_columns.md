@@ -71,10 +71,10 @@ You can set this attribute to Rdbms to prevent a parent table that is rarely cha
 You can find this table attribute on the Table Details tab in the Database Tables window. In this field you can specify any data contents that, at some point for some reason, you want to initialize the table with. (By default, a table does not have initial data content. In practice, most tables do not have initial data content.)
 
 > [!TIP]
-> To get the initial data you have stored here, call [table.GetInitialData()](/docs/Extensions/Domain%20and%20table%20internal%20components/tableGetInitialData.md).
+> To get the initial data you have stored here, call [table.GetInitialData()](/docs/Extensions/Domain_and_table_internal_components/tableGetInitialData.md).
 
 > [!TIP]
-> Use any data format (XML, JSON, CSV...) that you prefer. For example, to create initial data in XML, you can enter the initial data in Development and call [XML.Export](). Then, to apply that initial data, for example during a version release, write a batch job that executes [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md).
+> Use any data format (XML, JSON, CSV...) that you prefer. For example, to create initial data in XML, you can enter the initial data in Development and call [XML.Export](). Then, to apply that initial data, for example during a version release, write a batch job that executes [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
 
 ### Basic column attributes
 

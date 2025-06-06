@@ -7,7 +7,7 @@ id: Application_tables_in_UDeliver
 > [!NOTE]
 > This article is about the **application table** concept of USoft Delivery Manager ("UDeliver”).
 
-In USoft Delivery Manager, you can keep a list of the application tables of your user application. To create this list, and update it after changes, run the [Populate table list](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Populate%20tables%20list.md) action for the application.
+In USoft Delivery Manager, you can keep a list of the application tables of your user application. To create this list, and update it after changes, run the [Populate table list](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Populate_tables_list.md) action for the application.
 
 Why keep this list if you already have a list of these tables in USoft Definer? This list allows you to set Deliverable, Skip, and “Upgrade hint” flags.
 

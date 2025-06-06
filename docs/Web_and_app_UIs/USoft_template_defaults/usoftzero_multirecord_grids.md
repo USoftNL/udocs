@@ -14,7 +14,7 @@ Here is an impression of a default multi-record grid for an InfoPage on table PE
 
 ## Search
 
-The white Search field shown here in the top-right corner is not a default, but a near-default. You need to do a little manual work in Web Designer to get a near-default to work. For details, go to [usoft-zero search](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults/usoftzero%20search.md).
+The white Search field shown here in the top-right corner is not a default, but a near-default. You need to do a little manual work in Web Designer to get a near-default to work. For details, go to [usoft-zero search](/docs/Web_and_app_UIs/USoft_template_defaults/usoftzero_search.md).
 
 ## Horizontal alignment and stickyness
 

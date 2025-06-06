@@ -5,10 +5,10 @@ id: USoft_Action_Language
 # USoft Action Language
 
 > [!NOTE]
-> [Action Language reference A - C](/docs/Task%20flow/Action%20Language%20reference%20A-C)
-> [Action Language reference D - H](/docs/Task%20flow/Action%20Language%20reference%20D-H)
-> [Action Language reference I - R](/docs/Task%20flow/Action%20Language%20reference%20I-R)
-> [Action Language reference S - Z](/docs/Task%20flow/Action%20Language%20Reference%20S-Z)
+> [Action Language reference A - C](/docs/Task_flow/Action_Language_reference_A-C)
+> [Action Language reference D - H](/docs/Task_flow/Action_Language_reference_D-H)
+> [Action Language reference I - R](/docs/Task_flow/Action_Language_reference_I-R)
+> [Action Language reference S - Z](/docs/Task_flow/Action_Language_Reference_S-Z)
 
 The **USoft Action Language**is a scripting language used in 2 places:
 
@@ -27,14 +27,14 @@ In USoft Definer, you can script commands in the Action Language:
 - In the **Yes Action** and **No Action** of Decisions.
 
 > [!TIP]
-> Please find explanations, examples and tutorials in the [Decisions](/docs/Task%20flow/Decisions) section.
+> Please find explanations, examples and tutorials in the [Decisions](/docs/Task_flow/Decisions) section.
 
 In this context, a small subset of actions is particularly important:
 
 |        |        |        |
 |--------|--------|--------|
 |**ActionDecision()**|**SqlScript()**|**ResourceFileUpdate()**|
-|[MessageInformation()](/docs/Task%20flow/Action%20Language%20reference%20I-R/MessageInformation.md)|[MessageError()](/docs/Task%20flow/Action%20Language%20reference%20I-R/MessageError.md)|[ResourceFileUpdateKeepBackslash()](/docs/Task%20flow/Action%20Language%20reference%20I-R/ResourceFileUpdateKeepBackslash.md)|
+|[MessageInformation()](/docs/Task_flow/Action_Language_reference_I-R/MessageInformation.md)|[MessageError()](/docs/Task_flow/Action_Language_reference_I-R/MessageError.md)|[ResourceFileUpdateKeepBackslash()](/docs/Task_flow/Action_Language_reference_I-R/ResourceFileUpdateKeepBackslash.md)|
 
 
 
@@ -52,7 +52,7 @@ In USoft Windows Designer, you can script command in the Action Language in **pr
 - The Action property of a push button, associated with the event of a user pushing a button.
 
 > [!TIP]
-> For customising C/S screens, please find an alphabetic list of all actions [in this section](/docs/Task%20flow/Action%20Language%20reference).
+> For customising C/S screens, please find an alphabetic list of all actions [in this section](/docs/Task_flow/Action_Language_reference).
 
 ## Scripts, actions, parameters
 
@@ -89,7 +89,7 @@ A script contains at least 1 *action* and possibly multiple actions. Depending o
 *action*(  )
 ```
 
-For syntax examples and explanations, please refer to the individual actions listed [in this section](/docs/Task%20flow/Action%20Language%20reference).
+For syntax examples and explanations, please refer to the individual actions listed [in this section](/docs/Task_flow/Action_Language_reference).
 
 ## Literals
 
@@ -113,7 +113,7 @@ Quoting string and date literals makes execution faster and prevents the engine 
 
 The notation colon ( **:** ) + *integer* allows you to pass a value between your application and a SQL statement or SQL script. Values are passed by position: **:1** represents the first value passed or retrieved; **:2** the second, and so on.
 
-Numbered placeholders are covered in [Host variables in SQL](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax/Host%20variables%20in%20SQL.md).
+Numbered placeholders are covered in [Host variables in SQL](/docs/Modeller_and_Rules_Engine/SQL_syntax/Host_variables_in_SQL.md).
 
 ## Variable elements: named placeholders
 
@@ -232,7 +232,7 @@ A special subset of action calls are *property calls.* The name **background** i
 MyPersonsWindow.background( 'red' )
 ```
 
-In Windows GUI, use the **Object Activator** tool to find the available names of objects, methods and properties within a window. Search "actions examples" for more examples of command scripts in a Windows GUI context. To find property names that you can use in action scripts, see the [Property Reference](/docs/Task%20flow/Action%20Language%20reference/Property%20reference.md) article.
+In Windows GUI, use the **Object Activator** tool to find the available names of objects, methods and properties within a window. Search "actions examples" for more examples of command scripts in a Windows GUI context. To find property names that you can use in action scripts, see the [Property Reference](/docs/Task_flow/Action_Language_reference/Property_reference.md) article.
 
 To script behaviour *between* windows, you can pass objects of the calling window as a *user-defined property* of the called window. The following call demonstrates this technique:
 
@@ -243,7 +243,7 @@ My_Days_Property( Days( Self() ).Window.Create() )
 In this technique, you need to create one or more user-defined properties in the called window class (here: the Days window class). For details, search "window interaction". This object-oriented technology, based on internal object IDs, replaces an obsolete path technology based on a hierarchy of embedding runtime windows, where <- was a navigation path to the shell of the current window, <-<- a navigation path to the shell of the parent window, and **name* a wildcard navigating to the next descendent match of *name*, as explained to some length in the ac-rel() help topic.
 
 > [!NOTE]
-> For  a full explanation of this technique, go to [Window interaction](/docs/Desktop%20UIs/Scripting%20in%20USoft%20Windows%20Designer/Window%20interaction.md).
+> For  a full explanation of this technique, go to [Window interaction](/docs/Desktop_UIs/Scripting_in_USoft_Windows_Designer/Window_interaction.md).
 
 ## The action keyword
 

@@ -8,7 +8,7 @@ id: BatchRunner_internal_component
 
 > [!NOTE]
 > This article contains general information about the **BatchRunner** internal component.
-> For an alphabetic list of BatchRunner methods, click [here](/docs/Extensions/BatchRunner%20internal%20component).
+> For an alphabetic list of BatchRunner methods, click [here](/docs/Extensions/BatchRunner_internal_component).
 
 ## Calling the BatchRunner component
 

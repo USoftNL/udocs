@@ -7,7 +7,7 @@ id: pcNewBinder
 
 
 > [!NOTE]
-> This article is about the **pc:NewBinder**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:NewBinder**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:NewBinder**
 
@@ -92,7 +92,7 @@ If you use separate settings:
 - Use the module, language, variables attributes to set the corresponding Binder items as found on the Project tab.
 
 > [!NOTE]
-> For the USoft concepts of User and Owner, go to [USoft Binder for administrators](/docs/USoft%20for%20administrators/USoft%20Binder/USoft%20Binder%20for%20administrators.md).
+> For the USoft concepts of User and Owner, go to [USoft Binder for administrators](/docs/USoft_for_administrators/USoft_Binder/USoft_Binder_for_administrators.md).
 
 For each of the *optional item-elements* (Authorizer, ...), an corresponding item is generated in the Binder file. Each *item-element* has a required **name** attribute. This is the name displayed in the list item of the generated Binder file. In addition, *item-elements* may have attributes that correspond to settings known to USoft Binder, In combination with a given *item-element-name*, attributes may be required, optional, or inappropriate, in the same way as in the USoft Binder application itself. For example, **application** is not possible with Definer; **program** is functionally required for **FreeObject**.
 

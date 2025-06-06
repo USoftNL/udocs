@@ -1,7 +1,7 @@
 ---
 id: Installation_overview
+tags: [USoft11]
 ---
-
 # Installation overview
 
 ## General installation steps
@@ -19,11 +19,11 @@ General installation steps are as follows:
 
 ## Requirements
 
-[Hardware and operating system requirements](/docs/USoft%20for%20administrators/Installing%20USoft/Hardware%20and%20operating%20system%20requirements.md)
+[Hardware and operating system requirements](/docs/USoft_for_administrators/Installing_USoft/Hardware_and_operating_system_requirements.md)
 
-[Oracle requirements](/docs/USoft%20for%20administrators/Installing%20USoft/Oracle%20requirements.md)
+[Oracle requirements](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)
 
-[Microsoft SQL Server requirements](/docs/USoft%20for%20administrators/Installing%20USoft/Microsoft%20SQL%20Server%20requirements.md)
+[Microsoft SQL Server requirements](/docs/USoft_for_administrators/Installing_USoft/Microsoft_SQL_Server_requirements.md)
 
 ## Environments
 

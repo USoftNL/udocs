@@ -31,7 +31,7 @@ The container is based on Ubuntu LTS (Jammy Jellyfish, 22.04 for USoft 11.0) and
 
 - [Docker engine](https://docs.docker.com/engine/)
 - [Valid credentials to USoft's Azure Container Registry (ACR)]()
-- [Access to an application database](/docs/USoft%20for%20administrators/Installing%20USoft)
+- [Access to an application database](/docs/USoft_for_administrators/Installing_USoft)
 
 ## USoft Docker image
 
@@ -74,7 +74,7 @@ The **USoft RulesService** container supports connections to 2 database platform
 
 ### Oracle
 
-The base image comes with Oracle Instant Client pre-installed. This allows you to connect to an Oracle database out-of-the-box. To use this, simply [configure the Oracle connection string](/docs/USoft%20for%20administrators/Installing%20USoft/Oracle%20requirements.md).
+The base image comes with Oracle Instant Client pre-installed. This allows you to connect to an Oracle database out-of-the-box. To use this, simply [configure the Oracle connection string](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md).
 
 > [!WARNING]
 > The container runs behind a [Docker network](https://docs.docker.com/engine/network/). Please be mindful of this when setting up your connection.
@@ -158,7 +158,7 @@ The recommended approach is to:
 The application-specific files can be either [mapped](https://docs.docker.com/engine/storage/) or [copied](https://docs.docker.com/reference/cli/docker/container/cp/) into the container.
 
 > [!WARNING]
-> Ensure the database connection is properly configured, as described in the [Database connection](#Database+connection) section of this article.
+> Ensure the database connection is properly configured, as described in the [Database connection](#database-connection) section of this article.
 
 > [!NOTE]
 > Use [docker storage](https://docs.docker.com/engine/storage/) to make changes to the configuration file persistent.
@@ -171,7 +171,7 @@ To run the USoft Service Framework from the Linux container, ensure that [applic
 
 This section tells you how to make the following available from a Linux container:
 
-- A default USoft web application with a database located outside the container but on the same machine. This default will have the [usoft-zero](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults) look-and feel.
+- A default USoft web application with a database located outside the container but on the same machine. This default will have the [usoft-zero](/docs/Web_and_app_UIs/USoft_template_defaults) look-and feel.
 - A USoft REST API or SOAP service.
 
 > [!WARNING]

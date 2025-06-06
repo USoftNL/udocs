@@ -7,7 +7,7 @@ id: Compare_data_files
 
 
 > [!NOTE]
-> This article is about the **Compare data files**[Delivery Manager action](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name).
+> This article is about the **Compare data files**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 ## **Compare data files**
 
@@ -39,7 +39,7 @@ Input files
 "Left file" and "Right file" may contain metadata or appdata. They must be XML files produced by running one of the following Delivery Manager actions:
 
 - Export metadata
-- [Export all appdata](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Export%20all%20appdata.md)
-- [Export deliverable appdata](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Export%20deliverable%20appdata.md)
+- [Export all appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_all_appdata.md)
+- [Export deliverable appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_deliverable_appdata.md)
 
 You can also apply the "Compare data files" action to files produced by the "Release metadata" and "Release deliverable appdata" actions. Note, however, also that these two release actions already perform a comparison as part of their standard procedure. That comparison is equivalent to what "Compare data files" would produce.

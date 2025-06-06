@@ -6,7 +6,7 @@ id: A_good_element_of_guidance_is_practicable
 
 > [!NOTE]
 > **Summary:**  A rule or advice tells people in a practical situation how to act.
-> [More SBVR principles for good elements of guidance](/docs/Business%20rules/Good%20elements%20of%20guidance/Good%20elements%20of%20guidance.md)
+> [More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
 
 A good element of guidance is *practicable*. It must express something that can be applied in practical situations without further interpretation: it needs to be more definite than a general guideline. SBVR's definition of element of guidance*is practicable* is :
 

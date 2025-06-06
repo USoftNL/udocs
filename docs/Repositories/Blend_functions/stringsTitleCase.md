@@ -7,7 +7,7 @@ id: stringsTitleCase
 
 
 > [!NOTE]
-> This article is about the **strings:TitleCase**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **strings:TitleCase**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **strings:TitleCase**
 

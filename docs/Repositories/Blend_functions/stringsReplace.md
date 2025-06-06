@@ -7,7 +7,7 @@ id: stringsReplace
 
 
 > [!NOTE]
-> This article is about the **strings:Replace**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **strings:Replace**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **strings:Replace**
 
@@ -52,4 +52,4 @@ IS FOLLOWED BY
 ```
 
 > [!TIP]
-> To make a replacement in each substring that matches a specified regular expression pattern, use [strings:REReplace()](/docs/Repositories/Blend%20functions/stringsREReplace.md) instead.
+> To make a replacement in each substring that matches a specified regular expression pattern, use [strings:REReplace()](/docs/Repositories/Blend_functions/stringsREReplace.md) instead.

@@ -90,8 +90,8 @@ A good option is the free POSTMAN Client API tool which is available as a downlo
 
 You are now ready to define one or more methods for your custom REST service.
 
-[Defining custom REST methods](/docs/Services/Custom%20REST%20services/Defining%20custom%20REST%20methods.md)
+[Defining custom REST methods](/docs/Services/Custom_REST_services/Defining_custom_REST_methods.md)
 
 **See also**
 
-[Designing a custom REST service](/docs/Services/Custom%20REST%20services/Designing%20a%20custom%20REST%20service.md)
+[Designing a custom REST service](/docs/Services/Custom_REST_services/Designing_a_custom_REST_service.md)

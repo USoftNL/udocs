@@ -7,12 +7,12 @@ id: XMLImport
 
 
 > [!NOTE]
-> This article is about the **Import** method of the [XML internal component](/docs/Extensions/XML%20internal%20component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON) section.
+> This article is about the **Import** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
 
 ## **XML.Import**
 
-Imports data presented in the [USoft XML single-table format](/docs/Repositories/USoft%20XML%20formats/XML%20singletable%20document%20format.md) or the [USoft XML multi-table format](/docs/Repositories/USoft%20XML%20formats/XML%20multitable%20document%20format.md).
+Imports data presented in the [USoft XML single-table format](/docs/Repositories/USoft_XML_formats/XML_singletable_document_format.md) or the [USoft XML multi-table format](/docs/Repositories/USoft_XML_formats/XML_multitable_document_format.md).
 
 ----
 
@@ -33,7 +33,7 @@ Processes the row elements found in the XML document one-by-one in document orde
 - A record is UPDATEd if a record with the same primary key, but different values in other columns, is found in the target table.
 - No record is DELETEd.
 
-This “UPSERT” handling may be modified by the [usoft-xml processing instruction](/docs/Repositories/USoft%20XML%20formats/usoftxml%20processing%20instruction.md) supplied at the top of the import document, by [DML instruction tags](/docs/Repositories/USoft%20XML%20formats/DML%20instruction%20tags.md) supplied inside the row elements, and by the VerifyOriginalValues and UseIOFormats parameters of XML.Import itself.
+This “UPSERT” handling may be modified by the [usoft-xml processing instruction](/docs/Repositories/USoft_XML_formats/usoftxml_processing_instruction.md) supplied at the top of the import document, by [DML instruction tags](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md) supplied inside the row elements, and by the VerifyOriginalValues and UseIOFormats parameters of XML.Import itself.
 
 If a Document Type Definition (DTD) is specified in the XML document, the document contents must be in accordance with this DTD.
 
@@ -84,7 +84,7 @@ Both *value* and *parameter* are case-insensitive.
 
 |***value***|***parameter***|**Description**|
 |--------|--------|--------|
-|{ yes \| no }|IgnoreGUK|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'no' for this parameter, if the external file contains [G_U_K]() attributes, these are heeded as identifiers of the records instead of the record's primary key values. This replaces [default import handling](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON/How%20import%20XML%20or%20JSON%20is%20processed.md) by the handling on the basis of G_U_Ks.</p>|
+|{ yes \| no }|IgnoreGUK|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'no' for this parameter, if the external file contains [G_U_K]() attributes, these are heeded as identifiers of the records instead of the record's primary key values. This replaces [default import handling](/docs/Repositories/Data_flow_control_with_XML_or_JSON/How_import_XML_or_JSON_is_processed.md) by the handling on the basis of G_U_Ks.</p>|
 |{ yes \| no }|UseIOFormats|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, the imported column values are checked against the IO format of the corresponding domain. Otherwise, they must use the format described in "XML Representation of Date Values".</p>|
 |{    No<br/>			\|    ChangedColumns<br/>			\|    AllColumns<br/>			\|    NoCheckOnPk }|VerifyOriginalValues|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>For row elements with an Update or Delete instruction tag, this parameter specifies whether values in the XML document must be compared with values currently in the database before an attempt is made to execute the instruction.<br/>			See the "VerifyOriginalValues" section below for the meaning of each possible value.</p>|
 |{ yes \| no }|XmlDeclaration|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, the default Rules Engine encoding is returned as an XML processing instruction. Otherwise, no encoding processing instruction is added to the returned XML document.</p>|

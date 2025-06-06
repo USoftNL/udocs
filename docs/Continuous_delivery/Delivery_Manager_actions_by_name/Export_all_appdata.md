@@ -7,7 +7,7 @@ id: Export_all_appdata
 
 
 > [!NOTE]
-> This article is about the **Export all appdata**[Delivery Manager action](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name).
+> This article is about the **Export all appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 ## **Export all appdata**
 
@@ -34,4 +34,4 @@ The list of "all" appdata is determined by querying dynamically in "Database acc
 
 ### Other similar actions
 
-To limit the result to tables that are marked as "Deliverable = Yes", you can call "[Export deliverable appdata](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Export%20deliverable%20appdata.md)" instead.
+To limit the result to tables that are marked as "Deliverable = Yes", you can call "[Export deliverable appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_deliverable_appdata.md)" instead.

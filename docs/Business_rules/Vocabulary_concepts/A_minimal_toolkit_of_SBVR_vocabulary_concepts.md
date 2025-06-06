@@ -17,15 +17,15 @@ Here are the names of the 11 concepts that USoft practitioners use most often:
 
 |        |        |
 |--------|--------|
-|[Noun concepts](/docs/Business%20rules/Vocabulary%20concepts/Noun%20concepts.md)|[Roles](/docs/Business%20rules/Vocabulary%20concepts/Roles.md)|
-|        |[Nominalisations](/docs/Business%20rules/Vocabulary%20concepts/Nominalisations.md)|
-|[Binary verb concepts](/docs/Business%20rules/Vocabulary%20concepts/Binary%20verb%20concepts.md)|        |
-|[Unary verb concepts](/docs/Business%20rules/Vocabulary%20concepts/Unary%20verb%20concepts.md)|        |
-|[N-ary verb concepts](/docs/Business%20rules/Vocabulary%20concepts/Nary%20verb%20concepts.md)|[Synonyms](/docs/Business%20rules/Vocabulary%20concepts/Synonyms.md)|
-|        |[Categories](/docs/Business%20rules/Vocabulary%20concepts/Categories.md)|
-|        |[Segmentations](/docs/Business%20rules/Vocabulary%20concepts/Categories.md)|
-|[Individual concepts](/docs/Business%20rules/Vocabulary%20concepts/Individual%20concepts.md)|        |
-|[Examples, instances](/docs/Business%20rules/Vocabulary%20concepts/Examples%20instances.md)|        |
+|[Noun concepts](/docs/Business_rules/Vocabulary_concepts/Noun_concepts.md)|[Roles](/docs/Business_rules/Vocabulary_concepts/Roles.md)|
+|        |[Nominalisations](/docs/Business_rules/Vocabulary_concepts/Nominalisations.md)|
+|[Binary verb concepts](/docs/Business_rules/Vocabulary_concepts/Binary_verb_concepts.md)|        |
+|[Unary verb concepts](/docs/Business_rules/Vocabulary_concepts/Unary_verb_concepts.md)|        |
+|[N-ary verb concepts](/docs/Business_rules/Vocabulary_concepts/Nary_verb_concepts.md)|[Synonyms](/docs/Business_rules/Vocabulary_concepts/Synonyms.md)|
+|        |[Categories](/docs/Business_rules/Vocabulary_concepts/Categories.md)|
+|        |[Segmentations](/docs/Business_rules/Vocabulary_concepts/Categories.md)|
+|[Individual concepts](/docs/Business_rules/Vocabulary_concepts/Individual_concepts.md)|        |
+|[Examples, instances](/docs/Business_rules/Vocabulary_concepts/Examples_instances.md)|        |
 
 
 

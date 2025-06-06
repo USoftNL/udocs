@@ -1,7 +1,7 @@
 ---
 id: RowsrowDelete
+tags: [USoft11, USoft10]
 ---
-
 # Rows.rowDelete()
 
 
@@ -13,14 +13,14 @@ id: RowsrowDelete
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **rowDelete()** function of the [Rows object](/docs/Web%20and%20app%20UIs/UDB%20Rows).
+> This article is about the **rowDelete()** function of the [Rows object](/docs/Web_and_app_UIs/UDB_Rows).
 
 ## **Rows.rowDelete()**
 
@@ -29,7 +29,7 @@ Deletes rows from the database.
 > [!TIP]
 > Contrast with Rows.rowRemove() which removes rows only from the client browser.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 
@@ -71,8 +71,8 @@ Related events
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[rowpredelete](/docs/Web%20and%20app%20UIs/UDB%20Events/rowpredelete.md)|Data source objects|Before a record is deleted|
-|[rowpostdelete](/docs/Web%20and%20app%20UIs/UDB%20Events/rowpostdelete.md)|Data source objects|After a record is deleted|
+|[rowpredelete](/docs/Web_and_app_UIs/UDB_Events/rowpredelete.md)|Data source objects|Before a record is deleted|
+|[rowpostdelete](/docs/Web_and_app_UIs/UDB_Events/rowpostdelete.md)|Data source objects|After a record is deleted|
 
 
 

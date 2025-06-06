@@ -4,7 +4,7 @@ id: Interpreting_Profiler_information
 
 # Interpreting Profiler information
 
-This article is about interpreting debugging information collected by the Profiler tool of USoft Benchmark. To find out how you **create** such debugging information, go to “[Debugging constraints and constraint performance](/docs/Modeller%20and%20Rules%20Engine/Testing%20a%20Rules%20Engine%20with%20USoft%20Benchmark/Debugging%20constraints%20and%20constraint%20performance.md)”.
+This article is about interpreting debugging information collected by the Profiler tool of USoft Benchmark. To find out how you **create** such debugging information, go to “[Debugging constraints and constraint performance](/docs/Modeller_and_Rules_Engine/Testing_a_Rules_Engine_with_USoft_Benchmark/Debugging_constraints_and_constraint_performance.md)”.
 
 ##  
 

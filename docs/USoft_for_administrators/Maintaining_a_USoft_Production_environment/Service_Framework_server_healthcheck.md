@@ -7,7 +7,7 @@ id: Service_Framework_server_healthcheck
 You can run a health check utility on a **USoft server**. A USoft server is part of the USoft Service Framework. A USoft server exposes a collection of web services for the benefit of USoft applications. A USoft server is developed and published from the USoft Service Definer tool.
 
 > [!NOTE]
-> You can also run a [health check on a USoft Rules Service](/docs/USoft%20for%20administrators/Maintaining%20a%20USoft%20Production%20environment/Rules%20Service%20healthcheck.md).
+> You can also run a [health check on a USoft Rules Service](/docs/USoft_for_administrators/Maintaining_a_USoft_Production_environment/Rules_Service_healthcheck.md).
 
 To run a server health check, browse:
 

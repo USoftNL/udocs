@@ -7,12 +7,12 @@ id: stringsReplaceVariables
 
 
 > [!NOTE]
-> This article is about the **strings:ReplaceVariables**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **strings:ReplaceVariables**[ Blend function](/docs/Repositories/Blend_functions).
 
-- [strings:ReplaceVariables](#strings:ReplaceVariables)
-- [System-named attributes](#System-named+attributes)
-- [User-named attributes](#User-named+attributes)
-- [Pattern attributes for substitution based on regular expressions](#Pattern+attributes+for+substitution+based+on+regular+expressions)
+- [strings:ReplaceVariables](#strings:replacevariables)
+- [System-named attributes](#system-named-attributes)
+- [User-named attributes](#user-named-attributes)
+- [Pattern attributes for substitution based on regular expressions](#pattern-attributes-for-substitution-based-on-regular-expressions)
 
 ## **strings:ReplaceVariables**
 

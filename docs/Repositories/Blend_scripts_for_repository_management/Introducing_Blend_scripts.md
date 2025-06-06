@@ -43,4 +43,4 @@ Here are some purposes of Blend in the area of repository management:
 
 The purpose of Blend in the area of continuous delivery is:
 
-- [Blend deploy scripts](/docs/Continuous%20delivery/Blend%20deploy%20scripts/Blend%20deploy%20scripts.md).
+- [Blend deploy scripts](/docs/Continuous_delivery/Blend_deploy_scripts/Blend_deploy_scripts.md).

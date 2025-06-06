@@ -7,12 +7,12 @@ id: Template_default_Tables
 
 
 > [!NOTE]
-> This article describes **Tables** instructions for achieving a [ template default](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20creating%20and%20reapplying%20your%20own%20defaults.md).
+> This article describes **Tables** instructions for achieving a [ template default](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_creating_and_reapplying_your_own_defaults.md).
 > **See also**
-> [Template default: Dictionary](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Dictionary.md)
-> [Template default: Domain Allowed Values](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Domain%20allowed%20values.md)
-> [Template default: Relationships, Relationship Columns](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Relationships.md)
-> [Template default: Roles](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Roles.md)
+> [Template default: Dictionary](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Dictionary.md)
+> [Template default: Domain Allowed Values](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Domain_allowed_values.md)
+> [Template default: Relationships, Relationship Columns](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Relationships.md)
+> [Template default: Roles](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Roles.md)
 
 ## Tables
 

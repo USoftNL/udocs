@@ -1,19 +1,19 @@
 ---
 id: Frontend_users_and_RDBMS_users
+tags: [USoft11]
 ---
-
 # Front-end users and RDBMS users
 
 `USoft 11``{.vs_11}`
 
-This article is for USoft 11 only. For USoft 10, go to [Account Funneling](/docs/Authorisation%20and%20access/Authentication%20and%20USoft/Account%20funneling.md).
+This article is for USoft 11 only. For USoft 10, go to [Account Funneling](/docs/Authorisation_and_access/Authentication_and_USoft/Account_funneling.md).
 
 In USoft web solutions, in Production, authentication of end users is typically performed by USoft. On behalf of end users, under the hood, USoft accesses the RDBMS using an RDBMS username/password combination. This has 2 distinct purposes:
 
 - Enhanced security. Web users do not connect to the database directly. It is much harder to hack the application by SQL injection strategies.
 - Ease of administration. DBAs need to grant and facilitate only a single RDBMS user.
 
-USoft 11 features a complete separation between, on the one hand, the RDBMS user responsible for database access, and on the other hand, **front-end users**. This distinction has been implemented for all applications: USoft applications: usd, creapp, runbatch, sqlscript, usclock, as well as user applications and batches built in USoft). It has been implemented from access via USoft Binder and also access via the command line.
+USoft 11 features a complete separation between, on the one hand, the RDBMS user responsible for database access, and on the other hand, **front-end users**. This distinction has been implemented for all applications: USoft applications: usd, creapp, runbatch, sqlscript, usclock, as well as user applications and batches built in USoft. It has been implemented from access via USoft Binder and also access via the command line.
 
 In USoft 11, the concept of "funnel” and "funneling” has been dropped completely. In USoft Authorizer, a user no longer has an Account Type but only a Validation Agent.
 

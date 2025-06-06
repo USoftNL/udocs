@@ -32,7 +32,7 @@ To trigger jobs automatically and without user interaction, you can start a Rule
 - Iterated Decision = (*the name of the decision you want triggered*)
 - Decision Interval = (*the frequency with which you want this to happen*)
 
-Each time the interval expires, the Iterated Decision is called. The effect is just the same as if you activated the [decision](/docs/Task%20flow/Decisions/Decisions.md) from a script, by calling:
+Each time the interval expires, the Iterated Decision is called. The effect is just the same as if you activated the [decision](/docs/Task_flow/Decisions/Decisions.md) from a script, by calling:
 
 ```
 ActionDecision( *decision* )
@@ -52,9 +52,9 @@ To set up Iterated Decision calls:
 
 ### How to define an iterated decision
 
-[Decisions](/docs/Task%20flow/Decisions/Decisions.md) give you access to all stored data and they allow branching and looping, so you have complete freedom to decide what is to happen each time the interval expires.
+[Decisions](/docs/Task_flow/Decisions/Decisions.md) give you access to all stored data and they allow branching and looping, so you have complete freedom to decide what is to happen each time the interval expires.
 
-A typical approach is that you [modelfacts around job scheduling](/docs/Task%20flow/Job%20scheduling/Modelling%20scheduled%20jobs.md) in your application. You could have a table SCHEDULED_JOB that contains the names of multiple jobs to be triggered, and the time and date when they must be triggered. You could have child tables for parameters and parameter values.
+A typical approach is that you [modelfacts around job scheduling](/docs/Task_flow/Job_scheduling/Modelling_scheduled_jobs.md) in your application. You could have a table SCHEDULED_JOB that contains the names of multiple jobs to be triggered, and the time and date when they must be triggered. You could have child tables for parameters and parameter values.
 
 In a very simple scenario with just job names, the decision could look something like this:
 
@@ -83,7 +83,7 @@ SqlScript(
 
 ## Scheduling from the OS command line
 
-If you have the support of a Windows administrator, you could schedule jobs by placing a [runbatch.exe](/docs/USoft%20for%20administrators/USoft%20command%20line%20syntax/runbatchexe.md) command in a .bat file and trigger its execution at OS level using the system clock.
+If you have the support of a Windows administrator, you could schedule jobs by placing a [runbatch.exe](/docs/USoft_for_administrators/USoft_command_line_syntax/runbatchexe.md) command in a .bat file and trigger its execution at OS level using the system clock.
 
 The **runbatch.exe** command could trigger a single top-level USoft job that is responsible for calling the execution of any scheduled subjobs with the correct parameters and values. This strategy is appropriate or convenient if you have nightly consolidation batches, especially if these are a combination of USoft and non-USoft routines.
 

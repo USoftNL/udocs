@@ -1,7 +1,7 @@
 ---
 id: udbcheckData
+tags: [USoft11, USoft10]
 ---
-
 # $.udb.checkData()
 
 
@@ -13,20 +13,20 @@ id: udbcheckData
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **checkData()** function of the [udb object](/docs/Web%20and%20app%20UIs/UDB%20udb).
+> This article is about the **checkData()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
 
 ## **$.udb.checkData()**
 
 Checks those data manipulations against the database that are currently unchecked.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 
@@ -76,7 +76,7 @@ udb.checkData({precommit:true, quiet:true}).then(function() { alert('All manipul
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[beforecheckdata](/docs/Web%20and%20app%20UIs/UDB%20Events/beforecheckdata.md)|Page objects|Before each data check action|
+|[beforecheckdata](/docs/Web_and_app_UIs/UDB_Events/beforecheckdata.md)|Page objects|Before each data check action|
 
 
 

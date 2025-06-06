@@ -35,7 +35,7 @@ Assuming "ID” is by itself the primary key of table PERSON,
 
 ## Example: XML import with DML instruction tags
 
-Here is an example of an XML import instruction with [DML instruction tags](/docs/Repositories/USoft%20XML%20formats/DML%20instruction%20tags.md).
+Here is an example of an XML import instruction with [DML instruction tags](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md).
 
 If the import is successful, the FIRST_NAME value of one person is changed, and another person is DELETEd.
 

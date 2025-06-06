@@ -7,7 +7,7 @@ id: rowselect
 
 
 > [!NOTE]
-> This article is about the **rowselect**[ UDB event handler](/docs/Web%20and%20app%20UIs/UDB%20Events).
+> This article is about the **rowselect**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
 
 ## **rowselect**
 
@@ -20,7 +20,7 @@ The **rowselect** event may be called from web pages developed in Web Designer a
 
 
 
-This event occurs when a new row is selected in the data source in a multi-record UI control such as a GridControl, a TabularGridControl, or a ReplicatedColumnsControl. Such new row selection may be executed programmatically by calling [Rows.select()](/docs/Web%20and%20app%20UIs/UDB%20Rows/Rowsselect.md).
+This event occurs when a new row is selected in the data source in a multi-record UI control such as a GridControl, a TabularGridControl, or a ReplicatedColumnsControl. Such new row selection may be executed programmatically by calling [Rows.select()](/docs/Web_and_app_UIs/UDB_Rows/Rowsselect.md).
 
 ## How to use
 

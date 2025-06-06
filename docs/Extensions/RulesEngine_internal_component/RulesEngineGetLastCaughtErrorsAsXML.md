@@ -7,7 +7,7 @@ id: RulesEngineGetLastCaughtErrorsAsXML
 
 
 > [!NOTE]
-> This article is about the **GetLastCaughtErrorsAsXML** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine%20internal%20component).
+> This article is about the **GetLastCaughtErrorsAsXML** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
 
 ## **RulesEngine.GetLastCaughtErrorsAsXML**
 

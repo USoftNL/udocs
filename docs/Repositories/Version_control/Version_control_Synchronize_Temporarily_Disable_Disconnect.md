@@ -1,21 +1,21 @@
 ---
 id: Version_control_Synchronize_Temporarily_Disable_Disconnect
+tags: [USoft11]
 ---
-
 # Version control: Synchronize, Temporarily Disable, Disconnect
 
 > [!NOTE]
 > **See also**
-> [Version-controlled repositories](/docs/Repositories/Version%20control/Versioncontrolled%20repositories.md)
-> [Version-controlled local branches](/docs/Repositories/Version%20control/Versioncontrolled%20local%20branches.md)
-> [Version control: Create](/docs/Repositories/Version%20control/Version%20control%20Create.md)
-> [Version control: Connect](/docs/Repositories/Version%20control/Version%20control%20Connect.md)
+> [Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
+> [Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
+> [Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
+> [Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
 
 `USoft 11``{.vs_11}`
 
 This article describes how you work as a development team member with a version-controlled USoft repository.
 
-To do that, you must have [Connected](/docs/Repositories/Version%20control/Version%20control%20Connect.md) to such a repository as a one-time action.
+To do that, you must have [Connected](/docs/Repositories/Version_control/Version_control_Connect.md) to such a repository as a one-time action.
 
 ## Pull, synchronize, push
 

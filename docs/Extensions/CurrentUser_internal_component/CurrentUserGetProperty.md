@@ -7,7 +7,7 @@ id: CurrentUserGetProperty
 
 
 > [!NOTE]
-> This article is about the **GetProperty** method of the [CurrentUser internal component](/docs/Extensions/CurrentUser%20internal%20component).
+> This article is about the **GetProperty** method of the [CurrentUser internal component](/docs/Extensions/CurrentUser_internal_component).
 
 ## **CurrentUser.GetProperty**
 

@@ -7,7 +7,7 @@ id: USXSLSetXml
 
 
 > [!NOTE]
-> This article is about the **SetXml** method of the [USXSL internal component](/docs/Extensions/USXSL%20internal%20component).
+> This article is about the **SetXml** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
 
 ## **USXSL.SetXml**
 

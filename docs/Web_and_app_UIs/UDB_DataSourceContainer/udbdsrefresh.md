@@ -1,7 +1,7 @@
 ---
 id: udbdsrefresh
+tags: [USoft11, USoft10]
 ---
-
 # $.udb(ds).refresh()
 
 
@@ -13,14 +13,14 @@ id: udbdsrefresh
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **refresh()** function of the [DataSourceContainer object](/docs/Web%20and%20app%20UIs/UDB%20DataSourceContainer).
+> This article is about the **refresh()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
 
 ## **$.udb(ds).refresh()**
 
@@ -28,7 +28,7 @@ Refreshes the current data set. All other data sets of the data source become in
 
 Any inserted (but not committed) records will be moved to the current data set. Any gaps left by deleted (but not committed) records will be filled up.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
  
@@ -48,7 +48,7 @@ $.udb( *ds* ).refresh( *options* )
 *promise*    ::= { true | false }
 ```
 
-The optional *ds* is a [data source selector](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer/UDB%20DataSourceMetaContainer%20object.md).
+The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 *Options* is a struct that can have the following items, all of which are optional.
 
@@ -89,7 +89,7 @@ $.udb('EMP').refresh().then(function() {
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[beforerefresh](/docs/Web%20and%20app%20UIs/UDB%20Events/beforerefresh.md)|Data source objects|Before a data source is refreshed|
+|[beforerefresh](/docs/Web_and_app_UIs/UDB_Events/beforerefresh.md)|Data source objects|Before a data source is refreshed|
 
 
 

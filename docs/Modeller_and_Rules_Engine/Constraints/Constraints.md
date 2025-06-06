@@ -5,7 +5,7 @@ id: Constraints
 # Constraints
 
 > [!TIP]
-> This article is specifically about **table constraints**. USoft also has something called [domain constraints](/docs/Modeller%20and%20Rules%20Engine/Constraints/Domain%20constraints.md).
+> This article is specifically about **table constraints**. USoft also has something called [domain constraints](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md).
 > When USoft developers talk of “constraints”, they usually mean “table constraints”. Many applications have a lot of table constraints and only a limited number of domain constraints.
 
 A **table constraint**, in USoft technology, is a SQL statement that enforces specific combinations of column values in 2 or more columns. For example, if you keep period information about events, a table constraint could enforce that the end date is always later in time than the start date:
@@ -33,7 +33,7 @@ If you have the second constraint (the UPDATE constraint), you don't need the fi
 Each constraint enforces a form of data integrity. The first constraint makes it impossible to enter a value combination where the end date is later than the start date. The second constraint forceably produces an acceptable end date in all cases.
 
 > [!NOTE]
-> To enforce that 1 column value (as opposed to combinations of 2 or more column values) follows a certain pattern, you don’t need a table constraint. Use a [domain constraint](/docs/Modeller%20and%20Rules%20Engine/Constraints/Domain%20constraints.md) or a [domain attribute](/docs/Modeller%20and%20Rules%20Engine/Domains).
+> To enforce that 1 column value (as opposed to combinations of 2 or more column values) follows a certain pattern, you don’t need a table constraint. Use a [domain constraint](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md) or a [domain attribute](/docs/Modeller_and_Rules_Engine/Domains).
 
 ### Restrictive (SELECT) table constraints
 

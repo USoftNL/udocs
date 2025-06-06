@@ -7,7 +7,7 @@ id: pcassignnodesetfromjson
 
 
 > [!NOTE]
-> This article is about the **pc:assign-nodeset-from-json**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:assign-nodeset-from-json**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:assign-nodeset-from-json**
 

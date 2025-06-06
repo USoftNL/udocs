@@ -99,19 +99,19 @@ You are now  ready to start developing your application. Double-click Definer a
 
 In spite of the name, the purpose of the USoft Delivery Manager tool is not only to deliver (versions of) finished applications, but also to make it easy for you to do basic repository management tasks.
 
-Delivery Manager lets you define basic tasks (called [actions](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name)) such as creating tables in a database slot, or importing, exporting, copying, moving data from and to tables in repositories.
+Delivery Manager lets you define basic tasks (called [actions](/docs/Continuous_delivery/Delivery_Manager_actions_by_name)) such as creating tables in a database slot, or importing, exporting, copying, moving data from and to tables in repositories.
 
 ### Repository management wizards
 
-A number of command line tools let you perform basic [repository management wizards](/docs/Repositories/Introducing%20repositories/Repository%20management%20wizards.md) by filling out dialogs (wizard steps).
+A number of command line tools let you perform basic [repository management wizards](/docs/Repositories/Introducing_repositories/Repository_management_wizards.md) by filling out dialogs (wizard steps).
 
 ### USoft command line
 
-Certain basic USoft repository management tasks can be run [from the command line](/docs/USoft%20for%20administrators/USoft%20command%20line%20syntax).
+Certain basic USoft repository management tasks can be run [from the command line](/docs/USoft_for_administrators/USoft_command_line_syntax).
 
 ### Blend scripting framework
 
-You can script sequences of basic repository management tasks using the [Blend scripting framework](/docs/Repositories/Blend%20scripts%20for%20repository%20management). This is an alternative to using PowerShell. It has the advantage of offering comprehensive commands for typical USoft routines such as create-tables and load-data.
+You can script sequences of basic repository management tasks using the [Blend scripting framework](/docs/Repositories/Blend_scripts_for_repository_management). This is an alternative to using PowerShell. It has the advantage of offering comprehensive commands for typical USoft routines such as create-tables and load-data.
 
 ## Part repositories
 
@@ -149,11 +149,11 @@ Example 1 is an example of **metadata** management: metadata is the data that de
 
 ![](./assets/78ac1fa8-e4cf-42ab-b50d-88731435dcf9.png)
 
-USoft implements object shopping as a framework of XML import and export utilities that share a common [USoft XML format](/docs/Repositories/USoft%20XML%20formats/USoft%20XML%20formats.md):
+USoft implements object shopping as a framework of XML import and export utilities that share a common [USoft XML format](/docs/Repositories/USoft_XML_formats/USoft_XML_formats.md):
 
 - In USoft Definer, more advanced tooling allows developers to create, export and import "baskets" of related objects declaratively.
 - In USoft Delivery Manager, you can compose tasks that call actions for exporting, importing, transforming and comparing both metadata and application data.
-- At a lower, more technical level, you can program calls to the [XML internal component](/docs/Extensions/XML%20internal%20component). You can string these calls together by using a scripting framework such as MS Powershell, but also the USoft Blend scripting framework.
+- At a lower, more technical level, you can program calls to the [XML internal component](/docs/Extensions/XML_internal_component). You can string these calls together by using a scripting framework such as MS Powershell, but also the USoft Blend scripting framework.
 
 ## USoft XML formats
 

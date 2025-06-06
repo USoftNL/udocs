@@ -4,7 +4,7 @@ id: Creating_a_new_release
 
 # Creating a new release
 
-Follow these steps to [create a new release](/docs/Continuous%20delivery/Understanding%20USoft%20Delivery%20Manager/Release%20trees.md):
+Follow these steps to [create a new release](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_trees.md):
 
 1. Choose Release, Create New Release from the menu, or click the Create New Release icon on the icon ribbon.
 

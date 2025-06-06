@@ -7,7 +7,7 @@ id: Cache_Size
 
 
 > [!NOTE]
-> This article is about the **Cache Size**[deployment configuration parameter](/docs/Authorisation%20and%20access/Deployment%20configurations/Deployment%20configuration%20parameters.md).
+> This article is about the **Cache Size**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 ## **Cache Size**
 

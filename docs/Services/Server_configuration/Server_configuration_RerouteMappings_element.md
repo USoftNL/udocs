@@ -4,7 +4,7 @@ id: Server_configuration_RerouteMappings_element
 
 # Server configuration: RerouteMappings element
 
-In a **config.xml** server configuration file, the \<RerouteMappings> element contains [reroute mappings](/docs/Services/USoft%20Service%20Definer%20objects/Reroute%20mappings.md) for REST services:
+In a **config.xml** server configuration file, the \<RerouteMappings> element contains [reroute mappings](/docs/Services/USoft_Service_Definer_objects/Reroute_mappings.md) for REST services:
 
 ```language-xml
 <RerouteMappings>
@@ -24,4 +24,4 @@ Reroute mappings allow shorter URLs for accessing USoft web resources.
 
 Within a server, a reroute mapping is specific to the combination of a REST Service identified by the **class** attribute, and a Connection identified by the **connection** attribute.
 
-For details, go to [Reroute mappings](/docs/Services/USoft%20Service%20Definer%20objects/Reroute%20mappings.md).
+For details, go to [Reroute mappings](/docs/Services/USoft_Service_Definer_objects/Reroute_mappings.md).

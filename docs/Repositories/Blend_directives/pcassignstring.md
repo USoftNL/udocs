@@ -7,7 +7,7 @@ id: pcassignstring
 
 
 > [!NOTE]
-> This article is about the **pc:assign-string**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:assign-string**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:assign-string**
 

@@ -7,7 +7,7 @@ id: pcSetRulesEngineProperty
 
 
 > [!NOTE]
-> This article is about the **pc:SetRulesEngineProperty**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:SetRulesEngineProperty**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:SetRulesEngineProperty**
 

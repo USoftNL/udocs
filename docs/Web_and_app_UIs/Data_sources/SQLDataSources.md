@@ -1,7 +1,7 @@
 ---
 id: SQLDataSources
+tags: [USoft10]
 ---
-
 # SQLDataSources
 
 This article is about a special type of data source called **SQLDataSource** that allows you to write your own SQL to get data from the database.
@@ -10,7 +10,7 @@ This is a temporary edit.
 
 ## When to use?
 
-SQLDataSources are especially useful for more complex queries that you cannot easily express by [modifying the underlying SQL of standard TableDataSources](/docs/Web%20and%20app%20UIs/SQL%20and%20Web%20Designer/Modifying%20underlying%20SQL%20of%20TableDataSources.md). Complex join constructs, calls to RDMI components, and job calls (especially if you are interested in output data returned by the job) are in this category.
+SQLDataSources are especially useful for more complex queries that you cannot easily express by [modifying the underlying SQL of standard TableDataSources](/docs/Web_and_app_UIs/SQL_and_Web_Designer/Modifying_underlying_SQL_of_TableDataSources.md). Complex join constructs, calls to RDMI components, and job calls (especially if you are interested in output data returned by the job) are in this category.
 
 ----
 
@@ -31,7 +31,7 @@ To define a SQLDataSource:
 3. 
 
 > [!TIP]
-> You can write any SQL statement, but it is customary to view data sources as a strategy for making data available in your web page. For this reason, to write  manipulation SQL (INSERT, UPDATE, DELETE statements), USoft suggests you use [executeSQLStatement actions](/docs/Web%20and%20app%20UIs/SQL%20and%20Web%20Designer/executeSQLStatement%20actions.md) instead.
+> You can write any SQL statement, but it is customary to view data sources as a strategy for making data available in your web page. For this reason, to write  manipulation SQL (INSERT, UPDATE, DELETE statements), USoft suggests you use [executeSQLStatement actions](/docs/Web_and_app_UIs/SQL_and_Web_Designer/executeSQLStatement_actions.md) instead.
 
 ## Catching a SQLDataSource result value
 

@@ -6,7 +6,7 @@ id: How_to_draw_objects_in_an_EAR_diagram
 
 ## Setting up a canvas for an EAR diagram
 
-To draw an EAR diagram, you first need to set it up. This works very differently between USoft 10 and USoft 11. For details on this, please go to the [EAR diagrams](/docs/Modeller%20and%20Rules%20Engine/EAR%20diagrams/EAR%20diagrams.md) article.
+To draw an EAR diagram, you first need to set it up. This works very differently between USoft 10 and USoft 11. For details on this, please go to the [EAR diagrams](/docs/Modeller_and_Rules_Engine/EAR_diagrams/EAR_diagrams.md) article.
 
 ## Drawing tables (or: entities)
 

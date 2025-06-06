@@ -7,7 +7,7 @@ id: pctab
 
 
 > [!NOTE]
-> This article is about the **pc:tab**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:tab**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:tab**
 

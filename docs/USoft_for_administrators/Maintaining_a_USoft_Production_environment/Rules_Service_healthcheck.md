@@ -19,7 +19,7 @@ http://localhost:7782/healthcheck
 where *port* is the Windows Service port number of the Rules Service you want to check.
 
 > [!NOTE]
-> You can also run a [health check on a USoft Service Framework server](/docs/USoft%20for%20administrators/Maintaining%20a%20USoft%20Production%20environment/Service%20Framework%20server%20healthcheck.md).
+> You can also run a [health check on a USoft Service Framework server](/docs/USoft_for_administrators/Maintaining_a_USoft_Production_environment/Service_Framework_server_healthcheck.md).
 
 Visiting the **/healthcheck** endpoint returns code 200 (OK) if everything is OK, and code 503 (Service unavailable) otherwise.
 

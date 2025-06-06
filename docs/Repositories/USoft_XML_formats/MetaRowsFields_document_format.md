@@ -6,15 +6,15 @@ id: MetaRowsFields_document_format
 
 A **Meta-Rows-Fields XML document** is allowed to contain data from multiple tables.
 
-Unlike [multi-table XML documents](/docs/Repositories/USoft%20XML%20formats/XML%20multitable%20document%20format.md), this document type can have in the output list not just simple column names, but also compound column expressions, that is, output expressions using operators or literals or both, in addition to actual column names.
+Unlike [multi-table XML documents](/docs/Repositories/USoft_XML_formats/XML_multitable_document_format.md), this document type can have in the output list not just simple column names, but also compound column expressions, that is, output expressions using operators or literals or both, in addition to actual column names.
 
 A compound column expression must be accompanied by an alias. See the Unique Aliases section later in this article.
 
 > [!TIP]
-> This document format is produced by calls to [XML.SQLExport](/docs/Extensions/XML%20internal%20component/XMLSQLExport.md) and [XML.SQLStatementExport](/docs/Extensions/XML%20internal%20component/XMLSQLStatementExport.md).
+> This document format is produced by calls to [XML.SQLExport](/docs/Extensions/XML_internal_component/XMLSQLExport.md) and [XML.SQLStatementExport](/docs/Extensions/XML_internal_component/XMLSQLStatementExport.md).
 
 > [!CAUTION]
-> This document format is not re-importable by calling [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md).
+> This document format is not re-importable by calling [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
 
 *Syntax*
  

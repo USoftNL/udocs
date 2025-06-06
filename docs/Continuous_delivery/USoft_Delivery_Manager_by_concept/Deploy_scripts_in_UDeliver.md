@@ -9,9 +9,9 @@ id: Deploy_scripts_in_UDeliver
 
 **See also**
 
-- [Creating a deploy script](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Creating%20a%20deploy%20script.md)
-- [Running a deploy script](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Running%20a%20deploy%20script.md)
-- [Loading deploy samples](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Loading%20deploy%20samples%20and%20added%20XSL%20samples.md)
+- [Creating a deploy script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_deploy_script.md)
+- [Running a deploy script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Running_a_deploy_script.md)
+- [Loading deploy samples](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Loading_deploy_samples_and_added_XSL_samples.md)
 
 A *deploy script* is a file-based script written in some script language, typically MS PowerShell or USoft Blend.
 

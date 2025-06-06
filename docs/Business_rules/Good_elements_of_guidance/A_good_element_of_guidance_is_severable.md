@@ -6,7 +6,7 @@ id: A_good_element_of_guidance_is_severable
 
 > [!NOTE]
 > **Summary:**  When a rule or advice is changed or dropped, "the rest will still work”.
-> [More SBVR principles for good elements of guidance](/docs/Business%20rules/Good%20elements%20of%20guidance/Good%20elements%20of%20guidance.md)
+> [More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
 
 SBVR's principle that a good element of guidance is *severable* (separable) is double-edged: first it tells you that the ideal is that a business rule or advice can stand on its own, that it can be appreciated independently of surrounding elements of guidance; second it tells you that it will be evaluated as part of a collection of elements of guidance that together build a picture of what people can and should do in practical situations.
 

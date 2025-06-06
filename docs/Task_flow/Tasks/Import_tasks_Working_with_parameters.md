@@ -4,7 +4,7 @@ id: Import_tasks_Working_with_parameters
 
 # Import tasks: Working with parameters
 
-This article has tips for working with parameters in [Import Tasks](/docs/Task%20flow/Tasks/Import%20tasks.md).
+This article has tips for working with parameters in [Import Tasks](/docs/Task_flow/Tasks/Import_tasks.md).
 
 ### Job parameters as Import Task variables
 

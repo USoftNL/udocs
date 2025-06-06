@@ -41,10 +41,10 @@ The pc:evaluate directive lets you wrap a function in a directive:
 <pc:evaluate select="variable:Set('envxml', files:XmlFile('env.xml'))"/>
 ```
 
-For an alphabetical list of Blend functions, go [here](/docs/Repositories/Blend%20functions).
+For an alphabetical list of Blend functions, go [here](/docs/Repositories/Blend_functions).
 
-For an alphabetical list of Blend directives, go [here](/docs/Repositories/Blend%20directives).
+For an alphabetical list of Blend directives, go [here](/docs/Repositories/Blend_directives).
 
-For an introduction to USoft Blend, go to [Introducing Blend scripts](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Introducing%20Blend%20scripts.md).
+For an introduction to USoft Blend, go to [Introducing Blend scripts](/docs/Repositories/Blend_scripts_for_repository_management/Introducing_Blend_scripts.md).
 
-For a functional overview, go to [Understanding USoft Blend](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Understanding%20USoft%20Blend.md).
+For a functional overview, go to [Understanding USoft Blend](/docs/Repositories/Blend_scripts_for_repository_management/Understanding_USoft_Blend.md).

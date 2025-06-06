@@ -7,7 +7,7 @@ id: USXSLApply
 
 
 > [!NOTE]
-> This article is about the **Apply** method of the [USXSL internal component](/docs/Extensions/USXSL%20internal%20component).
+> This article is about the **Apply** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
 > See also the [Data transformation with XSLT]() section.
 
 ## **USXSL.Apply**

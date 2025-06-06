@@ -7,7 +7,7 @@ id: controlsetvalues
 
 
 > [!NOTE]
-> This article is about the **control-set-values** action in the [USoft Action Language](/docs/Task%20flow/Action%20Language%20reference/USoft%20Action%20Language.md).
+> This article is about the **control-set-values** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 ## **control-set-values()**
 
@@ -22,7 +22,7 @@ Sets the value of a property of the current object or of a specified target obje
 control-set-values( *property*, *value* )
 ```
 
-*Property* names the property to be (re)set. Refer to the property by using its internal name. To find the property's internal name, please refer to the [Property Reference](/docs/Task%20flow/Action%20Language%20reference/Property%20reference.md) section.
+*Property* names the property to be (re)set. Refer to the property by using its internal name. To find the property's internal name, please refer to the [Property Reference](/docs/Task_flow/Action_Language_reference/Property_reference.md) section.
 
 *Value* is the value that you want to set the property to. In some cases you need to know the internal representation of the allowed values that certain properties have. The prompt displayed in the Property Inspector may not be the value that is actually stored. For a list of these internal resource values,  please refer to the USoft 9.1 Property Reference section on developer.usoft.com.
 

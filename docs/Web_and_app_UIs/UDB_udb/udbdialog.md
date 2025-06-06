@@ -1,7 +1,7 @@
 ---
 id: udbdialog
+tags: [USoft11, USoft10]
 ---
-
 # $.udb.dialog()
 
 
@@ -13,14 +13,14 @@ id: udbdialog
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **dialog()** function of the [udb object](/docs/Web%20and%20app%20UIs/UDB%20udb).
+> This article is about the **dialog()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
 
 ## **$.udb.dialog()**
 
@@ -31,8 +31,8 @@ Calling .dialog() while a dialog is already being displayed will result in both 
 Returns a Promise object if *promise* is true (the default). Otherwise, returns 'undefined’.
 
 > [!TIP]
-> $.udb.dialog() is similar to [$.udb.input()](/docs/Web%20and%20app%20UIs/UDB%20udb/udbinput.md) but simpler:
-> For more styling and control of dialog content, especially if using previously defined HTML code, prefer [.usdialog()](/docs/Web%20and%20app%20UIs/UI%20Library/usdialog.md).
+> $.udb.dialog() is similar to [$.udb.input()](/docs/Web_and_app_UIs/UDB_udb/udbinput.md) but simpler:
+> For more styling and control of dialog content, especially if using previously defined HTML code, prefer [.usdialog()](/docs/Web_and_app_UIs/UI_Library/usdialog.md).
 
 *Syntax*
 
@@ -79,7 +79,7 @@ If *promise* is false, 'func’ is a function called when a dialog button is pre
 > [!WARNING]
 > This function is **deprecated.** Instead, set promise**= true and use the .then() clause of the Promise object returned by $.udb.dialog, which can perform the exact same action. This strategy is shown in Example 1.
 
-If you call $.udb.dialog() with a 'fields' fields-array, this will result in the call being transferred to [$.udb.input() ](/docs/Web%20and%20app%20UIs/UDB%20udb/udbinput.md)instead, so that the input fields can be properly displayed.
+If you call $.udb.dialog() with a 'fields' fields-array, this will result in the call being transferred to [$.udb.input() ](/docs/Web_and_app_UIs/UDB_udb/udbinput.md)instead, so that the input fields can be properly displayed.
 
 *Dialog-icon-cls* is a string which designates a CSS icon class used in the dialog. It specifies what kind of dialog is to be displayed. This option is only supported if the JQuery-UI framework is specified (by the Framework publication property). The default is ‘ui-icon-alert’.
 

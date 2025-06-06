@@ -9,8 +9,8 @@ id: Attachments_in_UDeliver
 
 **See also**
 
-- [Including an attachment](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Including%20an%20attachment.md)
-- [Blocking an attachment](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Blocking%20an%20attachment.md)
+- [Including an attachment](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Including_an_attachment.md)
+- [Blocking an attachment](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Blocking_an_attachment.md)
 
 An attachment is a file stored in a CLOB in USoft Delivery Manager and associated with a release section.  
 

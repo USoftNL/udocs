@@ -7,11 +7,11 @@ id: LockParentOnSeqno
 
 
 > [!NOTE]
-> This article is about the **LockParentOnSeqno**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **LockParentOnSeqno**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **LockParentOnSeqno**
 
-The **LockParentOnSeqno** Rules Engine property can be used to override the [LOCK_PARENT_ON_SEQNO ](/docs/Modeller%20and%20Rules%20Engine/Introducing%20USoft%20Modeller%20and%20Rules%20Engine/Rules%20Engine%20parameters.md)Rules Engine parameter setting for the current deployment context and for the duration of the current session.
+The **LockParentOnSeqno** Rules Engine property can be used to override the [LOCK_PARENT_ON_SEQNO ](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md)Rules Engine parameter setting for the current deployment context and for the duration of the current session.
 
 This setting determines whether or not parent records must be locked whilst child records are being entered or edited.
 

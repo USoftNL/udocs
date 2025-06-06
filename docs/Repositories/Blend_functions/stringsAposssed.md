@@ -7,7 +7,7 @@ id: stringsAposssed
 
 
 > [!NOTE]
-> This article is about the **strings:Aposssed**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **strings:Aposssed**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **strings:Aposssed**
 

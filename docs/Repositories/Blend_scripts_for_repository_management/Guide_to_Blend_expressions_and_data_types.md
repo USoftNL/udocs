@@ -304,7 +304,7 @@ In contexts where SQL is expected, the USoft Blend framework processes full SQL 
 
 ### USoft-supported SQL syntax
 
-This type of SQL runs in a USoft context and is portable across database platforms. See the [SQL syntax](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax) section for details of USoft-supported SQL syntax.
+This type of SQL runs in a USoft context and is portable across database platforms. See the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) section for details of USoft-supported SQL syntax.
 
 |**Data type**|**Explanation**|**Examples**|
 |--------|--------|--------|
@@ -469,7 +469,7 @@ no
 ```
 
 This contrast with XPath's implicit conversion rule that non-empty strings always evaluate to **true()**.
-"Flag-based" string-to-boolean conversion is not the default: you must switch it on explicitly. For details, go to [pc:assign-boolean](/docs/Repositories/Blend%20directives/pcassignboolean.md).
+"Flag-based" string-to-boolean conversion is not the default: you must switch it on explicitly. For details, go to [pc:assign-boolean](/docs/Repositories/Blend_directives/pcassignboolean.md).
 You can execute "flag-based" string-to-boolean conversion explicitly by calling the “booleanflags:ToBoolean” function.
 You can extend the list of string that "flag-based" conversion interprets as **false()**. For details, please look up:
 
@@ -553,7 +553,7 @@ You can see how this is done by inspecting the XSLT stylesheet :
 *usoft-install-dir*\xsl\Util\Batch.1.0.xsl
 ```
 
-Click [here](/docs/Repositories/Blend%20functions) for a list of USoft Blend functions. Alternatively, you can get a full list of USoft Blend functions by using the "functions" Blend command line option:
+Click [here](/docs/Repositories/Blend_functions) for a list of USoft Blend functions. Alternatively, you can get a full list of USoft Blend functions by using the "functions" Blend command line option:
 
 ```
 > *usoft-bindir*\ublendit.exe functions

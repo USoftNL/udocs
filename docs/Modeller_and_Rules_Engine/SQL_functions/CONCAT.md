@@ -8,7 +8,7 @@ id: CONCAT
 
 > [!NOTE]
 > This article has additional information about the **CONCAT** SQL function.
-> For convertibility of this function, go to [SQL functions  A - C](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20AC.md).
+> For convertibility of this function, go to [SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md).
 
 ## **CONCAT**
 

@@ -7,7 +7,7 @@ id: variableTypeOf
 
 
 > [!NOTE]
-> This article is about the **variable:TypeOf**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **variable:TypeOf**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **variable:TypeOf**
 

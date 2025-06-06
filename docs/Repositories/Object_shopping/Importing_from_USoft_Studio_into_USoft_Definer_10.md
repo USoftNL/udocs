@@ -1,7 +1,7 @@
 ---
 id: Importing_from_USoft_Studio_into_USoft_Definer_10
+tags: [USoft10]
 ---
-
 # Importing from USoft Studio into USoft Definer 10
 
  
@@ -117,7 +117,7 @@ For Formulations (imported in Definer as Business Rules), the result set contain
 
 ### Step 2: Import
 
-The result set is imported into USoft Definer following the “[UPSERT](/docs/Extensions/XML%20internal%20component/XMLImport.md)” principle:
+The result set is imported into USoft Definer following the “[UPSERT](/docs/Extensions/XML_internal_component/XMLImport.md)” principle:
 
 - Any item found in Studio but not in Definer is **added**.
 - No item is **deleted**.
@@ -146,13 +146,13 @@ This report offers a full comparison between Studio and Definer of all the items
 - Business objects
 - Rule sets
 
-This report describes differences by using [DML instruction tags](/docs/Repositories/USoft%20XML%20formats/DML%20instruction%20tags.md), a standard feature of USoft XML:
+This report describes differences by using [DML instruction tags](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md), a standard feature of USoft XML:
 
 |        |        |
 |--------|--------|
-|<Insert>|The item is found in Studio, but not in Definer.|
-|<Delete>|The item is found in Definer, but not in Studio.|
-|<Update>|The item is found both in Definer and in Studio, but there are differences in non-key columns.|
+|`<Insert>`|The item is found in Studio, but not in Definer.|
+|`<Delete>`|The item is found in Definer, but not in Studio.|
+|`<Update>`|The item is found both in Definer and in Studio, but there are differences in non-key columns.|
 
 
 
@@ -172,8 +172,8 @@ The "Compare” preview report is machine-processable. If you like, you can remo
 
 > [!NOTE]
 > This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
-> [Compare in USoft Blend](/docs/Repositories/Blend%20directives/pcCompare.md)
-> [Compare in Delivery Manager](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name/Compare%20data%20files.md)
+> [Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
+> [Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
 
 ## “Read” preview report
 
@@ -229,7 +229,7 @@ For many teams, in practice, the best convention is that no team member makes an
 - Built, Built By, Tested, and Tested By fields.
 
 > [!NOTE]
-> Definer has special [..._NO_STUDIO roles](/docs/USoft%20for%20administrators/Creating%20a%20USoft%20Development%20environment/Authorising%20team%20members%20for%20USoft%20100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+> Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
 
 ### Defined, Defined By, Approved, Approved By
 

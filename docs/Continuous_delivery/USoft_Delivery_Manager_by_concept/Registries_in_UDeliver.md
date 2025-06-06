@@ -9,8 +9,8 @@ id: Registries_in_UDeliver
 
 **See also**
 
-- [Loading registry samples](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Loading%20registry%20samples.md)
-- [Creating a registry](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Creating%20a%20registry.md)
+- [Loading registry samples](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Loading_registry_samples.md)
+- [Creating a registry](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_registry.md)
 
 A *registry* is an XML document that acts as a mini-database describing how target machines are different from Development machines: it provides data needed for *configuration.*
 
@@ -50,7 +50,7 @@ You can describe computer-specific information by mentioning computernames. For 
 Deploy scripts can tap into this registry data and distribute a set of flatfiles to the correct location on each machine by heeding only the registry section that corresponds to the computername of the computer where the deploy script executes.
 
 > [!NOTE]
-> While registries describe target machines and source variables do not, teams have reported that variable substitution in registries is generally useful. For this reason, from USoft 10.0.1C, you can use [source variables](/docs/Continuous%20delivery/USoft%20Delivery%20Manager%20by%20concept/Source%20variables%20in%20UDeliver.md) in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
+> While registries describe target machines and source variables do not, teams have reported that variable substitution in registries is generally useful. For this reason, from USoft 10.0.1C, you can use [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md) in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
 
 *Strategy 2 - Computer settings*
 

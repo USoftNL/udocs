@@ -4,7 +4,7 @@ id: Modelling_scheduled_jobs
 
 # Modelling scheduled jobs
 
-You can model facts about [scheduled jobs](/docs/Task%20flow/Job%20scheduling/Scheduling%20a%20job.md) as part of your USoft application model.
+You can model facts about [scheduled jobs](/docs/Task_flow/Job_scheduling/Scheduling_a_job.md) as part of your USoft application model.
 
 ### Idea
 

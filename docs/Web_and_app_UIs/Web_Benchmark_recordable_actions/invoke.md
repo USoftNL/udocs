@@ -6,7 +6,7 @@ id: invoke
 
 **See also**
 
-- [Web Benchmark recordable actions](/docs/Web%20and%20app%20UIs/Web%20Benchmark%20recordable%20actions)
+- [Web Benchmark recordable actions](/docs/Web_and_app_UIs/Web_Benchmark_recordable_actions)
 
 The **invoke** recordable action provides the usage of subtests by making it possible to call the execution of some subtest from the execution of an embedding (invoking) test. Short frequently used tests can be recorded as normal tests, and then be invoked as subtests.
 

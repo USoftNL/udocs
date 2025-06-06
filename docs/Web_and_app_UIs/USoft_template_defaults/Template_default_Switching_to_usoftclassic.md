@@ -6,7 +6,7 @@ id: Template_default_Switching_to_usoftclassic
 
 By default, your web application has the 'usoft-zero’ factory template default.
 
-You can switch to the 'usoft-classic’ template default. This was the default for USoft 10 and earlier. To see photos that give an impression of both ‘usoft-zero’ and 'usoft-classic’, go to [Default web application](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults/Template%20defaults%20as%20a%20concept.md).
+You can switch to the 'usoft-classic’ template default. This was the default for USoft 10 and earlier. To see photos that give an impression of both ‘usoft-zero’ and 'usoft-classic’, go to [Default web application](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md).
 
 > [!CAUTION]
 > This switch is intended as a one-time initialisation decision. If you want to do this after you have already done much work in Web Designer, you likely need to do a lot of manual debugging to repair and rebuild.

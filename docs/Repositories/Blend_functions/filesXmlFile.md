@@ -7,7 +7,7 @@ id: filesXmlFile
 
 
 > [!NOTE]
-> This article is about the **files:XmlFile**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **files:XmlFile**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **files:XmlFile**
 

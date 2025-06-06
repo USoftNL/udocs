@@ -5,7 +5,7 @@ id: Avoid_type_concepts_if_you_can
 # Avoid type concepts if you can
 
 > [!TIP]
-> This tip is closely related to : [Avoid abstractions if you can](/docs/Business%20rules/How%20to%20model%20a%20vocabulary%20successfully/Avoid%20abstractions%20if%20you%20can.md).
+> This tip is closely related to : [Avoid abstractions if you can](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_abstractions_if_you_can.md).
 
 Avoid modelling noun concepts that are for *types* of things rather than simply for *things.* Type concepts cannot and should not *always* be avoided, but be careful. If type concepts are unnecessary, they make your model harder to use.
 

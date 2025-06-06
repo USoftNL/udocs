@@ -6,7 +6,7 @@ id: message
 
 **See also**
 
-- [Web Benchmark recordable actions](/docs/Web%20and%20app%20UIs/Web%20Benchmark%20recordable%20actions)
+- [Web Benchmark recordable actions](/docs/Web_and_app_UIs/Web_Benchmark_recordable_actions)
 
 The **message** recordable action in Web Benchmark is the presentation of a message. This may be a message from the server (Page Engine), or a locally displayed message. This includes developer messages.
 If the message presentation type is AlertBox, then the closing of this alert is included by this action. If it is DialogBox, then an additional click action on the “Close” button of the dialog must be recorded.

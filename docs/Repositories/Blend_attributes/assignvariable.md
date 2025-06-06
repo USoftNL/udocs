@@ -7,7 +7,7 @@ id: assignvariable
 
 
 > [!NOTE]
-> This article is about the **assign:variable**[ Blend attribute](/docs/Repositories/Blend%20attributes).
+> This article is about the **assign:variable**[ Blend attribute](/docs/Repositories/Blend_attributes).
 
 ## **assign:variable**
 

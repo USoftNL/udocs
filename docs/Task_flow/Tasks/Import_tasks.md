@@ -10,7 +10,7 @@ id: Import_tasks
 - you require a high level of performance because of large data volumes, or
 - you are working on legacy USoft applications that use import tasks.
 
-In other cases, consider using [XML/JSON import](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON/Data%20flow%20control%20with%20XML%20or%20JSON.md) instead. This gives you better control over the data in testing in and debugging.
+In other cases, consider using [XML/JSON import](/docs/Repositories/Data_flow_control_with_XML_or_JSON/Data_flow_control_with_XML_or_JSON.md) instead. This gives you better control over the data in testing in and debugging.
 
 ### Import tasks, purpose
 

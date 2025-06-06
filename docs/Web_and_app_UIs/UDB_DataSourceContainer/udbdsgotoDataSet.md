@@ -1,7 +1,7 @@
 ---
 id: udbdsgotoDataSet
+tags: [USoft11, USoft10]
 ---
-
 # $.udb(ds).gotoDataSet()
 
 
@@ -13,26 +13,26 @@ id: udbdsgotoDataSet
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **gotoDataSet()** function of the [DataSourceContainer object](/docs/Web%20and%20app%20UIs/UDB%20DataSourceContainer).
+> This article is about the **gotoDataSet()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
 
 ## **$.udb(ds).gotoDataSet()**
 
 Moves the processing flow to a specific data set in the data source.
 
-Each data set consist of *n* records, where n is determined by the [dataSetSize()](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer/udbMetadsdataSetSize.md) function of the DataSourceMetaContainer object. The number of available data sets is the total number of records divided by *n*.
+Each data set consist of *n* records, where n is determined by the [dataSetSize()](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/udbMetadsdataSetSize.md) function of the DataSourceMetaContainer object. The number of available data sets is the total number of records divided by *n*.
 
 A new data set is queried only if the data is not already available on the client, or not anymore, possibly because the lifeTime() function has caused it to expire.
 
 When you call this function, it is executed for all data sources in the container object. To move between data sets on a single data source's Rowset, use rowSet.gotoDataSet() instead.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 
@@ -51,7 +51,7 @@ Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [ud
 *promise*    ::= { true | false }
 ```
 
-The optional *ds* is a [data source selector](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer/UDB%20DataSourceMetaContainer%20object.md).
+The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 The required *index* is a string or an integer that identifies the data set that must become the active data set, using values as follows:
 
@@ -98,7 +98,7 @@ $.udb('EMP').gotoDataSet(3);
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[beforegotodataset](/docs/Web%20and%20app%20UIs/UDB%20Events/beforegotodataset.md)|Data source objects|Before navigation to a different data set takes place|
+|[beforegotodataset](/docs/Web_and_app_UIs/UDB_Events/beforegotodataset.md)|Data source objects|Before navigation to a different data set takes place|
 
 
 

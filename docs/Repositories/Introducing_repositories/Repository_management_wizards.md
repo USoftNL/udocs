@@ -4,7 +4,7 @@ id: Repository_management_wizards
 
 # Repository management wizards
 
-You can start the following wizards from the command line. They allow you to perform [basic repository management tasks](/docs/Repositories/Introducing%20repositories/Introducing%20repositories.md) by filling out dialogs (wizard steps).
+You can start the following wizards from the command line. They allow you to perform [basic repository management tasks](/docs/Repositories/Introducing_repositories/Introducing_repositories.md) by filling out dialogs (wizard steps).
 
 ## NewUDevelop
 

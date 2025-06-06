@@ -85,7 +85,7 @@ Perhaps you don't need pick-up branch in any diagram at all - formulations you h
 
 ### EAR attributes as roles
 
-As you probably noticed, just mapping data attributes to independent noun concepts is unprecise. In our USoft [SBVR toolkit](/docs/Business%20rules/Vocabulary%20concepts/A%20minimal%20toolkit%20of%20SBVR%20vocabulary%20concepts.md) we distinguish independent [noun concepts](/docs/Business%20rules/Vocabulary%20concepts/Noun%20concepts.md) (SBVR: *general concepts*) from noun concepts that play [roles](/docs/Business%20rules/Vocabulary%20concepts/Roles.md). It does not cost you much to make the difference at the time when you draw a diagram. This distinction clarifies concepts both for you as an author, and also for your readers. The diagram choices on the right are more precise and informative:
+As you probably noticed, just mapping data attributes to independent noun concepts is unprecise. In our USoft [SBVR toolkit](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md) we distinguish independent [noun concepts](/docs/Business_rules/Vocabulary_concepts/Noun_concepts.md) (SBVR: *general concepts*) from noun concepts that play [roles](/docs/Business_rules/Vocabulary_concepts/Roles.md). It does not cost you much to make the difference at the time when you draw a diagram. This distinction clarifies concepts both for you as an author, and also for your readers. The diagram choices on the right are more precise and informative:
 
 ![](./assets/1c63a8f3-f0a6-42eb-af99-03c9cfc24153.png)
 
@@ -120,7 +120,7 @@ Ground handlers at an airport have a code system with "handler indicators” or 
 In this situation, handler indicator and its synonym HI-code are *descriptor concepts*. They are noun concepts but they do not stand for actual things in reality. They just *describe* things or situations.
 
 > [!TIP]
-> Descriptor concepts are like [type concepts](/docs/Business%20rules/How%20to%20model%20a%20vocabulary%20successfully/Avoid%20type%20concepts%20if%20you%20can.md) in many ways, but they come into existence for slightly different reasons.
+> Descriptor concepts are like [type concepts](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md) in many ways, but they come into existence for slightly different reasons.
 
 Consider this for a moment. package or piece clearly stands for something physical in reality. rental ID does not stand in the same way for something physical: rental IDs are an administrative reality. But you probably cannot do without rental ID as an independent concept, because otherwise you cannot account for the system of rental IDs, which you probably don't want to miss, because it will play a big role in business rules. HI-code is one step further removed from reality, because you can alternatively describe reality without HI-codes. Indeed, you could use:
 

@@ -7,12 +7,12 @@ id: XMLExport
 
 
 > [!NOTE]
-> This article is about the **Export** method of the [XML internal component](/docs/Extensions/XML%20internal%20component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON) section.
+> This article is about the **Export** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
 
 ## **XML.Export**
 
-Exports data to the [USoft XML single-table format](/docs/Repositories/USoft%20XML%20formats/XML%20singletable%20document%20format.md) on the basis of a SELECT statement.
+Exports data to the [USoft XML single-table format](/docs/Repositories/USoft_XML_formats/XML_singletable_document_format.md) on the basis of a SELECT statement.
 
 ----
 
@@ -133,7 +133,7 @@ If set to ‘yes’, then the output is always an XML document. If no rows are r
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 
-Specifies a [DML instruction tag](/docs/Repositories/USoft%20XML%20formats/DML%20instruction%20tags.md) that will be generated for each resulting row element.
+Specifies a [DML instruction tag](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md) that will be generated for each resulting row element.
 
 A Delete tag is necessary if you want to use the export result to delete data from a target repository.
 
@@ -242,7 +242,7 @@ If you specify 'yes' for this parameter, column values in the resulting XML outp
 
 
 
-This parameter is used to specify that the output is to be written directly to a file. It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile%20internal%20component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.' If no USFile alias is specified, the XML will be written directly to the file specified. If the file exists, it will be overwritten. To prevent this, use the 'AppendToFile' parameter. If specified, the method will return the file name.
+This parameter is used to specify that the output is to be written directly to a file. It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.' If no USFile alias is specified, the XML will be written directly to the file specified. If the file exists, it will be overwritten. To prevent this, use the 'AppendToFile' parameter. If specified, the method will return the file name.
 
  
 

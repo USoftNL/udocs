@@ -7,12 +7,12 @@ id: XMLMultiExportTables
 
 
 > [!NOTE]
-> This article is about the **MultiExportTables** method of the [XML internal component](/docs/Extensions/XML%20internal%20component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON) section.
+> This article is about the **MultiExportTables** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
 
 ## **XML.MultiExportTables**
 
-Exports data to the [USoft XML multi-table format](/docs/Repositories/USoft%20XML%20formats/XML%20multitable%20document%20format.md) on the basis of a regular expression identifying a set of tables.
+Exports data to the [USoft XML multi-table format](/docs/Repositories/USoft_XML_formats/XML_multitable_document_format.md) on the basis of a regular expression identifying a set of tables.
 
 ----
 
@@ -27,7 +27,7 @@ Exports binary data (of the BLOB data type) to base64 encoding.
 > [!TIP]
 > Subtype indicators are not exported. See also the RestrictiveSupertypeListing parameter in this help topic.
 
-Using this method, you can create an output file with data from multiple tables. You can use [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md) to re-import this result set into a target repository where each of the tables is present.
+Using this method, you can create an output file with data from multiple tables. You can use [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md) to re-import this result set into a target repository where each of the tables is present.
 
 *Syntax*
 
@@ -71,7 +71,7 @@ INVOKE XML.MultiExportTables WITH SELECT
     '(.*)'
 ```
 
-To get around this error, you can call [USMeta.Tables](/docs/Extensions/USMeta%20internal%20component/USMetaTables.md). The following example exports database tables, but not other types of table:
+To get around this error, you can call [USMeta.Tables](/docs/Extensions/USMeta_internal_component/USMetaTables.md). The following example exports database tables, but not other types of table:
 
 ```sql
 INVOKE XML.MultiExportTables WITH
@@ -121,7 +121,7 @@ Available parameter settings are in the table below. The order in which you spec
 
 This parameter is used to specify that the output is to be written directly to a file. If the file exists, it will be appended to. To overwrite the existing file, use the WriteOutputTo parameter instead.
 
-It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile%20internal%20component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.'
+It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.'
 
  
 
@@ -234,7 +234,7 @@ If you specify 'no' for this parameter (the default), these 2 numbers are always
 
 This parameter is used to specify that the output is to be written directly to a file. If the file exists, it will be **overwritten**. To prevent this, use the AppendToFile parameter instead.
 
-It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile%20internal%20component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.'
+It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.'
 
  
 
@@ -336,6 +336,6 @@ Subtype indicators are not exported to the XML document. This is to minimise pot
 
 As a result, information about which supertypes belong to which subtypes may change on re-import if you choose not to include the subtype records in your export.
 
-If you export data with [XML.Export](/docs/Extensions/XML%20internal%20component/XMLExport.md) instead of with XML.MultiExportTables, then subtype indicators may or may not be exported to the XML document. A subtype indicator is exported with XML.Export if it is mentioned in the WITH SELECT ... list, and also if that list contains the "*" wildcard.
+If you export data with [XML.Export](/docs/Extensions/XML_internal_component/XMLExport.md) instead of with XML.MultiExportTables, then subtype indicators may or may not be exported to the XML document. A subtype indicator is exported with XML.Export if it is mentioned in the WITH SELECT ... list, and also if that list contains the "*" wildcard.
 
-For details on the re-importability of subtypes, see [XML.Import: Known problems and workarounds](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON/XML%20import%20Known%20problems%20and%20workarounds.md).
+For details on the re-importability of subtypes, see [XML.Import: Known problems and workarounds](/docs/Repositories/Data_flow_control_with_XML_or_JSON/XML_import_Known_problems_and_workarounds.md).

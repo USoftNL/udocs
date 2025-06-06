@@ -10,7 +10,7 @@ More importantly, you spend time *before* to really understand (interpret) the b
 
 ![](./assets/9909a8bb-1c01-4f60-a99d-ec17abc816e6.png)
 
-[Understanding and interpreting business rules](/docs/Collaboration/Between%20business%20rules%20and%20implementations/Interpreting%20a%20business%20rule%20example.md) is a special skill that USoft developers have over other developers and programmers.
+[Understanding and interpreting business rules](/docs/Collaboration/Between_business_rules_and_implementations/Interpreting_a_business_rule_example.md) is a special skill that USoft developers have over other developers and programmers.
 
 ## Your task preceding the implementation
 

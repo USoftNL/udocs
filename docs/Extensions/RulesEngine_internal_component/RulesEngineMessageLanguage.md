@@ -7,7 +7,7 @@ id: RulesEngineMessageLanguage
 
 
 > [!NOTE]
-> This article is about the **MessageLanguage** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine%20internal%20component).
+> This article is about the **MessageLanguage** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
 
 ## **RulesEngine.MessageLanguage**
 

@@ -25,7 +25,7 @@ As you can see, the directives take the form of XML elements (a small amount tak
 
 Directives use XML structure (element nodes, attribute nodes, text nodes) in different ways, but a typical structure is that input parameters are passed as attribute values, as the example demonstrates.
 
-Blend directives are listed by name and by subject in [Blend directives](/docs/Repositories/Blend%20directives).
+Blend directives are listed by name and by subject in [Blend directives](/docs/Repositories/Blend_directives).
 
 ### Functions
 
@@ -35,7 +35,7 @@ Functions are much like directives, but their syntax and structure is closer to 
    <pc:assign-string deletefile="{path:Combine($workingdir,'deletethis.xml')}"/>
 ```
 
-Blend functions are listed by name and by subject in [Blend functions](/docs/Repositories/Blend%20functions).
+Blend functions are listed by name and by subject in [Blend functions](/docs/Repositories/Blend_functions).
 
 ### Resources
 
@@ -191,17 +191,17 @@ Both USoft XML-based set processors allow you to:
 - "Mix in" data sets into the input XML or into the XSLT stylesheet before the XSLT transformation is executed. For details of "mixing in" click [here]().
 - Cache compiled XML and XSLT for faster processing.
 
-More explanation on RDMI is [here](https://developer.usoft.com/documentation/100doc/htm_internalcomponents.htm).
+More explanation on RDMI is [What is an RDMI component](/docs/Extensions/RDMI_Components/What_is_an_RDMI_component_and_how_do_you_create_one.md).
 
 ### The USXSL internal component
 
-The [USXSL internal component](/docs/Extensions/USXSL%20internal%20component/USXSL%20internal%20component.md) is an XSLT 1.0 processor written in Xalan/C++ that allows you to apply XSLT 1.0 transformations to XML data sets.
+The [USXSL internal component](/docs/Extensions/USXSL_internal_component/USXSL_internal_component.md) is an XSLT 1.0 processor written in Xalan/C++ that allows you to apply XSLT 1.0 transformations to XML data sets.
 
 This component supersedes the earlier XSL off-the-shelf component, an XSLT 1.0 processor written in Xalan/Java now supported for backward compatibility only.
 
 ### The USCSXSL internal component
 
-The [USCSXSL internal component](/docs/Extensions/USCSXSL%20internal%20component) is an XSLT 1.0 processor written in .NET/C# that allows you to apply XSLT 1.0 transformations to XML data sets.
+The [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component) is an XSLT 1.0 processor written in .NET/C# that allows you to apply XSLT 1.0 transformations to XML data sets.
 
 You can invoke this component in the same way as any other RDMI component from a USoft context, but you can also call it from the command line using ublendit.exe.
 

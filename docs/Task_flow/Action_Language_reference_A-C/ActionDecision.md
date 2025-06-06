@@ -7,7 +7,7 @@ id: ActionDecision
 
 
 > [!NOTE]
-> This article is about the **ActionDecision** action in the [USoft Action Language](/docs/Task%20flow/Action%20Language%20reference/USoft%20Action%20Language.md).
+> This article is about the **ActionDecision** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 ## **ActionDecision()**
 
@@ -42,7 +42,7 @@ Do not confuse input parameter numbering with the :1, :2... placeholders that yo
 ## Why ActionDecision() is relevant
 
 > [!TIP]
-> When you define Jobs,  **ActionDecision()** opens the way to [branching and looping in Decisions](/docs/Task%20flow/Decisions/Decision%20branching%20and%20looping.md).
+> When you define Jobs,  **ActionDecision()** opens the way to [branching and looping in Decisions](/docs/Task_flow/Decisions/Decision_branching_and_looping.md).
 > If you want to execute SQL in a job, your first choice should be SQL Tasks. But if you need the flexibility of Decisions, then use Action Tasks that contain ActionDecision() to access Decisions. One way you can use Decisions is to have [SqlScript()]() execute SQL only if certain conditions (expressed in Decision SQL) are met.
 
 Typically, you use ActionDecision() in an Action Task called as a Job Task.

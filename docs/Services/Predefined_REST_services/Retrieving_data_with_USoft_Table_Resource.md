@@ -107,8 +107,8 @@ where \<comp-op> is one of the following comparison operators:
 
 |**>**   |**Greater than**|
 |--------|--------|
-|<       |Smaller than|
-|!       |Not the same as|
+|`<`       |Smaller than|
+|`!`       |Not the same as|
 
 
 

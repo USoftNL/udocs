@@ -9,9 +9,9 @@ id: Upgrade_scripts
 
 **See also**
 
-- [Writing an upgrade script](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Writing%20an%20upgrade%20script.md)
-- [Archiving an upgrade script](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Archiving%20an%20upgrade%20script.md)
-- [Restoring an upgrade script](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Restoring%20an%20upgrade%20script.md)
+- [Writing an upgrade script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Writing_an_upgrade_script.md)
+- [Archiving an upgrade script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Archiving_an_upgrade_script.md)
+- [Restoring an upgrade script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Restoring_an_upgrade_script.md)
 
 ## Upgrade scripts
 

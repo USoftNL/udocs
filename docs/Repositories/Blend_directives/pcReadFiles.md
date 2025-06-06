@@ -7,7 +7,7 @@ id: pcReadFiles
 
 
 > [!NOTE]
-> This article is about the **pc:ReadFiles**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:ReadFiles**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:ReadFiles**
 

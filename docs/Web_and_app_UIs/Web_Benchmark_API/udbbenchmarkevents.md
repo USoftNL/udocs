@@ -17,11 +17,11 @@ id: udbbenchmarkevents
 
 Contains event objects that can be used to trigger Web Benchmark related events . You create an event listener via
 
- $.udb.benchmark.on(<event>) 
+ $.udb.benchmark.on(\<event>)
 
 and you trigger these events either via
 
-$.udb.benchmark.trigger(<event>,{options})
+$.udb.benchmark.trigger(\<event>,{options})
 
 where *{options}* is a JS key-value object. 
 
@@ -181,7 +181,7 @@ The events and their available options are as follows:
 </td>
 <td>
 <p>Triggered as soon as an 
-<ahref="/docs/Web%20and%20app%20UIs/Testing%20your%20web%20application%20with%20USoft%20Web%20Benchmark/Saving%20a%20Web%20Benchmark%20test.md">Export to File</a> ,Export selected tests or Export Execution logs is done. If selected tests are exported, the event is triggered with additional options that contain the test selections. First calls 
+<ahref="/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Saving_a_Web_Benchmark_test.md">Export to File</a> ,Export selected tests or Export Execution logs is done. If selected tests are exported, the event is triggered with additional options that contain the test selections. First calls 
 <ahref="#">
 <code>$.udb.benchmark.rec.makeXML()</code>
 </a> To generate the XML content, afterwards it creates the file for downloading using</p>

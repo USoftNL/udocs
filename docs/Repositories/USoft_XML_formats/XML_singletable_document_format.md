@@ -6,7 +6,7 @@ id: XML_singletable_document_format
 
 A **USoft XML single-table document** contains data from a single table.
 
-This document format is produced by calls to [XML.Export](/docs/Extensions/XML%20internal%20component/XMLExport.md) and is re-importable by calling [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md).
+This document format is produced by calls to [XML.Export](/docs/Extensions/XML_internal_component/XMLExport.md) and is re-importable by calling [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
 
 *Syntax*
 
@@ -14,7 +14,7 @@ This document format is produced by calls to [XML.Export](/docs/Extensions/XML%2
 *xml-table-section*
 ```
 
-This means that a USoft XML single-table document consists of exactly 1 [XML table section](/docs/Repositories/USoft%20XML%20formats/XML%20table%20section%20syntax.md).
+This means that a USoft XML single-table document consists of exactly 1 [XML table section](/docs/Repositories/USoft_XML_formats/XML_table_section_syntax.md).
 
 *Example*
 

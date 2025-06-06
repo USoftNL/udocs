@@ -6,7 +6,7 @@ id: Template_default_creating_and_reapplying_your_own_defaults
 
 ## USoft defaults and custom defaults
 
-Each USoft web application UI is based on a [template default](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults/Template%20defaults%20as%20a%20concept.md). USoft 11 ships with 2 [USoft template defaults](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults): usoft-zero and usoft-classic. Usoft-zero is the default. If you want usoft-classic, you need to [switch to it](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults/Template%20default%20Switching%20to%20usoftclassic.md).
+Each USoft web application UI is based on a [template default](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md). USoft 11 ships with 2 [USoft template defaults](/docs/Web_and_app_UIs/USoft_template_defaults): usoft-zero and usoft-classic. Usoft-zero is the default. If you want usoft-classic, you need to [switch to it](/docs/Web_and_app_UIs/USoft_template_defaults/Template_default_Switching_to_usoftclassic.md).
 
 Instead of selecting a USoft template default, you can also have a template default of your own.
 
@@ -31,7 +31,7 @@ Through subclasses based on metadata, USoft automatically delivers instant web U
 To define your own template default, you use a special extension script that allows you to give instructions or directives about how the factory default XML must be moulded to become your desired template default.
 
 > [!WARNING]
-> Defining a template default is *replacing* the factory default. Appreciate that choosing, or creating, or changing a template default is completely different from [applying paintings](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults/Template%20defaults%20as%20a%20concept.md) a template default.
+> Defining a template default is *replacing* the factory default. Appreciate that choosing, or creating, or changing a template default is completely different from [applying paintings](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md) a template default.
 
 Syntax principles for the special directives are explained later in this article. The actual commands are listed in a number of reference articles hyperlinked at the very end of this article.
 
@@ -115,12 +115,12 @@ The directive *e-if* is used to conditionally render a block. The block will onl
 
 ## Template defaults: Reference Guide
 
-[Template default: Dictionary](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Dictionary.md)
+[Template default: Dictionary](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Dictionary.md)
 
-[Template default: Domain Allowed Values](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Domain%20allowed%20values.md)
+[Template default: Domain Allowed Values](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Domain_allowed_values.md)
 
-[Template default: Relationships, Relationship Columns](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Relationships.md)
+[Template default: Relationships, Relationship Columns](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Relationships.md)
 
-[Template default: Roles](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Roles.md)
+[Template default: Roles](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Roles.md)
 
-[Template default: Tables, Table Columns](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20Tables.md)
+[Template default: Tables, Table Columns](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Tables.md)

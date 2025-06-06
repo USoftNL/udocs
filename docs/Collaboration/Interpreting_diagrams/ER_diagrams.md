@@ -20,7 +20,7 @@ In USoft 10, if you are a developer and you want to *create* E/R diagrams, or yo
 
 
 
-In USoft 11, if you want to *create* E/R diagrams, click [here](/docs/Modeller%20and%20Rules%20Engine/EAR%20diagrams/EAR%20diagrams.md).
+In USoft 11, if you want to *create* E/R diagrams, click [here](/docs/Modeller_and_Rules_Engine/EAR_diagrams/EAR_diagrams.md).
 
 ----
 

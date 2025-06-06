@@ -7,7 +7,7 @@ id: pcifthen
 
 
 > [!NOTE]
-> This article is about the **pc:if-then**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:if-then**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:if-then**
 

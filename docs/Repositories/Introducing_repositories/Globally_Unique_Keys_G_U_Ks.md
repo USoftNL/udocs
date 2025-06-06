@@ -1,7 +1,7 @@
 ---
 id: Globally_Unique_Keys_G_U_Ks
+tags: [USoft11]
 ---
-
 # Globally Unique Keys (G_U_Ks)
 
 `USoft 11``{.vs_11}`
@@ -18,7 +18,7 @@ G_U_Ks are random generated sequences of alphanumeric characters. They surface i
 ```
 
 > [!NOTE]
-> USoft has introduced G_U_Ks as a necessary element of [USoft version control](/docs/Repositories/Version%20control/Versioncontrolled%20repositories.md). As a developer, you do not need to know about the connection between the two.
+> USoft has introduced G_U_Ks as a necessary element of [USoft version control](/docs/Repositories/Version_control/Versioncontrolled_repositories.md). As a developer, you do not need to know about the connection between the two.
 
 You can occasionally take advantage of G_U_Ks when you export and import data describing your own applications because G_U_Ks allow you to identify a record by a different means than the record's primary key value(s). This can be helpful when you update a primary key value in one environment and you want to repeat that update in a different environment. Why is this?
 

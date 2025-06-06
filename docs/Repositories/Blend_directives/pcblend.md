@@ -7,15 +7,15 @@ id: pcblend
 
 
 > [!NOTE]
-> This article is about the **pc:blend**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:blend**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:blend**
 
 Executes processing instructions represented by nodes located in a different script file, or in a different part of the current script file.
 
-Think of this as a *call* to those nodes, in the sense of a procedure call. A synonym of **pc:blend** is [pc:call](/docs/Repositories/Blend%20directives/pccall.md).
+Think of this as a *call* to those nodes, in the sense of a procedure call. A synonym of **pc:blend** is [pc:call](/docs/Repositories/Blend_directives/pccall.md).
 
-If you call a section within the current script file, it is customary to place the called target code block in a [pc:defs](/docs/Repositories/Blend%20directives/pcdefs.md)****section at the beginning of the script, as in the Examples, but this is not necessary.
+If you call a section within the current script file, it is customary to place the called target code block in a [pc:defs](/docs/Repositories/Blend_directives/pcdefs.md)****section at the beginning of the script, as in the Examples, but this is not necessary.
 
 > [!NOTE]
 > The result is the same as when the nodes pointed at are passed to **ublendit.exe**on the command line, or to **select uscsxsl.blend** in a SQL command context.
@@ -39,7 +39,7 @@ If you call a section within the current script file, it is customary to place t
 
 ```
 
-You must either have one of the attributes **pc:filepath, pc:xpath, pc:id,** or you must have [embedded XML](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Guide%20to%20Blend%20expressions%20and%20data%20types.md). The attributes point to the target code block to be executed (Examples 1 and 2). If you have *embedded-xml*, that embedded XML is itself the target code block (Example 3).
+You must either have one of the attributes **pc:filepath, pc:xpath, pc:id,** or you must have [embedded XML](/docs/Repositories/Blend_scripts_for_repository_management/Guide_to_Blend_expressions_and_data_types.md). The attributes point to the target code block to be executed (Examples 1 and 2). If you have *embedded-xml*, that embedded XML is itself the target code block (Example 3).
 
 Use **pc:filepath** to point at a different Blend script file on the file system.
 

@@ -7,7 +7,7 @@ id: variableSet
 
 
 > [!NOTE]
-> This article is about the **variable:Set**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **variable:Set**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **variable:Set**
 

@@ -72,4 +72,4 @@ The "UService.log" file contains all the server, services or classes messages.
 
 Classes and services may have their own log level. In this case, the messages for the specific class or service are logged in a "\<class name>".log file.
 
-Another way to access logged information is to set the Allow browsing of Logs server attribute. This attribute is on the Administration tab of the Servers window or tab. If you do that, when the server is running, you may browse the log files at “<server base URI /docs/Logging.html”.
+Another way to access logged information is to set the Allow browsing of Logs server attribute. This attribute is on the Administration tab of the Servers window or tab. If you do that, when the server is running, you may browse the log files at `<server base URI /docs/Logging.html`.

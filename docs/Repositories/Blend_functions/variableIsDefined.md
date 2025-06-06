@@ -7,7 +7,7 @@ id: variableIsDefined
 
 
 > [!NOTE]
-> This article is about the **variable:IsDefined**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **variable:IsDefined**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **variable:IsDefined**
 

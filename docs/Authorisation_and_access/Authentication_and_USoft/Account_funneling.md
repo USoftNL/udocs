@@ -1,12 +1,12 @@
 ---
 id: Account_funneling
+tags: [USoft10]
 ---
-
 # Account funneling
 
 `USoft 10``{.vs_10}`
 
-This article is for USoft 10 only. For USoft 11, go to [Front-end users and RDBMS users](/docs/Authorisation%20and%20access/Authentication%20and%20USoft/Frontend%20users%20and%20RDBMS%20users.md).
+This article is for USoft 10 only. For USoft 11, go to [Front-end users and RDBMS users](/docs/Authorisation_and_access/Authentication_and_USoft/Frontend_users_and_RDBMS_users.md).
 
 In USoft web solutions, in Production, authentication of end users is typically performed by USoft. On behalf of end users, under the hood, USoft accesses the RDBMS using an RDBMS username/password combination. This has 2 distinct purposes:
 

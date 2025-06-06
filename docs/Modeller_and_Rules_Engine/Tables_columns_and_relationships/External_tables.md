@@ -1,7 +1,7 @@
 ---
 id: External_tables
+tags: [USoft11]
 ---
-
 # External tables
 
 `USoft 11``{.vs_11}`

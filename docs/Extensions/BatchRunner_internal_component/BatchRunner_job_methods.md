@@ -7,7 +7,7 @@ id: BatchRunner_job_methods
 
 
 > [!NOTE]
-> This article is about **job methods** of the [BatchRunner internal component](/docs/Extensions/BatchRunner%20internal%20component).
+> This article is about **job methods** of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
 
 ## **BatchRunner.job**
 
@@ -58,4 +58,4 @@ SELECT    'BZ-23'    "contract_id"
 ```
 
 > [!TIP]
-> In this example, **-quiet** is a [predefined parameter](/docs/Extensions/BatchRunner%20internal%20component/BatchRunner%20internal%20component.md).
+> In this example, **-quiet** is a [predefined parameter](/docs/Extensions/BatchRunner_internal_component/BatchRunner_internal_component.md).

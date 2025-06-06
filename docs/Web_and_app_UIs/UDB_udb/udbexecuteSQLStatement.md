@@ -1,7 +1,7 @@
 ---
 id: udbexecuteSQLStatement
+tags: [USoft11, USoft10]
 ---
-
 # $.udb.executeSQLStatement()
 
 
@@ -13,14 +13,14 @@ id: udbexecuteSQLStatement
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **executeSQLStatement()** function of the [udb object](/docs/Web%20and%20app%20UIs/UDB%20udb).
+> This article is about the **executeSQLStatement()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
 
 ## **$.udb.executeSQLStatement()**
 
@@ -29,7 +29,7 @@ Executes a SQL statement.
 > [!WARNING]
 > On USoft 10, do not use this technique for queries. For queries, prefer a [SQLDataSource]() object that you access like so:
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 In the case of queries, does not return record result values. You can "catch” the result values in a [SQLDataSource ]()(USoft 10) or in a VariableSetDataSource (USoft 9, see [USoft 9 alternative to SQLDataSource]()).
 

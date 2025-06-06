@@ -7,7 +7,7 @@ id: pcUserTempDir
 
 
 > [!NOTE]
-> This article is about the **pc:UserTempDir**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:UserTempDir**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:UserTempDir**
 
@@ -32,7 +32,7 @@ C:\Users\MYNAME\AppData\Local\Temp
 USoft writes to the "user temp dir" for technical purposes with a user-specific character.
 
 > [!WARNING]
-> Do not confuse with the "[USoft temp dir](/docs/Repositories/Blend%20directives/pcUSoftTempDir.md)".
+> Do not confuse with the "[USoft temp dir](/docs/Repositories/Blend_directives/pcUSoftTempDir.md)".
 
 For example, when a user retrieves data in an info window, these data are written to a temporary file in the "user temp dir" so that large query results do not overload memory.
 

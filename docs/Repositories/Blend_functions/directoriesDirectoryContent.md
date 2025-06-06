@@ -7,7 +7,7 @@ id: directoriesDirectoryContent
 
 
 > [!NOTE]
-> This article is about the **directories:DirectoryContent**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **directories:DirectoryContent**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **directories:DirectoryContent**
 

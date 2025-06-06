@@ -7,11 +7,11 @@ id: BatchLogLevel
 
 
 > [!NOTE]
-> This article is about the **BatchLogLevel**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **BatchLogLevel**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **BatchLogLevel**
 
-The **BatchLogLevel** Rules Engine property can be used to override the [Batch_Loglevel](/docs/Authorisation%20and%20access/Deployment%20configurations/Batch_Loglevel.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **BatchLogLevel** Rules Engine property can be used to override the [Batch_Loglevel](/docs/Authorisation_and_access/Deployment_configurations/Batch_Loglevel.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 > [!TIP]
 > You can set deployment configuration parameters in USoft Authorizer for 3 different deployment contexts: Client/Server, RunBatch, and Rules Service.

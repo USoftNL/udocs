@@ -7,16 +7,16 @@ id: pcmsg
 
 
 > [!NOTE]
-> This article is about the **pc:msg**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:msg**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:msg**
 
-Returns the information, warning or error message (if any) that was [most recently produced](#Most+recently+produced+message) by the USoft Blend processor. This will often be a message as encountered in USoft Rules Service logs. This takes the form of an XML document. The Blend processor sets or overwrites this message each time it encounters a message in the result of a function call.
+Returns the information, warning or error message (if any) that was [most recently produced](#most-recently-produced-message) by the USoft Blend processor. This will often be a message as encountered in USoft Rules Service logs. This takes the form of an XML document. The Blend processor sets or overwrites this message each time it encounters a message in the result of a function call.
 
 Returns an XML document.
 
 > [!TIP]
-> By contrast, [pc:textmsg](/docs/Repositories/Blend%20directives/pctextmsg.md) returns a text string.
+> By contrast, [pc:textmsg](/docs/Repositories/Blend_directives/pctextmsg.md) returns a text string.
 
 *Syntax*
 

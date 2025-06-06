@@ -7,7 +7,7 @@ id: pcDirectory
 
 
 > [!NOTE]
-> This article is about the **pc:Directory**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:Directory**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:Directory**
 

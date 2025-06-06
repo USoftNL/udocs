@@ -8,7 +8,7 @@ id: USFile_internal_component
 
 > [!NOTE]
 > This article contains general information about the **USFile** internal component.
-> For an alphabetic list of USFile methods, click [here](/docs/Extensions/USFile%20internal%20component).
+> For an alphabetic list of USFile methods, click [here](/docs/Extensions/USFile_internal_component).
 
 The **USFile** internal component provides basic file-IO functionality. Text files can be kept open for a period longer than a single statement, making it possible to write to the file using multiple write statements. It is also possible to append the output of an **XML.Export** statement to a file which is opened with this USFile component.
 

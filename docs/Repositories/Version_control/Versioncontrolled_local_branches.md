@@ -1,15 +1,15 @@
 ---
 id: Versioncontrolled_local_branches
+tags: [USoft11]
 ---
-
 # Version-controlled local branches
 
 > [!NOTE]
 > **See also**
-> [Version-controlled repositories](/docs/Repositories/Version%20control/Versioncontrolled%20repositories.md)
-> [Version control: Create](/docs/Repositories/Version%20control/Version%20control%20Create.md)
-> [Version control: Connect](/docs/Repositories/Version%20control/Version%20control%20Connect.md)
-> [Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version%20control/Version%20control%20Synchronize%20Temporarily%20Disable%20Disconnect.md)
+> [Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
+> [Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
+> [Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
+> [Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
 
 `USoft 11``{.vs_11}`
 

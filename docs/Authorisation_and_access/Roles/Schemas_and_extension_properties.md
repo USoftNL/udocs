@@ -30,7 +30,7 @@ To define and test an extension property:
 3.    See that the property is now made available and is (re)settable to a value at the correct level (Application, Role or User).
 
 > [!TIP]
-> At runtime, the [internal component](/docs/Extensions/CurrentUser%20internal%20component) allows you to get or set values of extension properties for the current user dynamically.
+> At runtime, the [internal component](/docs/Extensions/CurrentUser_internal_component) allows you to get or set values of extension properties for the current user dynamically.
 
 ## Generating extension properties from a schema (for e.g., SCIM)
 

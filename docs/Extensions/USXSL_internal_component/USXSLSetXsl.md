@@ -7,7 +7,7 @@ id: USXSLSetXsl
 
 
 > [!NOTE]
-> This article is about the **SetXsl** method of the [USXSL internal component](/docs/Extensions/USXSL%20internal%20component).
+> This article is about the **SetXsl** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
 
 ## **USXSL.SetXsl**
 
@@ -33,4 +33,4 @@ The case-sensitive *alias* acts as a handle for identifying the opened file in s
 
 ## Limitations
 
-When running multiple Rules Services, a parsed XSL document mapped to an alias by one Rules Engine cannot automatically be referenced through that alias by a second Rules Engine: each engine needs to perform its own operation. To get around this limitation, use the USXSL.SetGlobalXsl method instead. When a Rules Service runs multiple Rules Engines, you can have the first Rules Engine use [USXSL.SetGlobalXsl()](/docs/Extensions/USXSL%20internal%20component/USXSLSetGlobalXsl.md) to map an alias to an XSL document, and subsequent Rules Engines reference that alias.
+When running multiple Rules Services, a parsed XSL document mapped to an alias by one Rules Engine cannot automatically be referenced through that alias by a second Rules Engine: each engine needs to perform its own operation. To get around this limitation, use the USXSL.SetGlobalXsl method instead. When a Rules Service runs multiple Rules Engines, you can have the first Rules Engine use [USXSL.SetGlobalXsl()](/docs/Extensions/USXSL_internal_component/USXSLSetGlobalXsl.md) to map an alias to an XSL document, and subsequent Rules Engines reference that alias.

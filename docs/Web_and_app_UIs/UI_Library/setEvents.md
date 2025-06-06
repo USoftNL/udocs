@@ -1,7 +1,7 @@
 ---
 id: setEvents
+tags: [USoft11, USoft10]
 ---
-
 # setEvents()
 
 
@@ -13,15 +13,15 @@ id: setEvents
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article covers the **setEvents()** function as part of the [UI Library](/docs/Web%20and%20app%20UIs/UI%20Library).
-> The UI Library is a mixed bag of Javascript extensions for programming UI controls in USoft web pages. Do not confuse with the structured [UDB object model](/docs/Web%20and%20app%20UIs/UDB%20udb/UDB%20udb%20object.md) for data exchange between USoft web pages and a Rules Engine.
+> This article covers the **setEvents()** function as part of the [UI Library](/docs/Web_and_app_UIs/UI_Library).
+> The UI Library is a mixed bag of Javascript extensions for programming UI controls in USoft web pages. Do not confuse with the structured [UDB object model](/docs/Web_and_app_UIs/UDB_udb/UDB_udb_object.md) for data exchange between USoft web pages and a Rules Engine.
 
  To make sure events on a control are triggered in the right order, an abstraction layer has been build. In some situations this layer essential for the proper behavior of the application. For example, if a button is added to each row of a grid, it is essential that clicking the button first changes the current row before firing the actual click event of the button.
 

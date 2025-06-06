@@ -26,7 +26,7 @@ You could say that a good SBVR diagram "never hurts”, but it has to be maintai
 
 Another drawback of SBVR diagrams is that they can give a false sense of clarity and overview. If you don't draw all the important concepts that you have in a certain area, viewers of your diagram could overlook them.
 
-Symbols can suggest the wrong thing. Arrows used for categorisation are a good example (except in [taxonomies](/docs/Business%20rules/Vocabulary%20concepts/Categories.md), where they are universally understood). If not properly instructed, people will mistake the picture below as implying that *each* agency falls into 1 of the 3 categories and that *none* of the agencies fall into more than 1 category. But in fact, the picture does not imply any of these assumptions.
+Symbols can suggest the wrong thing. Arrows used for categorisation are a good example (except in [taxonomies](/docs/Business_rules/Vocabulary_concepts/Categories.md), where they are universally understood). If not properly instructed, people will mistake the picture below as implying that *each* agency falls into 1 of the 3 categories and that *none* of the agencies fall into more than 1 category. But in fact, the picture does not imply any of these assumptions.
 
 ![](./assets/94ac9a36-66da-4770-b7ad-b3bc7754955c.png)
 

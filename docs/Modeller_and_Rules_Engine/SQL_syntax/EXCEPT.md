@@ -7,7 +7,7 @@ id: EXCEPT
 
 
 > [!NOTE]
-> This article is about the EXCEPT set operator as part of the [SQL syntax](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax) that USoft supports.
+> This article is about the EXCEPT set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
 
 ## **EXCEPT**
 
@@ -16,7 +16,7 @@ The EXCEPT operator removes, from the outcome of the SELECT statement appearing 
 With EXCEPT, the result is **different** depending on whether the first or the second SELECT statement appears first.
 
 > [!TIP]
-> In USoft SQL syntax, EXCEPT is a synonym of [MINUS](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax/MINUS.md).
+> In USoft SQL syntax, EXCEPT is a synonym of [MINUS](/docs/Modeller_and_Rules_Engine/SQL_syntax/MINUS.md).
 
 *Syntax*
 

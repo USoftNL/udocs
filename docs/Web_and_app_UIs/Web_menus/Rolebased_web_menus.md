@@ -58,7 +58,7 @@ To test the result, in USoft Authorizer, run Fill Authorizer Tables for the appl
 For each role, define a separate Application User, and make sure he is associated with the role.
 
 > [!TIP]
-> If you work with [merged roles](/docs/Authorisation%20and%20access/Introducing%20USoft%20authorisation/Merged%20roles.md), USoft will automatically attempt to compose an appropriate menu for users who hold multiple roles. But this is a next step. First, test your role-based menus simply with dummy test users, each of which is associated to only 1 role. This way, you can check that the role-based menus work properly, independently of any effect of role merge.
+> If you work with [merged roles](/docs/Authorisation_and_access/Introducing_USoft_authorisation/Merged_roles.md), USoft will automatically attempt to compose an appropriate menu for users who hold multiple roles. But this is a next step. First, test your role-based menus simply with dummy test users, each of which is associated to only 1 role. This way, you can check that the role-based menus work properly, independently of any effect of role merge.
 
 Make sure you re-start the Rules Service so that it picks up the new roles of Step 1.
 

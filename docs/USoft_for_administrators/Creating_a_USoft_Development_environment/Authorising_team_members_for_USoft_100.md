@@ -6,7 +6,7 @@ id: Authorising_team_members_for_USoft_100
 
 > [!TIP]
 > This article is about authorising team members in a **USoft 10.0** development environment.
-> For the USoft 9.1 situation, click [here](/docs/USoft%20for%20administrators/Creating%20a%20USoft%20Development%20environment/Authorising%20team%20members%20for%20USoft%2091.md).
+> For the USoft 9.1 situation, click [here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_91.md).
 
 Team members play typical roles in a project. Think of developers, architects, analysts and administrators.
 

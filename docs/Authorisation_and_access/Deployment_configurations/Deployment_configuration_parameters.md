@@ -34,21 +34,21 @@ The Deployment Configurations info window is opened.
 
 |**Deployment configuration parameter**|
 |--------|
-|[Cache Size](/docs/Authorisation%20and%20access/Deployment%20configurations/Cache%20Size.md)|
-|[Max Prepared Checks](/docs/Authorisation%20and%20access/Deployment%20configurations/Max%20Prepared%20Checks.md)|
-|[Allow_Disable_Constraint](/docs/Authorisation%20and%20access/Deployment%20configurations/Allow_Disable_Constraint.md)|
-|[Auto_Refresh_Constraints](/docs/Authorisation%20and%20access/Deployment%20configurations/Auto_Refresh_Constraints.md)|
-|[Batch_Loglevel](/docs/Authorisation%20and%20access/Deployment%20configurations/Batch_Loglevel.md)|
-|[Lock_Foreign_Keys](/docs/Authorisation%20and%20access/Deployment%20configurations/Lock_Foreign_Keys.md)|
-|[Max_Constraint_Depth](/docs/Authorisation%20and%20access/Deployment%20configurations/Max_Constraint_Depth.md)|
-|[Max_Driver_Conditions](/docs/Authorisation%20and%20access/Deployment%20configurations/Max_Driver_Conditions.md)|
-|[Number_of_Update_Columns](/docs/Authorisation%20and%20access/Deployment%20configurations/Number_of_Update_Columns.md)|
-|[Optimize_Changed_Table](/docs/Authorisation%20and%20access/Deployment%20configurations/Optimize_Changed_Table.md)|
-|[Request_Log_Size](/docs/Authorisation%20and%20access/Deployment%20configurations/Request_Log_Size.md)|
-|[Show_Component_Errors](/docs/Authorisation%20and%20access/Deployment%20configurations/Show_Component_Errors.md)|
-|[Show_Rdbms_Errors](/docs/Authorisation%20and%20access/Deployment%20configurations/Show_Rdbms_Errors.md)|
-|[SQLServer_Option_Fast_1](/docs/Authorisation%20and%20access/Deployment%20configurations/SQLServer_Option_Fast_1.md)|
-|[Wait_for_Lock](/docs/Authorisation%20and%20access/Deployment%20configurations/Wait_for_Lock.md)|
+|[Cache Size](/docs/Authorisation_and_access/Deployment_configurations/Cache_Size.md)|
+|[Max Prepared Checks](/docs/Authorisation_and_access/Deployment_configurations/Max_Prepared_Checks.md)|
+|[Allow_Disable_Constraint](/docs/Authorisation_and_access/Deployment_configurations/Allow_Disable_Constraint.md)|
+|[Auto_Refresh_Constraints](/docs/Authorisation_and_access/Deployment_configurations/Auto_Refresh_Constraints.md)|
+|[Batch_Loglevel](/docs/Authorisation_and_access/Deployment_configurations/Batch_Loglevel.md)|
+|[Lock_Foreign_Keys](/docs/Authorisation_and_access/Deployment_configurations/Lock_Foreign_Keys.md)|
+|[Max_Constraint_Depth](/docs/Authorisation_and_access/Deployment_configurations/Max_Constraint_Depth.md)|
+|[Max_Driver_Conditions](/docs/Authorisation_and_access/Deployment_configurations/Max_Driver_Conditions.md)|
+|[Number_of_Update_Columns](/docs/Authorisation_and_access/Deployment_configurations/Number_of_Update_Columns.md)|
+|[Optimize_Changed_Table](/docs/Authorisation_and_access/Deployment_configurations/Optimize_Changed_Table.md)|
+|[Request_Log_Size](/docs/Authorisation_and_access/Deployment_configurations/Request_Log_Size.md)|
+|[Show_Component_Errors](/docs/Authorisation_and_access/Deployment_configurations/Show_Component_Errors.md)|
+|[Show_Rdbms_Errors](/docs/Authorisation_and_access/Deployment_configurations/Show_Rdbms_Errors.md)|
+|[SQLServer_Option_Fast_1](/docs/Authorisation_and_access/Deployment_configurations/SQLServer_Option_Fast_1.md)|
+|[Wait_for_Lock](/docs/Authorisation_and_access/Deployment_configurations/Wait_for_Lock.md)|
 
 
 

@@ -20,11 +20,11 @@ Each USoft web application has exactly 1 underlying template default.
 
 By default, USoft applies its own template default. This is the **usoft-zero** template default.
 
-USoft 11 ships with 1 other template default - the **usoft-classic** default from USoft 10. It is easy to [switch](/docs/Web%20and%20app%20UIs/USoft%20template%20defaults/Template%20default%20Switching%20to%20usoftclassic.md) from usoft-zero to usoft-classic.
+USoft 11 ships with 1 other template default - the **usoft-classic** default from USoft 10. It is easy to [switch](/docs/Web_and_app_UIs/USoft_template_defaults/Template_default_Switching_to_usoftclassic.md) from usoft-zero to usoft-classic.
 
 ## Your own template default
 
-You can decide to [declare your own template default](/docs/Web%20and%20app%20UIs/Your%20own%20template%20default/Template%20default%20creating%20and%20reapplying%20your%20own%20defaults.md) instead of using a USoft default. You do this by modifying an XML file. USoft has a small declarative XML language for this purpose.
+You can decide to [declare your own template default](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_creating_and_reapplying_your_own_defaults.md) instead of using a USoft default. You do this by modifying an XML file. USoft has a small declarative XML language for this purpose.
 
 Creating your own default is a one-time action that you do at the beginning of a development project. It allows you to preset all major aspects of your UI in one go. It is easy to re-apply an existing custom default to a new project.
 

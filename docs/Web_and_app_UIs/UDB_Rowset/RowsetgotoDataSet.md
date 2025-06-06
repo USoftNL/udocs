@@ -1,7 +1,7 @@
 ---
 id: RowsetgotoDataSet
+tags: [USoft11, USoft10]
 ---
-
 # Rowset.gotoDataSet()
 
 
@@ -13,14 +13,14 @@ id: RowsetgotoDataSet
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **gotoDataSet()** function of the [Rowset object](/docs/Web%20and%20app%20UIs/UDB%20Rowset/UDB%20Rowset%20object.md).
+> This article is about the **gotoDataSet()** function of the [Rowset object](/docs/Web_and_app_UIs/UDB_Rowset/UDB_Rowset_object.md).
 
 ## **Rowset.gotoDataSet()**
 
@@ -32,7 +32,7 @@ A new data set is queried only if the data is not already available on the clien
 
 When you call this function, it is executed for the data source to which the row set belongs. To move between data sets within the current row set of multiple data sources, use DataSourceContainer.gotoDataSet() instead.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 

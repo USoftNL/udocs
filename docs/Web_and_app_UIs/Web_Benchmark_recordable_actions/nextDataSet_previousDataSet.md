@@ -6,7 +6,7 @@ id: nextDataSet_previousDataSet
 
 **See also**
 
-- [Web Benchmark recordable actions](/docs/Web%20and%20app%20UIs/Web%20Benchmark%20recordable%20actions)
+- [Web Benchmark recordable actions](/docs/Web_and_app_UIs/Web_Benchmark_recordable_actions)
 
 The **nextDataSet** recordable action in Web Benchmark is a click on the nextDataSet icon of a DataSetNumbersControl:
 
@@ -16,7 +16,7 @@ The **previousDataSet** recordable action in Web Benchmark is a click on the pre
 
 ![](./assets/98e0856e-c178-4aa4-976e-a648e4de747e.png)
 
-For these recordable actions, the following [generic target control properties](/docs/Web%20and%20app%20UIs/Testing%20your%20web%20application%20with%20USoft%20Web%20Benchmark/Web%20Benchmark%20test%20editing%20Identifying%20target%20controls%20and%20their%20properties.md) are in scope: Occurrence rank, Source Frame.
+For these recordable actions, the following [generic target control properties](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_test_editing_Identifying_target_controls_and_their_properties.md) are in scope: Occurrence rank, Source Frame.
 
 In addition, the following property is also in scope:
 

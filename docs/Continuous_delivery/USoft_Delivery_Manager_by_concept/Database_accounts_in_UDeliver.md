@@ -36,7 +36,7 @@ The required string name that uniquely identifies the database account in Delive
 
 ### User name, Password, Database platform, Database connect string, Owner
 
-These settings work the same as in USoft Binder (where they are called User, Password, RDBMS, Database, Owner). Full details are at [USoft Binder for administrators](/docs/USoft%20for%20administrators/USoft%20Binder/USoft%20Binder%20for%20administrators.md).
+These settings work the same as in USoft Binder (where they are called User, Password, RDBMS, Database, Owner). Full details are at [USoft Binder for administrators](/docs/USoft_for_administrators/USoft_Binder/USoft_Binder_for_administrators.md).
 
 ### Invoke
 
@@ -76,7 +76,7 @@ Set this field to 'MSSqlServer’.
 
 The database connect string that identifies the database that the database account is in. This is the same database connect string as used in other USoft tools, eg., USoft Binder.
 
-The database you want to access is identified by the part following the colon (**:**). For details, go to [Connecting to the RDBMS](/docs/USoft%20for%20administrators/Installing%20USoft/Connecting%20to%20the%20RDBMS.md).
+The database you want to access is identified by the part following the colon (**:**). For details, go to [Connecting to the RDBMS](/docs/USoft_for_administrators/Installing_USoft/Connecting_to_the_RDBMS.md).
 
 ### Owner
 

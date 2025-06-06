@@ -1,7 +1,7 @@
 ---
 id: Rowsselect
+tags: [USoft11, USoft10]
 ---
-
 # Rows.select()
 
 
@@ -13,20 +13,20 @@ id: Rowsselect
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **select()** function of the [Rows object](/docs/Web%20and%20app%20UIs/UDB%20Rows).
+> This article is about the **select()** function of the [Rows object](/docs/Web_and_app_UIs/UDB_Rows).
 
 ## **Rows.select()**
 
 Changes the selection state of one or more of the rows.
 
-Returns a Promise object or the 'this' object, except when you pass the “multiple” argument **without** a *value* argument (the first syntax option shown below), in which case the *multiple selection value* of the first row object is returned. This value indicates whether the row is in the set of rows currently selected. If this is the case, the row is not necessarily the current row. From USoft 10.0.1I, returns a [udbPromise](/docs/Web%20and%20app%20UIs/JavaScript/Promises%20for%20asynchronous%20Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object, except when you pass the “multiple” argument **without** a *value* argument (the first syntax option shown below), in which case the *multiple selection value* of the first row object is returned. This value indicates whether the row is in the set of rows currently selected. If this is the case, the row is not necessarily the current row. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 ```js
 *rows*.select( "multiple" )
@@ -112,9 +112,9 @@ $.udb('EMP').rows(0).select();
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[rowpostselect](/docs/Web%20and%20app%20UIs/UDB%20Events/rowpostselect.md)|Data source objects|After a record is selected|
-|[rowpreselect](/docs/Web%20and%20app%20UIs/UDB%20Events/rowpreselect.md)|Data source objects|Before a record is selected|
-|[rowquery](/docs/Web%20and%20app%20UIs/UDB%20Events/rowquery.md)|Data source objects|Before row selection changes to a different row|
+|[rowpostselect](/docs/Web_and_app_UIs/UDB_Events/rowpostselect.md)|Data source objects|After a record is selected|
+|[rowpreselect](/docs/Web_and_app_UIs/UDB_Events/rowpreselect.md)|Data source objects|Before a record is selected|
+|[rowquery](/docs/Web_and_app_UIs/UDB_Events/rowquery.md)|Data source objects|Before row selection changes to a different row|
 
 
 

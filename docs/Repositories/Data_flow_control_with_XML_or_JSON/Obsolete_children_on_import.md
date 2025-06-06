@@ -19,7 +19,7 @@ A child record is considered "not to exist" (see Example 2) in the XML or JSON o
 - The wrapper element with the child table's Object Name Plural is in the XML or JSON
 - Inside this wrapper, no record exists with the primary key value(s) of the child record.
 
-There is a processing instruction called "relationship-behaviour" with which you can direct the engine to treat "Composition" relationships as if they were "Reference" relationships. For details, see Example 4 or go to (XML:) " [usoft-xml processing instruction](/docs/Repositories/USoft%20XML%20formats/usoftxml%20processing%20instruction.md) "  or (JSON:) [Meta-instruction properties in JSON](/docs/Repositories/USoft%20JSON%20format/Metainstruction%20properties%20in%20JSON.md).
+There is a processing instruction called "relationship-behaviour" with which you can direct the engine to treat "Composition" relationships as if they were "Reference" relationships. For details, see Example 4 or go to (XML:) " [usoft-xml processing instruction](/docs/Repositories/USoft_XML_formats/usoftxml_processing_instruction.md) "  or (JSON:) [Meta-instruction properties in JSON](/docs/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md).
 
 The following examples are imported into this sample database, where the relationship between EMPLOYEE and EMPLOYEE_LANGUAGE_SKILL has Type Of Relationship = **Composition**:
 

@@ -7,7 +7,7 @@ id: USFileClose
 
 
 > [!NOTE]
-> This article is about the **Close** method of the [USFile internal component](/docs/Extensions/USFile%20internal%20component).
+> This article is about the **Close** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
 
 ## **USFile.Close**
 

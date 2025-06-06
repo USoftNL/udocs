@@ -7,7 +7,7 @@ id: DefaultDateFormat
 
 
 > [!NOTE]
-> This article is about the **DefaultDateFormat**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **DefaultDateFormat**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **DefaultDateFormat**
 
@@ -19,7 +19,7 @@ DD-MON-YY
 
 ## Setting this property
 
-You cannot set this format by using RulesEngine.SetProperty. To set this format, set the [DEFAULT_DATE_FORMAT](/docs/Modeller%20and%20Rules%20Engine/Introducing%20USoft%20Modeller%20and%20Rules%20Engine/Rules%20Engine%20parameters.md) Rules Engine parameter in USoft Definer by choosing Tools, Rules Engine Parameters.
+You cannot set this format by using RulesEngine.SetProperty. To set this format, set the [DEFAULT_DATE_FORMAT](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter in USoft Definer by choosing Tools, Rules Engine Parameters.
 
 ## Getting this property
 

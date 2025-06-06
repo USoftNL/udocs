@@ -7,7 +7,7 @@ id: clipboardGetText
 
 
 > [!NOTE]
-> This article is about the **clipboard:GetText**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **clipboard:GetText**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **clipboard:GetText**
 

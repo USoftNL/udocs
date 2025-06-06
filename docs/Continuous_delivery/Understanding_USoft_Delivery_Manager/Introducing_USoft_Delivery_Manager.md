@@ -36,11 +36,11 @@ Delivery Manager makes it easier to *call* features. But it does not actually ch
 
 ### A library of practical routines
 
-Delivery Manager advertises an alphabetic list of all the things (Actions) that it can execute for you. In the tool, this list appears on the Actions catalog tab on the left-hand side if you have the Catalog displayed. When defining Tasks, press F12 in Task Steps and you can pick the Action that you want your Task Step to execute. You can find extensive explanation for each action in the [Delivery Manager Action Reference](https://developer.usoft.com/documentation/100doc/index.html?dl_delivery-manager-actions-by-.htm).
+Delivery Manager advertises an alphabetic list of all the things (Actions) that it can execute for you. In the tool, this list appears on the Actions catalog tab on the left-hand side if you have the Catalog displayed. When defining Tasks, press F12 in Task Steps and you can pick the Action that you want your Task Step to execute.
 
 In addition to the standard USoft routines discussed in the previous section, you will also find simple additional actions, especially in the area of local Windows file management (eg., Copy File, Drop Folder...). The reason for this is that being able to combine such simple actions with standard USoft routines gives you the power to automate even complex sequences of actions that you would otherwise have to repeat frequently by hand.
 
-Finally, Delivery Manager adds some features not found elsewhere in standard USoft tools, especially the ability to [Compare](https://developer.usoft.com/documentation/100doc/index.html?dl_compare-data-files.htm) data in 2 XML files based on a primary key schema.
+Finally, Delivery Manager adds some features not found elsewhere in standard USoft tools, especially the ability to Compare data in 2 XML files based on a primary key schema.
 
 ### A methodology for delivering mixed-source application versions
 

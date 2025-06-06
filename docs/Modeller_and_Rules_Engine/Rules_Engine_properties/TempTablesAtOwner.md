@@ -7,11 +7,11 @@ id: TempTablesAtOwner
 
 
 > [!NOTE]
-> This article is about the **TempTablesAtOwner**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **TempTablesAtOwner**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **TempTablesAtOwner**
 
-The **TempTablesAtOwner** Rules Engine property can be used to override the [TEMP_TABLE_AT_OWNER](/docs/Modeller%20and%20Rules%20Engine/Introducing%20USoft%20Modeller%20and%20Rules%20Engine/Rules%20Engine%20parameters.md) Rules Engine parameter setting for the current deployment context and for the duration of the current session.
+The **TempTablesAtOwner** Rules Engine property can be used to override the [TEMP_TABLE_AT_OWNER](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter setting for the current deployment context and for the duration of the current session.
 
 This setting allows you to specify that temporary tables are to be created in the owner's schema.
 

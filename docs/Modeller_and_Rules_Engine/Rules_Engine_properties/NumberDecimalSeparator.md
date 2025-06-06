@@ -7,13 +7,13 @@ id: NumberDecimalSeparator
 
 
 > [!NOTE]
-> This article is about the **NumberDecimalSeparator**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **NumberDecimalSeparator**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **NumberDecimalSeparator**
 
 The **NumberDecimalSeparator** Rules Engine property determines how decimal separators in number values are displayed.
 
-By default, this setting is taken from the setting as specified for the current language (for details, see Defining languages in the USoft Community knowledge base), but it is possible to overrule this temporarily by calling [RulesEngine.SetProperty](/docs/Extensions/RulesEngine%20internal%20component/RulesEngineSetProperty.md) and specifying the requested separator.
+By default, this setting is taken from the setting as specified for the current language (for details, see Defining languages in the USoft Community knowledge base), but it is possible to overrule this temporarily by calling [RulesEngine.SetProperty](/docs/Extensions/RulesEngine_internal_component/RulesEngineSetProperty.md) and specifying the requested separator.
 
 The setting will stay active for the remainder of the session or until another call to RulesEngine.SetProperty. A setting can be reset to the default value as specified with the current language by setting it to NULL.
 

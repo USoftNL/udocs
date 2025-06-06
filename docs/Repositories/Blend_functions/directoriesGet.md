@@ -7,7 +7,7 @@ id: directoriesGet
 
 
 > [!NOTE]
-> This article is about the **directories:Get**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **directories:Get**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **directories:Get**
 

@@ -7,7 +7,7 @@ id: Rdbms
 
 
 > [!NOTE]
-> This article is about the **Rdbms**[Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+> This article is about the **Rdbms**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 ## **Rdbms**
 

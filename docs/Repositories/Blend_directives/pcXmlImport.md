@@ -7,7 +7,7 @@ id: pcXmlImport
 
 
 > [!NOTE]
-> This article is about the **pc:XmlImport**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:XmlImport**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:XmlImport**
 
@@ -50,7 +50,7 @@ This example resets a "Allow_Disable_Constraint" configuration parameter in USof
 
 ## Import format
 
-The data to be imported must have the USoft [single-table XML format](/docs/Repositories/USoft%20XML%20formats/XML%20singletable%20document%20format.md) or [multi-table XML format](/docs/Repositories/USoft%20XML%20formats/XML%20multitable%20document%20format.md). You can produce such a format by calling sql:DataTableSetExport as a Blend call as in:
+The data to be imported must have the USoft [single-table XML format](/docs/Repositories/USoft_XML_formats/XML_singletable_document_format.md) or [multi-table XML format](/docs/Repositories/USoft_XML_formats/XML_multitable_document_format.md). You can produce such a format by calling sql:DataTableSetExport as a Blend call as in:
 
 ```
 <pc:evaluate select="sql:DataTableSetExport($instance, '.*', 'c:\temp\myoutputfile.xml', '')" />

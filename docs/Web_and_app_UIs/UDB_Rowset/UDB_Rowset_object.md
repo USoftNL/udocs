@@ -1,7 +1,7 @@
 ---
 id: UDB_Rowset_object
+tags: [USoft11, USoft10]
 ---
-
 # UDB Rowset object
 
 
@@ -13,7 +13,7 @@ id: UDB_Rowset_object
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
@@ -21,7 +21,7 @@ id: UDB_Rowset_object
 
 > [!NOTE]
 > This article is about the **Rowset** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
-> This model is built around the [udb](/docs/Web%20and%20app%20UIs/UDB%20udb), [DataSourceMetaContainer](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer), [DataSourceContainer](/docs/Web%20and%20app%20UIs/UDB%20DataSourceContainer), Rowset, [Rows](/docs/Web%20and%20app%20UIs/UDB%20Rows), [ColsMeta](/docs/Web%20and%20app%20UIs/UDB%20ColsMeta), and [Cols](/docs/Web%20and%20app%20UIs/UDB%20Cols) object types. See also [UDB events](/docs/Web%20and%20app%20UIs/UDB%20Events).
+> This model is built around the [udb](/docs/Web_and_app_UIs/UDB_udb), [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), Rowset, [Rows](/docs/Web_and_app_UIs/UDB_Rows), [ColsMeta](/docs/Web_and_app_UIs/UDB_ColsMeta), and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
 
 A **Rowset** object contains a collection of references to one or more row sets and so-called keys strings containing key values (if any) that these row sets refer to. A Rowset object containing multiple row sets comes into play when you offer multiple controls based on the same data in the same interface.
 
@@ -71,7 +71,7 @@ $.udb("PERSON").rowSet('current').keysString();
 An example return value is:
 
 ```js
-"1.DS59=$60:AUSTRALIA;$61:ISLAND%20SUNTANNER"
+"1.DS59=$60:AUSTRALIA;$61:ISLAND_SUNTANNER"
 ```
 
  

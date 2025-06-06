@@ -53,7 +53,7 @@ The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback e
 |        |        |
 |--------|--------|
 |**Description**|<p>Exports data to file. Can be in XML format, JSON or PDF (under development). The [`$.udb.benchmark.events.export`](#) event calls this function.</p>|
-|**Option**|<p>`file` : filename</p><p>`obj` : the data to export, the xml is normally created by [`$.udb.benchmark.rec.makeXML()`](#makeXml) </p><p>`type` : the content-type, currently either `application/xml` ,</p><p> `application/json  `or ` application/pdf`</p><p>`ext` : the extension for the file , by default .xml</p>|
+|**Option**|<p>`file` : filename</p><p>`obj` : the data to export, the xml is normally created by [`$.udb.benchmark.rec.makeXML()`](#makexml) </p><p>`type` : the content-type, currently either `application/xml` ,</p><p> `application/json  `or ` application/pdf`</p><p>`ext` : the extension for the file , by default .xml</p>|
 |**Example**|<p>Export a dummy file named “TestRun” with {} as file content in json format with extension json.txt:</p><p>`$.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json",'json.txt');`</p>|
 
 
@@ -187,7 +187,7 @@ The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback e
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Retrieves the Web benchmark control its “Value type” property. More about the Value type property is found [here](/docs/Web%20and%20app%20UIs/Testing%20your%20web%20application%20with%20USoft%20Web%20Benchmark/Editing%20a%20test.md).</p>|
+|**Description**|<p>Retrieves the Web benchmark control its “Value type” property. More about the Value type property is found [here](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Editing_a_test.md).</p>|
 
 
 
@@ -204,7 +204,7 @@ The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback e
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Retrieves the Occurence rank of a control. More about the Occurence Rank property is found [here](/docs/Web%20and%20app%20UIs/Testing%20your%20web%20application%20with%20USoft%20Web%20Benchmark/Editing%20a%20test.md).</p>|
+|**Description**|<p>Retrieves the Occurence rank of a control. More about the Occurence Rank property is found [here](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Editing_a_test.md).</p>|
 
 
 
@@ -222,7 +222,7 @@ The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback e
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Retrieves the result of a script action. Called when recording a script action. More about recording scripts can be found [here](/docs/Web%20and%20app%20UIs/Testing%20your%20web%20application%20with%20USoft%20Web%20Benchmark/The%20Web%20Benchmark%20control.md).</p>|
+|**Description**|<p>Retrieves the result of a script action. Called when recording a script action. More about recording scripts can be found [here](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/The_Web_Benchmark_control.md).</p>|
 
 
 
@@ -364,7 +364,7 @@ The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback e
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Opens up the Record variable dialog allowing you to define variables. This function is called when you press the [Variables button](/docs/Web%20and%20app%20UIs/Testing%20your%20web%20application%20with%20USoft%20Web%20Benchmark/The%20Web%20Benchmark%20control.md) and then “Define variables”.</p>|
+|**Description**|<p>Opens up the Record variable dialog allowing you to define variables. This function is called when you press the [Variables button](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/The_Web_Benchmark_control.md) and then “Define variables”.</p>|
 
 
 

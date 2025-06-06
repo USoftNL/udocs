@@ -7,7 +7,7 @@ id: sqlDataTableSetExport
 
 
 > [!NOTE]
-> This article is about the **sql:DataTableSetExport**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **sql:DataTableSetExport**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **sql:DataTableSetExport**
 

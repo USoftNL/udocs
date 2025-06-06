@@ -8,7 +8,7 @@ id: DATALENGTH_LEN
 
 > [!NOTE]
 > This article has additional information about the **DATALENGTH** and **LEN** SQL functions.
-> For convertibility of these SQL functions, go to [SQL functions  D - H](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20DH.md).
+> For convertibility of these SQL functions, go to [SQL functions  D - H](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md).
 
 ## **DATALENGTH, LEN**
 

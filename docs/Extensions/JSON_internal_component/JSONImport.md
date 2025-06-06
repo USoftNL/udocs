@@ -9,11 +9,11 @@ id: JSONImport
 
 
 > [!NOTE]
-> This article is about the **Import** method of the [JSON internal component](/docs/Extensions/JSON%20internal%20component).
+> This article is about the **Import** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
 
 ## **JSON.Import**
 
-Imports data presented in the [USoft JSON format](/docs/Repositories/USoft%20JSON%20format/USoft%20JSON%20format.md).
+Imports data presented in the [USoft JSON format](/docs/Repositories/USoft_JSON_format/USoft_JSON_format.md).
 
 ----
 
@@ -34,7 +34,7 @@ Processes the row elements found in the JSON document one-by-one in document ord
 - A record is UPDATEd if a record with the same primary key, but different values in other columns, is found in the target table.
 - No record is DELETEd.
 
-This “UPSERT” handling may be modified by [meta-instruction properties](/docs/Repositories/USoft%20JSON%20format/Metainstruction%20properties%20in%20JSON.md), namely the **@usoft-json** meta-instruction property supplied at the top of the import document, and **@Insert**, **@Update** and **@Delete** meta-instruction properties supplied inside record entries. It may also be modified by the VerifyOriginalValues and UseIOFormats parameters of JSON.Import itself.
+This “UPSERT” handling may be modified by [meta-instruction properties](/docs/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md), namely the **@usoft-json** meta-instruction property supplied at the top of the import document, and **@Insert**, **@Update** and **@Delete** meta-instruction properties supplied inside record entries. It may also be modified by the VerifyOriginalValues and UseIOFormats parameters of JSON.Import itself.
 
 *Syntax*
 
@@ -83,7 +83,7 @@ Both *value* and *parameter* are case-insensitive.
 
 |***value***|***parameter***|**Description**|
 |--------|--------|--------|
-|{ yes \| no }|IgnoreGUK|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'no' for this parameter, if the external file contains [G_U_K]() attributes, these are heeded as identifiers of the records instead of the record's primary key values. This replaces [default import handling](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON/How%20import%20XML%20or%20JSON%20is%20processed.md) by the handling on the basis of G_U_Ks.</p>|
+|{ yes \| no }|IgnoreGUK|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'no' for this parameter, if the external file contains [G_U_K]() attributes, these are heeded as identifiers of the records instead of the record's primary key values. This replaces [default import handling](/docs/Repositories/Data_flow_control_with_XML_or_JSON/How_import_XML_or_JSON_is_processed.md) by the handling on the basis of G_U_Ks.</p>|
 |{ yes \| no }|UseIOFormats|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, the imported column values are checked against the IO format of the corresponding domain. Otherwise, they must use the format described in "JSON Representation of Date Values".</p>|
 |{    No<br/>			\|    ChangedColumns<br/>			\|    AllColumns<br/>			\|    NoCheckOnPk }|VerifyOriginalValues|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>For row elements with an Update or Delete instruction tag, this parameter specifies whether values in the JSON data must be compared with values currently in the database before an attempt is made to execute the instruction.<br/>			See the "VerifyOriginalValues" section below for the meaning of each possible value.</p>|
 

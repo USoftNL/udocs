@@ -7,7 +7,7 @@ id: Fill_Authorizer_tables
 
 
 > [!NOTE]
-> This article is about the **Fill Authorizer tables**[Delivery Manager action](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name).
+> This article is about the **Fill Authorizer tables**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 ## **Fill Authorizer tables**
 

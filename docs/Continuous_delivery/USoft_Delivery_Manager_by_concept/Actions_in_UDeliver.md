@@ -11,7 +11,7 @@ An **action****is an operation that you can define and run as a task step in a D
 
 The actions that you can choose from are listed in the Actions catalog on the left-hand side of the screen. If this catalog is not in view, choose View, Catalog from the main menu.
 
-For practical and detailed reference information about each individual action, please go to [Delivery Manager actions by name](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name).
+For practical and detailed reference information about each individual action, please go to [Delivery Manager actions by name](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 - **Release actions****are used to release deliverables, or to prepare for releasing deliverables.
 - **USoft routines****mimic existing routines that are offered by one of the USoft tools.

@@ -8,7 +8,7 @@ id: SESSION_ID
 
 > [!NOTE]
 > This article has additional information about the **SESSION_ID** SQL function.
-> For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20SZ.md).
+> For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
 
 ## **SESSION_ID**
 

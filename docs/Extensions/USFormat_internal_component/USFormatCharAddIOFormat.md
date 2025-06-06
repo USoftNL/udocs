@@ -7,7 +7,7 @@ id: USFormatCharAddIOFormat
 
 
 > [!NOTE]
-> This article is about the **CharAddIOFormat** method of the [USFormat internal component](/docs/Extensions/USFormat%20internal%20component).
+> This article is about the **CharAddIOFormat** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
 
 ## **USFormat.CharAddIOFormat**
 
@@ -24,7 +24,7 @@ SELECT USFormat.CharAddIOFormat(
 )
 ```
 
-Both *string* and *string-io-format-pattern* are required. *String-io-format-pattern* must be one of the [USoft IO formats](/docs/Modeller%20and%20Rules%20Engine/Domains/IO%20formats.md) for string values.
+Both *string* and *string-io-format-pattern* are required. *String-io-format-pattern* must be one of the [USoft IO formats](/docs/Modeller_and_Rules_Engine/Domains/IO_formats.md) for string values.
 
 *Example*
 

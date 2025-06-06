@@ -7,7 +7,7 @@ id: Allow_Disable_Constraint
 
 
 > [!NOTE]
-> This article is about the **Allow_Disable_Constraint**[deployment configuration parameter](/docs/Authorisation%20and%20access/Deployment%20configurations/Deployment%20configuration%20parameters.md).
+> This article is about the **Allow_Disable_Constraint**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 ## **Allow_Disable_Constraint**
 

@@ -47,7 +47,7 @@ $.udb.checkData({quiet:true}).then(function(){
 ```
 
 > [!TIP]
-> Because this script implements [page chaining](/docs/Web%20and%20app%20UIs/Navigation%20between%20web%20pages/Page%20chaining.md), and because the data sources on the 2 pages have the same name, USoft will automatically carry the data from the first page over to the second page.
+> Because this script implements [page chaining](/docs/Web_and_app_UIs/Navigation_between_web_pages/Page_chaining.md), and because the data sources on the 2 pages have the same name, USoft will automatically carry the data from the first page over to the second page.
 
 In the “3.2” page, add a "< Back” button with the following script:
 

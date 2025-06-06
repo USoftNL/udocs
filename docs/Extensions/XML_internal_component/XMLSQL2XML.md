@@ -7,7 +7,7 @@ id: XMLSQL2XML
 
 
 > [!NOTE]
-> This article is about the **SQL2XML** method of the [XML internal component](/docs/Extensions/XML%20internal%20component).
+> This article is about the **SQL2XML** method of the [XML internal component](/docs/Extensions/XML_internal_component).
 
 ## **XML.SQL2XML**
 

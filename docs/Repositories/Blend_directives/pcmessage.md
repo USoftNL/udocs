@@ -7,7 +7,7 @@ id: pcmessage
 
 
 > [!NOTE]
-> This article is about the **pc:message**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:message**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:message**
 

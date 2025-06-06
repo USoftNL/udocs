@@ -6,10 +6,10 @@ id: SQL_functions_AC
 
 > [!NOTE]
 > SQL functions  A - C
-> [SQL functions  D - H](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20DH.md)
-> [SQL functions  I - M](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20IM.md)
-> [SQL functions  N - R](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20NR.md)
-> [SQL functions  S - Z](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20SZ.md)
+> [SQL functions  D - H](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md)
+> [SQL functions  I - M](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
+> [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md)
+> [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md)
 
  
 
@@ -28,7 +28,7 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |--------|--------|--------|--------|--------|--------|
 |**ABS** |ABS     |ABS     |ABS     |ABS     |ABS     |
 |**ACOS**|ACOS    |ACOS    |ACOS    |ACOS    |ACOS    |
-|**ADD_DAYS**|[ADD_DAYS](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/ADD_DAYS.md)|
+|**ADD_DAYS**|[ADD_DAYS](/docs/Modeller_and_Rules_Engine/SQL_functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller_and_Rules_Engine/SQL_functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller_and_Rules_Engine/SQL_functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller_and_Rules_Engine/SQL_functions/ADD_DAYS.md)|[ADD_DAYS](/docs/Modeller_and_Rules_Engine/SQL_functions/ADD_DAYS.md)|
 |**ADD_MONTHS**|-       |ADD_MONTHS|-       |-       |ADD_MONTHS|
 |**ADD_YEARS**|-       |-       |-       |-       |ADD_YEARS|
 |**ASCII**|ASCII   |ASCII   |ASCII   |ASCII   |ASCII   |
@@ -41,16 +41,16 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 
 |**Name**|**USoft**|**Oracle**|**SQLServer**|**ODBC**|**JDBCY, Derby**|
 |--------|--------|--------|--------|--------|--------|
-|**CASE**|[DECODE](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CASE%20DECODE.md)|[DECODE](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CASE%20DECODE.md)|[CASE](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CASE%20DECODE.md)|[CASE](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CASE%20DECODE.md)|[CASE](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CASE%20DECODE.md)|
-|**CAST**|[CAST](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CAST.md)|[CAST](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CAST.md)|[CAST](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CAST.md)|[CAST](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CAST.md)|[CAST](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CAST.md)|
+|**CASE**|[DECODE](/docs/Modeller_and_Rules_Engine/SQL_functions/CASE_DECODE.md)|[DECODE](/docs/Modeller_and_Rules_Engine/SQL_functions/CASE_DECODE.md)|[CASE](/docs/Modeller_and_Rules_Engine/SQL_functions/CASE_DECODE.md)|[CASE](/docs/Modeller_and_Rules_Engine/SQL_functions/CASE_DECODE.md)|[CASE](/docs/Modeller_and_Rules_Engine/SQL_functions/CASE_DECODE.md)|
+|**CAST**|[CAST](/docs/Modeller_and_Rules_Engine/SQL_functions/CAST.md)|[CAST](/docs/Modeller_and_Rules_Engine/SQL_functions/CAST.md)|[CAST](/docs/Modeller_and_Rules_Engine/SQL_functions/CAST.md)|[CAST](/docs/Modeller_and_Rules_Engine/SQL_functions/CAST.md)|[CAST](/docs/Modeller_and_Rules_Engine/SQL_functions/CAST.md)|
 |        |CHAR_TO_DATE|TO_DATE |CONVERT(*datetime*)|CAST    |TO_DATE |
 |**CEIL**|CEIL    |CEIL    |CEILING |CEILING |CEIL    |
 |        |CEILING |CEIL    |CEILING |CEILING |CEILING |
 |**CEILING**|CEIL    |CEIL    |CEILING |CEILING |CEIL    |
 |        |CEILING |CEIL    |CEILING |CEILING |CEILING |
 |**CHAR**|CHAR    |CHAR    |CHAR    |CHAR    |CHAR    |
-|**CHARINDEX**|CHARINDEX|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|
-|        |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/INSTR.md)|
+|**CHARINDEX**|CHARINDEX|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|
+|        |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|CHARINDEX|LOCATE  |[INSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/INSTR.md)|
 |**CHARTOROWID**|-       |CHARTOROWID|-       |-       |-       |
 |**CHAR_TO_DATE**|CHAR_TO_DATE|TO_DATE |CONVERT(*datetime*)|CAST    |TO_DATE |
 
@@ -65,14 +65,14 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |        |NVL     |NVL     |ISNULL  |ISNULL  |COALESCE|
 |**COL_LENGTH**|-       |-       |COL_LENGTH|-       |-       |
 |**COL_NAME**|-       |-       |COL_NAME|-       |-       |
-|**CONCAT**|[CONCAT or \|\|](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CONCAT.md)|[CONCAT or \|\|](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CONCAT.md)|[CONCAT or \|\| or +](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CONCAT.md)|[CONCAT or +](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CONCAT.md)|[CONCAT or \|\|](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CONCAT.md)|
-|**CONVERT(datetime)**|[DATE_TO_CHAR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/DATE_TO_CHAR.md)|TO_CHAR(*datetime*)|CONVERT(*datetime*)|[DATE_TO_CHAR](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/DATE_TO_CHAR.md)|TO_CHARDATE|
+|**CONCAT**|[CONCAT or \|\|](/docs/Modeller_and_Rules_Engine/SQL_functions/CONCAT.md)|[CONCAT or \|\|](/docs/Modeller_and_Rules_Engine/SQL_functions/CONCAT.md)|[CONCAT or \|\| or +](/docs/Modeller_and_Rules_Engine/SQL_functions/CONCAT.md)|[CONCAT or +](/docs/Modeller_and_Rules_Engine/SQL_functions/CONCAT.md)|[CONCAT or \|\|](/docs/Modeller_and_Rules_Engine/SQL_functions/CONCAT.md)|
+|**CONVERT(datetime)**|[DATE_TO_CHAR](/docs/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHAR(*datetime*)|CONVERT(*datetime*)|[DATE_TO_CHAR](/docs/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHARDATE|
 |        |TO_INTEGER|TO_NUMBER|CONVERT(*datetime*)|TO_NUMBER|TO_NUMBER|
 |**CONVERT(integer)**|-       |TO_NUMBER|CONVERT(*integer*)|CONVERT |TO_NUMBER|
 |**CONVERT(ntext)**|-       |TO_NCLOB|CONVERT(*ntext*)|-       |TO_NCLOB|
 |**CONVERT(number)**|NUMBERTOCHAR|TO_CHAR(*number*)|CONVERT(*number*)|NUMBERTOCHAR|NUMBERTOCHAR|
 |**CONVERT(text)**|CHAR_TO_DATE|TO_DATE |CONVERT(*text*)|CAST    |TO_DATE |
-|        |[TO_CLOB](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/TO_CLOB.md)|[TO_CLOB](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/TO_CLOB.md)|CONVERT(*text*)|[TO_CLOB](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/TO_CLOB.md)|[TO_CLOB](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/TO_CLOB.md)|
+|        |[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|CONVERT(*text*)|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|
 
 
 
@@ -85,6 +85,6 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**COT** |-       |-       |COT     |COT     |COT     |
 |**COUNT**|COUNT   |COUNT   |COUNT   |COUNT   |COUNT   |
 |**CURDATE**|-       |-       |-       |CURDATE |-       |
-|**CURRENT_DATE**|[CURRENT_DATE](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/CURRENT_DATE.md)|SYSDATE |GETDATE |NOW     |SYSDATE |
+|**CURRENT_DATE**|[CURRENT_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md)|SYSDATE |GETDATE |NOW     |SYSDATE |
 |**CURRENT_TIMESTAMP**|-       |-       |-       |CURTIME |CURRENT_TIMESTAMP|
 |**CURTIME**|-       |-       |-       |CURTIME |CURRENT_TIMESTAMP|

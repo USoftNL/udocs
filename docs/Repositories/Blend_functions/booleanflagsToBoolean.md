@@ -7,7 +7,7 @@ id: booleanflagsToBoolean
 
 
 > [!NOTE]
-> This article is about the **booleanflags:ToBoolean**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **booleanflags:ToBoolean**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **booleanflags:ToBoolean**
 

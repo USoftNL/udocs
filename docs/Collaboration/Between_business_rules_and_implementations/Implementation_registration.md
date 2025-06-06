@@ -1,7 +1,7 @@
 ---
 id: Implementation_registration
+tags: [USoft11]
 ---
-
 # Implementation registration
 
 In USoft, as a development team, you can optionally register that some specification (typically, a business rule) has been implemented in some way.

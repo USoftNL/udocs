@@ -5,7 +5,7 @@ id: Authentication_and_USoft
 # Authentication and USoft
 
 > [!NOTE]
-> See also: [Authentication in services](/docs/Services/Authentication%20in%20services/Authentication%20in%20services.md)
+> See also: [Authentication in services](/docs/Services/Authentication_in_services/Authentication_in_services.md)
 
 Authentication is the process of validating the credentials of a user logging on to an application or service. Usually, these credentials are a user name and a password.
 
@@ -88,7 +88,7 @@ In USoft Authorizer, users have one of the following Validation Agent options:
 |LDAP    |Users are authenticated by having the LDAP (Lightweight Directory Access Protocol) RDMI component connect to a Directory Service such as Open LDAP or Microsoft Active Directory.|
 |Operating System|USoft validates the supplied user credentials against the Windows operating system.|
 |Single Sign On|USoft allows access on the basis of the user having successfully logged on to the Windows operating system.|
-|Mapped Account|Other types of [mapped authentication](/docs/Authorisation%20and%20access/Authentication%20and%20USoft/User%20account%20mapping.md). Authentication is delegated to the validation agent that has been specified as the mapped account.|
+|Mapped Account|Other types of [mapped authentication](/docs/Authorisation_and_access/Authentication_and_USoft/User_account_mapping.md). Authentication is delegated to the validation agent that has been specified as the mapped account.|
 
 
 

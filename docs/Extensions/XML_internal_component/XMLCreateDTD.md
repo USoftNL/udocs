@@ -7,7 +7,7 @@ id: XMLCreateDTD
 
 
 > [!NOTE]
-> This article is about the **CreateDTD** method of the [XML internal component](/docs/Extensions/XML%20internal%20component).
+> This article is about the **CreateDTD** method of the [XML internal component](/docs/Extensions/XML_internal_component).
 
 ## **XML.CreateDTD**
 

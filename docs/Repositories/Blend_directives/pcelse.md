@@ -7,7 +7,7 @@ id: pcelse
 
 
 > [!NOTE]
-> This article is about the **pc:else**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:else**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:else**
 

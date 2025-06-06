@@ -7,7 +7,7 @@ id: tableGetInitialData
 
 
 > [!NOTE]
-> This article is about the **table.GetInitialData** method of [table internal components](/docs/Extensions/Domain%20and%20table%20internal%20components).
+> This article is about the **table.GetInitialData** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
 > **See also**
 > [Initial Data]()
 

@@ -7,13 +7,13 @@ id: pccall
 
 
 > [!NOTE]
-> This article is about the **pc:call**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:call**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:call**
 
 Executes processing instructions represented by nodes located in a different script file, or in a different part of the current script file. The result is the same as when these nodes are passed to **ublendit.exe** on the command line, or to **select uscsxsl.blend** in a SQL command context.
 
-This directive is a synonym of [pc:blend](/docs/Repositories/Blend%20directives/pcblend.md). Go to [pc:blend](/docs/Repositories/Blend%20directives/pcblend.md) for more information. The choice between pc:call and pc:blend is a matter of personal preference.
+This directive is a synonym of [pc:blend](/docs/Repositories/Blend_directives/pcblend.md). Go to [pc:blend](/docs/Repositories/Blend_directives/pcblend.md) for more information. The choice between pc:call and pc:blend is a matter of personal preference.
 
 *Syntax*
 

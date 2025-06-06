@@ -7,7 +7,7 @@ id: RulesEngineGetLastGeneratedGuid
 
 
 > [!NOTE]
-> This article is about the **GetLastGeneratedGuid** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine%20internal%20component).
+> This article is about the **GetLastGeneratedGuid** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
 
 ## **RulesEngine.GetLastGeneratedGuid**
 

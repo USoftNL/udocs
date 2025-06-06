@@ -7,7 +7,7 @@ id: USFormatCharToDouble
 
 
 > [!NOTE]
-> This article is about the **CharToDouble** method of the [USFormat internal component](/docs/Extensions/USFormat%20internal%20component).
+> This article is about the **CharToDouble** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
 
 ## **USFormat.CharToDouble**
 
@@ -24,7 +24,7 @@ SELECT USFormat.CharToDouble(
 )
 ```
 
-Both *string* and *number-format-pattern* are required. *Number-format-pattern* must be one of the [USoft IO formats](/docs/Modeller%20and%20Rules%20Engine/Domains/IO%20formats.md) for number values.
+Both *string* and *number-format-pattern* are required. *Number-format-pattern* must be one of the [USoft IO formats](/docs/Modeller_and_Rules_Engine/Domains/IO_formats.md) for number values.
 
 *Example*
 

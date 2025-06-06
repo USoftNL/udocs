@@ -68,7 +68,7 @@ USoft recommends you specify a Windows collation (as opposed to a SQL Server col
 Latin1_General_100_CS_AS
 ```
 
-In SQL Server, you can specify a collation at the server level, database level, or column level, and you can specify collations within your queries. In MS SQL Server Management Studio, you can set the collation at database level in the New Database dialog (click Options and select the collation from a dropdown list). You can also create a SQL Server database by running the [pc:NewUDevelop](/docs/Repositories/Blend%20directives/pcNewUDevelop.md) command, in which case you can pass the collation using the **collation** option.
+In SQL Server, you can specify a collation at the server level, database level, or column level, and you can specify collations within your queries. In MS SQL Server Management Studio, you can set the collation at database level in the New Database dialog (click Options and select the collation from a dropdown list). You can also create a SQL Server database by running the [pc:NewUDevelop](/docs/Repositories/Blend_directives/pcNewUDevelop.md) command, in which case you can pass the collation using the **collation** option.
 
 Also, see Microsoft's recommendations with regard to SQL Server collations:
 

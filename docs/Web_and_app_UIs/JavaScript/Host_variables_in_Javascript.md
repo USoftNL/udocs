@@ -16,7 +16,7 @@ Use the **$.udb.hostvars** object ONLY if you are not scripting a $.udb function
 The **$.udb.hostvars** object is for holding temporary host variables (ie., variables with one-time use) that have literal values. This object can be used in a SQL query triggered by an event that is fired after the value is set. That event can contain the **ExecuteSQLStatement** action, or any other action that queries data sources with host variable placeholders.
 
 > [!NOTE]
-> You can also set host variables on the [beforeexecutequery](/docs/Web%20and%20app%20UIs/UDB%20Events/beforeexecutequery.md) event of data sources.
+> You can also set host variables on the [beforeexecutequery](/docs/Web_and_app_UIs/UDB_Events/beforeexecutequery.md) event of data sources.
 
 The object structure is of a structure of the form:
 

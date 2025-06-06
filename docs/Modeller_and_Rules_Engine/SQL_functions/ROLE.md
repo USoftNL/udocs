@@ -8,7 +8,7 @@ id: ROLE
 
 > [!NOTE]
 > This article has additional information about the **ROLE** SQL function.
-> For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20NR.md).
+> For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
 
 ## **ROLE**
 

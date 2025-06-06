@@ -1,16 +1,16 @@
 ---
 id: Rules_Engine_parameters
+tags: [USoft10]
 ---
-
 # Rules Engine parameters
 
 A Rules Engine has configurable behaviour determined by a fixed set of **Rules Engine parameter** settings determined at development time. All the parameters have USoft factory defaults.
 
 - You can resetting a parameter at development time. This is explained in the next alinea.
-- You can**also change many parameter settings *dynamically,* ie., at runtime. You can do this by calling [RulesEngine.SetProperty](/docs/Extensions/RulesEngine%20internal%20component/RulesEngineSetProperty.md).
+- You can**also change many parameter settings *dynamically,* ie., at runtime. You can do this by calling [RulesEngine.SetProperty](/docs/Extensions/RulesEngine_internal_component/RulesEngineSetProperty.md).
 
 > [!TIP]
-> Do not confuse with [Rules Engine properties](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties). Do not confuse with [Deployment Configuration parameters](/docs/Authorisation%20and%20access/Deployment%20configurations/Deployment%20configuration%20parameters.md).
+> Do not confuse with [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties). Do not confuse with [Deployment Configuration parameters](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 ## Viewing and setting Rules Engine parameters
 

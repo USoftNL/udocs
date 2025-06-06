@@ -7,7 +7,7 @@ id: xslutilUSoftDir
 
 
 > [!NOTE]
-> This article is about the **xslutil:USoftDir**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **xslutil:USoftDir**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **xslutil:USoftDir**
 

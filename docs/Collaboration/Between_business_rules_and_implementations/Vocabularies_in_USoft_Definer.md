@@ -1,14 +1,14 @@
 ---
 id: Vocabularies_in_USoft_Definer
+tags: [USoft11]
 ---
-
 # Vocabularies in USoft Definer
 
 `USoft 11``{.vs_11}`
 
 > [!NOTE]
 > **See also**
-> [Formulations in USoft Definer](/docs/Collaboration/Between%20business%20rules%20and%20implementations/Formulations%20in%20USoft%20Definer.md)
+> [Formulations in USoft Definer](/docs/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md)
 
 A **vocabulary** is a body of shared concepts structured according to the relations between them.
 

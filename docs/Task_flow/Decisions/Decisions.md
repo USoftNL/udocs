@@ -31,7 +31,7 @@ ActionDecision( TEST_SYSTEM_CREATE_APPDATA )
 
 ```
 
-You can also place ActionDecision( ) in the Yes Action or No Action of a Decision. This allows [branching and looping](/docs/Task%20flow/Decisions/Decision%20branching%20and%20looping.md) between decisions.
+You can also place ActionDecision( ) in the Yes Action or No Action of a Decision. This allows [branching and looping](/docs/Task_flow/Decisions/Decision_branching_and_looping.md) between decisions.
 
 To call a decision from a SQL context, for example the SQL Command window, you must use the **action** keyword :
 
@@ -59,7 +59,7 @@ To define a decision:
 
 ## Calling a decision
 
-To call the decision you have defined, use the [ActionDecision()](/docs/Task%20flow/Action%20Language%20reference%20A-C/ActionDecision.md)****action.
+To call the decision you have defined, use the [ActionDecision()](/docs/Task_flow/Action_Language_reference_A-C/ActionDecision.md)****action.
 
 ## Decision Name
 
@@ -78,7 +78,7 @@ The Decision SQL is executed when the Decision is called. If it is a SELECT stat
 If Decision SQL is an INVOKE statement, the INVOKE statement is executed, and then the Yes Action script is executed. If the Yes Action contains placeholders (:1, :2 ...), then these are substituted by result values returned by the invocation.
 
 > [!NOTE]
-> For more on placeholders, go to [Decision variables and placeholders](/docs/Task%20flow/Decisions/Decision%20variables%20and%20placeholders.md).
+> For more on placeholders, go to [Decision variables and placeholders](/docs/Task_flow/Decisions/Decision_variables_and_placeholders.md).
 
 In Decision SQL, if you do not need to access the database, you can omit the FROM clause. if you only need to evaluate a SQL function in the SELECT clause, you only need to write a SELECT clause. If you only need to evaluate a condition, you only need to write a WHERE clause. If you have only a WHERE clause, you can even drop the WHERE keyword, so  that even the following is still a valid Decision SQL value:
 
@@ -94,7 +94,7 @@ If the Decision SQL is empty, the Yes Action script is executed once.
 
 ## Yes Action
 
-The required Yes Action is a script containing one or more actions from the [USoft action language](/docs/Task%20flow/Action%20Language%20reference). Multiple action statements are separated by newlines.
+The required Yes Action is a script containing one or more actions from the [USoft action language](/docs/Task_flow/Action_Language_reference). Multiple action statements are separated by newlines.
 
 The Yes Action script is executed when the Decision is called and the Decision SQL produces 1 or more rows. The Yes Action is executed once for each row.
 

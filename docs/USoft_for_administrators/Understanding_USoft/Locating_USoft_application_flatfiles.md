@@ -19,11 +19,11 @@ When a USoft application is run from flatfiles, USoft looks for these applicatio
 
 **Step 1: \\APP subfolder**
 
-USoft attempts to find application flatfiles in the \\APP subfolder of the USoft installation directory. The USoft installation directory is indicated by the value of the **Destination Path** [registry key for the installed USoft version](/docs/USoft%20for%20administrators/Understanding%20USoft/USoft%20registry%20keys%20on%20Windows.md).
+USoft attempts to find application flatfiles in the \\APP subfolder of the USoft installation directory. The USoft installation directory is indicated by the value of the **Destination Path** [registry key for the installed USoft version](/docs/USoft_for_administrators/Understanding_USoft/USoft_registry_keys_on_Windows.md).
 
 **Step 2: FileSearchPath**
 
-USoft attempts to find application flatfiles by looking at the value or values of the **FileSearchPath** [registry key for the installed USoft version](/docs/USoft%20for%20administrators/Understanding%20USoft/USoft%20registry%20keys%20on%20Windows.md).
+USoft attempts to find application flatfiles by looking at the value or values of the **FileSearchPath** [registry key for the installed USoft version](/docs/USoft_for_administrators/Understanding_USoft/USoft_registry_keys_on_Windows.md).
 
 **FileSearchPath** is allowed to have multiple values separated by colons. USoft attempts to find the application flatfiles first in the location of the first-mentioned value, then in the second, and so on; if there is a match for a required file, further values are ignored. Each value of **FileSearchPath** must represent either an absolute or a relative **file path** (not: folder path) on the file system, with backslashes separating parent directory and child directory. Relative paths represent paths from the USoft home directory indicated by the **HomeDir** registry entry which is, by default, the Windows current directory or “working directory”. Relative file paths include stand-alone file names. The following substitution variables are allowed in these paths:
 

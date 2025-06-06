@@ -7,7 +7,7 @@ id: tableGetNextGeneratedUniqueValue
 
 
 > [!NOTE]
-> This article is about the **table.GetNextGeneratedUniqueValue** method of [table internal components](/docs/Extensions/Domain%20and%20table%20internal%20components).
+> This article is about the **table.GetNextGeneratedUniqueValue** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
 
 ## **table.GetNextGeneratedUniqueValue**
 
@@ -29,4 +29,4 @@ SELECT *table*.GetNextGeneratedUniqueValue()
 
 ### Notes
 
-You can get your session's MOST RECENTLY generated unique value (which could be for any of the tables in your application that have generated unique values) by calling [RulesEngine.GetLastGeneratedUniqueValue](/docs/Extensions/RulesEngine%20internal%20component/RulesEngineGetLastGeneratedUniqueValue.md).
+You can get your session's MOST RECENTLY generated unique value (which could be for any of the tables in your application that have generated unique values) by calling [RulesEngine.GetLastGeneratedUniqueValue](/docs/Extensions/RulesEngine_internal_component/RulesEngineGetLastGeneratedUniqueValue.md).

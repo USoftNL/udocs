@@ -5,7 +5,7 @@ id: Nominalisations
 # Nominalisations
 
 > [!NOTE]
-> **See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business%20rules/Vocabulary%20concepts/A%20minimal%20toolkit%20of%20SBVR%20vocabulary%20concepts.md)
+> **See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
 
  
 
@@ -35,4 +35,4 @@ Nominalisation is a helpful idea to keep in mind at times when you are making se
 
 When you need to talk about the connections that verb concepts make, your writing can be shorter and easier to understand if you talk about the nominalisation rather than the verb concept. The downside is that readers have to "click through” to find out that the umbrella concept is actually "hiding” the verb concept.
 
-A nominalisation is a [stepping stone](/docs/Business%20rules/How%20to%20model%20a%20vocabulary%20successfully/Stepping%20stones.md).
+A nominalisation is a [stepping stone](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Stepping_stones.md).

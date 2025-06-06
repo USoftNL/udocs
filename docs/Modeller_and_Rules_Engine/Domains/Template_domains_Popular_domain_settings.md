@@ -1,7 +1,7 @@
 ---
 id: Template_domains_Popular_domain_settings
+tags: [USoft11]
 ---
-
 # Template domains: Popular domain settings
 
 `USoft 11``{.vs_11}`
@@ -31,7 +31,7 @@ Here are the 9 template domains of USoft 11:
 
 
 > [!TIP]
-> You can also have **superdomain** settings and have these inherited by subdomains at lower levels. This is a different mechanism explained [here](/docs/Modeller%20and%20Rules%20Engine/Domains/Superdomains%20Inheritance%20of%20domain%20properties.md). This mechanism only extends to selected domain attributes.
+> You can also have **superdomain** settings and have these inherited by subdomains at lower levels. This is a different mechanism explained [here](/docs/Modeller_and_Rules_Engine/Domains/Superdomains_Inheritance_of_domain_properties.md). This mechanism only extends to selected domain attributes.
 
 ## Importing and viewing template domains
 

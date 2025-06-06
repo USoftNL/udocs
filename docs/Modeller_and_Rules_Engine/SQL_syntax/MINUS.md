@@ -7,7 +7,7 @@ id: MINUS
 
 
 > [!NOTE]
-> This article is about the **MINUS** set operator as part of the [SQL syntax](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax) that USoft supports.
+> This article is about the **MINUS** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
 
 ## **MINUS**
 
@@ -16,7 +16,7 @@ The MINUS operator removes, from the outcome of the SELECT statement appearing b
 With MINUS, the result is **different** depending on whether the first or the second SELECT statement appears first.
 
 > [!TIP]
-> In USoft SQL syntax, MINUS is a synonym of [EXCEPT](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax/EXCEPT.md).
+> In USoft SQL syntax, MINUS is a synonym of [EXCEPT](/docs/Modeller_and_Rules_Engine/SQL_syntax/EXCEPT.md).
 
 *Syntax*
 

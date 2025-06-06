@@ -1,7 +1,7 @@
 ---
 id: Revised_web_UI_API_in_USoft_11
+tags: [USoft11]
 ---
-
 # Revised web UI API in USoft 11
 
 `USoft 11``{.vs_11}`

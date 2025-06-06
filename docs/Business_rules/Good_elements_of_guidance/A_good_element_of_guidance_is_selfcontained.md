@@ -6,9 +6,9 @@ id: A_good_element_of_guidance_is_selfcontained
 
 > [!NOTE]
 > **Summary:**  A rule or advice must not rely on other rules to say all that it means.
-> [More SBVR principles for good elements of guidance](/docs/Business%20rules/Good%20elements%20of%20guidance/Good%20elements%20of%20guidance.md)
+> [More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
 
-A good element of guidance is self-contained. This principle has a lot of overlap with the [severability](/docs/Business%20rules/Good%20elements%20of%20guidance/A%20good%20element%20of%20guidance%20is%20severable.md) principle. Severability means the element of guidance can stand on its own. Self-containedness means that all the intended meaning is in the element of guidance itself:
+A good element of guidance is self-contained. This principle has a lot of overlap with the [severability](/docs/Business_rules/Good_elements_of_guidance/A_good_element_of_guidance_is_severable.md) principle. Severability means the element of guidance can stand on its own. Self-containedness means that all the intended meaning is in the element of guidance itself:
 
 [SBVR 1.5, 16.3.3 "The Wholeness Principle”:]
 

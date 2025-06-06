@@ -118,6 +118,6 @@ The (2) NUMBER… settings will apply to field values based on columns that have
 
 ## Next steps
 
-[Translating system messages and application strings](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Translating%20system%20messages%20and%20application%20strings.md)
+[Translating system messages and application strings](/docs/Modeller_and_Rules_Engine/Localising_your_application/Translating_system_messages_and_application_strings.md)
 
-[Providing localisation to end users](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Providing%20localisation%20to%20end%20users.md)
+[Providing localisation to end users](/docs/Modeller_and_Rules_Engine/Localising_your_application/Providing_localisation_to_end_users.md)

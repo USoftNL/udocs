@@ -22,7 +22,7 @@ ROUND(DOMAIN*2)/2
 A domain constraint belongs to a specific **domain**. The restriction is enforced for all the data values stored in all the columns based on that domain.
 
 > [!NOTE]
-> Use a [domain attribute](/docs/Modeller%20and%20Rules%20Engine/Domains) if your restriction is in one of these categories. In these cases you don't need to write a domain constraint:
+> Use a [domain attribute](/docs/Modeller_and_Rules_Engine/Domains) if your restriction is in one of these categories. In these cases you don't need to write a domain constraint:
 
 ### Restrictive domain constraints
 

@@ -7,7 +7,7 @@ id: USCSXSLApply2File
 
 
 > [!NOTE]
-> This article is about the **Apply2File** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL%20internal%20component).
+> This article is about the **Apply2File** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
 
 ## **USCSXSL.Apply2File**
 

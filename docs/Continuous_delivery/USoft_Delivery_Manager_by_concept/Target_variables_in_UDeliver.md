@@ -9,11 +9,11 @@ id: Target_variables_in_UDeliver
 
 **See also**
 
-- [Setting a target variable](/docs/Continuous%20delivery/Delivery%20Manager%20basic%20procedures/Setting%20a%20target%20variable.md)
+- [Setting a target variable](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Setting_a_target_variable.md)
 
 A  *variable* is a variable element in a text string that is given a value ( = that is expanded; of which the name is substituted by a value) at a later time than when the text string is declared.
 
-A  *target variable* is a text string that is expanded *after* it is handed to other environments than Development (the "targets"). The sole purpose of target variables is [configuration](/docs/Continuous%20delivery/Understanding%20USoft%20Delivery%20Manager/Release%20management%20Configure%20phase.md). They provide an optional way to tailor (configure) released deliverables to a specific target machine or target environment.
+A  *target variable* is a text string that is expanded *after* it is handed to other environments than Development (the "targets"). The sole purpose of target variables is [configuration](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_management_Configure_phase.md). They provide an optional way to tailor (configure) released deliverables to a specific target machine or target environment.
 
 Target variables may occur :
 

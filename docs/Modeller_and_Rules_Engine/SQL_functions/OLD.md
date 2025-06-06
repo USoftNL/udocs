@@ -8,7 +8,7 @@ id: OLD
 
 > [!NOTE]
 > This article has additional information about the **OLD** SQL function.
-> For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20NR.md).
+> For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
 
 ## **OLD**
 
@@ -24,4 +24,4 @@ OLD( *column* )
 > This function is legal only in the context of **constraint SQL** (for both table constraints and domain constraints).
 
 > [!TIP]
-> Go to [Transitional constraints](/docs/Modeller%20and%20Rules%20Engine/Constraints/Transitional%20constraints.md) to find out how the OLD function is used.
+> Go to [Transitional constraints](/docs/Modeller_and_Rules_Engine/Constraints/Transitional_constraints.md) to find out how the OLD function is used.

@@ -7,7 +7,7 @@ id: pcServiceList
 
 
 > [!NOTE]
-> This article is about the **pc:ServiceList**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:ServiceList**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:ServiceList**
 

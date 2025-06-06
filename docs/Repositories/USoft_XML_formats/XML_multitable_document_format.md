@@ -6,7 +6,7 @@ id: XML_multitable_document_format
 
 A **USoft XML multi-table document** is allowed to contain data from multiple tables.
 
-This document format is produced by calls to [XML.MultiExportTables](/docs/Extensions/XML%20internal%20component/XMLMultiExportTables.md) (except for the [usoft-xml processing instruction](/docs/Repositories/USoft%20XML%20formats/usoftxml%20processing%20instruction.md) at the top), and is re-importable by calling [XML.Import](/docs/Extensions/XML%20internal%20component/XMLImport.md).
+This document format is produced by calls to [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md) (except for the [usoft-xml processing instruction](/docs/Repositories/USoft_XML_formats/usoftxml_processing_instruction.md) at the top), and is re-importable by calling [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
 
 *Syntax*
 

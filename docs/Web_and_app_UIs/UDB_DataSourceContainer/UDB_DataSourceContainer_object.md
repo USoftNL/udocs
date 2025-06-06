@@ -1,7 +1,7 @@
 ---
 id: UDB_DataSourceContainer_object
+tags: [USoft11, USoft10]
 ---
-
 # UDB DataSourceContainer object
 
 
@@ -13,7 +13,7 @@ id: UDB_DataSourceContainer_object
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
@@ -21,7 +21,7 @@ id: UDB_DataSourceContainer_object
 
 > [!NOTE]
 > This article is about the **DataSourceContainer** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
-> This model is built around the [udb](/docs/Web%20and%20app%20UIs/UDB%20udb), [DataSourceMetaContainer](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer), DataSourceContainer, [Rowset](/docs/Web%20and%20app%20UIs/UDB%20Rowset), [Rows](/docs/Web%20and%20app%20UIs/UDB%20Rows), [ColsMeta](/docs/Web%20and%20app%20UIs/UDB%20ColsMeta), and [Cols](/docs/Web%20and%20app%20UIs/UDB%20Cols) object types. See also [UDB events](/docs/Web%20and%20app%20UIs/UDB%20Events).
+> This model is built around the [udb](/docs/Web_and_app_UIs/UDB_udb), [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), DataSourceContainer, [Rowset](/docs/Web_and_app_UIs/UDB_Rowset), [Rows](/docs/Web_and_app_UIs/UDB_Rows), [ColsMeta](/docs/Web_and_app_UIs/UDB_ColsMeta), and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
 
 A **DataSourceContainer** object contains one or more specified data sources.
 
@@ -31,7 +31,7 @@ A **DataSourceContainer** object contains one or more specified data sources.
 $.udb( *ds* )
 ```
 
-The optional *ds* is a [data source selector](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer/UDB%20DataSourceMetaContainer%20object.md). If you do not specify *ds,* all the data sources in scope are returned.
+The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md). If you do not specify *ds,* all the data sources in scope are returned.
 
 *Examples*
 
@@ -48,4 +48,4 @@ var dsc = $.udb(['EMP','DEPT']);
 ```
 
 > [!NOTE]
-> Alternatively, instead of using data source names, you can identify data sources by ID. Additionally, you can identify data sources with the help of data source paths, pages, frame controls, and meta-selectors. All the options explained for [$.udbMeta()](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer/UDB%20DataSourceMetaContainer%20object.md) also apply to **$.udb()**.
+> Alternatively, instead of using data source names, you can identify data sources by ID. Additionally, you can identify data sources with the help of data source paths, pages, frame controls, and meta-selectors. All the options explained for [$.udbMeta()](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md) also apply to **$.udb()**.

@@ -10,7 +10,7 @@ For each domain defined in your repository, an *internal domain component* is im
 
 Each internal domain component offers 1 method:
 
-[.CheckValue()](/docs/Extensions/Domain%20and%20table%20internal%20components/domainCheckValue.md)
+[.CheckValue()](/docs/Extensions/Domain_and_table_internal_components/domainCheckValue.md)
 
 ## Table internal components
 
@@ -21,6 +21,6 @@ For each database table defined in your repository, an *internal table component
 
 Each internal table component offers 2 methods:
 
-[.GetInitialData()](/docs/Extensions/Domain%20and%20table%20internal%20components/tableGetInitialData.md)
+[.GetInitialData()](/docs/Extensions/Domain_and_table_internal_components/tableGetInitialData.md)
 
-[.GetNextGeneratedUniqueValue()](/docs/Extensions/Domain%20and%20table%20internal%20components/tableGetNextGeneratedUniqueValue.md)
+[.GetNextGeneratedUniqueValue()](/docs/Extensions/Domain_and_table_internal_components/tableGetNextGeneratedUniqueValue.md)

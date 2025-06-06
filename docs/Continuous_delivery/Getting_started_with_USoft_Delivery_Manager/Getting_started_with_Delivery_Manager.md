@@ -7,7 +7,7 @@ id: Getting_started_with_Delivery_Manager
 Follow these steps to get started with Delivery Manager.
 
 > [!NOTE]
-> In this article, we will assume you plan to use Delivery Manager to release a product (Delivery Manager has many [additional purposes](/docs/Continuous%20delivery/Understanding%20USoft%20Delivery%20Manager/Introducing%20USoft%20Delivery%20Manager.md)). We will assume you already have a USoft application that you want to release. You already have a database account with USoft set up. You already have a USoft Binder file for access.
+> In this article, we will assume you plan to use Delivery Manager to release a product (Delivery Manager has many [additional purposes](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Introducing_USoft_Delivery_Manager.md)). We will assume you already have a USoft application that you want to release. You already have a database account with USoft set up. You already have a USoft Binder file for access.
 
 ### Step 1. Create a Delivery Manager repository
 

@@ -7,7 +7,7 @@ id: pcreturn
 
 
 > [!NOTE]
-> This article is about the **pc:return**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:return**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:return**
 

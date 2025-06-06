@@ -1,7 +1,7 @@
 ---
 id: udbdsrows
+tags: [USoft11, USoft10]
 ---
-
 # $.udb(ds).rows()
 
 
@@ -13,14 +13,14 @@ id: udbdsrows
 > [!CAUTION]
 > This article describes the USoft 10 product only.
 > In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web%20and%20app%20UIs/UDB%20udb/Revised%20web%20UI%20API%20in%20USoft%2011.md)
+> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 ----
 
 `USoft 10``{.vs_10}`
 
 > [!NOTE]
-> This article is about the **rows()** function of the [DataSourceContainer object](/docs/Web%20and%20app%20UIs/UDB%20DataSourceContainer).
+> This article is about the **rows()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
 
 ## **$.udb(ds).rows()**
 
@@ -39,7 +39,7 @@ $.udb( *ds* ).rows( *index*, *index* )
 $.udb( *ds* ).rows( *keyword*, *indicator* )
 ```
 
-The optional *ds* is a [data source selector](/docs/Web%20and%20app%20UIs/UDB%20DataSourceMetaContainer/UDB%20DataSourceMetaContainer%20object.md).
+The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 The optional *index, keyword, indicator* are *row selectors*. If you do not pass a row selector, all records in the data source are addressed. If you do pass a row selector, you either pass one or two *index* arguments or you pass a *keyword* argument that possibly requires an *indicator* argument.
 

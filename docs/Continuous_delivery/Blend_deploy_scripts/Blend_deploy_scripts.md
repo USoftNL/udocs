@@ -4,7 +4,7 @@ id: Blend_deploy_scripts
 
 # Blend deploy scripts
 
-Blend deploy scripts are just one application of the [USoft Blend scripting framework for repository management](/docs/Repositories/Blend%20scripts%20for%20repository%20management). They are an important reason why USoft supplies USoft Blend as a scripting framework.
+Blend deploy scripts are just one application of the [USoft Blend scripting framework for repository management](/docs/Repositories/Blend_scripts_for_repository_management). They are an important reason why USoft supplies USoft Blend as a scripting framework.
 
 ## Purpose of Blend deploy scripts
 
@@ -17,11 +17,11 @@ The purpose of Blend deploy scripts is twofold:
 
 USoft Delivery Manager suggests that you describe the conditions on target machines in a *registry* XML file. If you do that, Blend deploy scripts typically access the registry XML to find out what to do on a specific machine when they are run on that machine.
 
-A detailed explanation of configuration is [here](/docs/Continuous%20delivery/Understanding%20USoft%20Delivery%20Manager/Release%20management%20Configure%20phase.md).
+A detailed explanation of configuration is [here](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_management_Configure_phase.md).
 
 *Deployment* operations apply what is needed to get released deliverables to actually work. As one example, in the case of released flat files, deployment consists of moving or copying the flat file to the place in the file system where it is expected, and then restarting Rules Services so that they pick up the new version of the file. As another example, in the case of released XML data files, deployment consists typically of importing the data from the XML file into the target repository.
 
-A detailed explanation of deployment is [here](/docs/Continuous%20delivery/Understanding%20USoft%20Delivery%20Manager/Release%20management%20Deploy%20phase.md).
+A detailed explanation of deployment is [here](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_management_Deploy_phase.md).
 
 ## USoft Blend as a scripting tool
 
@@ -33,7 +33,7 @@ There are other technologies for scripting this. Some teams prefer MS PowerShell
 
 To work with Blend deploy scripts, you need to learn the USoft Blend scripting framework. This is easier if you know XSLT 1.0, which it is built on top of, but you can also start by playing with examples in Community articles, or with sample Blend deploy scripts that USoft supplies as part of the Delivery Manager tool.
 
-To learn USoft Blend, start [here](/docs/Repositories/Blend%20scripts%20for%20repository%20management/Learning%20USoft%20Blend%20for%20repository%20management.md).
+To learn USoft Blend, start [here](/docs/Repositories/Blend_scripts_for_repository_management/Learning_USoft_Blend_for_repository_management.md).
 
 ## Working with Blend deploy scripts
 
@@ -52,13 +52,13 @@ USoft suggests that as an attachment to your released deliverables:
 
 In Delivery Manager, choose Tools, Load Registry Samples from the menu. This loads one or more registry samples. You can now access and tweak the samples via Release, Registries in the menu.
 
-A detailed explanation of registries is [here](/docs/Continuous%20delivery/USoft%20Delivery%20Manager%20by%20concept/Registries%20in%20UDeliver.md).
+A detailed explanation of registries is [here](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Registries_in_UDeliver.md).
 
 ### Loading samples of Blend deploy scripts
 
 In Delivery Manager, choose Tools, Load Deploy Samples from the menu. This loads a collection of sample deploy scripts (one or more for each section of deliverables) into the Attachments table. You can access and tweak these examples via Release, Attachments in the menu.
 
-A detailed explanation of attachments is [here](/docs/Continuous%20delivery/USoft%20Delivery%20Manager%20by%20concept/Attachments%20in%20UDeliver.md).
+A detailed explanation of attachments is [here](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Attachments_in_UDeliver.md).
 
 ### Delivering Blend deploy scripts
 
@@ -73,4 +73,4 @@ You can run Blend deploy scripts from the command line on the target machine: de
 > *usoft-install-dir*\bin64\ublendit.exe *blend-script.xml*
 ```
 
-If you release a distinct deploy script for each section, as USoft suggests you do by default, then one requirement you may or may not have is to string together multiple deploy scripts so that they automatically run one after the other. You can achieve this with the **pc:call** directive. Look up directives in the [Blend reference section on developer.usoft.com](https://developer.usoft.com/documentation/100doc/bl_usoft-blend-scripting-framewor.htm).
+If you release a distinct deploy script for each section, as USoft suggests you do by default, then one requirement you may or may not have is to string together multiple deploy scripts so that they automatically run one after the other. You can achieve this with the **pc:call** directive. Look up directives in [Usoft Blend](/docs/Repositories/Blend_scripts_for_repository_management/Understanding_USoft_Blend.md).

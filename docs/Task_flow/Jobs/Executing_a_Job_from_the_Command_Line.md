@@ -30,4 +30,4 @@ In this example:
 
 ## Command line options for RUNBATCH.EXE
 
-Click [here](/docs/USoft%20for%20administrators/USoft%20command%20line%20syntax/runbatchexe.md) for command line options of the **runbatch.exe** command.
+Click [here](/docs/USoft_for_administrators/USoft_command_line_syntax/runbatchexe.md) for command line options of the **runbatch.exe** command.

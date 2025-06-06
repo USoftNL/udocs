@@ -8,7 +8,7 @@ id: INSTR
 
 > [!NOTE]
 > This article has additional information about the **INSTR** SQL function.
-> For convertibility of this function, go to [SQL functions  I - M](/docs/Modeller%20and%20Rules%20Engine/SQL%20functions/SQL%20functions%20IM.md).
+> For convertibility of this function, go to [SQL functions  I - M](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md).
 
 ## **INSTR**
 

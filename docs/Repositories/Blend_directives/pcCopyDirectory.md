@@ -7,7 +7,7 @@ id: pcCopyDirectory
 
 
 > [!NOTE]
-> This article is about the **pc:CopyDirectory**[ Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:CopyDirectory**[ Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:CopyDirectory**
 

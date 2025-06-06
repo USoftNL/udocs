@@ -7,13 +7,13 @@ id: USMetaColumns
 
 
 > [!NOTE]
-> This article is about the **Columns** method of the [USMeta internal component](/docs/Extensions/USMeta%20internal%20component).
+> This article is about the **Columns** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
 
 ## **USMeta.Columns**
 
 At runtime, gets metadata information about columns from the model developed in USoft Definer. For each retrieved table, this information takes the form of name/value pairs listed in the table below.
 
-In addition, as a nested child XML element, this method also delivers domain information as described in [USMeta.Domains](/docs/Extensions/USMeta%20internal%20component/USMetaDomains.md). This domain information takes the form of nested child XML elements,
+In addition, as a nested child XML element, this method also delivers domain information as described in [USMeta.Domains](/docs/Extensions/USMeta_internal_component/USMetaDomains.md). This domain information takes the form of nested child XML elements,
 
 Returns an XML document as demonstrated in Example 1 below.
 

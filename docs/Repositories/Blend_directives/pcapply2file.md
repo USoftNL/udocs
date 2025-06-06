@@ -7,7 +7,7 @@ id: pcapply2file
 
 
 > [!NOTE]
-> This article is about the **pc:apply2file** [Blend directive](/docs/Repositories/Blend%20directives).
+> This article is about the **pc:apply2file** [Blend directive](/docs/Repositories/Blend_directives).
 
 ## **pc:apply2file**
 

@@ -33,7 +33,7 @@ Each *json-table-section* is a property name-value pair. The name refers to a ta
 
 Each *row-section* is a collection of *column-sections.* 
 
-A *column-section* is a property name-value pair. The name corresponds to a column of the table. The value corresponds to the value stored in that column in the record represented by the *row-section.* A *column-section* can also be a *meta-instruction-property*. See [Meta-instruction properties in JSON](/docs/Repositories/USoft%20JSON%20format/Metainstruction%20properties%20in%20JSON.md)*.*
+A *column-section* is a property name-value pair. The name corresponds to a column of the table. The value corresponds to the value stored in that column in the record represented by the *row-section.* A *column-section* can also be a *meta-instruction-property*. See [Meta-instruction properties in JSON](/docs/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md)*.*
 
 *Table-name* and *column-name* are double-quoted as shown in the syntax block.
 

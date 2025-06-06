@@ -4,7 +4,7 @@ id: Translating_system_messages_and_application_strings
 
 # Translating system messages and application strings
 
-For a system language, regional separator symbols are settings that you can simply [define declaratively](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Localisation%20system%20languages%20translations%20and%20regional%20settings.md), but system messages and application strings are textual elements that you must ask a translator to provide.
+For a system language, regional separator symbols are settings that you can simply [define declaratively](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md), but system messages and application strings are textual elements that you must ask a translator to provide.
 
 > [!TIP]
 > USoft 10 and USoft 9.1 versions ship System Local Messages for the Dutch language. To use these, you need to load them. From the USoft Definer menu, choose Tools, Language, Load System Messages.
@@ -39,7 +39,7 @@ To define a translation for a USoft-shipped system message:
 
 1. If necessary, run the Load System Messages routine. Do this by choosing Tools, Language, Load System Messages from the USoft Definer menu. You only need to do this once, as an initial routine.
 
-2. Make sure the language that you want to define a translation for has been defined. Click [here](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Localisation%20system%20languages%20translations%20and%20regional%20settings.md) to find out how you define a system language in USoft.
+2. Make sure the language that you want to define a translation for has been defined. Click [here](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md) to find out how you define a system language in USoft.
 
 3. Open the System Messages window. Do this by choosing Tools, Language, System Messages from the USoft Definer menu.
 
@@ -74,7 +74,7 @@ Contrast this with:
 
 To define a translation for a user-defined system message:
 
-1. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Localisation%20system%20languages%20translations%20and%20regional%20settings.md) to find out how you define a system language in USoft.
+1. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md) to find out how you define a system language in USoft.
 
 2. Open the System Messages window. Do this by choosing Tools, Language, System Messages from the USoft Definer menu.
 
@@ -96,7 +96,7 @@ To define a translation for a USoft-shipped application string:
 
 1. If necessary, (re)run the Populate Application Strings routine. Do this by choosing Tools, Language, Populate Application Strings from the USoft Definer menu.
 
-2. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Localisation%20system%20languages%20translations%20and%20regional%20settings.md) to find out how you define a system language in USoft.
+2. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md) to find out how you define a system language in USoft.
 
 3. Open the Used Application Strings window. Do this by choosing Tools, Language, Used Application Strings from the USoft Definer menu.
 
@@ -142,7 +142,7 @@ To define a translation for a constraint message:
 
 1. If necessary, (re)run the Populate Application Strings routine. Do this by choosing Tools, Language, Populate Application Strings from the USoft Definer menu.
 
-2. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Localisation%20system%20languages%20translations%20and%20regional%20settings.md) to find out how you define a system language in USoft.
+2. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md) to find out how you define a system language in USoft.
 
 3. Open the Used Application Strings window. Do this by choosing Tools, Language, Used Application Strings from the USoft Definer menu.
 
@@ -177,7 +177,7 @@ A *user-defined application string* is a text element (other than a system messa
 
 To define a translation for a user-defined application string:
 
-1. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller%20and%20Rules%20Engine/Localising%20your%20application/Localisation%20system%20languages%20translations%20and%20regional%20settings.md) to find out how you define a system language in USoft.
+1. Make sure the language you want to define a translation for has been defined. Click [here](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md) to find out how you define a system language in USoft.
 
 2. Open the Used Application Strings window. Do this by choosing Tools, Language, Used Application Strings from the USoft Definer menu.
 

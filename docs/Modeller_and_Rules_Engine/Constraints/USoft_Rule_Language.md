@@ -13,7 +13,7 @@ This alternative is referred to as the **USoft Rule Language.** Its main purpose
 The USoft Rule Language is not available in other contexts than constraint SQL.
 
 > [!WARNING]
-> For this reason, the USoft Rules Language is not normally a good choice for professional applications. Developers cannot cut-and-paste constraint SQL to other contexts that expect SQL. Use [SQL syntax](/docs/Modeller%20and%20Rules%20Engine/SQL%20syntax) instead.
+> For this reason, the USoft Rules Language is not normally a good choice for professional applications. Developers cannot cut-and-paste constraint SQL to other contexts that expect SQL. Use [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) instead.
 
 When writing table constraints, you can choose between expressing the business logic in SQL syntax or in USoft Rule Language syntax. Both are entered in the same way and in the same place, on the Statement tab or edit area of the (Table) Constraints tab or Info Window. Both are treated similarly by the constraint checker. The result of the check is displayed as SQL on the read-only SQL Equivalent tab of the (Table) Constraints window. This is the code that is actually executed by the Rules Engine.
 

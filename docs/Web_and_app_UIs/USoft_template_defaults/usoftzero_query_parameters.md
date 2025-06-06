@@ -29,7 +29,7 @@ The following table shows 3 different ways to set or switch the application lang
 
 At development time, USoft Definer allows you to declare *extension properties* for your application. At runtime, in USoft Authorizer, for each extension property, you can assign a user-specific value for each runtime user.
 
-For details, see [Schemas and extension properties](/docs/Authorisation%20and%20access/Roles/Schemas%20and%20extension%20properties.md).
+For details, see [Schemas and extension properties](/docs/Authorisation_and_access/Roles/Schemas_and_extension_properties.md).
 
 Here is a quick way to create an extension property called "language” in USoft Definer:
 
@@ -65,7 +65,7 @@ This will only work if the browsed page does not take information from another p
 You are now ready to develop, test and debug the solution by browsing with option
 
 ```language-http
-?page=InfoPage_1%20PERSON
+?page=InfoPage_1_PERSON
 ```
 
 *Example*
@@ -73,7 +73,7 @@ You are now ready to develop, test and debug the solution by browsing with optio
 In this example, the default start page option is combined with the [auto login option]():
 
 ```language-http
-http://localhost:8096/myservice1/myconnection1/?autologin=TEST_USER_2&page=InfoPage_1%20PERSON
+http://localhost:8096/myservice1/myconnection1/?autologin=TEST_USER_2&page=InfoPage_1_PERSON
 ```
 
 ## Auto login

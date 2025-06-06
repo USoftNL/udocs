@@ -47,7 +47,7 @@ A Binder File has **items** listed in the central list view of USoft Binder. You
 
 The login name used to access the database where the USoft tables are stored.
 
-If **Owner** is left empty, **User** also specifies the *location* in the database where the USoft tables are stored. See [Owner](#Owner) for more details.
+If **Owner** is left empty, **User** also specifies the *location* in the database where the USoft tables are stored. See [Owner](#owner) for more details.
 
 On SQL Server, you can leave **User** empty if you want access with Windows Authentication.
 
@@ -103,7 +103,7 @@ myservername\SQLEXPRESS:USD100_TRAVEL
 ```
 
 > [!NOTE]
-> For more on database connect strings, go to [Connecting to the RDBMS](/docs/USoft%20for%20administrators/Installing%20USoft/Connecting%20to%20the%20RDBMS.md).
+> For more on database connect strings, go to [Connecting to the RDBMS](/docs/USoft_for_administrators/Installing_USoft/Connecting_to_the_RDBMS.md).
 
 ### Owner
 
@@ -113,7 +113,7 @@ The location in the database where the USoft tables are stored. At RDBMS level, 
 *owner*.*table*
 ```
 
-If you leave **Owner** empty, **Owner** is assumed to have the same value as [User](#User). If User is equally empty, Owner is assumed to be the Windows Authentication login name.
+If you leave **Owner** empty, **Owner** is assumed to have the same value as [User](#user). If User is equally empty, Owner is assumed to be the Windows Authentication login name.
 
 If you run USoft against Oracle, **Owner** is the schema name and also the name of the RDBMS user who owns the schema that contains the USoft tables (also referred to as *database account*). In Oracle, a schema name is identical to the name of the user who owns the schema.
 

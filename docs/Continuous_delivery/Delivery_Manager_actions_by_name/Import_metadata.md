@@ -7,7 +7,7 @@ id: Import_metadata
 
 
 > [!NOTE]
-> This article is about the **Import metadata**[Delivery Manager action](/docs/Continuous%20delivery/Delivery%20Manager%20actions%20by%20name).
+> This article is about the **Import metadata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 ## **Import metadata**
 
@@ -18,7 +18,7 @@ Typically the source file name is "*application*.USD.xml".
 During this import, constraints and relationship checks are deactivated if "Disable rules" = 'Y'.
 
 > [!TIP]
-> To understand and fix frequent problems with XML imports, read the [Known Problems section](/docs/Repositories/Data%20flow%20control%20with%20XML%20or%20JSON/XML%20import%20Known%20problems%20and%20workarounds.md) for the **XML.Import()** method.
+> To understand and fix frequent problems with XML imports, read the [Known Problems section](/docs/Repositories/Data_flow_control_with_XML_or_JSON/XML_import_Known_problems_and_workarounds.md) for the **XML.Import()** method.
 
 ### Parameters
 

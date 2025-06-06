@@ -7,7 +7,7 @@ id: booleanflagsShow
 
 
 > [!NOTE]
-> This article is about the **booleanflags:Show**[ Blend function](/docs/Repositories/Blend%20functions).
+> This article is about the **booleanflags:Show**[ Blend function](/docs/Repositories/Blend_functions).
 
 ## **booleanflags:Show**
 
