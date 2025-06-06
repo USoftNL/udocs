@@ -23,8 +23,12 @@ then, at the time when you have the component checked, extra methods are automat
 
 
 
-> [!TIP]
-> The PDF generator uses version 1.0.5 of the **Fonet.Standard** [Nuget](/docs/Extensions/DotNet_components/Nugets.md). This nuget version is installed automatically with USoft.
+
+:::tip
+
+The PDF generator uses version 1.0.5 of the **Fonet.Standard** [Nuget](/docs/Extensions/DotNet_components/Nugets.md). This nuget version is installed automatically with USoft.
+
+:::
 
 *Example*
 

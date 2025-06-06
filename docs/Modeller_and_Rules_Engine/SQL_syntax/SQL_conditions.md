@@ -6,8 +6,12 @@ id: SQL_conditions
 
 
 
-> [!NOTE]
-> This article is about **SQL conditions** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **SQL conditions** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **SQL conditions**
 

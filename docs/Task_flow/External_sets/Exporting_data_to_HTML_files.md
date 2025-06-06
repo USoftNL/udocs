@@ -55,8 +55,12 @@ The layout style is the way in which the data will be displayed by the browser. 
 - Rick O'Sullivan
 - Christine Villery
 
-> [!NOTE]
-> You can use more than one layout style for different sets in the same export task.
+
+:::note
+
+You can use more than one layout style for different sets in the same export task.
+
+:::
 
  
 
@@ -122,8 +126,12 @@ Clicking an entry in the tree for which there is data results in the child data 
 
  
 
-> [!NOTE]
-> To use the Tree View, you must view the results using Internet Explorer (or another browser that supports ActiveX controls).
+
+:::note
+
+To use the Tree View, you must view the results using Internet Explorer (or another browser that supports ActiveX controls).
+
+:::
 
  
 

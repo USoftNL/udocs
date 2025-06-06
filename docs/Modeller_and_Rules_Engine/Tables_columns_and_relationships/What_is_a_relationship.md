@@ -16,8 +16,12 @@ Each individual person who places an order is an instance of the Customer entity
 
 ![](./assets/f3348296-8f1e-4c67-99ff-3cc8f67e5338.png)
 
-> [!TIP]
-> Near-synonyms of **relationship** from other modelling techniques include **binary verb concepts** (SBVR), **associations** (object-oriented modelling), **fact types** (logic), **relations** (Entity-Attribute-Relation modelling).
+
+:::tip
+
+Near-synonyms of **relationship** from other modelling techniques include **binary verb concepts** (SBVR), **associations** (object-oriented modelling), **fact types** (logic), **relations** (Entity-Attribute-Relation modelling).
+
+:::
 
 ### Relationships implement connections
 

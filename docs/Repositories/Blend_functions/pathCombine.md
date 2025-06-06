@@ -6,8 +6,12 @@ id: pathCombine
 
 
 
-> [!NOTE]
-> This article is about the **path:Combine**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **path:Combine**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **path:Combine**
 
@@ -31,9 +35,13 @@ path:Combine( *folderpath* [, ... ], *path* )
 
 This function is guaranteed to combine expressions in such a way that the result has exactly 1 backslash character between each step in the folderpath and the next.
 
-> [!TIP]
-> For a full list of Blend functions in the area of path manipulation, use this command line:
-> **usoft-install-dir\\bin64\\ublendit.exe functions ns=path**
+
+:::tip
+
+For a full list of Blend functions in the area of path manipulation, use this command line:
+**usoft-install-dir\\bin64\\ublendit.exe functions ns=path**
+
+:::
 
 *Example*
 

@@ -6,9 +6,13 @@ id: OLD
 
 
 
-> [!NOTE]
-> This article has additional information about the **OLD** SQL function.
-> For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
+
+:::note
+
+This article has additional information about the **OLD** SQL function.
+For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
+
+:::
 
 ## **OLD**
 
@@ -20,8 +24,16 @@ This function must be passed exactly 1 argument, which must identify a column:
 OLD( *column* )
 ```
 
-> [!WARNING]
-> This function is legal only in the context of **constraint SQL** (for both table constraints and domain constraints).
 
-> [!TIP]
-> Go to [Transitional constraints](/docs/Modeller_and_Rules_Engine/Constraints/Transitional_constraints.md) to find out how the OLD function is used.
+:::warning
+
+This function is legal only in the context of **constraint SQL** (for both table constraints and domain constraints).
+
+:::
+
+
+:::tip
+
+Go to [Transitional constraints](/docs/Modeller_and_Rules_Engine/Constraints/Transitional_constraints.md) to find out how the OLD function is used.
+
+:::

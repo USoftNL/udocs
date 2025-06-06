@@ -28,8 +28,12 @@ Refer to the USoft Remote Rules Service API Help for more information.
 
  
 
-> [!NOTE]
-> The Microsoft Data Access Components (MDAC) are also installed with the installation of MTS.
+
+:::note
+
+The Microsoft Data Access Components (MDAC) are also installed with the installation of MTS.
+
+:::
 
  
 
@@ -57,5 +61,9 @@ You can use Visual Basic or C++ for the Bank Sample Application. Visual J++ is c
 
  
 
-> [!NOTE]
-> The Visual Basic component was written so that when a credit or a debit fails, it is assumed that the ACCOUNT table does not exist and an attempt is made to create the table. As creation of tables is not allowed with the USoft Remote Rules Service API (only data manipulations), this will fail. Thus, when crediting an account with an amount of money between $300 and $500, the error message will not display the Credit Rule error but a syntax error. The component written with C++ does not try to create the table and will, therefore, show the correct error message.
+
+:::note
+
+The Visual Basic component was written so that when a credit or a debit fails, it is assumed that the ACCOUNT table does not exist and an attempt is made to create the table. As creation of tables is not allowed with the USoft Remote Rules Service API (only data manipulations), this will fail. Thus, when crediting an account with an amount of money between $300 and $500, the error message will not display the Credit Rule error but a syntax error. The component written with C++ does not try to create the table and will, therefore, show the correct error message.
+
+:::

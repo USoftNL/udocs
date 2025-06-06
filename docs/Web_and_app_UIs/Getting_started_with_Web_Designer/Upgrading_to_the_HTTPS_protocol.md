@@ -12,8 +12,12 @@ This is a follow-on from the previous step-by-step scenario "Getting Started wit
 C:\USoft\servers\certificates\MyCertificate.pfx
 ```
 
-> [!CAUTION]
-> Place the **.pfx** certificate file in a location that is not accessible from the Internet, especially not through the URLs associated with your solution.
+
+:::danger
+
+Place the **.pfx** certificate file in a location that is not accessible from the Internet, especially not through the URLs associated with your solution.
+
+:::
 
 2. In Service Definer, in the Servers window, retrieve the record for the Server you are using.
 
@@ -25,8 +29,12 @@ C:\USoft\servers\certificates\MyCertificate.pfx
 C:\USoft\servers\certificates\MyCertificate.pfx
 ```
 
-> [!TIP]
-> To browse the file, click the "Certificate File Dialog..." button.
+
+:::tip
+
+To browse the file, click the "Certificate File Dialog..." button.
+
+:::
 
 5. In the "Key Store Password" field, type the password stored in the certificate file. Save work.
 

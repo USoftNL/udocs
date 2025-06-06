@@ -8,8 +8,12 @@ id: JSONMultiExportTables
 
 
 
-> [!NOTE]
-> This article is about the **MultiExportTables** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
+
+:::note
+
+This article is about the **MultiExportTables** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
+
+:::
 
 ## **JSON.MultiExportTables**
 
@@ -25,8 +29,12 @@ Exports binary data (of the BLOB data type) to base64 encoding.
 
 ----
 
-> [!TIP]
-> Subtype indicators are not exported. See also the RestrictiveSupertypeListing parameter in this help topic.
+
+:::tip
+
+Subtype indicators are not exported. See also the RestrictiveSupertypeListing parameter in this help topic.
+
+:::
 
 *Syntax*
 

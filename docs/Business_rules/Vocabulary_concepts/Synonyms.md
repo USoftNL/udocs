@@ -4,8 +4,12 @@ id: Synonyms
 
 # Synonyms
 
-> [!NOTE]
-> **See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
+
+:::note
+
+**See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
+
+:::
 
  
 
@@ -59,5 +63,9 @@ You can also have abbreviations for regular noun concepts:
 
 ![](./assets/087b50e6-a3ca-47b4-acc1-363ac9cf6a12.png)
 
-> [!TIP]
-> These two examples show that USoft Studio automatically applies the same underlining (single or double) to the abbreviation as it does to the written-out concept.
+
+:::tip
+
+These two examples show that USoft Studio automatically applies the same underlining (single or double) to the abbreviation as it does to the written-out concept.
+
+:::

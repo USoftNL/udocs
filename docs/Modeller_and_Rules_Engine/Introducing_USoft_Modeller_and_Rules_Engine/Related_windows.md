@@ -17,7 +17,11 @@ To open a Related Window:
 Related List icon> [!TIP]
 > In the Related Windows List, the user may also double-click on an option. Double-clicking or pressing the Open button will cause the Related Windows List to remain on the screen until the user closes it. Pressing OK (as in Step 4 above) will cause the Related Windows List to close.
 
-> [!TIP]
-> If there are more options than will fit in the default size of the Related Windows List, a More option is added. Clicking this option will display the entire Related Windows List.
+
+:::tip
+
+If there are more options than will fit in the default size of the Related Windows List, a More option is added. Clicking this option will display the entire Related Windows List.
+
+:::
 
  

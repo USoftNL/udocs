@@ -47,8 +47,12 @@ ColB IS 'N'
 
 is a postcondition.
 
-> [!NOTE]
-> In SQL, you can write more than one SET statement using commas as separators as in the example, but you can use the following construct against Oracle only:
+
+:::note
+
+In SQL, you can write more than one SET statement using commas as separators as in the example, but you can use the following construct against Oracle only:
+
+:::
 
 ```
 ...SET (ColA, ColB) = (<Expr>,<Expr>)

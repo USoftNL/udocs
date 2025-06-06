@@ -50,8 +50,12 @@ If you access from USoft Binder, you log on by filling out the Front-End User an
 
 If you access from the command line, you log on by providing the username/password combination at the **-fu** and **-fpw** switches. For successful access, you also need to specify the RDBMS username/password at the -**u** and **-pw** switches.
 
-> [!NOTE]
-> Prefer USoft Hashed for security reasons, except when you are in a secure internal (testing, debugging) environment and you benefit from having human-readable passwords.
+
+:::note
+
+Prefer USoft Hashed for security reasons, except when you are in a secure internal (testing, debugging) environment and you benefit from having human-readable passwords.
+
+:::
 
 ### Authenticated by the OS: Single sign-on (Windows Authentication)
 
@@ -71,8 +75,12 @@ If you access from USoft Binder, you log on by setting the Front-End User name t
 
 If you access from the command line, you log on by omitting the **-fu** and **-fpw** switches. You do need to provide the **-u** and **-pw** switches for database access. If this database **-u/-pw** combination is registered in Authorizer, this database user will be set as the active application user. Otherwise, the application will check if the Windows user is available as a SSO (Single Sign-On) user. If so, it will set this SSO user as the active application user.
 
-> [!WARNING]
-> If you access by specifying RDBMS user and password, and that user is registered in USoft Authorizer as RDBMS user, then you will be logged on as the RDBMS user, even if Windows authentication has also been set for you.
+
+:::warning
+
+If you access by specifying RDBMS user and password, and that user is registered in USoft Authorizer as RDBMS user, then you will be logged on as the RDBMS user, even if Windows authentication has also been set for you.
+
+:::
 
 ### Authenticated by the RDBMS
 
@@ -92,8 +100,12 @@ If you access from USoft Binder, you log on by typing the User and Password in t
 
 If you access from the command line, you do this by providing username and password at the **-u** and **-pw** switches and leaving -**fu** and **-fpw** empty.
 
-> [!TIP]
-> This RDBMS account may be the underlying account that your USoft application uses for all database access, or it may be the RDBMS account of some RDBMS user other than the owner of the USoft tables. In the latter case, this other RDBMS user has access to the USoft tables through explicit GRANT statements having been made.
+
+:::tip
+
+This RDBMS account may be the underlying account that your USoft application uses for all database access, or it may be the RDBMS account of some RDBMS user other than the owner of the USoft tables. In the latter case, this other RDBMS user has access to the USoft tables through explicit GRANT statements having been made.
+
+:::
 
 ### Disabling front-end user access
 

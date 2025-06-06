@@ -6,8 +6,12 @@ tags: [USoft10]
 
 `USoft 10``{.vs_10}`
 
-> [!WARNING]
-> This article is only for USoft 10. In USoft 11, cache refresh is fully automated and cannot be set.
+
+:::warning
+
+This article is only for USoft 10. In USoft 11, cache refresh is fully automated and cannot be set.
+
+:::
 
 ## **RulesEngine.RefreshAuthorization**
 

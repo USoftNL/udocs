@@ -6,8 +6,12 @@ id: Import_appdata
 
 
 
-> [!NOTE]
-> This article is about the **Import appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Import appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Import appdata**
 
@@ -19,8 +23,12 @@ During this import, constraints and relationship checks are deactivated if "Disa
 
 The input file may have been produced by running any of the following routines: "Export deliverable appdata", "Export all appdata", or "Release deliverable appdata".
 
-> [!TIP]
-> To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::tip
+
+To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::
 
 ### Parameters
 

@@ -26,10 +26,14 @@ A bootstrap problem would occur if nobody had the right to create tables in whic
 - The application is not registered in T_AUTH_APPLICATION, and:
 - There is no user with DDL rights.
 
-> [!NOTE]
-> In USoft 10 and earlier, all users always have all DDL rights.
-> In USoft 11, the default ADMIN role has DDL rights.
-> In USoft 11, you can no longer change the rights of the default ADMIN role itself. You can revoke DDL rights from users by creating new roles that do not have DDL rights and then assigning users to them.
+
+:::note
+
+In USoft 10 and earlier, all users always have all DDL rights.
+In USoft 11, the default ADMIN role has DDL rights.
+In USoft 11, you can no longer change the rights of the default ADMIN role itself. You can revoke DDL rights from users by creating new roles that do not have DDL rights and then assigning users to them.
+
+:::
 
 ## DDL Foreground scope
 
@@ -43,8 +47,12 @@ In DDL rights, **foreground scope** has the following meaning:
 
 ## DDL Background scope
 
-> [!WARNING]
-> Do not set DDL Scope to "Background only”. Prefer DDL Scope = None. Because running "Create Tables” in the background is currently not an option in USoft, the two settings amount to the same thing.
+
+:::warning
+
+Do not set DDL Scope to "Background only”. Prefer DDL Scope = None. Because running "Create Tables” in the background is currently not an option in USoft, the two settings amount to the same thing.
+
+:::
 
 In DDL rights, **background scope** has the following meaning:
 

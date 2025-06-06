@@ -6,8 +6,12 @@ id: pcprocessinginstruction
 
 
 
-> [!NOTE]
-> This article is about the **pc:processing-instruction**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:processing-instruction**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:processing-instruction**
 

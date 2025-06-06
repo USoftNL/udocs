@@ -6,8 +6,12 @@ id: Pseudocolumns
 
 
 
-> [!NOTE]
-> This article is about **pseudo-columns** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **pseudo-columns** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Pseudo-columns**
 

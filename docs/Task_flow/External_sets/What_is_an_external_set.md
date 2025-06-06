@@ -44,8 +44,12 @@ If you are writing a SQL statement, it is best to use aliases to label output ex
 - In the Element Name field, you have a unique name for the element.
 - In the Data Type field, you have selected a data type supported by your RDBMS (use the lookup button to select).
 
-> [!NOTE]
-> Binary data types like the BLOB data type cannot be exported or imported.
+
+:::note
+
+Binary data types like the BLOB data type cannot be exported or imported.
+
+:::
 
 - In the Length or Format fields, specify either the length, or the format of the element.
 - If the element itself is a set, click the Child Set lookup button and select an item from the list that appears.

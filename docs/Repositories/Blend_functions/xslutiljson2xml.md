@@ -6,8 +6,12 @@ id: xslutiljson2xml
 
 
 
-> [!NOTE]
-> This article is about the **xslutil:json2xml**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **xslutil:json2xml**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **xslutil:json2xml**
 
@@ -36,8 +40,12 @@ Pass the required *json* input code:
 - As a *filepath* if you want the JSON input to be read from the file pointed at. **See Example 1.**
 - As an *xpath* expression if  you want to pass the JSON input inline (that is, inside the Blend script). **See Example 2.**
 
-> [!TIP]
-> To convert JSON to XML, prefer the [pc:assign-nodeset-from-json](/docs/Repositories/Blend_directives/pcassignnodesetfromjson.md) directive, which stores the XML result in a nodeset variable for further processing.
+
+:::tip
+
+To convert JSON to XML, prefer the [pc:assign-nodeset-from-json](/docs/Repositories/Blend_directives/pcassignnodesetfromjson.md) directive, which stores the XML result in a nodeset variable for further processing.
+
+:::
 
 *Example 1*
 

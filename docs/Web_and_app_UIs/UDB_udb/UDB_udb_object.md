@@ -10,18 +10,26 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **udb** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
-> This model is built around the udb, [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), [Rowset](/docs/Web_and_app_UIs/UDB_Rowset), [Rows](/docs/Web_and_app_UIs/UDB_Rows), [ColsMeta](/docs/Web_and_app_UIs/UDB_ColsMeta), and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **udb** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
+This model is built around the udb, [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), [Rowset](/docs/Web_and_app_UIs/UDB_Rowset), [Rows](/docs/Web_and_app_UIs/UDB_Rows), [ColsMeta](/docs/Web_and_app_UIs/UDB_ColsMeta), and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 The **udb** object is the top-level object of the UDB library, a library of JavaScript extensions for customising web pages built in USoft Web Designer. This library is an extension of jQuery. The runtime implementation of the UDB layer is in a file named "usoft.db.js".
 
@@ -33,8 +41,12 @@ $.udb
 
 This establishes the library as a jQuery-like plug-in, since the $ sign identifies the jQuery library and offers access to it.
 
-> [!TIP]
-> In addition to the functions listed specifically for the **udb** object, the object equally exposes all the functions listed for the udbMeta object
+
+:::tip
+
+In addition to the functions listed specifically for the **udb** object, the object equally exposes all the functions listed for the udbMeta object
+
+:::
 
 *Examples*
 

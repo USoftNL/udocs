@@ -6,8 +6,12 @@ id: USFormatLongToChar
 
 
 
-> [!NOTE]
-> This article is about the **LongToChar** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
+
+:::note
+
+This article is about the **LongToChar** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
+
+:::
 
 ## **USFormat.LongToChar**
 

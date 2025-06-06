@@ -6,8 +6,12 @@ id: DdeRequest
 
 
 
-> [!NOTE]
-> This article is about the **DdeRequest** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **DdeRequest** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **DdeRequest()**
 
@@ -29,5 +33,9 @@ DdeRequest( *service*, *topic*, *item*, *format*, *resource* )
 
 *Resource* is the resource that is set to the retrieved value.
 
-> [!TIP]
-> This action will not report that mandatory parameters are missing.
+
+:::tip
+
+This action will not report that mandatory parameters are missing.
+
+:::

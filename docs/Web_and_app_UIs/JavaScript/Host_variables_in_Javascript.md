@@ -15,8 +15,12 @@ Use the **$.udb.hostvars** object ONLY if you are not scripting a $.udb function
 
 The **$.udb.hostvars** object is for holding temporary host variables (ie., variables with one-time use) that have literal values. This object can be used in a SQL query triggered by an event that is fired after the value is set. That event can contain the **ExecuteSQLStatement** action, or any other action that queries data sources with host variable placeholders.
 
-> [!NOTE]
-> You can also set host variables on the [beforeexecutequery](/docs/Web_and_app_UIs/UDB_Events/beforeexecutequery.md) event of data sources.
+
+:::note
+
+You can also set host variables on the [beforeexecutequery](/docs/Web_and_app_UIs/UDB_Events/beforeexecutequery.md) event of data sources.
+
+:::
 
 The object structure is of a structure of the form:
 
@@ -26,8 +30,12 @@ The object structure is of a structure of the form:
 
 where *name* is the name of a host variable used in the SELECT or WHERE clauses of a data source, and *value* is a literal value that is substituted for this host variable. *Value* is typed either as a numeric value, in which case it is unquoted, or as a string value, in which cases it is quoted.
 
-> [!NOTE]
-> *Name* is typed as a string. *Name* must be surrounded by single or double quotes if it contains one or more spaces. If not, the quotes are optional. JSON prescribes double quotes.
+
+:::note
+
+*Name* is typed as a string. *Name* must be surrounded by single or double quotes if it contains one or more spaces. If not, the quotes are optional. JSON prescribes double quotes.
+
+:::
 
 *Example 1*
 

@@ -6,8 +6,12 @@ id: ROLLBACK
 
 
 
-> [!NOTE]
-> This article is about the **ROLLBACK** statement as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about the **ROLLBACK** statement as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **ROLLBACK**
 

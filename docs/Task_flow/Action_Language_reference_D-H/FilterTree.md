@@ -6,8 +6,12 @@ id: FilterTree
 
 
 
-> [!NOTE]
-> This article is about the **FilterTree** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **FilterTree** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **FilterTree()**
 
@@ -34,8 +38,12 @@ The optional *search-string* is a character string. If *search-string* is passed
 Tab_1.Page_1.My_Tree_View.FilterTree(Tab_1.Page_1.Variables.My_Search_Box())
 ```
 
-> [!NOTE]
-> A step-by-step instruction of how to create a seach facility for a tree view is [here]().
+
+:::note
+
+A step-by-step instruction of how to create a seach facility for a tree view is [here]().
+
+:::
 
 *Exposed by*
 

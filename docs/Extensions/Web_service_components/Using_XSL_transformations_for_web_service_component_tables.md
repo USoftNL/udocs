@@ -20,8 +20,12 @@ WHERE    *column* = *value* AND ...
 
 3. Next, USoft performs an XSL transformation to translate this USoft component table XML format into the XML format that the web service requires. You have to define the XSL transformation used for this action.
 
-> [!NOTE]
-> You can define this XSL transformation in the Input XSL field in the last page of the New Web Service Component Wizard. This can be an URL, a location on the disk, or just a plain XSL string.
+
+:::note
+
+You can define this XSL transformation in the Input XSL field in the last page of the New Web Service Component Wizard. This can be an URL, a location on the disk, or just a plain XSL string.
+
+:::
 
 4. Next, USoft calls the web service using the XML produced by the XSL transformation.
 
@@ -31,11 +35,19 @@ WHERE    *column* = *value* AND ...
 
  
 
-> [!NOTE]
-> If you have simple type input parameters for an RPC-oriented method, then you do not need the Input XSL and steps 2) and 3) are skipped.
 
-> [!NOTE]
-> If you do not want to transform the input and no input XSL is provided, then steps 2) and 3) are skipped.
+:::note
+
+If you have simple type input parameters for an RPC-oriented method, then you do not need the Input XSL and steps 2) and 3) are skipped.
+
+:::
+
+
+:::note
+
+If you do not want to transform the input and no input XSL is provided, then steps 2) and 3) are skipped.
+
+:::
 
  
 

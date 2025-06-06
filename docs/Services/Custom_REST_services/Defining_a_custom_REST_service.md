@@ -20,8 +20,12 @@ To define a REST service of a non-predefined type:
 
 3. If you want to use the ready-made USoft-shipped default for non-predefined services, click the lookup button at the Functional Type field and select '**USoft REST Default Provider**'**.**
 
-> [!NOTE]
-> Alternatively, if you want to use an existing Java class of your own, read the note at the end of this section.
+
+:::note
+
+Alternatively, if you want to use an existing Java class of your own, read the note at the end of this section.
+
+:::
 
 4. Save work. Defaults are generated for Package and for Relative URI Path. Change these if appropriate.
 
@@ -29,8 +33,12 @@ To define a REST service of a non-predefined type:
 
 This causes the 'mycustomservice' REST Service to get the Correct = Yes setting.
 
-> [!NOTE]
-> To use an existing Java super class, base class or interface, declare that Java package by creating a record in table T_SVC_SUPER_CLASS. To do this, choose View, Objects from the menu, click on "SVC Super Classes" and fill out the form, taking USoft-shipped entries as an example. Enter a Functional Name as a unique handle for the code. Enter a Description and set Used for Class Type = REST Service. Save. You can now use the Functional Name when you select a functional type in Step 3.
+
+:::note
+
+To use an existing Java super class, base class or interface, declare that Java package by creating a record in table T_SVC_SUPER_CLASS. To do this, choose View, Objects from the menu, click on "SVC Super Classes" and fill out the form, taking USoft-shipped entries as an example. Enter a Functional Name as a unique handle for the code. Enter a Description and set Used for Class Type = REST Service. Save. You can now use the Functional Name when you select a functional type in Step 3.
+
+:::
 
 ### Associating your REST service with a server
 
@@ -44,8 +52,12 @@ The "REST Services" window or tab appears.
 
 3. When you have that REST service in view, click the Servers tab and specify the server where you want to publish the REST service, for example, the default server called 'Default'**.**
 
-> [!TIP]
-> Get a list of available servers by pressing, in the Servers tab, the F12 key.
+
+:::tip
+
+Get a list of available servers by pressing, in the Servers tab, the F12 key.
+
+:::
 
 4. Save.
 
@@ -75,8 +87,12 @@ The Servers window or tab appears.
 
 5. Start the Server. Do this by choosing Actions, Start from the menu or by clicking the Start icon in the icon ribbon.
 
-> [!TIP]
-> You can wrap Steps 3, 4 and 5 into one by choosing Publish, Publish and Restart from the menu or by clicking the "Publish and Restart" icon on the icon ribbon.
+
+:::tip
+
+You can wrap Steps 3, 4 and 5 into one by choosing Publish, Publish and Restart from the menu or by clicking the "Publish and Restart" icon on the icon ribbon.
+
+:::
 
 ### Setting up a test app in POSTMAN
 

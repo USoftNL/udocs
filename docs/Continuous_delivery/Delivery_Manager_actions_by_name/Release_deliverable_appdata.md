@@ -6,8 +6,12 @@ id: Release_deliverable_appdata
 
 
 
-> [!NOTE]
-> This article is about the **Release deliverable appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Release deliverable appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Release deliverable appdata**
 

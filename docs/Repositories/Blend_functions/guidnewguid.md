@@ -6,8 +6,12 @@ id: guidnewguid
 
 
 
-> [!NOTE]
-> This article is about the **guid:newguid**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **guid:newguid**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **guid:newguid**
 

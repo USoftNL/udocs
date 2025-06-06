@@ -6,17 +6,25 @@ id: tableGetInitialData
 
 
 
-> [!NOTE]
-> This article is about the **table.GetInitialData** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
-> **See also**
-> [Initial Data]()
+
+:::note
+
+This article is about the **table.GetInitialData** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
+**See also**
+[Initial Data]()
+
+:::
 
 ## **table.GetInitialData**
 
 Returns the [initial data]() defined for table *table*.
 
-> [!WARNING]
-> By default, a table does not have initial data. In practice, most tables do not have initial data.
+
+:::warning
+
+By default, a table does not have initial data. In practice, most tables do not have initial data.
+
+:::
 
 *Syntax 1*
 

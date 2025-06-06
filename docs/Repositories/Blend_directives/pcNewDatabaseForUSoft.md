@@ -6,8 +6,12 @@ id: pcNewDatabaseForUSoft
 
 
 
-> [!NOTE]
-> This article is about the **pc:NewDatabaseForUSoft**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:NewDatabaseForUSoft**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:NewDatabaseForUSoft**
 
@@ -15,8 +19,12 @@ Creates a database in which you can create or load a USoft application. In Oracl
 
 There is no return value.
 
-> [!NOTE]
-> This directive is the reverse of pc:DropDatabase executed with the droplogin="yes" option.
+
+:::note
+
+This directive is the reverse of pc:DropDatabase executed with the droplogin="yes" option.
+
+:::
 
 This directive is interpreted differently for Oracle than for SQL Server.
 

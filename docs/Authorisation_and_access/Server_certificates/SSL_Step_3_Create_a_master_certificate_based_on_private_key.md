@@ -14,8 +14,12 @@ In the DOS window, type:
 
 **openssl req -new -x509 -days 365 -key usoftca.key -out usoftca.cer -config openssl.cfg**
 
-> [!NOTE]
-> You must use the filenames specified in these examples.
+
+:::note
+
+You must use the filenames specified in these examples.
+
+:::
 
  
 

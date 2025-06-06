@@ -50,8 +50,12 @@ Here is the preferred way of creating navigable formulations in USoft 11.
 
 USoft recommends you use a single USoft Studio vocabulary in any one instance of USoft Definer 11. Edit the formulations in USoft Studio and re-import them into USoft Definer as often as necessary to keep the 2 tools conveniently in sync.
 
-> [!TIP]
-> To view or change the URL by which USoft makes the formulations navigable, choose Teamwork, Preparation, Vocabularies. See that the Studio-Definer bridge has created a Vocabulary record for your import. This Vocabulary contains a URL that is used each time a developer clicks on a coloured hyperlink in an imported formulation.
+
+:::tip
+
+To view or change the URL by which USoft makes the formulations navigable, choose Teamwork, Preparation, Vocabularies. See that the Studio-Definer bridge has created a Vocabulary record for your import. This Vocabulary contains a URL that is used each time a developer clicks on a coloured hyperlink in an imported formulation.
+
+:::
 
 ## Preserving earlier Business Rules in a backup vocabulary
 

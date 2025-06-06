@@ -10,8 +10,12 @@ id: How_to_define_a_web_service_and_its_methods
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----
@@ -137,8 +141,12 @@ In the Web Services (Provider) window, you need to define certain additional set
 
  
 
-> [!NOTE]
-> USoft supports both both SOAP 1.1 and SOAP 1.2 protocols for web service providers. Note, however, that SOAP 1.2 is only supported for document oriented methods.
+
+:::note
+
+USoft supports both both SOAP 1.1 and SOAP 1.2 protocols for web service providers. Note, however, that SOAP 1.2 is only supported for document oriented methods.
+
+:::
 
 ## Generated files
 
@@ -167,8 +175,12 @@ The settings stored in the "web.config" file are key-value combinations:
 
  
 
-> [!NOTE]
-> If no User/Password keys are used, the service uses basic authentication to login to the rules service. That means that the user name and password passed by the client via an HTTP Authorization header are used to connect to the rules service.
+
+:::note
+
+If no User/Password keys are used, the service uses basic authentication to login to the rules service. That means that the user name and password passed by the client via an HTTP Authorization header are used to connect to the rules service.
+
+:::
 
 ## The WSDL document
 

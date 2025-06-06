@@ -39,8 +39,12 @@ A *column-section* is a property name-value pair. The name corresponds to a colu
 
 *Column-value* is double-quoted in the case of a string value or date value, unquoted in the case of a number value, or (in the case of a NULL value) either the JSON **null** keyword or a double-quoted empty value.
 
-> [!TIP]
-> Because USoft converts incoming empty strings to the NULL value for all datatypes, you can import a double-quoted empty value. This has the same effect as importing the **null** value.
+
+:::tip
+
+Because USoft converts incoming empty strings to the NULL value for all datatypes, you can import a double-quoted empty value. This has the same effect as importing the **null** value.
+
+:::
 
 *Example*
 

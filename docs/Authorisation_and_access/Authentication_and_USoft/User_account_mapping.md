@@ -14,5 +14,9 @@ In the example, User 1 and User2 may have different rights by assigning them to 
 
 A Mapped Account can be mapped onto another Mapped Account. The purpose of this is to allow accounts to stay mapped regardless of how the Validation Agent of the underlying account may change in time.
 
-> [!NOTE]
-> If an account that is used in a mapping has its name changed or is deleted, subsequent logon attempts for the mapped accounts will fail. For example, if User2 is a mapped account on User1 and User1 is validated with validation agent "USoft", User2 can log on using the password set for User1. Changing User1 to use User3 will allow User3 to log on with the password originally set for User1 but User2 will no longer be able to log on.
+
+:::note
+
+If an account that is used in a mapping has its name changed or is deleted, subsequent logon attempts for the mapped accounts will fail. For example, if User2 is a mapped account on User1 and User1 is validated with validation agent "USoft", User2 can log on using the password set for User1. Changing User1 to use User3 will allow User3 to log on with the password originally set for User1 but User2 will no longer be able to log on.
+
+:::

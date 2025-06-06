@@ -10,11 +10,19 @@ Unlike [multi-table XML documents](/docs/Repositories/USoft_XML_formats/XML_mult
 
 A compound column expression must be accompanied by an alias. See the Unique Aliases section later in this article.
 
-> [!TIP]
-> This document format is produced by calls to [XML.SQLExport](/docs/Extensions/XML_internal_component/XMLSQLExport.md) and [XML.SQLStatementExport](/docs/Extensions/XML_internal_component/XMLSQLStatementExport.md).
 
-> [!CAUTION]
-> This document format is not re-importable by calling [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
+:::tip
+
+This document format is produced by calls to [XML.SQLExport](/docs/Extensions/XML_internal_component/XMLSQLExport.md) and [XML.SQLStatementExport](/docs/Extensions/XML_internal_component/XMLSQLStatementExport.md).
+
+:::
+
+
+:::danger
+
+This document format is not re-importable by calling [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
+
+:::
 
 *Syntax*
  

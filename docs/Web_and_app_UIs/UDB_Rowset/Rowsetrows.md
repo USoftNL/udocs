@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **rows()** function of the [Rowset object](/docs/Web_and_app_UIs/UDB_Rowset/UDB_Rowset_object.md).
+
+:::note
+
+This article is about the **rows()** function of the [Rowset object](/docs/Web_and_app_UIs/UDB_Rowset/UDB_Rowset_object.md).
+
+:::
 
 ## **Rowset.rows()**
 
@@ -47,8 +55,12 @@ Index values are integers or arrays used to identify records in the data source:
 - If you pass two integer values, the records corresponding to the first and the second index value are adressed and also all the records in between.
 - If you pass an array of integer values, the records corresponding to the elements in the array are adressed.
 
-> [!WARNING]
-> The index is 0-based: the first item has index 0, not 1.
+
+:::warning
+
+The index is 0-based: the first item has index 0, not 1.
+
+:::
 
 *Examples*
 
@@ -129,5 +141,9 @@ To get a record by row ID:
 $.udb('EMP').rowSet('current').rows('id', 15); // row with id '15'
 ```
 
-> [!TIP]
-> In all cases, records have to be queried first, before they can be found by any of these operations. To query, use the executeQuery action of the data source first, and then gotoDataSet of the Rowset after.
+
+:::tip
+
+In all cases, records have to be queried first, before they can be found by any of these operations. To query, use the executeQuery action of the data source first, and then gotoDataSet of the Rowset after.
+
+:::

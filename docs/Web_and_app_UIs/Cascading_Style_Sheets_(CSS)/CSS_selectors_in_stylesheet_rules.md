@@ -76,8 +76,12 @@ Examples of Web Designer classes are ColumnControl, ButtonControl, GridCellContr
 
 Some Web Designer classes have specific characteristics that can also be added to the class list of HTML elements in client HTML documents. These characteristics concern typical domain attributes.
 
-> [!WARNING]
-> The default list of domain classes for a Web Designer class is NOT shown in the Property Inspector.
+
+:::warning
+
+The default list of domain classes for a Web Designer class is NOT shown in the Property Inspector.
+
+:::
 
 To add domain classes to the class list:
 

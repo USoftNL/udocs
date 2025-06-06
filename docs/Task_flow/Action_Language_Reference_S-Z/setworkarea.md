@@ -6,13 +6,21 @@ id: setworkarea
 
 
 
-> [!NOTE]
-> This article is about the **set-workarea** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **set-workarea** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **set-workarea()**
 
-> [!CAUTION]
-> This action exists for backward compatibility. Use the WorkArea option of the Alignment layout property instead.
+
+:::danger
+
+This action exists for backward compatibility. Use the WorkArea option of the Alignment layout property instead.
+
+:::
 
 Set-workarea() may be called (e.g. from the Post-open property of Info Box objects) to specify that the window or dialog involved must resize itself when the end user drags the embedded Tree View or List View to a bigger/smaller size. To make this possible the Resize Child property must be set to Yes as well.
 

@@ -10,8 +10,12 @@ id: Web_service_error_messages
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----
@@ -168,8 +172,12 @@ Value 36 in field "max_age" not an allowed value in Domain "AGE" Cannot bind inp
 </soap:Envelope>
 ```
 
-> [!TIP]
-> To provide a different structure for the detail element in the soap message, or to handle more errors than USoft provides by default, either change the default XSL transformation in:
+
+:::tip
+
+To provide a different structure for the detail element in the soap message, or to handle more errors than USoft provides by default, either change the default XSL transformation in:
+
+:::
 
 ```
 usoft-installation-folder\xsl\ErrorHandling\userror_wsp.xsl

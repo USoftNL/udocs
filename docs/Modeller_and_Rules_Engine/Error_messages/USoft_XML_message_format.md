@@ -41,5 +41,9 @@ XML messages include normal messages, rule violation messages, RDBMS messages, a
 - Domain checks: Allowed values, Min/Max Values, Uppercase.
 - Column checks: Mandatory, Unique Key.
 
-> [!NOTE]
-> The IO Format of a domain is not considered a rule violation.
+
+:::note
+
+The IO Format of a domain is not considered a rule violation.
+
+:::

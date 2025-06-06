@@ -4,9 +4,13 @@ id: Authorising_team_members_for_USoft_91
 
 # Authorising team members for USoft 9.1
 
-> [!TIP]
-> This article is about authorising team members in a **USoft 9.1** development environment.
-> For the USoft 10.0 situation, click [here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md).
+
+:::tip
+
+This article is about authorising team members in a **USoft 9.1** development environment.
+For the USoft 10.0 situation, click [here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md).
+
+:::
 
 When you created authorisation tables, the Create Tables options you ran has automatically granted yourself, as repository owner, access to the USoft Authorizer tool.
 

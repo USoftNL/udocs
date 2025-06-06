@@ -30,8 +30,12 @@ To define a SQLDataSource:
 
 3. 
 
-> [!TIP]
-> You can write any SQL statement, but it is customary to view data sources as a strategy for making data available in your web page. For this reason, to write  manipulation SQL (INSERT, UPDATE, DELETE statements), USoft suggests you use [executeSQLStatement actions](/docs/Web_and_app_UIs/SQL_and_Web_Designer/executeSQLStatement_actions.md) instead.
+
+:::tip
+
+You can write any SQL statement, but it is customary to view data sources as a strategy for making data available in your web page. For this reason, to write  manipulation SQL (INSERT, UPDATE, DELETE statements), USoft suggests you use [executeSQLStatement actions](/docs/Web_and_app_UIs/SQL_and_Web_Designer/executeSQLStatement_actions.md) instead.
+
+:::
 
 ## Catching a SQLDataSource result value
 
@@ -117,8 +121,12 @@ $.udb('BookRepeatTrip').executeQuery(
 
 ## USoft 9 alternative for SQLDataSource
 
-> [!WARNING]
-> On USoft 10, use a SQLDataSource. The explanation below is for the benefit of USoft 9 developers and developers dealing with upgraded USoft 9 applications that use this technique. This technique is likely to become obsolete in USoft 11.
+
+:::warning
+
+On USoft 10, use a SQLDataSource. The explanation below is for the benefit of USoft 9 developers and developers dealing with upgraded USoft 9 applications that use this technique. This technique is likely to become obsolete in USoft 11.
+
+:::
 
 To "catch” result record values of a SELECT statement:
 

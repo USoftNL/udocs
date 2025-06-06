@@ -39,8 +39,12 @@ VALUES (
 )
 ```
 
-> [!TIP]
-> In the SQL statement, the spelling of the host variable that is in a structure (here, **Pet**) must match the name of the structure case-sensitively.
+
+:::tip
+
+In the SQL statement, the spelling of the host variable that is in a structure (here, **Pet**) must match the name of the structure case-sensitively.
+
+:::
 
 ### Mixing structures and string values
 

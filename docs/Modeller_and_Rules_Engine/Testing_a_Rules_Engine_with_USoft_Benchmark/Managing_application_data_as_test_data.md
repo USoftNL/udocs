@@ -52,28 +52,44 @@ This opens the “Operations on Application Database” dialog:
 
 This allows you to create, clear and drop application tables as explained in the dialog text.
 
-> [!CAUTION]
-> Do not press these buttons unless you are sure. Your application data will be dropped. USoft Benchmark is not usually the best or most logical context for dropping or re-creating application tables.
+
+:::danger
+
+Do not press these buttons unless you are sure. Your application data will be dropped. USoft Benchmark is not usually the best or most logical context for dropping or re-creating application tables.
+
+:::
 
 One use case for the **Clear** button is when you want to manually repeat a test, and re-initialise the test data you have just used in a previous test:
 
-> [!TIP]
-> To re-initialise test data in this way, first make sure that you have an exported version of the test data available in a .TDF file (**Export** button). Then, at the beginning of each test, press **Clear**, followed by **Import**.
+
+:::tip
+
+To re-initialise test data in this way, first make sure that you have an exported version of the test data available in a .TDF file (**Export** button). Then, at the beginning of each test, press **Clear**, followed by **Import**.
+
+:::
 
 ### Export, Import
 
 This allows you to write (export) a copy of all your current application data to a file with extension .TDF, and to re-import it from that file.
 
-> [!WARNING]
-> If you want to Import, be careful not to accidentally press Export, because Export would **overwrite** the file you wanted to import with the current state of the data.
-> You cannot Import if you are running your development repository as a [version-controlled repository]().
+
+:::warning
+
+If you want to Import, be careful not to accidentally press Export, because Export would **overwrite** the file you wanted to import with the current state of the data.
+You cannot Import if you are running your development repository as a [version-controlled repository]().
+
+:::
 
 The TDF format has drawbacks. Its contents is not human-readable. If the data structure (the metadata) of your application changes, you may not be able to re-import TDF data created prior to the change.
 
 The TDF format has the advantage that it is very easy to use. TDF imports are also relatively fast. For these reasons TDF can be a good choice for temporary backup and restore, and also for storing and re-using data in different situations where you know that the same application version will be used each time.
 
-> [!TIP]
-> Tables that are described in the USoft dictionary but that are a view or a synonym in the database are *not* exported to the .TDF file.
+
+:::tip
+
+Tables that are described in the USoft dictionary but that are a view or a synonym in the database are *not* exported to the .TDF file.
+
+:::
 
 If you like TDF, you may want to define a Test Procedure that clears your application data and re-imports a TDF file:
 
@@ -125,8 +141,12 @@ To make a violation report for constraints defined at **Relationship** level:
 3. Press the button in the “Operations on Application Database” dialog, specify the Report Configuration that has the file path you want, then press OK.
 4. Open the .HTM file in the file path with a browser.
 
-> [!WARNING]
-> Violation reports about rules defined at **Constraint** level do not contain violations against:
+
+:::warning
+
+Violation reports about rules defined at **Constraint** level do not contain violations against:
+
+:::
 
 To make a violation report for constraints defined at **Column** level:
 

@@ -202,8 +202,12 @@ Even if you do not use the OLD() function in constraint SQL, you can still set t
 - You have written the constraint in such a way that it must only be evaluated when a particular table is manipulated, or else you get unwanted results. Set the transition table property to restrict constraint evaluation to this table. This only applies to multi-record constraints.
 - You know the constraint need not be evaluated on an INSERT, UPDATE or DELETE on the transition table. By reducing the number of times a constraint is evaluated you improve application performance.
 
-> [!NOTE]
-> You can also limit constraint handling to INSERTs by using the OLD() function. However, using transition property settings will result in better performance because the Rules Engine is able to discard the constraint (if it need not be evaluated) before it attempts to parse the SQL statement.
+
+:::note
+
+You can also limit constraint handling to INSERTs by using the OLD() function. However, using transition property settings will result in better performance because the Rules Engine is able to discard the constraint (if it need not be evaluated) before it attempts to parse the SQL statement.
+
+:::
 
 *Example*
 

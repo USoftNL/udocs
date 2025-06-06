@@ -18,8 +18,12 @@ You can export data to XML by calling [XML.Export](/docs/Extensions/XML_internal
 
 You can export data to JSON by calling [JSON.Export](/docs/Extensions/JSON_internal_component/JSONExport.md) (for a single table) or [JSON.MultiExportTables](/docs/Extensions/JSON_internal_component/JSONMultiExportTables.md) (for multiple tables).
 
-> [!WARNING]
-> You can also call [XML.SQLExport](/docs/Extensions/XML_internal_component/XMLSQLExport.md) for an output format with more metadata information, but this format is not automatically re-importable.
+
+:::warning
+
+You can also call [XML.SQLExport](/docs/Extensions/XML_internal_component/XMLSQLExport.md) for an output format with more metadata information, but this format is not automatically re-importable.
+
+:::
 
 ![](./assets/bdbd6fa9-bf4f-43d4-92ac-554db9115968.png)
 

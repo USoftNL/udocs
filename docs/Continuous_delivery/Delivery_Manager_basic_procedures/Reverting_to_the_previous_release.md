@@ -4,8 +4,12 @@ id: Reverting_to_the_previous_release
 
 # Reverting to the previous release
 
-> [!CAUTION]
-> If you revert to the previous release, all deliverables of the current release are lost.
+
+:::danger
+
+If you revert to the previous release, all deliverables of the current release are lost.
+
+:::
 
 You can [revert to the previous release](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_trees.md):
 

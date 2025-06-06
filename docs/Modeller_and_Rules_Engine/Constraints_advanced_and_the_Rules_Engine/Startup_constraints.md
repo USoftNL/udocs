@@ -29,7 +29,11 @@ If a restrictive constraint that is defined on T_EVENT is evaluated, the constra
 
 To be able to use startup constraints:
 
-> [!NOTE]
-> In a production environment, make sure that background INSERT rights have been defined on the T_EVENT table.
+
+:::note
+
+In a production environment, make sure that background INSERT rights have been defined on the T_EVENT table.
+
+:::
 
 The generated unique session identifier can also be used in other SQL statements. For this, you can use the SESSION_ID() USoft function with no parameters. This function returns the SESSION_ID value that was inserted in the T_EVENT table when the Rules Engine was started.

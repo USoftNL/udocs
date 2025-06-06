@@ -69,5 +69,9 @@ in this CustStyle.css file, add:
 
  Publish and run. Tweak the result.
 
-> [!NOTE]
-> If you want to get rid of an unnecessary vertical scrollbar, try adding 30 (pixels) to the **Height Offset** property of the objects that need to allow for the inserted header bar, for example, the ApplicationMenu object.
+
+:::note
+
+If you want to get rid of an unnecessary vertical scrollbar, try adding 30 (pixels) to the **Height Offset** property of the objects that need to allow for the inserted header bar, for example, the ApplicationMenu object.
+
+:::

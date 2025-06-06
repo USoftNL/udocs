@@ -6,8 +6,12 @@ id: XMLGenerateComplexType
 
 
 
-> [!NOTE]
-> This article is about the **GenerateComplexType** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::note
+
+This article is about the **GenerateComplexType** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::
 
 ## **XML.GenerateComplexType**
 

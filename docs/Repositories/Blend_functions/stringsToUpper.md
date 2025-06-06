@@ -6,8 +6,12 @@ id: stringsToUpper
 
 
 
-> [!NOTE]
-> This article is about the **strings:ToUpper**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:ToUpper**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:ToUpper**
 

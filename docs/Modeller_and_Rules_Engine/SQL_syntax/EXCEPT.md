@@ -6,8 +6,12 @@ id: EXCEPT
 
 
 
-> [!NOTE]
-> This article is about the EXCEPT set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about the EXCEPT set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **EXCEPT**
 
@@ -15,8 +19,12 @@ The EXCEPT operator removes, from the outcome of the SELECT statement appearing 
 
 With EXCEPT, the result is **different** depending on whether the first or the second SELECT statement appears first.
 
-> [!TIP]
-> In USoft SQL syntax, EXCEPT is a synonym of [MINUS](/docs/Modeller_and_Rules_Engine/SQL_syntax/MINUS.md).
+
+:::tip
+
+In USoft SQL syntax, EXCEPT is a synonym of [MINUS](/docs/Modeller_and_Rules_Engine/SQL_syntax/MINUS.md).
+
+:::
 
 *Syntax*
 
@@ -33,6 +41,10 @@ In the USoft platform, EXCEPT is supported in:
 - the SQL Command tool.
 - Subqueries in constraint SQL.
 
-> [!CAUTION]
-> EXCEPT is not supported in the main statement of constraint SQL.
-> EXCEPT is not supported in Logical View SQL.
+
+:::danger
+
+EXCEPT is not supported in the main statement of constraint SQL.
+EXCEPT is not supported in Logical View SQL.
+
+:::

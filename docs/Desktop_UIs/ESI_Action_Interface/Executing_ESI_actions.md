@@ -18,8 +18,12 @@ To execute ESI actions from the Binder:
 
 1. Write your actions in a .TXT file.
 
-> [!NOTE]
-> Every action call must be on ONE line, and that each line must start with the ACTION keyword.
+
+:::note
+
+Every action call must be on ONE line, and that each line must start with the ACTION keyword.
+
+:::
 
 2. Make a copy of the USoft Application item in the USoft Binder.
 

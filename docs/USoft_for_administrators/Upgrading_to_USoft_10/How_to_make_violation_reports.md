@@ -11,8 +11,12 @@ In an upgrade to USoft 10.0, use violation reports twice:
 
 Each time, **create** all the violation reports, **inspect** them, **fix** any violations reported, and then run and inspect the violation reports again, until all violations have been fixed.
 
-> [!NOTE]
-> When upgrading, you want reports on the constraints of the Definer , Service Definer, in the Authorizer, Delivery Manager and Benchmark. If you create violation reports for the User application you will get a report on the constraints of the user application, which is not the point of a repository upgrade. 
+
+:::note
+
+When upgrading, you want reports on the constraints of the Definer , Service Definer, in the Authorizer, Delivery Manager and Benchmark. If you create violation reports for the User application you will get a report on the constraints of the user application, which is not the point of a repository upgrade.
+
+:::
 
 ### Creating violation reports
 

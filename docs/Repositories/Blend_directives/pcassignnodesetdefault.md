@@ -6,8 +6,12 @@ id: pcassignnodesetdefault
 
 
 
-> [!NOTE]
-> This article is about the **pc:assign-nodeset-default**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:assign-nodeset-default**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:assign-nodeset-default**
 

@@ -16,8 +16,12 @@ Each internal domain component offers 1 method:
 
 For each database table defined in your repository, an *internal table component* is implicitly available. The name of each internal table component is the same as the name of the database table.
 
-> [!TIP]
-> Do not confuse with user-defined table components. User-defined table components are not internal components but components that you must code yourself. The purpose of user-defined table components is to support the behaviour of a component table. The component bears the name of the component table it supports.
+
+:::tip
+
+Do not confuse with user-defined table components. User-defined table components are not internal components but components that you must code yourself. The purpose of user-defined table components is to support the behaviour of a component table. The component bears the name of the component table it supports.
+
+:::
 
 Each internal table component offers 2 methods:
 

@@ -8,8 +8,12 @@ This help topic shows which objects, in an export, are automatically included wh
 
 For example, the first two lines mean that if a Business Area is included, any Business Objects contained by it will automatically be included in the export:
 
-> [!WARNING]
-> If a Business Object contains an EAR diagram, this diagram is not included in the export. However, when you come to re-import, a new EAR diagram is automatically built up for you on the basis of the objects depicted (they were all included). The only thing you have to redo manually is the positioning of boxes and lines on the drawing canvas.
+
+:::warning
+
+If a Business Object contains an EAR diagram, this diagram is not included in the export. However, when you come to re-import, a new EAR diagram is automatically built up for you on the basis of the objects depicted (they were all included). The only thing you have to redo manually is the positioning of boxes and lines on the drawing canvas.
+
+:::
 
 ```
 Business Area

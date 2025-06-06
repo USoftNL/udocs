@@ -6,9 +6,13 @@ id: RulesEngineGetProperty
 
 
 
-> [!NOTE]
-> This article is about the **GetProperty** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
-> See also [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::note
+
+This article is about the **GetProperty** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+See also [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::
 
 ## **RulesEngine.GetProperty**
 
@@ -22,8 +26,12 @@ SELECT RulesEngine.GetProperty( *property* )
 
 The required and case-insensitive *property* is a string that must be the name of one of the Rules Engine properties.
 
-> [!WARNING]
-> Do not confuse Rules Engine properties with:
+
+:::warning
+
+Do not confuse Rules Engine properties with:
+
+:::
 
 *Example*
 

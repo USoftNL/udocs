@@ -4,8 +4,12 @@ id: Authentication_in_services
 
 # Authentication in services
 
-> [!NOTE]
-> See also: [Authentication and USoft](/docs/Authorisation_and_access/Authentication_and_USoft/Authentication_and_USoft.md)
+
+:::note
+
+See also: [Authentication and USoft](/docs/Authorisation_and_access/Authentication_and_USoft/Authentication_and_USoft.md)
+
+:::
 
 The USoft Service Framework is aware of different authentication schemes and different kind of resources. Following is a matrix of authentication possibilities based on how credentials are provided.
 

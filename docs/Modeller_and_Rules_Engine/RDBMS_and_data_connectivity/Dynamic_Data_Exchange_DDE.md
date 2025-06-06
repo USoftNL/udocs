@@ -36,8 +36,12 @@ The action that establishes a DDE connection, and that requests a value from the
 DdeRequest( server, topic, item, format, resource )
 ```
 
-> [!NOTE]
-> If you use DdeRequest(), you do not need DdeConnect() to establish the connection.
+
+:::note
+
+If you use DdeRequest(), you do not need DdeConnect() to establish the connection.
+
+:::
 
 In the example, the name of the server is "server". The name of the topic is "test". The name of the item is "count". The data format is CF_TEXT. The resource or property to set is "value" (i.e. the data obtained is to update the contents of the field). So, the DDE part of the "problem" is:
 

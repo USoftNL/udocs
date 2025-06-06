@@ -6,8 +6,12 @@ id: Tags_in_UDeliver
 
  
 
-> [!NOTE]
-> This article is about the **tag** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **tag** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 *Tags* are a mechanism for organising target variables into subgroups. This allows you to move subgroups of variables to different places in the registry, using a registry's added XSL.
 

@@ -4,9 +4,13 @@ id: Constraints
 
 # Constraints
 
-> [!TIP]
-> This article is specifically about **table constraints**. USoft also has something called [domain constraints](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md).
-> When USoft developers talk of “constraints”, they usually mean “table constraints”. Many applications have a lot of table constraints and only a limited number of domain constraints.
+
+:::tip
+
+This article is specifically about **table constraints**. USoft also has something called [domain constraints](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md).
+When USoft developers talk of “constraints”, they usually mean “table constraints”. Many applications have a lot of table constraints and only a limited number of domain constraints.
+
+:::
 
 A **table constraint**, in USoft technology, is a SQL statement that enforces specific combinations of column values in 2 or more columns. For example, if you keep period information about events, a table constraint could enforce that the end date is always later in time than the start date:
 
@@ -32,8 +36,12 @@ If you have the second constraint (the UPDATE constraint), you don't need the fi
 
 Each constraint enforces a form of data integrity. The first constraint makes it impossible to enter a value combination where the end date is later than the start date. The second constraint forceably produces an acceptable end date in all cases.
 
-> [!NOTE]
-> To enforce that 1 column value (as opposed to combinations of 2 or more column values) follows a certain pattern, you don’t need a table constraint. Use a [domain constraint](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md) or a [domain attribute](/docs/Modeller_and_Rules_Engine/Domains).
+
+:::note
+
+To enforce that 1 column value (as opposed to combinations of 2 or more column values) follows a certain pattern, you don’t need a table constraint. Use a [domain constraint](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md) or a [domain attribute](/docs/Modeller_and_Rules_Engine/Domains).
+
+:::
 
 ### Restrictive (SELECT) table constraints
 
@@ -79,8 +87,12 @@ The Constraints window is opened.
 
 5. In the Statement field, formulate the SELECT statement that expresses what combinations of values you want to disallow.
 
-> [!WARNING]
-> In other words, you write in the SELECT statement what you do NOT allow.
+
+:::warning
+
+In other words, you write in the SELECT statement what you do NOT allow.
+
+:::
 
 In the SELECT output list, just select a single-quoted empty string. This is because you are not interested in retrieving values from the database. You are only interested in defining what are disallowed value combinations:
 
@@ -199,14 +211,22 @@ If the table constraint is correct, the checker will set the Correct = Yes flag.
 
 If the constraint is not correct, a message is shown with an asterisk (*) at the position of the syntax error. Review your SQL and then press Check again, until the constraint is correct.
 
-> [!CAUTION]
-> This step is essential. Your constraint will NOT have an effect as long as Correct = No. When you create a .CON flatfile you are warned about the existence of incorrect constraints, but when you run from repository, as you are likely to do in Development, this behaviour can be confusing.
+
+:::danger
+
+This step is essential. Your constraint will NOT have an effect as long as Correct = No. When you create a .CON flatfile you are warned about the existence of incorrect constraints, but when you run from repository, as you are likely to do in Development, this behaviour can be confusing.
+
+:::
 
 2. Click Save to save work.
 
-> [!TIP]
-> You can switch constraints off by setting Active  = No. This can be practical for quick testing and debugging. Try not to release any inactive constraints. Even in Development, keep inactive constraints to a minimum: switch them back on as soon as possible.
-> In summary, best practice is for all your constraints to have both Correct = Yes and Active = Yes.
+
+:::tip
+
+You can switch constraints off by setting Active  = No. This can be practical for quick testing and debugging. Try not to release any inactive constraints. Even in Development, keep inactive constraints to a minimum: switch them back on as soon as possible.
+In summary, best practice is for all your constraints to have both Correct = Yes and Active = Yes.
+
+:::
 
 ### INVOKE constraints
 
@@ -214,6 +234,10 @@ USoft also allows you to define constraints executed by a Java or .NET component
 
 Like SQL-style constraints, INVOKE constraints ultimately guarantee some aspect of data integrity or integrity of behaviour. Also, like their SQL-style counterparts, each has either a restrictive or a productive effect.
 
-> [!NOTE]
-> For components in USoft Definer, go to the [Extensions](/docs/Extensions) page.
-> For the INVOKE syntax, go to [INVOKE]() in the SQL syntax section.
+
+:::note
+
+For components in USoft Definer, go to the [Extensions](/docs/Extensions) page.
+For the INVOKE syntax, go to [INVOKE]() in the SQL syntax section.
+
+:::

@@ -6,8 +6,12 @@ id: beforecheckdata
 
 
 
-> [!NOTE]
-> This article is about the **beforecheckdata**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **beforecheckdata**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **beforecheckdata**
 

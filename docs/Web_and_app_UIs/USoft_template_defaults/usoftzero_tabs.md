@@ -40,9 +40,13 @@ Delete the 2 **related-cards-row…** GroupControls (right-mouse-click, Delete).
 
 ![](./assets/3d0a8482-de29-4c67-927b-397f97052fef.png)
 
-> [!NOTE]
-> In the solution shown, first a subclass was created of the “TabCardRelateds PERSON” class. This subclass was named “TabCardRelateds_1 PERSON”. As a next step, an instance of this subclass was dragged onto the detail page.
-> This is good practice. The advantage of working with a subclass in a customised solution is that the “unpainted” default TabCardRelateds superclass remains available for later re-use and repeated subclassing.
+
+:::note
+
+In the solution shown, first a subclass was created of the “TabCardRelateds PERSON” class. This subclass was named “TabCardRelateds_1 PERSON”. As a next step, an instance of this subclass was dragged onto the detail page.
+This is good practice. The advantage of working with a subclass in a customised solution is that the “unpainted” default TabCardRelateds superclass remains available for later re-use and repeated subclassing.
+
+:::
 
 ## Single-record tab cards for parent data
 

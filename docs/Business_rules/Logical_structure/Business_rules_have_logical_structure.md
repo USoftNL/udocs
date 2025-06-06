@@ -77,6 +77,10 @@ So you need to formulate (for example):
 
  
 
-> [!TIP]
-> If structures become more complex, it it increasingly attractive to talk about the logical connectors explicitly. You can introduce the bulleted lists with phrases like “**if all of the following apply:**”, "**if at least one of the following applies:**”.
-> Keep the rule format simple. Simple bulleted lists are fine, but you should avoid multiple different levels of bullets (as found in Powerpoint slides). You can keep lists simply by splitting rules if necessary.
+
+:::tip
+
+If structures become more complex, it it increasingly attractive to talk about the logical connectors explicitly. You can introduce the bulleted lists with phrases like “**if all of the following apply:**”, "**if at least one of the following applies:**”.
+Keep the rule format simple. Simple bulleted lists are fine, but you should avoid multiple different levels of bullets (as found in Powerpoint slides). You can keep lists simply by splitting rules if necessary.
+
+:::

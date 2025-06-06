@@ -6,15 +6,23 @@ id: ResourceFileUpdate
 
 
 
-> [!NOTE]
-> This article is about the **ResourceFileUpdate** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **ResourceFileUpdate** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **ResourceFileUpdate()**
 
 Changes the value of a resource in the in-memory resource database, treating any backslash ( \\ ) as an escape character.
 
-> [!TIP]
-> If the resource value contains backslashes, as is the case in file paths, you must use [ResourceFileUpdateKeepBackslash()](/docs/Task_flow/Action_Language_reference_I-R/ResourceFileUpdateKeepBackslash.md) instead of ResourceFileUpdate().
+
+:::tip
+
+If the resource value contains backslashes, as is the case in file paths, you must use [ResourceFileUpdateKeepBackslash()](/docs/Task_flow/Action_Language_reference_I-R/ResourceFileUpdateKeepBackslash.md) instead of ResourceFileUpdate().
+
+:::
 
 *Syntax*
 
@@ -32,7 +40,11 @@ The required *resource* contains the resource name followed by a colon (:) and t
 ResourceFileUpdate( '*background: blue' )
 ```
 
-> [!WARNING]
-> ResourceFileUpdate() plays an important role in exchanging data between job tasks, decisions for branching and looping, and SQL that interacts with data in the database. See [Decision variables and placeholders](/docs/Task_flow/Decisions/Decision_variables_and_placeholders.md).
+
+:::warning
+
+ResourceFileUpdate() plays an important role in exchanging data between job tasks, decisions for branching and looping, and SQL that interacts with data in the database. See [Decision variables and placeholders](/docs/Task_flow/Decisions/Decision_variables_and_placeholders.md).
+
+:::
 
  

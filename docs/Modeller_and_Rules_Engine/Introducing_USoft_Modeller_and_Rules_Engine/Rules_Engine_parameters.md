@@ -9,8 +9,12 @@ A Rules Engine has configurable behaviour determined by a fixed set of **Rules E
 - You can resetting a parameter at development time. This is explained in the next alinea.
 - You can**also change many parameter settings *dynamically,* ie., at runtime. You can do this by calling [RulesEngine.SetProperty](/docs/Extensions/RulesEngine_internal_component/RulesEngineSetProperty.md).
 
-> [!TIP]
-> Do not confuse with [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties). Do not confuse with [Deployment Configuration parameters](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::tip
+
+Do not confuse with [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties). Do not confuse with [Deployment Configuration parameters](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## Viewing and setting Rules Engine parameters
 
@@ -25,8 +29,12 @@ This is an alphabetic list.
 
 ### ALLOW_PLUGINS
 
-> [!CAUTION]
-> Due to improvements in USoft Authorizer 10.1, ALLOW_PLUGINS is no longer supported from USoft 10.1 onwards.
+
+:::danger
+
+Due to improvements in USoft Authorizer 10.1, ALLOW_PLUGINS is no longer supported from USoft 10.1 onwards.
+
+:::
 
 ----
 
@@ -133,8 +141,12 @@ The default is ‘False’.
 
 Specifies if the Rules Engine should initiate a startup event by inserting a record in table T_EVENT at startup.
 
-> [!TIP]
-> If you set STARTUP_EVENT to True, a default T_EVENT table is generated for this purpose.
+
+:::tip
+
+If you set STARTUP_EVENT to True, a default T_EVENT table is generated for this purpose.
+
+:::
 
 The default is ‘False’.
 

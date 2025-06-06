@@ -4,8 +4,12 @@ id: Publication_objects_in_UDeliver
 
 # Publication objects in UDeliver
 
-> [!NOTE]
-> This article is about the **publication object** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **publication object** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 A *publication object* contains all the information necessary to release a web application or a page set from Web Designer. It has a unique Publication Object name that identifies it within Delivery Manager but is not known outside it.
 
@@ -59,7 +63,11 @@ Therefore, if multiple developers in your team are able to publish the web GUI o
 
 When you publish in Web Designer, you must indicate a Publication Configuration against which to publish. Among other things, this Publication Configuration determines the filepath to the Alternative Template Folder and the filepath to the *publication directory* where the output (the publication) is placed. In the context of delivery, this publication directory is used as an interim folder only. It may be a shared folder or it may be a local folder.
 
-> [!CAUTION]
-> USoft allows the Alt folder to be a subfolder of the publication directory. This is sometimes practical for small, local test or debug installations because it bundles publication deliverables and the Alt folder within 1 folder on the file system. However, this is bad practice from a delivery point of view and must be avoided in any production project.
+
+:::danger
+
+USoft allows the Alt folder to be a subfolder of the publication directory. This is sometimes practical for small, local test or debug installations because it bundles publication deliverables and the Alt folder within 1 folder on the file system. However, this is bad practice from a delivery point of view and must be avoided in any production project.
+
+:::
 
  

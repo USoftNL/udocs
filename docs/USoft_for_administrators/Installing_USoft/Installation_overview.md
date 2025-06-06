@@ -14,8 +14,12 @@ General installation steps are as follows:
 
 3. Install the **USoft product** and create the database tables that are needed in the environment (as illustrated in the pictures in this article).
 
-> [!TIP]
-> To install the USoft product, you need an executable and a license file. The executable file is named something like "USDSetup-x64.exe”. The license file is named “license.dat”.
+
+:::tip
+
+To install the USoft product, you need an executable and a license file. The executable file is named something like "USDSetup-x64.exe”. The license file is named “license.dat”.
+
+:::
 
 ## Requirements
 

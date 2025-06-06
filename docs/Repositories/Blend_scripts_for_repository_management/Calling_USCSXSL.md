@@ -141,9 +141,13 @@ You can also call USCSXSL as a Blend script processor from a USoft context.
 > *usoft-bindir*\ublendit.exe *xml-filepath xsl-filepath* [ *variable-name=variable-value* ... ]
 ```
 
-> [!WARNING]
-> *Usoft-bindir* is the \\BIN or \\BIN64 subfolder of your USoft installation directory. You can find the value of usoft-bindir by executing in SQL Command:
->  
+
+:::warning
+
+*Usoft-bindir* is the \\BIN or \\BIN64 subfolder of your USoft installation directory. You can find the value of usoft-bindir by executing in SQL Command:
+
+
+:::
 
 *Xml-filepath* is the filepath leading to the XML input file that you want USCSXSL to process. This file must be a valid XML document. It may contain calls to USCSXSL extension functions, in which case it is called a “USoft Blend script”.
 Syntax 1 applies the following XSLT transformation to the Blend script:
@@ -209,13 +213,17 @@ Inside the Blend script, refer to *variable-value* by the placeholder:
 $*variable-name*
 ```
 
-> [!TIP]
-> You can provide a default value for a parameter in case it is not passed when your script is called. Use one of these directives:
-> *Example*
-> If you call by the following command line:
-> the following "deletetwofiles.xml" Blend script:
-> then this script will delete from the current directory the following files:
->  
+
+:::tip
+
+You can provide a default value for a parameter in case it is not passed when your script is called. Use one of these directives:
+*Example*
+If you call by the following command line:
+the following "deletetwofiles.xml" Blend script:
+then this script will delete from the current directory the following files:
+
+
+:::
 
 ### Contexts for Blend input parameters
 

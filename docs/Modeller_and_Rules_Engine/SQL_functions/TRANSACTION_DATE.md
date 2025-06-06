@@ -6,9 +6,13 @@ id: TRANSACTION_DATE
 
 
 
-> [!NOTE]
-> This article has additional information about the **TRANSACTION_DATE** SQL function.
-> For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
+
+:::note
+
+This article has additional information about the **TRANSACTION_DATE** SQL function.
+For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
+
+:::
 
 ## **TRANSACTION_DATE**
 
@@ -29,7 +33,11 @@ This is a convertible function resolved by USoft and thus supported on all RDBMS
 
 Contrast with Oracle-specific SYSDATE. With SYSDATE, identical date and time within the same transaction is not guaranteed. If a statement containing SYSDATE is sent to the server because it cannot be solved locally, then the current server date and time is retrieved even if SYSDATE had already been called earlier within the transaction.
 
-> [!WARNING]
-> Compare with [CURRENT_DATE()](/docs/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md).
+
+:::warning
+
+Compare with [CURRENT_DATE()](/docs/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md).
+
+:::
 
  

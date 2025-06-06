@@ -6,8 +6,12 @@ id: Apply_custom_XSL
 
 
 
-> [!NOTE]
-> This article is about the **Apply custom XSL**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Apply custom XSL**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Apply custom XSL**
 

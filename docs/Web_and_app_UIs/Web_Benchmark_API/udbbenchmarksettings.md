@@ -6,8 +6,12 @@ id: udbbenchmarksettings
 
 
 
-> [!WARNING]
-> This article is under construction.
+
+:::warning
+
+This article is under construction.
+
+:::
 
 ## **$.udb.benchmark.settings**
 
@@ -15,8 +19,12 @@ Provides access to USoft [Web Benchmark settings](/docs/Web_and_app_UIs/Testing_
 
 Typical usage of this property would be whenever you need to automatically adjust settings (e.g. modify playback speed for specific tests) during test playback . You can use script execution actions to make these adjustments without requiring GUI interaction. 
 
-> [!WARNING]
-> When editing the settings , use $.udb.benchmark.saveSettings() to store your settings.
+
+:::warning
+
+When editing the settings , use $.udb.benchmark.saveSettings() to store your settings.
+
+:::
 
 The following resources are exposed.
 

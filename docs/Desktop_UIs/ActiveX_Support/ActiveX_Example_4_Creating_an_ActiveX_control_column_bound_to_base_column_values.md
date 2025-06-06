@@ -37,5 +37,9 @@ To use the ActiveX control column subclass:
 
 8. Run the info window and perform a query in order to see the result. The date values in the database are now displayed in the calendar layout instead of in a text box.
 
-> [!NOTE]
-> This example only shows how to display existing date values in a different way. You cannot use this implementation to manipulate the date values, or to specify query conditions.
+
+:::note
+
+This example only shows how to display existing date values in a different way. You cannot use this implementation to manipulate the date values, or to specify query conditions.
+
+:::

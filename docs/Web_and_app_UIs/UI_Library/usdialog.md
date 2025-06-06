@@ -10,18 +10,26 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article covers the **usdialog()** function as part of the [UI Library](/docs/Web_and_app_UIs/UI_Library).
-> The UI Library is a mixed bag of Javascript extensions for programming UI controls in USoft web pages. Do not confuse with the structured [UDB object model](/docs/Web_and_app_UIs/UDB_udb/UDB_udb_object.md) for data exchange between USoft web pages and a Rules Engine.
+
+:::note
+
+This article covers the **usdialog()** function as part of the [UI Library](/docs/Web_and_app_UIs/UI_Library).
+The UI Library is a mixed bag of Javascript extensions for programming UI controls in USoft web pages. Do not confuse with the structured [UDB object model](/docs/Web_and_app_UIs/UDB_udb/UDB_udb_object.md) for data exchange between USoft web pages and a Rules Engine.
+
+:::
 
 ## **.usdialog()**
 
@@ -31,11 +39,19 @@ The **usdialog()** function creates a dialog overlay on a current page in a fram
 
 You can apply this function to turn practically anything into a dialog window. This function allows you to style and control all elements of the dialog precisely.
 
-> [!TIP]
-> Prefer [$.udb.dialog()](/docs/Web_and_app_UIs/UDB_udb/udbdialog.md) if you want to produce a simple interactive message.
 
-> [!WARNING]
-> **usdialog()** documentation is **deprecated** in USoft 11. Prefer calling methods and acting on events exposed by the native HTML **<dialog>** element.
+:::tip
+
+Prefer [$.udb.dialog()](/docs/Web_and_app_UIs/UDB_udb/udbdialog.md) if you want to produce a simple interactive message.
+
+:::
+
+
+:::warning
+
+**usdialog()** documentation is **deprecated** in USoft 11. Prefer calling methods and acting on events exposed by the native HTML **<dialog>** element.
+
+:::
 
 The **.usdialog()** function can be called in two ways:
 
@@ -99,8 +115,12 @@ You must call **.usdialog()** with either a *command* keyword or an *options* st
 
 *width* and *height* determine the size of the dialog. These values can be: an integer that designates a precise number of pixels; a string that is an integer followed by the '%' symbol and that designates the percentage relative to the screen width or screen height; or a string that is an integer followed by 'vw' (for viewport width) or 'vh' (for viewport height) and that designates the percentage relative to the width or height of the viewport.
 
-> [!TIP]
-> USoft recommends explicitly setting width and height. There are no standard defaults. Practical sizes are 650 pixels of width and 350 pixels of height for smaller dialogs, and ‘92vw’ and ‘92vh’ for larger dialogs, e.g. those that display (lookup) dialog pages.
+
+:::tip
+
+USoft recommends explicitly setting width and height. There are no standard defaults. Practical sizes are 650 pixels of width and 350 pixels of height for smaller dialogs, and ‘92vw’ and ‘92vh’ for larger dialogs, e.g. those that display (lookup) dialog pages.
+
+:::
 
 If *title* is set to a title string value, this value is shown as text in the title bar of the dialog. If *title* is set to an empty string, the title bar does not appear. *Title* may be a simple string but it may also be an HTML fragment. The contents of *title* are translatable.
 
@@ -116,8 +136,12 @@ If *title* is set to a title string value, this value is shown as text in the ti
 
 This shows the principle of styling a dialog by setting options passed with the **usdialog()** command.
 
-> [!TIP]
-> For an example of how to add functionality to the buttons, see *Example 3* at the end of this article.
+
+:::tip
+
+For an example of how to add functionality to the buttons, see *Example 3* at the end of this article.
+
+:::
 
 1.Add an HTMLControl control to your page. Set the HTML property of this control to:
 

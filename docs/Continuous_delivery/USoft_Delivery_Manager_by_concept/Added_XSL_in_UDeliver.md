@@ -4,8 +4,12 @@ id: Added_XSL_in_UDeliver
 
 # Added XSL in UDeliver
 
-> [!NOTE]
-> This  article is about the **added XSL** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This  article is about the **added XSL** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 In different places in USoft Delivery Manager, you can add an XSLT transformation to an XML result file.
 

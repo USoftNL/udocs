@@ -6,8 +6,12 @@ id: USMetaRelationships
 
 
 
-> [!NOTE]
-> This article is about the **Relationships** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::note
+
+This article is about the **Relationships** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::
 
 ## **USMeta.Relationships**
 
@@ -75,8 +79,12 @@ All parameters are optional. Parameter values that you pass are mapped to parame
 SELECT   USMeta.Relationships( 'PERSON' Parents )
 ```
 
-> [!TIP]
-> For backward compatibility only, it is possible to supply parameter values by position. Using this syntax, a list of non-aliased values maps to the parameter list in the order stated, with empty values at the end of the list if you supply  less than 3 values, and '' (the empty string) as a way of explicitly declaring an empty value.
+
+:::tip
+
+For backward compatibility only, it is possible to supply parameter values by position. Using this syntax, a list of non-aliased values maps to the parameter list in the order stated, with empty values at the end of the list if you supply  less than 3 values, and '' (the empty string) as a way of explicitly declaring an empty value.
+
+:::
 
 *Parent-table-name-pattern* is a regular expression that matches zero, one or more parent tables in the model. The result data is limited to relationships that have a parent table matching the pattern. If *parent-table-name-pattern* is omitted, then result data is not limited in this way.
 

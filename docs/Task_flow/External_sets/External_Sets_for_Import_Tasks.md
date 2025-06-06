@@ -6,8 +6,12 @@ id: External_Sets_for_Import_Tasks
 
 When used for an import task, an external set describes the structure, format, and record separator of the external file that contains the data to be imported. It also defines a temporary table, in memory or in the database, in which import data is temporarily stored during the import, and to which you can refer in import SQL statements.
 
-> [!NOTE]
-> A record is complete when reading external sets for import tasks when the number of columns defined in the external set and the record separator are reached.
+
+:::note
+
+A record is complete when reading external sets for import tasks when the number of columns defined in the external set and the record separator are reached.
+
+:::
 
 For example, if the external set is defined with three columns, File Format = Comma Separated Values (CSV) and record separator = \\n and the file used for the import contains the following data:
 
@@ -64,15 +68,23 @@ The external sets that an import task uses may have one or more import task set 
 
 The virtual element receives its value from the import SQL statement defined for the particular import task. For each virtual element that you want to use, you must specify the name, data type and length.
 
-> [!NOTE]
-> The performance of USoft Batch can be much improved if you use virtuals rather than constraints to compute values on the basis of external set elements during import tasks.
+
+:::note
+
+The performance of USoft Batch can be much improved if you use virtuals rather than constraints to compute values on the basis of external set elements during import tasks.
+
+:::
 
 To take an example, you can use import task set virtuals to improve the performance of foreign key generation for imported child data. Suppose you have an import task in which the import SQL statement needs to join with the database table PERSON to retrieve the newly generated primary key value for the parent record.
 
 If there are many children for each parent, you can improve performance by retrieving the primary key value once for the entire set of children and storing it in a virtual column of the parent external set.
 
-> [!NOTE]
-> In fact, this method is sometimes the best way to handle tables with automatically generated primary keys, as follows.
+
+:::note
+
+In fact, this method is sometimes the best way to handle tables with automatically generated primary keys, as follows.
+
+:::
 
 Suppose you want to import parent records with related child records, and the child records are in a separate file, and related to the parent records through an ID number. If the table has automatically generated primary keys, then USoft Batch will write new primary keys for each imported record, thereby destroying the links between the parent and child records.
 
@@ -90,11 +102,19 @@ When you use this feature, USoft Batch will use the database table you specify f
 
 In order to use this feature, you must set the Use User Table checkbox (in the Import Tasks window), and enter the name of the table in the User Table field. Each table name must be unique within any one import task.
 
-> [!CAUTION]
-> A user-defined table is used as a private temporary storage area, and cannot be used to store other data. USoft Batch begins and ends the execution of an import task by deleting all records from all user-defined tables in the task.
 
-> [!NOTE]
-> When batch jobs that use user-defined tables run simultaneously, you must use the "user_table" job parameter to ensure that each job uses its own set of tables.
+:::danger
+
+A user-defined table is used as a private temporary storage area, and cannot be used to store other data. USoft Batch begins and ends the execution of an import task by deleting all records from all user-defined tables in the task.
+
+:::
+
+
+:::note
+
+When batch jobs that use user-defined tables run simultaneously, you must use the "user_table" job parameter to ensure that each job uses its own set of tables.
+
+:::
 
 Before you can use user-defined tables, you must do the following:
 

@@ -120,8 +120,12 @@ Here is an impression of a detail page for table TOUR_PROGRAMME giving access to
 
 The detail page for ORDER is implemented as a DetailPage class. Find this class on the Pages tab of the Web Designer catalog.
 
-> [!TIP]
-> The table is called O_RDER and not ORDER only because ORDER is a reserved word in USoft Definer.
+
+:::tip
+
+The table is called O_RDER and not ORDER only because ORDER is a reserved word in USoft Definer.
+
+:::
 
 ![](./assets/c2cc6c4a-a345-4103-88e3-98423498b23c.png)
 

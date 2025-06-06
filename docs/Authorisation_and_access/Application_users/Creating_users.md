@@ -30,10 +30,18 @@ The Application Users window appears.
 
 7. If LDAP or External Service was chosen, the agent info required by the (application developer defined) RDMI component for credential checks can be added.
 
-> [!NOTE]
-> **NOTE 1:** For RDBMS and Funnel users, click the Update button, and the Update User Rights window appears. For more information, see " Database grants "
 
-> [!NOTE]
-> **NOTE 2:** If a user accesses the RDBMS both directly and through a funnel account, choose 'RDBMS'. This could be the case, for example, if the user accesses the client-server application directly, but accesses the Web application through a funnel account.
+:::note
+
+**NOTE 1:** For RDBMS and Funnel users, click the Update button, and the Update User Rights window appears. For more information, see " Database grants "
+
+:::
+
+
+:::note
+
+**NOTE 2:** If a user accesses the RDBMS both directly and through a funnel account, choose 'RDBMS'. This could be the case, for example, if the user accesses the client-server application directly, but accesses the Web application through a funnel account.
+
+:::
 
  

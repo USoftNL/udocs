@@ -6,8 +6,12 @@ id: Table_aliases
 
 
 
-> [!NOTE]
-> This article is about **table aliases** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **table aliases** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Table aliases**
 

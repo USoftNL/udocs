@@ -70,8 +70,12 @@ The event responsible for executing this script is the **beforeexecutequerysearc
 
 ![](./assets/e8b3a47c-c185-46dd-a5d8-8acb2fabec99.png)
 
-> [!WARNING]
-> A good search facility applies to surface values or display values that the runtime user directly experiences, but the Where Clause implementation applies to underlying database values. As a developer, you may need to bridge differences between the two.
-> For regular text and number fields, the solution will work as described here. For date and time values, you will need to do some extra work. Use database conversion functions here.
-> Allowed values for domains also have a potential difference between display values and database values.
-> Another source of such differences is translation. There is not yet a good default solution: in multi-language applications, USoft by default translates display values, but not database values of dropdown lists.
+
+:::warning
+
+A good search facility applies to surface values or display values that the runtime user directly experiences, but the Where Clause implementation applies to underlying database values. As a developer, you may need to bridge differences between the two.
+For regular text and number fields, the solution will work as described here. For date and time values, you will need to do some extra work. Use database conversion functions here.
+Allowed values for domains also have a potential difference between display values and database values.
+Another source of such differences is translation. There is not yet a good default solution: in multi-language applications, USoft by default translates display values, but not database values of dropdown lists.
+
+:::

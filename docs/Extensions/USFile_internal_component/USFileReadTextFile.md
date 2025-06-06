@@ -6,8 +6,12 @@ id: USFileReadTextFile
 
 
 
-> [!NOTE]
-> This article is about the **ReadTextFile** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::note
+
+This article is about the **ReadTextFile** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::
 
 ## **USFile.ReadTextFile**
 

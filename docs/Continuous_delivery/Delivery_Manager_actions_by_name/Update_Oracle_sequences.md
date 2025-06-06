@@ -6,8 +6,12 @@ id: Update_Oracle_sequences
 
 
 
-> [!NOTE]
-> This article is about the **Update Oracle sequences**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Update Oracle sequences**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Update Oracle sequences**
 

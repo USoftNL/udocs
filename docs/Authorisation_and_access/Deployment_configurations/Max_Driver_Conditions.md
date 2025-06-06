@@ -6,8 +6,12 @@ id: Max_Driver_Conditions
 
 
 
-> [!NOTE]
-> This article is about the **Max_Driver_Conditions**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Max_Driver_Conditions**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Max_Driver_Conditions**
 

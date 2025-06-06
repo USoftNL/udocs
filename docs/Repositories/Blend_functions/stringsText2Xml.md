@@ -6,8 +6,12 @@ id: stringsText2Xml
 
 
 
-> [!NOTE]
-> This article is about the **strings:Text2Xml**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:Text2Xml**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:Text2Xml**
 

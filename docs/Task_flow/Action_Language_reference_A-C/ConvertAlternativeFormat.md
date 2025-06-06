@@ -6,8 +6,12 @@ id: ConvertAlternativeFormat
 
 
 
-> [!NOTE]
-> This article is about the **ConvertAlternativeFormat** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **ConvertAlternativeFormat** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **ConvertAlternativeFormat()**
 
@@ -15,8 +19,12 @@ Enables a field to accept a variety of input formats, while maintaining a consis
 
 You can call this action from a column's Adjust Change property.
 
-> [!WARNING]
-> This action is supported for backward compatibility only. Use the Alternative Input Format property instead.
+
+:::warning
+
+This action is supported for backward compatibility only. Use the Alternative Input Format property instead.
+
+:::
 
 *Syntax*
 

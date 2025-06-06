@@ -6,8 +6,12 @@ id: Upgrading_to_USoft_110
 
 ## Development environment
 
-> [!WARNING]
-> To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
+
+:::warning
+
+To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
+
+:::
 
 ### Step 1: Backup
 
@@ -107,8 +111,12 @@ For detailed instructions on this step, read the help topic How to make violatio
 
 ## Production environment
 
-> [!WARNING]
-> To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
+
+:::warning
+
+To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
+
+:::
 
 Re-release all deliverables in Development using USoft Delivery Manager.
 

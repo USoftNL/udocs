@@ -33,10 +33,18 @@ Relationship
 
 ```
 
-> [!NOTE]
-> Domains and Datatypes are NOT automatically included with Columns, but you can have Domains included by setting the Include Domains = Yes flag if you explicitly include the Table or Logical View in the Tables tab of the Export Definitions window.
 
-> [!NOTE]
-> Only database columns are included, not joined columns.
+:::note
+
+Domains and Datatypes are NOT automatically included with Columns, but you can have Domains included by setting the Include Domains = Yes flag if you explicitly include the Table or Logical View in the Tables tab of the Export Definitions window.
+
+:::
+
+
+:::note
+
+Only database columns are included, not joined columns.
+
+:::
 
  

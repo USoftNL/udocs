@@ -4,8 +4,12 @@ id: Database_accounts_in_UDeliver
 
 # Database accounts in UDeliver
 
-> [!NOTE]
-> This article is about the **database account** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **database account** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 A  *database account* is a location in a physical RDBMS where appdata or metadata of an application are kept in a set of database tables.
 
@@ -26,9 +30,13 @@ A database account defined in Delivery Manager has the following properties.
 
 To get a database account for logging on as a named RDBMS user, fill out the fields as follows.
 
-> [!TIP]
-> Database account, User name, Password and Database platform are all required, except that User name and Password must be empty if you use Windows Authentication in SQL Server.
-> Owner is optional, whether or not you use Windows Authentication in SQL Server. If Owner is empty, Owner is understood to have the same value as User name.
+
+:::tip
+
+Database account, User name, Password and Database platform are all required, except that User name and Password must be empty if you use Windows Authentication in SQL Server.
+Owner is optional, whether or not you use Windows Authentication in SQL Server. If Owner is empty, Owner is understood to have the same value as User name.
+
+:::
 
 ### Database account
 

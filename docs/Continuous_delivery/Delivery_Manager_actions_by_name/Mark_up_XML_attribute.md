@@ -6,8 +6,12 @@ id: Mark_up_XML_attribute
 
 
 
-> [!NOTE]
-> This article is about the **Mark up XML attribute**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Mark up XML attribute**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Mark up XML attribute**
 

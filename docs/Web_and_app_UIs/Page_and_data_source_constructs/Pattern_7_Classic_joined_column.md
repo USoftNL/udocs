@@ -34,15 +34,23 @@ If more than 20 records need to be retrieved from the Lookup DataSource, change 
 Lookup PERSON AS TRAVELLER1/FAMILY_NAME
 ```
 
-> [!NOTE]
-> If you want to display the joined column not in the **grid**, which is a multi-record display, but in a regular **text box** in the SingleRecordRecordGroup, which is a single-record display, then you need to insert a ColumnControl instead of a GridCellControl. For this ColumnControl, set the Data Source to the inserted data source ("Lookup PERSON AS TRAVELLER1” in the example) and then set the Data Source Item to the FAMILY_NAME column in that lookup data source. Use the dropdown lists provided.
+
+:::note
+
+If you want to display the joined column not in the **grid**, which is a multi-record display, but in a regular **text box** in the SingleRecordRecordGroup, which is a single-record display, then you need to insert a ColumnControl instead of a GridCellControl. For this ColumnControl, set the Data Source to the inserted data source ("Lookup PERSON AS TRAVELLER1” in the example) and then set the Data Source Item to the FAMILY_NAME column in that lookup data source. Use the dropdown lists provided.
+
+:::
 
 ##  Refreshing joined column data after foreign key change
 
-> [!WARNING]
-> When the user selects a (new) value in a lookup page, USoft supports by default that the *foreign key value* in the calling page is updated when you return to that page, but does not support the refresh of the *joined column values.* You must finish this manually.
-> The solution suggested is acceptable only if you are happy with forcing the user to commit the transaction on lookup. If not, you could consider asking the user at the time he presses the lookup button if he is OK with the current transaction being committed.
-> Another limitation is that the solution only handles foreign key edits done via the lookup page. It does not handle foreign key edits done by manual typing in the field.
+
+:::warning
+
+When the user selects a (new) value in a lookup page, USoft supports by default that the *foreign key value* in the calling page is updated when you return to that page, but does not support the refresh of the *joined column values.* You must finish this manually.
+The solution suggested is acceptable only if you are happy with forcing the user to commit the transaction on lookup. If not, you could consider asking the user at the time he presses the lookup button if he is OK with the current transaction being committed.
+Another limitation is that the solution only handles foreign key edits done via the lookup page. It does not handle foreign key edits done by manual typing in the field.
+
+:::
 
 To make sure the joined column data are correctly refreshed when the foreign key value is displayed via the lookup window:
 

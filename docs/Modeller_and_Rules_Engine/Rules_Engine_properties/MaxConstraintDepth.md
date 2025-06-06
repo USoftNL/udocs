@@ -6,15 +6,23 @@ id: MaxConstraintDepth
 
 
 
-> [!NOTE]
-> This article is about the **MaxConstraintDepth**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::note
+
+This article is about the **MaxConstraintDepth**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::
 
 ## **MaxConstraintDepth**
 
 The **MaxConstraintDepth** Rules Engine property can be used to override the [Max_Constraint_Depth](/docs/Authorisation_and_access/Deployment_configurations/Max_Constraint_Depth.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
-> [!TIP]
-> You can set deployment configuration parameters in USoft Authorizer for 3 different deployment contexts: Client/Server, RunBatch, and Rules Service.
+
+:::tip
+
+You can set deployment configuration parameters in USoft Authorizer for 3 different deployment contexts: Client/Server, RunBatch, and Rules Service.
+
+:::
 
 This setting determines the maximum number of recursions allowed to occur when constraints execute.
 

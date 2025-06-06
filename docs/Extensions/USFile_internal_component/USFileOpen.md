@@ -6,8 +6,12 @@ id: USFileOpen
 
 
 
-> [!NOTE]
-> This article is about the **Open** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::note
+
+This article is about the **Open** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::
 
 ## **USFile.Open**
 
@@ -37,8 +41,12 @@ The required *filename* specifies the folderpath and filename of the text file t
 
 The required *mode* is the mode in which the file is opened. Possible values are READ, WRITE and the default APPEND. Use READ to read from the opened file. Use APPEND or WRITE to write to the opened file. If you use WRITE, the existing contents of the file (if any) are lost.
 
-> [!CAUTION]
-> The optional column alias "Mode" must be surrounded by double quotes if "Mode" is a SQL keyword on your database platform. Otherwise, double quotes around column aliases are optional.
+
+:::danger
+
+The optional column alias "Mode" must be surrounded by double quotes if "Mode" is a SQL keyword on your database platform. Otherwise, double quotes around column aliases are optional.
+
+:::
 
 The optional encoding is effective only if mode is APPEND and the external file does not yet exist, or if mode is WRITE. If mode is APPEND and the external file exists, or if mode is READ, the existing encoding of the file applies. Possible values for encoding are: UTF-8 (the recommended default), ASCII, and UTF16LE (= UTF-16 Little Endian).
 

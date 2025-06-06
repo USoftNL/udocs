@@ -10,8 +10,12 @@ To add a control to a page:
 
 2. Expand the Object Tree until you find the object to which you want to add the control. Put input focus on this object to help yourself visually.
 
-> [!TIP]
-> An easy way to find an object in the Object Tree is to click on, or near, that object in the Preview Pane.
+
+:::tip
+
+An easy way to find an object in the Object Tree is to click on, or near, that object in the Preview Pane.
+
+:::
 
 3. Click the Controls tab of the catalog. Find the control class you want to add to the page by expanding the tree if necessary.
 

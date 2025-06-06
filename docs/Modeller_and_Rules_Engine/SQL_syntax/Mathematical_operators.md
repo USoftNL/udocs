@@ -6,8 +6,12 @@ id: Mathematical_operators
 
 
 
-> [!NOTE]
-> This article is about **mathematical operators** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **mathematical operators** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Mathematical operators**
 

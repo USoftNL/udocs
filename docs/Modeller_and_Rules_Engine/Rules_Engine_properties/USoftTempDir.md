@@ -6,8 +6,12 @@ id: USoftTempDir
 
 
 
-> [!NOTE]
-> This article is about the **USoftTempDir**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::note
+
+This article is about the **USoftTempDir**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::
 
 ## **USoftTempDir**
 

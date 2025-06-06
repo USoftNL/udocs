@@ -4,8 +4,12 @@ id: Deploy_scripts_in_UDeliver
 
 # Deploy scripts in UDeliver
 
-> [!NOTE]
-> This article is about the **deploy script** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **deploy script** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 **See also**
 

@@ -18,8 +18,12 @@ You can use Delivery Manager for releases, but also for other things. Only in th
 
 If you plan to use Delivery Manager for releases, [initialise](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Initialising_a_release_tree.md) the release tree as the first logical step when you start using the tool.
 
-> [!NOTE]
-> Once it is initialised, you can [move](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [archive](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [drop](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) the release tree, or [start over](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) with Delivery Manager.
+
+:::note
+
+Once it is initialised, you can [move](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [archive](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [drop](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) the release tree, or [start over](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) with Delivery Manager.
+
+:::
 
 Assuming that you use Delivery Manager to release deliverables to target machines, initialising a release tree is a logical first step when you start using Delivery Manager for your USoft application.
 

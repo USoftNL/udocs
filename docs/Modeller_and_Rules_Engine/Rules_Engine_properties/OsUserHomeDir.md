@@ -6,8 +6,12 @@ id: OsUserHomeDir
 
 
 
-> [!NOTE]
-> This article is about the **OsUserHomeDir**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::note
+
+This article is about the **OsUserHomeDir**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::
 
 ## **OsUserHomeDir**
 

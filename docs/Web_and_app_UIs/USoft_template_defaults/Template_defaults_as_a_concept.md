@@ -125,5 +125,9 @@ This same flexibility does **not** apply to template defaults. The template defa
 
 ![](./assets/a3fdd956-9f1e-4463-b6a9-388dbad6a309.png)
 
-> [!CAUTION]
-> If you decide to change the template default later in the development process, the effect on Web Designer classes is uncertain and may be undesirable. You will need to do manual testing and reparation work.
+
+:::danger
+
+If you decide to change the template default later in the development process, the effect on Web Designer classes is uncertain and may be undesirable. You will need to do manual testing and reparation work.
+
+:::

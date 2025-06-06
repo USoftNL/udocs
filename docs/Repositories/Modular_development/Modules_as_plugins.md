@@ -4,8 +4,12 @@ id: Modules_as_plugins
 
 # Modules as plug-ins
 
-> [!CAUTION]
-> Due to improvements in USoft Authorizer 10.1, this feature is no longer supported from USoft 10.1 onwards.
+
+:::danger
+
+Due to improvements in USoft Authorizer 10.1, this feature is no longer supported from USoft 10.1 onwards.
+
+:::
 
 ![](./assets/1b83bcb6-eb77-451f-b199-4a4a55ef5e42.png)
 

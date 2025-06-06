@@ -6,8 +6,12 @@ id: Comparison_operators
 
 
 
-> [!NOTE]
-> This article is about **comparison operators** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **comparison operators** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Comparison operators**
 
@@ -35,6 +39,10 @@ A number value is greater than another number value if it is greater in the math
 
 Comparisons with a NULL value evaluate to False, regardless of the mathematical operator.
 
-> [!WARNING]
-> This is a source of errors when working with relational databases generally, but especially in a USoft context, because comparisons with NULL will cause a constraint not to have an effect.
-> Best practice in USoft applications is to keep non-mandatory columns (columns where NULLs are allowed) to an absolute minimum.
+
+:::warning
+
+This is a source of errors when working with relational databases generally, but especially in a USoft context, because comparisons with NULL will cause a constraint not to have an effect.
+Best practice in USoft applications is to keep non-mandatory columns (columns where NULLs are allowed) to an absolute minimum.
+
+:::

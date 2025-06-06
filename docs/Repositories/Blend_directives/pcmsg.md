@@ -6,8 +6,12 @@ id: pcmsg
 
 
 
-> [!NOTE]
-> This article is about the **pc:msg**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:msg**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:msg**
 
@@ -15,8 +19,12 @@ Returns the information, warning or error message (if any) that was [most recent
 
 Returns an XML document.
 
-> [!TIP]
-> By contrast, [pc:textmsg](/docs/Repositories/Blend_directives/pctextmsg.md) returns a text string.
+
+:::tip
+
+By contrast, [pc:textmsg](/docs/Repositories/Blend_directives/pctextmsg.md) returns a text string.
+
+:::
 
 *Syntax*
 

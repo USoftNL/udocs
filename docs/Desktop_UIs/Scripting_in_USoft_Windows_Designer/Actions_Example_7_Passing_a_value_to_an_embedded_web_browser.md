@@ -25,5 +25,9 @@ Browser navigation is activated runtime by any action following an edit of the U
 ActiveXShell_Explorer_2_1.Navigate( Variables.Text_Box_1() )
 ```
 
-> [!TIP]
-> Make subclasses of the Microsoft Web Browser and the esd_char control first. Then use these subclasses, rather than the original classes.
+
+:::tip
+
+Make subclasses of the Microsoft Web Browser and the esd_char control first. Then use these subclasses, rather than the original classes.
+
+:::

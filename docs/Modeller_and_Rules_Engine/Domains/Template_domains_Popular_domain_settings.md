@@ -10,9 +10,13 @@ A *template domain* is a popular collection of domain settings provided by USoft
 
 When you create a domain, you can optionally take one of the template domains and use it as a starting point for your own domain. To keep things simple, it's usually a good idea to introduce only minimal differences, or even no differences at all, between your new domain and the template. Introduce changes only if you have a specific reason.
 
-> [!NOTE]
-> Template domains are not only a quick and convenient way of creating a domain of a specific type.
-> They also play a role if you decide to create columns by drawing them in EAR diagrams.
+
+:::note
+
+Template domains are not only a quick and convenient way of creating a domain of a specific type.
+They also play a role if you decide to create columns by drawing them in EAR diagrams.
+
+:::
 
 Here are the 9 template domains of USoft 11:
 
@@ -30,8 +34,12 @@ Here are the 9 template domains of USoft 11:
 
 
 
-> [!TIP]
-> You can also have **superdomain** settings and have these inherited by subdomains at lower levels. This is a different mechanism explained [here](/docs/Modeller_and_Rules_Engine/Domains/Superdomains_Inheritance_of_domain_properties.md). This mechanism only extends to selected domain attributes.
+
+:::tip
+
+You can also have **superdomain** settings and have these inherited by subdomains at lower levels. This is a different mechanism explained [here](/docs/Modeller_and_Rules_Engine/Domains/Superdomains_Inheritance_of_domain_properties.md). This mechanism only extends to selected domain attributes.
+
+:::
 
 ## Importing and viewing template domains
 
@@ -53,8 +61,12 @@ USoft recommends you create a new domain of your own if you want to introduce ch
 
 However, you may have reasons to change the template domain itself. For example, your team may decide to create Boolean columns (for Yes/No flags) by drawing EAR diagrams and also to prefer 0/1 values rather than Y/N values for these flags. In this situation, change the BOOLEAN template domain.
 
-> [!TIP]
-> If you make changes to a template domain, any existing domains based on the template will remain unaffected unless you re-apply the template to the domain by pressing the Apply button.
+
+:::tip
+
+If you make changes to a template domain, any existing domains based on the template will remain unaffected unless you re-apply the template to the domain by pressing the Apply button.
+
+:::
 
 To make changes to a template domain:
 

@@ -16,7 +16,11 @@ Tab_1.ControlSetActiveTab('Page 2')
 
 You can type this action statement manually, or use the Object Activator to compose it.
 
-> [!CAUTION]
-> ControlSetActiveTab() expects simple strings, not objects, as parameters. The same is true for all other USoft native methods. Therefore you must provide the parameter in this example by manual editing. You cannot specify the tab page by selecting it from the Object Browser pane.
+
+:::danger
+
+ControlSetActiveTab() expects simple strings, not objects, as parameters. The same is true for all other USoft native methods. Therefore you must provide the parameter in this example by manual editing. You cannot specify the tab page by selecting it from the Object Browser pane.
+
+:::
 
  

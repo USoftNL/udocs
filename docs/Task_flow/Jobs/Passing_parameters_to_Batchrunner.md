@@ -6,8 +6,12 @@ id: Passing_parameters_to_Batchrunner
 
 You can pass the following predefined parameters in calls to the BatchRunner internal component.
 
-> [!NOTE]
-> The call syntax is unexpected for a number of reasons:
+
+:::note
+
+The call syntax is unexpected for a number of reasons:
+
+:::
 
 - Parameter values must **precede** parameter names in the SELECT output list, because each parameter name is passed as a column alias.
 - String values and booleans must be **quoted** under SELECT. Only number values must remain unquoted.

@@ -6,8 +6,12 @@ id: USMetaJobs
 
 
 
-> [!NOTE]
-> This article is about the **Jobs** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::note
+
+This article is about the **Jobs** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::
 
 ## **USMeta.Jobs**
 

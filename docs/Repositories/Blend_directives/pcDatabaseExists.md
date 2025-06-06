@@ -6,8 +6,12 @@ id: pcDatabaseExists
 
 
 
-> [!NOTE]
-> This article is about the **pc:DatabaseExists**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:DatabaseExists**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:DatabaseExists**
 

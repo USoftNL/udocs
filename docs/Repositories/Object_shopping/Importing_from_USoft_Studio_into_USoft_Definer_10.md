@@ -6,9 +6,13 @@ tags: [USoft10]
 
  
 
-> [!NOTE]
-> **See also**
->  
+
+:::note
+
+**See also**
+
+
+:::
 
 ----
 
@@ -48,8 +52,12 @@ At this point, you can do one of 3 things:
 - Inspect a "Compare” preview report first. Press **Analyse**, then **Compare**.
 - Inspect a “Read” preview report first. Press **Analyse,** then **Read**.
 
-> [!WARNING]
-> The import utility potentially overwrites or deletes records in the Business Rules table. The preview reports can help you decide if you are OK with that.
+
+:::warning
+
+The import utility potentially overwrites or deletes records in the Business Rules table. The preview reports can help you decide if you are OK with that.
+
+:::
 
 ----
 
@@ -125,8 +133,12 @@ The result set is imported into USoft Definer following the “[UPSERT](/docs/Ex
 
 As a special measure, the Source of every Formulation / Business Rule in the result set is automatically set to USOFT STUDIO.
 
-> [!TIP]
-> In theory, this last measure allows you to have Business Rules from other sources than Studio. But in practice, if you are using the Import facility from Studio, it is better to have just USOFT STUDIO as a Source, if you can.
+
+:::tip
+
+In theory, this last measure allows you to have Business Rules from other sources than Studio. But in practice, if you are using the Import facility from Studio, it is better to have just USOFT STUDIO as a Source, if you can.
+
+:::
 
 ### Step 3: Delete obsolete business rules
 
@@ -170,10 +182,14 @@ this means that the Definer “Address change” rule set is not (or: no longer)
 
 The "Compare” preview report is machine-processable. If you like, you can remove a difference, or a set of differences, by passing it to XML.Import. This gives you complete control, but the primary purpose of the “Compare” preview report is not to offer an executable but rather to allow you to inspect and analyse the differences. USoft recommends you use the standard **Import** routine (previous section) to transfer data from Studio to Definer, except perhaps in special cases when you have a reason to tweak manually.
 
-> [!NOTE]
-> This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
-> [Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
-> [Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
+
+:::note
+
+This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
+[Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
+[Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
+
+:::
 
 ## “Read” preview report
 
@@ -228,8 +244,12 @@ For many teams, in practice, the best convention is that no team member makes an
 - Implementations attached to Business Rules.
 - Built, Built By, Tested, and Tested By fields.
 
-> [!NOTE]
-> Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+
+:::note
+
+Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+
+:::
 
 ### Defined, Defined By, Approved, Approved By
 
@@ -243,8 +263,12 @@ These 4 fields are not in the bridge. Make sure that you edit them in Definer an
 
 Advanced users can write a custom XSLT transformation to change what happens during Step 1: Filter of the Import routine.
 
-> [!WARNING]
-> Do this only if you have a special reason, and keep changes minimal. Some forms of customisation impair the import utility as it was intended by USoft. This applies, for example, if you customise the way in which the Source attribute is used by the import utility.
+
+:::warning
+
+Do this only if you have a special reason, and keep changes minimal. Some forms of customisation impair the import utility as it was intended by USoft. This applies, for example, if you customise the way in which the Source attribute is used by the import utility.
+
+:::
 
 To customise:
 

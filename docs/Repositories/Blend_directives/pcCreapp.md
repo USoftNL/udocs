@@ -6,8 +6,12 @@ id: pcCreapp
 
 
 
-> [!NOTE]
-> This article is about the **pc:Creapp**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:Creapp**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:Creapp**
 
@@ -47,5 +51,9 @@ If the optional **job** is set, **job** must be the name of an existing USoft Ba
 
 You can suppress the return report by adding, alternatively, assign:result="" or pc:return="".
 
-> [!TIP]
-> This operation is equivalent to running "Create Tables" from the context menu of a USoft Binder item, or (for the user application) choosing Tools, Physical Tables Create from the USoft Definer menu, or (for individual user application tables) pressing the Create Table button in the Tables window of USoft Definer.
+
+:::tip
+
+This operation is equivalent to running "Create Tables" from the context menu of a USoft Binder item, or (for the user application) choosing Tools, Physical Tables Create from the USoft Definer menu, or (for individual user application tables) pressing the Create Table button in the Tables window of USoft Definer.
+
+:::

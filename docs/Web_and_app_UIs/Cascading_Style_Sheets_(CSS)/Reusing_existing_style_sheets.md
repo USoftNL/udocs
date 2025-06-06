@@ -21,8 +21,12 @@ In Web Designer, for each individual button you can specify that it must look li
 
 You can also specify for each Web Designer control an alternative Id property. For example, you can change the Id property of a LabelControl with default value 'Title' to 'Heading' because your existing web site already contains HTML elements with ID 'Heading' that have a specific look.
 
-> [!CAUTION]
-> The default list of domain classes for a Web Designer class is NOT shown in the Property Inspector.
+
+:::danger
+
+The default list of domain classes for a Web Designer class is NOT shown in the Property Inspector.
+
+:::
 
 ## Setting the class List or ID of an object
 

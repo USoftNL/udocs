@@ -6,8 +6,12 @@ id: stringsQuoted
 
 
 
-> [!NOTE]
-> This article is about the **strings:Quoted**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:Quoted**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:Quoted**
 

@@ -6,8 +6,12 @@ id: Create_flat_files
 
 
 
-> [!NOTE]
-> This article is about the **Create flat files**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Create flat files**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Create flat files**
 

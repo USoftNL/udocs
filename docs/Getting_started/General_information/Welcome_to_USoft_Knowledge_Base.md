@@ -81,9 +81,13 @@ USoft supplies tutorials and courseware for learning how to put the USoft platfo
 
 At community.usoft.com, where you are now, most sections of the Knowledge Base are **tutorials.** Some are reference sections: this is marked by a blue "REF.GUIDE” tag. The Knowledge Base is the part of USoft Community that is curated by the USoft R&D team.
 
-> [!TIP]
-> Many colleagues never access Community in any other way than via the Search bar. They use Knowledge Base like they use Wikipedia.
-> This is absolutely fine, but when you are learning, to get a sense of overview, it can also be nice to drill down into the carefully named and sequenced chapters and sub-chapters of Knowledge Base. In Community Home, press the **USoft Knowledge Base** tile, or.
+
+:::tip
+
+Many colleagues never access Community in any other way than via the Search bar. They use Knowledge Base like they use Wikipedia.
+This is absolutely fine, but when you are learning, to get a sense of overview, it can also be nice to drill down into the carefully named and sequenced chapters and sub-chapters of Knowledge Base. In Community Home, press the **USoft Knowledge Base** tile, or.
+
+:::
 
 ### Courseware exercises and solutions
 

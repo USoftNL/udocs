@@ -6,9 +6,13 @@ id: RECORDS
 
 
 
-> [!NOTE]
-> This article has additional information about the **RECORDS** SQL function.
-> For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
+
+:::note
+
+This article has additional information about the **RECORDS** SQL function.
+For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
+
+:::
 
 ## **RECORDS**
 
@@ -76,5 +80,9 @@ SELECT     TOP :top *
 FROM       person
 ```
 
-> [!WARNING]
-> The TOP operator is not converted by USoft on platforms other than SQL Server.
+
+:::warning
+
+The TOP operator is not converted by USoft on platforms other than SQL Server.
+
+:::

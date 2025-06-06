@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **settings** property of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+
+:::note
+
+This article is about the **settings** property of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+
+:::
 
 ## **$.udb.settings**
 
@@ -37,8 +45,12 @@ Provides access to USoft web application settings and flags by exposing the foll
 
 
 
-> [!CAUTION]
-> To script behaviour with these function calls is unlikely to be good practice. Consider making these settings at design-time instead.
+
+:::danger
+
+To script behaviour with these function calls is unlikely to be good practice. Consider making these settings at design-time instead.
+
+:::
 
 Possible values returned by .settings.compatibilityMode are usoft7, usoft8 and usoft9 and usoft10. By setting the application's compatibility mode to an older USoft version you may disable certain UI features that were introduced after that version. This gives you backward compatibility at the price of having less available features.
 

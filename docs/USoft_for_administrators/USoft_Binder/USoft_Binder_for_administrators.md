@@ -10,15 +10,23 @@ If you give users USoft Binder files, they have easy access to USoft application
 
 ## WARNING: Disclosure
 
-> [!WARNING]
-> When you give a person a USoft Binder file with Store Password In This File = Yes (see below for details), you are disclosing access to USoft through the Binder file, and you are disclosing the password itself.
+
+:::warning
+
+When you give a person a USoft Binder file with Store Password In This File = Yes (see below for details), you are disclosing access to USoft through the Binder file, and you are disclosing the password itself.
+
+:::
 
 ## Using an existing USoft Binder file
 
 A Binder File has **items** listed in the central list view of USoft Binder. You can open the individual items.
 
-> [!TIP]
-> You can inspect the USoft command line that each item represents. Choose File, Project Properties, Content. Alternatively, you can copy the command directly to the clipboard by right clicking the item and selecting 'Copy Command Line > Full' for the full command line, or 'Arguments Only' for the startup parameters only.
+
+:::tip
+
+You can inspect the USoft command line that each item represents. Choose File, Project Properties, Content. Alternatively, you can copy the command directly to the clipboard by right clicking the item and selecting 'Copy Command Line > Full' for the full command line, or 'Arguments Only' for the startup parameters only.
+
+:::
 
 ## Creating a new USoft Binder file
 
@@ -51,14 +59,18 @@ If **Owner** is left empty, **User** also specifies the *location* in the databa
 
 On SQL Server, you can leave **User** empty if you want access with Windows Authentication.
 
-> [!WARNING]
-> **SQL Server: Login names or user names?**
-> SQL Server uses a Login object with a *login name* to connect to a database. The database has knowledge of *users.* The Login object is responsible for connecting login names with RDBMS user names. Many times, login name and user name will be the same, but as you can see, this is not necessarily the case.
-> If login name and user name are different, USoft default handling depends on whether you use Windows Authentication or not:
-> If you do not like this default, you can override it by adding a **useLoginNameAsUserName** resource setting in the USDIW resource file. This file is located in the \\APP subdirectory of your USoft installation directory. If you add the following setting:
-> then USoft will check authorization rules and handle SELECT USER by looking at the **login name**,****regardless of whether you are using Windows Authentication or not.
-> If you add the following setting:
-> then USoft will check authorization rules and handle SELECT USER by looking at the **RDBMS user name**, regardless of whether you are using Windows Authentication or not.
+
+:::warning
+
+**SQL Server: Login names or user names?**
+SQL Server uses a Login object with a *login name* to connect to a database. The database has knowledge of *users.* The Login object is responsible for connecting login names with RDBMS user names. Many times, login name and user name will be the same, but as you can see, this is not necessarily the case.
+If login name and user name are different, USoft default handling depends on whether you use Windows Authentication or not:
+If you do not like this default, you can override it by adding a **useLoginNameAsUserName** resource setting in the USDIW resource file. This file is located in the \\APP subdirectory of your USoft installation directory. If you add the following setting:
+then USoft will check authorization rules and handle SELECT USER by looking at the **login name**,****regardless of whether you are using Windows Authentication or not.
+If you add the following setting:
+then USoft will check authorization rules and handle SELECT USER by looking at the **RDBMS user name**, regardless of whether you are using Windows Authentication or not.
+
+:::
 
 ### Password
 
@@ -102,8 +114,12 @@ On SQL Server, a typical database connect string contains a colon ( : ). The par
 myservername\SQLEXPRESS:USD100_TRAVEL
 ```
 
-> [!NOTE]
-> For more on database connect strings, go to [Connecting to the RDBMS](/docs/USoft_for_administrators/Installing_USoft/Connecting_to_the_RDBMS.md).
+
+:::note
+
+For more on database connect strings, go to [Connecting to the RDBMS](/docs/USoft_for_administrators/Installing_USoft/Connecting_to_the_RDBMS.md).
+
+:::
 
 ### Owner
 
@@ -129,9 +145,13 @@ From the USoft Binder menu, choose File, Project Properties, Database. Click the
 
 This allows you to specify 2 different sets of values for the (6) properties discussed in the previous section (User, Password, Store Password In This File, RDBMS, Database, and Owner): one set for the Repository tables and another for the Application tables.
 
-> [!NOTE]
-> If you use Separate Properties for Repository and Application, on USoft command lines, you need to use distinct options as well.
-> For example, on command lines, **-ddowner** is for the Owner of Repository tables, and **-owner** is for the Owner of Application tables.
+
+:::note
+
+If you use Separate Properties for Repository and Application, on USoft command lines, you need to use distinct options as well.
+For example, on command lines, **-ddowner** is for the Owner of Repository tables, and **-owner** is for the Owner of Application tables.
+
+:::
 
 ## Free Objects
 
@@ -145,8 +165,12 @@ In addition to items predefined by USoft, you can add in a USoft Binder file ent
 
 4. Specify Program. Specify Startup Options and Start In if applicable.
 
-> [!TIP]
-> USoft Binder variables are useful in the Startup Options of a Free Object, which could look like this:
+
+:::tip
+
+USoft Binder variables are useful in the Startup Options of a Free Object, which could look like this:
+
+:::
 
 ## Application grouping: how USoft Binder items are presented on the Windows taskbar
 
@@ -163,5 +187,9 @@ In USoft Binder, choose File, Application Grouping from the menu, then select th
 
 
 
-> [!WARNING]
-> Beware that Windows taskbar settings enable you to switch off all icon grouping. If you use that option, this will override USoft Application Grouping.
+
+:::warning
+
+Beware that Windows taskbar settings enable you to switch off all icon grouping. If you use that option, this will override USoft Application Grouping.
+
+:::

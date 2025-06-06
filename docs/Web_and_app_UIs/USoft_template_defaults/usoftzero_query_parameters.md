@@ -43,8 +43,12 @@ commit;
 
 ## Default start page
 
-> [!WARNING]
-> This property of the usoft-zero template default applies only to your Development environment.
+
+:::warning
+
+This property of the usoft-zero template default applies only to your Development environment.
+
+:::
 
 In Development, when testing and debugging, it can be a great help to get the application to go automatically to the page that you are working on. This feature is only appropriate in Development.
 
@@ -78,8 +82,12 @@ http://localhost:8096/myservice1/myconnection1/?autologin=TEST_USER_2&page=InfoP
 
 ## Auto login
 
-> [!WARNING]
-> This property of the usoft-zero template default applies only to your Development environment.
+
+:::warning
+
+This property of the usoft-zero template default applies only to your Development environment.
+
+:::
 
 In Development, when testing and debugging, having to constantly repeat the login ritual can be annoying. In an application based on the usoft-zero default, you can create a set-up that removes this necessity. This feature is not safe, and therefore only appropriate in Development.
 

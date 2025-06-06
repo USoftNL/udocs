@@ -58,8 +58,12 @@ To install the server:
 
 2. Choose Actions, Install from the menu.
 
-> [!CAUTION]
-> If a server is already installed and you change the USoft installation path or the publication folder, you need to reinstall the server. Please read the next topic.
+
+:::danger
+
+If a server is already installed and you change the USoft installation path or the publication folder, you need to reinstall the server. Please read the next topic.
+
+:::
 
 ### Re-installing a server
 
@@ -81,8 +85,12 @@ Global classes and structures are equally included in the .JAR file. A class/str
 
 The .JAR file is located in the publication folder and has the same name as the server.
 
-> [!NOTE]
-> Inactive classes/services will not be published in a server: if publishing leads to an error message that a class that you’ve created cannot be found, make sure that the class is set to Active and (if it is not a global class) make sure that it is associated with the server you are publishing.
+
+:::note
+
+Inactive classes/services will not be published in a server: if publishing leads to an error message that a class that you’ve created cannot be found, make sure that the class is set to Active and (if it is not a global class) make sure that it is associated with the server you are publishing.
+
+:::
 
 To publish services at a server:
 

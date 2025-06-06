@@ -6,8 +6,12 @@ id: pcConfigRulesService
 
 
 
-> [!NOTE]
-> This article is about the **pc:ConfigRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ConfigRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 - [pc:ConfigRulesService](#pc:configrulesservice)
 - [Choosing a port number for a Rules Service](#choosing-a-port-number-for-a-rules-service)
@@ -98,8 +102,12 @@ The **port** attribute is not required. If you omit **port**, no configuration f
 
 To specify **port**,****typically you choose a 4‑digit port number (eg., 7777). See the section "Choosing a port number...” later in this article. The port number you choose must not be occupied by any other program on the host computer. If you specify port=freeport, USoft Blend will assign a transient port number to the Rules Engine.
 
-> [!WARNING]
-> **port=freeport** is not generally recommended.
+
+:::warning
+
+**port=freeport** is not generally recommended.
+
+:::
 
 The **servicename****attribute is optional. If you provide it, the configuration file generated is:
 

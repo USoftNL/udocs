@@ -6,8 +6,12 @@ id: USPowerShellExecuteScript
 
 
 
-> [!NOTE]
-> This article is about the **ExecuteScript** method of the [USPowerShell internal component](/docs/Extensions/USPowerShell_internal_component).
+
+:::note
+
+This article is about the **ExecuteScript** method of the [USPowerShell internal component](/docs/Extensions/USPowerShell_internal_component).
+
+:::
 
 ## **USPowerShell.ExecuteScript**
 

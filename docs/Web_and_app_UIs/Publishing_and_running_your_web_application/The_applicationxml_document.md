@@ -39,10 +39,18 @@ The source of these parameter names and their values is stored in Web Designer. 
 
 You can edit this list of property settings. The example shows a "useIndexedDBDataLayer" publication property that was added manually.
 
-> [!CAUTION]
-> Because the "application.xml" file is generated, you must not edit it directly. To add, change or remove entries, edit the source records instead.
+
+:::danger
+
+Because the "application.xml" file is generated, you must not edit it directly. To add, change or remove entries, edit the source records instead.
+
+:::
 
 At runtime, when your application is started, the “application.xml” file is read and its values are used by the client browser to properly run your website. 
 
-> [!WARNING]
-> In USoft versions prior to USoft 10, publication properties were written to a file called “application.html” instead of "application.xml". The "application.html" file still exists, but is now dedicated to the possibility of adding customised Javascript and CSS styles by putting a copy of this file in the **\\Alt** alternative template directory.
+
+:::warning
+
+In USoft versions prior to USoft 10, publication properties were written to a file called “application.html” instead of "application.xml". The "application.html" file still exists, but is now dedicated to the possibility of adding customised Javascript and CSS styles by putting a copy of this file in the **\\Alt** alternative template directory.
+
+:::

@@ -32,6 +32,10 @@ To explicitly specify USoft Authentication as the authentication scheme for a se
 @AuthUSoft
 ```
 
-> [!NOTE]
-> You can also explicitly set USoft authentication on an individual method of the service. Do this by setting the Annotation attribute of that method to :
-> @AuthUSoft
+
+:::note
+
+You can also explicitly set USoft authentication on an individual method of the service. Do this by setting the Annotation attribute of that method to :
+@AuthUSoft
+
+:::

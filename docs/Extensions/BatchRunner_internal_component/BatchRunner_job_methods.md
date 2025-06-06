@@ -6,8 +6,12 @@ id: BatchRunner_job_methods
 
 
 
-> [!NOTE]
-> This article is about **job methods** of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
+
+:::note
+
+This article is about **job methods** of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
+
+:::
 
 ## **BatchRunner.job**
 
@@ -15,8 +19,12 @@ Runs a specific job.
 
 Returns a record set if the job has an output parameter set. Otherwise, returns the NULL value. If a record set is returned, each record has as many column values are there are elements in the output parameter set.
 
-> [!TIP]
-> The job name is the name of the component method. For each job you define, the internal BatchRunner component automatically exposes a method by the name of the job.
+
+:::tip
+
+The job name is the name of the component method. For each job you define, the internal BatchRunner component automatically exposes a method by the name of the job.
+
+:::
 
 *Syntax 1*
 
@@ -57,5 +65,9 @@ SELECT    'BZ-23'    "contract_id"
 ,         'true'     "-quiet"
 ```
 
-> [!TIP]
-> In this example, **-quiet** is a [predefined parameter](/docs/Extensions/BatchRunner_internal_component/BatchRunner_internal_component.md).
+
+:::tip
+
+In this example, **-quiet** is a [predefined parameter](/docs/Extensions/BatchRunner_internal_component/BatchRunner_internal_component.md).
+
+:::

@@ -19,14 +19,22 @@ In USoft 11, the concept of "funnel” has been replaced by a distinction betwee
 
 In USoft 10.x, in USoft Authorizer, the funnel user had Account Type = Funnel and Validation Agent = RDBMS. The funneling users had Account Type = Funneling and a Validation Agent other than RDBMS.
 
-> [!WARNING]
-> USoft Authorizer prevents users with Account Type = Funnel from connecting with a Rules Engine through a Rules Service or other web-based service.
-> This is why you should set Account Type = Funnel for the funnel user who accesses the database, and Account Type = Funneling for runtime end users.
+
+:::warning
+
+USoft Authorizer prevents users with Account Type = Funnel from connecting with a Rules Engine through a Rules Service or other web-based service.
+This is why you should set Account Type = Funnel for the funnel user who accesses the database, and Account Type = Funneling for runtime end users.
+
+:::
 
 Account funneling was applied to USoft URL-based applications built with Web Designer and Service Definer. Rules Engine requests are handled by a Rules Service, which is a server process and not, as in Client/Server, a user process.
 
-> [!NOTE]
-> Account funneling could also be applied to USoft C/S applications, in order to gain advantage of other Validation Agents such as the operating system:
+
+:::note
+
+Account funneling could also be applied to USoft C/S applications, in order to gain advantage of other Validation Agents such as the operating system:
+
+:::
 
 ### Summary: Account Type (USoft 10)
 

@@ -6,8 +6,12 @@ id: A_minimal_toolkit_of_SBVR_vocabulary_concepts
 
 This section of USoft Community presents a carefully selected, small but powerful toolkit of SBVR concepts that you can use to model a business vocabulary for the benefit of a USoft project.
 
-> [!TIP]
-> SBVR is an extensive specification. It presents hundreds of concepts in a document that contains hundreds of pages. The USoft toolkit contains just 11 concepts. Go to [www.omg.org](http://www.omg.org) for a free copy of the official SBVR specification.
+
+:::tip
+
+SBVR is an extensive specification. It presents hundreds of concepts in a document that contains hundreds of pages. The USoft toolkit contains just 11 concepts. Go to [www.omg.org](http://www.omg.org) for a free copy of the official SBVR specification.
+
+:::
 
  
 

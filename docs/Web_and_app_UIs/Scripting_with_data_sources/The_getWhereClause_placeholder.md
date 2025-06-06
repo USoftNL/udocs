@@ -8,8 +8,12 @@ id: The_getWhereClause_placeholder
 
 
 
-> [!WARNING]
-> This placeholder is **deprecated** in USoft 11 but still functional on data sources on the current main page.
+
+:::warning
+
+This placeholder is **deprecated** in USoft 11 but still functional on data sources on the current main page.
+
+:::
 
 ![](./assets/22fff438-3acd-485b-90d0-d44868e85f2a.png)
 

@@ -22,8 +22,12 @@ To realise tabs in web pages:
 
 4. For each TabControl, in the Property Inspector, set the property to the title you want the tab to display. Set the property to the Id of the Group control that holds the contents for that tab page.
 
-> [!WARNING]
-> While the Group controls are shown by their Name property in the object tree, you must be careful in the **Panel** property to refer to the **Id** and not to the Name of the Group control. Avoid confusion by keeping the Name and Id identical if you can.
+
+:::warning
+
+While the Group controls are shown by their Name property in the object tree, you must be careful in the **Panel** property to refer to the **Id** and not to the Name of the Group control. Avoid confusion by keeping the Name and Id identical if you can.
+
+:::
 
 5. Make sure each Group control contains the content that you want the corresponding tab page to show.
 

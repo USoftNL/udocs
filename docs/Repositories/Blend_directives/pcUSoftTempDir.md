@@ -6,8 +6,12 @@ id: pcUSoftTempDir
 
 
 
-> [!NOTE]
-> This article is about the **pc:USoftTempDir**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:USoftTempDir**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:USoftTempDir**
 
@@ -41,8 +45,12 @@ C:\USoft\Logs\USoft_temp\
 
 USoft writes to the "USoft temp dir" for technical purposes with a general character, that is, a non-user-specific character.
 
-> [!WARNING]
-> Do not confuse with the "[user temp dir](/docs/Repositories/Blend_directives/pcUserTempDir.md)".
+
+:::warning
+
+Do not confuse with the "[user temp dir](/docs/Repositories/Blend_directives/pcUserTempDir.md)".
+
+:::
 
 The files USoft writes to this folder are intended as temporary, auxiliary files. They may or may not be automatically cleared by USoft after use.
 
@@ -50,5 +58,9 @@ The "USoft temp dir" is allocated by the person running USoft Setup when asked b
 
 The specified alias makes a difference if you have multiple USoft installations on the local machine. The USoft installation in scope is the USoft installation that was used to start or run the Rules Service corresponding to alias. This is the USoft installation from which you started the Blend script that started the Rules Service, for example (in the case of the current script) a temporary Rules Service started with pc:RunRulesService.
 
-> [!NOTE]
->  The following query returns the USoft temp dir:
+
+:::note
+
+The following query returns the USoft temp dir:
+
+:::

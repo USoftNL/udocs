@@ -8,8 +8,12 @@ id: The_getSearchValue_placeholder
 
 
 
-> [!CAUTION]
-> This placeholder is no longer supported in USoft 11.
+
+:::danger
+
+This placeholder is no longer supported in USoft 11.
+
+:::
 
 ![](./assets/22fff438-3acd-485b-90d0-d44868e85f2a.png)
 

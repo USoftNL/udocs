@@ -6,8 +6,12 @@ id: lookup
 
 
 
-> [!NOTE]
-> This article is about the **lookup**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **lookup**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **lookup**
 
@@ -36,5 +40,9 @@ if ( *condition* )
   $.udb.navigateToLookup("lookup page", { ... });
 ```
 
-> [!CAUTION]
-> When USoft publishes runtime lookup behavior, it generates a lookup button and transfers the lookup behavior defined for the InputControl onto the 'onclick' event for that button. This transfer is only successful if you script against Web Designer objects as explained in the steps of this help topic. The following attempt at a fully programmatic approach would be *unsuccessful*:
+
+:::danger
+
+When USoft publishes runtime lookup behavior, it generates a lookup button and transfers the lookup behavior defined for the InputControl onto the 'onclick' event for that button. This transfer is only successful if you script against Web Designer objects as explained in the steps of this help topic. The following attempt at a fully programmatic approach would be *unsuccessful*:
+
+:::

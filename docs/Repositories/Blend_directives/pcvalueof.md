@@ -6,8 +6,12 @@ id: pcvalueof
 
 
 
-> [!NOTE]
-> This article is about the **pc:value-of**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:value-of**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:value-of**
 
@@ -88,8 +92,12 @@ disable-output-escaping="yes"
 
 with the same effect. This setting disables the normal output escaping of markup characters when the output is serialised text. Consider carefully if this is what you want. As the XSLT 1.0 specification puts it:
 
-> [!NOTE]
-> "Since disabling output escaping ... can result in XML that is not well-formed, it should be used only if there is not alternative."
+
+:::note
+
+"Since disabling output escaping ... can result in XML that is not well-formed, it should be used only if there is not alternative."
+
+:::
 
 If the content of the file "mydata.xml" is:
 

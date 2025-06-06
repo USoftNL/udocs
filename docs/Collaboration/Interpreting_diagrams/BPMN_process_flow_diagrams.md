@@ -57,5 +57,9 @@ As you can see, a BPMN diagram is characterised by boxes connected by arrows poi
 
 ![](./assets/f1381ac2-8c3a-4d42-97d1-b876c549f30f.png)
 
-> [!CAUTION]
-> It is possible that these formulations do not use the letters 'BPMN' but only, for example, the word 'diagram', or only words describing what the diagram is about. The ending "... is located here" is necessary for a formulation to represent a diagram.
+
+:::danger
+
+It is possible that these formulations do not use the letters 'BPMN' but only, for example, the word 'diagram', or only words describing what the diagram is about. The ending "... is located here" is necessary for a formulation to represent a diagram.
+
+:::

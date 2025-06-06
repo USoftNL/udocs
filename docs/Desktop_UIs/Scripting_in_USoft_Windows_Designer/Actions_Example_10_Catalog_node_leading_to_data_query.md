@@ -15,8 +15,12 @@ For help on creating a catalog, go to the Tree Views help topic. The catalog pas
 - The window has a user-defined property to receive the primary key value as a string.
 - The catalog refers to the user-defined property to pass the primary key value as a string.
 
-> [!NOTE]
-> The reason why you can use simple string values here is that each double-click action leads to a new info window. The info windows need not refer back to the catalog once they are created. This contrasts with examples 11 and 12, where object-like (as opposed to string-like) properties are required.
+
+:::note
+
+The reason why you can use simple string values here is that each double-click action leads to a new info window. The info windows need not refer back to the catalog once they are created. This contrasts with examples 11 and 12, where object-like (as opposed to string-like) properties are required.
+
+:::
 
 ## ReservationsFromCatalog Window
 

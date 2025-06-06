@@ -43,8 +43,12 @@ You can import this correctly by defining an external set that looks like:
 
 ```
 
-> [!NOTE]
-> The date in the C-records is read as a string, not as a date.
+
+:::note
+
+The date in the C-records is read as a string, not as a date.
+
+:::
 
 The import SQL statement should look something like the following, where the example of the TO_DATE Oracle-specific function is used:
 

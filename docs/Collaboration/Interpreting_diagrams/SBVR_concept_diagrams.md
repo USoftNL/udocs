@@ -20,8 +20,12 @@ As you can see, an SBVR concept diagram is characterised by boxes connected by l
 
 ![](./assets/e3eaa177-b30a-4a20-ae0c-4d4a0632758d.png)
 
-> [!CAUTION]
-> It is possible that these formulations do not use the letters 'sbvr' but only, for example, the word 'diagram', or only words describing what the diagram is about. The ending "... is located here" is necessary for a formulation to represent a diagram.
+
+:::danger
+
+It is possible that these formulations do not use the letters 'sbvr' but only, for example, the word 'diagram', or only words describing what the diagram is about. The ending "... is located here" is necessary for a formulation to represent a diagram.
+
+:::
 
 ## What is an SBVR concept diagram *for* ?
 
@@ -58,9 +62,13 @@ N-ary verb concepts are verb concepts ("blue concepts") that involve noun concep
 
 ![](./assets/b5dfb243-ed97-4481-9574-b4ca65e886d0.png)
 
-> [!NOTE]
-> The USoft Studio language engines that process and colour-code formulations are not capable of recognising n-ary verb concepts in natural language. As a consequence, an n-ary verb concept is unlikely in USoft Studio to be colour-coded as intended. In SBVR documents, n-ary verb concepts are commonly colour-coded with an alternation of green and blue text, but no red or black text:
-> car*is available to*rental*on*rental day
+
+:::note
+
+The USoft Studio language engines that process and colour-code formulations are not capable of recognising n-ary verb concepts in natural language. As a consequence, an n-ary verb concept is unlikely in USoft Studio to be colour-coded as intended. In SBVR documents, n-ary verb concepts are commonly colour-coded with an alternation of green and blue text, but no red or black text:
+car*is available to*rental*on*rental day
+
+:::
 
 ## Categories
 

@@ -12,8 +12,12 @@ The execution of scheduled USoft jobs may be triggered in a number of ways:
 - By an iterated decision.
 - From the OS command line.
 
-> [!WARNING]
-> You can also schedule from a looping Benchmark procedure or by using the T_APP_TIME table. These  strategies are becoming obsolete. They are covered at the end of this article.
+
+:::warning
+
+You can also schedule from a looping Benchmark procedure or by using the T_APP_TIME table. These  strategies are becoming obsolete. They are covered at the end of this article.
+
+:::
 
 ## Scheduling by a timer created in USoft Service Definer
 

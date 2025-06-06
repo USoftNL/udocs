@@ -13,8 +13,12 @@ A USoft environment must run on a relational database. USoft supports design-tim
 - PostgreSQL (Beta, please contact USoft Support)
 - ODBC and JDBC (Beta, please contact USoft Support)
 
-> [!WARNING]
-> In addition, USoft 10 is being tested for ODBC and JDBC (Derby) connections. Contact USoft Support if you consider these connection types for your USoft 10 project.
+
+:::warning
+
+In addition, USoft 10 is being tested for ODBC and JDBC (Derby) connections. Contact USoft Support if you consider these connection types for your USoft 10 project.
+
+:::
 
 In a Development environment, make a central database server available to users. USoft recommends that you create a separate database user (database account) for each development team member.. If a file system network is used, ensure database connectivity so that all development machines can connect to the development repository.
 

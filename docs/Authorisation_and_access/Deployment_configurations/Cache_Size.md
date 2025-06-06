@@ -6,8 +6,12 @@ id: Cache_Size
 
 
 
-> [!NOTE]
-> This article is about the **Cache Size**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Cache Size**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Cache Size**
 
@@ -33,6 +37,10 @@ This cache is used for the local evaluation of SQL queries and may optimize perf
 
 If performance is an issue with your application, experiment with this cache size.
 
-> [!TIP]
-> Changes made to this setting are only effective if the Record Facts Cache parameter is set to In Memory or On File.
-> Maintaining the cache on file is an old setting that is nowadays much slower than in memory cache or no cache, we intend to remove this option in a future version. Records in temporary tables (e.g. used within USoft Batch internally) are not cached in any way.
+
+:::tip
+
+Changes made to this setting are only effective if the Record Facts Cache parameter is set to In Memory or On File.
+Maintaining the cache on file is an old setting that is nowadays much slower than in memory cache or no cache, we intend to remove this option in a future version. Records in temporary tables (e.g. used within USoft Batch internally) are not cached in any way.
+
+:::

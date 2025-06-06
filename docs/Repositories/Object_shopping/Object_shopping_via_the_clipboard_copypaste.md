@@ -62,5 +62,9 @@ It is also possible to copy multiple objects via the clipboard in one go:
 - Continue to copy objects until all objects to be copied have been added.
 - Go to the destination repository, and Paste as described in "Step 2". Since the copy now contains multiple (different kind of) objects, the paste can be done in any folder in the catalog where copy-paste functionality is available.
 
-> [!NOTE]
-> the Conflict Resolution as described in the section above does not apply to multi-copy paste actions: when an object (or objects) already exists in the target repository, it will be overwritten.
+
+:::note
+
+the Conflict Resolution as described in the section above does not apply to multi-copy paste actions: when an object (or objects) already exists in the target repository, it will be overwritten.
+
+:::

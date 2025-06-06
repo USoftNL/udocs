@@ -4,8 +4,12 @@ id: Configuration_by_variable_substitution
 
 # Configuration by variable substitution
 
-> [!WARNING]
-> This technique is about [target variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md). In other words, it is about deploy-time and not release-time replacement of the variable placeholder by an actual value.
+
+:::warning
+
+This technique is about [target variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md). In other words, it is about deploy-time and not release-time replacement of the variable placeholder by an actual value.
+
+:::
 
 USoft Delivery Manager facilitates configuration by supporting *target variable settings.* This is an optional mechanism. You can choose to use all aspects of it, some aspects of it, or not use it at all.
 

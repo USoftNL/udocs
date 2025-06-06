@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **rowSet()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+
+:::note
+
+This article is about the **rowSet()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+
+:::
 
 ## **$.udb(ds).rowSet()**
 
@@ -52,8 +60,12 @@ The required parent-key must be one of the following:
 - Any other *key-string* representing the row set's parent key. This must be an exact match to any Rowset object in the data source object in the data layer.
 - An object that is a struct specifying one or more parent keys for at least one data source. This object is transformed to the corresponding *key-string* at runtime.
 
-> [!NOTE]
-> For more on keys strings, go to the Rowset help topic. See also the Rowset.keysString() function.
+
+:::note
+
+For more on keys strings, go to the Rowset help topic. See also the Rowset.keysString() function.
+
+:::
 
 *Example*
 

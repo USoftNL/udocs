@@ -4,8 +4,12 @@ id: Custom_XSL_in_UDeliver
 
 # Custom XSL in UDeliver
 
-> [!NOTE]
-> This article is about the **custom XSL** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **custom XSL** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 A *custom XSL* is a document that contains an XSLT transformation and that you want to register, and presumably use, in Delivery Manager.
 

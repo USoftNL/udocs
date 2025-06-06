@@ -6,8 +6,12 @@ id: pcReadFile
 
 
 
-> [!NOTE]
-> This article is about the **pc:ReadFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ReadFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ReadFile**
 
@@ -43,5 +47,9 @@ will return:
 <file>Contents</file>
 ```
 
-> [!TIP]
-> You can prevent the output of XML markup characters from being escaped by passing disable-output-escaping="yes". See pc:value-of.
+
+:::tip
+
+You can prevent the output of XML markup characters from being escaped by passing disable-output-escaping="yes". See pc:value-of.
+
+:::

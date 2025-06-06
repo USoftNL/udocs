@@ -4,8 +4,12 @@ id: Contexts_and_result_types_in_UDeliver
 
 # Contexts and result types in UDeliver
 
-> [!NOTE]
-> This article is about the **context** and **result type** concepts in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **context** and **result type** concepts in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 A *context* is an area of application where Delivery Manager may be useful:
 
@@ -25,5 +29,9 @@ A *result type* is a type of outcome that an Action in Delivery Manager has. You
 
 Contexts and result types are 2 ways of classifying Actions. These classifications are visible in the Actions tab of the Delivery Manager catalog. These classification may change between USoft patches. You cannot alter these classifications.
 
-> [!TIP]
-> The only purpose of the **context** and **result type** concepts is to provide wayfinding and increase understanding. They have no impact on the effect of UDeliver operations.
+
+:::tip
+
+The only purpose of the **context** and **result type** concepts is to provide wayfinding and increase understanding. They have no impact on the effect of UDeliver operations.
+
+:::

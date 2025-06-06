@@ -4,9 +4,13 @@ id: Light_World_Assumption
 
 # Light World Assumption
 
-> [!NOTE]
-> **Summary:**  If you don't have a rule, people have freedom.
-> [More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
+
+:::note
+
+**Summary:**  If you don't have a rule, people have freedom.
+[More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
+
+:::
 
 In clause 16.4.1, SBVR 1.5 explains:
 

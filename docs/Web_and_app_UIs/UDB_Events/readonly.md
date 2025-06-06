@@ -6,8 +6,12 @@ id: readonly
 
 
 
-> [!NOTE]
-> This article is about the **readonly**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **readonly**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **readonly**
 

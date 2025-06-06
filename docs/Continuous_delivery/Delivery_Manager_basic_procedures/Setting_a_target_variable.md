@@ -47,5 +47,9 @@ c:\temp
 
 5.  Save work.
 
-> [!TIP]
-> You can also view and query all target variable settings for all computers in a single grid. To do this, choose Release, Computer settings from the menu.
+
+:::tip
+
+You can also view and query all target variable settings for all computers in a single grid. To do this, choose Release, Computer settings from the menu.
+
+:::

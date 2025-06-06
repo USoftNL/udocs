@@ -6,8 +6,12 @@ id: stringsToLower
 
 
 
-> [!NOTE]
-> This article is about the **strings:ToLower**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:ToLower**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:ToLower**
 

@@ -4,16 +4,24 @@ id: Promises_for_asynchronous_Javascript
 
 # Promises for asynchronous Javascript
 
-> [!NOTE]
-> This article explains the idea of promises and tells you why and how to code .**then()**, **.catch()** and **.finally()** clauses in USoft web applications.
-> It gives some explanation about USoft's [udbPromise](#the-udbpromise-object) object and how it is different from Javascript's standard Promise object.
+
+:::note
+
+This article explains the idea of promises and tells you why and how to code .**then()**, **.catch()** and **.finally()** clauses in USoft web applications.
+It gives some explanation about USoft's [udbPromise](#the-udbpromise-object) object and how it is different from Javascript's standard Promise object.
+
+:::
 
 **Promises** are a JavaScript feature that represents the eventual completion (or failure thereof) of an operation of an asynchronous nature.
 
 Promises make web applications more responsive. They use as much of the browser's execution capabilities as possible. Promises have been integrated into every aspect of the USoft Web API.
 
-> [!CAUTION]
-> Promises in USoft can lead to unexpected results that are difficult to debug. To avoid this, make sure that you can predict the way in which operations in **.then()** branches follow each other. For details, go to the [Promises in USoft](#promises-in-usoft) section of this article.
+
+:::danger
+
+Promises in USoft can lead to unexpected results that are difficult to debug. To avoid this, make sure that you can predict the way in which operations in **.then()** branches follow each other. For details, go to the [Promises in USoft](#promises-in-usoft) section of this article.
+
+:::
 
 ## A better alternative for asynchronous calls
 
@@ -67,10 +75,14 @@ Calling a function asynchronously was already possible before USoft 10. The "asy
 
 ## Promises in USoft
 
-> [!WARNING]
-> Don't just execute a function when you make a call to the USoft UDB library. That way, the function just returns undefined, not a promise.
-> Instead, use the **return** keyword to make sure that you *return the promise:* the promise object that the UDB call evaluates to.
-> This is the only way to guarantee that a chain of asynchronous USoft operations will execute as intended. This section explains.
+
+:::warning
+
+Don't just execute a function when you make a call to the USoft UDB library. That way, the function just returns undefined, not a promise.
+Instead, use the **return** keyword to make sure that you *return the promise:* the promise object that the UDB call evaluates to.
+This is the only way to guarantee that a chain of asynchronous USoft operations will execute as intended. This section explains.
+
+:::
 
 In this example, a USoft web page has a button. When the user presses the button, the application commits whatever the user had been doing. Then, if this initial commit is successful, 3 further operations are executed in this order:
 
@@ -202,8 +214,12 @@ $.udb("RESERVATION").rowCreate({
 })
 ```
 
-> [!NOTE]
-> If the row has a generated primary key value, executing the query is one way of getting this value displayed in the page.
+
+:::note
+
+If the row has a generated primary key value, executing the query is one way of getting this value displayed in the page.
+
+:::
 
 ## Where USoft implements promises
 

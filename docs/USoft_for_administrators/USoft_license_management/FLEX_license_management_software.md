@@ -6,15 +6,23 @@ id: FLEX_license_management_software
 
 USoft Series uses FLEXlm license management software from Acresso Software. FLEXlm delivers high-performance multi-user license checks for features specified in the license file. This is a text file that can be read with any text editor.
 
-> [!CAUTION]
-> Do not edit this license file. This makes it unusable.
+
+:::danger
+
+Do not edit this license file. This makes it unusable.
+
+:::
 
 ## Three-server redundant license servers
 
 FLEXlm supports a set of three license servers to be used in a redundant manner. If any two of the three license servers are up and running, the system is functional and hands out its total complement of licenses.
 
-> [!NOTE]
-> The use of two license servers is strongly discouraged, because a set of redundant server nodes with only two server nodes gives you two points of failure. You must always have both server nodes running.
+
+:::note
+
+The use of two license servers is strongly discouraged, because a set of redundant server nodes with only two server nodes gives you two points of failure. You must always have both server nodes running.
+
+:::
 
 When redundant servers are started, they elect a master, which performs all licensing operations. The other two servers are there to provide a secure licensing mechanism in the event of hardware failure, or if the master server node needs to be rebooted. Should the master fail, if two servers are still running, one of the remaining two is elected master and licensing operations continue.
 
@@ -42,8 +50,12 @@ If the server order does not match, the daemons come up initially but reconnecti
 
 When only two of the three license server nodes are up, it is possible for the client application to experience a timeout before connecting to the license server. Specifically, if the first license server in the license file is down, the client application timeouts before attempting to connect to the second server in the license file. This timeout is set to ten seconds by default, so there is a ten second delay before the license is granted.
 
-> [!NOTE]
-> If the first license server node is to be down for a while, the order of the SERVER lines in the license file which the client application reads, could be changed to avoid this timeout.
+
+:::note
+
+If the first license server node is to be down for a while, the order of the SERVER lines in the license file which the client application reads, could be changed to avoid this timeout.
+
+:::
 
 *Example*
 

@@ -6,8 +6,12 @@ id: USMetaComponents
 
 
 
-> [!NOTE]
-> This article is about the **Components** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::note
+
+This article is about the **Components** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::
 
 ## **USMeta.Components**
 
@@ -40,8 +44,12 @@ SELECT   USMeta.Components( '.*DOT NET.*' Architecture )
 
 This results in all components of the "DOT NET", and the "DOT NET INTERNAL" architectures.
 
-> [!TIP]
-> For backward compatibility only, it is possible to supply parameter values by position. Using this syntax, a list of non-aliased values maps to the parameter list in the order stated, with empty values at the end of the list if you supply less than 4 values, and '' (the empty string) as a way of explicitly declaring an empty value.
+
+:::tip
+
+For backward compatibility only, it is possible to supply parameter values by position. Using this syntax, a list of non-aliased values maps to the parameter list in the order stated, with empty values at the end of the list if you supply less than 4 values, and '' (the empty string) as a way of explicitly declaring an empty value.
+
+:::
 
 *Name-pattern* is a regular expression that matches zero, one or more component names in the model. The result data is limited to components matching the pattern. If *name-pattern* is omitted, then result data is not limited in this way.
 

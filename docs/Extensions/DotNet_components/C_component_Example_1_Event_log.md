@@ -35,8 +35,12 @@ System.dll
 
 This field contains the .NET framework DLL names of libraries referenced by the code above. In this case the System library is referenced which resides in System.dll in the .NET framework installation folder. All the types that you are using in a C# program are defined in assemblies. Add a reference to the assembly that you use in the Assembly Reference field. If there are multiple assembly references use a semicolon (;) as a separator between the assembly names.
 
-> [!NOTE]
-> To ensure that the C# compiler can find the assembly DLLs, you must add the path of the assemblies you use to the system path (in both development and production environments). If you are working with Visual Studio you can find this path by right clicking on the assembly reference and then choosing Properties from the context menu. The Path property contains the path and the name of the assembly. If the assembly DLL is in the USoft bin directory you do not have to add that path to the system path.
+
+:::note
+
+To ensure that the C# compiler can find the assembly DLLs, you must add the path of the assemblies you use to the system path (in both development and production environments). If you are working with Visual Studio you can find this path by right clicking on the assembly reference and then choosing Properties from the context menu. The Path property contains the path and the name of the assembly. If the assembly DLL is in the USoft bin directory you do not have to add that path to the system path.
+
+:::
 
 5. Press Commit. USoft compiles this code.
 

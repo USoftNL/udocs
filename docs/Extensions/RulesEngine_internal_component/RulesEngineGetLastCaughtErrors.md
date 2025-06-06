@@ -6,8 +6,12 @@ id: RulesEngineGetLastCaughtErrors
 
 
 
-> [!NOTE]
-> This article is about the **GetLastCaughtErrors** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::note
+
+This article is about the **GetLastCaughtErrors** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::
 
 ## **RulesEngine.GetLastCaughtErrors**
 

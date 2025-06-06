@@ -59,5 +59,9 @@ The child set will now be synchronized with the parent external set. This is pos
 
 For synchronization, USoft implicitly adds a join condition coupling records from the parent set with records from the parent table in the child set. If the parent table appears two or more times in the child set's FROM clause, the join is with the first table (reading from left to right) for which all primary key columns appear in the SQL statement.
 
-> [!NOTE]
-> An external set cannot have a child set if the query contains one of the set operators UNION, MINUS, or INTERSECT.
+
+:::note
+
+An external set cannot have a child set if the query contains one of the set operators UNION, MINUS, or INTERSECT.
+
+:::

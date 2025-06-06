@@ -72,8 +72,12 @@ This section discusses different ways of performing the 6 basic repository manag
 
 USoft Binder offers not only access points to repositories from a Windows tool. It also offers menu options for creating and dropping repository tables. Right-mouse-click on a Binder item and choose Create Tables to create database tables. In the dialog, there is a "Drop Existing Tables” option. If you set this option, any existing tables will first be dropped.
 
-> [!CAUTION]
-> Drop Existing Tables = Yes will cause all your existing work to be dropped permanently from the database. There is no option to recover this data.
+
+:::danger
+
+Drop Existing Tables = Yes will cause all your existing work to be dropped permanently from the database. There is no option to recover this data.
+
+:::
 
 A quick and easy way to set up a USoft environment is to create a database schema at RDBMS level and then perform these steps:
 
@@ -83,8 +87,12 @@ A quick and easy way to set up a USoft environment is to create a database schem
 4. In the item list in the main tool window, right-mouse-click on Authorizer and choose Create Tables.
 5. In the item list in the main tool window, right-mouse-click on Definer and choose Create Tables.
 
-> [!TIP]
-> The reason you first need to create the Authorizer repository is that "Create Tables” for Authorizer will authorize the database user (the owner of the tables) to access the USAUTH applications. This is a necessary bootstrap action. Once this is done, there is an Authorizer entry to allow the user access to any repository. Step 5, Create-Tables for Definer, automatically adds access rights for the user to USD = the USoft Definer tool, and so on.
+
+:::tip
+
+The reason you first need to create the Authorizer repository is that "Create Tables” for Authorizer will authorize the database user (the owner of the tables) to access the USAUTH applications. This is a necessary bootstrap action. Once this is done, there is an Authorizer entry to allow the user access to any repository. Step 5, Create-Tables for Definer, automatically adds access rights for the user to USD = the USoft Definer tool, and so on.
+
+:::
 
 You are now  ready to start developing your application. Double-click Definer and start work. As soon as you want to see the runtime result of your work in a default client/server interface:
 
@@ -92,8 +100,12 @@ You are now  ready to start developing your application. Double-click Definer a
 2. Right-mouse-click User Application again, and now choose Create Tables.
 3. Double-click User Application to access the application you are developing.
 
-> [!TIP]
-> Step 2 will physically create the tables you have been declaring in Definer and will also (in Authorizer) add the user to the list of people who are allowed access to your application. To see this, double-click the Authorizer item and browse the catalog on the left.
+
+:::tip
+
+Step 2 will physically create the tables you have been declaring in Definer and will also (in Authorizer) add the user to the list of people who are allowed access to your application. To see this, double-click the Authorizer item and browse the catalog on the left.
+
+:::
 
 ### USoft Delivery Manager
 

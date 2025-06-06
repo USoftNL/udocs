@@ -22,8 +22,12 @@ Create an **executeSQLStatement** Action object in the page where you want to ex
 
 2. In the Controls catalog on the left of your screen, open the Listeners node, and drag an Event object onto the top-level Page node in the object tree on the right of your screen. Double-click on the inserted Event and set its Name to "SQL".
 
-> [!TIP]
-> Inserting this "SQL” object node is just our suggestion for keeping SQL Statement definitions neatly labelled and easy-to-find even when you have multiple inserted objects at Page level, now or later.
+
+:::tip
+
+Inserting this "SQL” object node is just our suggestion for keeping SQL Statement definitions neatly labelled and easy-to-find even when you have multiple inserted objects at Page level, now or later.
+
+:::
 
 3. In the Controls catalog, find the executeSQLStatement action control:
 
@@ -33,8 +37,12 @@ Create an **executeSQLStatement** Action object in the page where you want to ex
 
 5. In the object tree, double-click on the inserted object to open the Property Inspector for it. Think of a good name that describes the action the SQL will perform (in the example we have "renameConcept" and "getRecentTours"). Set the **Id** and **Name** properties of the object to that name.
 
-> [!TIP]
-> Setting **Id** is essential. Setting **Name** (to the same value) is practical, but the value of **Id** is what shows up in the object tree.
+
+:::tip
+
+Setting **Id** is essential. Setting **Name** (to the same value) is practical, but the value of **Id** is what shows up in the object tree.
+
+:::
 
 6. Write the SQL statement you want to execute as a value of the SQL property. Use colons ( **:** ) to introduce bind variables. The value of these bind variables will come from the page when the SQL is executed at runtime. Here is an example of an UPDATE statement with a bind variable **:COUNTRY**.
 

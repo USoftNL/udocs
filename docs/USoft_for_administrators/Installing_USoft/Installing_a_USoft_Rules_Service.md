@@ -14,8 +14,12 @@ Once installed, a USoft Rules Service is listed in the Services console of the C
 
 Before you install a USoft Rules Service, you must determine which port number it is to use. This must be a port number that is not already in use. It is possible that you need multiple Rules Services on the same machine (the same Rules Server).
 
-> [!NOTE]
-> The USoft Blend scripting framework and the USoft Delivery Manager tool offer multiple utilities for scripting Rules Service installations.
+
+:::note
+
+The USoft Blend scripting framework and the USoft Delivery Manager tool offer multiple utilities for scripting Rules Service installations.
+
+:::
 
 ## Installing a USoft Rules Service on Windows
 

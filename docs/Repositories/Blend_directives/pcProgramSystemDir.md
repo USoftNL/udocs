@@ -6,8 +6,12 @@ id: pcProgramSystemDir
 
 
 
-> [!NOTE]
-> This article is about the **pc:ProgramSystemDir**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ProgramSystemDir**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ProgramSystemDir**
 
@@ -29,7 +33,11 @@ An example return value is:
 c:\usd100\
 ```
 
-> [!TIP]
-> To prevent mistakes with trailing backslashes in filepath composition, you can call the path:Combine() function. This function knows that in file path concatenation a single backslash is required for each step.
+
+:::tip
+
+To prevent mistakes with trailing backslashes in filepath composition, you can call the path:Combine() function. This function knows that in file path concatenation a single backslash is required for each step.
+
+:::
 
  

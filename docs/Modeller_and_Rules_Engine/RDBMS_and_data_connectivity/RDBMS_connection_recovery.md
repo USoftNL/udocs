@@ -14,8 +14,12 @@ USoft detects the connection loss during processing of the Rules Engine. Loss of
 
 By default, USoft applications try to reconnect to the database following a connection failure. The user will be aware of the reconnection process if a connection loss interrupted a transaction. The reconnection process may take some time and delay the response on the first request, following a connection failure. If the USoft application is not able to restore the connection, it will display the reason reported by the RDBMS software.
 
-> [!NOTE]
-> The user can also specify that USoft applications should NOT reconnect to the database. For example, for security reasons.
+
+:::note
+
+The user can also specify that USoft applications should NOT reconnect to the database. For example, for security reasons.
+
+:::
 
 To switch off automatic connection recovery:
 

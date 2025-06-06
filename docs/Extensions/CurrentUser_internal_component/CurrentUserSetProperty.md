@@ -6,8 +6,12 @@ id: CurrentUserSetProperty
 
 
 
-> [!NOTE]
-> This article is about the **SetProperty** method of the [CurrentUser internal component](/docs/Extensions/CurrentUser_internal_component).
+
+:::note
+
+This article is about the **SetProperty** method of the [CurrentUser internal component](/docs/Extensions/CurrentUser_internal_component).
+
+:::
 
 ## **CurrentUser.SetProperty**
 

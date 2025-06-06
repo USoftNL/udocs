@@ -51,8 +51,12 @@ This will put the value of the Calendar control's Day property into the text box
 
 5. Manipulate the calendar control by clicking on a date field other than the active date.
 
-> [!NOTE]
-> The date format depends on your Windows Control Panel settings. Also note that you can read the value of any of the properties advertised in the property inspector for the calendar control. For instance, if you wanted the text box to display only the day value instead of the entire date, you could set the After Update property to:
+
+:::note
+
+The date format depends on your Windows Control Panel settings. Also note that you can read the value of any of the properties advertised in the property inspector for the calendar control. For instance, if you wanted the text box to display only the day value instead of the entire date, you could set the After Update property to:
+
+:::
 
 ```
 Variables.Text_Box_1 (:"MyCalendar_1.Day()")
@@ -70,8 +74,12 @@ MyCalendar_1._Value(:"Variables.Text_Box_1()")
 
 This will pass the text box's value to the Calendar control every time you enter the field, change its value, and then leave the field again.
 
-> [!NOTE]
-> If you have version 8.0 of the Calendar Control, the name of the value property is no longer "_Value" but "Value" (without the underscore).
+
+:::note
+
+If you have version 8.0 of the Calendar Control, the name of the value property is no longer "_Value" but "Value" (without the underscore).
+
+:::
 
 2. From the menu bar, choose File, Save.
 
@@ -79,8 +87,12 @@ This will pass the text box's value to the Calendar control every time you enter
 
 4. Type a date value such as "3/20/98" in the text box, and then press the TAB key.
 
-> [!NOTE]
-> The calendar control responds by selecting the corresponding date field.
+
+:::note
+
+The calendar control responds by selecting the corresponding date field.
+
+:::
 
 5. Close the dialog, and then close its design view.
 

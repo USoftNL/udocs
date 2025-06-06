@@ -10,8 +10,12 @@ id: Web_Service_Certificate_files
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----

@@ -33,8 +33,12 @@ To **start** Profiler manually:
 
 ![](./assets/10091e96-f990-4cd0-83e6-b35cf414cf27.png)
 
-> [!TIP]
-> You can have Profiler collect information about a test run by starting Profiler and then opening Player to play the test.
+
+:::tip
+
+You can have Profiler collect information about a test run by starting Profiler and then opening Player to play the test.
+
+:::
 
  
 
@@ -58,8 +62,12 @@ rule-profiler-description(<description>)
 
 These actions allow you to start Profiler from within USoft **jobs**: they can be called from USoft Batch action tasks.
 
-> [!NOTE]
-> It is possible to use a separate database account for the Profiler tables. Do this by adding resource settings to the **usdiw** file of your USoft installation. For the standalone profiler the following resources should be set:
+
+:::note
+
+It is possible to use a separate database account for the Profiler tables. Do this by adding resource settings to the **usdiw** file of your USoft installation. For the standalone profiler the following resources should be set:
+
+:::
 
 ```
 TopCase*Profiler.login.database:

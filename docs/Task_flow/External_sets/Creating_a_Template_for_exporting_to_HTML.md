@@ -18,13 +18,21 @@ The placeholders that you put in your template to include the exported data are 
 
 3. @template@
 
-> [!NOTE]
-> You must supply the @data@ placeholder: the other two are optional.
+
+:::note
+
+You must supply the @data@ placeholder: the other two are optional.
+
+:::
 
 The @header@ placeholder specifies where the heading (which you specify when you define the external set) is to appear. If you do not use this placeholder, then no heading will be used.
 
-> [!NOTE]
-> Do not confuse the @header@ with the page title: you must not specify anything between the \<TITLE> and \</TITLE> commands, as this will be handled by USoft Batch.
+
+:::note
+
+Do not confuse the @header@ with the page title: you must not specify anything between the \<TITLE> and \</TITLE> commands, as this will be handled by USoft Batch.
+
+:::
 
 The @data@ placeholder specifies where the data is to be included in the page.
 
@@ -71,8 +79,12 @@ The resulting HTML page would then look something like this:
 
 ![](./assets/5fdca0c9-054a-4c02-819f-4522036ae415.jpg)
 
-> [!NOTE]
-> If you use frames, the number of frames in the frame template must match the number of sets using the Frames navigation style, otherwise you will get unexpected results.
+
+:::note
+
+If you use frames, the number of frames in the frame template must match the number of sets using the Frames navigation style, otherwise you will get unexpected results.
+
+:::
 
 ## Using more than one layout
 

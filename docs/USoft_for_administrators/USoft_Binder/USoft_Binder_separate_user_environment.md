@@ -4,8 +4,12 @@ id: USoft_Binder_separate_user_environment
 
 # USoft Binder separate user environment
 
-> [!NOTE]
-> This topic is not typically relevant when you first start with USoft.
+
+:::note
+
+This topic is not typically relevant when you first start with USoft.
+
+:::
 
 In USoft Binder, you can set up a user environment that is in a different location than the Development environment.
 
@@ -23,8 +27,12 @@ To set up a separate user environment:
 10. Define your application tables in the Definer and create tables. The database application tables can be found in USAPP.
 11. Open the Windows Designer (TESTAPP) to create and paint classes.
 
-> [!NOTE]
-> If the application TESTAPP is opened from within the data dictionary, an error message will appear: "Cannot find a proper repository for USAPP" and you will not be able to view your painted classes.
+
+:::note
+
+If the application TESTAPP is opened from within the data dictionary, an error message will appear: "Cannot find a proper repository for USAPP" and you will not be able to view your painted classes.
+
+:::
 
 In order to able to view your painted classes, add to the 'Special' field in the application properties, the following (WD) settings:
 

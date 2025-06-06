@@ -13,17 +13,33 @@ When you read these lines, you may already have a USoft development platform in 
 
 ## Step 1: Review USoft installation policies
 
-> [!TIP]
-> **TIP 1:** If you use multiple development computers, use the same USoft patch on each of these machines at any one time.
 
-> [!TIP]
-> **TIP 2:** If you use multiple development computers, consider installing USoft in the same local folder on each machine.
+:::tip
 
-> [!TIP]
-> **TIP 3:** Avoid having more USoft installations on a given machine than you absolutely need at any one time. 1 installation per machine is the ideal.
+**TIP 1:** If you use multiple development computers, use the same USoft patch on each of these machines at any one time.
 
-> [!TIP]
-> **TIP 4:** Prefer official patch releases. Avoid using non-official USoft dayversions if at all possible. If not, switch to the next patch as soon as possible.
+:::
+
+
+:::tip
+
+**TIP 2:** If you use multiple development computers, consider installing USoft in the same local folder on each machine.
+
+:::
+
+
+:::tip
+
+**TIP 3:** Avoid having more USoft installations on a given machine than you absolutely need at any one time. 1 installation per machine is the ideal.
+
+:::
+
+
+:::tip
+
+**TIP 4:** Prefer official patch releases. Avoid using non-official USoft dayversions if at all possible. If not, switch to the next patch as soon as possible.
+
+:::
 
 A  *USoft installation* is the result of running the USoft Setup routine. This routine installs the USoft product on a computer. Physically, a USoft installation is a set of executables and other files in a local folder of your choice, for example:
 
@@ -33,8 +49,12 @@ c:\Program Files\USoft\100
 
 ```
 
-> [!WARNING]
-> If you can help it, avoid spaces in filepaths. The space between "Program” and "Files” in the last example is not ideal.
+
+:::warning
+
+If you can help it, avoid spaces in filepaths. The space between "Program” and "Files” in the last example is not ideal.
+
+:::
 
 The USoft product is released in official patches that carry names like:
 
@@ -56,23 +76,39 @@ select RulesEngine.GetProperty( 'SystemDir' )
 
 ### Step 2: Review shared folder policies
 
-> [!TIP]
-> **TIP 1:** Create a shared release folder or folder drive that all developing team members have read-write access to, for example:
-> If you have multiple developers, Delivery Manager release management works best if they all release their work to the same common location. This is comparable to a production tree in a version management tool such as .Git.
 
-> [!TIP]
-> **TIP 2:** If you use Publication Configurations in Web Designer, make sure to place the Alternative Template Folder ("Alt folder") in a subfolder of the shared release folder:
-> In Web Designer, the Alt Folder is a source element in the same way as the Web Designer database records: the publication process draws on a combination of the two. In the same way as developers share the repository records, they should be sharing a single instance of the Alt folder.
+:::tip
 
-> [!TIP]
-> **TIP 3:** For the following path attributes in USoft tools, use a *local* path, for example:
+**TIP 1:** Create a shared release folder or folder drive that all developing team members have read-write access to, for example:
+If you have multiple developers, Delivery Manager release management works best if they all release their work to the same common location. This is comparable to a production tree in a version management tool such as .Git.
+
+:::
+
+
+:::tip
+
+**TIP 2:** If you use Publication Configurations in Web Designer, make sure to place the Alternative Template Folder ("Alt folder") in a subfolder of the shared release folder:
+In Web Designer, the Alt Folder is a source element in the same way as the Web Designer database records: the publication process draws on a combination of the two. In the same way as developers share the repository records, they should be sharing a single instance of the Alt folder.
+
+:::
+
+
+:::tip
+
+**TIP 3:** For the following path attributes in USoft tools, use a *local* path, for example:
+
+:::
 
 The reason why it is good practice to use a local path for these purposes is that, in a Delivery Manager context, these paths become relatively unimportant. They enable development-time testing and debugging, of course, but otherwise they only serve as interim locations from where the deliverables are released to the release folders (TIP 1), their final destination. You create clarity for the team by having local interim folders, as opposed to shared destination folders.
 
 ### Step 3: Review application versioning policies
 
-> [!TIP]
-> Have a policy in place for naming versions of your application, including naming the versions of all modules (if any).
+
+:::tip
+
+Have a policy in place for naming versions of your application, including naming the versions of all modules (if any).
+
+:::
 
 When you use Delivery Manager, you must name each application version that you plan to release. It is customary to use names like the following for major releases:
 

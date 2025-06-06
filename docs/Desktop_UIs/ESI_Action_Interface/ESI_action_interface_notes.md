@@ -169,7 +169,11 @@ action esi-delete-control(*ESI_ACTIONS_TRAVEL*Tours,QuitButton)
 action esi-save()
 ```
 
-> [!TIP]
-> You must use the ESI object model to write context identifiers, not the layout model.
+
+:::tip
+
+You must use the ESI object model to write context identifiers, not the layout model.
+
+:::
 
  

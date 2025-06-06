@@ -6,8 +6,12 @@ id: USMetaLanguages
 
 
 
-> [!NOTE]
-> This article is about the **Languages** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::note
+
+This article is about the **Languages** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::
 
 ## **USMeta.Languages**
 

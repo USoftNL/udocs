@@ -4,9 +4,13 @@ id: A_good_element_of_guidance_accommodates
 
 # A good element of guidance accommodates
 
-> [!NOTE]
-> **Summary:** A rule or advice must accommodate other rules so that the entire body of rules is consistent.
-> [More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
+
+:::note
+
+**Summary:** A rule or advice must accommodate other rules so that the entire body of rules is consistent.
+[More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
+
+:::
 
 SBVR 1.5 has an Accommodation Principle for elements of guidance that is worded like this (SBVR 16.3.2):
 

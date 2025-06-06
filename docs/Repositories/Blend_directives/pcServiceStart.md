@@ -6,8 +6,12 @@ id: pcServiceStart
 
 
 
-> [!NOTE]
-> This article is about the **pc:ServiceStart**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ServiceStart**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ServiceStart**
 
@@ -19,8 +23,12 @@ Starts a Windows service on the local computer.
 <pc:ServiceStart servicename="*servicename*" />
 ```
 
-> [!NOTE]
-> This directive is also allowed to appear, without the servicename attribute, as a child element of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md).
+
+:::note
+
+This directive is also allowed to appear, without the servicename attribute, as a child element of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md).
+
+:::
 
 *Example*
 

@@ -76,8 +76,12 @@ The connection has a rule service with following properties:
 
 Change these settings as required.
 
-> [!NOTE]
-> You can also used the same connection name for Selection Connection Name and Process Connection Name. For administration reasons it might be easier to use different names, that may in fact use the Rules Service.
+
+:::note
+
+You can also used the same connection name for Selection Connection Name and Process Connection Name. For administration reasons it might be easier to use different names, that may in fact use the Rules Service.
+
+:::
 
 5. A statement is added with the name specified by Process Statement Name field if it does not exists, having following SQL Statement:
 
@@ -136,8 +140,12 @@ Runtime properties for a queue service are defined as properties on the Properti
 
 ```
 
-> [!WARNING]
-> The following syntax is now obsolete:
+
+:::warning
+
+The following syntax is now obsolete:
+
+:::
 
  
 

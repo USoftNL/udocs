@@ -6,8 +6,12 @@ id: pcDeleteDirectories
 
 
 
-> [!NOTE]
-> This article is about the **pc:DeleteDirectories**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:DeleteDirectories**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:DeleteDirectories**
 

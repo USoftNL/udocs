@@ -6,8 +6,12 @@ id: Join_constructs
 
 
 
-> [!NOTE]
-> This article is about **Join constructs** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **Join constructs** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Join constructs**
 
@@ -205,8 +209,12 @@ WHERE          c.name = o.customer_name(+)
 
 ## Outer join: *= syntax
 
-> [!CAUTION]
-> This syntax is **deprecated** and supported for backward compatibility only. This syntax is associated with SQL for ODBC.
+
+:::danger
+
+This syntax is **deprecated** and supported for backward compatibility only. This syntax is associated with SQL for ODBC.
+
+:::
 
 *Syntax*
 
@@ -224,8 +232,12 @@ WHERE          {
 
 This is an outer join because of the **asterisk (*)** added either before or after the equality symbol in the join condition(s).
 
-> [!WARNING]
->  The following special ODBC join operator for "full outer outer join" is not supported by USoft:
+
+:::warning
+
+The following special ODBC join operator for "full outer outer join" is not supported by USoft:
+
+:::
  
 
 The effect of adding an asterisk in this way is that, in addition to record combinations of table-1 and table-2 that satisfy the equality operator, in either table‑1 or table‑2, the query result will contain an extra item for each record that does NOT satisfy the equality operator. The effect is as follows:

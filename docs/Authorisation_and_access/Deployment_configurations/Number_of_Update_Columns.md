@@ -6,8 +6,12 @@ id: Number_of_Update_Columns
 
 
 
-> [!NOTE]
-> This article is about the **Number_of_Update_Columns**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Number_of_Update_Columns**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Number_of_Update_Columns**
 

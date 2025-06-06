@@ -6,8 +6,12 @@ id: pcServiceUninstall
 
 
 
-> [!NOTE]
-> This article is about the **pc:ServiceUninstall**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ServiceUninstall**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ServiceUninstall**
 
@@ -19,8 +23,12 @@ Uninstalls a Windows service on the local computer.
 <pc:ServiceUninstall servicename="*servicename*" />
 ```
 
-> [!NOTE]
-> This directive is also allowed to appear, without the servicename attribute, as a child element of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md).
+
+:::note
+
+This directive is also allowed to appear, without the servicename attribute, as a child element of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md).
+
+:::
 
 *Example*
 

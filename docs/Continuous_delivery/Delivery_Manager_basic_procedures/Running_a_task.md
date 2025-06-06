@@ -38,8 +38,12 @@ To run all steps with Active = Yes in one go, press the "Run All Next" button (t
 
 Each time you run a step, that step is set to Done = Yes, whether or not any errors were raised during execution. You can undo this flag (ie., set Done = No) for repeated execution. Do this by pressing the Rewind button (the button on the left).
 
-> [!WARNING]
-> It is best to run task steps one-by-one because Delivery Manager only features interactive error messages. By running task steps one-by-one, you can react to any unforeseen events before you continue with the next step. Once you know actions will execute successfully, you can use the "Run All Next" button to reduce work, especially if you need to execute the task repeatedly or if it has many steps.
+
+:::warning
+
+It is best to run task steps one-by-one because Delivery Manager only features interactive error messages. By running task steps one-by-one, you can react to any unforeseen events before you continue with the next step. Once you know actions will execute successfully, you can use the "Run All Next" button to reduce work, especially if you need to execute the task repeatedly or if it has many steps.
+
+:::
 
 ## Error handling during runs
 
@@ -78,5 +82,9 @@ INVOKE batchrunner.dl_execute_task WITH
 SELECT 'MyTask' dl_task
 ```
 
-> [!TIP]
-> When you call DL_EXECUTE_TASK, all the Task Steps that have Active = Yes are executed.
+
+:::tip
+
+When you call DL_EXECUTE_TASK, all the Task Steps that have Active = Yes are executed.
+
+:::

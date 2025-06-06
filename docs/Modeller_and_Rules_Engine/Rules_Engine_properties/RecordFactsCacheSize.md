@@ -6,15 +6,23 @@ id: RecordFactsCacheSize
 
 
 
-> [!NOTE]
-> This article is about the **RecordFactsCacheSize**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::note
+
+This article is about the **RecordFactsCacheSize**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::
 
 ## **RecordFactsCacheSize**
 
 The **RecordFactsCacheSize** Rules Engine property can be used to override the "[Cache Size](/docs/Authorisation_and_access/Deployment_configurations/Cache_Size.md)" deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
-> [!TIP]
-> You can set deployment configuration parameters in USoft Authorizer for 3 different deployment contexts: Client/Server, RunBatch, and Rules Service.
+
+:::tip
+
+You can set deployment configuration parameters in USoft Authorizer for 3 different deployment contexts: Client/Server, RunBatch, and Rules Service.
+
+:::
 
 This setting is used to specify the maximum number of records stored in cache. For details, see the "Cache Size" topic.
 

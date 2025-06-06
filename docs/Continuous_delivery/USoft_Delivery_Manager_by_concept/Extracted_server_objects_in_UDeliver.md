@@ -4,8 +4,12 @@ id: Extracted_server_objects_in_UDeliver
 
 # Extracted server objects in UDeliver
 
-> [!NOTE]
-> This article is about the **extracted server object** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **extracted server object** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 An *extracted server object* contains all the information necessary to release a Server. Some of this information is extracted, in other words, retrieved from the Service Definer instance where the Server is defined.
 

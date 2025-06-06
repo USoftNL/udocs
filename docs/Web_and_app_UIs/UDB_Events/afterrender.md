@@ -6,8 +6,12 @@ id: afterrender
 
 
 
-> [!NOTE]
-> This article is about the **afterrender**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **afterrender**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **afterrender**
 

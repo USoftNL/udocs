@@ -56,8 +56,12 @@ Properties icon3. See that, for the object, a Properties list opens in a right-h
 
 This section applies to diagrams for a Business Object.
 
-> [!TIP]
-> USoft recommends development teams work with EAR diagrams for specific business objects, not with EAR diagrams for the repository as a whole.
+
+:::tip
+
+USoft recommends development teams work with EAR diagrams for specific business objects, not with EAR diagrams for the repository as a whole.
+
+:::
 
 A Business Object has Data Contents: a collection of Tables, Relationships, Domains and Temporary Content. Each of the items in this collection may or may not be Owned by the Business Object. An item can be Owned by at most 1 Business Object.
 
@@ -75,8 +79,12 @@ The collection of Tables depicted in the EAR diagram is automatically synchronis
 - When you add a table to the EAR diagram, at the time when you exit the diagram, the table is added to USoft Definer and also added to the list of Tables in the Business Object's Data Contents.
 - When you remove a table from the EAR diagram, at the time when you exit the diagram, the table is deleted from USoft Definer and therefore also from the list of Tables in the Business Object's Data Contents.
 
-> [!CAUTION]
-> When you remove a table from the EAR diagram, the table is completely deleted, not just disconnected from the Business Object. If you do not want that, you can still rollback after exiting the diagram.
+
+:::danger
+
+When you remove a table from the EAR diagram, the table is completely deleted, not just disconnected from the Business Object. If you do not want that, you can still rollback after exiting the diagram.
+
+:::
 
 ## Tables
 
@@ -95,8 +103,12 @@ In the diagram, the “Object name” also appears in the blue header bar of the
 
 A Supertype setting for a table in Definer maps to a subtype-to-supertype connector line connecting the subtype box and the supertype box in the diagram. The line is arrow-shaped. The arrow points from the subtype to the supertype.
 
-> [!WARNING]
-> The arrow appears only if the supertype table and the subtype table are both in the Data Contents of the diagram’s Business Object.
+
+:::warning
+
+The arrow appears only if the supertype table and the subtype table are both in the Data Contents of the diagram’s Business Object.
+
+:::
 
 ### Tables: Diagram-to-Definer
 
@@ -281,8 +293,12 @@ So far, this discussion has been about identifying columns (key columns) for the
 
 * If the EAR “Max children = 1” = No, the Definer "Maximum Children” attribute is not affected.
 
-> [!TIP]
-> In the EAR diagrammer, if you set Update Rule = Nullify, then Child Must Exist will be set to No if it was set to Yes.
+
+:::tip
+
+In the EAR diagrammer, if you set Update Rule = Nullify, then Child Must Exist will be set to No if it was set to Yes.
+
+:::
 In the EAR diagrammer, if you set Child Must Exist = Yes, then Update Rule will be set to Restricted if it was set to Nullify.
 
 ## Supertype-subtype relationships

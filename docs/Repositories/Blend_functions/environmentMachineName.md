@@ -6,8 +6,12 @@ id: environmentMachineName
 
 
 
-> [!NOTE]
-> This article is about the **environment:MachineName**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **environment:MachineName**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **environment:MachineName**
 

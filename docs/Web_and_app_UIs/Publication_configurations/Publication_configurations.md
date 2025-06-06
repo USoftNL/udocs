@@ -10,8 +10,12 @@ A  **publication configuration** is a set of parameters that specify how pages,
 - The alternative templates folder where your customized templates may be located.
 - The Connection Specifier used by the pages to connect to the USoft Rules Service.
 
-> [!TIP]
-> Connection Specifier is mandatory, and the New Publication Definition Wizard provides a default value for it, but this setting is actually used only if you implement a Page Engine with IIS and a COM+ component (now obsolete). This setting is no longer used when you define a Page Engine in the USoft Service Definer (now the norm).
+
+:::tip
+
+Connection Specifier is mandatory, and the New Publication Definition Wizard provides a default value for it, but this setting is actually used only if you implement a Page Engine with IIS and a COM+ component (now obsolete). This setting is no longer used when you define a Page Engine in the USoft Service Definer (now the norm).
+
+:::
 
 ## How to create
 

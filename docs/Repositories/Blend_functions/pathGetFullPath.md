@@ -6,8 +6,12 @@ id: pathGetFullPath
 
 
 
-> [!NOTE]
-> This article is about the **path:GetFullPath**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **path:GetFullPath**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **path:GetFullPath**
 
@@ -31,8 +35,12 @@ path:GetFullPath( path )
 
 The required path is a path expression identifying the directory that you want the full path of.
 
-> [!TIP]
-> For a full list of Blend functions in the area of path manipulation, use this command line:
+
+:::tip
+
+For a full list of Blend functions in the area of path manipulation, use this command line:
+
+:::
 **> usoft-install-dir\\bin64\\ublendit.exe functions ns=path**
 
 *Example*

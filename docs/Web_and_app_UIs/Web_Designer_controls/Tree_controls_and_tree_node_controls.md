@@ -12,11 +12,19 @@ Tree views are typically used to display parent-child-grandchild-etc data. Click
 
 The components that make up a working tree view are: Tree Control, for each level in the tree a Tree Node Control, one Table Data Source for each type of root node and for each child node a Related Data source. In the tree control you specify which node is the root node. With each Node you specify which node(s) is (are) its child node. A node may be its own child node.
 
-> [!NOTE]
-> The tree view handles the synchronization between the data sources therefore you should clear the synchronization table property of the relate on the associated related data source.
 
-> [!NOTE]
-> It is only possible to associate a Tree Node Control with one column of a data source and this is the column that will displayed in the tree view. To display more then one column in the tree view: add an extra column to the data source and use its output expression to concatenate multiple columns: e.g. column1 \|\| ': ' \|\| column2. Then associate the Tree Node Control with this extra column.
+:::note
+
+The tree view handles the synchronization between the data sources therefore you should clear the synchronization table property of the relate on the associated related data source.
+
+:::
+
+
+:::note
+
+It is only possible to associate a Tree Node Control with one column of a data source and this is the column that will displayed in the tree view. To display more then one column in the tree view: add an extra column to the data source and use its output expression to concatenate multiple columns: e.g. column1 \|\| ': ' \|\| column2. Then associate the Tree Node Control with this extra column.
+
+:::
 
 Quick steps for setting up a tree view:
 

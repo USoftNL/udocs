@@ -6,8 +6,12 @@ id: pcUSoftSystemDir
 
 
 
-> [!NOTE]
-> This article is about the **pc:USoftSystemDir**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:USoftSystemDir**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:USoftSystemDir**
 
@@ -37,5 +41,9 @@ This could return:
 C:\usd91
 ```
 
-> [!NOTE]
->  The following query returns the USoft installation directory:
+
+:::note
+
+The following query returns the USoft installation directory:
+
+:::

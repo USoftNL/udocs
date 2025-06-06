@@ -6,8 +6,12 @@ id: pcDirectory
 
 
 
-> [!NOTE]
-> This article is about the **pc:Directory**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:Directory**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:Directory**
 
@@ -116,8 +120,12 @@ This is true because the following date format is in the list of USoft Blend dat
 DD-MM-YYYY
 ```
 
-> [!WARNING]
-> The use of the before and after attributes yields an uncertain result if applied to a set of files and folders that is not a flat list but, rather, a hierarchical structure in which subfolders or parent folders have a timestamp of their own. In the example, the result is certain, because the filepath and filter attributes together cause the result to be a flat list: all the files with extension .XSL that are in directory "c:\\temp" (but not in subfolders of this directory).
+
+:::warning
+
+The use of the before and after attributes yields an uncertain result if applied to a set of files and folders that is not a flat list but, rather, a hierarchical structure in which subfolders or parent folders have a timestamp of their own. In the example, the result is certain, because the filepath and filter attributes together cause the result to be a flat list: all the files with extension .XSL that are in directory "c:\\temp" (but not in subfolders of this directory).
+
+:::
 
 ## Looping over a set of files or directories
 

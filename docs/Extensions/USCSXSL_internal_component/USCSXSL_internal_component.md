@@ -6,9 +6,13 @@ id: USCSXSL_internal_component
 
 
 
-> [!NOTE]
-> This article contains general information about the **USCSXSL** internal component.
-> For an alphabetic list of USCSXSL methods, click [here](/docs/Extensions/USCSXSL_internal_component).
+
+:::note
+
+This article contains general information about the **USCSXSL** internal component.
+For an alphabetic list of USCSXSL methods, click [here](/docs/Extensions/USCSXSL_internal_component).
+
+:::
 
 ## What is it?
 
@@ -26,8 +30,12 @@ But in addition to the USXSL component, USCSXSL also allows you to call [extensi
 > *usoft-bindir*\ublendit.exe functions p=title
 ```
 
-> [!NOTE]
-> To find out all about extension functions but also other Blend-related resources, go to [Learning USoft Blend for repository management](/docs/Repositories/Blend_scripts_for_repository_management/Learning_USoft_Blend_for_repository_management.md).
+
+:::note
+
+To find out all about extension functions but also other Blend-related resources, go to [Learning USoft Blend for repository management](/docs/Repositories/Blend_scripts_for_repository_management/Learning_USoft_Blend_for_repository_management.md).
+
+:::
 
 ## Intended use
 
@@ -47,8 +55,12 @@ Finally, use it also for its extension functions. You can call these functions f
 <xsl:variable name="rdmlx" select="xslutil:xmlfragment(strings:Text2Xml(files:ReadFile($filepath, .)), .)"/>
 ```
 
-> [!TIP]
-> Some functions, if called directly from an XSL transformation and not from a Blend script, expect a context. In the example above, the context for the call to the files:ReadFile() function is provided by the second argument passed to it: the dot xpath (**.**) for current node.
+
+:::tip
+
+Some functions, if called directly from an XSL transformation and not from a Blend script, expect a context. In the example above, the context for the call to the files:ReadFile() function is provided by the second argument passed to it: the dot xpath (**.**) for current node.
+
+:::
 
 ## Encoding
 

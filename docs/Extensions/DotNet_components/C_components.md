@@ -149,8 +149,12 @@ Refer to the environment variable by having its name wrapped in percent (%) symb
 
 where MY_DUMMY_PATH is declared on the system environment variable list.
 
-> [!TIP]
-> This feature could be helpful when a component needs to be checked in a Windows Definer but is then run in a Docker container, where surely file paths are different. This nuisance is overcome by using environment variables.
+
+:::tip
+
+This feature could be helpful when a component needs to be checked in a Windows Definer but is then run in a Docker container, where surely file paths are different. This nuisance is overcome by using environment variables.
+
+:::
 
 ### Having referenced nuget packages installed automatically
 

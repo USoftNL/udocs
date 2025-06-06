@@ -23,15 +23,23 @@ A template default is a structured selection from this class library. In USoft W
 
 Through subclasses based on metadata, USoft automatically delivers instant web UIs based on data models. This is one powerful low-code capability of the USoft platform.
 
-> [!NOTE]
-> The factory default is described by the following 2 XML files:
+
+:::note
+
+The factory default is described by the following 2 XML files:
+
+:::
 
 ## Your own template default
 
 To define your own template default, you use a special extension script that allows you to give instructions or directives about how the factory default XML must be moulded to become your desired template default.
 
-> [!WARNING]
-> Defining a template default is *replacing* the factory default. Appreciate that choosing, or creating, or changing a template default is completely different from [applying paintings](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md) a template default.
+
+:::warning
+
+Defining a template default is *replacing* the factory default. Appreciate that choosing, or creating, or changing a template default is completely different from [applying paintings](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md) a template default.
+
+:::
 
 Syntax principles for the special directives are explained later in this article. The actual commands are listed in a number of reference articles hyperlinked at the very end of this article.
 
@@ -41,9 +49,13 @@ For an application, to turn the factory default into a template default:
 2. From USoft Binder, open Web Designer, making sure that the application you want to import the instructions for is correctly specified in the Application field of the Properties sheet of the Binder item.
 3. From the Web Designer menu, choose Tools, Import Default Definition. In the dialog, locate the file with your instructions. Press OK.
 
-> [!CAUTION]
-> USoft recommends you only import a template default initially, that is, **before** doing any Web Designer work. If you import or re-import later, this could have adverse implications for existing paintings. No mechanism or tooling is offered for analysing these implications beforehand or debugging them afterwards, nor indeed to debug or upgrade the imported instructions themselves.
-> To create an initial template default, work in a sandbox environment until you are happy with the result. Do not start production work in Web Designer before that time.
+
+:::danger
+
+USoft recommends you only import a template default initially, that is, **before** doing any Web Designer work. If you import or re-import later, this could have adverse implications for existing paintings. No mechanism or tooling is offered for analysing these implications beforehand or debugging them afterwards, nor indeed to debug or upgrade the imported instructions themselves.
+To create an initial template default, work in a sandbox environment until you are happy with the result. Do not start production work in Web Designer before that time.
+
+:::
 
 After import, your instructions are “picked up” by Web Designer and should reflect in the Pages and Controls catalogs that you get to see on the left-hand side. The instructions are imported as records into ESI tables (eg., T_E_TYPE). These records are specific to the application.
 

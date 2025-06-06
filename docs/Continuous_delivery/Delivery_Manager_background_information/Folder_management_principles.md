@@ -54,8 +54,12 @@ This happens if the specified folder does not already exist.
 
 - an Attachment. Attachments by definition specify an output folder that is a subfolder (a section) of the current release folder.
 
-> [!NOTE]
-> You can also create a folder manually. Call the "Create folder" action.
+
+:::note
+
+You can also create a folder manually. Call the "Create folder" action.
+
+:::
 
 ### Automatic folder and file block
 

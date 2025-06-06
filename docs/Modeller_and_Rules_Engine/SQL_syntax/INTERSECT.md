@@ -6,8 +6,12 @@ id: INTERSECT
 
 
 
-> [!NOTE]
-> This article is about the **INTERSECT** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about the **INTERSECT** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **INTERSECT**
 
@@ -30,6 +34,10 @@ In the USoft platform, INTERSECT is supported in:
 - the SQL Command tool.
 - Subqueries in constraint SQL.
 
-> [!CAUTION]
-> INTERSECT is not supported in the main statement of constraint SQL.
-> INTERSECT is not supported in Logical View SQL.
+
+:::danger
+
+INTERSECT is not supported in the main statement of constraint SQL.
+INTERSECT is not supported in Logical View SQL.
+
+:::

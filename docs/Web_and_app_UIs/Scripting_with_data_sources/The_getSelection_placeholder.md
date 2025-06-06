@@ -8,8 +8,12 @@ id: The_getSelection_placeholder
 
 
 
-> [!CAUTION]
-> This placeholder is no longer supported in USoft 11.
+
+:::danger
+
+This placeholder is no longer supported in USoft 11.
+
+:::
 
 ![](./assets/22fff438-3acd-485b-90d0-d44868e85f2a.png)
 
@@ -27,5 +31,9 @@ The resulting expression can only be used in the context of a WHERE clause (usua
 
 The result of the getSelection placeholder can also be achieved by a combination of getValue placeholders for each column to be copied, but in the case of large primary key sets, the use of getSelection is recommended.
 
-> [!NOTE]
-> The WHERE clause substituted by the getWhereClause placeholder may also contain other placeholders, which are substituted in turn as well. Be careful with getWhereClause placeholders pointing to each other.
+
+:::note
+
+The WHERE clause substituted by the getWhereClause placeholder may also contain other placeholders, which are substituted in turn as well. Be careful with getWhereClause placeholders pointing to each other.
+
+:::

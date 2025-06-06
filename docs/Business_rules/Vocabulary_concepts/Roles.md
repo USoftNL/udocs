@@ -4,11 +4,19 @@ id: Roles
 
 # Roles
 
-> [!NOTE]
-> **See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
 
-> [!WARNING]
-> This article is about **role** as a concept in SBVR conceptual modelling and USoft Studio diagramming. This is completely different from **role** in USoft Definer and USoft Authorizer as an authorisation concept in USoft implementations.
+:::note
+
+**See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
+
+:::
+
+
+:::warning
+
+This article is about **role** as a concept in SBVR conceptual modelling and USoft Studio diagramming. This is completely different from **role** in USoft Definer and USoft Authorizer as an authorisation concept in USoft implementations.
+
+:::
 
 *Naming, colour-coding:* 
 
@@ -46,8 +54,12 @@ There are no specific declaration patterns that allow USoft Studio to understand
 
 A role is a noun concept that corresponds to things based on their playing a part in a verb concept. Person in the example is a *general concept,* but employee is a *role* because it is based on persons playing a part in labour contracts. It is about people playing a role in the verb concept ‘person*works for*company’. Unlike general concepts, roles are an integral part of the binary verb concept they belong to.
 
-> [!NOTE]
-> USoft usually just talks about "(regular) noun concepts”, but SBVR is specific: a *general concept* is a noun concept that is not a role and not an individual concept.
+
+:::note
+
+USoft usually just talks about "(regular) noun concepts”, but SBVR is specific: a *general concept* is a noun concept that is not a role and not an individual concept.
+
+:::
 
 A role does not have a definition of its own. Its meaning depends completely on the meaning of the verb concept it belongs to.
 

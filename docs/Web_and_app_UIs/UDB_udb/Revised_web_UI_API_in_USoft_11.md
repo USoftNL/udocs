@@ -6,8 +6,12 @@ tags: [USoft11]
 
 `USoft 11``{.vs_11}`
 
-> [!TIP]
-> This article describes the USoft 11 web UI API in terms of **change** relative to the API in USoft 10.
+
+:::tip
+
+This article describes the USoft 11 web UI API in terms of **change** relative to the API in USoft 10.
+
+:::
 Scanning this article from top to bottom will give you an overview of the API and will help you use the USoft 10 API articles in this Knowledge Base if you work in USoft 11.
 
 ## New UDB object layer

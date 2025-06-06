@@ -175,8 +175,12 @@ For experimenting with utilities:
 > *usoft-bindir*\ublendit.exe newudevelop
 ```
 
-> [!TIP]
-> *usoft-bindir* is a placeholder for the USoft “\\BIN” subdirectory of your USoft installation:
+
+:::tip
+
+*usoft-bindir* is a placeholder for the USoft “\\BIN” subdirectory of your USoft installation:
+
+:::
 
 ### Delivery Manager : example deploy scripts
 

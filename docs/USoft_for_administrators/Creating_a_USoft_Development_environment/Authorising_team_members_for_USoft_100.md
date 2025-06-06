@@ -4,9 +4,13 @@ id: Authorising_team_members_for_USoft_100
 
 # Authorising team members for USoft 10.0
 
-> [!TIP]
-> This article is about authorising team members in a **USoft 10.0** development environment.
-> For the USoft 9.1 situation, click [here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_91.md).
+
+:::tip
+
+This article is about authorising team members in a **USoft 10.0** development environment.
+For the USoft 9.1 situation, click [here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_91.md).
+
+:::
 
 Team members play typical roles in a project. Think of developers, architects, analysts and administrators.
 
@@ -16,9 +20,13 @@ Developer roles give access to the different USoft tools in Development. USoft h
 2. Find the predefined roles for the tool you want to give access to. Use the “Authorizer names” table below to identify the tool.
 3. Assign each team member to the required role.
 
-> [!NOTE]
-> Find more on USD roles in the next section.
-> Find more on USAUTH, UDELIVER, USERVICE, USTESTER roles at the end of this article.
+
+:::note
+
+Find more on USD roles in the next section.
+Find more on USAUTH, UDELIVER, USERVICE, USTESTER roles at the end of this article.
+
+:::
 
 ## Authorizer names for USoft tools
 
@@ -44,14 +52,22 @@ All the roles listed have full Job Rights and Component Rights with "Foreground 
 
 To find out what are the "Teamwork objects”, see the table below. "Technical objects” are all the remaining objects.
 
-> [!CAUTION]
-> If you are upgrading from a USoft 9.1 situation with predefined access rights, all developers will automatically keep their roles and access rights.
-> Most 9.1 teams use predefined access rights only. But if your team *changed* the access rights of a predefined role, something that was possible in 9.1 but no longer in 10.0, then these changes will be lost on upgrade. Instead, 10.0 team members will automatically get the predefined access rights listed below.
+
+:::danger
+
+If you are upgrading from a USoft 9.1 situation with predefined access rights, all developers will automatically keep their roles and access rights.
+Most 9.1 teams use predefined access rights only. But if your team *changed* the access rights of a predefined role, something that was possible in 9.1 but no longer in 10.0, then these changes will be lost on upgrade. Instead, 10.0 team members will automatically get the predefined access rights listed below.
+
+:::
 
 ### Developer roles for USD, access rights
 
-> [!WARNING]
-> The USD_REP_OWNER role is for backward compatibility with USoft 9.x only. Use the ADMIN role instead.
+
+:::warning
+
+The USD_REP_OWNER role is for backward compatibility with USoft 9.x only. Use the ADMIN role instead.
+
+:::
 
 |**Developer role**|**Description**|**Teamwork objects**|**Technical objects**|
 |--------|--------|--------|--------|
@@ -87,8 +103,12 @@ As you can see from the table above, 3 USD developer roles have "..._NO_STUDIO�
 
 
 
-> [!WARNING]
-> If you come from a USoft 10 version earlier than 10.0.1J, you cannot see the ..._NO_STUDIO roles until you execute Fill Authorizer Tables. Do this in Authorizer for Application = USD.
+
+:::warning
+
+If you come from a USoft 10 version earlier than 10.0.1J, you cannot see the ..._NO_STUDIO roles until you execute Fill Authorizer Tables. Do this in Authorizer for Application = USD.
+
+:::
 
 ### Developer roles for USD, Teamwork objects
 

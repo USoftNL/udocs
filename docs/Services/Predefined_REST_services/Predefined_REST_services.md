@@ -113,8 +113,12 @@ The Services window or tab appears.
 
 5. Start the Server. Do this by choosing Actions, Start from the menu or by clicking the Start icon in the icon ribbon.
 
-> [!TIP]
-> You can wrap Steps 3, 4 and 5 into one by choosing Publish, Publish and Restart from the menu or by clicking the "Publish and Restart" icon on the icon ribbon.
+
+:::tip
+
+You can wrap Steps 3, 4 and 5 into one by choosing Publish, Publish and Restart from the menu or by clicking the "Publish and Restart" icon on the icon ribbon.
+
+:::
 
 ## Setting up a test app in POSTMAN
 

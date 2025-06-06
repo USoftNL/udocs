@@ -42,16 +42,24 @@ You create instant validation at the level of an **input control.** Find the fol
 - Validation Moment
 - Validation Feedback
 
-> [!TIP]
-> In a multi-record display, you find these properties at the level of the GridCellControl.
-> In a single-record display, you find these properties at the level of the **Data** descendant object of the column control.
+
+:::tip
+
+In a multi-record display, you find these properties at the level of the GridCellControl.
+In a single-record display, you find these properties at the level of the **Data** descendant object of the column control.
+
+:::
 
 ### Validation Rules
 
 This property determines which validation rules are checked. Here you define, for example, that a value may only contain alphabetic characters or that it may not exceed some maximum length. For details, in the Property Inspector, read the Help text for the Validation Rules property.
 
-> [!WARNING]
-> How? In Property Inspector, click the Validation Rules property. Then click the “question mark” toggle icon near the top if you don't see any Help text displayed:
+
+:::warning
+
+How? In Property Inspector, click the Validation Rules property. Then click the “question mark” toggle icon near the top if you don't see any Help text displayed:
+
+:::
 
 ### Validation Moment
 

@@ -14,11 +14,19 @@ When a user logs on to the application, exactly 1 deployment configuration is se
 
 When you run Create Tables for USoft Authorizer, USoft automatically creates a deployment configuration called 'LAN'. When you run Fill Authorizer Tables in USoft Authorizer, USoft associated all the imported roles with this 'LAN' deployment configuration by default.
 
-> [!TIP]
-> Do not differentiate between deployment configurations unless and until you have a clear need. Until that time, use the 'LAN' default.
 
-> [!TIP]
-> You can influence a number of other aspects of Rules Engine behaviour by setting [Rules Engine parameters](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md).
+:::tip
+
+Do not differentiate between deployment configurations unless and until you have a clear need. Until that time, use the 'LAN' default.
+
+:::
+
+
+:::tip
+
+You can influence a number of other aspects of Rules Engine behaviour by setting [Rules Engine parameters](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md).
+
+:::
 
 ## Contexts
 

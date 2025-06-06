@@ -6,14 +6,22 @@ id: acrel
 
 
 
-> [!NOTE]
-> This article is about the **ac-rel** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **ac-rel** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **ac-rel()**
 
-> [!CAUTION]
-> This action is supported for backward compatibility only.
-> To refer to an object within the current window, call a action of that object instead of using ac-rel(). To refer to an object outside the current window, collect the information you want to refer to in a user-defined property on startup of the current window, and then refer to that property.
+
+:::danger
+
+This action is supported for backward compatibility only.
+To refer to an object within the current window, call a action of that object instead of using ac-rel(). To refer to an object outside the current window, collect the information you want to refer to in a user-defined property on startup of the current window, and then refer to that property.
+
+:::
 
 Performs an action on a control other than the current one. The control is specified by a path.
 

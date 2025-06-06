@@ -4,8 +4,12 @@ id: Actions_in_UDeliver
 
 # Actions in UDeliver
 
-> [!NOTE]
-> This article is about the** action** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the** action** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 An **action****is an operation that you can define and run as a task step in a Delivery Manager task.
 

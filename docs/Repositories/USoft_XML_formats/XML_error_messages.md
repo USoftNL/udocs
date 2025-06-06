@@ -148,9 +148,13 @@ Record information at the time of the error is contained in the "uslng:record" e
 </uslng:record>
 ```
 
-> [!TIP]
-> Record information is not available in the following cases:
-> In these cases, the elements hold the values 'unknown window' (painted and defined windows), 'unknown table' (table names) and 'unknown pk' (primary-keys).
+
+:::tip
+
+Record information is not available in the following cases:
+In these cases, the elements hold the values 'unknown window' (painted and defined windows), 'unknown table' (table names) and 'unknown pk' (primary-keys).
+
+:::
 
 ## Constraints, attributes
 

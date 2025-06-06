@@ -59,8 +59,12 @@ For each SQL statement executed in an Import Task or SQL Task, you can set Disab
 - In terms of functionality, *USoft rule checks**are bypassed*, ie., they are not performed. USoft rule checks include constraint checks, relationship checks, mandatory column checks, domain checks such as checks for allowed values, and subtype group checks.
 - In terms of performance, execution is likely to be faster.
 
-> [!CAUTION]
-> By setting Disable Rules = Yes, you risk introducing data that violates rules defined in USoft Definer. Consider setting Disable Rules = Yes ONLY if you have a reason to improve performance and you know that the data has the required quality, for example because it comes from a trusted source and is received using a tried-and-tested method. Remember that you can use USoft Benchmark reports to detect constraint violations, relationship violations, column violations and domain violations after-the-fact.
+
+:::danger
+
+By setting Disable Rules = Yes, you risk introducing data that violates rules defined in USoft Definer. Consider setting Disable Rules = Yes ONLY if you have a reason to improve performance and you know that the data has the required quality, for example because it comes from a trusted source and is received using a tried-and-tested method. Remember that you can use USoft Benchmark reports to detect constraint violations, relationship violations, column violations and domain violations after-the-fact.
+
+:::
 
 Technically, with Disable Rules = No (the default), the USoft Rules Engine performs checks that you defined in USoft Definer. This potentially involves sending individual SQL statements to the RDBMS for each individual record that is handled. By contrast, a SQL statement with Disable Rules = Yes is sent directly to the RDBMS to be processed as-is. With Disable Rules = Yes, the RDBMS will process the statement in a set-oriented fashion, which can be very much faster than record-by-record handling.
 

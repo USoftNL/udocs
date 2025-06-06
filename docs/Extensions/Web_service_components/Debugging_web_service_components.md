@@ -33,10 +33,18 @@ this.setRulesEngine(:SessionId)
 
 From now on, if a query is performed on the component table (or an INVOKE statement on the web service component) and the BenchMark Profiler is active, DEBUG_RDMI_MESSAGE entries are added to the profiler.
 
-> [!NOTE]
-> For performance reasons, when deploying your application, remove this.setRulesEngine(:SessionId) line from the constructor of the web service component.
 
-> [!NOTE]
-> BenchMark debugging of web service clients is not supported for MTOM web services.
+:::note
+
+For performance reasons, when deploying your application, remove this.setRulesEngine(:SessionId) line from the constructor of the web service component.
+
+:::
+
+
+:::note
+
+BenchMark debugging of web service clients is not supported for MTOM web services.
+
+:::
 
  

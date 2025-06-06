@@ -38,8 +38,12 @@ In component rights, background scope has the following meaning:
 
 ## How to define a component right
 
-> [!TIP]
-> When defining job rights, be aware of dependencies between access rights. For example, if you define access to a component that itself accesses table data, also think of access to those data. To some extent, USoft Definer helps you by implementing dependencies automatically.
+
+:::tip
+
+When defining job rights, be aware of dependencies between access rights. For example, if you define access to a component that itself accesses table data, also think of access to those data. To some extent, USoft Definer helps you by implementing dependencies automatically.
+
+:::
 
 To define a component right for a role:
 

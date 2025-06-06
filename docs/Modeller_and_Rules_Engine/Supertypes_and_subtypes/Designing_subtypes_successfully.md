@@ -69,8 +69,12 @@ If Update Supertype on Insert is set to No (the default), inserting new subtype 
 
 If Update Supertype on Insert is set to Yes, the manipulation is handled internally as an UPDATE to the existing record constellation.
 
-> [!NOTE]
-> If the user adds new subtype data to an existing record constellation by selecting the corresponding subtype indicator in an info window and then filling out the fields in the subtype window, this is always handled as an UPDATE to the record constellation. Update Supertype on Insert has no relevance in this case.
+
+:::note
+
+If the user adds new subtype data to an existing record constellation by selecting the corresponding subtype indicator in an info window and then filling out the fields in the subtype window, this is always handled as an UPDATE to the record constellation. Update Supertype on Insert has no relevance in this case.
+
+:::
 
 The Update Supertype on Insert Deployment Configuration parameter has no relevance to the application user.
 

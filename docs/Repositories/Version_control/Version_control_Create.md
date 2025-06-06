@@ -4,21 +4,29 @@ tags: [USoft11]
 ---
 # Version control: Create
 
-> [!NOTE]
-> **See also**
-> [Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
-> [Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
-> [Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
-> [Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+
+:::note
+
+**See also**
+[Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
+[Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
+[Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
+[Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+
+:::
 
 `USoft 11``{.vs_11}`
 
 To bring a USoft application under version control for your team, you must first put it in place by taking explicit one-time action. This is referred to as Create.
 
-> [!WARNING]
-> **Known problem: Display order of C/S ESI objects jumbled after transition to version control**
-> If you have defined ESI objects (GUI "paintings") for a Windows application, when you start using version control for the first time, you may find that the display order of sibling objects (for example: fields in a group) has been jumbled up by the transition to version control.
-> To fix this, in Windows Designer, set explicit values for the Position property of these objects that indicate the desired order. If you omit this, the order may continue to change with each Synchronize action.
+
+:::warning
+
+**Known problem: Display order of C/S ESI objects jumbled after transition to version control**
+If you have defined ESI objects (GUI "paintings") for a Windows application, when you start using version control for the first time, you may find that the display order of sibling objects (for example: fields in a group) has been jumbled up by the transition to version control.
+To fix this, in Windows Designer, set explicit values for the Position property of these objects that indicate the desired order. If you omit this, the order may continue to change with each Synchronize action.
+
+:::
 
 To create version control for a USoft application in Development:
 

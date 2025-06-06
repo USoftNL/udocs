@@ -26,8 +26,12 @@ This function returns TRUE on success and FALSE on failure (when the resource is
 
 Both API functions perform some global checking on the parameters and fail if both parameters are NULL or when "resourceName" is an empty string.
 
-> [!NOTE]
-> USoft Developer for Windows supports calls to external functions in a DLL. This must be a 32 bit DLL.
+
+:::note
+
+USoft Developer for Windows supports calls to external functions in a DLL. This must be a 32 bit DLL.
+
+:::
 
 *Example*
 
@@ -42,5 +46,9 @@ action DllExecute(AcDll.dll, Destroy)
 
 ```
 
-> [!NOTE]
-> The Realize example also shows how to convert a USoft parameter list to a customized parameter list.
+
+:::note
+
+The Realize example also shows how to convert a USoft parameter list to a customized parameter list.
+
+:::

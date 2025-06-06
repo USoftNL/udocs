@@ -6,8 +6,12 @@ id: SqlSelect
 
 
 
-> [!NOTE]
-> This article is about the **SqlSelect** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **SqlSelect** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **SqlSelect()**
 
@@ -21,8 +25,12 @@ SqlSelect( { *select-statement* | *action-call* }, *window* )
 
 *Select-statement* is the query underlying the info window to be created. Alternatively, you can specify a *action-call* such as FORMULA() or an ObjectName.propertyName() call that returns the current value of a property.
 
-> [!WARNING]
-> The UNION set operator cannot be used in *select-statement.*
+
+:::warning
+
+The UNION set operator cannot be used in *select-statement.*
+
+:::
 
 The optional *window* identifies the window class of which an instance is to be created:
 

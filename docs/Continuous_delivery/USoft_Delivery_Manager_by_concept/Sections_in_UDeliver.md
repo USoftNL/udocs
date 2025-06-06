@@ -4,9 +4,13 @@ id: Sections_in_UDeliver
 
 # Sections in UDeliver
 
-> [!NOTE]
-> This article is about the **section** concept in USoft Delivery Manager ("UDeliver”).
-> This concept is only relevant in a release situations.
+
+:::note
+
+This article is about the **section** concept in USoft Delivery Manager ("UDeliver”).
+This concept is only relevant in a release situations.
+
+:::
 
 When Delivery Manager releases deliverables, it places these deliverables in different *sections* which are essentially subfolders on the file system.
 

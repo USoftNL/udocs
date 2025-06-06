@@ -4,8 +4,12 @@ id: Dialog_controls
 
 # Dialog controls
 
-> [!TIP]
-> For simple dialogs, call a dialog by scripting a [**$.udb.dialog()**](/docs/Web_and_app_UIs/UDB_udb/udbdialog.md) call.
+
+:::tip
+
+For simple dialogs, call a dialog by scripting a [**$.udb.dialog()**](/docs/Web_and_app_UIs/UDB_udb/udbdialog.md) call.
+
+:::
 
 If you want more control and maintainability, you can also develop a Dialog Control class in Web Designer and call it through an id name or class name. In this case, make sure you set the Auto Open property to True (the default is False), otherwise the dialog will not display in the Page Preview pane.
 

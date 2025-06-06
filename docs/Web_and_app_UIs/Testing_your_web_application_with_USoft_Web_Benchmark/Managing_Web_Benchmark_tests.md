@@ -52,8 +52,12 @@ You can export selected tests to file:
 
 You can imports all tests and test suites currrently stored in the browser history.
 
-> [!CAUTION]
-> Existing tests and test suites with the same name (if any) are silently overwritten.
+
+:::danger
+
+Existing tests and test suites with the same name (if any) are silently overwritten.
+
+:::
 
 To import from browser storage:
 

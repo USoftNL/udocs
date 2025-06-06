@@ -6,8 +6,12 @@ id: Export_deliverable_appdata
 
 
 
-> [!NOTE]
-> This article is about the **Export deliverable appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Export deliverable appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Export deliverable appdata**
 
@@ -21,8 +25,12 @@ Deliverable appdata is data in tables marked as Deliverable in the Application T
 
 To read the data, the application is automatically opened from Repository, except when Application = USERVICE (the Service Definer application delivered by USoft), in which case the application is automatically opened from Flat Files.
 
-> [!TIP]
-> Make sure you export appdata in such a way that you will not have problems re-importing the appdata later. To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::tip
+
+Make sure you export appdata in such a way that you will not have problems re-importing the appdata later. To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::
 
 ### Parameters
 

@@ -6,8 +6,12 @@ id: pccase
 
 
 
-> [!NOTE]
-> This article is about the **pc:case**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:case**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:case**
 
@@ -25,5 +29,9 @@ Identifies a script section that is executed only if a variable has a specific v
 </pc:switch>
 ```
 
-> [!TIP]
-> In this syntax, **pc:case** is required and **pc:default** is optional.
+
+:::tip
+
+In this syntax, **pc:case** is required and **pc:default** is optional.
+
+:::

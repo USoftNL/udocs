@@ -6,9 +6,13 @@ id: XMLImport
 
 
 
-> [!NOTE]
-> This article is about the **Import** method of the [XML internal component](/docs/Extensions/XML_internal_component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::note
+
+This article is about the **Import** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::
 
 ## **XML.Import**
 
@@ -93,8 +97,12 @@ Both *value* and *parameter* are case-insensitive.
 
 ## VerifyOriginalValues
 
-> [!CAUTION]
-> If the XML document being imported has a usoft-xml processing instruction specifying a **verify-original-values** attribute, then that attribute setting will silently override any setting specified for VerifyOriginalValues in the INVOKE XML.IMPORT statement.
+
+:::danger
+
+If the XML document being imported has a usoft-xml processing instruction specifying a **verify-original-values** attribute, then that attribute setting will silently override any setting specified for VerifyOriginalValues in the INVOKE XML.IMPORT statement.
+
+:::
 
 Setting the VerifyOriginalValues parameter allows optimistic locking mechanisms and prevents lost updates if different client applications change the same information concurrently.
 

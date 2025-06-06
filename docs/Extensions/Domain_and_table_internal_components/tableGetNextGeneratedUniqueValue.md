@@ -6,8 +6,12 @@ id: tableGetNextGeneratedUniqueValue
 
 
 
-> [!NOTE]
-> This article is about the **table.GetNextGeneratedUniqueValue** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
+
+:::note
+
+This article is about the **table.GetNextGeneratedUniqueValue** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
+
+:::
 
 ## **table.GetNextGeneratedUniqueValue**
 

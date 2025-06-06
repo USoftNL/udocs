@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **dialog()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+
+:::note
+
+This article is about the **dialog()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+
+:::
 
 ## **$.udb.dialog()**
 
@@ -30,9 +38,13 @@ Calling .dialog() while a dialog is already being displayed will result in both 
 
 Returns a Promise object if *promise* is true (the default). Otherwise, returns 'undefined’.
 
-> [!TIP]
-> $.udb.dialog() is similar to [$.udb.input()](/docs/Web_and_app_UIs/UDB_udb/udbinput.md) but simpler:
-> For more styling and control of dialog content, especially if using previously defined HTML code, prefer [.usdialog()](/docs/Web_and_app_UIs/UI_Library/usdialog.md).
+
+:::tip
+
+$.udb.dialog() is similar to [$.udb.input()](/docs/Web_and_app_UIs/UDB_udb/udbinput.md) but simpler:
+For more styling and control of dialog content, especially if using previously defined HTML code, prefer [.usdialog()](/docs/Web_and_app_UIs/UI_Library/usdialog.md).
+
+:::
 
 *Syntax*
 
@@ -76,8 +88,12 @@ You must pass either a *dialog-control-name* which is a string, or a *caller-blo
 
 If *promise* is false, 'func’ is a function called when a dialog button is pressed that causes the dialog to close. The function receives the string value (or the Id value of the button object, if used). See also *close-botton* below and Example 3.
 
-> [!WARNING]
-> This function is **deprecated.** Instead, set promise**= true and use the .then() clause of the Promise object returned by $.udb.dialog, which can perform the exact same action. This strategy is shown in Example 1.
+
+:::warning
+
+This function is **deprecated.** Instead, set promise**= true and use the .then() clause of the Promise object returned by $.udb.dialog, which can perform the exact same action. This strategy is shown in Example 1.
+
+:::
 
 If you call $.udb.dialog() with a 'fields' fields-array, this will result in the call being transferred to [$.udb.input() ](/docs/Web_and_app_UIs/UDB_udb/udbinput.md)instead, so that the input fields can be properly displayed.
 

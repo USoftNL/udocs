@@ -6,8 +6,12 @@ id: COMMIT
 
 
 
-> [!NOTE]
-> This article is about the **COMMIT** statement as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about the **COMMIT** statement as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **COMMIT**
 
@@ -19,5 +23,9 @@ Commits data changes of the current transaction to the RDBMS so that they become
 COMMIT
 ```
 
-> [!TIP]
-> This statement activates table constraints with Deferred = Post Commit (if any).
+
+:::tip
+
+This statement activates table constraints with Deferred = Post Commit (if any).
+
+:::

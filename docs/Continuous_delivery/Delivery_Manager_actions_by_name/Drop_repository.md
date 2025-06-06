@@ -6,15 +6,23 @@ id: Drop_repository
 
 
 
-> [!NOTE]
-> This article is about the **Drop repository**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Drop repository**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Drop repository**
 
 Drops all application tables, authorisation tables, and metadata tables from "Database account".
 
-> [!CAUTION]
-> This action irrevocably deletes all data and metadata in the database account.
+
+:::danger
+
+This action irrevocably deletes all data and metadata in the database account.
+
+:::
 
 ### Parameters
 

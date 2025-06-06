@@ -10,10 +10,14 @@ Class libraries in .NET can often be used from multiple languages. Not every lib
 
 USoft offers extensive functionality for integrating .NET code with the USoft Rules Engine. To do this, in USoft Definer, you define a .NET component. .NET components in USoft are RDMI components. As such, they may be called from many USoft SQL-based contexts, including constraints that implement rules.
 
-> [!WARNING]
-> A .NET component will raise errors if you started the USoft executable (eg., Usd.Exe, or if started from USoft Binder, usbinder.exe) from an abbreviated file path, eg., "C:\\PROGRA~1”, as opposed to a full file path, eg., "C:\\Program Files”.
-> In older USoft versions, if you start from a Binder file (.usb), the value of the registry key:
-> may be an abbreviated path. This may be the case if you initially installed USoft in a path containing a space, eg., "C:\\Program Files".
+
+:::warning
+
+A .NET component will raise errors if you started the USoft executable (eg., Usd.Exe, or if started from USoft Binder, usbinder.exe) from an abbreviated file path, eg., "C:\\PROGRA~1”, as opposed to a full file path, eg., "C:\\Program Files”.
+In older USoft versions, if you start from a Binder file (.usb), the value of the registry key:
+may be an abbreviated path. This may be the case if you initially installed USoft in a path containing a space, eg., "C:\\Program Files".
+
+:::
 If this is the reason why a .NET component raises errors, the workaround is to change the value of the registry key to a full path.
 > From USoft 10.0.L, USoft Binder will internally expand abbreviated paths to full paths, thereby resolving this issue automatically.
 
@@ -30,8 +34,12 @@ USoft supports different types of .NET component:
 
 
 
-> [!WARNING]
-> In addition to these 6 types, the Language dropdown box in the Components windows also shows the XML value. This value is reserved for future use. Currently, USoft sets Language = XML if the Program Source is recognised as XML but not as XSLT.
+
+:::warning
+
+In addition to these 6 types, the Language dropdown box in the Components windows also shows the XML value. This value is reserved for future use. Currently, USoft sets Language = XML if the Program Source is recognised as XML but not as XSLT.
+
+:::
 
 All of these types use .NET technology, but in very different ways:
 

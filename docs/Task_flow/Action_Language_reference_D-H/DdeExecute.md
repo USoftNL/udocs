@@ -6,8 +6,12 @@ id: DdeExecute
 
 
 
-> [!NOTE]
-> This article is about the **DdeExecute** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **DdeExecute** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **DdeExecute()**
 
@@ -21,5 +25,9 @@ DdeExecute( *service*, *topic*, *command* )
 
 *Service* is the name of the DDE server. *Topic* is the topic of the conversation. *Command* is the command to be executed.
 
-> [!TIP]
-> This action will not report that mandatory parameters are missing.
+
+:::tip
+
+This action will not report that mandatory parameters are missing.
+
+:::

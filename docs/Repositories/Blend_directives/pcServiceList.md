@@ -6,8 +6,12 @@ id: pcServiceList
 
 
 
-> [!NOTE]
-> This article is about the **pc:ServiceList**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ServiceList**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ServiceList**
 
@@ -28,8 +32,12 @@ When delivering a USoft application on a Production machine:
 
 The required **pattern** is a regular expression. All the locally installed Windows services of which the name matches pattern will be listed in the return value. If pattern has only literal characters (Example 1), all the services of which the name starts with the pattern are listed.
 
-> [!CAUTION]
-> The pattern is applied to the service's name, not to the display name that is visible in the Services panel.
+
+:::danger
+
+The pattern is applied to the service's name, not to the display name that is visible in the Services panel.
+
+:::
 
 *Example 1*
 

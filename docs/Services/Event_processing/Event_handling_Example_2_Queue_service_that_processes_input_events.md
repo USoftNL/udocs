@@ -51,8 +51,12 @@ Save work. Click the Check button to have your SQL syntax checked. If it is corr
 - a Service(Other) named process_reservation.  
 - two Connections named queue_select and queue_process. Both connections have a default rules service added, using port 7777. Change this as needed. Both connections may use the same port number or different port numbers.
 
-> [!NOTE]
-> You can also used the same connection name for Selection Connection Name and Process Connection Name. For administration reasons it might be easier to use different names, that may in fact use the Rules Service.
+
+:::note
+
+You can also used the same connection name for Selection Connection Name and Process Connection Name. For administration reasons it might be easier to use different names, that may in fact use the Rules Service.
+
+:::
 
 ## Publishing the solution
 

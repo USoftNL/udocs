@@ -23,8 +23,12 @@ class MYCLASS
 
  
 
-> [!NOTE]
-> The Assembly References field should be left empty at this stage.
+
+:::note
+
+The Assembly References field should be left empty at this stage.
+
+:::
 
 3. Press Commit. USoft compiles this code.
 
@@ -46,8 +50,12 @@ ok: simple
 
 1. Using, for example, Microsoft Visual Studio 2008 build a simple ‘SimpleRDMI’ project  using the following code:
 
-> [!NOTE]
-> In Microsoft Visual Studio 2008 you can do this using the following menu sequence File Menu, New Project, Visual C##-, Windows, Class Library.
+
+:::note
+
+In Microsoft Visual Studio 2008 you can do this using the following menu sequence File Menu, New Project, Visual C##-, Windows, Class Library.
+
+:::
 
 ```language-cs
 using System;

@@ -109,5 +109,9 @@ In Oracle, it is also possible to postpone the validation of foreign keys and un
 
  
 
-> [!NOTE]
-> Always remember that USoft Developer allows you to try and change rather easily, and at relatively low costs. Therefore, if you are not satisfied with the performance at some point, change your specifications in the repository and then regenerate your application and the corresponding database structure.
+
+:::note
+
+Always remember that USoft Developer allows you to try and change rather easily, and at relatively low costs. Therefore, if you are not satisfied with the performance at some point, change your specifications in the repository and then regenerate your application and the corresponding database structure.
+
+:::

@@ -74,8 +74,12 @@ The Property Inspector opens for this MenuControl object.
 
 4. For the Menu Name property, replace **PageListMenu** by the name of your menu page (we used "MyMenuPage").
 
-> [!TIP]
-> If you want a *role-based* menu, instead of setting Menu Name to a menu page name, set it to the value **Group Menu**, and define role-based menus in Web Designer. Click [here](/docs/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for details.
+
+:::tip
+
+If you want a *role-based* menu, instead of setting Menu Name to a menu page name, set it to the value **Group Menu**, and define role-based menus in Web Designer. Click [here](/docs/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for details.
+
+:::
 
 ----
 

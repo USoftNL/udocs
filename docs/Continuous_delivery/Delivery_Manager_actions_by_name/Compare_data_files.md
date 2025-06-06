@@ -6,8 +6,12 @@ id: Compare_data_files
 
 
 
-> [!NOTE]
-> This article is about the **Compare data files**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Compare data files**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Compare data files**
 

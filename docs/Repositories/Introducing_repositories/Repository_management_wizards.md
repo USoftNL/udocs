@@ -18,8 +18,12 @@ To start the NewUDevelop wizard from the command line, execute:
 > *usoft-bin-dir*\ublendit.exe newudevelop
 ```
 
-> [!TIP]
-> To find the *usoft-bin-dir* directory path, in a SQL command box, run:
+
+:::tip
+
+To find the *usoft-bin-dir* directory path, in a SQL command box, run:
+
+:::
 
 ## CloneUDevelop
 

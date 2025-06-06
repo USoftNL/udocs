@@ -32,5 +32,9 @@ All objects in the registry, used in cooperation with the column control. Using 
 
 This object has no predefined subclasses. You can insert any subclass of ActiveX Automation Object into it. These controls have the look and feel of an imported ActiveX control while interacting with a column value stored for each record
 
-> [!NOTE]
-> In most cases, the vendor-supplied icon or bitmap for the ActiveX object will be used in the catalog.
+
+:::note
+
+In most cases, the vendor-supplied icon or bitmap for the ActiveX object will be used in the catalog.
+
+:::

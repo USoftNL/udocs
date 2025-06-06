@@ -6,8 +6,12 @@ id: stringsStartsWithIgnoreCase
 
 
 
-> [!NOTE]
-> This article is about the **strings:StartsWithIgnoreCase**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:StartsWithIgnoreCase**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:StartsWithIgnoreCase**
 

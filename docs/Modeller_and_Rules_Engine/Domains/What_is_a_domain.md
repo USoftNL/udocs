@@ -8,11 +8,15 @@ A **domain** is a pool of values from which users can choose when providing valu
 
 A domain is a rich data type. Logical conditions that a value must meet to be in the domain, may be expressed by USoft constraints or regular expressions. In addition to delimiting a pool of values, a domain also specifies certain presentation aspects of columns based on the domain. For example, it may specify in which format the Rules Engine is to present stored date/time values to the user, or which type of visual control must be used in the screen for columns based on the domain.
 
-> [!TIP]
-> **Domain names: Good Style**
-> A domain corresponds to a reference scheme: a way of representing things from business reality in an information system. The best domain names reflect this administrative nature: they end in such words as "ID”, "code”, “name”, "address”…
-> Avoid domain names such as STRING_30. The fact that a domain contains string values is defined by its Data Type setting. A maximum width of 30 positions is defined by its Column Width setting.
-> Avoid domain names such as CUSTOMER. A domain is not a business reality but an information system reality. CUSTOMER_ID is better.
+
+:::tip
+
+**Domain names: Good Style**
+A domain corresponds to a reference scheme: a way of representing things from business reality in an information system. The best domain names reflect this administrative nature: they end in such words as "ID”, "code”, “name”, "address”…
+Avoid domain names such as STRING_30. The fact that a domain contains string values is defined by its Data Type setting. A maximum width of 30 positions is defined by its Column Width setting.
+Avoid domain names such as CUSTOMER. A domain is not a business reality but an information system reality. CUSTOMER_ID is better.
+
+:::
 
 *Example 1*
 

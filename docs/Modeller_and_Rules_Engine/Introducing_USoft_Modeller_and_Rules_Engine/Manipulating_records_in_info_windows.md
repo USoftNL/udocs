@@ -94,8 +94,12 @@ Saving Changes Locally
 
 To save your work locally, choose Record, Store Row from the menu bar. This saves your changes in a (local) memory buffer, allowing you to continue without physically committing your changes to the database. You will probably need to do this quite often, in order to make data from one table available to another window.
 
-> [!TIP]
-> **NOTE:** Each time that you leave a window in which you have made a change, a local save is automatically made by the Definer.
+
+:::tip
+
+**NOTE:** Each time that you leave a window in which you have made a change, a local save is automatically made by the Definer.
+
+:::
 
 To actually commit your changes, you must click the Save button on the toolbar or choose File, Save from the menu bar.
 

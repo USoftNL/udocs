@@ -18,10 +18,14 @@ This dialog allows the user to select (identify) one or more files to be uploade
 
 If the upload is successful, by default, the selected file or files are instantly sent to the server and added to the server's file system.
 
-> [!TIP]
-> By default, if you upload **myfile.txt**, the result on the server is called something like:
-> **1621332385745_myfile.txt**
-> The numeric prefix is a server timestamp representing milliseconds since January 1, 1970.
+
+:::tip
+
+By default, if you upload **myfile.txt**, the result on the server is called something like:
+**1621332385745_myfile.txt**
+The numeric prefix is a server timestamp representing milliseconds since January 1, 1970.
+
+:::
 
 The user is given a confirmation message in a dialog:
 
@@ -59,8 +63,12 @@ Accept this default. You must now set the directory on the server file system th
 String
 ```
 
-> [!WARNING]
-> This Type value is case-sensitive.
+
+:::warning
+
+This Type value is case-sensitive.
+
+:::
 
 ![](./assets/fedea57e-6337-4623-bef8-9027fe97f099.png)
 
@@ -92,9 +100,13 @@ To restrict the maximum file size allowed **on the server**:
 boolean
 ```
 
-> [!WARNING]
-> This Type value is case-sensitive.
-> This Type value is necessary even though, functionally, it does not make sense (there is no relevant boolean return value).
+
+:::warning
+
+This Type value is case-sensitive.
+This Type value is necessary even though, functionally, it does not make sense (there is no relevant boolean return value).
+
+:::
 
 2. For this new field, set Default Value =
 
@@ -132,9 +144,13 @@ To restrict the file types (file extensions) allowed:
 boolean
 ```
 
-> [!WARNING]
-> This Type value is case-sensitive.
-> This Type value is necessary even though, functionally, it does not make sense (there is no relevant boolean return value).
+
+:::warning
+
+This Type value is case-sensitive.
+This Type value is necessary even though, functionally, it does not make sense (there is no relevant boolean return value).
+
+:::
 
 2. For this new field, set Default Value =
 
@@ -158,8 +174,12 @@ You can set properties to customise the File Upload control inserted in your pag
 
 Open the Property Inspector for this File Upload control. Make property settings as appropriate.
 
-> [!NOTE]
-> To explore possibilities, use the Property Help. Click on a property name. Read the Help text for the clicked property (in a yellow pane). If you do not see Help text, click the ‘?’ icon in the Property Help icon ribbon.
+
+:::note
+
+To explore possibilities, use the Property Help. Click on a property name. Read the Help text for the clicked property (in a yellow pane). If you do not see Help text, click the ‘?’ icon in the Property Help icon ribbon.
+
+:::
 
 *Example*
 
@@ -187,8 +207,12 @@ In USoft Definer, create a job with any name, for example, HANDLE_FILE_UPLOAD. M
 - The DESTINATION****parameter defines or computes the full folderpath leading to the location where the submitted file(s) must be uploaded.
 - The FILENAME****parameter represents or computes the filename and file extension of the uploaded file(s).
 
-> [!WARNING]
-> You can choose any job name, but the DESTINATION and FILENAME parameters must be called exactly that, and not (for example) FILE_NAME.
+
+:::warning
+
+You can choose any job name, but the DESTINATION and FILENAME parameters must be called exactly that, and not (for example) FILE_NAME.
+
+:::
 
 To add further parameters, use either the **Target parameters** property of the File Upload control in Web Designer, or the **params** parameter if you are programming a call to **$.udb.upload()** (previous section in this article).
 
@@ -198,8 +222,12 @@ Next, in Service Definer, add a new Field to the REST Service that acts as your 
 String
 ```
 
-> [!WARNING]
-> This Type value is case-sensitive.
+
+:::warning
+
+This Type value is case-sensitive.
+
+:::
 
 For this new field, set Default Value =
 
@@ -220,11 +248,19 @@ For each file-upload job, you can optionally define an output parameter set that
 - a RESULT parameter containing a message about the uploaded file;
 - a STATUS parameter that specifies whether the job executed successfully or not.
 
-> [!WARNING]
-> You can choose any name for the External Set that you use as the job’s Output Parameter Set, but the RESULT and STATUS parameters must be called exactly that.
 
-> [!TIP]
-> The use of an output parameter set is optional, but best practice is to make sure that the job always returns an output parameter set with exactly one record, with the RESULT parameter containing a relevant message, and the STATUS parameter set to ‘PROCESSED’ if the call was successful and to 'REJECTED’ if an error occurred.
+:::warning
+
+You can choose any name for the External Set that you use as the job’s Output Parameter Set, but the RESULT and STATUS parameters must be called exactly that.
+
+:::
+
+
+:::tip
+
+The use of an output parameter set is optional, but best practice is to make sure that the job always returns an output parameter set with exactly one record, with the RESULT parameter containing a relevant message, and the STATUS parameter set to ‘PROCESSED’ if the call was successful and to 'REJECTED’ if an error occurred.
+
+:::
 
 The value of the RESULT message is determined by the developer of the job, so it may contain any type of message, including messages caught from the Rules Engine. You can catch Rules Engine messages by calling the Rules Engine internal component; use the **StartCatchingErrors()** and **StopCatchingErrors()** methods, in combination with the **GetLastCaughtErrors()** or **GetLastCaughtErrorsAsXML()** methods. You need to distinguish any custom messages delivered via the RESULT parameter from the standard error message delivered automatically by USoft if the job fails as a whole.
 

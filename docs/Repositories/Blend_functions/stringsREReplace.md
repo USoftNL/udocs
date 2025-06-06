@@ -6,8 +6,12 @@ id: stringsREReplace
 
 
 
-> [!NOTE]
-> This article is about the **strings:REReplace**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:REReplace**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:REReplace**
 
@@ -53,5 +57,9 @@ The result value is the input **My\\Value\\** but without the backslash characte
 MyValue
 ```
 
-> [!TIP]
-> If you want to do a simple replacement for which you do not require a regexp pattern, use [strings:Replace()](/docs/Repositories/Blend_functions/stringsReplace.md) instead.
+
+:::tip
+
+If you want to do a simple replacement for which you do not require a regexp pattern, use [strings:Replace()](/docs/Repositories/Blend_functions/stringsReplace.md) instead.
+
+:::

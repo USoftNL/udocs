@@ -6,8 +6,12 @@ id: pcassignboolean
 
 
 
-> [!NOTE]
-> This article is about the **pc:assign-boolean**[Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:assign-boolean**[Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:assign-boolean**
 

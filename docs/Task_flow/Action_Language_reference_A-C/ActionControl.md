@@ -6,8 +6,12 @@ id: ActionControl
 
 
 
-> [!NOTE]
-> This article is about the **ActionControl** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **ActionControl** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **ActionControl()**
 
@@ -29,8 +33,12 @@ The required c*lass* is a filter that determines which object (if any) is the ta
 
 The required *action* is the action you want to perform. You can perform multiple *actions* separated by commas.
 
-> [!WARNING]
-> *Actions* must be specified by using deprecated action names.
+
+:::warning
+
+*Actions* must be specified by using deprecated action names.
+
+:::
 
 *Example*
 

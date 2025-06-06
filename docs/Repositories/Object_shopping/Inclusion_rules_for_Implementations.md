@@ -10,11 +10,15 @@ What is included depends on the Type of the implementation. In the list, the nam
 
 For example, the first four lines of the list mean that if an Implementation of Type = Column is included, then the entire Table that the Column is part of, including all the columns in that Table, are included.
 
-> [!WARNING]
-> **Components:** For a Component Method, the entire Component including all its Methods is included.
-> **Roles:** For a Table Right, Column Right, Job Right or Component Right, the entire Role including all its rights is included, except Module Rights.
-> **Jobs:** For Job Task or Job SQL, no inclusions are made. To have the Job included, add an Implementation with Type = Job.
-> **ESI** (ie., GUI elements): For Controls, Pages and Windows, no inclusions are made. The implementation record itself is also not included.
+
+:::warning
+
+**Components:** For a Component Method, the entire Component including all its Methods is included.
+**Roles:** For a Table Right, Column Right, Job Right or Component Right, the entire Role including all its rights is included, except Module Rights.
+**Jobs:** For Job Task or Job SQL, no inclusions are made. To have the Job included, add an Implementation with Type = Job.
+**ESI** (ie., GUI elements): For Controls, Pages and Windows, no inclusions are made. The implementation record itself is also not included.
+
+:::
 
 ```
 Implementation

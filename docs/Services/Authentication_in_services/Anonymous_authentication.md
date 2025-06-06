@@ -22,8 +22,16 @@ For example, a travel agency resource that returns last-minute advertised by the
 
 where *username* and *password* are valid USoft credentials from Authorizer. These credentials are used by the Service Framework to connect to the Rules Service.
 
-> [!NOTE]
-> You can also explicitly set USoft authentication on an individual method of the service. Do this by setting the Annotation attribute of that method to :
 
-> [!NOTE]
-> You can use **@AuthNone** without user name and password, and this construction will throw an 404 http status code if a connection to the rule service is needed. This is useful to static content, like files, where no connection to the rule engine is needed.
+:::note
+
+You can also explicitly set USoft authentication on an individual method of the service. Do this by setting the Annotation attribute of that method to :
+
+:::
+
+
+:::note
+
+You can use **@AuthNone** without user name and password, and this construction will throw an 404 http status code if a connection to the rule service is needed. This is useful to static content, like files, where no connection to the rule engine is needed.
+
+:::

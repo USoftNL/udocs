@@ -6,13 +6,21 @@ id: CommandSystemBackground
 
 
 
-> [!NOTE]
-> This article is about the **CommandSystemBackground** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **CommandSystemBackground** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **CommandSystemBackground()**
 
-> [!CAUTION]
-> This action is obsolete.
+
+:::danger
+
+This action is obsolete.
+
+:::
 
 Executes an operating system command on a Windows or Linux system. The command will be run in the **foreground**. This action is obsolete:
 

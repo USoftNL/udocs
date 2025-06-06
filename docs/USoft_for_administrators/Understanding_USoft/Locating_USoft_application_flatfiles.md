@@ -48,11 +48,19 @@ The default value of the **FileSearchPath** registry entry is:
 
 meaning that USoft looks by default, for all applications and file extensions, in the current directory (working directory), given that the default value for the **HomeDir** registry entry is **.**, i.e. the current directory.
 
-> [!NOTE]
-> This **FileSearchPath** default value is somewhat confusing because the second value (following the colon) has the same meaning as the first (preceding the colon), and also because both values are actually redundant in the default situation, because of Step 3 (below).
 
-> [!TIP]
-> Some teams prefer to have application flatfiles not in the USoft installation directory but in a different location. They modify the value of the **FileSearchPath** registry key to indicate this different location.
+:::note
+
+This **FileSearchPath** default value is somewhat confusing because the second value (following the colon) has the same meaning as the first (preceding the colon), and also because both values are actually redundant in the default situation, because of Step 3 (below).
+
+:::
+
+
+:::tip
+
+Some teams prefer to have application flatfiles not in the USoft installation directory but in a different location. They modify the value of the **FileSearchPath** registry key to indicate this different location.
+
+:::
 
 **Step 3: USoft home directory**
 

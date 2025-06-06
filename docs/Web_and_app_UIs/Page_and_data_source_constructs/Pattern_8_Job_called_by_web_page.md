@@ -80,8 +80,12 @@ $.udb.navigateToLookup('Lookup Tour 8.2',
 });
 ```
 
-> [!TIP]
-> mode:'search’ is required here because you want to use the output value from the job as a search condition when the user returns to the calling page. You do not want to use this output value for an UPDATE operation, which is what mode:'edit’ (the default) would do.
+
+:::tip
+
+mode:'search’ is required here because you want to use the output value from the job as a search condition when the user returns to the calling page. You do not want to use this output value for an UPDATE operation, which is what mode:'edit’ (the default) would do.
+
+:::
 
 ### Job call
 

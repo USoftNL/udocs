@@ -6,8 +6,12 @@ id: domainCheckValue
 
 
 
-> [!NOTE]
-> This article is about the **domain.CheckValue** method of [domain internal components](/docs/Extensions/Domain_and_table_internal_components).
+
+:::note
+
+This article is about the **domain.CheckValue** method of [domain internal components](/docs/Extensions/Domain_and_table_internal_components).
+
+:::
 
 ## **domain.CheckValue**
 

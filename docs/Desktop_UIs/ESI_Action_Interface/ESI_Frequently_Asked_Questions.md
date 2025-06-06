@@ -151,7 +151,11 @@ Use:
 esi-set-attribute(*MYAPP*myclass.query.mycolumn.esd_check.data, XtNlabel, "new label")
 ```
 
-> [!NOTE]
-> It is actually another label that you are setting. The subtype indicator column's property is there, but it is (normally) hidden. You can change it if you change the prompt instead of the label. If you do not set the label's label property, it will get the column's prompt property as its default.
+
+:::note
+
+It is actually another label that you are setting. The subtype indicator column's property is there, but it is (normally) hidden. You can change it if you change the prompt instead of the label. If you do not set the label's label property, it will get the column's prompt property as its default.
+
+:::
 
  

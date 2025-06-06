@@ -20,19 +20,31 @@ When you define a query by filling out an info window, you can use ordinary oper
 
 Within one query, you can use any number of query conditions. They are implicitly connected by the AND operator, except for conditions that use the pipe symbol, which are connected by the OR operator.
 
-> [!TIP]
-> **NOTE 1:** First all the AND conditions are connected, then the OR conditions are added. For example:
+
+:::tip
+
+**NOTE 1:** First all the AND conditions are connected, then the OR conditions are added. For example:
+
+:::
 A and B or C and D
 Is NOT parsed as:
 (A and B) or (C and D)
 but as:
 (A and B and D) or C
 
-> [!TIP]
-> **NOTE 2:** An extra query (virtual) is treated as if it involves ONE column, even if it consists of a composite key.
 
-> [!TIP]
-> **NOTE 3:** OR conditions on tables containing joined columns while in Query mode work correctly. However, if you do not specify at least one AND condition, it will lead to unexpected results. In most cases if there are only OR conditions specified, then one of them will be added as an AND condition to avoid full table scans.
+:::tip
+
+**NOTE 2:** An extra query (virtual) is treated as if it involves ONE column, even if it consists of a composite key.
+
+:::
+
+
+:::tip
+
+**NOTE 3:** OR conditions on tables containing joined columns while in Query mode work correctly. However, if you do not specify at least one AND condition, it will lead to unexpected results. In most cases if there are only OR conditions specified, then one of them will be added as an AND condition to avoid full table scans.
+
+:::
 
 ## Using wildcards in queries
 

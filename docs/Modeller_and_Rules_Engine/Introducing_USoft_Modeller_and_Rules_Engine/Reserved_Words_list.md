@@ -23,6 +23,10 @@ As a team, you are free to create or change or expand the Related Words list as 
 
 Access the Reserved Words list from the Definer menu by choosing **Tools, Options, Reserved Words.**
 
-> [!TIP]
-> The risk of dropping a Reserved Word from the list suggested by USoft is different from one word to the other.
-> However, in general, USoft recommends you stick by the suggested list. Good practice is to name your own objects only by words that steer clear of any possible mix-up with technicalities.
+
+:::tip
+
+The risk of dropping a Reserved Word from the list suggested by USoft is different from one word to the other.
+However, in general, USoft recommends you stick by the suggested list. Good practice is to name your own objects only by words that steer clear of any possible mix-up with technicalities.
+
+:::

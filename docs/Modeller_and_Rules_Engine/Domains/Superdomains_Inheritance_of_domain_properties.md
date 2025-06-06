@@ -6,8 +6,12 @@ id: Superdomains_Inheritance_of_domain_properties
 
 When you define a domain, you can optionally indicate that the domain has a **superdomain**. If a domain has a superdomain, domain attributes are inherited from that superdomain following certain rules. This section describes how a subdomain inherits attributes from its superdomain.
 
-> [!TIP]
-> You can also apply in 1 go a collection of popular settings called **template domain**. Template settings are usually appropriate for a specific type of domain (such as a domain for Short Text or a domain for Yes/No flags). This is a different mechanism described [here](/docs/Modeller_and_Rules_Engine/Domains/Template_domains_Popular_domain_settings.md).
+
+:::tip
+
+You can also apply in 1 go a collection of popular settings called **template domain**. Template settings are usually appropriate for a specific type of domain (such as a domain for Short Text or a domain for Yes/No flags). This is a different mechanism described [here](/docs/Modeller_and_Rules_Engine/Domains/Template_domains_Popular_domain_settings.md).
+
+:::
 
 ## Always inherited
 

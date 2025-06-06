@@ -104,8 +104,12 @@ If you set Minimum Children to an integer value, for each parent record in the r
 
 By default, Minimum Children is empty (NULL).
 
-> [!TIP]
-> Setting Minimum Children = 1 has no effect. This does not add any restriction in comparison with the default NULL.
+
+:::tip
+
+Setting Minimum Children = 1 has no effect. This does not add any restriction in comparison with the default NULL.
+
+:::
 
 *Examples*
 

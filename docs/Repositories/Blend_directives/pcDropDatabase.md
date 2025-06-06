@@ -6,8 +6,12 @@ id: pcDropDatabase
 
 
 
-> [!NOTE]
-> This article is about the **pc:DropDatabase**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:DropDatabase**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:DropDatabase**
 

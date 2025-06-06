@@ -6,8 +6,12 @@ id: pcdefault
 
 
 
-> [!NOTE]
-> This article is about the **pc:default**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:default**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:default**
 

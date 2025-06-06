@@ -32,8 +32,12 @@ To compose and execute a script of multiple SQL statements in SQL Command:
 1.    Type the statements in the upper box of the SQL Command window, or press the SQL Definer button to use the SQL Definer.
 2.    Make sure each statement is separated from the next by a separator symbol. This symbol is the semi-colon ( ; ) by default. This symbol is optional after the last statement in the script.
 
-> [!WARNING]
-> Consider setting 'quitZeroRows' if you do not want processing to stop when a SELECT statement does not retrieve any records. There are many other similar options. See the "SQL command settings" section in this help topic for details.
+
+:::warning
+
+Consider setting 'quitZeroRows' if you do not want processing to stop when a SELECT statement does not retrieve any records. There are many other similar options. See the "SQL command settings" section in this help topic for details.
+
+:::
 
 3.    Consider saving the script to file. Press the Save button to do this.
 4.    Press the Execute button.

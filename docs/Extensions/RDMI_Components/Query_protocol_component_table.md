@@ -125,11 +125,15 @@ last_name LIKE 'A%'
 
 To solve this problem, you can pass the query conditions in XML format as the CONDITIONS parameter of the QUERYEXE method of the component. This way, the component can evaluate some or all of the extended query conditions itself. This reduces the number of records returned to the Rules Engine.
 
-> [!NOTE]
-> The Rules Engine always checks the returned records a second time. Valid records are never rejected.
-> Only those conditions that the component can safely use to reduce the number of records are added to the XML document.
-> Conditions that contain a reference to a column of another table are not added.
-> If a condition is nested with a condition on another table, the Rules Engine examines if the condition can safely be passed to the component or not.
+
+:::note
+
+The Rules Engine always checks the returned records a second time. Valid records are never rejected.
+Only those conditions that the component can safely use to reduce the number of records are added to the XML document.
+Conditions that contain a reference to a column of another table are not added.
+If a condition is nested with a condition on another table, the Rules Engine examines if the condition can safely be passed to the component or not.
+
+:::
 
 To apply this technique:
 
@@ -180,8 +184,12 @@ Passing query conditions as XML opens the way to customisation through XSL trans
 
 USoft ships a set of pre-defined XSL transformations and XML schemas to get you started in this direction.
 
-> [!NOTE]
-> You can find this material in **\<USoft-installation-folder>\\xsl\\ExtendedConditions**.
+
+:::note
+
+You can find this material in **\<USoft-installation-folder>\\xsl\\ExtendedConditions**.
+
+:::
 
 Here is an explanation of each of these utility files.
 

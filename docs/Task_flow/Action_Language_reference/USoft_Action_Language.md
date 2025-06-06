@@ -4,11 +4,15 @@ id: USoft_Action_Language
 
 # USoft Action Language
 
-> [!NOTE]
-> [Action Language reference A - C](/docs/Task_flow/Action_Language_reference_A-C)
-> [Action Language reference D - H](/docs/Task_flow/Action_Language_reference_D-H)
-> [Action Language reference I - R](/docs/Task_flow/Action_Language_reference_I-R)
-> [Action Language reference S - Z](/docs/Task_flow/Action_Language_Reference_S-Z)
+
+:::note
+
+[Action Language reference A - C](/docs/Task_flow/Action_Language_reference_A-C)
+[Action Language reference D - H](/docs/Task_flow/Action_Language_reference_D-H)
+[Action Language reference I - R](/docs/Task_flow/Action_Language_reference_I-R)
+[Action Language reference S - Z](/docs/Task_flow/Action_Language_Reference_S-Z)
+
+:::
 
 The **USoft Action Language**is a scripting language used in 2 places:
 
@@ -26,8 +30,12 @@ In USoft Definer, you can script commands in the Action Language:
 - In **Action Tasks**.
 - In the **Yes Action** and **No Action** of Decisions.
 
-> [!TIP]
-> Please find explanations, examples and tutorials in the [Decisions](/docs/Task_flow/Decisions) section.
+
+:::tip
+
+Please find explanations, examples and tutorials in the [Decisions](/docs/Task_flow/Decisions) section.
+
+:::
 
 In this context, a small subset of actions is particularly important:
 
@@ -51,8 +59,12 @@ In USoft Windows Designer, you can script command in the Action Language in **pr
 - The Post-Open property of a Window object, associated with the event of a user  opening a window;
 - The Action property of a push button, associated with the event of a user pushing a button.
 
-> [!TIP]
-> For customising C/S screens, please find an alphabetic list of all actions [in this section](/docs/Task_flow/Action_Language_reference).
+
+:::tip
+
+For customising C/S screens, please find an alphabetic list of all actions [in this section](/docs/Task_flow/Action_Language_reference).
+
+:::
 
 ## Scripts, actions, parameters
 
@@ -64,8 +76,12 @@ An action is identified by name and always followed by a pair of parentheses. De
 MessageLanguage( 'Admin', 'WRONG_INSTANCE_NAME', 'ERROR' )
 ```
 
-> [!TIP]
-> For backward compatibility, some actions support unquoted string and date parameters, but this old syntax is not recommended.
+
+:::tip
+
+For backward compatibility, some actions support unquoted string and date parameters, but this old syntax is not recommended.
+
+:::
 
 It is customary to separate multiple actions within a script by single or double newlines. Otherwise, surrounding whitespace is unimportant. In the following example call, the space between Admin and Msg is a significant part of the parameter value passed, but the space preceding the quote before Admin is insignificant:
 
@@ -105,9 +121,13 @@ Quoting string and date literals makes execution faster and prevents the engine 
 
 
 
-> [!NOTE]
-> Earlier versions of the action language worked with unquoted literals. The following will work:
-> but the following is recommended because faster and safer:
+
+:::note
+
+Earlier versions of the action language worked with unquoted literals. The following will work:
+but the following is recommended because faster and safer:
+
+:::
 
 ## Variable elements: numbered placeholders in SqlScript() and Decision SQL
 
@@ -242,8 +262,12 @@ My_Days_Property( Days( Self() ).Window.Create() )
 
 In this technique, you need to create one or more user-defined properties in the called window class (here: the Days window class). For details, search "window interaction". This object-oriented technology, based on internal object IDs, replaces an obsolete path technology based on a hierarchy of embedding runtime windows, where <- was a navigation path to the shell of the current window, <-<- a navigation path to the shell of the parent window, and **name* a wildcard navigating to the next descendent match of *name*, as explained to some length in the ac-rel() help topic.
 
-> [!NOTE]
-> For  a full explanation of this technique, go to [Window interaction](/docs/Desktop_UIs/Scripting_in_USoft_Windows_Designer/Window_interaction.md).
+
+:::note
+
+For  a full explanation of this technique, go to [Window interaction](/docs/Desktop_UIs/Scripting_in_USoft_Windows_Designer/Window_interaction.md).
+
+:::
 
 ## The action keyword
 

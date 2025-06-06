@@ -22,8 +22,12 @@ instead of through a traditional, long USoft URL of this type:
 https://*host*:*port-number*/*service-name*/*connection-name*
 ```
 
-> [!NOTE]
-> If you apply a reroute mapping, the longer URL will still work, but the user will automatically see it replaced by the shorter URL in his browser address bar.
+
+:::note
+
+If you apply a reroute mapping, the longer URL will still work, but the user will automatically see it replaced by the shorter URL in his browser address bar.
+
+:::
 
 *Example 2*
 

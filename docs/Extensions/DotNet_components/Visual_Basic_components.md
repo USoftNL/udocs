@@ -15,5 +15,9 @@ Either way, the result is that methods and parameters for the Visual Basic code 
 
 This technique is analogous to defining and calling C# components. See C# components for detailed steps.
 
-> [!TIP]
-> You can work with Visual Basic in the generic DotNet Components window: from the USoft Definer menu, choose Define, RDMI, DotNet Components, All DotNetComponents. When USoft compiles your Program Source code, it will recognise it as Visual Basic and set Language = Visual Basic. Alternatively, you can work in the Visual Basic Components window: in the last submenu, choose Visual Basic Components instead.
+
+:::tip
+
+You can work with Visual Basic in the generic DotNet Components window: from the USoft Definer menu, choose Define, RDMI, DotNet Components, All DotNetComponents. When USoft compiles your Program Source code, it will recognise it as Visual Basic and set Language = Visual Basic. Alternatively, you can work in the Visual Basic Components window: in the last submenu, choose Visual Basic Components instead.
+
+:::

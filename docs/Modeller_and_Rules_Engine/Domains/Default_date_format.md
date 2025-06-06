@@ -93,13 +93,21 @@ results in:
 
 15 11 2000
 
-> [!NOTE]
-> Selecting a date in the SQL Command dialog results in a date represented in the conceptual date format YYYY/MMDDHH24MISS. This is the USoft representation of a date. For example,
-> results in:
-> 2000/0302133505
 
-> [!TIP]
-> The default date format setting only applies for statements that are evaluated locally. If you want to select the current date you can use:
+:::note
+
+Selecting a date in the SQL Command dialog results in a date represented in the conceptual date format YYYY/MMDDHH24MISS. This is the USoft representation of a date. For example,
+results in:
+2000/0302133505
+
+:::
+
+
+:::tip
+
+The default date format setting only applies for statements that are evaluated locally. If you want to select the current date you can use:
+
+:::
 
 To have a statement evaluated on the RDBMS, you can:
 

@@ -6,8 +6,12 @@ id: pcerrortextmsg
 
 
 
-> [!NOTE]
-> This article is about the **pc:error-textmsg**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:error-textmsg**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:error-textmsg**
 
@@ -15,8 +19,12 @@ Returns the information, warning or error message (if any) that was most recentl
 
 Returns a text string.
 
-> [!TIP]
-> By contrast, [pc:error-msg](/docs/Repositories/Blend_directives/pcerrormsg.md) returns an XML document.
+
+:::tip
+
+By contrast, [pc:error-msg](/docs/Repositories/Blend_directives/pcerrormsg.md) returns an XML document.
+
+:::
 
 *Syntax*
 
@@ -24,5 +32,9 @@ Returns a text string.
 <pc:error-textmsg />
 ```
 
-> [!NOTE]
-> For examples, go to [pc:text-msg](/docs/Repositories/Blend_directives/pctextmsg.md), which is a synonym of **pc:error-textmsg**.
+
+:::note
+
+For examples, go to [pc:text-msg](/docs/Repositories/Blend_directives/pctextmsg.md), which is a synonym of **pc:error-textmsg**.
+
+:::

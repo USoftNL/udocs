@@ -23,8 +23,12 @@ Using **extension properties**, you can define extra runtime settable properties
 
 **The only way that USoft clients have access to data, jobs and components is through roles. Menus are a GUI aspect of roles.**
 
-> [!NOTE]
-> In earlier versions of USoft, roles (then called "user groups") were associated only with data and menus. Access rights to jobs and components are a new feature in USoft 10.0. In many existing USoft applications, a job's purpose is ultimately to query or manipulate data: the job is a "way in" or access path to the data, and people had the right to execute the job because they had the right to access the data. The two layers are now separate. Because of the versatily of components, which open the door to any coded world, a component right can mean just about anything: its (indirect) goal may or may not be related to application data. It is likely that in the future, there will be more and more job rights and component rights that primarily control access to *functionality* rather than to *data*.
+
+:::note
+
+In earlier versions of USoft, roles (then called "user groups") were associated only with data and menus. Access rights to jobs and components are a new feature in USoft 10.0. In many existing USoft applications, a job's purpose is ultimately to query or manipulate data: the job is a "way in" or access path to the data, and people had the right to execute the job because they had the right to access the data. The two layers are now separate. Because of the versatily of components, which open the door to any coded world, a component right can mean just about anything: its (indirect) goal may or may not be related to application data. It is likely that in the future, there will be more and more job rights and component rights that primarily control access to *functionality* rather than to *data*.
+
+:::
 
 ## Overview of access rights
 

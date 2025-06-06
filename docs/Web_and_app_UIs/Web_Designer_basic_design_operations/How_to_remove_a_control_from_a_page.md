@@ -10,8 +10,12 @@ To remove a control from a page:
 
 2. Expand the Object Tree until you find the control.
 
-> [!TIP]
-> An easy way to find an object in the Object Tree is to click on, or near, that object in the Preview Pane.
+
+:::tip
+
+An easy way to find an object in the Object Tree is to click on, or near, that object in the Preview Pane.
+
+:::
 
 3. Right-click on the node for the control, then choose Delete.
 

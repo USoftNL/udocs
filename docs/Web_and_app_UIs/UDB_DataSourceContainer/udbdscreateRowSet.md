@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **createRowSet()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+
+:::note
+
+This article is about the **createRowSet()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+
+:::
 
 ## **$.udb(ds).createRowSet()**
 
@@ -38,11 +46,19 @@ The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSour
 
 The possible values for the required *parent-key* are described in topic: dsc.rowSet() function.
 
-> [!TIP]
-> If *parent-key* has the value 'current', then no Rowset object is created, and the currently active Rowset is returned.
 
-> [!TIP]
-> If the Rowset to be created already exists, then no new Rowset is created.
+:::tip
+
+If *parent-key* has the value 'current', then no Rowset object is created, and the currently active Rowset is returned.
+
+:::
+
+
+:::tip
+
+If the Rowset to be created already exists, then no new Rowset is created.
+
+:::
 
 *Example*
 

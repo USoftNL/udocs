@@ -6,8 +6,12 @@ id: pcterminate
 
 
 
-> [!NOTE]
-> This article is about the **pc:terminate**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:terminate**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:terminate**
 

@@ -6,8 +6,12 @@ id: SqlScript
 
 
 
-> [!NOTE]
-> This article is about the **SqlScript** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **SqlScript** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **SqlScript()**
 
@@ -117,8 +121,12 @@ SqlScript(
 )
 ```
 
-> [!CAUTION]
-> With this technique, you are effectively creating *global* variables that are available in the entire application session. This is always dangerous because it is hard to know exactly when they are next referred to. Make sure you call each given variable only in 1 place: the 1 Decision Yes Action.
+
+:::danger
+
+With this technique, you are effectively creating *global* variables that are available in the entire application session. This is always dangerous because it is hard to know exactly when they are next referred to. Make sure you call each given variable only in 1 place: the 1 Decision Yes Action.
+
+:::
 
 ## Using a value retrieved by Decision SQL in a SqlScript() call
 
@@ -216,8 +224,12 @@ Tab_1.Page_1.SqlScript(
 )
 ```
 
-> [!TIP]
-> Use the tree view in the Object Activator tool to compose such a path.
+
+:::tip
+
+Use the tree view in the Object Activator tool to compose such a path.
+
+:::
 
 ## SqlScript() settings
 
@@ -345,8 +357,12 @@ You can use the resource setting "*Script*noSqlInMessages: True" to achieve the 
 
 If the output goes to a file, *encoding* specifies the encoding of the output file. *Encoding* is a non-quoted string. Possible values are ANSI and UTF8.
 
-> [!WARNING]
-> Use "SET outputEncoding" **before** "SET reportFile" in the script.
+
+:::warning
+
+Use "SET outputEncoding" **before** "SET reportFile" in the script.
+
+:::
 
  
 

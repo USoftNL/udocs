@@ -6,8 +6,12 @@ id: pcassignbooleandefault
 
 
 
-> [!NOTE]
-> This article is about the **pc:assign-boolean-default**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:assign-boolean-default**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:assign-boolean-default**
 
@@ -47,6 +51,10 @@ Showing the typical use case in which your script provides a default value if th
 </example>
 ```
 
-> [!CAUTION]
-> The pc:booleanflags="yes" switch is necessary to make this work. If you do not use it, then if the user passes the following command line setting:
-> this is wrongly converted to boolean true(). For details, see "XSLT-style conversion rules" in the pc:assign-boolean help topic.
+
+:::danger
+
+The pc:booleanflags="yes" switch is necessary to make this work. If you do not use it, then if the user passes the following command line setting:
+this is wrongly converted to boolean true(). For details, see "XSLT-style conversion rules" in the pc:assign-boolean help topic.
+
+:::

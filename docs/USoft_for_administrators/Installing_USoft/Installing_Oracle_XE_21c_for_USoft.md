@@ -6,9 +6,13 @@ id: Installing_Oracle_XE_21c_for_USoft
 
 This article tells you how to install Oracle XE 21c for USoft.
 
-> [!CAUTION]
-> This article is for developers who want to create a local USoft sandbox installation on top of a free Oracle version.
-> We have NOT yet tried and tested Oracle 21c for Production environments (as you can see [here](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)). In client projects, use Oracle 19c****instead.
+
+:::danger
+
+This article is for developers who want to create a local USoft sandbox installation on top of a free Oracle version.
+We have NOT yet tried and tested Oracle 21c for Production environments (as you can see [here](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)). In client projects, use Oracle 19c****instead.
+
+:::
 
 ## Prerequisites
 
@@ -40,15 +44,19 @@ Click the appropriate download link. Wait for the ZIP file to download to your c
 
 You are about to walk through an easy installation wizard. Simply accept defaults wherever possible, but be prepared that Oracle will ask you to provide an initial password for the SYS, SYSTEM and PDBADMIN accounts. For this password, USoft suggests you invent a high-fidelity password and not a predictable standard password such as ‘manager’.
 
-> [!TIP]
-> Case-sensitivity of Oracle user names and passwords requires some consideration.
-> **User names**
-> The following 2 statements create a user with the *same*, *case-insensitive*, user name. This ties in with the general principle that the SQL language is case-insensitive:
-> Even with the first statement, the created user can be referred to as DEMO_USER: this is what case-insensitivity is all about. Such case-insensitive user names are still the norm in SQL tools generally, and also in USoft. Furthermore, it is general practice to refer to these names by all-uppercase strings, just like it is customary to write SQL statements in all-uppercase letters.
-> Oracle does support *case-sensitive* user names: you need to double-quote the name when you create it. But they are not often used. Third-party APIs could well have difficulty with case-sensitive user names.
-> **Passwords**
-> In contrast with user names, passwords are case-sensitive automatically, so that the following statements create *different* passwords:
-> Oracle did not support case-sensitive passwords prior to version 11g, so any tool that predates 11g was not built with that possibility in mind.
+
+:::tip
+
+Case-sensitivity of Oracle user names and passwords requires some consideration.
+**User names**
+The following 2 statements create a user with the *same*, *case-insensitive*, user name. This ties in with the general principle that the SQL language is case-insensitive:
+Even with the first statement, the created user can be referred to as DEMO_USER: this is what case-insensitivity is all about. Such case-insensitive user names are still the norm in SQL tools generally, and also in USoft. Furthermore, it is general practice to refer to these names by all-uppercase strings, just like it is customary to write SQL statements in all-uppercase letters.
+Oracle does support *case-sensitive* user names: you need to double-quote the name when you create it. But they are not often used. Third-party APIs could well have difficulty with case-sensitive user names.
+**Passwords**
+In contrast with user names, passwords are case-sensitive automatically, so that the following statements create *different* passwords:
+Oracle did not support case-sensitive passwords prior to version 11g, so any tool that predates 11g was not built with that possibility in mind.
+
+:::
 
 ### Install Oracle 21c
 
@@ -76,10 +84,14 @@ OK (20 msec)
 
 If you cannot see this success message, open the "**tnsnames.ora**" file.
 
-> [!WARNING]
-> Unfortunately, Oracle changed its default file locations as of version 21c, so you may need to fiddle around to get **tnsnames.ora** in the right place. I found that some contexts looked for connectstring aliases (that is, for the **tnsnames.ora file)** in the location returned by **tnsping**, in my case:
-> while others looked in:
-> so that I ended up keeping a copy of **tnsnames.ora** in each of these locations...
+
+:::warning
+
+Unfortunately, Oracle changed its default file locations as of version 21c, so you may need to fiddle around to get **tnsnames.ora** in the right place. I found that some contexts looked for connectstring aliases (that is, for the **tnsnames.ora file)** in the location returned by **tnsping**, in my case:
+while others looked in:
+so that I ended up keeping a copy of **tnsnames.ora** in each of these locations...
+
+:::
 
 Make sure that "**tnsnames.ora**” contains an instruction such as the following. You may find you have to replace "XE" by "XEPDB1" to get this instruction:
 
@@ -148,8 +160,12 @@ Connected.
 
  This works because the person who installed the database softwere is always allowed to connect as sysdba by a single-sign-on scheme: his Windows username/password is used for access to Oracle ("OS authentication").
 
-> [!NOTE]
-> In SQL*Plus, a forward slash with no user name in front of it and no password following it is used to connect using OS authentication. The words "as sysdba” are a suffix that cause the user to log on with special administrator privileges.
+
+:::note
+
+In SQL*Plus, a forward slash with no user name in front of it and no password following it is used to connect using OS authentication. The words "as sysdba” are a suffix that cause the user to log on with special administrator privileges.
+
+:::
 
  By way of exploration, issue this query:
 
@@ -194,8 +210,12 @@ Grant succeeded.
 
 The ALTER SESSION grant is new compared to older USoft scripts of this type. This grant allows you to make important settings at RDBMS level, such as changing a password or changing the way that date values are processed and represented.
 
-> [!TIP]
-> In a local try-out environment where secrecy is not a must, it is practical to have an identical username and password, with the password in all-uppercase letters. This way, you can easily copy-paste the values for User, Password, and Owner fields in the various tool interfaces.
+
+:::tip
+
+In a local try-out environment where secrecy is not a must, it is practical to have an identical username and password, with the password in all-uppercase letters. This way, you can easily copy-paste the values for User, Password, and Owner fields in the various tool interfaces.
+
+:::
 
 ### Set up access to USoft
 

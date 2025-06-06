@@ -14,8 +14,12 @@ To translate the menu options:
 
 3. To prevent the original mnemonic from appearing; in the menu option table, add '&' in the original menu line before its mnemonic and delete the explicit mnemonic. For example, for Window, it should be '&Window' and the mnemonic should be empty.
 
-> [!WARNING]
-> However, there is a special rule concerning the translation of Window and Help Menu Options. To ensure that the translations work properly, define the following command lines in the User Application:
-> and
-> For example, in the Dutch translation they will be:
-> and
+
+:::warning
+
+However, there is a special rule concerning the translation of Window and Help Menu Options. To ensure that the translations work properly, define the following command lines in the User Application:
+and
+For example, in the Dutch translation they will be:
+and
+
+:::

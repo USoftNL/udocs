@@ -32,8 +32,12 @@ parameter="value"
 
 ```
 
-> [!TIP]
-> If you use Powershell, add single quotes around the argument:
+
+:::tip
+
+If you use Powershell, add single quotes around the argument:
+
+:::
 
 *Example*
 

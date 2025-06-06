@@ -38,5 +38,9 @@ Tab_1.ControlSetActiveTab('Page 1')
 
 You can type the action statements in the Yes Action and No Action manually, or use the Object Activator as a stand-alone editor to compose them. The construct :CANCELLED in the Decision SQL is an abbreviated old-style navigation path.
 
-> [!CAUTION]
-> ControlSetActiveTab() expects simple strings, not objects, as parameters. The same is true for all other USoft native methods. Therefore you must provide the parameter in this example by manual editing. You cannot specify the tab page by selecting it from the Object Browser pane.
+
+:::danger
+
+ControlSetActiveTab() expects simple strings, not objects, as parameters. The same is true for all other USoft native methods. Therefore you must provide the parameter in this example by manual editing. You cannot specify the tab page by selecting it from the Object Browser pane.
+
+:::

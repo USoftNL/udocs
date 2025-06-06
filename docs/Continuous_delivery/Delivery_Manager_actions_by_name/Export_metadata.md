@@ -6,8 +6,12 @@ id: Export_metadata
 
 
 
-> [!NOTE]
-> This article is about the **Export metadata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Export metadata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Export metadata**
 
@@ -20,11 +24,19 @@ The value of "Application" is only used to compose the filename of the destinati
 
 3. If a value for the optional "Added XSL" parameter is passed, applies to the result of Step 2 the XSL transformation defined as the Custom XSL of that name.
 
-> [!TIP]
-> If the metadata is large in volume, it is not convenient to apply XSL via the "Added XSL" input parameter. In this case, consider applying the XSL to the result of "Export metadata" in a separate task step that executes the "Apply custom XSL" action.
 
-> [!TIP]
-> Make sure you export metadata in such a way that you will not have problems re-importing the metadata later. To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+:::tip
+
+If the metadata is large in volume, it is not convenient to apply XSL via the "Added XSL" input parameter. In this case, consider applying the XSL to the result of "Export metadata" in a separate task step that executes the "Apply custom XSL" action.
+
+:::
+
+
+:::tip
+
+Make sure you export metadata in such a way that you will not have problems re-importing the metadata later. To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::
 
 ### Parameters
 

@@ -10,25 +10,41 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **lookupRefs()** function of the [DataSourceMetaContainer object](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer).
+
+:::note
+
+This article is about the **lookupRefs()** function of the [DataSourceMetaContainer object](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer).
+
+:::
 
 ## **$.udbMeta(ds).lookupRefs()**
 
-> [!WARNING]
-> This technical function is not typically needed. You only need it if you want to access runtime metadata of a Lookup control, in particular, if you need to access which is the runtime data source alias.
 
-> [!TIP]
-> You can access runtime metadata in the reverse direction (from a given data source to the lookup controls that refer to it) via the [.lookups()](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/udbMetadslookups.md) function.
+:::warning
+
+This technical function is not typically needed. You only need it if you want to access runtime metadata of a Lookup control, in particular, if you need to access which is the runtime data source alias.
+
+:::
+
+
+:::tip
+
+You can access runtime metadata in the reverse direction (from a given data source to the lookup controls that refer to it) via the [.lookups()](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/udbMetadslookups.md) function.
+
+:::
 
 Accesses runtime metadata of a Lookup control.
 

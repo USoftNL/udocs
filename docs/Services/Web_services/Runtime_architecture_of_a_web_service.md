@@ -10,8 +10,12 @@ id: Runtime_architecture_of_a_web_service
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----
@@ -26,5 +30,9 @@ When publishing a web service by clicking the Create Web Service button on the W
 
 The installed web server handles the security and logging mechanism of the web service. Possible error messages are sent to the client application in the standard Fault element of the SOAP message.
 
-> [!NOTE]
-> USoft supports both both SOAP 1.1 and SOAP 1.2 protocols for web service providers.
+
+:::note
+
+USoft supports both both SOAP 1.1 and SOAP 1.2 protocols for web service providers.
+
+:::

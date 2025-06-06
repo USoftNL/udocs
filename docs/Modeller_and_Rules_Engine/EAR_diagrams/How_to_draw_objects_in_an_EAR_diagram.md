@@ -53,9 +53,13 @@ To drop a table box:
 
 2. Click the 'x’ icon at the top of this icon menu.
 
-> [!CAUTION]
-> If you drop a table box from an EAR diagram for a business object, not only will the table be disconnected from the business object, it will be dropped from the repository altogether.
-> When you exit the diagram, you can still rollback if you want to keep the table after all.
+
+:::danger
+
+If you drop a table box from an EAR diagram for a business object, not only will the table be disconnected from the business object, it will be dropped from the repository altogether.
+When you exit the diagram, you can still rollback if you want to keep the table after all.
+
+:::
 
 ### Moving a table box
 

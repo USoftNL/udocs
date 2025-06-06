@@ -52,8 +52,12 @@ if (token == null || !token.equals(serverToken))
 
 ```
 
-> [!NOTE]
-> The authentication token can also be loaded from a configuration file, using for example
+
+:::note
+
+The authentication token can also be loaded from a configuration file, using for example
+
+:::
 
 ```language-java
 String serverToken = UServiceConfig.getConfigString("API-Token");

@@ -6,8 +6,12 @@ id: Populate_tables_list
 
 
 
-> [!NOTE]
-> This article is about the **Populate tables list**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Populate tables list**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Populate tables list**
 

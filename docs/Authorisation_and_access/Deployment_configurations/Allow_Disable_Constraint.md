@@ -6,8 +6,12 @@ id: Allow_Disable_Constraint
 
 
 
-> [!NOTE]
-> This article is about the **Allow_Disable_Constraint**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Allow_Disable_Constraint**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Allow_Disable_Constraint**
 
@@ -46,8 +50,12 @@ INVOKE BATCHRUNNER.job WITH SELECT ...
 
 If the Allow_Disable_Constraint parameter is set to True, depending on the Embedded Type (GUI, Batch, Rules Engine) this causes deactivation actions to be effective, in other words, they cause the Rules Engine to be disabled.
 
-> [!CAUTION]
-> Disabling a Rules Engine may lead to data that do not comply with defined rules. There is usually no good reason to allow deactivation except if you are handling very large data volumes and you find the Rules Engine checks slow down performance inacceptably. In this case, it is highly recommended to check the result of deactivation. Do this by running USoft Benchmark violation reports after the action has completed.
+
+:::danger
+
+Disabling a Rules Engine may lead to data that do not comply with defined rules. There is usually no good reason to allow deactivation except if you are handling very large data volumes and you find the Rules Engine checks slow down performance inacceptably. In this case, it is highly recommended to check the result of deactivation. Do this by running USoft Benchmark violation reports after the action has completed.
+
+:::
 
 - If you set Allow_Disable_Constraint to True, re-activation depends on how you called the deactivation action:
 - If the deactivation action is in an interactively called batch job, deactivation is automatically terminated (ie., the Rules Engine becomes active again).

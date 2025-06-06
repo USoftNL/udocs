@@ -16,11 +16,19 @@ ActivateAllConstraintChecks()
 
 ```
 
-> [!NOTE]
-> ActivateAllConstraintChecks() will activate all constraints, regardless of how they were deactivated.
 
-> [!NOTE]
-> The DeactivateAllConstraintChecks() action also disables the relational checks.
+:::note
+
+ActivateAllConstraintChecks() will activate all constraints, regardless of how they were deactivated.
+
+:::
+
+
+:::note
+
+The DeactivateAllConstraintChecks() action also disables the relational checks.
+
+:::
 
 To deactivate and reactivate restrictive relational checks, you can use the following actions in an action task:
 
@@ -66,8 +74,12 @@ ActivateTransitionalConstraintChecks()
 
 ```
 
-> [!NOTE]
-> Although you can deactivate transitional constraints, you must be very careful as records that should have been affected by these constraints can no longer be localized following an import.
+
+:::note
+
+Although you can deactivate transitional constraints, you must be very careful as records that should have been affected by these constraints can no longer be localized following an import.
+
+:::
 
 To deactivate and activate a specific table constraint, you can use the following actions in an action task:
 
@@ -79,8 +91,12 @@ ActivateConstraint(<constraint_name>)
 
 You might use these, for example, to optimize a job where you know in advance that certain constraints need not be executed. You can deactivate and reactivate restrictive and even productive (= corrective) constraints.
 
-> [!NOTE]
-> The settings made by DeactivateConstraint() and the actions to deactivate restrictive, transitional or productive (= corrective) constraint checks are cumulative, in that they must both be reactivated in order to make a constraint active again.
+
+:::note
+
+The settings made by DeactivateConstraint() and the actions to deactivate restrictive, transitional or productive (= corrective) constraint checks are cumulative, in that they must both be reactivated in order to make a constraint active again.
+
+:::
 
 To activate all constraints deactivated by DeactivateConstraint(\<constraint_name>) you can use:
 
@@ -89,5 +105,9 @@ ActivateAllConstraintsDeactivatedByName()
 
 ```
 
-> [!NOTE]
-> Only those constraints deactivated by DeactivateConstraint(\<constraint_name>) can be activated using ActivateAllConstraintsDeactivatedByName().
+
+:::note
+
+Only those constraints deactivated by DeactivateConstraint(\<constraint_name>) can be activated using ActivateAllConstraintsDeactivatedByName().
+
+:::

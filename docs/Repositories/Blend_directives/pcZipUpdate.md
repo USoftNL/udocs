@@ -6,8 +6,12 @@ id: pcZipUpdate
 
 
 
-> [!NOTE]
-> This article is about the **pc:ZipUpdate**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ZipUpdate**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ZipUpdate**
 

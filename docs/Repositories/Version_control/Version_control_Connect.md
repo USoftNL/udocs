@@ -4,12 +4,16 @@ tags: [USoft11]
 ---
 # Version control: Connect
 
-> [!NOTE]
-> **See also**
-> [Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
-> [Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
-> [Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
-> [Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+
+:::note
+
+**See also**
+[Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
+[Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
+[Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
+[Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+
+:::
 
 `USoft 11``{.vs_11}`
 
@@ -37,8 +41,12 @@ The steps below use USoft Definer as an example. They tell you how to start part
 
 Click the **Connect** button. A file system dialog appears with title "Select USoft version control system”. Browse the location of the "USD.usv” file in your local copy of the shared file tree, then click Save or OK.
 
-> [!CAUTION]
-> At this point, any contents of your USoft Definer tables will be deleted and replaced.
+
+:::danger
+
+At this point, any contents of your USoft Definer tables will be deleted and replaced.
+
+:::
 
 Your local USoft Definer tables will now be populated for the first time with the development work stored in the file tree that you pulled. This may take some time. This operation is the equivalent of a [Synchronize](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md) operation for the whole of the repository.
 

@@ -6,8 +6,12 @@ id: xslutiltest
 
 
 
-> [!NOTE]
-> This article is about the **xslutil:test**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **xslutil:test**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **xslutil:test**
 
@@ -33,7 +37,11 @@ xslutil:test( { *xpath-expression* | *comparison* } )
 
 The required argument is either an XPath expression or a comparison. It is a comparison if it contains one of the comparison operators =,  !=,  <=,  <,  >,  >=,  <>. In a comparison, both the left-hand operand and the right-hand operand are XPath expressions.
 
-> [!WARNING]
-> xslutil:test() applies **different** rules from XPath/XSLT when converting XPath expressions to booleans. Applying xslutil:test() to an expression is not the same as applying XPath boolean() to that expression.
+
+:::warning
+
+xslutil:test() applies **different** rules from XPath/XSLT when converting XPath expressions to booleans. Applying xslutil:test() to an expression is not the same as applying XPath boolean() to that expression.
+
+:::
 
  

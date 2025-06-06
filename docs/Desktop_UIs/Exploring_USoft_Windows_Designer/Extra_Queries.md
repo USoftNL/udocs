@@ -16,8 +16,12 @@ If you use more than one extra query in the same info box, execution order betwe
 
 Extra Queries are also executed when you enter Query Mode. If a No Action has been specified for the Extra Query (see the first 2 examples in this help topic), then this No action will be performed when you enter Query Mode.
 
-> [!TIP]
-> To create an extra field in your info box that represents joined data from a parent table or grandparent table, insert a joined column instead.
+
+:::tip
+
+To create an extra field in your info box that represents joined data from a parent table or grandparent table, insert a joined column instead.
+
+:::
 
 ### How to add an Extra Query
 
@@ -33,8 +37,12 @@ A dummy Extra Query and its resulting field are inserted.
 
 4.Select the Extra Query in the Object Tree for the window/dialog, and open the Property Inspector.
 
-> [!NOTE]
-> Do NOT specify the underlying query by selecting the dummy field and setting its Values property. This does not produce the desired result.
+
+:::note
+
+Do NOT specify the underlying query by selecting the dummy field and setting its Values property. This does not produce the desired result.
+
+:::
 
 5.In the Property Inspector, select the Underlying Query property and press the upper Edit (...) button.
 
@@ -124,8 +132,12 @@ Participants_taking_part_in_Reservation.updatable('Yes')
 
 You may show related information from other database objects in the box for a particular database object by defining an extra query for it. This extra query must be able to retrieve the appropriate value for each record in the box, and contain a join of at least the database object on which the box is based and the database object from which the related information is retrieved.
 
-> [!NOTE]
-> For standard "lookup fields" reproducing a value from a parent table in a child window, use joined columns. Joined columns are defined at column level in USoft Definer.
+
+:::note
+
+For standard "lookup fields" reproducing a value from a parent table in a child window, use joined columns. Joined columns are defined at column level in USoft Definer.
+
+:::
 
 If you want the Tours window in the Travel Agency system to have an "additional field" showing the start date and end date for each tour, you must provide that window with the following extra query:
 

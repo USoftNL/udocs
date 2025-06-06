@@ -6,8 +6,12 @@ id: filesReadFile
 
 
 
-> [!NOTE]
-> This article is about the **files:ReadFile**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **files:ReadFile**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **files:ReadFile**
 

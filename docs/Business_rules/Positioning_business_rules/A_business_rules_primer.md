@@ -45,8 +45,12 @@ A business rule contains a *business rule keyword*. Here are business rule keywo
 
 **May** expresses necessity or obligation only if combined with either **not** or **only**. **Only** can appear earlier or later in the sentence than **may**, and other words can appear between the two.
 
-> [!WARNING]
-> **May not** in English can also mean "perhaps does not always”. This can be a drawback of this word combination.
+
+:::warning
+
+**May not** in English can also mean "perhaps does not always”. This can be a drawback of this word combination.
+
+:::
 
 *Examples*
 

@@ -8,8 +8,12 @@ id: Release_createtables_script
 
 
 
-> [!NOTE]
-> This article is about the **Release create-tables script**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Release create-tables script**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Release create-tables script**
 
@@ -18,8 +22,12 @@ Releases the create-tables script for changes in physical tables of "Application
 The output file name is "*application*.200.upg.rdbms.sql".
 The output file is placed in the **\\scripts** directory of the current release folder.
 
-> [!CAUTION]
-> The set of tables included in the create-tables script depends on the list of Application Tables in Delivery Manager. See "Which tables are included?" below for details.
+
+:::danger
+
+The set of tables included in the create-tables script depends on the list of Application Tables in Delivery Manager. See "Which tables are included?" below for details.
+
+:::
 
 ### Parameters
 

@@ -6,8 +6,12 @@ id: stringsReplace
 
 
 
-> [!NOTE]
-> This article is about the **strings:Replace**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:Replace**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:Replace**
 
@@ -51,5 +55,9 @@ The result value is:
 IS FOLLOWED BY
 ```
 
-> [!TIP]
-> To make a replacement in each substring that matches a specified regular expression pattern, use [strings:REReplace()](/docs/Repositories/Blend_functions/stringsREReplace.md) instead.
+
+:::tip
+
+To make a replacement in each substring that matches a specified regular expression pattern, use [strings:REReplace()](/docs/Repositories/Blend_functions/stringsREReplace.md) instead.
+
+:::

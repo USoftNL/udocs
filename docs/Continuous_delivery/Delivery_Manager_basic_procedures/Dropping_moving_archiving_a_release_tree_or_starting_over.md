@@ -10,9 +10,13 @@ Thus, instead of dropping or moving individual release folders, ask yourself wha
 
 Of course, on the file system, nothing keeps you from making a manual copy of an individual release at any time, if that is a way of archiving that you like.
 
-> [!CAUTION]
-> Do not simply *drop* a release tree - all the deliverables will be lost. Ask yourself which situation you are in:
-> This article describes these 3 situations.
+
+:::danger
+
+Do not simply *drop* a release tree - all the deliverables will be lost. Ask yourself which situation you are in:
+This article describes these 3 situations.
+
+:::
 
 ## Archiving the current release tree
 
@@ -32,8 +36,12 @@ Follow these steps to move all the deliverables (the entire current release tree
 
 These steps apply only if you already have a release tree.
 
-> [!WARNING]
-> Delivery Manager has a function to move the release tree as described in the steps below, but you must MANUALLY move all the materials to the new location on the file system.
+
+:::warning
+
+Delivery Manager has a function to move the release tree as described in the steps below, but you must MANUALLY move all the materials to the new location on the file system.
+
+:::
 
 1. On the file system, move the entire root folder (the folder that contains everything that has so far been output by Delivery Manager) to a new location. Do not otherwise rename or change any folders or files.
 2. In Delivery Manager, from the menu, choose Release, Initialize Release Tree.

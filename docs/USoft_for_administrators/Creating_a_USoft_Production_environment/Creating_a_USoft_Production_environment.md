@@ -4,8 +4,12 @@ id: Creating_a_USoft_Production_environment
 
 # Creating a USoft Production environment
 
-> [!TIP]
-> In Production, for performance reasons, USoft suggests that you place the RDBMS on a different physical machine than the other application components.
+
+:::tip
+
+In Production, for performance reasons, USoft suggests that you place the RDBMS on a different physical machine than the other application components.
+
+:::
 
 To create a USoft Production environment:
 

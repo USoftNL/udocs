@@ -63,5 +63,9 @@ When you are developing data boxes in web pages at GUI level, your first impulse
 
 However, in a USoft technology stack, it is often beneficial to go back to the data model. Not only do you get the correct data structure at database level. You can also "paint” the web pages at lower cost. This gives you a more maintainable solution.
 
-> [!NOTE]
-> Even if it is likely that a traveller will only book a single rental car, the built-in possibility to have multiple rental cars probably makes this implementation richer. If you want to prevent users from inadvertantly making a double car booking when this is not intended, the GUI level is the correct level for adding buttons, features, messages, or special record displays to nudge users out of this error.
+
+:::note
+
+Even if it is likely that a traveller will only book a single rental car, the built-in possibility to have multiple rental cars probably makes this implementation richer. If you want to prevent users from inadvertantly making a double car booking when this is not intended, the GUI level is the correct level for adding buttons, features, messages, or special record displays to nudge users out of this error.
+
+:::

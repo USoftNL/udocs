@@ -28,8 +28,12 @@ In Web Designer, on the Menus tab of the Catalog, open the RoleMenus object. Set
 
 ![](./assets/9c6742ff-c4da-49ba-bf8e-f8a796042fba.png)
 
-> [!TIP]
-> This example shows a 1:1 mapping between menus and roles, but even better is to create a Master Menu with all the options, and then make subclasses in the menu catalog for the individual roles. This is best practice in many cases, because usually, what defines role-based access is that a role must be disallowed certain options, and it is easy to delete a menu line from a subclass menu. Why would you bother with a Master Menu?
+
+:::tip
+
+This example shows a 1:1 mapping between menus and roles, but even better is to create a Master Menu with all the options, and then make subclasses in the menu catalog for the individual roles. This is best practice in many cases, because usually, what defines role-based access is that a role must be disallowed certain options, and it is easy to delete a menu line from a subclass menu. Why would you bother with a Master Menu?
+
+:::
 
 ## Step 5: Switch from default menu to role-based menus
 
@@ -57,8 +61,12 @@ To test the result, in USoft Authorizer, run Fill Authorizer Tables for the appl
 
 For each role, define a separate Application User, and make sure he is associated with the role.
 
-> [!TIP]
-> If you work with [merged roles](/docs/Authorisation_and_access/Introducing_USoft_authorisation/Merged_roles.md), USoft will automatically attempt to compose an appropriate menu for users who hold multiple roles. But this is a next step. First, test your role-based menus simply with dummy test users, each of which is associated to only 1 role. This way, you can check that the role-based menus work properly, independently of any effect of role merge.
+
+:::tip
+
+If you work with [merged roles](/docs/Authorisation_and_access/Introducing_USoft_authorisation/Merged_roles.md), USoft will automatically attempt to compose an appropriate menu for users who hold multiple roles. But this is a next step. First, test your role-based menus simply with dummy test users, each of which is associated to only 1 role. This way, you can check that the role-based menus work properly, independently of any effect of role merge.
+
+:::
 
 Make sure you re-start the Rules Service so that it picks up the new roles of Step 1.
 

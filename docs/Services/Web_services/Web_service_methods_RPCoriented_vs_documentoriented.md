@@ -10,8 +10,12 @@ id: Web_service_methods_RPCoriented_vs_documentoriented
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----
@@ -24,8 +28,12 @@ A web service is described by a WSDL (Web Services Description Language) documen
 
 A WSDL SOAP binding can be either an RPC-oriented binding or a document-oriented binding.
 
-> [!NOTE]
-> USoft supports both both SOAP 1.1 and SOAP 1.2 protocols for web service providers. Note, however, that SOAP 1.2 is only supported for document oriented methods.
+
+:::note
+
+USoft supports both both SOAP 1.1 and SOAP 1.2 protocols for web service providers. Note, however, that SOAP 1.2 is only supported for document oriented methods.
+
+:::
 
 A SOAP binding can have an encoded use or a literal use. This gives us four possible style/use models:
 
@@ -103,7 +111,11 @@ Simple data types contain exactly one value, such as last name, price or product
 
 For more information, refer to: Simple Type and Complex Type Parameters.
 
-> [!NOTE]
-> When defining a web service method in USoft, use the RPC-oriented style when dealing with simple types.
+
+:::note
+
+When defining a web service method in USoft, use the RPC-oriented style when dealing with simple types.
+
+:::
 
 ##  

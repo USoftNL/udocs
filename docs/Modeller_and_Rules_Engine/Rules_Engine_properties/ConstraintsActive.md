@@ -6,15 +6,23 @@ id: ConstraintsActive
 
 
 
-> [!NOTE]
-> This article is about the **ConstraintsActive**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::note
+
+This article is about the **ConstraintsActive**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+
+:::
 
 ## **ConstraintsActive**
 
 If constraint disabling is allowed (see "Prerequisite..." below), the **ConstraintsActive** Rules Engine property determines whether or not table constraints, domain constraints and relationship attributes declared for the Rules Engine are applied.
 
-> [!CAUTION]
-> You should not normally set this property to No. Setting this property to No defeats the purpose of using a Rules Engine. If data have been manipulated with this property set to No, you can use USoft Benchmark after-the-fact to find out if this has led to any data that violate the rules implemented by the constraints and relationships. You can set this property to No to import data into an empty repository fast if you have independent reason to believe that the data are non-violating.
+
+:::danger
+
+You should not normally set this property to No. Setting this property to No defeats the purpose of using a Rules Engine. If data have been manipulated with this property set to No, you can use USoft Benchmark after-the-fact to find out if this has led to any data that violate the rules implemented by the constraints and relationships. You can set this property to No to import data into an empty repository fast if you have independent reason to believe that the data are non-violating.
+
+:::
 
 ## Prerequisite: Allow_Disable_Constraint = True
 

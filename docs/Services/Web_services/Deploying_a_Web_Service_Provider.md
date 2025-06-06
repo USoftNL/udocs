@@ -10,8 +10,12 @@ id: Deploying_a_Web_Service_Provider
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----
@@ -32,8 +36,12 @@ To import, run the Fill Authorizer Tables routine. Web services are imported whe
 
 Each time a business or service is published to an UDDI registry, an authentication token is required. Authentication tokens are opaque values that are required for all publishing operations. Some Operator Sites have an external mechanism defined for users to get an authentication token. For Operator Sites that do not have this mechanism, a user/password based authentication is made.
 
-> [!CAUTION]
-> You can import UDDI businesses that are already published, and add more services to it. From the Tools menu, select UDDI Registry, Import UDDI Business. A wizard opens. This wizard is the same as the one used for defining web service components in the Definer.
+
+:::danger
+
+You can import UDDI businesses that are already published, and add more services to it. From the Tools menu, select UDDI Registry, Import UDDI Business. A wizard opens. This wizard is the same as the one used for defining web service components in the Definer.
+
+:::
 
 **How to create a UDDI Registry**
 

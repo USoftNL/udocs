@@ -6,8 +6,12 @@ id: Optimize_Changed_Table
 
 
 
-> [!NOTE]
-> This article is about the **Optimize_Changed_Table**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Optimize_Changed_Table**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Optimize_Changed_Table**
 

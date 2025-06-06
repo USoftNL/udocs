@@ -4,8 +4,12 @@ id: Authentication_and_USoft
 
 # Authentication and USoft
 
-> [!NOTE]
-> See also: [Authentication in services](/docs/Services/Authentication_in_services/Authentication_in_services.md)
+
+:::note
+
+See also: [Authentication in services](/docs/Services/Authentication_in_services/Authentication_in_services.md)
+
+:::
 
 Authentication is the process of validating the credentials of a user logging on to an application or service. Usually, these credentials are a user name and a password.
 

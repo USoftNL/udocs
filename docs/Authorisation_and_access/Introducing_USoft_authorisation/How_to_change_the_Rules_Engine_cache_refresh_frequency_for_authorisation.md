@@ -6,8 +6,12 @@ tags: [USoft10]
 
 `USoft 10``{.vs_10}`
 
-> [!WARNING]
-> This article is only for USoft 10. In USoft 11, cache refresh is fully automated and cannot be set.
+
+:::warning
+
+This article is only for USoft 10. In USoft 11, cache refresh is fully automated and cannot be set.
+
+:::
 
 If the persons logging on to your web application switch roles or users, or if your role content changes frequently, you don't want the Rules Engine and the Page Engine caching authorisation data because this prevents the data refresh you are looking for.
 
@@ -28,8 +32,12 @@ USoft advises to set this resource to 0 or -1:
 
 This ensures that the Rules Engine will refresh its data on each logon and each call to RulesEngine.SetUSer().  Add this line, or edit the setting if the line already exists, in the **USDI file** (for USoft Batch, Rules Service, or Remote Rules Service API) or in the **USDIW file** (for client-server). These files can be found in the \\APP directory of your USoft installation.
 
-> [!TIP]
-> Theoretically there is a performance penalty: making less frequent calls will yield better performance. In practice, this is negligeable. In fact, we find most teams apply this 0 setting in all environments.
+
+:::tip
+
+Theoretically there is a performance penalty: making less frequent calls will yield better performance. In practice, this is negligeable. In fact, we find most teams apply this 0 setting in all environments.
+
+:::
 
 ## Determining how often the Page Engine refreshes authorisation data
 

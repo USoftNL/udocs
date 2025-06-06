@@ -6,11 +6,19 @@ id: ESI_Action_Interface__Introduction
 
 The ESI action interface enables you to use external programs to define the look and feel of your application, rather than use the Windows Designer. Using the ESI action interface involves writing and executing scripts in batch mode with action calls that insert the required objects and controls, set their properties, etc.
 
-> [!WARNING]
-> A thorough understanding of the internal object architecture and the hierarchical relationships between objects is required to use this feature successfully.
 
-> [!WARNING]
-> Do NOT use both the ESI action interface and the Windows Designer on the same application GUI.
+:::warning
+
+A thorough understanding of the internal object architecture and the hierarchical relationships between objects is required to use this feature successfully.
+
+:::
+
+
+:::warning
+
+Do NOT use both the ESI action interface and the Windows Designer on the same application GUI.
+
+:::
 
  
 

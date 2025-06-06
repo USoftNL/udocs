@@ -8,8 +8,12 @@ To download and install OpenSSL:
 
 1. Go to   http://www.slproweb.com/products/Win32OpenSSL.html  and download:   Win32 OpenSSL v1.0.0g Light to a folder on your machine.
 
-> [!NOTE]
-> These instructions assume a 32-bit Windows machine. If you are using a 64-bit machine download: Win64 OpenSSL v1.0.0g Light.
+
+:::note
+
+These instructions assume a 32-bit Windows machine. If you are using a 64-bit machine download: Win64 OpenSSL v1.0.0g Light.
+
+:::
 
 2. Double-click the downloaded file (Win32OpenSSL_Light-1_0_0g.exe), and run the resulting installation program.
 
@@ -27,8 +31,12 @@ Followed by <Return> and check if you receive any error messages. If no messages
 
  
 
-> [!NOTE]
-> In the event that you receive error messages stating that you have missing C++ libraries, you will have to install the Microsoft Visual C++ 2008 Redistributable Package from:
+
+:::note
+
+In the event that you receive error messages stating that you have missing C++ libraries, you will have to install the Microsoft Visual C++ 2008 Redistributable Package from:
+
+:::
 
  
 

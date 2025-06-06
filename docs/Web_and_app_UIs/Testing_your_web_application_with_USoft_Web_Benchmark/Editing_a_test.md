@@ -55,8 +55,12 @@ You can delete a recorded test action by clicking **Delete:**
 
 for that action.
 
-> [!CAUTION]
-> Deleting a test action is definitive. It cannot be undone.
+
+:::danger
+
+Deleting a test action is definitive. It cannot be undone.
+
+:::
 
 ### Additional options for an action
 

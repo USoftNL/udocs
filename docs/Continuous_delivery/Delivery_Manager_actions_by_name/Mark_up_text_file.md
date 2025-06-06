@@ -6,11 +6,19 @@ id: Mark_up_text_file
 
 
 
-> [!NOTE]
-> This article is about the **Mark up text file**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
 
-> [!WARNING]
-> **Mark up text file** is intended for use with [target variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not with [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md).
+:::note
+
+This article is about the **Mark up text file**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
+
+
+:::warning
+
+**Mark up text file** is intended for use with [target variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not with [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md).
+
+:::
 
 ## **Mark up text file**
 

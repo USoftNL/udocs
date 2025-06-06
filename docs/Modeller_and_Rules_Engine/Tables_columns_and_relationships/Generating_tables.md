@@ -4,8 +4,12 @@ id: Generating_tables
 
 # Generating tables
 
-> [!NOTE]
-> The USoft capability to (re)generate database tables and database indexes is variously labeled as **Create Tables** (in USoft Binder), **Create Physical Tables** (in the USoft Definer menu), **creapp.exe** (on the command line), **pc:creapp** (in USoft Blend).
+
+:::note
+
+The USoft capability to (re)generate database tables and database indexes is variously labeled as **Create Tables** (in USoft Binder), **Create Physical Tables** (in the USoft Definer menu), **creapp.exe** (on the command line), **pc:creapp** (in USoft Blend).
+
+:::
 
 Each time you define or change domain, table, and column attribute values in USoft Definer that affect physical RDBMS tables or indexes, you can have USoft (re)generate the corresponding database tables and indexes in the RDBMS.
 
@@ -59,8 +63,12 @@ In USoft 11, tables and columns are identified by globally unique identifiers an
 
 In certain cases where application data cannot be preserved automatically, for example when you have a column containing alphanumeric string values that changes to a number datatype, USoft will create an empty new table and you will still be able to recuperate the old application data from an OLD_ table. For an explanation of OLD_ tables, see the USoft 10 section below.
 
-> [!TIP]
-> Tables that are described in USoft Definer but that are in fact an RDBMS view or an RDBMS synonym, are ignored by Create Table. See [External tables]().
+
+:::tip
+
+Tables that are described in USoft Definer but that are in fact an RDBMS view or an RDBMS synonym, are ignored by Create Table. See [External tables]().
+
+:::
 
 ----
 

@@ -4,8 +4,12 @@ id: Target_variables_in_UDeliver
 
 # Target variables in UDeliver
 
-> [!NOTE]
-> This article is about the **target variable** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **target variable** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 **See also**
 

@@ -6,8 +6,12 @@ id: pcDeleteFile
 
 
 
-> [!NOTE]
-> This article is about the **pc:DeleteFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:DeleteFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:DeleteFile**
 

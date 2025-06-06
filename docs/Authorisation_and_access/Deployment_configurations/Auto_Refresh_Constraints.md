@@ -6,8 +6,12 @@ id: Auto_Refresh_Constraints
 
 
 
-> [!NOTE]
-> This article is about the **Auto_Refresh_Constraints**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Auto_Refresh_Constraints**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Auto_Refresh_Constraints**
 
@@ -35,5 +39,9 @@ An alternative is to use the Auto_Refresh_Constraints deployment parameter. If t
 
 An example of where this feature would be useful is in combination with the modules functionality. You could add a special separate module to your application where all your ‘dynamic’ or temporary constraints are stored. This module would only be used for as long as it was needed. For example, a special extra discount for certain customers for a limited period.
 
-> [!NOTE]
-> The Auto_Refresh_Constraints parameter and the RefreshConstraints() method only apply to changes in constraints, not to changes in the data model. If an additional table is created, and it is used in a constraint, this will result in errors.
+
+:::note
+
+The Auto_Refresh_Constraints parameter and the RefreshConstraints() method only apply to changes in constraints, not to changes in the data model. If an additional table is created, and it is used in a constraint, this will result in errors.
+
+:::

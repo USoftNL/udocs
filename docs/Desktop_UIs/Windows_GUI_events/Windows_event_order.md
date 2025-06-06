@@ -36,8 +36,12 @@ As the user moves from field to field within a record, generally the following e
 - Change Value
 - Change Field
 - Leave Field
-> [!NOTE]
-> What happens at Change Field time depends on HOW the field is changed. Please refer to the description of Data Events for details.
+
+:::note
+
+What happens at Change Field time depends on HOW the field is changed. Please refer to the description of Data Events for details.
+
+:::
 
 **Record-to-record**
 

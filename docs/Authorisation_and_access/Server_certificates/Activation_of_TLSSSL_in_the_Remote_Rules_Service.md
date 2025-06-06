@@ -6,8 +6,12 @@ id: Activation_of_TLSSSL_in_the_Remote_Rules_Service
 
 Activate TLS in the Remote Rules service:
 
-> [!NOTE]
-> You must first import a signed certificate into USoft's Certificate store and copied required files to your \<usoft install dir>\\CERTS\\ folder. See Using Self-Signed Certificates with USoft for details.
+
+:::note
+
+You must first import a signed certificate into USoft's Certificate store and copied required files to your \<usoft install dir>\\CERTS\\ folder. See Using Self-Signed Certificates with USoft for details.
+
+:::
 
 1. Open the Control Panel from the Start menu.
 
@@ -15,10 +19,14 @@ Activate TLS in the Remote Rules service:
 
 The ODBC Data Source Administrator utility displays.
 
-> [!NOTE]
-> IF you are using a 64-bit machine, Windows may display the incorrect ODBC Data Source Administrator by default, so the list of available data sources will appear to be empty. You can start the correct version of the data source administrator using the following command:
-> **%SystemRoot%\\SysWOW64\\odbcad32.exe**
-> This could be added as a shortcut in the Administrative Tools window for convenience.
+
+:::note
+
+IF you are using a 64-bit machine, Windows may display the incorrect ODBC Data Source Administrator by default, so the list of available data sources will appear to be empty. You can start the correct version of the data source administrator using the following command:
+**%SystemRoot%\\SysWOW64\\odbcad32.exe**
+This could be added as a shortcut in the Administrative Tools window for convenience.
+
+:::
 
 3. Choose the User DSN or System DSN tab and click Add to create a data source
 

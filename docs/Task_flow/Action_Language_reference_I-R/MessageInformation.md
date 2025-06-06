@@ -6,8 +6,12 @@ id: MessageInformation
 
 
 
-> [!NOTE]
-> This article is about the **MessageInformation** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **MessageInformation** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **MessageInformation()**
 

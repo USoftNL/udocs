@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **acceptLookupValue()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+
+:::note
+
+This article is about the **acceptLookupValue()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+
+:::
 
 ## **$.udb.acceptLookupValue()**
 
@@ -60,7 +68,11 @@ Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [ud
 $.udb.acceptLookupValue();
 ```
 
-> [!TIP]
-> This function is called by default on the Select button of default lookup pages.
+
+:::tip
+
+This function is called by default on the Select button of default lookup pages.
+
+:::
 
  

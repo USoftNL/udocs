@@ -6,8 +6,12 @@ id: RulesEngineMessageLanguage
 
 
 
-> [!NOTE]
-> This article is about the **MessageLanguage** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::note
+
+This article is about the **MessageLanguage** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::
 
 ## **RulesEngine.MessageLanguage**
 
@@ -15,8 +19,12 @@ Returns a USoft-defined or user-defined message. Translates the message into the
 
 This method may be called from, eg., a SQL Task in a USoft Batch job.
 
-> [!WARNING]
-> It is not possible to use this method to display messages in web pages of a USoft application.
+
+:::warning
+
+It is not possible to use this method to display messages in web pages of a USoft application.
+
+:::
 
 *Syntax*
 

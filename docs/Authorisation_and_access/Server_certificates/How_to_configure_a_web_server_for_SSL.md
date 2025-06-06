@@ -43,11 +43,19 @@ Ywl+qXdzakaPF8XyM9mw0Lje+41kxhfSx2aDq7jNOT2SoJKsOOMRSW7qtJd73xQPxA==
 
 ```
 
-> [!NOTE]
-> Only the bold lines must be copied and pasted into the web browser.
 
-> [!CAUTION]
-> Do not include shift characters in the enrollment fields during enrollment for a Server ID, or you may receive an error message after you submit your Certificate Signing Request (CSR). The error is due to an invalid attribute or character in the CSR that you are trying to submit. The most common cause of this error are shift characters such as: (, @, #, &, !, etc. For example, if you have an "&" in your organization name, you will need to spell out the word "and" or leave out the "&".
+:::note
+
+Only the bold lines must be copied and pasted into the web browser.
+
+:::
+
+
+:::danger
+
+Do not include shift characters in the enrollment fields during enrollment for a Server ID, or you may receive an error message after you submit your Certificate Signing Request (CSR). The error is due to an invalid attribute or character in the CSR that you are trying to submit. The most common cause of this error are shift characters such as: (, @, #, &, !, etc. For example, if you have an "&" in your organization name, you will need to spell out the word "and" or leave out the "&".
+
+:::
 
 *Example*
 
@@ -67,8 +75,12 @@ To generate a public and private key pair and CSR for a Microsoft Internet Infor
 
 6.In the Secure Communications area of this Property Sheet, select the Key Manager button.
 
-> [!NOTE]
-> If the button reads "edit" instead of "Key Manager" you already have an encryption certificate for the WWW Service installed.
+
+:::note
+
+If the button reads "edit" instead of "Key Manager" you already have an encryption certificate for the WWW Service installed.
+
+:::
 
 7.Once you are in the Key Manager, right click the WWW icon and select "Create New Key..."
 
@@ -76,13 +88,21 @@ To generate a public and private key pair and CSR for a Microsoft Internet Infor
 
 9.Fill out the next dialog. Key length available will depend on the level of encryption on your version of NT Server. Normally, domestic (US and Canadian) versions of NT will have 128-bit encryption available and export versions of NT will have 40-bit. The installation of NT Service Packs may affect this as Service Packs come in both 128 and 40 bit versions.
 
-> [!NOTE]
-> Remember the password you enter. Without it, you will not be able to perform actions that access your private key material (for example, backing up or restoring a key).
+
+:::note
+
+Remember the password you enter. Without it, you will not be able to perform actions that access your private key material (for example, backing up or restoring a key).
+
+:::
 
 10.Continue filling out the dialog. The "Common Name" of the certificate MUST be either the Name of the NT Server (if using WINS) or the Domain Name of the Server if on the Internet. For example, "www.example.com".
 
-> [!NOTE]
-> For every website that has a distinct DNS name, there must be an encryption Key installed. However, each website for SSL MUST have a distinct IP address as well. SSL does not support the use of host headers.
+
+:::note
+
+For every website that has a distinct DNS name, there must be an encryption Key installed. However, each website for SSL MUST have a distinct IP address as well. SSL does not support the use of host headers.
+
+:::
 
 11.Continue form completion with Country/Region, State/Provice, and City/Locality. Do NOT abbreviate the state name. Your request will be rejected if you do so.
 
@@ -92,8 +112,12 @@ Key Manager will display a key icon under the WWW icon. The key will have an ora
 
 13.Choose the "Computers" menu and select Exit. Choose YES when asked to commit changes.
 
-> [!NOTE]
-> If you close Key Manager and do not commit the changes, the key will not function properly. If this occurs, delete the partial key in Key Manager and create the request again.
+
+:::note
+
+If you close Key Manager and do not commit the changes, the key will not function properly. If this occurs, delete the partial key in Key Manager and create the request again.
+
+:::
 
  
 

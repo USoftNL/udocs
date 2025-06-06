@@ -249,8 +249,12 @@ You can derive a structure from an existing SQL statement (defined in USoft Serv
 
 This is useful when you want to create a method implementation programmatically (ie., by manual coding in Java) and you need a definition of the field names and datatypes of the return data structure.
 
-> [!CAUTION]
-> When you generate a method implementation from a SQL statement, USoft Service Definer will create the entire method implementation including a structure derived from the statement. If you work in this way, you do NOT need to derive a structure as a separate action.
+
+:::danger
+
+When you generate a method implementation from a SQL statement, USoft Service Definer will create the entire method implementation including a structure derived from the statement. If you work in this way, you do NOT need to derive a structure as a separate action.
+
+:::
 
 To derive a structure from a statement or table definition:
 

@@ -6,8 +6,12 @@ id: How_to_make_a_page_readonly
 
 After you have designed a page, you may want to protect it from accidental changes. To do so, you can make it read-only. If pages have been set to read-only, this is indicated in the title bar of the object tree.
 
-> [!NOTE]
-> You cannot change the properties of a page that is currently open in the design area. Close the info page first.
+
+:::note
+
+You cannot change the properties of a page that is currently open in the design area. Close the info page first.
+
+:::
 
 To make a page read-only:
 

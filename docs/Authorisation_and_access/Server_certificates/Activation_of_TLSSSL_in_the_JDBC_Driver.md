@@ -6,8 +6,12 @@ id: Activation_of_TLSSSL_in_the_JDBC_Driver
 
 To activate TLS in the JDBC driver:
 
-> [!NOTE]
-> You must first import a signed certificate into USoft's Certificate store and copied required files to your \<usoft install dir>\\CERTS\\ folder. See Using Self-Signed Certificates with USoft for details.
+
+:::note
+
+You must first import a signed certificate into USoft's Certificate store and copied required files to your \<usoft install dir>\\CERTS\\ folder. See Using Self-Signed Certificates with USoft for details.
+
+:::
 
 The "**jrec**" subprotocol parameter in connection strings used by JDBC nmust be changed to Jrec must be changed to **jrecs** . For example:
 

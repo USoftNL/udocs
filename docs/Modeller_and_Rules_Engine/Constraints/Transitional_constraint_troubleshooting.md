@@ -228,11 +228,19 @@ Fire On Delete:   Always
 Fire On Update:   Never
 ```
 
-> [!NOTE]
-> In the Alias value here,you only want the constraint to be evaluated if the SCHEDTOUR table with alias st2 is manipulated.
 
-> [!TIP]
-> If you change the Fire On Update attribute to Used Columns, this constraint is also evaluated when the foreign key of a scheduled tour is changed from one tour to another.
+:::note
+
+In the Alias value here,you only want the constraint to be evaluated if the SCHEDTOUR table with alias st2 is manipulated.
+
+:::
+
+
+:::tip
+
+If you change the Fire On Update attribute to Used Columns, this constraint is also evaluated when the foreign key of a scheduled tour is changed from one tour to another.
+
+:::
 
 ### Unwanted new-value substitution
 

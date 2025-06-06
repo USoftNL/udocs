@@ -6,8 +6,12 @@ id: stringsReplaceVariables
 
 
 
-> [!NOTE]
-> This article is about the **strings:ReplaceVariables**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:ReplaceVariables**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 - [strings:ReplaceVariables](#strings:replacevariables)
 - [System-named attributes](#system-named-attributes)

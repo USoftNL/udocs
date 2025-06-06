@@ -10,17 +10,25 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **refresh()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+
+:::note
+
+This article is about the **refresh()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+
+:::
 
 ## **$.udb(ds).refresh()**
 
@@ -54,8 +62,12 @@ The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSour
 
 *Condition* is a search condition that identifies the subset of rows that you want to be refreshed. See Example 2. The result of this "refresh" action is that the client will have the same records and the same values in these records as the server.
 
-> [!WARNING]
-> This is not the same as refreshing a subset of rows already present on the client; use the .refresh() function of the Rows object for that.
+
+:::warning
+
+This is not the same as refreshing a subset of rows already present on the client; use the .refresh() function of the Rows object for that.
+
+:::
 
 If *current* is set to 'true', only the currently shown data set is refreshed. If it is set to 'false' (the default), the entire data source is refreshed.
 

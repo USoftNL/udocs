@@ -6,8 +6,12 @@ id: XMLSQLExport
 
 
 
-> [!NOTE]
-> This article is about the **SQLExport** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::note
+
+This article is about the **SQLExport** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::
 
 ## **XML.SQLExport**
 

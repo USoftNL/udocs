@@ -6,15 +6,23 @@ id: Run_SQL_command
 
 
 
-> [!NOTE]
-> This article is about the **Run SQL command**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Run SQL command**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Run SQL command**
 
 Logs on to "Application" in "Database account" and executes a SQL statement specified as "SQL command".
 
-> [!NOTE]
-> This action has nothing to do with the SQL Command tool as it is available in the various USoft tools. That tool has a much wider applicability. The sole purpose of the "Run SQL command" Delivery Manager action is to execute a data manipulation statement as part of a Delivery Manager task.
+
+:::note
+
+This action has nothing to do with the SQL Command tool as it is available in the various USoft tools. That tool has a much wider applicability. The sole purpose of the "Run SQL command" Delivery Manager action is to execute a data manipulation statement as part of a Delivery Manager task.
+
+:::
 
 If "Metadata" = 'Y', logs on to the USoft Definer, as opposed to the User Application.
 

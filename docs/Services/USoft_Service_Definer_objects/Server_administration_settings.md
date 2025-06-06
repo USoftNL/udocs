@@ -63,8 +63,12 @@ Authenticator objects have a Validating Agent attribute. For each Authenticator,
 
 Authenticator objects also have a URL attribute. This URL attribute is relevant if the Authenticator attribute is set to Directory Service or to USoft Authorization, as explained in the table below.
 
-> [!NOTE]
-> The Condition attribute for Authenticators is not currently passed. It will be passed in the future as a further restriction on the directory service request if Authenticator = Directory Service, or as a further restriction on application rights if Authenticator = USoft Authorization.
+
+:::note
+
+The Condition attribute for Authenticators is not currently passed. It will be passed in the future as a further restriction on the directory service request if Authenticator = Directory Service, or as a further restriction on application rights if Authenticator = USoft Authorization.
+
+:::
 
 To help you make Authenticator settings, samples are initially present for Fixed Password and for Directory Service.
 
@@ -118,5 +122,9 @@ To enable this throttling functionality:
 
 6. Publish and restart the server.
 
-> [!NOTE]
-> You can add your own text to the default response message by using the functional type ThrottlingHook in a class.
+
+:::note
+
+You can add your own text to the default response message by using the functional type ThrottlingHook in a class.
+
+:::

@@ -28,8 +28,12 @@ A Logical View:
 
 ### Limitations in data manipulation options
 
-> [!TIP]
-> This section discusses limitations of data manipulation in Logical Views. However, you can customise data manipulation through Logical Views by using
+
+:::tip
+
+This section discusses limitations of data manipulation in Logical Views. However, you can customise data manipulation through Logical Views by using
+
+:::
 
 Data manipulation through Logical Views is limited:
 

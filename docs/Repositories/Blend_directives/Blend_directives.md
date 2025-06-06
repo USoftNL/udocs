@@ -6,8 +6,12 @@ id: Blend_directives
 
 
 
-> [!NOTE]
-> This is a wayfinding article on **Blend directives** in the USoft Community Knowledge Base.
+
+:::note
+
+This is a wayfinding article on **Blend directives** in the USoft Community Knowledge Base.
+
+:::
 
 Blend directives are XML elements that act as commands in the USoft Blend scripting language. They are comparable to commands in a Powershell script.
 

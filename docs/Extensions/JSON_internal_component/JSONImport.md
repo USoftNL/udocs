@@ -8,8 +8,12 @@ id: JSONImport
 
 
 
-> [!NOTE]
-> This article is about the **Import** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
+
+:::note
+
+This article is about the **Import** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
+
+:::
 
 ## **JSON.Import**
 

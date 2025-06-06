@@ -6,9 +6,13 @@ id: XMLExport
 
 
 
-> [!NOTE]
-> This article is about the **Export** method of the [XML internal component](/docs/Extensions/XML_internal_component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::note
+
+This article is about the **Export** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::
 
 ## **XML.Export**
 
@@ -137,10 +141,14 @@ Specifies a [DML instruction tag](/docs/Repositories/USoft_XML_formats/DML_instr
 
 A Delete tag is necessary if you want to use the export result to delete data from a target repository.
 
-> [!TIP]
-> Otherwise, ExecutionType has limited applicability because XML.Import already has a default way of handling Insert and Update which is usually the handling you want.
-> The Insert tag is only useful if you want to enforce that a version of the record presented is not already present.
-> The Update tag is necessary if you want to identify records where a primary key value must be updated in a target repository, but you cannot use the ExecutionType parameter for this, because XML.Export does not let you export old and new values of the same (primary key) column in 1 operation.
+
+:::tip
+
+Otherwise, ExecutionType has limited applicability because XML.Import already has a default way of handling Insert and Update which is usually the handling you want.
+The Insert tag is only useful if you want to enforce that a version of the record presented is not already present.
+The Update tag is necessary if you want to identify records where a primary key value must be updated in a target repository, but you cannot use the ExecutionType parameter for this, because XML.Export does not let you export old and new values of the same (primary key) column in 1 operation.
+
+:::
 
  
 

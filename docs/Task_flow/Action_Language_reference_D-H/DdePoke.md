@@ -6,8 +6,12 @@ id: DdePoke
 
 
 
-> [!NOTE]
-> This article is about the **DdePoke** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **DdePoke** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **DdePoke()**
 
@@ -31,5 +35,9 @@ DdePoke( *service*, *topic*, *item*, *format*, *resource* )
 
 *Resource* is the resource that is sent. Only "value" is supported.
 
-> [!TIP]
-> This action will not report that mandatory parameters are missing.
+
+:::tip
+
+This action will not report that mandatory parameters are missing.
+
+:::

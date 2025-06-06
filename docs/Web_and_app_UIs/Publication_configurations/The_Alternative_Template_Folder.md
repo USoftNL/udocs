@@ -34,8 +34,12 @@ The "xsl" subfolder of the Publication Directory is deprecated and is for backwa
 
 
 
-> [!CAUTION]
-> When using alternative template files, take care when installing a new USoft version. These alternative files must be updated manually.
+
+:::danger
+
+When using alternative template files, take care when installing a new USoft version. These alternative files must be updated manually.
+
+:::
 
 For example, when using your own version of Strings.js or GenericActions.js it is possible that the default versions of these files are changed. If this happens the changes in the default version must also be implemented in the custom (Alternative Template) version.
 

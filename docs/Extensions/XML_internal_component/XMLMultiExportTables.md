@@ -6,9 +6,13 @@ id: XMLMultiExportTables
 
 
 
-> [!NOTE]
-> This article is about the **MultiExportTables** method of the [XML internal component](/docs/Extensions/XML_internal_component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::note
+
+This article is about the **MultiExportTables** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::
 
 ## **XML.MultiExportTables**
 
@@ -24,8 +28,12 @@ Exports binary data (of the BLOB data type) to base64 encoding.
 
 ----
 
-> [!TIP]
-> Subtype indicators are not exported. See also the RestrictiveSupertypeListing parameter in this help topic.
+
+:::tip
+
+Subtype indicators are not exported. See also the RestrictiveSupertypeListing parameter in this help topic.
+
+:::
 
 Using this method, you can create an output file with data from multiple tables. You can use [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md) to re-import this result set into a target repository where each of the tables is present.
 

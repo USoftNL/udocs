@@ -19,8 +19,12 @@ In the most typical scenario, UDeliver simply delivers the user application that
 
 If you have multiple user applications or application versions in different database locations, you have a choice between running **separate UDeliver instances** in multiple locations, or running a **central UDeliver instance** for all the delivery work. This central UDeliver instance could reside in a dedicated location of its own, or in the development environment of your most important user application.
 
-> [!TIP]
-> This choice is all about running UDeliver on **source** machines. The UDeliver concept of delivery is that you release deliverables from one or more source machines so that you can, as a next step, transfer and deploy these deliverables to **target** machines such as Production machines.
+
+:::tip
+
+This choice is all about running UDeliver on **source** machines. The UDeliver concept of delivery is that you release deliverables from one or more source machines so that you can, as a next step, transfer and deploy these deliverables to **target** machines such as Production machines.
+
+:::
 
 Choosing a central UDeliver instance only makes sense if you produce different deliverables in different database locations that are close enough in the landscape that they can be accessed by the same source machine(s). Here are 2 scenarios where you could consider using a central UDeliver instance for accessing multiple database locations.
 
@@ -34,5 +38,9 @@ But other teams have a more mature ecosystem with separate fix repositories for 
 
 Some teams use USoft modular development to partition application logic, but they release all the modules each time they release the top-level consumer application. With a central UDeliver instance accessing the different database locations where the different modules are developed, you can have a single Release procedure that (re)releases the entire solution each time.
 
-> [!WARNING]
-> While this way of working has become quite common, it is not actually the intended use of USoft modular development. If modules are really modular, that is, relatively independent of the consumer application, you should not typically need to release a module each time you release the consumer. In that more mature situation, each module has its own delivery executed by its own UDeliver instance. The UDeliver instance for the consumer only needs to access the database location for the consumer itself. At release time, this instance can assemble modules deliverables at file system level by calling UDeliver's **Release modules** action, instead of logging on to database locations where modules are developed.
+
+:::warning
+
+While this way of working has become quite common, it is not actually the intended use of USoft modular development. If modules are really modular, that is, relatively independent of the consumer application, you should not typically need to release a module each time you release the consumer. In that more mature situation, each module has its own delivery executed by its own UDeliver instance. The UDeliver instance for the consumer only needs to access the database location for the consumer itself. At release time, this instance can assemble modules deliverables at file system level by calling UDeliver's **Release modules** action, instead of logging on to database locations where modules are developed.
+
+:::

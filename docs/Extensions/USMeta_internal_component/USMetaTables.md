@@ -6,8 +6,12 @@ id: USMetaTables
 
 
 
-> [!NOTE]
-> This article is about the **Tables** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::note
+
+This article is about the **Tables** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::
 
 ## **USMeta.Tables**
 
@@ -80,8 +84,12 @@ All parameters are optional. Parameter values that you supply are mapped to para
 SELECT   USMeta.Tables( 'No' IncludeViews )
 ```
 
-> [!TIP]
-> For backward compatibility only, it is possible to supply parameter values by position. Using this syntax, a list of non-aliased values maps to the parameter list in the order stated, with empty values at the end of the list if you supply less than 5 values, and '' (the empty string) as a way of explicitly declaring an empty value.
+
+:::tip
+
+For backward compatibility only, it is possible to supply parameter values by position. Using this syntax, a list of non-aliased values maps to the parameter list in the order stated, with empty values at the end of the list if you supply less than 5 values, and '' (the empty string) as a way of explicitly declaring an empty value.
+
+:::
 
 *Table-name-pattern* is a regular expression that matches zero, one or more table names in the model. The result data is limited to tables matching the pattern. If *table-name-pattern* is omitted, then result data is not limited in this way.
 
@@ -136,5 +144,9 @@ SELECT USMeta.Tables(
 
 You can use USMeta.Tables() to determine exactly what type(s) of table you want to export with [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
 
-> [!NOTE]
-> For example, you can export only database tables and not other types of table such as component tables and logical views. This is discussed in detail in *Example 3* of [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
+
+:::note
+
+For example, you can export only database tables and not other types of table such as component tables and logical views. This is discussed in detail in *Example 3* of [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
+
+:::

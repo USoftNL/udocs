@@ -4,8 +4,12 @@ id: Business_rules_and_Agile
 
 # Business rules and Agile
 
-> [!NOTE]
-> We often get questions about the combination of USoft and Agile. This is a background article. You can skip it unless you are looking for backward information.
+
+:::note
+
+We often get questions about the combination of USoft and Agile. This is a background article. You can skip it unless you are looking for backward information.
+
+:::
 
 ## The USoft Approach is an early Agile approach
 

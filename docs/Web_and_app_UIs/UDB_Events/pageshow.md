@@ -6,8 +6,12 @@ id: pageshow
 
 
 
-> [!NOTE]
-> This article is about the **pageshow**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **pageshow**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **pageshow**
 

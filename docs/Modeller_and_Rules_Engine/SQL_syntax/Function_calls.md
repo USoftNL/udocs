@@ -6,8 +6,12 @@ id: Function_calls
 
 
 
-> [!NOTE]
-> This article is about **function calls** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **function calls** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Function calls**
 

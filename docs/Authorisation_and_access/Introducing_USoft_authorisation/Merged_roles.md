@@ -12,8 +12,12 @@ To merge roles, follow these steps:
 1.    In USoft Definer, from the menu, choose Define, Rules Engine Parameters.
 2.    Set the ROLE_MERGE parameter to True.
 
-> [!CAUTION]
-> This has an effect on authorisation and the runtime realisation of First Menu Pages across your entire application.
+
+:::danger
+
+This has an effect on authorisation and the runtime realisation of First Menu Pages across your entire application.
+
+:::
 
 ## How to go back to unmerged roles
 
@@ -21,8 +25,12 @@ To go back to unmerged roles, follow these steps:
 1.    In USoft Definer, from the menu, choose Define, Rules Engine Parameters.
 2.    Set the ROLE_MERGE parameter to False.
 
-> [!CAUTION]
-> This has an effect on authorisation and the runtime realisation of First Menu Pages across your entire application.
+
+:::danger
+
+This has an effect on authorisation and the runtime realisation of First Menu Pages across your entire application.
+
+:::
 
 ## What is the effect of merged roles?
 

@@ -6,8 +6,12 @@ id: ODBC_and_other_RDBMS_requirements
 
 This section describes requirements and installation tips for supported RDBMS platforms other than Oracle and MS SQL Server.
 
-> [!CAUTION]
-> All the forms of database access in this article have **Beta** status. USoft offers only limited support on features with Beta status.
+
+:::danger
+
+All the forms of database access in this article have **Beta** status. USoft offers only limited support on features with Beta status.
+
+:::
 
 ## Supported versions of other RDBMS platforms
 
@@ -28,8 +32,12 @@ USoft does not check that all requirements are satisfied at start-up. It just ac
 
 Whenever possible, use an ODBC driver that supports all the requirements. If you can’t, as a workaround, you may need to change the application by editing or removing the SQL or the data type definitions that produce the error.
 
-> [!WARNING]
-> Running the end-user application with a single user should work decently, but multiple users at the same time could cause problems because locking is not fully implemented.
+
+:::warning
+
+Running the end-user application with a single user should work decently, but multiple users at the same time could cause problems because locking is not fully implemented.
+
+:::
 
 ## ODBC conformance
 

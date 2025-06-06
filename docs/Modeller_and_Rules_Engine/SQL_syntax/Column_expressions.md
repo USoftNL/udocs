@@ -6,8 +6,12 @@ id: Column_expressions
 
 
 
-> [!NOTE]
-> This article is about **Column expressions** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **Column expressions** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **Column expressions**
 

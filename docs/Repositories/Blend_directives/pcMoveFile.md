@@ -6,8 +6,12 @@ id: pcMoveFile
 
 
 
-> [!NOTE]
-> This article is about the **pc:MoveFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:MoveFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:MoveFile**
 

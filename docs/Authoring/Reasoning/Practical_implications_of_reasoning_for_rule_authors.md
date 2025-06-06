@@ -37,9 +37,13 @@ For rules that say how a mathematical calculation must be performed, use **must 
 
 ![](./assets/f0d68c78-17e4-49bd-ae9c-1763dc2d778d.png)
 
-> [!TIP]
-> Consider using mathematical **symbols** instead of words for mathematical operations. Consider also using abbreviations for the conditions, subtotals, and conclusion. This will make rules much shorter and greatly improve readability:
->  
+
+:::tip
+
+Consider using mathematical **symbols** instead of words for mathematical operations. Consider also using abbreviations for the conditions, subtotals, and conclusion. This will make rules much shorter and greatly improve readability:
+
+
+:::
 
 ## Offload information to other rules or definitions
 

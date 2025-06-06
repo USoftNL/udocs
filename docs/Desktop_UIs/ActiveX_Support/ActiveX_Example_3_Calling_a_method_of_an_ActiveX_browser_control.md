@@ -55,8 +55,12 @@ MyBrowser_1.Navigate(:"Variables.Text_Box_1()")
 
 4. Type a web address such as "www.usoft.com" into the URL field, and then press the TAB key (to trigger the Post-edit event).
 
-> [!NOTE]
-> You can follow links, and/or use the context menu to navigate.
+
+:::note
+
+You can follow links, and/or use the context menu to navigate.
+
+:::
 
  
 

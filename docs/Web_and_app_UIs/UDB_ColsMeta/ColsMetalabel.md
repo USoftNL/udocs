@@ -10,20 +10,32 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **label()** function of the [ColsMeta object](/docs/Web_and_app_UIs/UDB_ColsMeta).
 
-> [!WARNING]
-> This function is now obsolete. Prefer [ColsMeta.prompt()](/docs/Web_and_app_UIs/UDB_ColsMeta/ColsMetaprompt.md).
+:::note
+
+This article is about the **label()** function of the [ColsMeta object](/docs/Web_and_app_UIs/UDB_ColsMeta).
+
+:::
+
+
+:::warning
+
+This function is now obsolete. Prefer [ColsMeta.prompt()](/docs/Web_and_app_UIs/UDB_ColsMeta/ColsMetaprompt.md).
+
+:::
 
 ## **ColsMeta.label()**
 

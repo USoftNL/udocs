@@ -30,8 +30,12 @@ In addition to **Allow Origin** attribute, each CORS Rules record has the follow
 
 Elements in attribute values are separated by commas. For example attribute values, look at the CORS Rules records of the 'Default' CORS configuration.
 
-> [!TIP]
-> If you have a long list of comma-separated values in the Allow Methods, Allow Headers, or Expose Headers field, right-mouse-click and choose Values. This allows you to view or query the values in a manageable list.
+
+:::tip
+
+If you have a long list of comma-separated values in the Allow Methods, Allow Headers, or Expose Headers field, right-mouse-click and choose Values. This allows you to view or query the values in a manageable list.
+
+:::
 
 ## Viewing CORS configurations
 

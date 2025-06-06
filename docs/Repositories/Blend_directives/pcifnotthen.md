@@ -6,8 +6,12 @@ id: pcifnotthen
 
 
 
-> [!NOTE]
-> This article is about the **pc:if-not-then**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:if-not-then**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 Subjects a script section to the reverse of a condition. If the condition is NOT met, the section is executed, otherwise it is not.
 

@@ -15,5 +15,9 @@ To create a custom control that you can then insert into web pages:
 
 4. You can now . Do this by inserting your custom control into an object of a Page class: open the Page class, then drag the custom control class from the Controls tab onto the place where you want to insert it in the object tree on the right.
 
-> [!CAUTION]
-> This technique gives you optimal re-use of specification work, but if you use the control class in multiple pages, and you change the custom control later, you do NOT get warnings about the consequences for all the pages you used it in.
+
+:::danger
+
+This technique gives you optimal re-use of specification work, but if you use the control class in multiple pages, and you change the custom control later, you do NOT get warnings about the consequences for all the pages you used it in.
+
+:::

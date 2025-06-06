@@ -4,8 +4,12 @@ id: Individual_concepts
 
 # Individual concepts
 
-> [!NOTE]
-> **See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
+
+:::note
+
+**See also:** [A minimal toolkit of SBVR vocabulary concepts](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md)
+
+:::
 
  
 

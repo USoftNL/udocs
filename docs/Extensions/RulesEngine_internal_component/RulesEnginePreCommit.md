@@ -6,8 +6,12 @@ id: RulesEnginePreCommit
 
 
 
-> [!NOTE]
-> This article is about the **PreCommit** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::note
+
+This article is about the **PreCommit** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::
 
 ## **RulesEngine.PreCommit**
 
@@ -15,8 +19,12 @@ Performs the same checks as the Rules Engine when issuing a commit, but without 
 
 Returns the string 'OK' if there are no violations. Otherwise, processing depends on the generate-error value.
 
-> [!WARNING]
-> This method can not be called from a constraint.
+
+:::warning
+
+This method can not be called from a constraint.
+
+:::
 
 *Syntax*
  

@@ -35,9 +35,13 @@ Set the required default language by setting **the "DefaultLanguage" publication
 
 This "DefaultLanguage" publication property is what determines in which language system messages, application strings, and separator symbols for number values are presented.
 
-> [!WARNING]
-> Confusingly, in this scenario, the Rules Service's Language configuration parameter **has no effect**.
-> The "DefaultLanguage” publication property determines, for each individual call to the Rules Service, what is the return language expected of the Rules Service. This happens independently of the "Language" Rules Service configuration parameter. This particular behaviour makes it possible to have a Rules Service respond in different languages during [dynamic language switching](/docs/Modeller_and_Rules_Engine/Localising_your_application/Dynamic_language_switching.md).
+
+:::warning
+
+Confusingly, in this scenario, the Rules Service's Language configuration parameter **has no effect**.
+The "DefaultLanguage” publication property determines, for each individual call to the Rules Service, what is the return language expected of the Rules Service. This happens independently of the "Language" Rules Service configuration parameter. This particular behaviour makes it possible to have a Rules Service respond in different languages during [dynamic language switching](/docs/Modeller_and_Rules_Engine/Localising_your_application/Dynamic_language_switching.md).
+
+:::
 
 If you use language-specific separator settings for number values, if the Rules Service runs from flat files, you must generate and deliver an *application***.CON****file. Do this via Tools, Create Flat Files in the Definer menu. If the Rules Service runs from repository, separator settings are read directly from the Definer tables, and no *application.*CON file is in scope.
 
@@ -57,8 +61,12 @@ For each declared language a separate file is created. The same process also dow
 
 These latter files are not generated from Definer tables, but they may be edited by the developer manually.
 
-> [!TIP]
-> You do not need to produce an *application***.UMG** file for web application pages. If you make such a file available, it remains unused. Its function is replaced by the .JSON files.
+
+:::tip
+
+You do not need to produce an *application***.UMG** file for web application pages. If you make such a file available, it remains unused. Its function is replaced by the .JSON files.
+
+:::
 
 ## REST or SOAP services
 

@@ -45,8 +45,12 @@ Acceptance is a subphase of the DELIVER phase.
 
 During the Acceptance subphase, tasks are performed that ensure that the released specifications and implementations are in fact successfully incorporated in the daily routines that human end users and digital systems go through as they make use of the released materials.
 
-> [!CAUTION]
-> The Acceptance subphase must be clearly separated from acceptance testing, which occurs in different subphases and is a different activity with a different goal altogether.
+
+:::danger
+
+The Acceptance subphase must be clearly separated from acceptance testing, which occurs in different subphases and is a different activity with a different goal altogether.
+
+:::
 
 If you overlook the Acceptance subphase, end users or administrators of digital agents may not know that something was released, or they may not understand how it is supposed to help them. They may continue to prefer alternatives that they are already familiar with - maybe the very alternatives that the release was trying to replace.
 

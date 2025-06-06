@@ -4,8 +4,12 @@ id: Source_variables_in_UDeliver
 
 # Source variables in UDeliver
 
-> [!NOTE]
-> This article is about the **source variable** concept in USoft Delivery Manager (“UDeliver”).
+
+:::note
+
+This article is about the **source variable** concept in USoft Delivery Manager (“UDeliver”).
+
+:::
 
 **See also**
 
@@ -61,8 +65,12 @@ After you initialise a release tree, Delivery Manager distinguishes a number of 
 </tbody>
 </table>
 
-> [!NOTE]
-> While source variables describe settings used on source machines for release, and [registries](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Registries_in_UDeliver.md) describe target machines for deployment, teams have reported that variable substitution in registry XML is generally useful. For this reason, from USoft 10.0.1C, you can use source variables in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
+
+:::note
+
+While source variables describe settings used on source machines for release, and [registries](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Registries_in_UDeliver.md) describe target machines for deployment, teams have reported that variable substitution in registry XML is generally useful. For this reason, from USoft 10.0.1C, you can use source variables in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
+
+:::
 
 *Example*
 

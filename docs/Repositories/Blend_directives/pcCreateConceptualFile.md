@@ -6,8 +6,12 @@ id: pcCreateConceptualFile
 
 
 
-> [!NOTE]
-> This article is about the **pc:CreateConceptualFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:CreateConceptualFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:CreateConceptualFile**
 

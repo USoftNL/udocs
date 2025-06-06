@@ -44,5 +44,9 @@ An **ostensive** definition shows, rather than describes, the meaning of a term.
 
 ![](./assets/a6c966f0-3b77-4935-8248-303d73ce2409.png)
 
-> [!NOTE]
-> SBVR 1.5 does not make an effort to classify definitions as types of proposition. (Their definition of 'definition’ talks about what a definition *represents.*) This is doubtlessly inspired by the fact that SBVR does not use the 'full sentence’ format but the 'term - definition’ format for definitions. USoft sees a formal definition as a type of structural rule.
+
+:::note
+
+SBVR 1.5 does not make an effort to classify definitions as types of proposition. (Their definition of 'definition’ talks about what a definition *represents.*) This is doubtlessly inspired by the fact that SBVR does not use the 'full sentence’ format but the 'term - definition’ format for definitions. USoft sees a formal definition as a type of structural rule.
+
+:::

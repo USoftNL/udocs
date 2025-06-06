@@ -4,18 +4,26 @@ id: SQL_functions_DH
 
 # SQL functions D-H
 
-> [!NOTE]
-> [SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
-> SQL functions  D - H
-> [SQL functions  I - M](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
-> [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md)
-> [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md)
+
+:::note
+
+[SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
+SQL functions  D - H
+[SQL functions  I - M](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
+[SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md)
+[SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md)
+
+:::
 
  
 
-> [!TIP]
-> Check out how to read this article by clicking the “Show content” link.
-> **I have a SQL function in mind. Can I use it in my USoft application?** 
+
+:::tip
+
+Check out how to read this article by clicking the “Show content” link.
+**I have a SQL function in mind. Can I use it in my USoft application?**
+
+:::
 Find the function in the alphabetic list. Look in the column for your database platform. If there is a dash in that cell, or if the function is not in the list at all, then the function is not supported.
 > Otherwise, have a look also in the USoft column (the second column from the left):
 > There may be special details or restrictions. Consult your RDBMS documentation. In some places, function names are hyperlinked to additional information supplied by USoft.

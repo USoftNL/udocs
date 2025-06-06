@@ -27,9 +27,13 @@ USoft Blend adds to the USoft platform:
 
 USoft Blend may be called from the command line, but equally from a USoft runtime context, for example, from the SQL Command tool of a USoft application.
 
-> [!NOTE]
-> USoft Blend is technically a USoft-proprietary XSLT 1.0 application enriched with extension functions programmed in C#. For this reason, USoft Blend incorporates all the expression types and data types valid in XPath 1.0, the expression language embedded in XSLT 1.0, as well as the system of implicit data type conversion implemented in XSLT and XPath.
-> USoft Blend consists of an XSLT stylesheet with extension elements and a set of extension functions programmed in .NET. The stylesheet processes XML elements in a USoft Blend script as directives (instructions) by calling, through an XSLT template that matches a given directive, one or more of the programmed functions.
+
+:::note
+
+USoft Blend is technically a USoft-proprietary XSLT 1.0 application enriched with extension functions programmed in C#. For this reason, USoft Blend incorporates all the expression types and data types valid in XPath 1.0, the expression language embedded in XSLT 1.0, as well as the system of implicit data type conversion implemented in XSLT and XPath.
+USoft Blend consists of an XSLT stylesheet with extension elements and a set of extension functions programmed in .NET. The stylesheet processes XML elements in a USoft Blend script as directives (instructions) by calling, through an XSLT template that matches a given directive, one or more of the programmed functions.
+
+:::
 
 ## Purposes
 

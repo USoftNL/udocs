@@ -6,8 +6,12 @@ id: pcReplaceVariables
 
 
 
-> [!NOTE]
-> This article is about the **pc:ReplaceVariables**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ReplaceVariables**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ReplaceVariables**
 
@@ -15,8 +19,12 @@ Replaces all occurrences of a given text or pattern by a different text. You can
 
 Returns the text after the replacements have been made. USoft Delivery Manager uses this mechanism to do machine-specific replacements when data are deployed on target machines.
 
-> [!TIP]
-> If you simply want to replace a substring by another string, prefer [strings:Replace()](/docs/Repositories/Blend_functions/stringsReplace.md).
+
+:::tip
+
+If you simply want to replace a substring by another string, prefer [strings:Replace()](/docs/Repositories/Blend_functions/stringsReplace.md).
+
+:::
 
 *Syntax*
  

@@ -6,8 +6,12 @@ id: XMLSQL2XML
 
 
 
-> [!NOTE]
-> This article is about the **SQL2XML** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::note
+
+This article is about the **SQL2XML** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::
 
 ## **XML.SQL2XML**
 
@@ -235,8 +239,12 @@ Children: \<Column> if the function is applied to a column expression, \<Value> 
 
 Attributes: **name** specifies the function or pseudo-column: CONCAT, COUNT, USER…
 
-> [!TIP]
-> The functions CHARINDEX and LOCATE are converted by XML.SQL2XML to INSTR.
+
+:::tip
+
+The functions CHARINDEX and LOCATE are converted by XML.SQL2XML to INSTR.
+
+:::
 
 ### GroupByList
 

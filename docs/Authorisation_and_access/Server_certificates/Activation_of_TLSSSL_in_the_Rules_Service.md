@@ -6,8 +6,12 @@ id: Activation_of_TLSSSL_in_the_Rules_Service
 
 To activate TLS in the Rules Service:
 
-> [!NOTE]
-> You must first import a signed certificate into USoft's Certificate store and copied required files to your \<usoft install dir>\\CERTS\\ folder. See Using Self-Signed Certificates with USoft for details.
+
+:::note
+
+You must first import a signed certificate into USoft's Certificate store and copied required files to your \<usoft install dir>\\CERTS\\ folder. See Using Self-Signed Certificates with USoft for details.
+
+:::
 
 1. In the USoft Binder, right-click on the Rules Service and choose Properties from the context menu. The initial configuration screen for the Rules Service is then displayed.
 

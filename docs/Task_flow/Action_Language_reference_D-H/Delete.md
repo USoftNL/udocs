@@ -6,8 +6,12 @@ id: Delete
 
 
 
-> [!NOTE]
-> This article is about the **Delete** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **Delete** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **Delete()**
 

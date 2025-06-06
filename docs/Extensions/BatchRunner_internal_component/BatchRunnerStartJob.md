@@ -6,13 +6,21 @@ id: BatchRunnerStartJob
 
 
 
-> [!NOTE]
-> This article is about the **StartJob** method of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
+
+:::note
+
+This article is about the **StartJob** method of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
+
+:::
 
 ## **BatchRunner.StartJob**
 
-> [!CAUTION]
-> The StartJob method cannot be called from a constraint.
+
+:::danger
+
+The StartJob method cannot be called from a constraint.
+
+:::
 
 Runs a specific job. Allows you to pass not only input parameter values, but also input parameter **names** at the time of the call.
 

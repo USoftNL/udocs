@@ -10,18 +10,26 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **Rowset** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
-> This model is built around the [udb](/docs/Web_and_app_UIs/UDB_udb), [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), Rowset, [Rows](/docs/Web_and_app_UIs/UDB_Rows), [ColsMeta](/docs/Web_and_app_UIs/UDB_ColsMeta), and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **Rowset** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
+This model is built around the [udb](/docs/Web_and_app_UIs/UDB_udb), [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), Rowset, [Rows](/docs/Web_and_app_UIs/UDB_Rows), [ColsMeta](/docs/Web_and_app_UIs/UDB_ColsMeta), and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 A **Rowset** object contains a collection of references to one or more row sets and so-called keys strings containing key values (if any) that these row sets refer to. A Rowset object containing multiple row sets comes into play when you offer multiple controls based on the same data in the same interface.
 

@@ -60,8 +60,12 @@ USoft offers a number of synchronisation features to help the C development team
 
 ## Exposing an interface to an application
 
-> [!WARNING]
-> Consider carefully if you want to expose an interface to a consumer. There is no quick way of getting rid of all the interface objects if you decide you do not want them after all.
+
+:::warning
+
+Consider carefully if you want to expose an interface to a consumer. There is no quick way of getting rid of all the interface objects if you decide you do not want them after all.
+
+:::
 
 To expose an interface (= the entire collection of interface objects) defined in a module M1 to the Development environment of a consumer C:
 

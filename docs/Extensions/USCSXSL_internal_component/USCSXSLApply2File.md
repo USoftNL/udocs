@@ -6,8 +6,12 @@ id: USCSXSLApply2File
 
 
 
-> [!NOTE]
-> This article is about the **Apply2File** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+
+:::note
+
+This article is about the **Apply2File** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+
+:::
 
 ## **USCSXSL.Apply2File**
 
@@ -33,8 +37,12 @@ The required *xsl* must be a valid XSLT 1.0 transformation. You can submit this 
 
 Optionally, you can pass any number of Blend input parameters as *variable-name=variable-value* pairs.
 
-> [!TIP]
-> From USoft 10.0.1I, *xml-resultfilepath* is allowed to be identical to *xml-filepath.* In this case, be aware that the result file is forceably overwritten, even if the transformation fails.
+
+:::tip
+
+From USoft 10.0.1I, *xml-resultfilepath* is allowed to be identical to *xml-filepath.* In this case, be aware that the result file is forceably overwritten, even if the transformation fails.
+
+:::
 
 *Example*
 

@@ -77,8 +77,12 @@ With **a(n)** …, you write in the singular. As a result, you are often confron
 
 
 
-> [!TIP]
-> One simple gender-neutral strategy is to switch regularly between **he** and **she**, just randomly choosing one or the other. You can also write **he or she** but this makes a rule harder to read.
+
+:::tip
+
+One simple gender-neutral strategy is to switch regularly between **he** and **she**, just randomly choosing one or the other. You can also write **he or she** but this makes a rule harder to read.
+
+:::
 
 **… is the fact that …** is a set phrase that always contains **the**, not **a**:
 

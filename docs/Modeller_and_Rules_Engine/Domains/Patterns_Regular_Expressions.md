@@ -29,9 +29,13 @@ Define the pattern as follows. A user who attempts to input "AUSTRALIA23” in a
 
 
 
-> [!TIP]
-> A regular expression only allows you to create **restrictive** rules: if an input value does not match the regex, it is rejected, and an error message is given.
-> To create **productive** rules (input value is automatically changed to an acceptable version), use a domain constraint.
+
+:::tip
+
+A regular expression only allows you to create **restrictive** rules: if an input value does not match the regex, it is rejected, and an error message is given.
+To create **productive** rules (input value is automatically changed to an acceptable version), use a domain constraint.
+
+:::
 
 ## Finding or creating the regex to apply
 

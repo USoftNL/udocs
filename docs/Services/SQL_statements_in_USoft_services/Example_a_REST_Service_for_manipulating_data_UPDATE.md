@@ -156,8 +156,12 @@ This design is followed through in the entire REST design: the caller passes the
 
 In the REST Services window or tab, values for Signature, Implementation and Parameters are generated.In the Catalog on the left-hand side, a Structure with name PersonStructure is offered for inspection.
 
-> [!NOTE]
-> If you use PUT, alter the method implementation for checking whether a resource must be updated or created.
+
+:::note
+
+If you use PUT, alter the method implementation for checking whether a resource must be updated or created.
+
+:::
 
 6. Save work.
 

@@ -4,8 +4,12 @@ id: Computers_in_UDeliver
 
 # Computers in UDeliver
 
-> [!NOTE]
-> This article is about the **computer** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **computer** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 A  *computer* is a physical machine that participates in your DTAP arrangement. In that role, it is also referred to as an environment.  
 

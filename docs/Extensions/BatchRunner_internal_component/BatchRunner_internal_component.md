@@ -6,9 +6,13 @@ id: BatchRunner_internal_component
 
 
 
-> [!NOTE]
-> This article contains general information about the **BatchRunner** internal component.
-> For an alphabetic list of BatchRunner methods, click [here](/docs/Extensions/BatchRunner_internal_component).
+
+:::note
+
+This article contains general information about the **BatchRunner** internal component.
+For an alphabetic list of BatchRunner methods, click [here](/docs/Extensions/BatchRunner_internal_component).
+
+:::
 
 ## Calling the BatchRunner component
 
@@ -34,8 +38,12 @@ You can call BatchRunner.GetJobProperty to get a runtime property of a job curre
 
 You can pass a number of predefined parameters in calls to the BatchRunner internal component. This section describes these parameters in detail.
 
-> [!TIP]
-> The call syntax is unexpected for a number of reasons:
+
+:::tip
+
+The call syntax is unexpected for a number of reasons:
+
+:::
 
 *Example*
 

@@ -26,8 +26,12 @@ Alternatively, if you want to use an existing Java class of your own, read the n
 
 This causes the 'mycustomservice' SOAP Service to get the Correct = Yes setting.
 
-> [!NOTE]
-> To use an existing Java super class, base class or interface, declare that Java package by creating a record in table T_SVC_SUPER_CLASS. To do this, choose View, Objects from the menu, click on "SVC Super Classes" and fill out the form, taking USoft-shipped entries as an example. Enter a Functional Name as a unique handle for the code. Enter a Description and set Used for Class Type = SOAP Service. Save. You can now use the Functional Name when you select a functional type in Step 3.
+
+:::note
+
+To use an existing Java super class, base class or interface, declare that Java package by creating a record in table T_SVC_SUPER_CLASS. To do this, choose View, Objects from the menu, click on "SVC Super Classes" and fill out the form, taking USoft-shipped entries as an example. Enter a Functional Name as a unique handle for the code. Enter a Description and set Used for Class Type = SOAP Service. Save. You can now use the Functional Name when you select a functional type in Step 3.
+
+:::
 
 ### Associating the custom SOAP service with a server
 
@@ -41,8 +45,12 @@ The "SOAP Services" window or tab appears.
 
 3. When you have that SOAP service in view, click the Servers tab and specify the server where you want to publish the SOAP service, for example, the default server called 'Default'**.**
 
-> [!TIP]
-> Get a list of available servers by pressing, in the Servers tab, the F12 key.
+
+:::tip
+
+Get a list of available servers by pressing, in the Servers tab, the F12 key.
+
+:::
 
 4. Save.
 
@@ -69,5 +77,9 @@ To (re)publish the custom SOAP service at the server:
 
 You are now ready to create one or more methods for your custom SOAP service.
 
-> [!TIP]
-> You can wrap Steps 3, 4 and 5 into one by choosing Publish, Publish and Restart from the menu or by clicking the "Publish and Restart" icon on the icon ribbon.
+
+:::tip
+
+You can wrap Steps 3, 4 and 5 into one by choosing Publish, Publish and Restart from the menu or by clicking the "Publish and Restart" icon on the icon ribbon.
+
+:::

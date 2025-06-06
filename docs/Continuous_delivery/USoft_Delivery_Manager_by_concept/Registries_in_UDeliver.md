@@ -4,8 +4,12 @@ id: Registries_in_UDeliver
 
 # Registries in UDeliver
 
-> [!NOTE]
-> This article is about the **registry** concept in USoft Delivery Manager (“UDeliver”).
+
+:::note
+
+This article is about the **registry** concept in USoft Delivery Manager (“UDeliver”).
+
+:::
 
 **See also**
 
@@ -49,8 +53,12 @@ You can describe computer-specific information by mentioning computernames. For 
 
 Deploy scripts can tap into this registry data and distribute a set of flatfiles to the correct location on each machine by heeding only the registry section that corresponds to the computername of the computer where the deploy script executes.
 
-> [!NOTE]
-> While registries describe target machines and source variables do not, teams have reported that variable substitution in registries is generally useful. For this reason, from USoft 10.0.1C, you can use [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md) in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
+
+:::note
+
+While registries describe target machines and source variables do not, teams have reported that variable substitution in registries is generally useful. For this reason, from USoft 10.0.1C, you can use [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md) in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
+
+:::
 
 *Strategy 2 - Computer settings*
 
@@ -101,8 +109,12 @@ Follow these steps to write a registry manually:
 
 3. Make sure the registry that you want to output has the Current = Yes flag. Only 1 registry can be current at any one time. If you set this flag for a registry record, any other registry records will automatically get Current = No.
 
-> [!TIP]
-> You can get a jump start by loading a registry sample provided by USoft. Choose Tools, Load Registry Sample from the menu.
+
+:::tip
+
+You can get a jump start by loading a registry sample provided by USoft. Choose Tools, Load Registry Sample from the menu.
+
+:::
 
 ### How to import a registry
 

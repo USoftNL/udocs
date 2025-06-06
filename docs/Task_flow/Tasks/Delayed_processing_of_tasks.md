@@ -36,8 +36,12 @@ When dealing with an import task, much depends on whether the delayed processing
 
 This concerns import tasks or SQL tasks (as opposed to online data entry).
 
-> [!WARNING]
-> Constraint and relationship deactivation is contrary to the idea of using a Rules Engine. The basic idea of business rule definition is that business rules apply independently of the information system, and therefore must ALWAYS be checked.
+
+:::warning
+
+Constraint and relationship deactivation is contrary to the idea of using a Rules Engine. The basic idea of business rule definition is that business rules apply independently of the information system, and therefore must ALWAYS be checked.
+
+:::
 
 If you deactivate constraints, the system can no longer guarantee that rules are implemented to all data. Therefore only use deactivation exceptionally, as a last resort.
 

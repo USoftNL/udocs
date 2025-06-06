@@ -6,8 +6,12 @@ id: sqlSqlStmnt
 
 
 
-> [!NOTE]
-> This article is about the **sql:SqlStmnt**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **sql:SqlStmnt**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **sql:SqlStmnt**
 

@@ -676,8 +676,12 @@ Whenever a boolean is expected:
 - A non-empty node set evaluates to boolean **true()**. The empty node set evaluates to boolean **false()**.
 - A non-empty string value evaluates to boolean **true()**. The empty string evaluates to boolean **false()**.
 
-> [!TIP]
-> As an alternative to this, USoft Blend offers "flag-based" string-to-boolean conversion discussed earlier in this article.
+
+:::tip
+
+As an alternative to this, USoft Blend offers "flag-based" string-to-boolean conversion discussed earlier in this article.
+
+:::
 
 - The number values **0** (zero) and **NaN** (not-a-number) evaluate to boolean **false()**. Other number values evaluate to boolean **true()**.
 

@@ -6,8 +6,12 @@ id: pcXmlImportApply
 
 
 
-> [!NOTE]
-> This article is about the **pc:XmlImportApply**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:XmlImportApply**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:XmlImportApply**
 

@@ -6,8 +6,12 @@ id: pctext
 
 
 
-> [!NOTE]
-> This article is about the **pc:text**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:text**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:text**
 
@@ -21,8 +25,12 @@ Concatenates all the text nodes found in its contents (including whitespace char
 </pc:text>
 ```
 
-> [!WARNING]
-> pc:text does not support the disable-output-escaping attribute, unlike pc:value-of (and XSLT's \<xsl:text> and \<xsl:value-of>).
+
+:::warning
+
+pc:text does not support the disable-output-escaping attribute, unlike pc:value-of (and XSLT's \<xsl:text> and \<xsl:value-of>).
+
+:::
 
 *Example*
 

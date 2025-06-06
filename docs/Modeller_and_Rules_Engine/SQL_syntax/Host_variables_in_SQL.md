@@ -6,9 +6,13 @@ id: Host_variables_in_SQL
 
 
 
-> [!NOTE]
-> This article is about **host variables** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
-> Host variables in SQL are a feature of the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about **host variables** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+Host variables in SQL are a feature of the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 The USoft Action Language allows you to pass values from your application to and from positions in SQL statements. Values are passed by position: **:1** represents the first value passed or retrieved, **:2** the second, and so on.
 

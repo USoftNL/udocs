@@ -100,8 +100,12 @@ To define a role condition:
 
 5. (See *Example* below.) From the menu, choose Define, Roles. Retrieve the Role where you want to use the condition. On the Table Rights tab, find the record for the table right that you want to attach the condition to. Depending on the access right (SELECT, INSERT, UPDATE or DELETE), and the scope (Foreground, Background), write the ID of the condition in the correct column. Save work.
 
-> [!NOTE]
-> The Role will now have Correct = No. Press the Check button to get it to have Correct = Yes.
+
+:::note
+
+The Role will now have Correct = No. Press the Check button to get it to have Correct = Yes.
+
+:::
 
 *Example*
 

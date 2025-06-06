@@ -34,8 +34,12 @@ Find the CheckBoxColumnControl that represents the field, then find its **input-
 
 ![](./assets/0ab33e91-faff-4cf3-bef9-5224d23d65f9.png)
 
-> [!TIP]
-> To get to see the offcanvasRightEditBody as in the picture above, first open the DetailCard class where you want to have the checkbox, then in the preview pane in the middle of Web Designer, click the Edit button.
+
+:::tip
+
+To get to see the offcanvasRightEditBody as in the picture above, first open the DetailCard class where you want to have the checkbox, then in the preview pane in the middle of Web Designer, click the Edit button.
+
+:::
 
 Right-mouse-click on **input-group,** open the Property Inspector and find the Class List property for **input-group**.
 

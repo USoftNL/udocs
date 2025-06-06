@@ -6,9 +6,13 @@ id: CAST
 
 
 
-> [!NOTE]
-> This article has additional information about the **CAST** SQL function.
-> For convertibility of this function, go to [SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md).
+
+:::note
+
+This article has additional information about the **CAST** SQL function.
+For convertibility of this function, go to [SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md).
+
+:::
 
 ## **CAST**
 

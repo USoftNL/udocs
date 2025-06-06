@@ -39,8 +39,12 @@ The following table shows the parameters defined for "MyMethod" and how they are
 
 This example shows that the Return parameter is handled as if it were an Out parameter.
 
-> [!NOTE]
-> This example shows the rules underpinning parameter use. It is usually a good idea to define In parameters before Out parameters, and Out parameters before the Return parameter.
+
+:::note
+
+This example shows the rules underpinning parameter use. It is usually a good idea to define In parameters before Out parameters, and Out parameters before the Return parameter.
+
+:::
 
 ## Parameter datatypes
 

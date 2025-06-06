@@ -14,8 +14,12 @@ Both the info window and the dialog can remain open between queries. Each time t
 
 Each time the user clicks Find, the dialog passes the two current search conditions to the info window. The dialog has a user-defined property of type Reservations (the info window), in which it stores the info window from which it was called.
 
-> [!NOTE]
-> The reason why you must use a user-defined property returning an object, not a string, is that the dialog must be able to start queries repeatedly. Only if the dialog refers to the calling window as a real object does it have access to all the objects within that window. It is not a simple matter of passing a first-time-only string to the info window.
+
+:::note
+
+The reason why you must use a user-defined property returning an object, not a string, is that the dialog must be able to start queries repeatedly. Only if the dialog refers to the calling window as a real object does it have access to all the objects within that window. It is not a simple matter of passing a first-time-only string to the info window.
+
+:::
 
 In other words, the dialog must "remember" what info window it is serving. It receives the internal object identifier of the runtime info window when it is opened from it.
 

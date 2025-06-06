@@ -14,8 +14,12 @@ If the message type is set to ERROR, and the Abort Mode setting for a task is se
 
 If the message type is set to INFORMATION or WARNING, the message is displayed or added to the log file, and the batch job continues.
 
-> [!NOTE]
-> To use the messageLanguage method in Batch, you need to create a system messages (.SMG) file first:
+
+:::note
+
+To use the messageLanguage method in Batch, you need to create a system messages (.SMG) file first:
+
+:::
 
 From the Definer menu, choose Tools, Language, Create System Messages File to generate a flat file for your system messages. This file must have name:
 

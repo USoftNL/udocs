@@ -10,8 +10,12 @@ You can determine under what circumstances a menu option must be available by se
 
 Menu sensitivity propagates to the menu toolbar (the icon ribbon). When a menu option is available, any corresponding icon is also clickable. When a menu option is unavailable, any corresponding icon appears in a non-clickable state.
 
-> [!NOTE]
-> You can also make a menu option state-sensitive by using the action:
+
+:::note
+
+You can also make a menu option state-sensitive by using the action:
+
+:::
 
 ```
 MenubarSetItem(<itemname>,{'ON'|'OFF'}

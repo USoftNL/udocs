@@ -6,8 +6,12 @@ id: ComputerBrowse
 
 
 
-> [!NOTE]
-> This article is about the **ComputerBrowse** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **ComputerBrowse** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **ComputerBrowse()**
 
@@ -35,5 +39,9 @@ or
 
 The USoft registration database entries are searched first for such variables, and if they are not found, the standard DOS environment is searched.
 
-> [!NOTE]
-> References to SystemDir are internally mapped to the version key.
+
+:::note
+
+References to SystemDir are internally mapped to the version key.
+
+:::

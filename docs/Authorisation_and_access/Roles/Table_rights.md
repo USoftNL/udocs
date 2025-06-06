@@ -50,8 +50,12 @@ In table rights, **background scope** has the following meaning:
 
 ## How to define a table right
 
-> [!TIP]
-> When defining table rights, be aware of dependencies between rights. For example, if you define access to a subtype table, also think of access to the supertype. If you define access to a Logical View, also think of access to the underlying table. To some extent, USoft Definer helps you by implementing dependencies automatically.
+
+:::tip
+
+When defining table rights, be aware of dependencies between rights. For example, if you define access to a subtype table, also think of access to the supertype. If you define access to a Logical View, also think of access to the underlying table. To some extent, USoft Definer helps you by implementing dependencies automatically.
+
+:::
 
 To define a table right for a role:
 1.    Choose Define, Roles from the USoft Definer menu.

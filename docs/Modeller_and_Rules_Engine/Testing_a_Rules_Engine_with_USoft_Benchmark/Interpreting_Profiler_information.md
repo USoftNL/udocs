@@ -181,8 +181,12 @@ The values in the Reason column are those that are displayed when you use USoft 
 
  The Execution Tree Tab Page on the Test Profile Window displays all the execution elements in a tree representation, making use of the Parent ID and ID information for the elements.
 
-> [!WARNING]
-> If you open a tree element with a large number of children, for example a manipulation that updates 10000 records, this can take a long time to open due to the large number of SQL statements involved.
+
+:::warning
+
+If you open a tree element with a large number of children, for example a manipulation that updates 10000 records, this can take a long time to open due to the large number of SQL statements involved.
+
+:::
 
  
 
@@ -352,8 +356,12 @@ To obtain index hints from the test database:
 3. The Available Index field contains the value 1, 2 etc., if USoft Developer has auto-generated an index on the table's primary, secondary key etc. The field contains a name if an additional index was created manually with the Definer. The field is empty if USoft Developer knows NO index.
 4. Scroll through the records, and look for those combinations in which the Available Index field is empty, and the related SQL statements (displayed in the "SQL Statements that Generate this Index Hint" info box) take up much time. The Column Name field lists the columns on which you COULD put an index (see the note below).
 
-> [!NOTE]
-> Once you have obtained the index hints, you will have to use a trial-and-error method to find out whether performance really increases. It may turn out, for example, that performance increases for this aspect of your application's functionality but decreases for some other aspect.
+
+:::note
+
+Once you have obtained the index hints, you will have to use a trial-and-error method to find out whether performance really increases. It may turn out, for example, that performance increases for this aspect of your application's functionality but decreases for some other aspect.
+
+:::
 
 To obtain index hints via the Test Profiles window:
 

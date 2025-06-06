@@ -6,8 +6,12 @@ id: USCSXSLApply
 
 
 
-> [!NOTE]
-> This article is about the **Apply** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+
+:::note
+
+This article is about the **Apply** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+
+:::
 
 ## **USCSXSL.Apply**
 

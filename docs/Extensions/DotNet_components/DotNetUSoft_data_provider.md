@@ -56,5 +56,9 @@ conn.Close();
 
 For more information on .NET data sources, refer to http://msdn.microsoft.com.
 
-> [!NOTE]
-> To take advantage of planned future developments related to cross referencing of SQL within C# code, declare all your SQL statements as static attributes in the RulesEngineSQL class.
+
+:::note
+
+To take advantage of planned future developments related to cross referencing of SQL within C# code, declare all your SQL statements as static attributes in the RulesEngineSQL class.
+
+:::

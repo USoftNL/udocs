@@ -30,8 +30,12 @@ For practical reasons, in USoft Studio, you can simply write the regulation in t
 
 ## Beta implementation: Motivations as foreign keys
 
-> [!WARNING]
-> This describes a Beta implementation that is not yet a production feature in USoft Studio.
+
+:::warning
+
+This describes a Beta implementation that is not yet a production feature in USoft Studio.
+
+:::
 
  An elegant way of accounting for motivations is by placing them in a **separate** vocabulary (or: USoft Studio project) and referring to them by Movation foreign keys (in other vocabularies) that refer to motivation IDs.
 

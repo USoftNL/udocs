@@ -35,8 +35,12 @@ function applicationOnloadActions(){
 
 ## Using a control
 
-> [!WARNING]
-> This method allows you to embed Web Benchmark visually in exactly the way you require. The drawback of this method is that Web Benchmark could lose its proper context when navigating between web pages takes place, unless the application runs entirely within a frame control and the Web Benchmark control is placed outside this frame control.
+
+:::warning
+
+This method allows you to embed Web Benchmark visually in exactly the way you require. The drawback of this method is that Web Benchmark could lose its proper context when navigating between web pages takes place, unless the application runs entirely within a frame control and the Web Benchmark control is placed outside this frame control.
+
+:::
 
 1. In USoft Web Designer, open the Publication Configuration against which you want to publish your web application. Do this by using the Publish option in the Web Designer menu.
 

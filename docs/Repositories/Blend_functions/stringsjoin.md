@@ -6,8 +6,12 @@ id: stringsjoin
 
 
 
-> [!NOTE]
-> This article is about the **strings:join**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:join**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:join**
 

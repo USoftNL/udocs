@@ -156,8 +156,12 @@ is that tours are organised in such a way that it is *physically impossible* for
 
 One of the primary purposes of most USoft applications is to guarantee a high level of data quality in data that reflect business activity. At this level, what the data represent and therefore what they must look like is key. Whether you consider the rule to be "about data" or "about activity" is hardly relevant, and therefore it is not essential to talk about "registration" at all.
 
-> [!TIP]
-> For this same reason, often in USoft, you might as well leave out data activity verbs like "register", "record", "assign", "identify".
+
+:::tip
+
+For this same reason, often in USoft, you might as well leave out data activity verbs like "register", "record", "assign", "identify".
+
+:::
 
 An acceptable way to express the rule as input for the intended data integrity would be:
 

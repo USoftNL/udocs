@@ -6,8 +6,12 @@ id: xslutilapplyTemplate
 
 
 
-> [!NOTE]
-> This article is about the **xslutil:applyTemplate**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **xslutil:applyTemplate**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **xslutil:applyTemplate**
 

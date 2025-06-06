@@ -4,8 +4,12 @@ id: Attachments_in_UDeliver
 
 # Attachments in UDeliver
 
-> [!NOTE]
-> This article is about the **attachment** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **attachment** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 **See also**
 

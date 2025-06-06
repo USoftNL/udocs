@@ -4,8 +4,12 @@ id: Upgrade_scripts
 
 # Upgrade scripts
 
-> [!NOTE]
-> This article is about the **upgrade script** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **upgrade script** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 **See also**
 

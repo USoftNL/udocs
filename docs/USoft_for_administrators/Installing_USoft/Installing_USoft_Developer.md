@@ -28,10 +28,14 @@ from the USoft download site, contact the USoft Support desk for access requests
 
 where processor is the bit processor of your PC. Look for x64 if you have a 64-bit processor or Win32 if you have a 32-bit processor. Wait for the Installation Wizard to initialize, and the welcome message to appear.
 
-> [!NOTE]
-> For developers working on development environments: If a day version of USoft is already installed on your system, you will be presented with a list of maintenance options at this point. You can choose to:
-> When performing an overwrite, you must choose an installed version to overwrite. The only displayed versions to overwrite have the same *patch names*, but different* dayversion names*. The installed version you choose to overwrite is uninstalled afterward. More on versioning: 
->  
+
+:::note
+
+For developers working on development environments: If a day version of USoft is already installed on your system, you will be presented with a list of maintenance options at this point. You can choose to:
+When performing an overwrite, you must choose an installed version to overwrite. The only displayed versions to overwrite have the same *patch names*, but different* dayversion names*. The installed version you choose to overwrite is uninstalled afterward. More on versioning:
+
+
+:::
 
 3. Click Next to continue.
 
@@ -45,13 +49,21 @@ for more information about the central USoft log folder.
 
 5. Click Next to accept the default installation folder and log folder or click Browse… if you want to specify other folders.
 
-> [!NOTE]
-> It is possible to install multiple patch versions and major versions of USoft alongside each other, e.g. 10.0.1A and 10.0.1K  or USoft 9 and 10 on one machine. This is generally intended for test or diagnostic purposes and should not reflect a production use of USoft. This can be done by selecting a different folder other other than an existing USoft install folder during the setup.
+
+:::note
+
+It is possible to install multiple patch versions and major versions of USoft alongside each other, e.g. 10.0.1A and 10.0.1K  or USoft 9 and 10 on one machine. This is generally intended for test or diagnostic purposes and should not reflect a production use of USoft. This can be done by selecting a different folder other other than an existing USoft install folder during the setup.
+
+:::
 
 You will now be asked to type the path to your license file (LICENSE.DAT). This file will have been provided to you by the USoft Service desk. You should refer to the [License ](/docs/USoft_for_administrators/USoft_license_management)documentation for details of how to install and use it.
 
-> [!NOTE]
-> You cannot install or use USoft Series products without a valid LICENSE.DAT file. You also cannot place the LICENSE.DAT file in the same folder as the installation folder defined in the previous dialog as the installer will copy it for you.
+
+:::note
+
+You cannot install or use USoft Series products without a valid LICENSE.DAT file. You also cannot place the LICENSE.DAT file in the same folder as the installation folder defined in the previous dialog as the installer will copy it for you.
+
+:::
 
 6. Type the path to your LICENSE.DAT file or use the Browse… button to locate it and click Next to continue.
 
@@ -61,8 +73,12 @@ You will now be asked in which program group the program items must be installed
 
 Once you have completed all the previous screens of the wizard, the wizard is now ready to install the USoft software.
 
-> [!NOTE]
-> If the target installation folder has similar files in use, please close all other USoft related applications and processes (Rules Services, Service Framework servers) in order to continue.
+
+:::note
+
+If the target installation folder has similar files in use, please close all other USoft related applications and processes (Rules Services, Service Framework servers) in order to continue.
+
+:::
 
 8. Click Install to start installing files. A status screen is displayed to keep you informed of progress.
 

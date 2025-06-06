@@ -24,7 +24,11 @@ The following property is in scope for the **invoke** recordable action:
 
 
 
-> [!NOTE]
-> If the invoked test requires you to pass input parameter values, these values must be entered as part of this action, or else the playback engine will report them as missing.
+
+:::note
+
+If the invoked test requires you to pass input parameter values, these values must be entered as part of this action, or else the playback engine will report them as missing.
+
+:::
 
  

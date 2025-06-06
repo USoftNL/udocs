@@ -27,15 +27,27 @@ To install a server-based license:
 
 3. If you have an existing USoft installation, then replace the existing license.dat file in the install directory of USoft with the license.dat obtained in step 1. If you have not installed USoft yet, then you need to provide the obtained license.dat of step 1 file during the setup.
 
-> [!NOTE]
-> If necessary you can double-check the name of your License Server by opening the LICENSE.DAT file in a text editor. The name of your License Server is stored in the line that reads: "SERVER". Make sure the name of the listed server matches the (host)name of the target server.
-> To check the hostname of your server, use the *ping* command. Type 'ping \<servername>'. The response will tell you if the server name is valid or not. Otherwise you can use the *hostname *command in windows to check your hostname.
 
-> [!NOTE]
-> When a file server is also used as a license server you could use the installation directory as the license directory for the license server. In this way, with only one file being used by all clients and the license server, a correct synchronization between server and client LICENSE.DAT files is guaranteed. There is one drawback. If you uninstall USoft, you will also remove the LICENSE.DAT file from the license server. Remember to make a copy before uninstalling USoft.
+:::note
 
-> [!NOTE]
-> The license server makes a log file directory in the root folder. It is always called 'flexlm'. If you do not want extra directory entries, it is a good idea to make the license directory '\<root>\\flexlm\\'. There is no other way of preventing the extra entry.
+If necessary you can double-check the name of your License Server by opening the LICENSE.DAT file in a text editor. The name of your License Server is stored in the line that reads: "SERVER". Make sure the name of the listed server matches the (host)name of the target server.
+To check the hostname of your server, use the *ping* command. Type 'ping \<servername>'. The response will tell you if the server name is valid or not. Otherwise you can use the *hostname *command in windows to check your hostname.
+
+:::
+
+
+:::note
+
+When a file server is also used as a license server you could use the installation directory as the license directory for the license server. In this way, with only one file being used by all clients and the license server, a correct synchronization between server and client LICENSE.DAT files is guaranteed. There is one drawback. If you uninstall USoft, you will also remove the LICENSE.DAT file from the license server. Remember to make a copy before uninstalling USoft.
+
+:::
+
+
+:::note
+
+The license server makes a log file directory in the root folder. It is always called 'flexlm'. If you do not want extra directory entries, it is a good idea to make the license directory '\<root>\\flexlm\\'. There is no other way of preventing the extra entry.
+
+:::
 
  
 

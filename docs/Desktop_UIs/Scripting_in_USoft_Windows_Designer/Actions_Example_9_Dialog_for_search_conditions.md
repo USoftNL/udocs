@@ -15,8 +15,12 @@ Here are the two GUI classes you need to create:
 - A new Search Dialog dialog box with a DATE field, a NUMBER field and a Search button. The Search action consists of opening the Search Results info window and passing the DATE and the NUMBER value as parameters. Use the standard USoft date format and database specific functions to transfer DATE values safely.
 - A new Search Results info window. You can define a subclass of the Scheduled Tours info window that performs a query on startup with the query conditions passed to it by the dialog. You will have to create two new string properties to catch those values.
 
-> [!NOTE]
-> The reason why you can use simple string values here is that the search dialog closes when the OK button is clicked. The Search Results window does not refer back to the dialog. This contrasts with examples 11 and 12, where object-like (as opposed to string-like) properties are required.
+
+:::note
+
+The reason why you can use simple string values here is that the search dialog closes when the OK button is clicked. The Search Results window does not refer back to the dialog. This contrasts with examples 11 and 12, where object-like (as opposed to string-like) properties are required.
+
+:::
 
 ## Search Results Window
 

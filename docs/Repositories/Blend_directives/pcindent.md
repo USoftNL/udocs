@@ -6,8 +6,12 @@ id: pcindent
 
 
 
-> [!NOTE]
-> This article is about the **pc:indent**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:indent**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:indent**
 

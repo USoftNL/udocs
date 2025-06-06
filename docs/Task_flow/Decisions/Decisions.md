@@ -77,8 +77,12 @@ The Decision SQL is executed when the Decision is called. If it is a SELECT stat
 
 If Decision SQL is an INVOKE statement, the INVOKE statement is executed, and then the Yes Action script is executed. If the Yes Action contains placeholders (:1, :2 ...), then these are substituted by result values returned by the invocation.
 
-> [!NOTE]
-> For more on placeholders, go to [Decision variables and placeholders](/docs/Task_flow/Decisions/Decision_variables_and_placeholders.md).
+
+:::note
+
+For more on placeholders, go to [Decision variables and placeholders](/docs/Task_flow/Decisions/Decision_variables_and_placeholders.md).
+
+:::
 
 In Decision SQL, if you do not need to access the database, you can omit the FROM clause. if you only need to evaluate a SQL function in the SELECT clause, you only need to write a SELECT clause. If you only need to evaluate a condition, you only need to write a WHERE clause. If you have only a WHERE clause, you can even drop the WHERE keyword, so  that even the following is still a valid Decision SQL value:
 

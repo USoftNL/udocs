@@ -6,8 +6,12 @@ id: Translating_system_messages_and_application_strings
 
 For a system language, regional separator symbols are settings that you can simply [define declaratively](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md), but system messages and application strings are textual elements that you must ask a translator to provide.
 
-> [!TIP]
-> USoft 10 and USoft 9.1 versions ship System Local Messages for the Dutch language. To use these, you need to load them. From the USoft Definer menu, choose Tools, Language, Load System Messages.
+
+:::tip
+
+USoft 10 and USoft 9.1 versions ship System Local Messages for the Dutch language. To use these, you need to load them. From the USoft Definer menu, choose Tools, Language, Load System Messages.
+
+:::
 
 There are 2 text translation mechanisms in USoft. One is for **system messages** and the other is for **application strings**:
 
@@ -168,8 +172,12 @@ To **test** translated constraint messages in web application pages created in U
 \WebSite\lang\*language*.json
 ```
 
-> [!TIP]
-> You may have to restart also the server in Service Definer that serves the Rules Service, because in current patches of USoft 9.1 this server caches messages from the Rules Service, a behaviour that is planned to be phased out.
+
+:::tip
+
+You may have to restart also the server in Service Definer that serves the Rules Service, because in current patches of USoft 9.1 this server caches messages from the Rules Service, a behaviour that is planned to be phased out.
+
+:::
 
 ### Defining translations and Origin for other user-defined application strings
 

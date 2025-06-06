@@ -6,8 +6,12 @@ id: Max_Prepared_Checks
 
 
 
-> [!NOTE]
-> This article is about the **Max Prepared Checks**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Max Prepared Checks**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Max Prepared Checks**
 

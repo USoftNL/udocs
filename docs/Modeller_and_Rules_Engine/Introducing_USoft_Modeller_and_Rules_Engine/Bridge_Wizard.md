@@ -61,8 +61,12 @@ When you press Next to go to the third page of the Bridge Wizard, the selected t
 
 On this Bridge Wizard page, you can select or deselect columns from the tables selected on the previous wizard page, to obtain a list of those columns that you actually want to import into the repository.
 
-> [!NOTE]
-> If you deselect (uncheck) mandatory columns (marked with !)  the USoft application is prevented from inserting data into that table. If you deselect primary keys, this will prevent a manual commit following the import.
+
+:::note
+
+If you deselect (uncheck) mandatory columns (marked with !)  the USoft application is prevented from inserting data into that table. If you deselect primary keys, this will prevent a manual commit following the import.
+
+:::
 
 Press the Next button to go to the fourth and final page of the Bridge Wizard.
 

@@ -76,8 +76,12 @@ When the application timer is started, it first checks the current record in T_A
 
 By default, the application timer continuously displays the current time. This allows you to see that it is working. The timer displays the database time, which may differ from the local time on the PC.
 
-> [!NOTE]
-> You should only write productive constraints for use with the timer. You should also make sure that when such constraints are evaluated, they cannot lead to violations, or messages requiring user interaction.
+
+:::note
+
+You should only write productive constraints for use with the timer. You should also make sure that when such constraints are evaluated, they cannot lead to violations, or messages requiring user interaction.
+
+:::
 
 ## Starting and stopping the Application Timer
 

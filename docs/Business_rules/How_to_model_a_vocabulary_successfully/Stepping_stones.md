@@ -44,15 +44,23 @@ In this example, only 1 rule is shown, but the strategy becomes more interesting
 
 ![](./assets/4cc07752-92b7-43f6-b1d9-f93ba56b3791.png)
 
-> [!TIP]
-> The hyphens in "in-high-demand” make it possible for USoft Studio to recognise these words as a unary fact type. The USoft product roadmap contains the wish to make these hyphens unnecessary.
+
+:::tip
+
+The hyphens in "in-high-demand” make it possible for USoft Studio to recognise these words as a unary fact type. The USoft product roadmap contains the wish to make these hyphens unnecessary.
+
+:::
 
 *Example 5*
 
 Essentially the same "stepping stone” mechanism can also be observed for pandemic in the following example. The definition makes it much easier to formulate the rules.
 
-> [!TIP]
-> pandemic shows the "stepping stone” mechanism, but it's also simply too artificial to talk about pandemics without having pandemic.
+
+:::tip
+
+pandemic shows the "stepping stone” mechanism, but it's also simply too artificial to talk about pandemics without having pandemic.
+
+:::
 
 ![](./assets/22e5e913-df5c-437f-89b3-cddd52a049ac.png)
 

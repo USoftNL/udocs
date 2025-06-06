@@ -64,8 +64,12 @@ On the Alias tab, click the Include button, and add the objectsalias.h file. Cli
 
 ## How to call context-sensitive help from objects in your application
 
-> [!NOTE]
-> Use the Windows Designer to associate help topics with visible objects (controls) by specifying the map number for the topic, and the name of the help file from which to take it.
+
+:::note
+
+Use the Windows Designer to associate help topics with visible objects (controls) by specifying the map number for the topic, and the name of the help file from which to take it.
+
+:::
 
 - For fields, the best place to set these properties is the Base Table class of the tables involved. The fields will then have What's This? help irrespective of the type of window they appear in.
 - For windows/dialog, set these properties at the window level.
@@ -103,8 +107,12 @@ To add a Help button:
 
 - If all your Help buttons are to call the same help file, set the Help File property as well.
 
-> [!NOTE]
-> The help file identified by the Help File property can be either a WinHelp file (.HLP extension) or a Compiled HTML Help file (.CHM file extension).
+
+:::note
+
+The help file identified by the Help File property can be either a WinHelp file (.HLP extension) or a Compiled HTML Help file (.CHM file extension).
+
+:::
 
 2. Open the class to which you want to add a Help button, and then drag and drop your newly created Help button onto it from the Class Catalog.
 

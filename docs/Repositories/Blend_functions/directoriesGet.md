@@ -6,8 +6,12 @@ id: directoriesGet
 
 
 
-> [!NOTE]
-> This article is about the **directories:Get**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **directories:Get**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **directories:Get**
 

@@ -4,18 +4,30 @@ tags: [USoft11]
 ---
 # Importing from USoft Studio into USoft Definer 11
 
-> [!NOTE]
-> **See also**
->  
+
+:::note
+
+**See also**
+
+
+:::
 
 ----
 
-> [!CAUTION]
-> This import works only if your data come from **USoft Studio 4.2**. You can see the Studio version in the footer bar of Studio.
-> We offer a workaround utility for exports from USoft Studio 4.1. Perform the following 2 temporary steps.
 
-> [!TIP]
-> We also offer a workaround utility for **migrating earlier Business Rules from Definer (Teamwork) to Studio**. Please go to the bottom of this article: [Formulations in USoft Definer](/docs/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md).
+:::danger
+
+This import works only if your data come from **USoft Studio 4.2**. You can see the Studio version in the footer bar of Studio.
+We offer a workaround utility for exports from USoft Studio 4.1. Perform the following 2 temporary steps.
+
+:::
+
+
+:::tip
+
+We also offer a workaround utility for **migrating earlier Business Rules from Definer (Teamwork) to Studio**. Please go to the bottom of this article: [Formulations in USoft Definer](/docs/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md).
+
+:::
 
 To import data from USoft Studio 4.1:
 
@@ -70,8 +82,12 @@ With a few clicks, you can get data from a USoft Studio project into USoft Defin
 
 Go to the USoft Studio project as an Owner, press **Administration** (Du.: Beheer), then press **Export Full** (Du.: Export Volledig). An XML export file is downloaded.
 
-> [!NOTE]
-> From USoft Studio 4.2, the Export Full button is also available in the footer bar of the Formulations screen. You no longer need to be Owner to use this function. Application User privileges are sufficient.
+
+:::note
+
+From USoft Studio 4.2, the Export Full button is also available in the footer bar of the Formulations screen. You no longer need to be Owner to use this function. Application User privileges are sufficient.
+
+:::
 
 From the USoft Definer 11 menu, choose Teamwork, Object Shopping, Import from USoft Studio. Or click this icon in the icon ribbon:
 
@@ -91,9 +107,13 @@ At this point, you can do one of 3 things:
 - Inspect a "Compare” preview report first. Press **Analyse**, then **Compare**.
 - Inspect a “Read” preview report first. Press **Analyse,** then **Read**.
 
-> [!WARNING]
-> **Import** potentially overwrites or deletes records in the Business Rules table. The preview reports can help you decide if you are OK with that.
-> The idea of **Import** is that you use it to keep in sync a *single* vocabulary (on the Studio side) and a *single* repository (on the Definer side). If you act otherwise, you must ensure manually that Business Rules have unique IDs across Vocabularies because, in USoft Definer, a Business Rule is identified uniquely by its ID, not by the combination (Vocabulary, ID). **Import** does not affect Business Rule items in Vocabularies other than the Vocabulary you are importing.
+
+:::warning
+
+**Import** potentially overwrites or deletes records in the Business Rules table. The preview reports can help you decide if you are OK with that.
+The idea of **Import** is that you use it to keep in sync a *single* vocabulary (on the Studio side) and a *single* repository (on the Definer side). If you act otherwise, you must ensure manually that Business Rules have unique IDs across Vocabularies because, in USoft Definer, a Business Rule is identified uniquely by its ID, not by the combination (Vocabulary, ID). **Import** does not affect Business Rule items in Vocabularies other than the Vocabulary you are importing.
+
+:::
 
 ----
 
@@ -177,8 +197,12 @@ The items are imported into USoft Definer following the “[UPSERT](/docs/Extens
 
 This step deletes from the Business Rules table in USoft Definer all the records that no longer appear in the Studio exportfile being imported. This applies only to those Business Rule records that are in the Vocabulary named in the exportfile.
 
-> [!TIP]
-> Previous versions of USoft did not allow you to delete Business Rules that had remaining Implementations. This restriction has been dropped. Implementations are now silently dropped along with the Business Rule they belong to (cascading delete).
+
+:::tip
+
+Previous versions of USoft did not allow you to delete Business Rules that had remaining Implementations. This restriction has been dropped. Implementations are now silently dropped along with the Business Rule they belong to (cascading delete).
+
+:::
 
 ## “Compare” preview report
 
@@ -216,10 +240,14 @@ this means that the Definer “Address change” rule set is not (or: no longer)
 
 The "Compare” preview report is machine-processable. If you like, you can remove a difference, or a set of differences, by passing it to XML.Import. This gives you complete control, but the primary purpose of the “Compare” preview report is not to offer an executable but rather to allow you to inspect and analyse the differences. USoft recommends you use the standard **Import** routine (previous section) to transfer data from Studio to Definer, except perhaps in special cases when you have a reason to tweak manually.
 
-> [!NOTE]
-> This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
-> [Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
-> [Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
+
+:::note
+
+This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
+[Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
+[Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
+
+:::
 
 ## “Read” preview report
 
@@ -273,8 +301,12 @@ For many teams, in practice, the best convention is that no team member makes an
 
 - Implementations attached to Business Rules.
 
-> [!NOTE]
-> Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+
+:::note
+
+Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+
+:::
 
 ### Allow team members access for editing Studio and Definer concurrently
 

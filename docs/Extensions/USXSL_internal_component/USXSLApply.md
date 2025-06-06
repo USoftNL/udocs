@@ -6,9 +6,13 @@ id: USXSLApply
 
 
 
-> [!NOTE]
-> This article is about the **Apply** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
-> See also the [Data transformation with XSLT]() section.
+
+:::note
+
+This article is about the **Apply** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
+See also the [Data transformation with XSLT]() section.
+
+:::
 
 ## **USXSL.Apply**
 
@@ -16,8 +20,12 @@ Applies an XSLT transformation to an XML document.
 
 Returns the document that is the result of applying the transformation, or results in an error message.
 
-> [!TIP]
-> To write the result to a file, use USXSL.Apply2File instead.
+
+:::tip
+
+To write the result to a file, use USXSL.Apply2File instead.
+
+:::
 
 XML and XSL documents are removed from memory at the end of processing. The second time the same documents are used, they will be parsed again. For performance reasons, however, if your application re-uses the result of an USXSL.Apply call, it is better to parse the documents only once. Use the USXSL.SetXML and USXSL.SetXSL methods for this technique.
 

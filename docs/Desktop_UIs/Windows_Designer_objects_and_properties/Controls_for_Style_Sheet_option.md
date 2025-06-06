@@ -18,8 +18,12 @@ To use the Controls for Style Sheet option::
 
 3.Use the Controls tab page of the Windows Designer catalog to drag and drop the required control class or classes onto the design view.
 
-> [!CAUTION]
-> Do NOT use the Insert menu in this case.
+
+:::danger
+
+Do NOT use the Insert menu in this case.
+
+:::
 
 4.Use the Property Inspector to give the control classes the required look and feel.
 

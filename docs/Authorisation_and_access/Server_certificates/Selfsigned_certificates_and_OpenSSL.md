@@ -23,5 +23,9 @@ Before you can use a TLS/SSL with USoft products, there are a number of further 
 - Activation of TLS in the Rules Service
 - Activation of TLS in the JDBC Driver
 
-> [!NOTE]
-> A set of working certificate files is installed in your \<usoft_install_folder>\\CERTS\\ folder when you install USoft software. You can use these files for testing purposes, if you do not want to make your own.
+
+:::note
+
+A set of working certificate files is installed in your \<usoft_install_folder>\\CERTS\\ folder when you install USoft software. You can use these files for testing purposes, if you do not want to make your own.
+
+:::

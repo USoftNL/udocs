@@ -6,8 +6,12 @@ id: pcthen
 
 
 
-> [!NOTE]
-> This article is about the **pc:then**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:then**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:then**
 
@@ -33,8 +37,12 @@ Identifies a script section that executes only if a condition specified in the t
 </pc:if>
 ```
 
-> [!TIP]
-> \<pc:then> is only legal as the first child element of a \<pc:if> element.
+
+:::tip
+
+\<pc:then> is only legal as the first child element of a \<pc:if> element.
+
+:::
 
 *Example*
 

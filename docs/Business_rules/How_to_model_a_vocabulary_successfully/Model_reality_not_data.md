@@ -10,8 +10,12 @@ In USoft Studio, SBVR models are for business activity. EAR models are for data 
 
 This essay article will show the subtle differences between the two. It will give you handles for choosing the best model on both sides.
 
-> [!TIP]
-> This article is about modelling data as an *alternative* to modelling business activity. It is not about terms, definitions and rules that are simply *about* data and that you have no alternative for. There is no question that it is valid to have this rule in your model, including the concepts it uses:
+
+:::tip
+
+This article is about modelling data as an *alternative* to modelling business activity. It is not about terms, definitions and rules that are simply *about* data and that you have no alternative for. There is no question that it is valid to have this rule in your model, including the concepts it uses:
+
+:::
 
 ## SBVR models and EAR models compared
 
@@ -119,8 +123,12 @@ Ground handlers at an airport have a code system with "handler indicators” or 
 
 In this situation, handler indicator and its synonym HI-code are *descriptor concepts*. They are noun concepts but they do not stand for actual things in reality. They just *describe* things or situations.
 
-> [!TIP]
-> Descriptor concepts are like [type concepts](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md) in many ways, but they come into existence for slightly different reasons.
+
+:::tip
+
+Descriptor concepts are like [type concepts](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md) in many ways, but they come into existence for slightly different reasons.
+
+:::
 
 Consider this for a moment. package or piece clearly stands for something physical in reality. rental ID does not stand in the same way for something physical: rental IDs are an administrative reality. But you probably cannot do without rental ID as an independent concept, because otherwise you cannot account for the system of rental IDs, which you probably don't want to miss, because it will play a big role in business rules. HI-code is one step further removed from reality, because you can alternatively describe reality without HI-codes. Indeed, you could use:
 

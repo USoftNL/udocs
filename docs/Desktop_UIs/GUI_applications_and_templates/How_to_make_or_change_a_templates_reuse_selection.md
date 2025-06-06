@@ -28,8 +28,12 @@ The dialog disappears and returns the focus to the Application Properties dialog
 
 The new selection is saved and the Windows Designer's catalog is refreshed.
 
-> [!NOTE]
-> The Cancel button will only undo changes made on the General tab page.
+
+:::note
+
+The Cancel button will only undo changes made on the General tab page.
+
+:::
 
 7.Choose File, Save All from the menu.
 
@@ -57,7 +61,11 @@ The dialog disappears and returns the focus to the Application Properties dialog
 
 The new selection is saved and the Windows Designer's Windows Designer catalog is refreshed. Classes that were deselected only disappear if no additional settings were made.
 
-> [!NOTE]
-> The Cancel button will only undo changes made on the General tab page.
+
+:::note
+
+The Cancel button will only undo changes made on the General tab page.
+
+:::
 
 8.Choose File, Save All from the menu.

@@ -21,8 +21,12 @@ Alternative input formats can be used for IO formats for date and time values, a
 3. In the IO Format field, type the format in which you want USoft to display the data once they are accepted.
 4. In the Alternative Input Formats box, optionally type alternative other IO formats that you want USoft to recognise. Set Position to a sequence number. The alternatives are considered in the order of the Position sequence numbers.
 
-> [!CAUTION]
-> On Oracle, if you have input formats that contain interpunction symbols such as slashes or hyphens, alternative formats only work properly if you surround these symbols by double quotes. For example, if you display 01 August 2024 as 01-08-2024 (**DD-MM-YYYY**), but you also want the American 08/01/2024 input to be interpreted as this date, then on Oracle, use double quotes as in the table below. This is ONLY necessary if you use an alternative IO format at all. On **SQL Server,** by contrast, the double quotes are NOT accepted.
+
+:::danger
+
+On Oracle, if you have input formats that contain interpunction symbols such as slashes or hyphens, alternative formats only work properly if you surround these symbols by double quotes. For example, if you display 01 August 2024 as 01-08-2024 (**DD-MM-YYYY**), but you also want the American 08/01/2024 input to be interpreted as this date, then on Oracle, use double quotes as in the table below. This is ONLY necessary if you use an alternative IO format at all. On **SQL Server,** by contrast, the double quotes are NOT accepted.
+
+:::
 
 |** **   |**Oracle**|**SQL Server**|
 |--------|--------|--------|

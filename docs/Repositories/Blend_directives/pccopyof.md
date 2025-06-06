@@ -6,8 +6,12 @@ id: pccopyof
 
 
 
-> [!NOTE]
-> This article is about the **pc:copy-of**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:copy-of**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:copy-of**
 

@@ -6,8 +6,12 @@ id: rowpostselect
 
 
 
-> [!NOTE]
-> This article is about the **rowpostselect**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **rowpostselect**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **rowpostselect**
 

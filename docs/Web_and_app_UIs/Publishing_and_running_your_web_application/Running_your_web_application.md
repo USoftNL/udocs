@@ -28,8 +28,12 @@ http://localhost:8090/myservice1/myconnection1
 
 Here are some solutions to some problems that you might experience when you try to log on to a generated web page.
 
-> [!TIP]
-> For more elaborate error messages, set the publication configuration's Log Level attribute to INFO.
+
+:::tip
+
+For more elaborate error messages, set the publication configuration's Log Level attribute to INFO.
+
+:::
 
 **Problem**
 
@@ -125,5 +129,9 @@ Unspecified error
 
 You need to register a USoft COM+ component in Microsoft Component Services.
 
-> [!WARNING]
-> This way of running web pages is now deprecated. It may not be supported in future versions of USoft. You should prefer running your web pages with a USoft service.
+
+:::warning
+
+This way of running web pages is now deprecated. It may not be supported in future versions of USoft. You should prefer running your web pages with a USoft service.
+
+:::

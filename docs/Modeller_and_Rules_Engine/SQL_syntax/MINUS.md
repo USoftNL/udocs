@@ -6,8 +6,12 @@ id: MINUS
 
 
 
-> [!NOTE]
-> This article is about the **MINUS** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about the **MINUS** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **MINUS**
 
@@ -15,8 +19,12 @@ The MINUS operator removes, from the outcome of the SELECT statement appearing b
 
 With MINUS, the result is **different** depending on whether the first or the second SELECT statement appears first.
 
-> [!TIP]
-> In USoft SQL syntax, MINUS is a synonym of [EXCEPT](/docs/Modeller_and_Rules_Engine/SQL_syntax/EXCEPT.md).
+
+:::tip
+
+In USoft SQL syntax, MINUS is a synonym of [EXCEPT](/docs/Modeller_and_Rules_Engine/SQL_syntax/EXCEPT.md).
+
+:::
 
 *Syntax*
 
@@ -33,6 +41,10 @@ In the USoft platform, MINUS is supported in:
 - the SQL Command tool.
 - Subqueries in constraint SQL.
 
-> [!CAUTION]
-> MINUS is not supported in the main statement of constraint SQL.
-> MINUS is not supported in Logical View SQL.
+
+:::danger
+
+MINUS is not supported in the main statement of constraint SQL.
+MINUS is not supported in Logical View SQL.
+
+:::

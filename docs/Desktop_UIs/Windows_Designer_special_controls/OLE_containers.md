@@ -6,8 +6,12 @@ id: OLE_containers
 
 USoft Developer allows you to include OLE (= Object Linking and Embedding) containers in your application. These containers can hold objects from any Windows application that supports OLE, such as the Explorer, Word, Video for Windows, and so on. These objects are stored in the database in the form of Binary Large Objects (BLOBs). By double clicking on such an object, the end-user can either edit the object with the "original" application, or in case of multimedia files (for example WAV and AVI) play the particular clip.
 
-> [!NOTE]
-> The options for manipulating OLE objects in your application can all be accessed by clicking the right mouse button.
+
+:::note
+
+The options for manipulating OLE objects in your application can all be accessed by clicking the right mouse button.
+
+:::
 
 ### Defining an OLE field
 
@@ -66,8 +70,12 @@ To edit an embedded object directly:
 - If you are editing the object in a separate application window, choose either Exit or Quit from the File menu to return to USoft OLE Container.
 - If you are editing the object in an application that temporarily replaces the USoft OLE Container menus and toolbars, click anywhere outside the embedded object to return to USoft OLE Container.
 
-> [!NOTE]
-> Some embedded objects, such as video and sound clips, play when you double-click them, as opposed to opening the source application to allow you to edit the object.
+
+:::note
+
+Some embedded objects, such as video and sound clips, play when you double-click them, as opposed to opening the source application to allow you to edit the object.
+
+:::
 
 ### Linking to another file using OLE
 
@@ -99,8 +107,12 @@ To display the linked object as an icon in the USoft OLE Container document, sel
 
 Using this procedure, you can create a link only to an entire file; you cannot link to a selection in a file. To link to a selection from a file, see How to Link to a Selection From a File.
 
-> [!NOTE]
-> The USoft OLE Container updates links each time you open the application and each time the data in the source document changes.
+
+:::note
+
+The USoft OLE Container updates links each time you open the application and each time the data in the source document changes.
+
+:::
 
 ### Linking to a selection from a file
 

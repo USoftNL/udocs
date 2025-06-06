@@ -29,5 +29,9 @@ Your application should now open with the Benchmark toolkit window floating on t
 
 USoft Benchmark toolkit windowYou are now ready to record and play test procedures, manage test data, and run and inspect test profiles.
 
-> [!NOTE]
-> You can start Benchmark in an already running application by executing in SQL Command:
+
+:::note
+
+You can start Benchmark in an already running application by executing in SQL Command:
+
+:::

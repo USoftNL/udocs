@@ -10,8 +10,12 @@ Open a DOS (command prompt) window and change directory to **\\openssl\\bin**  
 
 **openssl genrsa -des3 -out usoftca.key 4096**
 
-> [!NOTE]
-> You must use the filenames specified in these examples.
+
+:::note
+
+You must use the filenames specified in these examples.
+
+:::
 
  
 

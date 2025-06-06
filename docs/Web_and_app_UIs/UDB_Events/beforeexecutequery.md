@@ -6,8 +6,12 @@ id: beforeexecutequery
 
 
 
-> [!NOTE]
-> This article is about the **beforeexecutequery**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **beforeexecutequery**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **beforeexecutequery**
 

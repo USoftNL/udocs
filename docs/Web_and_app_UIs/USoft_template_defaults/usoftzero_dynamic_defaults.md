@@ -59,9 +59,13 @@ Or, the user manipulates purchase amounts in contract lines in a contract. The c
 
 ![](./assets/a53725af-668b-4432-a4bb-fd168175eb23.png)
 
-> [!NOTE]
-> The “dynamic defaults” feature described in this article is the counterpart of [input validation](/docs/Web_and_app_UIs/Web_Designer_controls/Input_validation.md)**.** With dynamic defaults, the web UI reacts to user input by producing a value or a non-blocking message. The focus is on what the UI produces as a reaction to user input. With input validation, the web UI reacts by producing an error: it checks the user input for correctness. The focus is on the user input itself.
-> Another difference is that input validation is built into USoft. It is always available by default. Dynamic defaults are a feature of the usoft-zero template default. They are only available by default if your web application is based on this template default.
+
+:::note
+
+The “dynamic defaults” feature described in this article is the counterpart of [input validation](/docs/Web_and_app_UIs/Web_Designer_controls/Input_validation.md)**.** With dynamic defaults, the web UI reacts to user input by producing a value or a non-blocking message. The focus is on what the UI produces as a reaction to user input. With input validation, the web UI reacts by producing an error: it checks the user input for correctness. The focus is on the user input itself.
+Another difference is that input validation is built into USoft. It is always available by default. Dynamic defaults are a feature of the usoft-zero template default. They are only available by default if your web application is based on this template default.
+
+:::
 
 ## Implementations
 
@@ -140,9 +144,13 @@ In USoft transitive constraints, an OLD() function is available for getting the 
 
 By default, the behaviour is triggered by any change in the columns involved. This is not always what you want. By adding conditions with the **OLD_** prefix you can make sure it is triggered only when you want it.
 
-> [!WARNING]
-> The advantage of having dynamic default SQL as application data in the User Application, as opposed to development-time data in Definer or Web Designer, is that any change becomes immediately available. You do not need to re-publish.
-> The drawback is that the SQL is not checked for correctness. All errors are runtime errors. If you change table names or column names in Definer, USoft will not notice the old names are still used in dynamic default SQL.
+
+:::warning
+
+The advantage of having dynamic default SQL as application data in the User Application, as opposed to development-time data in Definer or Web Designer, is that any change becomes immediately available. You do not need to re-publish.
+The drawback is that the SQL is not checked for correctness. All errors are runtime errors. If you change table names or column names in Definer, USoft will not notice the old names are still used in dynamic default SQL.
+
+:::
 
 ###  Dynamic string or number default
 

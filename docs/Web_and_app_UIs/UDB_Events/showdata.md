@@ -6,8 +6,12 @@ id: showdata
 
 
 
-> [!NOTE]
-> This article is about the **showdata**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **showdata**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **showdata**
 

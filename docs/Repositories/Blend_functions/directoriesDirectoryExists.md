@@ -6,8 +6,12 @@ id: directoriesDirectoryExists
 
 
 
-> [!NOTE]
-> This article is about the **directories:DirectoryExists**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **directories:DirectoryExists**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **directories:DirectoryExists**
 

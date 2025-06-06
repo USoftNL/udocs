@@ -142,7 +142,11 @@ The stored value is now named and may be accessed repeatedly by name until it is
 
 ```
 
-> [!CAUTION]
-> With this technique, you are effectively creating *global* variables that are available in the entire application session. This is always dangerous because it is hard to know exactly when they are next referred to. Make sure you call each given variable only in 1 place: the 1 Decision Yes Action.
+
+:::danger
+
+With this technique, you are effectively creating *global* variables that are available in the entire application session. This is always dangerous because it is hard to know exactly when they are next referred to. Make sure you call each given variable only in 1 place: the 1 Decision Yes Action.
+
+:::
 
  

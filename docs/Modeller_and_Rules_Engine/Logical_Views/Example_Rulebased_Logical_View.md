@@ -61,8 +61,12 @@ Set Use Constraints... flags. Because of the cascading Delete Rule between PERSO
 
 Plan ahead what are the special rules that you need.
 
-> [!TIP]
-> At this stage, it is a good idea actually to create the constraints listed. Use dummy SQL statements at this stage. Replace them by the correct SQL in a later step:
+
+:::tip
+
+At this stage, it is a good idea actually to create the constraints listed. Use dummy SQL statements at this stage. Replace them by the correct SQL in a later step:
+
+:::
 
 |**Constraint Name**|**Required Action**|
 |--------|--------|

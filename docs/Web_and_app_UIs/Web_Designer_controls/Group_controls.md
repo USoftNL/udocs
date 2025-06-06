@@ -12,12 +12,16 @@ As a developer, you may want to group objects yourself, for the same reasons. He
 
 ![](./assets/4066a55b-2c20-4e91-920a-b7b3c9c7464f.png)
 
-> [!TIP]
-> **Group or Container ?**
-> Use a **Group** control to group, sequence and position objects in a page. Use a **Container** control to create a sub-area of objects and behaviour that you want to re-use across multiple pages. If the MyButtonGroup of the example is a « Previous / Next » twin set of buttons that you want to look the same, and partly work the same, in all 5 pages of a sequence of 5 individual "wizard” pages, then create a Container for them, insert this Container in all the 5 pages, then make local edits to get local button behaviours.
-> The difference is subtle. The object tree as shown in the picture is a representation of the DOM object structure held in the browser when your page is browsed at runtime. But USoft implements its Page class and Controls class inheritance rules in a *different* structure than the DOM. This structure is embodied in the relationships between so-called ESI records, especially the records in the T_E_TYPE table. These are the records that you manipulate when you define objects, classes and properties in the Web Designer tool.
-> Objects you group in a Group control are still each other's siblings in the ESI structure: they remain direct children of the top-level Page object. As you move them around and perhaps re-group them, inheritance rules continue to apply.
-> Objects you contain in a Container control are only children of the inserted top-level Container object. You may count on inheritance to shape some of the look-and-feel and behaviour of your Container, but if you move the Container to a different place, these inheritance relationships will be lost and you will need to review or recreate them.
+
+:::tip
+
+**Group or Container ?**
+Use a **Group** control to group, sequence and position objects in a page. Use a **Container** control to create a sub-area of objects and behaviour that you want to re-use across multiple pages. If the MyButtonGroup of the example is a « Previous / Next » twin set of buttons that you want to look the same, and partly work the same, in all 5 pages of a sequence of 5 individual "wizard” pages, then create a Container for them, insert this Container in all the 5 pages, then make local edits to get local button behaviours.
+The difference is subtle. The object tree as shown in the picture is a representation of the DOM object structure held in the browser when your page is browsed at runtime. But USoft implements its Page class and Controls class inheritance rules in a *different* structure than the DOM. This structure is embodied in the relationships between so-called ESI records, especially the records in the T_E_TYPE table. These are the records that you manipulate when you define objects, classes and properties in the Web Designer tool.
+Objects you group in a Group control are still each other's siblings in the ESI structure: they remain direct children of the top-level Page object. As you move them around and perhaps re-group them, inheritance rules continue to apply.
+Objects you contain in a Container control are only children of the inserted top-level Container object. You may count on inheritance to shape some of the look-and-feel and behaviour of your Container, but if you move the Container to a different place, these inheritance relationships will be lost and you will need to review or recreate them.
+
+:::
 
 ## How to group objects
 

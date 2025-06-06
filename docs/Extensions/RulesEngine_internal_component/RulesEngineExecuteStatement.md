@@ -6,15 +6,23 @@ id: RulesEngineExecuteStatement
 
 
 
-> [!NOTE]
-> This article is about the **ExecuteStatement** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::note
+
+This article is about the **ExecuteStatement** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::
 
 ## **RulesEngine.ExecuteStatement**
 
 Executes a SQL statement passed as a string.
 
-> [!WARNING]
-> This method can NOT be called from a constraint.
+
+:::warning
+
+This method can NOT be called from a constraint.
+
+:::
 
 Returns nothing if the statement succeeds. If the statement fails, processing depends on the value of the GenerateError pseudo-column.
 

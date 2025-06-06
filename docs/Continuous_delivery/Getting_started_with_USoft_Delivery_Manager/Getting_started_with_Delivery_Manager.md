@@ -6,8 +6,12 @@ id: Getting_started_with_Delivery_Manager
 
 Follow these steps to get started with Delivery Manager.
 
-> [!NOTE]
-> In this article, we will assume you plan to use Delivery Manager to release a product (Delivery Manager has many [additional purposes](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Introducing_USoft_Delivery_Manager.md)). We will assume you already have a USoft application that you want to release. You already have a database account with USoft set up. You already have a USoft Binder file for access.
+
+:::note
+
+In this article, we will assume you plan to use Delivery Manager to release a product (Delivery Manager has many [additional purposes](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Introducing_USoft_Delivery_Manager.md)). We will assume you already have a USoft application that you want to release. You already have a database account with USoft set up. You already have a USoft Binder file for access.
+
+:::
 
 ### Step 1. Create a Delivery Manager repository
 
@@ -19,8 +23,12 @@ Follow these steps to create a Delivery Manager repository. This is a set of dat
 
 ### Step 2. Quick Start
 
-> [!TIP]
-> This step is only possible if you have not been using Delivery Manager before. If you want to start over, repeat Step 1.2 above, but in the Create-Tables dialog, set "Drop Existing Tables” = Yes. CAUTION: Any existing Delivery Manager work will be lost.
+
+:::tip
+
+This step is only possible if you have not been using Delivery Manager before. If you want to start over, repeat Step 1.2 above, but in the Create-Tables dialog, set "Drop Existing Tables” = Yes. CAUTION: Any existing Delivery Manager work will be lost.
+
+:::
 
 1. Open Delivery Manager by double-clicking on the "Delivery Manager" item in the Binder file.
 
@@ -28,8 +36,12 @@ Follow these steps to create a Delivery Manager repository. This is a set of dat
 
 3. Enter a Root Folder. This is a folderpath that points to a location on the file system where you want Delivery Manager to release your application deliverables. If multiple team members are responsible for releases and you want each to release from her own machine, make sure you choose a shared folder. If you are not concerned with releases at all, just with Delivery Manager in general, then you can enter any folderpath.
 
-> [!WARNING]
-> The folder must not already exist in the file system. Delivery Manager insists it wants to create the folder itself.
+
+:::warning
+
+The folder must not already exist in the file system. Delivery Manager insists it wants to create the folder itself.
+
+:::
 
 4. Enter a Version. This is a label that describes the first application version you want to deliver, for example, '1.0' or '9.0 Beta'.
 
@@ -46,8 +58,12 @@ Follow these steps to create a Delivery Manager repository. This is a set of dat
 
 "Application" must be the application name as it is known in USoft Authorizer in your development environment. This is also the name that you use when creating flat files, for example, in the filename "*application.*con". The remaining details describe the database location where the sources of your top-level application are: the Development repository.
 
-> [!TIP]
-> This may or may not be the location that you are currently connected to. If you don't know or don't care, just enter the same details as you have entered earlier on the File, Project Properties, Database tab in your Binder file.
+
+:::tip
+
+This may or may not be the location that you are currently connected to. If you don't know or don't care, just enter the same details as you have entered earlier on the File, Project Properties, Database tab in your Binder file.
+
+:::
 
 7. Quick Start gives you the option to quickly create tasks for also delivering 1 **server**, as defined in USoft Service Definer, by way of example. You can later add further servers by following the same patterns as created by Quick Start for this first server.
 

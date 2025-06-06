@@ -4,8 +4,12 @@ id: Avoid_type_concepts_if_you_can
 
 # Avoid type concepts if you can
 
-> [!TIP]
-> This tip is closely related to : [Avoid abstractions if you can](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_abstractions_if_you_can.md).
+
+:::tip
+
+This tip is closely related to : [Avoid abstractions if you can](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_abstractions_if_you_can.md).
+
+:::
 
 Avoid modelling noun concepts that are for *types* of things rather than simply for *things.* Type concepts cannot and should not *always* be avoided, but be careful. If type concepts are unnecessary, they make your model harder to use.
 
@@ -21,9 +25,13 @@ Type concepts usually end in a word that talks about how something falls into a 
 
  
 
-> [!TIP]
-> In a USoft context, teams are often tempted to model type concepts because they appear also in the EAR model (the data model of the implementation). Thus, you could easily have a PERSON table with column MARITAL_STATUS based on a dropdownlist domain with Married, Single, Divorced as allowed values.
-> This is not a good enough reason for a type concept on the Studio side. You can have Studio specifications without a type concept (person*is married*, see later in this blog), and link them in USoft Definer to a column for a type concept (MARITAL_STATUS). That would be perfectly legal and traceable.
+
+:::tip
+
+In a USoft context, teams are often tempted to model type concepts because they appear also in the EAR model (the data model of the implementation). Thus, you could easily have a PERSON table with column MARITAL_STATUS based on a dropdownlist domain with Married, Single, Divorced as allowed values.
+This is not a good enough reason for a type concept on the Studio side. You can have Studio specifications without a type concept (person*is married*, see later in this blog), and link them in USoft Definer to a column for a type concept (MARITAL_STATUS). That would be perfectly legal and traceable.
+
+:::
 
 ## What's the problem with type concepts?
 

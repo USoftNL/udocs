@@ -6,8 +6,12 @@ id: UNION_ALL
 
 
 
-> [!NOTE]
-> This article is about the **UNION ALL** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about the **UNION ALL** set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **UNION ALL**
 
@@ -31,5 +35,9 @@ In the USoft platform, UNION ALL is supported in:
 - Logical View SQL.
 - Subqueries in constraint SQL.
 
-> [!CAUTION]
-> UNION is not supported in the main statement of constraint SQL.
+
+:::danger
+
+UNION is not supported in the main statement of constraint SQL.
+
+:::

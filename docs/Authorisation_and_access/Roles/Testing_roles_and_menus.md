@@ -27,8 +27,12 @@ select     RulesEngine.SetRole( 'ROLE_B' )
 
 ```
 
-> [!TIP]
-> When logged in, you can find out which role currently determines your access rights by executing:
+
+:::tip
+
+When logged in, you can find out which role currently determines your access rights by executing:
+
+:::
 
 ```
 select     role()
@@ -51,8 +55,12 @@ select     RulesEngine.SetUser( 'ROLE_B_USER', 'ROLE_B_PASSWORD', '' )
 
 ```
 
-> [!TIP]
-> You can find out the user as whom you are currently logged in:
+
+:::tip
+
+You can find out the user as whom you are currently logged in:
+
+:::
 
 ```
 select     user

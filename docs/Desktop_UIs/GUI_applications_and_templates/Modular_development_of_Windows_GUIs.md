@@ -18,8 +18,12 @@ The name of the application is specified on the Properties sheet of the Windows 
 
 The two pictures presented here show a USD90_TRAVEL environment where you design the Bookings module within the USD90_TRAVEL application.
 
-> [!WARNING]
-> With these settings, the Bookings module is read from database, and all other modules are read from flat files. Work done in the Windows Designer is work done for the Bookings module.
+
+:::warning
+
+With these settings, the Bookings module is read from database, and all other modules are read from flat files. Work done in the Windows Designer is work done for the Bookings module.
+
+:::
 
 Interface tables (that are provided by another module than you are currently working on) can be painted in Windows Designer just like other info windows.
 

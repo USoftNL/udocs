@@ -6,8 +6,12 @@ id: pcevaluate
 
 
 
-> [!NOTE]
-> This article is about the **pc:evaluate**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:evaluate**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:evaluate**
 

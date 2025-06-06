@@ -6,8 +6,12 @@ id: Synchronise
 
 
 
-> [!NOTE]
-> This article is about the **Synchronise**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Synchronise**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Synchronise**
 
@@ -17,8 +21,12 @@ Performs the standard "synchronise Internal Interfaces" routine of USoft Definer
 
 2. Raises an error ("Cannot proceed. There are incorrect interfaces after synchronise.") if incorrect interfaces exist as a result of synchronise. If this error is raised, Step 1 is not undone.
 
-> [!WARNING]
-> This action is available in Delivery Manager only for completeness. Synchronisation is normally a design-time, not a release-time activity. This activity is normally carried out manually after discussion. It is NOT usually good practice to execute this action as part of a UDeliver task that has the purpose to release deliverables.
+
+:::warning
+
+This action is available in Delivery Manager only for completeness. Synchronisation is normally a design-time, not a release-time activity. This activity is normally carried out manually after discussion. It is NOT usually good practice to execute this action as part of a UDeliver task that has the purpose to release deliverables.
+
+:::
 
 ### Parameters
 

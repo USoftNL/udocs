@@ -6,8 +6,12 @@ id: USFileWrite
 
 
 
-> [!NOTE]
-> This article is about the **Write** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::note
+
+This article is about the **Write** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::
 
 ## **USFile.Write**
 

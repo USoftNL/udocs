@@ -19,8 +19,12 @@ In a **SecurityConfig.xml**security configuration file, the \<SamlSP> element co
 </SamlSP>
 ```
 
-> [!NOTE]
-> The **\<SigningKey>** child element can be left empty, but this is not recommended in a publicly deployed environment.
+
+:::note
+
+The **\<SigningKey>** child element can be left empty, but this is not recommended in a publicly deployed environment.
+
+:::
 
 ## Child elements
 

@@ -6,8 +6,12 @@ id: Show_Rdbms_Errors
 
 
 
-> [!NOTE]
-> This article is about the **Show_Rdbms_Errors**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::note
+
+This article is about the **Show_Rdbms_Errors**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+
+:::
 
 ## **Show_Rdbms_Errors**
 

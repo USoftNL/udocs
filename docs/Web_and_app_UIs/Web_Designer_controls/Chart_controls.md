@@ -8,8 +8,12 @@ id: Chart_controls
 
 Chart controls present data in an appealing graphical format, for example in a bar chart, a line chart, or a pie chart.
 
-> [!NOTE]
-> For visual examples of chart controls, scroll further down.
+
+:::note
+
+For visual examples of chart controls, scroll further down.
+
+:::
 
 When data in the underlying data sources change, these changes will reflect in the chart controls.
 
@@ -19,8 +23,12 @@ To create a chart control, you need:
 - a ChartDataControl for each set of data to be displayed (some types of chart require more than one),
 - TableDataSources that hold the chart column data.
 
-> [!TIP]
-> **ChartControl** and **ChartDataControl** are explained in the next sections of this article.
+
+:::tip
+
+**ChartControl** and **ChartDataControl** are explained in the next sections of this article.
+
+:::
 
 Here are the general steps for creating a chart control in USoft Web Designer.
 
@@ -58,8 +66,12 @@ ChartControl uses a third-party library called Apex Charts, which contains exten
 
 In a ChartControl, you define the main properties of the chart, such as the column containing the x-axis data labels, the chart titles, and the chart type. Open the Property Inspector on ChartControl to inspect properties. Click on a property name and read the explanation in the Help tile (yellow background).
 
-> [!TIP]
-> If you do not see Help text, click the ‘?’ icon in the icon ribbon near the top of the Property Inspector.
+
+:::tip
+
+If you do not see Help text, click the ‘?’ icon in the icon ribbon near the top of the Property Inspector.
+
+:::
 
 ### Events
 
@@ -81,8 +93,12 @@ You can find the ChartDataControl control class in Web Designer’s Controls Cat
 
 Open the Property Inspector on ChartDataControl to inspect properties. Click on a property name and read the explanation in the Help tile (yellow background).
 
-> [!TIP]
-> If you do not see Help text, click the ‘?’ icon in the icon ribbon near the top of the Property Inspector.
+
+:::tip
+
+If you do not see Help text, click the ‘?’ icon in the icon ribbon near the top of the Property Inspector.
+
+:::
 
 ### Combining multiple ChartDataControls into a data set
 

@@ -59,8 +59,12 @@ To call (run, execute) the AskValue resource, give this command:
 > *usoft-bindir*\ublendit.exe resource:AskValue
 ```
 
-> [!NOTE]
-> The **pc:call** directive has a **resource** attribute that allows you to call a resource from a script.
+
+:::note
+
+The **pc:call** directive has a **resource** attribute that allows you to call a resource from a script.
+
+:::
 
 ### Utilities
 
@@ -76,8 +80,12 @@ The command:
 
 (without anything following the program name **ublendit.exe**) gives you a list of common USoft Blend utilities with a short explanatory text.
 
-> [!WARNING]
-> usoft-bindir is the "\\BIN” or "\\BIN64” subdirectory of your USoft installation. Try:
+
+:::warning
+
+usoft-bindir is the "\\BIN” or "\\BIN64” subdirectory of your USoft installation. Try:
+
+:::
 
 The command:
 

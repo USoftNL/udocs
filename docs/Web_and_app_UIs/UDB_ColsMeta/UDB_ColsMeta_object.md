@@ -10,28 +10,40 @@ tags: [USoft11, USoft10]
 
 `USoft 11``{.vs_11}`
 
-> [!CAUTION]
-> This article describes the USoft 10 product only.
-> In USoft 11, the web UI API was revised and improved. For full details, go to:
-> [Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::danger
+
+This article describes the USoft 10 product only.
+In USoft 11, the web UI API was revised and improved. For full details, go to:
+[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+
+:::
 
 ----
 
 `USoft 10``{.vs_10}`
 
-> [!NOTE]
-> This article is about the **ColsMeta** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
-> This model is built around the [udb](/docs/Web_and_app_UIs/UDB_udb), [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), [Rowset](/docs/Web_and_app_UIs/UDB_Rowset), [Rows](/docs/Web_and_app_UIs/UDB_Rows), ColsMeta, and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **ColsMeta** object in the UDB object model. This model is for data exchange between USoft web UIs and Rules Engines.
+This model is built around the [udb](/docs/Web_and_app_UIs/UDB_udb), [DataSourceMetaContainer](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer), [DataSourceContainer](/docs/Web_and_app_UIs/UDB_DataSourceContainer), [Rowset](/docs/Web_and_app_UIs/UDB_Rowset), [Rows](/docs/Web_and_app_UIs/UDB_Rows), ColsMeta, and [Cols](/docs/Web_and_app_UIs/UDB_Cols) object types. See also [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 A **ColsMeta** object contains a collection of columns and can be used the extract the meta data of a column.
 
-> [!TIP]
-> **Column selectors**
-> In the syntax block below, *col* is a **column selector**: an expression whereby you identify a single column or multiple columns in a data source. Column selectors play a role in calls to the ColsMeta object, but also in calls to the Cols object:
-> You can identify a single column by a name string:
-> or by a column ID, which is a combination of a '$' symbol and a generated integer:
-> If the column is in an embedded data source, name that embedded data source, follow by a forward slash (/), then follow by a column name or column ID:
-> You can also select one or more columns by type, using one of the meta selectors listed here. You cannot combine these meta selectors with other ways of selecting columns:
+
+:::tip
+
+**Column selectors**
+In the syntax block below, *col* is a **column selector**: an expression whereby you identify a single column or multiple columns in a data source. Column selectors play a role in calls to the ColsMeta object, but also in calls to the Cols object:
+You can identify a single column by a name string:
+or by a column ID, which is a combination of a '$' symbol and a generated integer:
+If the column is in an embedded data source, name that embedded data source, follow by a forward slash (/), then follow by a column name or column ID:
+You can also select one or more columns by type, using one of the meta selectors listed here. You cannot combine these meta selectors with other ways of selecting columns:
+
+:::
 
 *Syntax*
 
@@ -43,5 +55,9 @@ The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSour
 
 The optional *col* is a column selector as explained at the top of this article.
 
-> [!NOTE]
-> All the functions listed for the **ColsMeta** object are equally exposed by the **Cols** object.
+
+:::note
+
+All the functions listed for the **ColsMeta** object are equally exposed by the **Cols** object.
+
+:::

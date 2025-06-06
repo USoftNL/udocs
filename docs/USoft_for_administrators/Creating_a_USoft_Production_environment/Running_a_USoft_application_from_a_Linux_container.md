@@ -23,9 +23,13 @@ The container is based on Ubuntu LTS (Jammy Jellyfish, 22.04 for USoft 11.0) and
 - USoft Service Framework (e.g., REST APIs)
 - UBlendIt scripts
 
-> [!NOTE]
-> You will need to add application-specific files (like “application.con”) and configuration files to the container. This can be done either when creating a container or by using storage drivers.
-> For more information on Docker storage drivers, go to: [Docker Storage Documentation](https://docs.docker.com/storage/).
+
+:::note
+
+You will need to add application-specific files (like “application.con”) and configuration files to the container. This can be done either when creating a container or by using storage drivers.
+For more information on Docker storage drivers, go to: [Docker Storage Documentation](https://docs.docker.com/storage/).
+
+:::
 
 ## Prerequisites
 
@@ -76,8 +80,12 @@ The **USoft RulesService** container supports connections to 2 database platform
 
 The base image comes with Oracle Instant Client pre-installed. This allows you to connect to an Oracle database out-of-the-box. To use this, simply [configure the Oracle connection string](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md).
 
-> [!WARNING]
-> The container runs behind a [Docker network](https://docs.docker.com/engine/network/). Please be mindful of this when setting up your connection.
+
+:::warning
+
+The container runs behind a [Docker network](https://docs.docker.com/engine/network/). Please be mindful of this when setting up your connection.
+
+:::
 
 ### SQL Server
 
@@ -105,21 +113,29 @@ Database=TRAVEL
 TrustServerCertificate=yes
 ```
 
-> [!NOTE]
-> For a SQL Server instance running on the host machine, use host.docker.internal as the host.
-> For an internal SQL Server instance within the [container network](https://docs.docker.com/engine/network/), use the container's name.
+
+:::note
+
+For a SQL Server instance running on the host machine, use host.docker.internal as the host.
+For an internal SQL Server instance within the [container network](https://docs.docker.com/engine/network/), use the container's name.
+
+:::
 
 For more details, refer to the following resources:
 
 - [Data source specification](https://www.ibm.com/docs/en/informix-servers/14.10?topic=file-data-source-specification)
 - [SQL Server TCP/IP configuration](https://learn.microsoft.com/en-us/sql/database-engine/configure-windows/configure-a-server-to-listen-on-a-specific-tcp-port)
 
-> [!WARNING]
-> If you run on Linux, USoft strongly recommends developing on Windows with ODBC for SQL Server. In USoft Binder, set:
-> RDBMS = Odbc
-> and **not** to use SQL Server as a native data source, ie., with USoft Binder set to
-> RDBMS = Oledb
-> Using ODBC avoids issues related to syntax differences in database functions and data types.
+
+:::warning
+
+If you run on Linux, USoft strongly recommends developing on Windows with ODBC for SQL Server. In USoft Binder, set:
+RDBMS = Odbc
+and **not** to use SQL Server as a native data source, ie., with USoft Binder set to
+RDBMS = Oledb
+Using ODBC avoids issues related to syntax differences in database functions and data types.
+
+:::
 
 ## Running the USoft application
 
@@ -157,11 +173,19 @@ The recommended approach is to:
 
 The application-specific files can be either [mapped](https://docs.docker.com/engine/storage/) or [copied](https://docs.docker.com/reference/cli/docker/container/cp/) into the container.
 
-> [!WARNING]
-> Ensure the database connection is properly configured, as described in the [Database connection](#database-connection) section of this article.
 
-> [!NOTE]
-> Use [docker storage](https://docs.docker.com/engine/storage/) to make changes to the configuration file persistent.
+:::warning
+
+Ensure the database connection is properly configured, as described in the [Database connection](#database-connection) section of this article.
+
+:::
+
+
+:::note
+
+Use [docker storage](https://docs.docker.com/engine/storage/) to make changes to the configuration file persistent.
+
+:::
 
 ### Service Framework
 
@@ -174,8 +198,12 @@ This section tells you how to make the following available from a Linux containe
 - A default USoft web application with a database located outside the container but on the same machine. This default will have the [usoft-zero](/docs/Web_and_app_UIs/USoft_template_defaults) look-and feel.
 - A USoft REST API or SOAP service.
 
-> [!WARNING]
-> The steps in this section are just an example. Avoid blindly copy-pasting without ensuring they match your specific configuration.
+
+:::warning
+
+The steps in this section are just an example. Avoid blindly copy-pasting without ensuring they match your specific configuration.
+
+:::
 
 ### 1. Pull a USoft Docker image from ACR
 
@@ -269,9 +297,13 @@ http://localhost:8101/ure.config
 
 The configuration wizard will write the configuration settings to the “RulesService-7777.config” file.
 
-> [!NOTE]
-> You can mount the configuration file as read-only:
-> to prevent modifications when multiple containers are used.
+
+:::note
+
+You can mount the configuration file as read-only:
+to prevent modifications when multiple containers are used.
+
+:::
 
 ### 5. Start the Service Framework
 

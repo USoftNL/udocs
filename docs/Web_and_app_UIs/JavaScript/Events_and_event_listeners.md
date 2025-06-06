@@ -29,8 +29,12 @@ Some event types apply only in the context of a specific type of object. For exa
 
 In USoft, you can create event handlers for any of the W3C standard HTML event types.
 
-> [!WARNING]
-> The **onbeforesubmit** event type****is the only exception: USoft does not post any forms in pages, and therefore event handlers of this type would never trigger. USoft adds a number of USoft-specific event types.
+
+:::warning
+
+The **onbeforesubmit** event type****is the only exception: USoft does not post any forms in pages, and therefore event handlers of this type would never trigger. USoft adds a number of USoft-specific event types.
+
+:::
 
 For information on W3C standard event types, see
 
@@ -40,8 +44,12 @@ http://www.w3.org
 
 USoft adds event types of its own, as well as USoft-specific implementations of certain standard event types. Go to [UDB events](/docs/Web_and_app_UIs/UDB_Events).
 
-> [!WARNING]
-> The **onload** standard event type is not typically applied in USoft 10 applications anymore. With the advent of Ajax technology, pages load much less frequently than in the past. Prefer the USoft-specific [dataset](/docs/Web_and_app_UIs/UDB_Events/dataset.md)****event type.
+
+:::warning
+
+The **onload** standard event type is not typically applied in USoft 10 applications anymore. With the advent of Ajax technology, pages load much less frequently than in the past. Prefer the USoft-specific [dataset](/docs/Web_and_app_UIs/UDB_Events/dataset.md)****event type.
+
+:::
 
 Finally, you can also define additional event types of your own, and explicitly trigger events of that type by using the **handleEvent()** function.
 
@@ -67,8 +75,12 @@ To insert an event listener:
 
 2. In the object tree, select the object in the context of which you want to handle a given event type. For example, you could click on a button with the purpose of handling the **onclick** event type on that button.
 
-> [!TIP]
-> Be careful to select an object that makes sense for the event type. The USoft-specific **dataset** and **rowselect** events, for example, usually apply to specific data source objects. They could apply to the page as a whole, but not to other object types.
+
+:::tip
+
+Be careful to select an object that makes sense for the event type. The USoft-specific **dataset** and **rowselect** events, for example, usually apply to specific data source objects. They could apply to the page as a whole, but not to other object types.
+
+:::
 
 3. Choose Insert, EventListener from the menu. Alternatively, drag an Event Listener object from the Controls tab of the catalog (picture above).
 
@@ -76,8 +88,12 @@ To insert an event listener:
 
 5. Now insert one or more Action objects into the EventListener object. Do this via Insert, Action in the menu, or by dragging Action objects from the catalog.
 
-> [!WARNING]
-> If you attach multiple actions to an event listener, the second and subsequent actions will be performed regardless of whether the first action was successful. Because of this, a Next button with an onclick event handler that performs **commit()** followed by **navigateTo()** within the same event listener is bad design. If the commit fails because of invalid data, the user will navigate away and not get the chance to make any corrections, and the transaction will be lost.
+
+:::warning
+
+If you attach multiple actions to an event listener, the second and subsequent actions will be performed regardless of whether the first action was successful. Because of this, a Next button with an onclick event handler that performs **commit()** followed by **navigateTo()** within the same event listener is bad design. If the commit fails because of invalid data, the user will navigate away and not get the chance to make any corrections, and the transaction will be lost.
+
+:::
 
 ## Custom events
 

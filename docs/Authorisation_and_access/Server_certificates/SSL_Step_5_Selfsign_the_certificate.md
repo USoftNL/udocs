@@ -10,8 +10,12 @@ If you intend to self-sign the certificate, using the example request file creat
 
 **openssl x509 -req -days 365 -in usoft.com.csr -CA usoftca.cer -CAkey usoftca.key -set_serial 01 -out usoft.com.crt**
 
-> [!NOTE]
-> For this version, you must use the filenames specified in these examples.
+
+:::note
+
+For this version, you must use the filenames specified in these examples.
+
+:::
 
  
 
@@ -21,8 +25,12 @@ You should see something like the following:
 
  
 
-> [!NOTE]
-> The pass phrase is the one created in Step 2: Create a private key.
+
+:::note
+
+The pass phrase is the one created in Step 2: Create a private key.
+
+:::
 
  
 

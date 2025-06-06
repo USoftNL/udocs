@@ -38,8 +38,12 @@ In job rights, **background scope** has the following meaning:
 
 ## How to define a job right
 
-> [!TIP]
-> When defining job rights, be aware of dependencies between access rights. For example, if you define access to a job that itself calls other jobs, also think of access to those other jobs. To some extent, USoft Definer helps you by implementing dependencies automatically. For dependencies, see "Understanding roles and access rights”.
+
+:::tip
+
+When defining job rights, be aware of dependencies between access rights. For example, if you define access to a job that itself calls other jobs, also think of access to those other jobs. To some extent, USoft Definer helps you by implementing dependencies automatically. For dependencies, see "Understanding roles and access rights”.
+
+:::
 
 To define a job right for a role:
 1.    Choose Define, Roles from the USoft Definer menu.

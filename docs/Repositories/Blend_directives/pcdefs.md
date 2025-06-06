@@ -6,15 +6,23 @@ id: pcdefs
 
 
 
-> [!NOTE]
-> This article is about the **pc:defs**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:defs**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:defs**
 
 Marks a script section of content that is not executed and does not return output. This section can be referred to from elsewhere in the script.
 
-> [!TIP]
-> This goes counter to the general principle that USoft Blend is based on an identity transformation, and that therefore script content is normally executed and returns output.
+
+:::tip
+
+This goes counter to the general principle that USoft Blend is based on an identity transformation, and that therefore script content is normally executed and returns output.
+
+:::
 
 The content of pc:defs is not executed. The content of pc:void is executed but any result is nullified, ie., it is not returned as output.
 

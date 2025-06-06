@@ -55,8 +55,12 @@ Logger log = Logger.getLogger(this.getClass()); /* this will create a logger for
 log.debug("<your debug message>");
 ```
 
-> [!NOTE]
-> : The Services Framework uses the Apache log4j Java-based logging utility.
+
+:::note
+
+: The Services Framework uses the Apache log4j Java-based logging utility.
+
+:::
 
 ## Accessing log information
 

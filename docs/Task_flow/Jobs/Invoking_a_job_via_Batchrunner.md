@@ -54,8 +54,12 @@ SELECT    'BZ-23'    "contract_id"
 
  
 
-> [!NOTE]
-> In this example, -quiet is a predefined parameter.
+
+:::note
+
+In this example, -quiet is a predefined parameter.
+
+:::
 
  
 

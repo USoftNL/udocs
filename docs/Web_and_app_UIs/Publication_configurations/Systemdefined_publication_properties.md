@@ -74,5 +74,9 @@ Specifies the default page shown when an end user has logged out from the web ap
 
 Specifies the page that end users see once they are logged in into the web application. The default is the ApplicationPage page. When using the Benchmark Control (Benchmark property must be set to 'True'), use the  ApplicationPageWithBenchmarkPage as default instead.
 
-> [!NOTE]
-> Run-time, you can overrule the value for the StartPage property by adding the following parameter to the URL in the Address bar of your browser: ?$StartPage.
+
+:::note
+
+Run-time, you can overrule the value for the StartPage property by adding the following parameter to the URL in the Address bar of your browser: ?$StartPage.
+
+:::

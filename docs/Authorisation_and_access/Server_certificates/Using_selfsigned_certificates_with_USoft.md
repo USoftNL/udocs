@@ -13,11 +13,19 @@ Copy all the following required files from the “bin” subdirectory of the loc
 - usoftca.cer
 - usoftca
 
-> [!NOTE]
-> For this version, you must use the filenames specified in these examples.
 
-> [!NOTE]
-> A set of working certificate files is installed in your \<usoft_install_folder>\\CERTS\\ folder when you install USoft software. You can use these files for testing purposes, if you do not want to make or use your your own.
+:::note
+
+For this version, you must use the filenames specified in these examples.
+
+:::
+
+
+:::note
+
+A set of working certificate files is installed in your \<usoft_install_folder>\\CERTS\\ folder when you install USoft software. You can use these files for testing purposes, if you do not want to make or use your your own.
+
+:::
 
 ## Importing usoftca.cer into USoft’s certificate store
 
@@ -35,5 +43,9 @@ To make sure that the Remote Rules Service JDBC driver can make use of SSL, We n
 
  
 
-> [!NOTE]
-> For this version, you must use the filenames specified in these examples.
+
+:::note
+
+For this version, you must use the filenames specified in these examples.
+
+:::

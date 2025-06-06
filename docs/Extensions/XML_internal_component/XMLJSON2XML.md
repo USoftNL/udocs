@@ -6,9 +6,13 @@ id: XMLJSON2XML
 
 
 
-> [!NOTE]
-> This article is about the **JSON2XML** method of the [XML internal component](/docs/Extensions/XML_internal_component).
-> See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::note
+
+This article is about the **JSON2XML** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+See also the [Data flow control with XML or JSON](/docs/Repositories/Data_flow_control_with_XML_or_JSON) section.
+
+:::
 
 ## **XML.JSON2XML**
 
@@ -31,10 +35,14 @@ SELECT  *json-object*
 
 The required *json-object* must be a valid JSON object.
 
-> [!TIP]
-> You can pass *json-object* as a string literal (as in the Examples).
-> You can alternatively select *json-object* from a database column, in which case you need a FROM clause.
-> You can also read from file and write to file. For an example, see the "Interaction with file system” section below.
+
+:::tip
+
+You can pass *json-object* as a string literal (as in the Examples).
+You can alternatively select *json-object* from a database column, in which case you need a FROM clause.
+You can also read from file and write to file. For an example, see the "Interaction with file system” section below.
+
+:::
 
 The required *mode* is either a quoted empty string, or the quoted string value 'COMPACT', or the quoted string value 'FULL'. The empty string '' is equivalent to 'COMPACT':
 

@@ -12,8 +12,12 @@ This alternative is referred to as the **USoft Rule Language.** Its main purpose
 
 The USoft Rule Language is not available in other contexts than constraint SQL.
 
-> [!WARNING]
-> For this reason, the USoft Rules Language is not normally a good choice for professional applications. Developers cannot cut-and-paste constraint SQL to other contexts that expect SQL. Use [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) instead.
+
+:::warning
+
+For this reason, the USoft Rules Language is not normally a good choice for professional applications. Developers cannot cut-and-paste constraint SQL to other contexts that expect SQL. Use [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) instead.
+
+:::
 
 When writing table constraints, you can choose between expressing the business logic in SQL syntax or in USoft Rule Language syntax. Both are entered in the same way and in the same place, on the Statement tab or edit area of the (Table) Constraints tab or Info Window. Both are treated similarly by the constraint checker. The result of the check is displayed as SQL on the read-only SQL Equivalent tab of the (Table) Constraints window. This is the code that is actually executed by the Rules Engine.
 
@@ -235,8 +239,12 @@ This section covers the same ground as the previous sections, but this time in a
 
 ADD clauses in the USoft Rule Language serve to identify data queried for insert into a table. The equivalent of the SQL INSERT clause is introduced by FOR. ADD clauses are only used in constraint SQL that (potentially) INSERTs data.
 
-> [!TIP]
-> ADD clauses in the USoft Rule Language serve to identify data queried for insert into a table. The equivalent of the SQL INSERT clause is introduced by FOR.
+
+:::tip
+
+ADD clauses in the USoft Rule Language serve to identify data queried for insert into a table. The equivalent of the SQL INSERT clause is introduced by FOR.
+
+:::
 ADD clauses are only used in constraint SQL that (potentially) INSERTs data.
 NOTE: The construct with ADD WHERE NOT EXISTS is much more compact than its SQL Equivalent, because it implies the WHERE condition and subquery that check that the record to be inserted does not already exist.
 The disadvantage of ADD WHERE NOT EXISTS is that it will only let you write INSERT statements that perform this check. This is a slight disadvantage, since the vast majority of INSERT constraints require this check.
@@ -489,8 +497,12 @@ HAVING    count(*) > 1
 
 FOR clauses in the USoft Rule Language serve to identify the table being queried from, or the table being manipulated.
 
-> [!CAUTION]
-> Do not confuse with FOR WHICH.
+
+:::danger
+
+Do not confuse with FOR WHICH.
+
+:::
 
 *Syntax*
 
@@ -594,8 +606,12 @@ OR       license_date > sysdate - (3 * 365)
 
 FOR WHICH clauses in the USoft Rule Language serve to identify records to be deleted from a table. FOR WHICH is the equivalent of the SQL WHERE keyword in a DELETE statement.
 
-> [!CAUTION]
-> Do not confuse with FOR.
+
+:::danger
+
+Do not confuse with FOR.
+
+:::
 
 The table being deleted from is identified in the REMOVE ALL clause, which is the equivalent of SQL DELETE.
 
@@ -774,8 +790,12 @@ WHERE       age > 23
 
 REMOVE ALL clauses in the USoft Rule Language serve to identify the table deleted from. They are the equivalent of SQL DELETE clauses. The SQL conditions that identify the records to be deleted (the "WHERE clauses") are introduced by FOR WHICH.
 
-> [!TIP]
-> REMOVE ALL clauses are only used in constraint SQL that (potentially) DELETEs data.
+
+:::tip
+
+REMOVE ALL clauses are only used in constraint SQL that (potentially) DELETEs data.
+
+:::
 
 *Syntax*
 

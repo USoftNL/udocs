@@ -6,8 +6,12 @@ id: booleanflagsToBoolean
 
 
 
-> [!NOTE]
-> This article is about the **booleanflags:ToBoolean**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **booleanflags:ToBoolean**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **booleanflags:ToBoolean**
 

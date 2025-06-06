@@ -6,8 +6,12 @@ id: pcRunRulesService
 
 
 
-> [!NOTE]
-> This article is about the **pc:RunRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:RunRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:RunRulesService**
 
@@ -78,8 +82,12 @@ There is no return value.
 *options*             ::= * command-line-switch*=*value*}
 ```
 
-> [!TIP]
-> The list of attributes of pc:RunRulesService corresponds to the list of Rules Service settings that you can set in USoft Binder's Rules Service Property Sheet and in the ure.config wizard. Details are in the "Manual configuration" section of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md). For each optional attribute, if you omit the attribute, the indicated default will be applied.
+
+:::tip
+
+The list of attributes of pc:RunRulesService corresponds to the list of Rules Service settings that you can set in USoft Binder's Rules Service Property Sheet and in the ure.config wizard. Details are in the "Manual configuration" section of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md). For each optional attribute, if you omit the attribute, the indicated default will be applied.
+
+:::
 
 The Rules Service will use a transient port number. For more information, read "Choosing a port number...” in [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md).
 

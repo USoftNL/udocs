@@ -6,8 +6,12 @@ id: pcblend
 
 
 
-> [!NOTE]
-> This article is about the **pc:blend**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:blend**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:blend**
 
@@ -17,8 +21,12 @@ Think of this as a *call* to those nodes, in the sense of a procedure call. A sy
 
 If you call a section within the current script file, it is customary to place the called target code block in a [pc:defs](/docs/Repositories/Blend_directives/pcdefs.md)****section at the beginning of the script, as in the Examples, but this is not necessary.
 
-> [!NOTE]
-> The result is the same as when the nodes pointed at are passed to **ublendit.exe**on the command line, or to **select uscsxsl.blend** in a SQL command context.
+
+:::note
+
+The result is the same as when the nodes pointed at are passed to **ublendit.exe**on the command line, or to **select uscsxsl.blend** in a SQL command context.
+
+:::
 
 *Syntax*
 

@@ -4,8 +4,12 @@ id: Avoid_abstractions_if_you_can
 
 # Avoid abstractions if you can
 
-> [!TIP]
-> This tip is closely related to : [Avoid type concepts if you can](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md).
+
+:::tip
+
+This tip is closely related to : [Avoid type concepts if you can](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md).
+
+:::
 
 An *abstraction* is a noun concept for a phenomenon or situation viewed in general, as opposed to: viewed as applying to particular cases. Broadly speaking, abstractions are theory. Particular cases are what you come across in practice. Here are a few abstractions:
 
@@ -35,9 +39,17 @@ With this type of abstraction, if you are looking for a countable alternative, y
 
 ![](./assets/d5ba19a1-4d8f-4975-a197-d836a9cbf58e.png)
 
-> [!NOTE]
-> The example with the *is in-high-demand* unary verb concept is discussed in more detail in Example 4 of [Stepping stones](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Stepping_stones.md).
 
-> [!TIP]
-> An abstraction like car maintenance could be perfectly all right if you only have rules with ‘car maintenance’ that talk about ‘car maintenance’ in a general way, not rules that go into what actually *happens* during car maintenance.
-> You could have scheduling rules that just mention ‘car maintenance’ as a reason why cars are unavailable to clients at certain times. They are an example of “rules that just talk about car maintenance in a general way”.
+:::note
+
+The example with the *is in-high-demand* unary verb concept is discussed in more detail in Example 4 of [Stepping stones](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Stepping_stones.md).
+
+:::
+
+
+:::tip
+
+An abstraction like car maintenance could be perfectly all right if you only have rules with ‘car maintenance’ that talk about ‘car maintenance’ in a general way, not rules that go into what actually *happens* during car maintenance.
+You could have scheduling rules that just mention ‘car maintenance’ as a reason why cars are unavailable to clients at certain times. They are an example of “rules that just talk about car maintenance in a general way”.
+
+:::

@@ -6,8 +6,12 @@ id: RulesEngineSetRole
 
 
 
-> [!NOTE]
-> This article is about the **SetRole** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::note
+
+This article is about the **SetRole** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+
+:::
 
 ## **RulesEngine.SetRole**
 

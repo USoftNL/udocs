@@ -25,8 +25,12 @@ To open a help file: sse the Windows Designer to add a menu option to the Help m
 HelpRunWinhelp(<help_filename>)
 ```
 
-> [!NOTE]
-> The help file identified by \<help_filename> can be either a WinHelp file (.HLP extension) or a Compiled HTML Help file (.CHM file extension).
+
+:::note
+
+The help file identified by \<help_filename> can be either a WinHelp file (.HLP extension) or a Compiled HTML Help file (.CHM file extension).
+
+:::
 
 By default, the file is searched for in the working directory. If required, specify the path to your help file as well. For example:
 
@@ -34,5 +38,9 @@ By default, the file is searched for in the working directory. If required, spec
 HelpRunWinhelp('%SystemDir%\help\yourhelp.chm')
 ```
 
-> [!NOTE]
-> References to SystemDir are internally mapped to the version key.
+
+:::note
+
+References to SystemDir are internally mapped to the version key.
+
+:::

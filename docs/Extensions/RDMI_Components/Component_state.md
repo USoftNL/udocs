@@ -16,8 +16,12 @@ A stateless component does not have a setting for Lifetime.
 
 A stateful component has a Lifetime setting. This setting is either Transaction, User session, or Engine session.
 
-> [!WARNING]
-> In place of the “User session” and “Engine session” options, USoft 9.x had a single option Lifetime = Session, with the meaning of the current “Engine session” option.
+
+:::warning
+
+In place of the “User session” and “Engine session” options, USoft 9.x had a single option Lifetime = Session, with the meaning of the current “Engine session” option.
+
+:::
 
 ### When is a component constructed and when is it destroyed?
 
@@ -29,8 +33,12 @@ When a Rules Engine invokes a method of a stateful component with Lifetime = **U
 
 When a Rules Engine invokes a method of a component with Lifetime = **Engine session**, it checks if the component is already instantiated (that is, if an instance of the component has been created). If not, it calls the constructor method. If the constructor has parameters, these are supplied by the constructor SQL. Then the invoked method is called. The component is destroyed when the Rules Engine shuts down. This occurs when the client/server, runbatch, or Rules Service process shuts down.
 
-> [!NOTE]
-> This means there is a difference between Lifetime = "User session” and Lifetime = "Engine session” only when you run a Rules Service.
+
+:::note
+
+This means there is a difference between Lifetime = "User session” and Lifetime = "Engine session” only when you run a Rules Service.
+
+:::
 
 ### Advantage and disadvantage of statefulness
 

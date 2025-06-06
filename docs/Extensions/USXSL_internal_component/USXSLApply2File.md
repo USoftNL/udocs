@@ -6,9 +6,13 @@ id: USXSLApply2File
 
 
 
-> [!NOTE]
-> This article is about the **Apply2File** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
-> See also the [Data transformation with XSLT]() section.
+
+:::note
+
+This article is about the **Apply2File** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
+See also the [Data transformation with XSLT]() section.
+
+:::
 
 ## **USXSL.Apply2File**
 

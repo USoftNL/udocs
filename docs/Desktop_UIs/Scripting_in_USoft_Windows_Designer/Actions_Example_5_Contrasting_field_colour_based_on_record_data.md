@@ -44,5 +44,9 @@ An alternative implementation of this rule is to use an Extra Query with the fol
 SELECT ' ' FROM RESERVATION WHERE CANCEL_DATE IS NOT NULL
 ```
 
-> [!NOTE]
-> The red color is not visible if the Input Allowed or Updatable attribute of the Status field is set to Off. If you want to set Input Allowed or Updatable to Off, find a different solution for highlighting cancelled reservations.
+
+:::note
+
+The red color is not visible if the Input Allowed or Updatable attribute of the Status field is set to Off. If you want to set Input Allowed or Updatable to Off, find a different solution for highlighting cancelled reservations.
+
+:::

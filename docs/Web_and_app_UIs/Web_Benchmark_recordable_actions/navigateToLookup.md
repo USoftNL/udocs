@@ -14,10 +14,18 @@ The **navigateToLookup** recordable action in Web Benchmark is a click on an Inp
 
 The following [generic target control properties](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_test_editing_Identifying_target_controls_and_their_properties.md) are in scope: Reference name, Source frame, Context reference name, Context occurrence rank.
 
-> [!WARNING]
-> The Context reference name property is mandatory.
 
-> [!NOTE]
-> A lookup button has a *different* reference name than its associated InputControl.
+:::warning
+
+The Context reference name property is mandatory.
+
+:::
+
+
+:::note
+
+A lookup button has a *different* reference name than its associated InputControl.
+
+:::
 
 There are no properties specific to this recordable action.

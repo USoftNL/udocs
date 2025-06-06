@@ -6,8 +6,12 @@ id: USCSXSLBlend
 
 
 
-> [!NOTE]
-> This article is about the **Blend** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+
+:::note
+
+This article is about the **Blend** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+
+:::
 
 ## **USCSXSL.Blend**
 

@@ -8,8 +8,12 @@ id: JSONExport
 
 
 
-> [!NOTE]
-> This article is about the **Export** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
+
+:::note
+
+This article is about the **Export** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
+
+:::
 
 ## **JSON.Export**
 
@@ -114,8 +118,12 @@ and returns the following result:
 ]
 ```
 
-> [!WARNING]
-> This result data does not contain the name of the table that the records are exported from.
+
+:::warning
+
+This result data does not contain the name of the table that the records are exported from.
+
+:::
 
 This statement uses **Object** encapsulation:
 
@@ -149,5 +157,9 @@ and returns the following result:
 }
 ```
 
-> [!TIP]
-> The latter format (with Encapsulation set to **Object** or left unspecified) is also the [default USoft JSON format](/docs/Repositories/USoft_JSON_format/USoft_JSON_format.md). This is also the format output by [JSON.MultiExportTables()](/docs/Extensions/JSON_internal_component/JSONMultiExportTables.md).
+
+:::tip
+
+The latter format (with Encapsulation set to **Object** or left unspecified) is also the [default USoft JSON format](/docs/Repositories/USoft_JSON_format/USoft_JSON_format.md). This is also the format output by [JSON.MultiExportTables()](/docs/Extensions/JSON_internal_component/JSONMultiExportTables.md).
+
+:::

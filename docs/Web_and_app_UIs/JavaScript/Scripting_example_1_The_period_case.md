@@ -59,7 +59,11 @@ if(toDate!="")bookDate+="<"+toDate;
 setSearchValue("RESERVATION","BOOK_DATE", bookDate)
 ```
 
-> [!NOTE]
-> : Leave the column control in Edit mode.
+
+:::note
+
+: Leave the column control in Edit mode.
+
+:::
 
 5. Save your changes, and re-publish the changed web page.

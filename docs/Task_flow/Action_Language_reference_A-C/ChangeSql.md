@@ -6,8 +6,12 @@ id: ChangeSql
 
 
 
-> [!NOTE]
-> This article is about the **ChangeSql** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **ChangeSql** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **ChangeSql()**
 
@@ -23,7 +27,11 @@ ChangeSql( *select-statement* )
 
 The required *select-statement* is a query that defines the new list of values for the "Values to Query" property.
 
-> [!WARNING]
-> If allowed values have been defined at the underlying Domain or Column level (in USoft Definer), an error is raised.
+
+:::warning
+
+If allowed values have been defined at the underlying Domain or Column level (in USoft Definer), an error is raised.
+
+:::
 
  

@@ -6,9 +6,13 @@ id: USXSL_internal_component
 
 
 
-> [!NOTE]
-> This article contains general information about the **USXSL** internal component.
-> For an alphabetic list of USXSL methods, click [here](/docs/Extensions/USXSL_internal_component).
+
+:::note
+
+This article contains general information about the **USXSL** internal component.
+For an alphabetic list of USXSL methods, click [here](/docs/Extensions/USXSL_internal_component).
+
+:::
 
 ## What is it?
 
@@ -29,8 +33,12 @@ Use it also to:
 
 - [Mix USoft application data]() into an XSLT transformation.
 
-> [!TIP]
-> Consider switching to the [USCSXSL component]() which offers the same as USXSL but also extension functions.
+
+:::tip
+
+Consider switching to the [USCSXSL component]() which offers the same as USXSL but also extension functions.
+
+:::
 
 ## Encoding
 

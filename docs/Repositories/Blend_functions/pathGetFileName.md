@@ -6,8 +6,12 @@ id: pathGetFileName
 
 
 
-> [!NOTE]
-> This article is about the **path:GetFileName**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **path:GetFileName**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **path:GetFileName**
 
@@ -31,8 +35,12 @@ path:GetFileName( *path* )
 
 The required *path* is a path expression identifying the path that you want to extract the file name from.
 
-> [!TIP]
-> For a full list of Blend functions in the area of path manipulation, use this command line:
+
+:::tip
+
+For a full list of Blend functions in the area of path manipulation, use this command line:
+
+:::
 **> usoft-install-dir\\bin64\\ublendit.exe functions ns=path**
 
 *Example*

@@ -6,8 +6,12 @@ id: pcSaveVariables
 
 
 
-> [!NOTE]
-> This article is about the **pc:SaveVariables**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:SaveVariables**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:SaveVariables**
 

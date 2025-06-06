@@ -64,5 +64,9 @@ DeleteRecord(${DefaultDataSource}
 
 At runtime, when the button is pressed, the ${DefaultDataSource} placeholder is substituted by the name of the data source in the page that has Default Data Source = Yes. The result is that the current record is deleted from the recordset that maps to that data source.
 
-> [!WARNING]
-> Constructs with ${DefaultDataSource} are becoming obsolete. For example, DeleteRecord(${DefaultDataSouce}) is replaced by constructs using .rowDelete().
+
+:::warning
+
+Constructs with ${DefaultDataSource} are becoming obsolete. For example, DeleteRecord(${DefaultDataSouce}) is replaced by constructs using .rowDelete().
+
+:::

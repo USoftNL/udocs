@@ -94,8 +94,12 @@ By default, export files are output by export tasks in the USoft working directo
 
 You may want to set a hard-coded Filename attribute within the Export Task definition.
 
-> [!NOTE]
-> The data_directory parameter takes precedence over hard-coded paths or %% variables in Import or Export Task definitions. If data_directory is set, partial paths (subfolder/filename) are concatenated with data_directory. File location is determined in the following order of precedence:
+
+:::note
+
+The data_directory parameter takes precedence over hard-coded paths or %% variables in Import or Export Task definitions. If data_directory is set, partial paths (subfolder/filename) are concatenated with data_directory. File location is determined in the following order of precedence:
+
+:::
 
 - data_directory parameter
 - Hard-coded path with system variables substituted

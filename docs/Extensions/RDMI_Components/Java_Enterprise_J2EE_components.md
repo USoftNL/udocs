@@ -66,8 +66,12 @@ The communication between debugger and the Java Virtual Machine uses a port numb
 
 ```
 
-> [!NOTE]
-> You can also specify other startup parameters for the Java Virtual Machine. Refer to your Java documentation for details.
+
+:::note
+
+You can also specify other startup parameters for the Java Virtual Machine. Refer to your Java documentation for details.
+
+:::
 
 ## Method lookup wizard
 
@@ -173,8 +177,12 @@ creates a hexadecimal representation of the integer in :0.
 
 Here the Integer is casted to a Java native integer. Without the cast, the native method would be called with a Java Integer Object as its argument. Java would return an invalid method call
 
-> [!NOTE]
-> See "Typecasts" for more information on the use of typecasts in method invocation.
+
+:::note
+
+See "Typecasts" for more information on the use of typecasts in method invocation.
+
+:::
 
 Possible type casts are specified in the typecast appendix.
 

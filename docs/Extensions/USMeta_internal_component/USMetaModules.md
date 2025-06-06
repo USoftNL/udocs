@@ -6,8 +6,12 @@ id: USMetaModules
 
 
 
-> [!NOTE]
-> This article is about the **Modules** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::note
+
+This article is about the **Modules** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+
+:::
 
 ## **USMeta.Modules**
 

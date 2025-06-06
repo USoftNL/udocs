@@ -26,8 +26,12 @@ To add an application-specific error mapper to the server:
 
 2. Make sure that a server called "Default" is declared on the Servers tab.
 
-> [!NOTE]
-> At this point all the errors will be handled by the toResponse method of the AppExceptionMapper. Take some time to understand the default implementation provided by USoft.
+
+:::note
+
+At this point all the errors will be handled by the toResponse method of the AppExceptionMapper. Take some time to understand the default implementation provided by USoft.
+
+:::
 
 3. Open the record for the REST Service that will raise the error(s), and change the log level to "Information".
 

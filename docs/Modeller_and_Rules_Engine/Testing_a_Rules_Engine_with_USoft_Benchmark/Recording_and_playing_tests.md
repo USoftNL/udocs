@@ -35,8 +35,12 @@ To record a test procedure:
 6. Press Close. Back in the Benchmark toolkit window, in the Database group, double-click and then key F2-F3 to query recorded test procedures. The procedure you have just recorded should be among them.
 7. Rename the procedure if you like.
 
-> [!WARNING]
-> If you rename, Save the new name by pressing Save in the **Benchmark toolkit window**, not by pressing Save in your application menu:
+
+:::warning
+
+If you rename, Save the new name by pressing Save in the **Benchmark toolkit window**, not by pressing Save in your application menu:
+
+:::
 
  
 
@@ -96,15 +100,23 @@ To turn the test procedure you just created into a test:
 3. In the Executed Procedure field, type the name of the procedure you want to play back. Use the lookup button to the right if you want to select the procedure from a list.
 4. Press Save to save work.
 
-> [!WARNING]
-> Make sure you press Save in the **Benchmark toolkit window,** not by pressing the Save button in your application menu:
+
+:::warning
+
+Make sure you press Save in the **Benchmark toolkit window,** not by pressing the Save button in your application menu:
+
+:::
 
 ![](./assets/361fa0b3-aa30-4b64-8aa8-058f8c07cb1c.png)
 
 ## Playing back a test
 
-> [!TIP]
-> If you still have the Tests window open, instead of going through the steps below, it is easier to query or select the test you want to play and then press Run.
+
+:::tip
+
+If you still have the Tests window open, instead of going through the steps below, it is easier to query or select the test you want to play and then press Run.
+
+:::
 
 To play back a test:
 

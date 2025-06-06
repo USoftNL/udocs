@@ -6,8 +6,12 @@ id: Generate_createtables_script
 
 
 
-> [!NOTE]
-> This article is about the **Generate create-tables script**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Generate create-tables script**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Generate create-tables script**
 

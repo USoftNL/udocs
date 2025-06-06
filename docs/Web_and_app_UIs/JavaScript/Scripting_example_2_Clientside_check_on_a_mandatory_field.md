@@ -19,8 +19,12 @@ else
 commit()
 ```
 
-> [!NOTE]
-> The **getValue** JavaScript method is defined in the *publication-folder*/js/interface.js file.
+
+:::note
+
+The **getValue** JavaScript method is defined in the *publication-folder*/js/interface.js file.
+
+:::
 
 4. Save your changes, and publish your application.
 

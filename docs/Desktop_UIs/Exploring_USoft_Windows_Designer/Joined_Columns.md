@@ -47,14 +47,22 @@ When you have this Logical View checked, you will see that USoft generates setti
 
 ![](./assets/a51525bc-8b1c-4ff5-ae5a-e4f82df0e84b.png)
 
-> [!TIP]
-> In service-oriented UIs such as REST APIs, it can be very useful to present many types of data *as if* they all came from the same table. This is where Logical Views come into their own.
-> In this context, it is also frequently possible and desirable to have users manipulate data *as if* they were all stored in the same table. Use [rule-based Logical Views](/docs/Modeller_and_Rules_Engine/Logical_Views/Rulebased_logical_views.md) to let users submit data *as if* these were all stored in the same surface table structure, while you actually channel these data to different columns in related database tables in the background.
+
+:::tip
+
+In service-oriented UIs such as REST APIs, it can be very useful to present many types of data *as if* they all came from the same table. This is where Logical Views come into their own.
+In this context, it is also frequently possible and desirable to have users manipulate data *as if* they were all stored in the same table. Use [rule-based Logical Views](/docs/Modeller_and_Rules_Engine/Logical_Views/Rulebased_logical_views.md) to let users submit data *as if* these were all stored in the same surface table structure, while you actually channel these data to different columns in related database tables in the background.
+
+:::
 
 ## Joined columns in USoft Definer: Virtual columns
 
-> [!WARNING]
-> The feature discussed in this section has now lost most of its relevance, but can still be useful if you quickly want to create "classic” joined columns in a USoft C/S UI, for example, for prototyping or for demos in meetings.
+
+:::warning
+
+The feature discussed in this section has now lost most of its relevance, but can still be useful if you quickly want to create "classic” joined columns in a USoft C/S UI, for example, for prototyping or for demos in meetings.
+
+:::
 
 In USoft Definer, in the Database Table window, for a child table, you can define columns with Type = Virtual. This allows you to create a "classic” joined column taking its value from the parent table and displaying it in all boxes for the child table as if it were a column in the child table itself.
 
@@ -75,8 +83,12 @@ The Column that Gives a Value to This Joined Column related window appears.
 
 ## Joined columns in USoft Windows Designer
 
-> [!WARNING]
-> The feature discussed in this section has now lost most of its relevance, but can still be useful if you want to create "classic” joined columns in a USoft C/S UI. The chief difference with the "virtual columns” from the previous section is that you can be more specific about the windows where you want the joined columns to appear.
+
+:::warning
+
+The feature discussed in this section has now lost most of its relevance, but can still be useful if you want to create "classic” joined columns in a USoft C/S UI. The chief difference with the "virtual columns” from the previous section is that you can be more specific about the windows where you want the joined columns to appear.
+
+:::
 
 To create joined columns in Windows Designer:
 

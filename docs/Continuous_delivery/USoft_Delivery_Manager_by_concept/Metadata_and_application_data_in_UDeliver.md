@@ -4,8 +4,12 @@ id: Metadata_and_application_data_in_UDeliver
 
 # Metadata and application data in UDeliver
 
-> [!NOTE]
-> This article is about the **metadata** and **appdata** (for: application data) concepts in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **metadata** and **appdata** (for: application data) concepts in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 USoft Delivery Manager distinguishes between *metadata* and *application data*, or *appdata.*
 

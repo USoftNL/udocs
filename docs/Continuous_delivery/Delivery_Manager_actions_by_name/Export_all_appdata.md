@@ -6,8 +6,12 @@ id: Export_all_appdata
 
 
 
-> [!NOTE]
-> This article is about the **Export all appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::note
+
+This article is about the **Export all appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+
+:::
 
 ## **Export all appdata**
 
@@ -18,8 +22,12 @@ The output file name is "application.xml".
 
 The list of "all" appdata is determined by querying dynamically in "Database account". Information (or the lack of it) in Application Tables in Delivery Manager is ignored when this action runs.
 
-> [!TIP]
-> Make sure you export appdata in such a way that you will not have problems re-importing the appdata later. To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::tip
+
+Make sure you export appdata in such a way that you will not have problems re-importing the appdata later. To understand and fix frequent problems with XML imports, read the Known Problems section for the **XML.Import()** method.
+
+:::
 
 ### Parameters
 

@@ -6,15 +6,19 @@ id: Upgrading_the_Development_environment_to_USoft_100
 
 To upgrade to USoft 10.0, first [upgrade to USoft 9.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_91.md). Then, upgrade to USoft 10.0 as a separate action.
 
-> [!WARNING]
-> In USoft 10, **usergroups** and** table rights** have been moved from the Authorizer to the Definer. Usergroups are now called “roles”. The Upgrade tool moves this information automatically, but this process may require some manual checking and tweaking in your situation:
-> **Make sure the Upgrade tool identifies your consumer application**
-> The Upgrade tool usefully moves access rights information from (old) Authorizer to (new) Definer. But it does this only for what it identifies as your main consumer application, not for modules. It identifies the application to be upgraded as the first (or only) application registered in Authorizer as NOT running from flatfile.
-> In summary: make sure that the application you want upgraded is the only application in Authorizer registered to run from repository.
-> To get access rights of modules upgraded, run the Upgrade tool where you develop the module, then generate a flat file and make this file available to the consumer application. This way, you will be able to define Module Rights for consumed modules in terms of USoft 10 roles.
-> **Make sure you synchronise with the new USAUTH.CON file**
-> If you have declared USoft Authorizer as a module, you must Synchronise with the new USAUTH.CON file. The following tables are no longer in the module interface because they do not exist anymore in USoft Authorizer 10.0:
-> T_AUTH_APPLICATION_TABLE
+
+:::warning
+
+In USoft 10, **usergroups** and** table rights** have been moved from the Authorizer to the Definer. Usergroups are now called “roles”. The Upgrade tool moves this information automatically, but this process may require some manual checking and tweaking in your situation:
+**Make sure the Upgrade tool identifies your consumer application**
+The Upgrade tool usefully moves access rights information from (old) Authorizer to (new) Definer. But it does this only for what it identifies as your main consumer application, not for modules. It identifies the application to be upgraded as the first (or only) application registered in Authorizer as NOT running from flatfile.
+In summary: make sure that the application you want upgraded is the only application in Authorizer registered to run from repository.
+To get access rights of modules upgraded, run the Upgrade tool where you develop the module, then generate a flat file and make this file available to the consumer application. This way, you will be able to define Module Rights for consumed modules in terms of USoft 10 roles.
+**Make sure you synchronise with the new USAUTH.CON file**
+If you have declared USoft Authorizer as a module, you must Synchronise with the new USAUTH.CON file. The following tables are no longer in the module interface because they do not exist anymore in USoft Authorizer 10.0:
+T_AUTH_APPLICATION_TABLE
+
+:::
 T_AUTH_COLUMN
 T_AUTH_COLUMN_PRIVILEGE
 T_AUTH_CONDITION
@@ -39,8 +43,12 @@ If there are any violations, fix them, and run and inspect the reports again, un
 
 For detailed instructions on this step, read the help topic How to make violation reports.
 
-> [!NOTE]
-> You may want to consider making an additional backup after fixing all violations.
+
+:::note
+
+You may want to consider making an additional backup after fixing all violations.
+
+:::
 
 ## Step 3: USoft 10.0 installation
 

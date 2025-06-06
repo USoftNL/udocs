@@ -6,8 +6,12 @@ id: XMLQuery
 
 
 
-> [!NOTE]
-> This article is about the **Query** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::note
+
+This article is about the **Query** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+
+:::
 
 ## **XML.Query**
 

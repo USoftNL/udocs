@@ -6,8 +6,12 @@ id: Blend_attributes
 
 
 
-> [!NOTE]
-> This is a wayfinding article on **Blend attributes** in the USoft Community Knowledge Base.
+
+:::note
+
+This is a wayfinding article on **Blend attributes** in the USoft Community Knowledge Base.
+
+:::
 
 Blend attributes are XML attributes that act as input parameters in the USoft Blend scripting language. They are comparable to parameters that you pass to Powershell commands.
 

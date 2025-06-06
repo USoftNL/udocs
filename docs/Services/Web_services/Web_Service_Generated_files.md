@@ -10,8 +10,12 @@ id: Web_Service_Generated_files
 
 
 
-> [!CAUTION]
-> In USoft 11.x, the functionality described here is **deprecated**.
+
+:::danger
+
+In USoft 11.x, the functionality described here is **deprecated**.
+
+:::
 Web service providers will be removed from USoft Definer and USoft Authorizer in USoft 12.x. Please use USoft Service Definer instead.
 
 ----
@@ -48,7 +52,11 @@ The settings stored in the "web.config" file are key-value combinations:
 
  
 
-> [!NOTE]
-> If no User/Password keys are used, the service uses basic authentication to login to the rules service. That means that the user name and password passed by the client via an HTTP authorisation header are used to connect to the rules service.
+
+:::note
+
+If no User/Password keys are used, the service uses basic authentication to login to the rules service. That means that the user name and password passed by the client via an HTTP authorisation header are used to connect to the rules service.
+
+:::
 
  

@@ -6,8 +6,12 @@ id: pcReadXmlFile
 
 
 
-> [!NOTE]
-> This article is about the **pc:ReadXmlFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:ReadXmlFile**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:ReadXmlFile**
 

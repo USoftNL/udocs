@@ -29,8 +29,12 @@ To create a queue table in USoft Definer:
 
 3. Create the table in the database.
 
-> [!NOTE]
-> You can also use copy on another queue table and paste to create a new queue table.
+
+:::note
+
+You can also use copy on another queue table and paste to create a new queue table.
+
+:::
 
 ## Defining constraints for creating output events
 

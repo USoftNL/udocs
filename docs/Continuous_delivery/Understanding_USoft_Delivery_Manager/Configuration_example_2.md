@@ -170,8 +170,12 @@ The result could look something like this:
 
 6. See that when you run the "deploy.xml" script, the local super user name is substituted when the T_AUTH_USER_USERGROUP records are imported.
 
-> [!TIP]
-> The first time you try to get this working, run the script but comment out the data import operation. That way, you can check that the substitution works correctly.
+
+:::tip
+
+The first time you try to get this working, run the script but comment out the data import operation. That way, you can check that the substitution works correctly.
+
+:::
 
  
 

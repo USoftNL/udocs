@@ -4,8 +4,12 @@ id: Tasks_in_UDeliver
 
 # Tasks in UDeliver
 
-> [!NOTE]
-> This article is about the **tasks** concept in USoft Delivery Manager ("UDeliver”).
+
+:::note
+
+This article is about the **tasks** concept in USoft Delivery Manager ("UDeliver”).
+
+:::
 
 **See also**
 

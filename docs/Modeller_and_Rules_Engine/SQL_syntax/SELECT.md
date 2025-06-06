@@ -6,8 +6,12 @@ id: SELECT
 
 
 
-> [!NOTE]
-> This article is about **SELECT** statements as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::note
+
+This article is about **SELECT** statements as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+
+:::
 
 ## **SELECT**
 

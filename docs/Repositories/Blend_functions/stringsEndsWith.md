@@ -6,8 +6,12 @@ id: stringsEndsWith
 
 
 
-> [!NOTE]
-> This article is about the **strings:EndsWith**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::note
+
+This article is about the **strings:EndsWith**[ Blend function](/docs/Repositories/Blend_functions).
+
+:::
 
 ## **strings:EndsWith**
 

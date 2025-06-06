@@ -29,8 +29,12 @@ According to SBVR, an element of guidance is "a means that guides, defines or co
 
 ![](./assets/3b2460b2-95ed-440a-b8b7-a717d8f0199f.png)
 
-> [!NOTE]
-> In addition to business rules and advices, [business policies](/docs/Authoring/Proposition_types/Motivations.md)**are also elements of guidance.
+
+:::note
+
+In addition to business rules and advices, [business policies](/docs/Authoring/Proposition_types/Motivations.md)**are also elements of guidance.
+
+:::
 
 A business rule is a claim of necessity or obligation. It always takes away some element of freedom: because of the rule, people must be more specific about how they act or decide in the business than if the rule were not there.
 
@@ -47,7 +51,11 @@ If the element of guidance contains a negative element, for example the word **n
 
 These are 8 logical categories. Exactly how they are expressed in a natural language like English or Dutch is another matter: this partly depends on the quirks of natural language.
 
-> [!NOTE]
-> In English, some expressions map to a category in an obvious way, for example the impersonal verbs **it is necessary that…** and **it is not necessary that…**. The word **may** without a negation maps both to possibility or permission. Combined with****a negative element such as the word **not**, it expresses the opposite: absence of possibility or permission. But **must** and** must not** both express necessity or obligation, **not** does not reverse the meaning - as you can see, you need knowledge of the natural language that you use as a vehicle when you write elements of guidance.
+
+:::note
+
+In English, some expressions map to a category in an obvious way, for example the impersonal verbs **it is necessary that…** and **it is not necessary that…**. The word **may** without a negation maps both to possibility or permission. Combined with****a negative element such as the word **not**, it expresses the opposite: absence of possibility or permission. But **must** and** must not** both express necessity or obligation, **not** does not reverse the meaning - as you can see, you need knowledge of the natural language that you use as a vehicle when you write elements of guidance.
+
+:::
 
  

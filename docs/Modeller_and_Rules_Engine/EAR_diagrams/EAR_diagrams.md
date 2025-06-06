@@ -22,9 +22,13 @@ The functionality that USoft offers around EAR diagrams is very different betwee
 
 In USoft 11, you can create, store and browse an EAR diagram in USoft Definer either for the entire **repository** or for a specific **business object.** 
 
-> [!TIP]
-> USoft recommends development teams associate each EAR diagram with a specific business object.
-> The option to open an EAR diagram for the repository as a whole is only appropriate for initial situations, for example, for test, tutorial, Sales demo, or jump-start situations.
+
+:::tip
+
+USoft recommends development teams associate each EAR diagram with a specific business object.
+The option to open an EAR diagram for the repository as a whole is only appropriate for initial situations, for example, for test, tutorial, Sales demo, or jump-start situations.
+
+:::
 
 USoft keeps EAR diagrams in sync with the Definer records for tables, columns, domains and relationships depicted in the diagram. This synchronisation is 2-way:
 

@@ -20,8 +20,12 @@ To define a rule-based Logical View:
 
 2. Decide which of the three DML actions (insert, update, delete) you want to make rule-based. For each of these actions, set the Use Constraints... flag to Yes. Save your work.
 
-> [!NOTE]
-> You don't always need special rules for each DML action. In a view that joins a parent and a child table connected by a Relationship with Delete Rule = Cascading, it is likely that you don't need a special rule for delete action, in which case you keep the setting Use Constraints for Deletes = No.
+
+:::note
+
+You don't always need special rules for each DML action. In a view that joins a parent and a child table connected by a Relationship with Delete Rule = Cascading, it is likely that you don't need a special rule for delete action, in which case you keep the setting Use Constraints for Deletes = No.
+
+:::
 
 3. Plan ahead what are the special rules that you want executed for each rule-based DML action in this logical view.
 

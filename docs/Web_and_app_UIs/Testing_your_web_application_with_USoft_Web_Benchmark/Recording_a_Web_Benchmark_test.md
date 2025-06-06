@@ -44,8 +44,12 @@ to edit your recording by changing or removing actions, and click Save when you 
 
 The action of pressing the Tab key to navigate to a next or previous field is NOT recorded. The only user actions that are recorded are **click** actions and **edit** actions. Edit actions consist of typing text in an input control, or overwriting existing text in a data control.
 
-> [!WARNING]
-> As a result, if you want a test to cover data entry in multiple fields, you must remember to **navigate to each new field by clicking the mouse button** and not by pressing the Tab key.
+
+:::warning
+
+As a result, if you want a test to cover data entry in multiple fields, you must remember to **navigate to each new field by clicking the mouse button** and not by pressing the Tab key.
+
+:::
 
 ### Drag-and-drop is not recorded
 

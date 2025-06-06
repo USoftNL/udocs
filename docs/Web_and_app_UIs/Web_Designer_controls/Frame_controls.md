@@ -53,18 +53,34 @@ The USoft implementation of frame controls is an example of [page chaining](/doc
 
 This fact has a number of implications.
 
-> [!CAUTION]
-> Data sources within the frame and data sources outside the frame cannot be interlinked by defining **Lookup** or **Related** objects.
 
-> [!CAUTION]
-> You cannot use hierarchical data source path notation (eg., **../../MYDATASOURCE**) to refer from a data source within the frame to a data source outside the frame.
+:::danger
+
+Data sources within the frame and data sources outside the frame cannot be interlinked by defining **Lookup** or **Related** objects.
+
+:::
+
+
+:::danger
+
+You cannot use hierarchical data source path notation (eg., **../../MYDATASOURCE**) to refer from a data source within the frame to a data source outside the frame.
+
+:::
 
 You can control what the frame displays by calling the **navigateTo()** action.
 
-> [!CAUTION]
-> You cannot achieve this by calling **NavigateToLookup()** or **NavigateToRelated()**.
 
-> [!TIP]
-> If you require the linking possibilities of Lookup and Related objects,hierarchical data source path notation, and NavigateToLookup() and NavigateToRelated(), then use an embedded page and not a FrameControl. You can embed a Page 2 into a surrounding Page 1 by first opening Page 1 and then dragging Page 2 from the Pages catalog on the left onto the top-level “Page 1 (Page)” node in the object tree on the right.
+:::danger
+
+You cannot achieve this by calling **NavigateToLookup()** or **NavigateToRelated()**.
+
+:::
+
+
+:::tip
+
+If you require the linking possibilities of Lookup and Related objects,hierarchical data source path notation, and NavigateToLookup() and NavigateToRelated(), then use an embedded page and not a FrameControl. You can embed a Page 2 into a surrounding Page 1 by first opening Page 1 and then dragging Page 2 from the Pages catalog on the left onto the top-level “Page 1 (Page)” node in the object tree on the right.
+
+:::
 
  

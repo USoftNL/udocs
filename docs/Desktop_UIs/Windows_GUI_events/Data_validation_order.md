@@ -12,8 +12,12 @@ As the user enters and changes data, field values and data manipulations are val
 - Transaction validation
 Groups are primary key fields, foreign key fields or virtual fields. A primary key group consists of only one field if the primary key is single-column. It consists of more than one field if the primary key spans more than one column; the same applies to foreign key groups and groups of virtual fields.
 
-> [!NOTE]
-> Do not confuse group validation with GUI control groups. The two issues are entirely unrelated.
+
+:::note
+
+Do not confuse group validation with GUI control groups. The two issues are entirely unrelated.
+
+:::
 
 Field validation occurs when the user leaves the field. Group validation occurs when the user leaves the group and record validation, when the user leaves the record. Note that "leaving the field" can be achieved by actual navigation but also implicitly, by issuing the Save/Commit command, for example.
 
@@ -23,14 +27,22 @@ If the user moves out of a field to the next field within the record, only field
 
 Likewise, if the user moves out of a field to the next record, field validation occurs, followed by group validation (if applicable) and record validation.
 
-> [!WARNING]
-> To avoid complexity, do not tamper with internal validation handling. In particular, DO NOT manipulate the current field value in the Post-change action statement script for that field. For a similar value adjustment, use the Adjust Change field property instead.
-> In the Post-change action statement script for a field you can, however, manipulate OTHER field values within the record.
+
+:::warning
+
+To avoid complexity, do not tamper with internal validation handling. In particular, DO NOT manipulate the current field value in the Post-change action statement script for that field. For a similar value adjustment, use the Adjust Change field property instead.
+In the Post-change action statement script for a field you can, however, manipulate OTHER field values within the record.
+
+:::
 
  
 
-> [!WARNING]
-> DO NOT issue the RecordStore() command, or otherwise manipulate the current record in a record validation property (Pre-insert validation; Pre-update validation; Post-change for the info box).
+
+:::warning
+
+DO NOT issue the RecordStore() command, or otherwise manipulate the current record in a record validation property (Pre-insert validation; Pre-update validation; Post-change for the info box).
+
+:::
 
 - > [!WARNING]
 > DO NOT issue the RecordStore(), RecordCreate(), or QueryExecute() command on a column's pre-field-entry, post-edit or post-change action lists.

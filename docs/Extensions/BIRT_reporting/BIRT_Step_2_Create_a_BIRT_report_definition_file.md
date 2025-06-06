@@ -10,8 +10,12 @@ The report definition file contains all the information required to connect to t
 - Create a dataset
 - Format the data of the dataset
 
-> [!NOTE]
-> Dataset creation and formatting are described in the BIRT Report Developer Guide
+
+:::note
+
+Dataset creation and formatting are described in the BIRT Report Developer Guide
+
+:::
 
 **Creating a Data Source**
 

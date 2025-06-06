@@ -50,5 +50,9 @@ SELECT   '<path to report definition file >'
 ,        'localhost:8888>'
 ```
 
-> [!NOTE]
-> The actual command that you use depends upon Rules Service settings. The settings you need can be found on the last page of the Rules Service configuration tool, accessible from the USoft Binder.
+
+:::note
+
+The actual command that you use depends upon Rules Service settings. The settings you need can be found on the last page of the Rules Service configuration tool, accessible from the USoft Binder.
+
+:::

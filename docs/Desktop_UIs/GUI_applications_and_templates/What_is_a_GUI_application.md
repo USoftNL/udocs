@@ -38,8 +38,12 @@ Do not consider using a template other than in the following situations:
 - You want to develop a number of USoft applications with the same general look and feel. For example, in all your applications you want the same yellow color as a background for all windows. Another example would be that you want certain standard navigational behavior on all Lookup Windows across your projects.
 - You want to keep a library of foundation classes that you are likely to re-use across applications. Typical candidates for such foundation classes are classes not related to the conceptual model, such as customized ActiveX control subclasses or dialogs.
 
-> [!CAUTION]
-> By using templates, you could create an entire tree of GUI applications based on each other. This can get needlessly complicated and is not generally recommended. Remember that a more straightforward way to re-use definitions is to take advantage, within a single Windows application, of the many style guide and inheritance capabilities of Windows Designer of generic GUI classes. Also remember that you can carry individual GUI classes from one project to another through external schema XML export files.
+
+:::danger
+
+By using templates, you could create an entire tree of GUI applications based on each other. This can get needlessly complicated and is not generally recommended. Remember that a more straightforward way to re-use definitions is to take advantage, within a single Windows application, of the many style guide and inheritance capabilities of Windows Designer of generic GUI classes. Also remember that you can carry individual GUI classes from one project to another through external schema XML export files.
+
+:::
 
 To base a new Windows application MYAPP on an existing template Windows application MYTEMP:
 

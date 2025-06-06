@@ -6,8 +6,12 @@ id: Compiling_Java_in_Service_Definer
 
 By default, Java in USoft Service Definer is compiled using javassist, but you can instead specify your own compiler as a path to your JDK.
 
-> [!WARNING]
-> This must be a JDK, not a JRE. This JDK must be the Java version used by your USoft installation, which is currently Java 15 for USoft 10 patches.
+
+:::warning
+
+This must be a JDK, not a JRE. This JDK must be the Java version used by your USoft installation, which is currently Java 15 for USoft 10 patches.
+
+:::
 
 To specify your own compiler in place of javassist:
 

@@ -52,8 +52,12 @@ To install an available nuget version:
 2. Click the Find Nugets tab. Follow the instructions to search for nugets you are interested in.
 3. When you have found the nuget you want to install, click on its Name, then in the Nuget Versions related box, right-click the nuget version you require and choose from the context menu.
 
-> [!TIP]
-> Installed nuget versions are listed in the “Find Nuget” tool but they are not declared as C# components in their own right. They are not visible in the Model and Rules, Components catalog. The fact that a component uses a nuget (version) is only visible in the component's source code as an assembly reference.
+
+:::tip
+
+Installed nuget versions are listed in the “Find Nuget” tool but they are not declared as C# components in their own right. They are not visible in the Model and Rules, Components catalog. The fact that a component uses a nuget (version) is only visible in the component's source code as an assembly reference.
+
+:::
 
 ## Having a referenced nuget version installed automatically
 

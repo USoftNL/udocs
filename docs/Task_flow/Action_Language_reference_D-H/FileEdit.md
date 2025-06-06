@@ -6,8 +6,12 @@ id: FileEdit
 
 
 
-> [!NOTE]
-> This article is about the **FileEdit** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **FileEdit** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **FileEdit()**
 
@@ -29,5 +33,9 @@ If the optional *dialog* is specified, a dialog of the specified class is opened
 
 - Column controls (Fields)
 
-> [!NOTE]
-> The 'File Editor Dialog' class is a default class. You can find it on the Dialogs tab of the Windows Designer catalog. You can customize this class. You can also make a subclass of this dialog class and pass the name of that subclass as the *dialog* parameter when calling FileEdit().
+
+:::note
+
+The 'File Editor Dialog' class is a default class. You can find it on the Dialogs tab of the Windows Designer catalog. You can customize this class. You can also make a subclass of this dialog class and pass the name of that subclass as the *dialog* parameter when calling FileEdit().
+
+:::

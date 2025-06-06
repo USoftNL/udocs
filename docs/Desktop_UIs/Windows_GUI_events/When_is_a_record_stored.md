@@ -21,8 +21,12 @@ When a record is inserted or updated, the INSERT or UPDATE manipulation is store
 
 It makes no difference whether the "dependent" info box is shown in a separate window, or embedded in the same window.
 
-> [!CAUTION]
-> The record is NOT (yet) stored as a result of the following actions:
+
+:::danger
+
+The record is NOT (yet) stored as a result of the following actions:
+
+:::
 
 - Navigating to a completely different window, e.g. an info window based on a different table.
 - Navigating to a "dependent" info box without performing data manipulation there. For "dependent", see INSERT/UPDATE above.

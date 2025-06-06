@@ -18,8 +18,12 @@ To save your workspace:
 - If desired, remove one or more windows from the tree by clicking the right mouse button, and then clicking Delete.
 - Use the At Startup dropdown list to choose whether the windows must be opened in the workspace, or must be cached.
 
-> [!TIP]
-> The setting in the At Startup field applies to ALL windows in the workspace/cache. You cannot set it for individual windows.
+
+:::tip
+
+The setting in the At Startup field applies to ALL windows in the workspace/cache. You cannot set it for individual windows.
+
+:::
 
 
 3.    Click Save.

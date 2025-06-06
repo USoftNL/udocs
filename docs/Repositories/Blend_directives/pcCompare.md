@@ -6,8 +6,12 @@ id: pcCompare
 
 
 
-> [!NOTE]
-> This article is about the **pc:Compare**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::note
+
+This article is about the **pc:Compare**[ Blend directive](/docs/Repositories/Blend_directives).
+
+:::
 
 ## **pc:Compare**
 
@@ -30,8 +34,12 @@ The required **alias** identifies a connection to a Rules Service that you want 
 
 The required **leftfile** and **rightfile** identify the files to be compared. The required **outputfile** identifies the name and location of the file where the outcome of the comparison must be written to.
 
-> [!CAUTION]
-> Do not confuse **leftfile** and **rightfile**. The first is the target data set and the second is the source data set. The return document may be used to upgrade the source data set to the target data set but not the other way around.
+
+:::danger
+
+Do not confuse **leftfile** and **rightfile**. The first is the target data set and the second is the source data set. The return document may be used to upgrade the source data set to the target data set but not the other way around.
+
+:::
 
 *Example*
 

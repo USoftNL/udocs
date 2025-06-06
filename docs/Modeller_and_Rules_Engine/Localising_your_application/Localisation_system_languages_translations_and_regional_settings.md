@@ -12,8 +12,12 @@ Localisation is an umbrella term for measures that you take to ensure that your 
 
 In addition, USoft localisation covers **separator** symbols for the representation of number values. This allows you to "translate” between the preference of most English-speaking countries to place a period between the whole number and trailing decimals, and a comma between digit groups, as in the currency notation  € 1,050.50, and the preference in most European countries to do the reverse (€ 1.050,50).
 
-> [!TIP]
-> Calendar date representation is also variable due to regional preferences, but this area is not yet covered by USoft localisation.
+
+:::tip
+
+Calendar date representation is also variable due to regional preferences, but this area is not yet covered by USoft localisation.
+
+:::
 
 ### The role of the OS and the RDBMS in localisation
 
@@ -91,8 +95,12 @@ To define a system language and its associated separator symbols:
 1. In USoft Definer, from the menu, choose Tools, Language, System Languages. Press F2-F3 to see existing languages.
 2. Name a new language on a new line, or overwrite a language to rename. Language names are case-sensitive. You can name a language by any string, but it is good practice to use ISO 639-1 language codes as shown in the tables in the previous section.
 
-> [!NOTE]
-> The advantage of ISO 639-1 language codes is that Internet software such as browsers may increasingly be able to offer additional functionality for the language automatically, for example spelling or translation help.
+
+:::note
+
+The advantage of ISO 639-1 language codes is that Internet software such as browsers may increasingly be able to offer additional functionality for the language automatically, for example spelling or translation help.
+
+:::
 
 3. Press Save/Commit. Click in the Property Name field in the child box. Press F2-F3. You see the following (4) default separator symbols for the system language:
 
@@ -111,8 +119,12 @@ The (2) CURRENCY… settings will apply to field values based on columns that ha
 
 The (2) NUMBER… settings will apply to field values based on columns that have a domain with a numeric data type, for example, ‘NUMBER’.. They will only have an effect if the domain’s  IO Format actually includes a marker for decimal separators or group separators, respectively. The IO format marker for decimal separators is a period (‘.’, as in ‘ZZZ9.99’). The marker for group separators is a comma (‘,’, as in ‘ZZ9,999’).
 
-> [!TIP]
-> You can reset separator settings dynamically by calling the RDMI internal component named ‘RulesEngine’: for example:
+
+:::tip
+
+You can reset separator settings dynamically by calling the RDMI internal component named ‘RulesEngine’: for example:
+
+:::
 
  
 

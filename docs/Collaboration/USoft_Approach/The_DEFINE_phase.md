@@ -60,8 +60,12 @@ You can implement structures without having corresponding specifications.
 
 In USoft Definer, it is possible to define *component tables.* They present themselves as structural components but execute code-based components rather than physical database tables.
 
-> [!NOTE]
-> The sequence of subphases Structure Definition - Rule Definition - Interface Definition suggests an ordering in time but this is relative. In a greenfields situation, you usually specify structure first, then rules, and then interfaces. In all other cases, you are likely to make alterations to all three as you go along. Most rules clearly depend on structure. Interfaces are also fairly clearly related to underlying structure, but less so on rules.
+
+:::note
+
+The sequence of subphases Structure Definition - Rule Definition - Interface Definition suggests an ordering in time but this is relative. In a greenfields situation, you usually specify structure first, then rules, and then interfaces. In all other cases, you are likely to make alterations to all three as you go along. Most rules clearly depend on structure. Interfaces are also fairly clearly related to underlying structure, but less so on rules.
+
+:::
 
 ## Rule Definition
 

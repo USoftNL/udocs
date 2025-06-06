@@ -12,8 +12,12 @@ You can easily construct complex decision trees with repeated branching, because
 
 You can also achieve looping, because it is possible to call a decision from its own Yes Action. In addition, you can call a decision that you passed through earlier, which gives you repeated looping through the same sequence of decisions until some value is reached or computed.
 
-> [!TIP]
-> It’s easy to lapse into procedural programming in this area. Do not forget that you can write a Decision SQL statement that retrieves *multiple rows* and that the Decision Yes Action is automatically executed for each of the retrieved rows, with the correct variable bindings. Prefer this kind of looping if it fulfills your need.
+
+:::tip
+
+It’s easy to lapse into procedural programming in this area. Do not forget that you can write a Decision SQL statement that retrieves *multiple rows* and that the Decision Yes Action is automatically executed for each of the retrieved rows, with the correct variable bindings. Prefer this kind of looping if it fulfills your need.
+
+:::
 
 The **Decision Tree** and **Caller Tree** utilities in the Decisions window help you visualise and navigate structures of Decisions that call each other or themselves.
 

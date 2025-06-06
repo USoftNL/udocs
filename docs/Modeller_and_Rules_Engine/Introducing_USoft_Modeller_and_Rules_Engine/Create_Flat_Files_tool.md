@@ -18,8 +18,12 @@ To create flat files:
     
 2.    Specify a name for file for the conceptual schema (CON file)
 
-> [!NOTE]
-> Only 'correct' and 'active' objects will be written to the CON file. If there are objects which are active but incorrect you will receive a warning and you will be given the opportunity to check the objects before creating the .CON file.
+
+:::note
+
+Only 'correct' and 'active' objects will be written to the CON file. If there are objects which are active but incorrect you will receive a warning and you will be given the opportunity to check the objects before creating the .CON file.
+
+:::
 
 3.    If you wish to create language files, that is: system messages files (.SMG) and application string files (.UMG), check the Create language files checkbox and specify names for the files to be created.
 

@@ -14,8 +14,12 @@ In the DOS window, type:
 
 **openssl genrsa -out usoft.com.key 4096**
 
-> [!NOTE]
-> For this version, you must use the filenames specified in these examples.
+
+:::note
+
+For this version, you must use the filenames specified in these examples.
+
+:::
 
  
 
@@ -31,8 +35,12 @@ We now need to generate the Certificate signing request (usoft.com.csr) . In the
 
  
 
-> [!NOTE]
-> For this version, you must use the filenames specified in these examples.
+
+:::note
+
+For this version, you must use the filenames specified in these examples.
+
+:::
 
  
 

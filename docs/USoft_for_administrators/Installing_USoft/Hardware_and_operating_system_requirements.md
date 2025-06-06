@@ -20,8 +20,12 @@ For a development environment, 4 Gb is recommended.
 
 ## Operating system version
 
-> [!NOTE]
-> USoft 11 and 10 are **64-bit only.** They require a 64-bit operating system. USoft 9.1 is still provided as a 32-bit application.
+
+:::note
+
+USoft 11 and 10 are **64-bit only.** They require a 64-bit operating system. USoft 9.1 is still provided as a 32-bit application.
+
+:::
 
 USoft runs on the following versions of the Microsoft Windows operating system.
 

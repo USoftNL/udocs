@@ -6,8 +6,12 @@ id: MenubarSetItem
 
 
 
-> [!NOTE]
-> This article is about the **MenubarSetItem** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **MenubarSetItem** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **MenubarSetItem()**
 
@@ -40,5 +44,9 @@ MenubarSetItem( *menu-page-prompt*, *menu-item-prompt*, *sensitivity* )
 MenubarSetItem( 'Record', 'Refresh', 'Off' )
 ```
 
-> [!CAUTION]
-> *menu-item-prompt* cannot be used to identify a menu item uniquely. You are therefore advised to use this action only on menu items that have unique prompts.
+
+:::danger
+
+*menu-item-prompt* cannot be used to identify a menu item uniquely. You are therefore advised to use this action only on menu items that have unique prompts.
+
+:::

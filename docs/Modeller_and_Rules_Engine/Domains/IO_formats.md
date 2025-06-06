@@ -67,11 +67,19 @@ id: IO_formats
 
 
 
-> [!NOTE]
-> NOTE 1: When using a date input format such as DD-MON-YYYY on Oracle, input with different punctuation than specified is also accepted, e.g. "01.JAN.1999" or "01/JAN/1999".
 
-> [!NOTE]
-> NOTE 2: For DATE fields, instead of specifying a fixed IO format on domain (or Windows Designer) level, you can make the representation format conform to the specification in your operating system environment. This environment usually contains both a short and a long date format.
+:::note
+
+NOTE 1: When using a date input format such as DD-MON-YYYY on Oracle, input with different punctuation than specified is also accepted, e.g. "01.JAN.1999" or "01/JAN/1999".
+
+:::
+
+
+:::note
+
+NOTE 2: For DATE fields, instead of specifying a fixed IO format on domain (or Windows Designer) level, you can make the representation format conform to the specification in your operating system environment. This environment usually contains both a short and a long date format.
+
+:::
 
 You can choose between them by specifying $$SHORTDATE$$ or $$LONGDATE as domain IO format.
 

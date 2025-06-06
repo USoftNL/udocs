@@ -6,13 +6,21 @@ id: controlsetvalues
 
 
 
-> [!NOTE]
-> This article is about the **control-set-values** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::note
+
+This article is about the **control-set-values** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+
+:::
 
 ## **control-set-values()**
 
-> [!CAUTION]
-> This action is supported for backward compatibility only. Instead of using control-set-values()¸to set a property to a value, refer to that property as a action call, providing the (new) property value as a parameter to the action call.
+
+:::danger
+
+This action is supported for backward compatibility only. Instead of using control-set-values()¸to set a property to a value, refer to that property as a action call, providing the (new) property value as a parameter to the action call.
+
+:::
 
 Sets the value of a property of the current object or of a specified target object.
 

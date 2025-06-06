@@ -6,8 +6,12 @@ id: USFileReadBinaryFile
 
 
 
-> [!NOTE]
-> This article is about the **ReadBinaryFile** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::note
+
+This article is about the **ReadBinaryFile** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+
+:::
 
 ## **USFile.ReadBinaryFile**
 

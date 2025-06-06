@@ -6,8 +6,12 @@ id: before
 
 
 
-> [!NOTE]
-> This article is about the **before**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::note
+
+This article is about the **before**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+
+:::
 
 ## **before**
 
@@ -27,8 +31,12 @@ The before event is raised as a consequence of the server handling Page Engine r
 
 You can use the before event to show waitstates that you hide subsequently on the after event.
 
-> [!WARNING]
-> The before event is not suitable for blocking or preventing the Page Engine action under specific conditions. For this purpose, use specific before... events instead, such as beforecheckdata.
+
+:::warning
+
+The before event is not suitable for blocking or preventing the Page Engine action under specific conditions. For this purpose, use specific before... events instead, such as beforecheckdata.
+
+:::
 
 ## How to use
 

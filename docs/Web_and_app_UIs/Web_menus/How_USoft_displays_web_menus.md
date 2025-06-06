@@ -14,10 +14,14 @@ Menus in your web pages are displayed by **MenuControls**. When the user browses
 - If the MenuControl’s **Menu Name** property has a value other than **Group Menu**, then the menu with that name is displayed.
 - If the MenuControl’s **Menu Name** property has the value of **Group Menu** or the empty value, then USoft looks at the RoleMenus class and the current user-role associations to decide which role-based menu to display for the runtime user.
 
-> [!TIP]
-> **Tying menus to pages: Easy drag-and-drop**
-> Experienced users of Web Designer can easily tie menus to pages, and pages to menus:
-> These easy-to-use options are for developers who understand the class hierarchies and object hierarchies they have been creating. Beginners should prefer the step-by-step instructions in [Web Menus: Quick Start](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md).
+
+:::tip
+
+**Tying menus to pages: Easy drag-and-drop**
+Experienced users of Web Designer can easily tie menus to pages, and pages to menus:
+These easy-to-use options are for developers who understand the class hierarchies and object hierarchies they have been creating. Beginners should prefer the step-by-step instructions in [Web Menus: Quick Start](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md).
+
+:::
 
 ### Freedom of design
 
@@ -53,5 +57,9 @@ Now, create an appropriate initial menu for each role. Map each role to its menu
 
 Consider that if you run with merged roles, role merge will influence the initial menu. USoft will automatically attempt to compose a suitable menu for users who hold multiple roles.
 
-> [!NOTE]
-> Click [here](/docs/Web_and_app_UIs/Web_menus/Menu_XML_files.md) for more explanation about menu XML files.
+
+:::note
+
+Click [here](/docs/Web_and_app_UIs/Web_menus/Menu_XML_files.md) for more explanation about menu XML files.
+
+:::

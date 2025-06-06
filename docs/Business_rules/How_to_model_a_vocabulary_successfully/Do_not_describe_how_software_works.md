@@ -48,8 +48,12 @@ Do not allow that the rule *says* it should be implemented by the architect as p
 
 ## Personification
 
-> [!NOTE]
-> This section is seemingly in contradiction with what went before. But it still recommends that you limit yourself to talking about *what* software does, not *how* *it works.*
+
+:::note
+
+This section is seemingly in contradiction with what went before. But it still recommends that you limit yourself to talking about *what* software does, not *how* *it works.*
+
+:::
 
 In the department of a large trading bank, they use 10 different applications that contribute to calculating how much risk a loan application is supposed to carry. Most of these systems have been around for decades. They have names like
 
@@ -61,8 +65,16 @@ In this environment, you should use *personification*: you should feel free to u
 
 ![](./assets/9f7bb304-0f90-4c8e-8e19-e429d65e8f4c.png)
 
-> [!WARNING]
-> With personification, you lose the flexibility of saying what you want *independently* of which application does what.
 
-> [!TIP]
-> A system cannot violate a rule in the same way that people can decide to violate business rules. But modelling an IT system like a person is not far-fetched. Like people, software can fail or regress: it can usually follow a rule but violate it at other times.
+:::warning
+
+With personification, you lose the flexibility of saying what you want *independently* of which application does what.
+
+:::
+
+
+:::tip
+
+A system cannot violate a rule in the same way that people can decide to violate business rules. But modelling an IT system like a person is not far-fetched. Like people, software can fail or regress: it can usually follow a rule but violate it at other times.
+
+:::
