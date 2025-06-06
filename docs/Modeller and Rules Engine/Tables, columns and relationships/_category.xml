@@ -1,0 +1,40 @@
+﻿<details>
+	<summary>
+		<a href="#Modeller and Rules Engine/Tables, columns and relationships">Tables, columns and relationships</a>
+	</summary>
+	<ul>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/What is a table.md">What is a table?</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/How to define a table and its columns.md">How to define a table and its columns</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/Generating tables.md">Generating tables</a>
+		</li>		
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/What is an index.md">What is an index?</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/What is a column.md">What is a column?</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/Virtual columns joined columns.md">Virtual columns (joined columns)</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/What is a relationship.md">What is a relationship?</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/Cardinality in relationships.md">Cardinality in relationships</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/How to define a relationship.md">How to define a relationship</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/The RELATE keyword.md">The RELATE keyword</a>
+		</li>
+		<li>
+			<a href="#Modeller and Rules Engine/Tables, columns and relationships/External tables.md">External tables</a>
+		</li>
+	</ul>
+</details>

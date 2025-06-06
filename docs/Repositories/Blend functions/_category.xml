@@ -1,0 +1,96 @@
+﻿<details>
+<summary>
+<a href="#Repositories/Blend functions">Blend functions</a>
+</summary><ul>
+<li>
+<a href="#Repositories/Blend functions/Blend functions.md">Blend functions</a>
+</li><li>
+<a href="#Repositories/Blend functions/booleanflagsShow.md">booleanflags:Show</a>
+</li><li>
+<a href="#Repositories/Blend functions/booleanflagsToBoolean.md">booleanflags:ToBoolean</a>
+</li><li>
+<a href="#Repositories/Blend functions/clipboardGetText.md">clipboard:GetText</a>
+</li><li>
+<a href="#Repositories/Blend functions/datesShowInputFormats.md">dates:ShowInputFormats</a>
+</li><li>
+<a href="#Repositories/Blend functions/directoriesDirectoryContent.md">directories:DirectoryContent</a>
+</li><li>
+<a href="#Repositories/Blend functions/directoriesDirectoryExists.md">directories:DirectoryExists</a>
+</li><li>
+<a href="#Repositories/Blend functions/directoriesGet.md">directories:Get</a>
+</li><li>
+<a href="#Repositories/Blend functions/environmentMachineName.md">environment:MachineName</a>
+</li><li>
+<a href="#Repositories/Blend functions/filesFileExists.md">files:FileExists</a>
+</li><li>
+<a href="#Repositories/Blend functions/filesReadFile.md">files:ReadFile</a>
+</li><li>
+<a href="#Repositories/Blend functions/filesXmlFile.md">files:XmlFile</a>
+</li><li>
+<a href="#Repositories/Blend functions/guidnewguid.md">guid:newguid</a>
+</li><li>
+<a href="#Repositories/Blend functions/oracleUSoftConnectString.md">oracle:USoftConnectString</a>
+</li><li>
+<a href="#Repositories/Blend functions/pathCombine.md">path:Combine</a>
+</li><li>
+<a href="#Repositories/Blend functions/pathGetFileName.md">path:GetFileName</a>
+</li><li>
+<a href="#Repositories/Blend functions/pathGetFullPath.md">path:GetFullPath</a>
+</li><li>
+<a href="#Repositories/Blend functions/rulesserviceReadConfig.md">rulesservice:ReadConfig</a>
+</li><li>
+<a href="#Repositories/Blend functions/serviceServiceState.md">service:ServiceState</a>
+</li><li>
+<a href="#Repositories/Blend functions/sqlDataTableSetExport.md">sql:DataTableSetExport</a>
+</li><li>
+<a href="#Repositories/Blend functions/sqlSqlStmnt.md">sql:SqlStmnt</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsAposssed.md">strings:Aposssed</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsEndsWith.md">strings:EndsWith</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsjoin.md">strings:join</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsQuoted.md">strings:Quoted</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsReplace.md">strings:Replace</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsReplaceVariables.md">strings:ReplaceVariables</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsREReplace.md">strings:REReplace</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsStartsWith.md">strings:StartsWith</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsStartsWithIgnoreCase.md">strings:StartsWithIgnoreCase</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsText2Xml.md">strings:Text2Xml</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsTitleCase.md">strings:TitleCase</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsToLower.md">strings:ToLower</a>
+</li><li>
+<a href="#Repositories/Blend functions/stringsToUpper.md">strings:ToUpper</a>
+</li><li>
+<a href="#Repositories/Blend functions/variableIsDefined.md">variable:IsDefined</a>
+</li><li>
+<a href="#Repositories/Blend functions/variableSet.md">variable:Set</a>
+</li><li>
+<a href="#Repositories/Blend functions/variableTypeOf.md">variable:TypeOf</a>
+</li><li>
+<a href="#Repositories/Blend functions/wrightsHasAdminRole.md">wrights:HasAdminRole</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutilapplyTemplate.md">xslutil:applyTemplate</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutiljson2xml.md">xslutil:json2xml</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutilnodeset.md">xslutil:nodeset</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutilSleep.md">xslutil:Sleep</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutiltest.md">xslutil:test</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutilUserTempDir.md">xslutil:UserTempDir</a>
+</li><li>
+<a href="#Repositories/Blend functions/xslutilUSoftDir.md">xslutil:USoftDir</a>
+</li></ul>
+</details>

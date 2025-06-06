@@ -1,0 +1,26 @@
+﻿<details>
+<summary>
+<a href="#Extensions/XML internal component">XML internal component</a>
+</summary><ul>
+<li>
+<a href="#Extensions/XML internal component/XMLCreateDTD.md">XML.CreateDTD</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLExport.md">XML.Export</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLGenerateComplexType.md">XML.GenerateComplexType</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLImport.md">XML.Import</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLJSON2XML.md">XML.JSON2XML</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLMultiExportTables.md">XML.MultiExportTables</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLQuery.md">XML.Query</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLSQL2XML.md">XML.SQL2XML</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLSQLExport.md">XML.SQLExport</a>
+</li><li>
+<a href="#Extensions/XML internal component/XMLSQLStatementExport.md">XML.SQLStatementExport</a>
+</li></ul>
+</details>

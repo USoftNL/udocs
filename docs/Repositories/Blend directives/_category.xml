@@ -1,0 +1,230 @@
+﻿<details>
+<summary>
+<a href="#Repositories/Blend directives">Blend directives</a>
+</summary><ul>
+<li>
+<a href="#Repositories/Blend directives/Blend directives.md">Blend directives</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcAppendFile.md">pc:AppendFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcapply.md">pc:apply</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcapply2file.md">pc:apply2file</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignboolean.md">pc:assign-boolean</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignbooleandefault.md">pc:assign-boolean-default</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignnodeset.md">pc:assign-nodeset</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignnodesetdefault.md">pc:assign-nodeset-default</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignnodesetfromjson.md">pc:assign-nodeset-from-json</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignnumber.md">pc:assign-number</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignnumberdefault.md">pc:assign-number-default</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignstring.md">pc:assign-string</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcassignstringdefault.md">pc:assign-string-default</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcblend.md">pc:blend</a>
+</li><li>
+<a href="#Repositories/Blend directives/pccall.md">pc:call</a>
+</li><li>
+<a href="#Repositories/Blend directives/pccase.md">pc:case</a>
+</li><li>
+<a href="#Repositories/Blend directives/pccommentof.md">pc:comment-of</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCompare.md">pc:Compare</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcConfigRulesService.md">pc:ConfigRulesService</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcConsoleWrite.md">pc:ConsoleWrite</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcConvertFormatAndCulture.md">pc:ConvertFormatAndCulture</a>
+</li><li>
+<a href="#Repositories/Blend directives/pccopyof.md">pc:copy-of</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCopyDirectory.md">pc:CopyDirectory</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCopyFile.md">pc:CopyFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCopyFileOverwrite.md">pc:CopyFileOverwrite</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCreapp.md">pc:Creapp</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCreateConceptualFile.md">pc:CreateConceptualFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcCreateDirectories.md">pc:CreateDirectories</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcDatabaseExists.md">pc:DatabaseExists</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcdefault.md">pc:default</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcdefinebooleanflags.md">pc:define-boolean-flags</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcdefs.md">pc:defs</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcDeleteDirectories.md">pc:DeleteDirectories</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcDeleteFile.md">pc:DeleteFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcDialog.md">pc:Dialog</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcDirectory.md">pc:Directory</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcDropDatabase.md">pc:DropDatabase</a>
+</li><li>
+<a href="#Repositories/Blend directives/pceach.md">pc:each</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcelse.md">pc:else</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcerrormsg.md">pc:error-msg</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcerrortextmsg.md">pc:error-textmsg</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcevaluate.md">pc:evaluate</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcFailed.md">pc:Failed</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcGenerateKeySchema.md">pc:GenerateKeySchema</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcGetRulesEngineProperty.md">pc:GetRulesEngineProperty</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcGetVariables.md">pc:GetVariables</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcif.md">pc:if</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcifnotthen.md">pc:if-not-then</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcifthen.md">pc:if-then</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcignorewhitespace.md">pc:ignorewhitespace</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcindent.md">pc:indent</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcindentchars.md">pc:indentchars</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcLoadVariables.md">pc:LoadVariables</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcLoadVariablesOverwrite.md">pc:LoadVariablesOverwrite</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcmessage.md">pc:message</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcMoveFile.md">pc:MoveFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcMoveFileOverwrite.md">pc:MoveFileOverwrite</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcmsg.md">pc:msg</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcnbs.md">pc:nbs</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcNewBinder.md">pc:NewBinder</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcNewDatabaseForUSoft.md">pc:NewDatabaseForUSoft</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcnewline.md">pc:newline</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcNewUDevelop.md">pc:NewUDevelop</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcnonbreakingspace.md">pc:non-breaking-space</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcPowerShell.md">pc:PowerShell</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcprocessinginstruction.md">pc:processing-instruction</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcProgramSystemDir.md">pc:ProgramSystemDir</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcRdbmsStatement.md">pc:RdbmsStatement</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcReadFile.md">pc:ReadFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcReadFiles.md">pc:ReadFiles</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcReadXmlFile.md">pc:ReadXmlFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcReadXmlFiles.md">pc:ReadXmlFiles</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcReplaceVariables.md">pc:ReplaceVariables</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcreturn.md">pc:return</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcRulesServiceList.md">pc:RulesServiceList</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcRunRulesService.md">pc:RunRulesService</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcSaveVariables.md">pc:SaveVariables</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcServiceInstall.md">pc:ServiceInstall</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcServiceList.md">pc:ServiceList</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcServiceStart.md">pc:ServiceStart</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcServiceState.md">pc:ServiceState</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcServiceStop.md">pc:ServiceStop</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcServiceUninstall.md">pc:ServiceUninstall</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcSetRulesEngineProperty.md">pc:SetRulesEngineProperty</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcSetRulesServiceConnection.md">pc:SetRulesServiceConnection</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcSqlStatement.md">pc:SqlStatement</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcStopRulesService.md">pc:StopRulesService</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcSucceeded.md">pc:Succeeded</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcswitch.md">pc:switch</a>
+</li><li>
+<a href="#Repositories/Blend directives/pctab.md">pc:tab</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcterminate.md">pc:terminate</a>
+</li><li>
+<a href="#Repositories/Blend directives/pctext.md">pc:text</a>
+</li><li>
+<a href="#Repositories/Blend directives/pctextmsg.md">pc:textmsg</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcthen.md">pc:then</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcUserTempDir.md">pc:UserTempDir</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcUSoftSystemDir.md">pc:USoftSystemDir</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcUSoftTempDir.md">pc:USoftTempDir</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcValidateSchemas.md">pc:ValidateSchemas</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcvalueof.md">pc:value-of</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcvoid.md">pc:void</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcWinCommand.md">pc:WinCommand</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcWriteFile.md">pc:WriteFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcXmlExport.md">pc:XmlExport</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcXmlImport.md">pc:XmlImport</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcXmlImportApply.md">pc:XmlImportApply</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipExtractFiles.md">pc:ZipExtractFiles</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipFile.md">pc:ZipFile</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipFileCreate.md">pc:ZipFileCreate</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipFileCreateFromDir.md">pc:ZipFileCreateFromDir</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipFileEntry.md">pc:ZipFileEntry</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipReplace.md">pc:ZipReplace</a>
+</li><li>
+<a href="#Repositories/Blend directives/pcZipUpdate.md">pc:ZipUpdate</a>
+</li></ul>
+</details>

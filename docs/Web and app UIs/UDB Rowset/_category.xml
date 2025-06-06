@@ -1,0 +1,48 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB Rowset">UDB Rowset</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB Rowset/UDB Rowset object.md">UDB Rowset object</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetclear.md">Rowset.clear()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetdataSet.md">Rowset.dataSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetdataSetIndicator.md">Rowset.dataSetIndicator()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetdbCount.md">Rowset.dbCount()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowseteach.md">Rowset.each()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetexecute.md">Rowset.execute()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetexecuteQuery.md">Rowset.executeQuery()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetgotoDataSet.md">Rowset.gotoDataSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetindexOf.md">Rowset.indexOf()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetisEmpty.md">Rowset.isEmpty()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetisQueried.md">Rowset.isQueried()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetkeysString.md">Rowset.keysString()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetkeyValues.md">Rowset.keyValues()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetnumberOfDataSets.md">Rowset.numberOfDataSets()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetposition.md">Rowset.position()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetrange.md">Rowset.range()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/RowsetrowCount.md">Rowset.rowCount()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetrows.md">Rowset.rows()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetselect.md">Rowset.select()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rowset/Rowsetsort.md">Rowset.sort()</a>
+</li></ul>
+</details>

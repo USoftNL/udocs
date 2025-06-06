@@ -1,0 +1,42 @@
+﻿<details>
+<summary>
+<a href="#Extensions/RulesEngine internal component">RulesEngine internal component</a>
+</summary><ul>
+<li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineExecuteStatement.md">RulesEngine.ExecuteStatement</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineGetLastCaughtErrors.md">RulesEngine.GetLastCaughtErrors</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineGetLastCaughtErrorsAsXML.md">RulesEngine.GetLastCaughtErrorsAsXML</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineGetLastGeneratedGuid.md">RulesEngine.GetLastGeneratedGuid</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineGetLastGeneratedUniqueValue.md">RulesEngine.GetLastGeneratedUniqueValue</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineGetProperty.md">RulesEngine.GetProperty</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineGetRegistry.md">RulesEngine.GetRegistry</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineMessageLanguage.md">RulesEngine.MessageLanguage</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineMustExistExecuteStatement.md">RulesEngine.MustExistExecuteStatement</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEnginePreCommit.md">RulesEngine.PreCommit</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineRefreshAuthorization.md">RulesEngine.RefreshAuthorization</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineSetProperty.md">RulesEngine.SetProperty</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineSetRole.md">RulesEngine.SetRole</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineSetUser.md">RulesEngine.SetUser</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineSetUserGroup.md">RulesEngine.SetUserGroup</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineStartCatchingErrors.md">RulesEngine.StartCatchingErrors</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineStopCatchingErrors.md">RulesEngine.StopCatchingErrors</a>
+</li><li>
+<a href="#Extensions/RulesEngine internal component/RulesEngineTranslateMessage.md">RulesEngine.TranslateMessage</a>
+</li></ul>
+</details>

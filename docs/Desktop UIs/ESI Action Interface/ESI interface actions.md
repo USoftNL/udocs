@@ -1,0 +1,11 @@
+# ESI interface actions
+
+The first action call in any script that you run via the ESI action interface MUST always be one to esi-new-application(), or to esi-open-application(). Otherwise you will get errors of the type COULD_NOT_OPEN \<GUI name> when incorrect class names or control names are passed as parameters to esi-add-subclass(), esi-delete-class(), or esi-set-class-property().
+
+You can create extra Info Box and Dialog Box classes by calling esi-add-subclass(), and specifying a new window class name and an existing window class name. Using esi-add-info-window() and specifying a new window class name, a base table class name, and a style class name, allows you to create a new root Info Box class based on the specified style sheet and table.
+
+You cannot select any generated instance object to modify its class definitions, so you first have to provide instructions to create the objects, specifying its exact hierarchical position using a dedicated context identifier language, then change or set its properties.
+
+To insert or delete component objects, you identify a class or class component in the definition hierarchy, then provide the definition of the new component (of a specified class). Or, if you want to delete a component, you have to point out its exact position in the object model. You can use the actions esi-insert-control() and esi-delete-control().
+
+A runtime object sometimes spontaneously creates components without ever being instructed that a control was to be inserted. These kinds of controls are called "implicit" controls. In the Windows Designer you can select these objects and modify them. Since such implicit components do not exist in a window class definition until you explicitly modify them using the Windows Designer, the ESI action interface has an extra mechanism to tell the window class that it must expecta certain component topossibly existat runtime, before you can actually edit its specifications. In short, this means that you must create component definitions for implicit controls yourself. This is done using the action esi-add-component().

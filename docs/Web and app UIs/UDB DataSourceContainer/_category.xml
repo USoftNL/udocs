@@ -1,0 +1,50 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB DataSourceContainer">UDB DataSourceContainer</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB DataSourceContainer/UDB DataSourceContainer object.md">UDB DataSourceContainer object</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsclear.md">$.udb(ds).clear()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsclearQuery.md">$.udb(ds).clearQuery()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdscreateRowSet.md">$.udb(ds).createRowSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdseach.md">$.udb(ds).each()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsembeddedKeyCols.md">$.udb(ds).embeddedKeyCols()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsexecuteQuery.md">$.udb(ds).executeQuery()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsgetDataSet.md">$.udb(ds).getDataSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsgotoDataSet.md">$.udb(ds).gotoDataSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsmeta.md">$.udb(ds).meta()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsoff.md">$.udb(ds).off()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdson.md">$.udb(ds).on()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdspathTo.md">$.udb(ds).pathTo()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsrefresh.md">$.udb(ds).refresh()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsrowCount.md">$.udb(ds).rowCount()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsrowCreate.md">$.udb(ds).rowCreate()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsrows.md">$.udb(ds).rows()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdsrowSet.md">$.udb(ds).rowSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdssearchCols.md">$.udb(ds).searchCols()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdssetDataSetSize.md">$.udb(ds).setDataSetSize()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdssetQueryHook.md">$.udb(ds).setQueryHook()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceContainer/udbdstrigger.md">$.udb(ds).trigger()</a>
+</li></ul>
+</details>

@@ -1,0 +1,38 @@
+﻿<details>
+<summary>
+<a href="#Extensions/Web service components">Web service components</a>
+</summary><ul>
+<li>
+<a href="#Extensions/Web service components/What is a web service component.md">What is a web service component?</a>
+</li><li>
+<a href="#Extensions/Web service components/How to import web service definitions.md">How to import web service definitions</a>
+</li><li>
+<a href="#Extensions/Web service components/Calling a web service using an INVOKE statement.md">Calling a web service using an INVOKE statement</a>
+</li><li>
+<a href="#Extensions/Web service components/Calling a web service using a component table.md">Calling a web service using a component table</a>
+</li><li>
+<a href="#Extensions/Web service components/Using XSL transformations for web service component tables.md">Using XSL transformations for web service component tables</a>
+</li><li>
+<a href="#Extensions/Web service components/The USoft component table XML format.md">The USoft component table XML format</a>
+</li><li>
+<a href="#Extensions/Web service components/Finishing creating a web service component table.md">Finishing creating a web service component table</a>
+</li><li>
+<a href="#Extensions/Web service components/Proxy server settings.md">Proxy server settings</a>
+</li><li>
+<a href="#Extensions/Web service components/How to modify existing web service components.md">How to modify existing web service components</a>
+</li><li>
+<a href="#Extensions/Web service components/Web service component details.md">Web service component details</a>
+</li><li>
+<a href="#Extensions/Web service components/Setting a timeout value when calling a web service.md">Setting a timeout value when calling a web service</a>
+</li><li>
+<a href="#Extensions/Web service components/DIME messages support.md">DIME messages support</a>
+</li><li>
+<a href="#Extensions/Web service components/How to implement DIME messages.md">How to implement DIME messages</a>
+</li><li>
+<a href="#Extensions/Web service components/MTOM Message Transmission Optimization Mechanism Support.md">MTOM (Message Transmission Optimization Mechanism Support)</a>
+</li><li>
+<a href="#Extensions/Web service components/Debugging web service components.md">Debugging web service components</a>
+</li><li>
+<a href="#Extensions/Web service components/The sendSoapMessage function.md">The sendSoapMessage function</a>
+</li></ul>
+</details>

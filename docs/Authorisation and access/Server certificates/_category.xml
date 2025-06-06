@@ -1,0 +1,32 @@
+﻿<details>
+<summary>
+<a href="#Authorisation and access/Server certificates">Server certificates</a>
+</summary><ul>
+<li>
+<a href="#Authorisation and access/Server certificates/Purpose of server certificates.md">Purpose of server certificates</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/How server certificates work.md">How server certificates work</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/How to configure a web server for SSL.md">How to configure a web server for SSL</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/Selfsigned certificates and OpenSSL.md">Self-signed certificates and OpenSSL</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/SSL Step 1 Download and install OpenSSL.md">SSL Step 1: Download and install OpenSSL</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/SSL Step 2 Create a private key.md">SSL Step 2: Create a private key</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/SSL Step 3 Create a master certificate based on private key.md">SSL Step 3: Create a master certificate based on private key</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/SSL Step 4 Create public key and certificate signing request.md">SSL Step 4: Create public key and certificate signing request</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/SSL Step 5 Selfsign the certificate.md">SSL Step 5: Self-sign the certificate</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/Using selfsigned certificates with USoft.md">Using self-signed certificates with USoft</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/Activation of TLSSSL in the Remote Rules Service.md">Activation of TLS/SSL in the Remote Rules Service</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/Activation of TLSSSL in the JDBC Driver.md">Activation of TLS/SSL in the JDBC Driver</a>
+</li><li>
+<a href="#Authorisation and access/Server certificates/Activation of TLSSSL in the Rules Service.md">Activation of TLS/SSL in the Rules Service</a>
+</li></ul>
+</details>

@@ -1,0 +1,86 @@
+﻿<details>
+<summary>
+<a href="#Task flow/Action Language reference D-H">Action Language reference D-H</a>
+</summary><ul>
+<li>
+<a href="#Task flow/Action Language reference D-H/DataCommit.md">DataCommit()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DataRdbmsStatement.md">DataRdbmsStatement()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DataReport.md">DataReport()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DataRollback.md">DataRollback()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DataToClipboard.md">DataToClipboard()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdeConnect.md">DdeConnect()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdeDisconnect.md">DdeDisconnect()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdeExecute.md">DdeExecute()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdePoke.md">DdePoke()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdeRequest.md">DdeRequest()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdeStartAdvise.md">DdeStartAdvise()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DdeStopAdvise.md">DdeStopAdvise()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/DeactivateConstraint.md">DeactivateConstraint()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/Delete.md">Delete()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/Drag.md">Drag()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/ErrorRaise.md">ErrorRaise()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/esicreateschemafile.md">esi-create-schema-file()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/ExecuteLookupaction.md">ExecuteLookupaction()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FieldClear.md">FieldClear()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FieldDuplicate.md">FieldDuplicate()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FieldPaste.md">FieldPaste()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FieldSelect.md">FieldSelect()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FileEdit.md">FileEdit()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FileExists.md">FileExists()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FileOpen.md">FileOpen()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FileSaveAs.md">FileSaveAs()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FileSearchIn.md">FileSearchIn()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FilterTree.md">FilterTree()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FolderBrowse.md">FolderBrowse()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/FORMULA.md">FORMULA()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/GetValueFromCurrentItem.md">GetValueFromCurrentItem()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/GotoCel.md">GotoCel()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HasFocus.md">HasFocus()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/Help.md">Help()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HelpOnAccelerators.md">HelpOnAccelerators()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HelpOnControl.md">HelpOnControl()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HelpOnLastMessage.md">HelpOnLastMessage()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HelpOnTable.md">HelpOnTable()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HelpRunWinhelp.md">HelpRunWinhelp()</a>
+</li><li>
+<a href="#Task flow/Action Language reference D-H/HelpWhatsThis.md">HelpWhatsThis()</a>
+</li></ul>
+</details>

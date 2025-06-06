@@ -1,0 +1,34 @@
+﻿<details>
+<summary>
+<a href="#Extensions/RDMI Components">RDMI Components</a>
+</summary><ul>
+<li>
+<a href="#Extensions/RDMI Components/What is an RDMI component and how do you create one.md">What is an RDMI component and how do you create one?</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Java Enterprise J2EE components.md">Java Enterprise (J2EE) components</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Component parameters.md">Component parameters</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Component state.md">Component state</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Constructor SQL.md">Constructor SQL</a>
+</li><li>
+<a href="#Extensions/RDMI Components/How many times a called component is executed.md">How many times a called component is executed?</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Components Standard protocol.md">Components: Standard protocol</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Query protocol component table.md">Query protocol, component table</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Component querying multiple CSV files.md">Component querying multiple CSV files</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Component querying a CSV file.md">Component querying a CSV file</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Aggregate protocol.md">Aggregate protocol</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Component for exporting a data set to a CSV file.md">Component for exporting a data set to a CSV file</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Calling a component.md">Calling a component</a>
+</li><li>
+<a href="#Extensions/RDMI Components/Component error handling.md">Component error handling</a>
+</li></ul>
+</details>

@@ -1,0 +1,44 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB Rows">UDB Rows</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB Rows/UDB Rows object.md">UDB Rows object</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowscols.md">Rows.cols()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowseach.md">Rows.each()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsfilter.md">Rows.filter()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsindex.md">Rows.index()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowsisInserted.md">Rows.isInserted()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowsjoinedVal.md">Rows.joinedVal()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowskeys.md">Rows.keys()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowskeysString.md">Rows.keysString()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowskeysXML.md">Rows.keysXML()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsmark.md">Rows.mark()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsrefresh.md">Rows.refresh()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowsrowDelete.md">Rows.rowDelete()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowsrowId.md">Rows.rowId()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/RowsrowRemove.md">Rows.rowRemove()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsrsc.md">Rows.rsc()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsselect.md">Rows.select()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsstatus.md">Rows.status()</a>
+</li><li>
+<a href="#Web and app UIs/UDB Rows/Rowsvalues.md">Rows.values()</a>
+</li></ul>
+</details>

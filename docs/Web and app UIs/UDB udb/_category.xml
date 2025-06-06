@@ -1,0 +1,108 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB udb">UDB udb</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB udb/Revised web UI API in USoft 11.md">Revised web UI API in USoft 11</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/UDB udb object.md">UDB udb object</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbacceptLookupValue.md">$.udb.acceptLookupValue()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbapplyCurrentContext.md">$.udb.applyCurrentContext()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcancelWindow.md">$.udb.cancelWindow()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcheckData.md">$.udb.checkData()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcheckLoginRequired.md">$.udb.checkLoginRequired()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcheckVersion.md">$.udb.checkVersion()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbclearGenericHostVars.md">$.udb.clearGenericHostVars()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbclosePage.md">$.udb.closePage()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcommit.md">$.udb.commit()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcurrentEmbeddedPageName.md">$.udb.currentEmbeddedPageName()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcurrentEmbeddedPagePath.md">$.udb.currentEmbeddedPagePath()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcurrentPageAlias.md">$.udb.currentPageAlias()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcurrentPageName.md">$.udb.currentPageName()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcurrentPageNavigationSource.md">$.udb.currentPageNavigationSource()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbcurrentPageStackDepth.md">$.udb.currentPageStackDepth()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbdialog.md">$.udb.dialog()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbexecuteInContext.md">$.udb.executeInContext()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbexecuteSQLStatement.md">$.udb.executeSQLStatement()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbgenericHostVar.md">$.udb.genericHostVar()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbgetContext.md">$.udb.getContext()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbgetEmbeddedPageName.md">$.udb.getEmbeddedPageName()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbgetEmbeddedPagePath.md">$.udb.getEmbeddedPagePath()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbgetMenu.md">$.udb.getMenu()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbgroupRequests.md">$.udb.groupRequests()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbhostvars.md">$.udb.hostvars</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbinput.md">$.udb.input()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbisCommitted.md">$.udb.isCommitted()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbisTransactionChecked.md">$.udb.isTransactionChecked()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udblanggetTranslation.md">$.udb.lang.getTranslation()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udblangtranslate.md">$.udb.lang.translate()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udblogin.md">$.udb.login()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udblogout.md">$.udb.logout()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbmainPageName.md">$.udb.mainPageName()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbnavigateTo.md">$.udb.navigateTo()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbnavigateToLookup.md">$.udb.navigateToLookup()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbnavigateToRelated.md">$.udb.navigateToRelated()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udboff.md">$.udb.off()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbon.md">$.udb.on()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbping.md">$.udb.ping()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbrollback.md">$.udb.rollback()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbsetTimeOut.md">$.udb.setTimeOut()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbsettings.md">$.udb.settings</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbshowLogin.md">$.udb.showLogin()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbstatusloggedIn.md">$.udb.status.loggedIn()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbstatuslogonRequired.md">$.udb.status.logonRequired()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbtitle.md">$.udb.title()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbtrigger.md">$.udb.trigger()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbupload.md">$.udb.upload()</a>
+</li><li>
+<a href="#Web and app UIs/UDB udb/udbwait.md">$.udb.wait()</a>
+</li></ul>
+</details>

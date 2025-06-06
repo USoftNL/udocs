@@ -1,0 +1,32 @@
+# pc:tab
+
+
+
+> [!NOTE]
+> This article is about the **pc:tab**[ Blend directive](/docs/Repositories/Blend%20directives).
+
+## **pc:tab**
+
+Outputs one or more tab characters.
+
+*Syntax*
+
+```
+<pc:tab n="*integer*" />
+
+*integer*  ::=  { 1, 2, ... }
+```
+
+The optional **n** attribute indicates the number of tabs to be output. If you omit it, a single tab is output.
+
+*Examples*
+
+```language-xml
+<pc:tab />
+```
+
+```language-xml
+<pc:tab n="3" />
+```
+
+ 

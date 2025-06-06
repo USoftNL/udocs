@@ -1,0 +1,48 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB ColsMeta">UDB ColsMeta</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB ColsMeta/UDB ColsMeta object.md">UDB ColsMeta object</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaalias.md">ColsMeta.alias()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaaltInputFormats.md">ColsMeta.altInputFormats()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetadefValue.md">ColsMeta.defValue()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetadisplayLength.md">ColsMeta.displayLength()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetadomain.md">ColsMeta.domain()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetagetForeignKey.md">ColsMeta.getForeignKey()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaioFormat.md">ColsMeta.ioFormat()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisEmbeddedColumn.md">ColsMeta.isEmbeddedColumn()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisGroupBy.md">ColsMeta.isGroupBy()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisInputAllowed.md">ColsMeta.isInputAllowed()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisKey.md">ColsMeta.isKey()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisMandatory.md">ColsMeta.isMandatory()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisPrimaryKey.md">ColsMeta.isPrimaryKey()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaisUpdatable.md">ColsMeta.isUpdatable()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetalabel.md">ColsMeta.label()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaname.md">ColsMeta.name()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetaprompt.md">ColsMeta.prompt()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetasortOrder.md">ColsMeta.sortOrder()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetatype.md">ColsMeta.type()</a>
+</li><li>
+<a href="#Web and app UIs/UDB ColsMeta/ColsMetavalueList.md">ColsMeta.valueList()</a>
+</li></ul>
+</details>

@@ -1,0 +1,26 @@
+﻿<details>
+<summary>
+<a href="#Services/Custom REST services">Custom REST services</a>
+</summary><ul>
+<li>
+<a href="#Services/Custom REST services/Designing a custom REST service.md">Designing a custom REST service</a>
+</li><li>
+<a href="#Services/Custom REST services/Defining a custom REST service.md">Defining a custom REST service</a>
+</li><li>
+<a href="#Services/Custom REST services/Defining custom REST methods.md">Defining custom REST methods</a>
+</li><li>
+<a href="#Services/Custom REST services/Defining custom REST input parameters.md">Defining custom REST input parameters</a>
+</li><li>
+<a href="#Services/Custom REST services/Defining custom REST request messages.md">Defining custom REST request messages</a>
+</li><li>
+<a href="#Services/Custom REST services/Defining custom REST response messages.md">Defining custom REST response messages</a>
+</li><li>
+<a href="#Services/Custom REST services/Defining custom REST error handling.md">Defining custom REST error handling</a>
+</li><li>
+<a href="#Services/Custom REST services/Limiting the number of records returned by a REST service.md">Limiting the number of records returned by a REST service</a>
+</li><li>
+<a href="#Services/Custom REST services/Exposing REST services.md">Exposing REST services</a>
+</li><li>
+<a href="#Services/Custom REST services/Calling a REST service without committing.md">Calling a REST service without committing</a>
+</li></ul>
+</details>

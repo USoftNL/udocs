@@ -1,0 +1,24 @@
+﻿<details>
+<summary>
+<a href="#Services/Web services">Web services</a>
+</summary><ul>
+<li>
+<a href="#Services/Web services/How to define a web service and its methods.md">How to define a web service and its methods</a>
+</li><li>
+<a href="#Services/Web services/Web service namespaces.md">Web service namespaces</a>
+</li><li>
+<a href="#Services/Web services/Runtime architecture of a web service.md">Runtime architecture of a web service</a>
+</li><li>
+<a href="#Services/Web services/Web service methods RPCoriented vs documentoriented.md">Web service methods: RPC-oriented vs. document-oriented</a>
+</li><li>
+<a href="#Services/Web services/Deploying a Web Service Provider.md">Deploying a Web Service Provider</a>
+</li><li>
+<a href="#Services/Web services/Web Service Generated files.md">Web Service Generated files</a>
+</li><li>
+<a href="#Services/Web services/Web Service Certificate files.md">Web Service Certificate files</a>
+</li><li>
+<a href="#Services/Web services/Web service error messages.md">Web service error messages</a>
+</li><li>
+<a href="#Services/Web services/Web service debugging tips.md">Web service debugging tips</a>
+</li></ul>
+</details>

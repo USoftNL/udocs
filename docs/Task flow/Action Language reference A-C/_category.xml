@@ -1,0 +1,112 @@
+﻿<details>
+<summary>
+<a href="#Task flow/Action Language reference A-C">Action Language reference A-C</a>
+</summary><ul>
+<li>
+<a href="#Task flow/Action Language reference A-C/About.md">About()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/acrel.md">ac-rel()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/Accept.md">Accept()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/actionothercontrol.md">action-other-control()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionAllRows.md">ActionAllRows()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionControl.md">ActionControl()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionDecision.md">ActionDecision()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionDialogApply.md">ActionDialogApply()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionDialogCancel.md">ActionDialogCancel()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionDialogOk.md">ActionDialogOk()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionDllExecute.md">ActionDllExecute()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionDoNothing.md">ActionDoNothing()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionRibbon.md">ActionRibbon()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionSelectedRows.md">ActionSelectedRows()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ActionStartJob.md">ActionStartJob()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ApplicationExit.md">ApplicationExit()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ApplicationLogin.md">ApplicationLogin()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ApplicationProgressHide.md">ApplicationProgressHide()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ApplicationProgressSet.md">ApplicationProgressSet()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ApplicationProgressShow.md">ApplicationProgressShow()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ApplicationRefresh.md">ApplicationRefresh()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/Callaction.md">Callaction()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ChangePassword.md">ChangePassword()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ChangeSql.md">ChangeSql()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CommandSystemBackground.md">CommandSystemBackground()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CommandSystemForeground.md">CommandSystemForeground()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CommandWindows.md">CommandWindows()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ComputerBrowse.md">ComputerBrowse()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ComputeSet.md">ComputeSet()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/controlsetvalues.md">control-set-values()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlAllowResize.md">ControlAllowResize()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlDelete.md">ControlDelete()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlFixColumn.md">ControlFixColumn()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlSetActiveTab.md">ControlSetActiveTab()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlSetFocus.md">ControlSetFocus()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlSetInsensitive.md">ControlSetInsensitive()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ControlSetSensitive.md">ControlSetSensitive()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/ConvertAlternativeFormat.md">ConvertAlternativeFormat()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/Copy.md">Copy()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/Create.md">Create()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/createapplicationtextfile.md">create-application-text-file()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/createconceptualfile.md">create-conceptual-file()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/createsystemmessagefile.md">create-system-message-file()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CurrentColumn.md">CurrentColumn()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CurrentField.md">CurrentField()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CurrentInfoBox.md">CurrentInfoBox()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorFirstRecord.md">CursorFirstRecord()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorGotoRecord.md">CursorGotoRecord()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorLastRecord.md">CursorLastRecord()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorNextPage.md">CursorNextPage()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorNextRecord.md">CursorNextRecord()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorPreviousPage.md">CursorPreviousPage()</a>
+</li><li>
+<a href="#Task flow/Action Language reference A-C/CursorPreviousRecord.md">CursorPreviousRecord()</a>
+</li></ul>
+</details>

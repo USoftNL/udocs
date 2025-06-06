@@ -1,0 +1,56 @@
+﻿<details>
+<summary>
+<a href="#Modeller and Rules Engine/SQL syntax">SQL syntax</a>
+</summary><ul>
+<li>
+<a href="#Modeller and Rules Engine/SQL syntax/SELECT.md">SELECT</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Join constructs.md">Join constructs</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/INSERT.md">INSERT</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/UPDATE.md">UPDATE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/DELETE.md">DELETE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Table aliases.md">Table aliases</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/COMMIT.md">COMMIT</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/ROLLBACK.md">ROLLBACK</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/UNION.md">UNION</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/UNION ALL.md">UNION ALL</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/MINUS.md">MINUS</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/EXCEPT.md">EXCEPT</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/INTERSECT.md">INTERSECT</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/INVOKE.md">INVOKE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Literals.md">Literals</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Column expressions.md">Column expressions</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Pseudocolumns.md">Pseudo-columns</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Host variables in SQL.md">Host variables in SQL</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Group functions.md">Group functions</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/SQL conditions.md">SQL conditions</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Logical operators.md">Logical operators</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Comparison operators.md">Comparison operators</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Mathematical operators.md">Mathematical operators</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/SQL operators.md">SQL operators</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL syntax/Function calls.md">Function calls</a>
+</li></ul>
+</details>

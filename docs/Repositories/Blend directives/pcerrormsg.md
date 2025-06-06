@@ -1,0 +1,24 @@
+# pc:error-msg
+
+
+
+> [!NOTE]
+> This article is about the **pc:error-msg**[ Blend directive](/docs/Repositories/Blend%20directives).
+
+## **pc:error-msg**
+
+Returns the information, warning or error message (if any) that was most recently produced by the USoft Blend processor. This will often be a message as encountered in USoft Rules Service logs. This takes the form of an XML document. The Blend processor sets or overwrites this message each time it encounters a message in the result of a function call.
+
+Returns an XML document.
+
+> [!TIP]
+> By contrast, [pc:error-textmsg](/docs/Repositories/Blend%20directives/pcerrortextmsg.md) returns a text string.
+
+*Syntax*
+
+```language-xml
+<pc:error-msg />
+```
+
+> [!NOTE]
+> For examples, go to [pc:msg](/docs/Repositories/Blend%20directives/pcmsg.md), which is a synonym of **pc:error-msg**.

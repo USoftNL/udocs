@@ -1,0 +1,40 @@
+﻿<details>
+<summary>
+<a href="#Task flow/Jobs">Jobs</a>
+</summary><ul>
+<li>
+<a href="#Task flow/Jobs/Defining a job.md">Defining a job</a>
+</li><li>
+<a href="#Task flow/Jobs/Executing a Job from USoft Binder.md">Executing a Job from USoft Binder</a>
+</li><li>
+<a href="#Task flow/Jobs/Executing a Job from the Command Line.md">Executing a Job from the Command Line</a>
+</li><li>
+<a href="#Task flow/Jobs/Executing a Job from within a USoft Web Application.md">Executing a Job from within a USoft Web Application</a>
+</li><li>
+<a href="#Task flow/Jobs/Executing a Job from within a USoft CS Application.md">Executing a Job from within a USoft C/S Application</a>
+</li><li>
+<a href="#Task flow/Jobs/Executing a Job from another Job.md">Executing a Job from another Job</a>
+</li><li>
+<a href="#Task flow/Jobs/Executing a Job from a Constraint.md">Executing a Job from a Constraint</a>
+</li><li>
+<a href="#Task flow/Jobs/Invoking a job via Batchrunner.md">Invoking a job via Batchrunner</a>
+</li><li>
+<a href="#Task flow/Jobs/Getting job properties from Batchrunner.md">Getting job properties from Batchrunner</a>
+</li><li>
+<a href="#Task flow/Jobs/Passing parameters to Batchrunner.md">Passing parameters to Batchrunner</a>
+</li><li>
+<a href="#Task flow/Jobs/Job parameters and variables.md">Job parameters and variables</a>
+</li><li>
+<a href="#Task flow/Jobs/Job Parameters as Import Task Variables.md">Job Parameters as Import Task Variables</a>
+</li><li>
+<a href="#Task flow/Jobs/Import Task Set Virtuals Managing Decision Trees.md">Import Task Set Virtuals Managing Decision Trees</a>
+</li><li>
+<a href="#Task flow/Jobs/Import Task Set Virtuals in RecordbyRecord Computations.md">Import Task Set Virtuals in Record-by-Record Computations</a>
+</li><li>
+<a href="#Task flow/Jobs/Job logging.md">Job logging</a>
+</li><li>
+<a href="#Task flow/Jobs/Job error handling Commit Type and Abort Mode.md">Job error handling, Commit Type, and Abort Mode</a>
+</li><li>
+<a href="#Task flow/Jobs/TaskLevel Commit vs RecordLevel Commit.md">Task-Level Commit vs. Record-Level Commit</a>
+</li></ul>
+</details>

@@ -1,0 +1,22 @@
+﻿<details>
+<summary>
+<a href="#Services/Security configuration">Security configuration</a>
+</summary><ul>
+<li>
+<a href="#Services/Security configuration/Security configuration.md">Security configuration</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration Attributes element.md">Security configuration: Attributes element</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration EncryptionKey element.md">Security configuration: EncryptionKey element</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration Info element.md">Security configuration: Info element</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration KeyStore element.md">Security configuration: KeyStore element</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration SamlSP element.md">Security configuration: SamlSP element</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration SecurityConfig element.md">Security configuration: SecurityConfig element</a>
+</li><li>
+<a href="#Services/Security configuration/Security configuration SigningKey element.md">Security configuration: SigningKey element</a>
+</li></ul>
+</details>

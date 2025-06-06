@@ -1,0 +1,62 @@
+﻿<details>
+<summary>
+<a href="#Modeller and Rules Engine/SQL functions">SQL functions</a>
+</summary><ul>
+<li>
+<a href="#Modeller and Rules Engine/SQL functions/SQL functions AC.md">SQL functions A-C</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/SQL functions DH.md">SQL functions D-H</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/SQL functions IM.md">SQL functions I-M</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/SQL functions NR.md">SQL functions N-R</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/SQL functions SZ.md">SQL functions S-Z</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/ADD_DAYS.md">ADD_DAYS</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/CASE DECODE.md">CASE, DECODE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/CAST.md">CAST</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/CONCAT.md">CONCAT</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/CURRENT_DATE.md">CURRENT_DATE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/DATALENGTH LEN.md">DATALENGTH, LEN</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/DATE_TO_CHAR.md">DATE_TO_CHAR</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/DATEDIFF_IN_DAYS.md">DATEDIFF_IN_DAYS</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/ELAPSEDQUERYTRANSACTIONTIME.md">ELAPSEDQUERYTRANSACTIONTIME</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/ELAPSEDTRANSACTIONTIME.md">ELAPSEDTRANSACTIONTIME</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/GUID.md">GUID</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/INSTR.md">INSTR</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/OLD.md">OLD</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/RECORDS.md">RECORDS</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/ROLE.md">ROLE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/SESSION_ID.md">SESSION_ID</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/SUBSTR.md">SUBSTR</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/TIMESTAMP_TO_DATE.md">TIMESTAMP_TO_DATE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/TO_CLOB.md">TO_CLOB</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/TRANSACTION_DATE.md">TRANSACTION_DATE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/TRUNC TRUNCATE.md">TRUNC, TRUNCATE</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/USERGROUP.md">USERGROUP</a>
+</li><li>
+<a href="#Modeller and Rules Engine/SQL functions/RDBMS functions.md">RDBMS functions</a>
+</li></ul>
+</details>

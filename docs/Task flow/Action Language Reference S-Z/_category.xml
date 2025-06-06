@@ -1,0 +1,78 @@
+﻿<details>
+<summary>
+<a href="#Task flow/Action Language Reference S-Z">Action Language Reference S-Z</a>
+</summary><ul>
+<li>
+<a href="#Task flow/Action Language Reference S-Z/Save.md">Save()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/Self.md">Self()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/Set.md">Set()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/setvalues.md">set-values()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/setworkarea.md">set-workarea()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SetDefault.md">SetDefault()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SetProperty.md">SetProperty()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SetSilentErrorMessages.md">SetSilentErrorMessages()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SetSilentInformationMessages.md">SetSilentInformationMessages()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SetSilentWarningMessages.md">SetSilentWarningMessages()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SetViewMode.md">SetViewMode()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/Sort.md">Sort()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SqlDefiner.md">SqlDefiner()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SqlScript.md">SqlScript()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/SqlSelect.md">SqlSelect()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/Unset.md">Unset()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/UnsetDefault.md">UnsetDefault()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/ValidateJob.md">ValidateJob()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowArrange.md">WindowArrange()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowAtMousePosition.md">WindowAtMousePosition()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCentreScreen.md">WindowCentreScreen()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCentreWindow.md">WindowCentreWindow()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowClose.md">WindowClose()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCloseAll.md">WindowCloseAll()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCreate.md">WindowCreate()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCreateLookup.md">WindowCreateLookup()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCreateLookupDialog.md">WindowCreateLookupDialog()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCreateRelated.md">WindowCreateRelated()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCreateSecondary.md">WindowCreateSecondary()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowCreateSubtype.md">WindowCreateSubtype()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowIconize.md">WindowIconize()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowMinimize.md">WindowMinimize()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowObjectList.md">WindowObjectList()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowRestore.md">WindowRestore()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowToClipboard.md">WindowToClipboard()</a>
+</li><li>
+<a href="#Task flow/Action Language Reference S-Z/WindowTransactions.md">WindowTransactions()</a>
+</li></ul>
+</details>

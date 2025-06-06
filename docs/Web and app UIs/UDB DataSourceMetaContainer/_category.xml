@@ -1,0 +1,80 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer">UDB DataSourceMetaContainer</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/UDB DataSourceMetaContainer object.md">UDB DataSourceMetaContainer object</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsalias.md">$.udbMeta(ds).alias()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadschildren.md">$.udbMeta(ds).children()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadscols.md">$.udbMeta(ds).cols()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadscurrentDataSet.md">$.udbMeta(ds).currentDataSet()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsdataSetSize.md">$.udbMeta(ds).dataSetSize()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadseach.md">$.udbMeta(ds).each()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadshasChild.md">$.udbMeta(ds).hasChild()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadshasCount.md">$.udbMeta(ds).hasCount()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadshasLookup.md">$.udbMeta(ds).hasLookup()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsid.md">$.udbMeta(ds).id()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsinitialState.md">$.udbMeta(ds).initialState()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisAutoQuery.md">$.udbMeta(ds).isAutoQuery()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisDefault.md">$.udbMeta(ds).isDefault()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisDeletable.md">$.udbMeta(ds).isDeletable()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisDistinct.md">$.udbMeta(ds).isDistinct()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisFirstRecordDefaultSelected.md">$.udbMeta(ds).isFirstRecordDefaultSelected()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisInsertable.md">$.udbMeta(ds).isInsertable()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisJoined.md">$.udbMeta(ds).isJoined()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisLookup.md">$.udbMeta(ds).isLookup()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisOnEmbeddedPage.md">$.udbMeta(ds).isOnEmbeddedPage()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsisUpdatable.md">$.udbMeta(ds).isUpdatable()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsjoins.md">$.udbMeta(ds).joins()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadskeyCols.md">$.udbMeta(ds).keyCols()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadslifeTime.md">$.udbMeta(ds).lifeTime()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadslookupRefs.md">$.udbMeta(ds).lookupRefs()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadslookups.md">$.udbMeta(ds).lookups()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsname.md">$.udbMeta(ds).name()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsorphanDataSource.md">$.udbMeta(ds).orphanDataSource()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadspageAlias.md">$.udbMeta(ds).pageAlias()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsparents.md">$.udbMeta(ds).parents()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadspath.md">$.udbMeta(ds).path()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsrealDataSource.md">$.udbMeta(ds).realDataSource()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadsrelations.md">$.udbMeta(ds).relations()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadssortOrder.md">$.udbMeta(ds).sortOrder()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadstable.md">$.udbMeta(ds).table()</a>
+</li><li>
+<a href="#Web and app UIs/UDB DataSourceMetaContainer/udbMetadstype.md">$.udbMeta(ds).type()</a>
+</li></ul>
+</details>

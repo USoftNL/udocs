@@ -1,0 +1,20 @@
+﻿<details>
+<summary>
+<a href="#Extensions/BIRT reporting">BIRT reporting</a>
+</summary><ul>
+<li>
+<a href="#Extensions/BIRT reporting/BIRT reporting.md">BIRT reporting</a>
+</li><li>
+<a href="#Extensions/BIRT reporting/BIRT Step 1 Download and Install BIRT Software.md">BIRT Step 1: Download and Install BIRT Software</a>
+</li><li>
+<a href="#Extensions/BIRT reporting/BIRT Step 2 Create a BIRT report definition file.md">BIRT Step 2: Create a BIRT report definition file</a>
+</li><li>
+<a href="#Extensions/BIRT reporting/BIRT Step 3 Import and configure the BIRT offtheshelf component.md">BIRT Step 3: Import and configure the BIRT off-the-shelf component</a>
+</li><li>
+<a href="#Extensions/BIRT reporting/BIRT Step 4 Start the USoft Rules Service.md">BIRT Step 4: Start the USoft Rules Service</a>
+</li><li>
+<a href="#Extensions/BIRT reporting/BIRT Step 5 Call the BIRT component to generate the report.md">BIRT Step 5: Call the BIRT component to generate the report</a>
+</li><li>
+<a href="#Extensions/BIRT reporting/BIRT Step 6 Parameterisation of the BIRT report definition.md">BIRT Step 6: Parameterisation of the BIRT report definition</a>
+</li></ul>
+</details>

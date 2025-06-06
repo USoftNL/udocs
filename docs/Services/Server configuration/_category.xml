@@ -1,0 +1,30 @@
+﻿<details>
+<summary>
+<a href="#Services/Server configuration">Server configuration</a>
+</summary><ul>
+<li>
+<a href="#Services/Server configuration/Server configuration.md">Server configuration</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Config element.md">Server configuration: Config element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Server element.md">Server configuration: Server element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Authenticator element.md">Server configuration: Authenticator element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Properties element.md">Server configuration: Properties element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration RerouteMappings element.md">Server configuration: RerouteMappings element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Services element.md">Server configuration: Services element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration HttpProtocol element.md">Server configuration: HttpProtocol element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Connections element.md">Server configuration: Connections element</a>
+</li><li>
+<a href="#Services/Server configuration/Server configuration Cors element.md">Server configuration: Cors element</a>
+</li><li>
+<a href="#Services/Server configuration/Log configuration.md">Log configuration</a>
+</li><li>
+<a href="#Services/Server configuration/Multitenancy.md">Multi-tenancy</a>
+</li></ul>
+</details>

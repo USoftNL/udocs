@@ -1,0 +1,20 @@
+﻿<details>
+<summary>
+<a href="#Desktop UIs/Windows GUI events">Windows GUI events</a>
+</summary><ul>
+<li>
+<a href="#Desktop UIs/Windows GUI events/Windows interface events.md">Windows interface events</a>
+</li><li>
+<a href="#Desktop UIs/Windows GUI events/Windows data events.md">Windows data events</a>
+</li><li>
+<a href="#Desktop UIs/Windows GUI events/When is a record stored.md">When is a record stored?</a>
+</li><li>
+<a href="#Desktop UIs/Windows GUI events/Windows event order.md">Windows event order</a>
+</li><li>
+<a href="#Desktop UIs/Windows GUI events/Data validation order.md">Data validation order</a>
+</li><li>
+<a href="#Desktop UIs/Windows GUI events/Data validation failure.md">Data validation failure</a>
+</li><li>
+<a href="#Desktop UIs/Windows GUI events/recordStatus and applicationStatus.md">recordStatus and applicationStatus</a>
+</li></ul>
+</details>

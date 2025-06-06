@@ -1,0 +1,32 @@
+# SQLServer_Option_Fast_1
+
+
+
+> [!NOTE]
+> This article is about the **SQLServer_Option_Fast_1**[deployment configuration parameter](/docs/Authorisation%20and%20access/Deployment%20configurations/Deployment%20configuration%20parameters.md).
+
+## **SQLServer_Option_Fast_1**
+
+*Allowed values*
+
+```
+{ True | False }
+```
+
+The underlined value is the USoft factory default. It applies if you have not set this deployment parameter to a different value.
+
+*Context*
+
+This parameter may be set for all 3 deployment configuration contexts: Client Server, RunBatch, and Rules Service.
+
+You can set this parameter in the Additional Parameters list at the bottom of the tab page for each context. To get there, in USoft Authorizer, choose Define, Deployment Configurations from the menu.
+
+*Explanation*
+
+This parameter is only active when running on SQLServer. Setting this parameter to True may optimize the performance of some statements. If this parameter is set to 'True', the following will be added to all SELECT statements sent to the database:
+
+```
+OPTION (FAST 1)
+```
+
+ 

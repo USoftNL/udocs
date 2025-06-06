@@ -1,0 +1,16 @@
+﻿<details>
+<summary>
+<a href="#Authoring/Reasoning">Reasoning</a>
+</summary><ul>
+<li>
+<a href="#Authoring/Reasoning/Reasoning over rules.md">Reasoning over rules</a>
+</li><li>
+<a href="#Authoring/Reasoning/Forward chaining.md">Forward chaining</a>
+</li><li>
+<a href="#Authoring/Reasoning/Backward chaining.md">Backward chaining</a>
+</li><li>
+<a href="#Authoring/Reasoning/Constraint implementation.md">Constraint implementation</a>
+</li><li>
+<a href="#Authoring/Reasoning/Practical implications of reasoning for rule authors.md">Practical implications of reasoning for rule authors</a>
+</li></ul>
+</details>

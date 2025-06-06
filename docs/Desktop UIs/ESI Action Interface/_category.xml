@@ -1,0 +1,48 @@
+﻿<details>
+<summary>
+<a href="#Desktop UIs/ESI Action Interface">ESI Action Interface</a>
+</summary><ul>
+<li>
+<a href="#Desktop UIs/ESI Action Interface/ESI Action Interface  Introduction.md">ESI Action Interface - Introduction</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/ESI object model.md">ESI object model</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/ESI object model compared to other models.md">ESI object model compared to other models</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/Deducing the ESI object model from the layout model.md">Deducing the ESI object model from the layout model</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/Differences in referring to ESI properties and their values.md">Differences in referring to ESI properties and their values</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/Implicit ESI controls vs explicit ESI controls.md">Implicit ESI controls vs explicit ESI controls</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/ESI interface actions.md">ESI interface actions</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/Executing ESI actions.md">Executing ESI actions</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esiaddcomponent.md">esi-add-component()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esiaddinfowindow.md">esi-add-info-window()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esiaddsubclass.md">esi-add-subclass()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esideleteclass.md">esi-delete-class()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esideletecontrol.md">esi-delete-control()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esiinsertcontrol.md">esi-insert-control()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esinewapplication.md">esi-new-application()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esiopenapplication.md">esi-open-application()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esisave.md">esi-save()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esisetattribute.md">esi-set-attribute()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/esisetclassproperty.md">esi-set-class-property()</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/ESI action interface notes.md">ESI action interface notes</a>
+</li><li>
+<a href="#Desktop UIs/ESI Action Interface/ESI Frequently Asked Questions.md">ESI Frequently Asked Questions</a>
+</li></ul>
+</details>

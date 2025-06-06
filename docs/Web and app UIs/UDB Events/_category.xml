@@ -1,0 +1,98 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/UDB Events">UDB Events</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/UDB Events/after.md">after</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/aftergetmenu.md">aftergetmenu</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/afterrender.md">afterrender</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/before.md">before</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforecheckdata.md">beforecheckdata</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforecleardataset.md">beforecleardataset</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforecommit.md">beforecommit</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforeexecutequery.md">beforeexecutequery</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforegetmenu.md">beforegetmenu</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforegotodataset.md">beforegotodataset</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforelogin.md">beforelogin</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforelogout.md">beforelogout</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforenavigate.md">beforenavigate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforerefresh.md">beforerefresh</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforerollback.md">beforerollback</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/beforesqlstatement.md">beforesqlstatement</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/colpostupdate.md">colpostupdate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/colpreupdate.md">colpreupdate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/dataset.md">dataset</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/load.md">load</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/login.md">login</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/logout.md">logout</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/lookup.md">lookup</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/ongetdataset.md">ongetdataset</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/onselectrow.md">onselectrow</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/pageshow.md">pageshow</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/postcommit.md">postcommit</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/readonly.md">readonly</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/renderrow.md">renderrow</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpostcreate.md">rowpostcreate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpostdelete.md">rowpostdelete</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpostrefresh.md">rowpostrefresh</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpostselect.md">rowpostselect</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpostupdate.md">rowpostupdate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowprecreate.md">rowprecreate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpredelete.md">rowpredelete</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowprerefresh.md">rowprerefresh</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpreselect.md">rowpreselect</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowpreupdate.md">rowpreupdate</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowquery.md">rowquery</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/rowselect.md">rowselect</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/showdata.md">showdata</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/timeout.md">timeout</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/unload.md">unload</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/uploadcomplete.md">uploadcomplete</a>
+</li><li>
+<a href="#Web and app UIs/UDB Events/value.md">value</a>
+</li></ul>
+</details>

@@ -1,0 +1,32 @@
+﻿<details>
+<summary>
+<a href="#Web and app UIs/Web Benchmark recordable actions">Web Benchmark recordable actions</a>
+</summary><ul>
+<li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/assert assertEquals assertNotSame.md">assert, assertEquals, assertNotSame</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/click clickButton clickRow.md">click, clickButton, clickRow</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/comment.md">comment</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/delay.md">delay</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/gotoDataSet.md">gotoDataSet</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/invoke.md">invoke</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/message.md">message</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/navigateMenu.md">navigateMenu</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/navigateToLookup.md">navigateToLookup</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/nextDataSet previousDataSet.md">nextDataSet, previousDataSet</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/script.md">script</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/setValue.md">setValue</a>
+</li><li>
+<a href="#Web and app UIs/Web Benchmark recordable actions/test.md">test</a>
+</li></ul>
+</details>

@@ -1,0 +1,28 @@
+﻿<details>
+<summary>
+<a href="#Services/Event processing">Event processing</a>
+</summary><ul>
+<li>
+<a href="#Services/Event processing/Event processing.md">Event processing</a>
+</li><li>
+<a href="#Services/Event processing/Design patterns for event processing.md">Design patterns for event processing</a>
+</li><li>
+<a href="#Services/Event processing/Event processing best practices.md">Event processing best practices</a>
+</li><li>
+<a href="#Services/Event processing/Event processing Receiving events.md">Event processing: Receiving events</a>
+</li><li>
+<a href="#Services/Event processing/Handling events.md">Handling events</a>
+</li><li>
+<a href="#Services/Event processing/Event handling Example 1 Job that processes queued input events.md">Event handling Example 1: Job that processes queued input events</a>
+</li><li>
+<a href="#Services/Event processing/Event handling Example 2 Queue service that processes input events.md">Event handling Example 2: Queue service that processes input events</a>
+</li><li>
+<a href="#Services/Event processing/Producing events.md">Producing events</a>
+</li><li>
+<a href="#Services/Event processing/Event production Example 1 Model and rules for creating output events.md">Event production Example 1: Model and rules for creating output events</a>
+</li><li>
+<a href="#Services/Event processing/Event production Example 2 Job that processes queued output events.md">Event production Example 2: Job that processes queued output events</a>
+</li><li>
+<a href="#Services/Event processing/Event production Example 3 Queue service that processes output events.md">Event production Example 3: Queue service that processes output events</a>
+</li></ul>
+</details>

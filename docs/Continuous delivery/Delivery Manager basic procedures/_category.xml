@@ -1,0 +1,48 @@
+﻿<details>
+<summary>
+<a href="#Continuous delivery/Delivery Manager basic procedures">Delivery Manager basic procedures</a>
+</summary><ul>
+<li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Initialising a release tree.md">Initialising a release tree</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Dropping moving archiving a release tree or starting over.md">Dropping, moving, archiving a release tree, or starting over</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Creating a new release.md">Creating a new release</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Reverting to the previous release.md">Reverting to the previous release</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Renaming a release version.md">Renaming a release version</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Defining a task.md">Defining a task</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Running a task.md">Running a task</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Defining a task category.md">Defining a task category</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Loading deploy samples and added XSL samples.md">Loading deploy samples and added XSL samples</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Loading registry samples.md">Loading registry samples</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Creating a deploy script.md">Creating a deploy script</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Running a deploy script.md">Running a deploy script</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Creating a registry.md">Creating a registry</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Including an attachment.md">Including an attachment</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Blocking an attachment.md">Blocking an attachment</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Writing an upgrade script.md">Writing an upgrade script</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Archiving an upgrade script.md">Archiving an upgrade script</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Restoring an upgrade script.md">Restoring an upgrade script</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Setting a source variable.md">Setting a source variable</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Setting a target variable.md">Setting a target variable</a>
+</li><li>
+<a href="#Continuous delivery/Delivery Manager basic procedures/Comparing data.md">Comparing data</a>
+</li></ul>
+</details>
