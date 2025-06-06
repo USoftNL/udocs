@@ -1,0 +1,43 @@
+---
+id: RulesEngineSetProperty
+---
+
+# RulesEngine.SetProperty
+
+
+
+> [!NOTE]
+> This article is about the **SetProperty** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine%20internal%20component).
+> See also [Rules Engine properties](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties).
+
+## **RulesEngine.SetProperty**
+
+Sets or changes system information kept by the Rules Engine by (re)setting the value of a [Rules Engine property](/docs/Modeller%20and%20Rules%20Engine/Rules%20Engine%20properties). To retrieve the existing value of a property, use the **GetProperty**method.
+
+> [!WARNING]
+> Do not confuse Rules Engine properties with:
+
+*Syntax 1*
+
+```sql
+SELECT RulesEngine.SetProperty( *property, value* )
+```
+
+*Syntax 2*
+
+```sql
+INVOKE RulesEngine.SetProperty WITH
+SELECT     *property*
+,          *value*
+FROM       …
+```
+
+The required and case-insensitive *property* must be a string that is the name of one of the Rules Engine properties.
+
+*Example*
+
+```sql
+SELECT RulesEngine.SetProperty( 'MaxConstraintDepth', 75 )
+```
+
+ 
