@@ -47,7 +47,7 @@ If you pass droplogin="yes", then not only the database tables, but also the dat
 
 This example drops the tables in database account USD91_TRAVEL, and then drops the database account (= the database user) itself.
 
-```language-xml
+```xml
 <pc:DropDatabase
     rdbms="oracle"
     connectstr="
@@ -81,7 +81,7 @@ The required **rdbms** must be “sqlserver”. The required **connectstr** must
 
 The combination of these 2 settings:
 
-```language-xml
+```xml
 connectstr="MYSERVERNAME\SQLEXPRESS"
 
 database="MYDATABASE"
@@ -103,7 +103,7 @@ This example drops the USD91_TRAVEL Database and the USD91_TRAVEL Login object, 
 
 The Object Explorer catalog in MS SQL Server Management Studio continues to show a database dropped in this way, even after you execute its Refresh (F5) function. To use this Object Explorer to check whether the database has effectively been dropped, you must expand the Tables subnode to see that the list of user tables is empty.
 
-```language-xml
+```xml
 <pc:DropDatabase
     rdbms="sqlserver"
     connectstr="P6400100200\SQLEXPRESS"

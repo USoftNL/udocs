@@ -23,7 +23,7 @@ The -quiet parameter is listed as:
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-quiet  |{ true \| false }|
+|-quiet  |`{ true \| false }`|
 
 
 
@@ -85,7 +85,7 @@ INVOKE BatchRunner.MyJob WITH SELECT ..., '\n' "-colsep" )
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-create_err-*job-task*:create_err|{ true \| false }|
+|-create_err-*job-task*:create_err|`{ true \| false }`|
 
 
 
@@ -97,7 +97,7 @@ If you specify *job-task*, the setting is only for that task. Otherwise, it is f
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-create_mes-*job-task*:create_mes|{ true \| false }|
+|-create_mes-*job-task*:create_mes|`{ true \| false }`|
 
 
 
@@ -109,7 +109,7 @@ If you specify *job-task*, the setting is only for that task. Otherwise, it is f
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-create_suc-*job-task*:create_suc|{ true \| false }|
+|-create_suc-*job-task*:create_suc|`{ true \| false }`|
 
 
 
@@ -195,7 +195,7 @@ If you specify *external-set*, the replacement is only for that external set. Ot
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-quiet  |{ true \| false }|
+|-quiet  |`{ true \| false }`|
 
 
 
@@ -207,7 +207,7 @@ If this parameter is set to true, all messages produced as a result of executing
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-returnstatus|{ true \| false }|
+|-returnstatus|`{ true \| false }`|
 
 
 
@@ -297,7 +297,7 @@ INVOKE BatchRunner.MY_JOB WITH SELECT
 
 |**Parameter**|**Value**|
 |--------|--------|
-|-wlogfile|{ true \| false }|
+|-wlogfile|`{ true \| false }`|
 
 
 

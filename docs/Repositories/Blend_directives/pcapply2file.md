@@ -35,7 +35,7 @@ Optional variable-value pairs may be passed as input parameters to the XSLT styl
 
 *Example*
 
-```language-xml
+```xml
 <pc:apply2file
     xml="../../env.xml"
     xsl="using/env.xsl"

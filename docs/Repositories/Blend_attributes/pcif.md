@@ -27,13 +27,13 @@ The *directive* executes only if **pc:if** evaluates to Boolean true().
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:copy pc:if="$application='MY_APP'" select="$mylist" />
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:text pc:if="xslutil:test($doaction)">The action will be done.</pc:text>
 ```
 

@@ -48,7 +48,7 @@ Identifies a script section that executes only if a condition specified in the t
 
 The element \<PrintThis/> is written to standard output in:
 
-```language-xml
+```xml
 <pc:if test="1=1">
   <pc:then> <PrintThis/> </pc:then>
   <pc:else> <PrintThat/> </pc:else>

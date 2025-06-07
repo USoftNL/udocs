@@ -19,7 +19,7 @@ Copies a file or a set of files to a different location, silently overwriting an
 
 If successful, returns the following XML comment:
 
-```language-xml
+```xml
 <!--files:CopyFileOverwrite(source, destination) true-->
 ```
 
@@ -39,13 +39,13 @@ For both **source** and **destination**, in the case of a relative filepath, the
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:CopyFileOverwrite source="input.xml" destination="c:\temp\output.xml" />
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:CopyFileOverwrite source="*.xml" destination="c:\temp" />
 ```
 

@@ -125,45 +125,33 @@ To make an HTTP request via a USoft application:
 This will return empty XML content:
  
 
-- <cookies />
+- `<cookies />`
 
 4. then perform a HTTP GET Request :
- 
 
-- select MYAPI.getReservations('YOURUSERNAME','YOURPASSWORD');
+- `select MYAPI.getReservations('YOURUSERNAME','YOURPASSWORD');`
 
 Will return all reservations:
 
-- ```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?><Reservations><RES_ID>255</RES_ID><TOUR_ID>6</TOUR_ID><MADE_BY>1</MADE_BY><DEALT_WITH_BY>37</DEALT_WITH_BY><PERSON_DISCOUNT>2</PERSON_DISCOUNT><GROUP_DISCOUNT>0</GROUP_DISCOUNT><PRICE>2254</PRICE><BOOK_DATE>2021-10-29T14:06:12+02:00</BOOK_DATE></Reservations>
 ```
 
-
-
 5. If we again run the myCookies statement, it will now return cookie data:
 
- 
-
-- ```language-xml
+```xml
 <cookies><cookie name="TRAVEL_CONN" path="/" port="" expires="14-4-2023 16:04:27" expired="False" httponly="True" secure="False" domain="localhost" comment=""session id"" discard="False" timestamp="04/14/2023 15:54:27" version="1">70eedb4</cookie></cookies>
 ```
 
-
-
- 
-
 6. Again call getReservations, but this time omit the username and password. It will use the cookie returned by the server in the previous call to perform Cookie based authentication:
  
-
-- select MYAPI.getReservations(null,null);
+- `select MYAPI.getReservations(null,null);`
 
 Will return the same data as earlier.
 
-
 7. Similarly for the POST Request, you can add headers to the request by passing along a string parameters in SQL command:
  
-
-- ```sql
+```sql
 select MYAPI.makeReservation(
 
 '<Reservations documentName="Reservations">
@@ -194,6 +182,6 @@ When fetching cookies this time:
 
 - select MYAPI.myCookies('http://localhost:8112/API/TRAVEL_CONN_API/reservations');
 - It results in the earlier added cookie being returned:
-- ```language-xml
+- ```xml
 <cookies><cookie name="test" path="" port="" expires="14-4-2023 16:17:12" expired="False" httponly="False" secure="False" domain="usoft.com" comment="myFirstcookie" discard="False" timestamp="04/14/2023 16:15:32" version="0">1</cookie></cookies>
 ```

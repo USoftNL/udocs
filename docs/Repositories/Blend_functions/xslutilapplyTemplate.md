@@ -47,7 +47,7 @@ In *extra-templates*, each *match-pattern* must be a relative match pattern, tha
 
 In the last line, xslutil:applyTemplate() applies two XSLT templates to an XML document stored in a file.
 
-```language-xml
+```xml
 <authdata xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pc="Processing.Command">
 ...
 <pc:defs>
@@ -63,7 +63,7 @@ In the last line, xslutil:applyTemplate() applies two XSLT templates to an XML d
 
 The effect of this is equivalent to applying this regular XSLT 1.0 stylesheet:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="windows-1252"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="no"/>

@@ -6,7 +6,7 @@ id: Server_configuration_RerouteMappings_element
 
 In a **config.xml** server configuration file, the \<RerouteMappings> element contains [reroute mappings](/docs/Services/USoft_Service_Definer_objects/Reroute_mappings.md) for REST services:
 
-```language-xml
+```xml
 <RerouteMappings>
    <Mapping 
       class="service-name" 

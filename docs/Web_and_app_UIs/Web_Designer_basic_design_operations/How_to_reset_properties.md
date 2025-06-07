@@ -16,8 +16,13 @@ To reset a property:
 
 ![](./assets/f30cdeca-d065-4a6f-bcb4-37cecd2c4707.png)
 
-Reset button> [!CAUTION]
-> You can only reset a property value which has previously been set locally (that is, at the object class level you are currently viewing). In other cases, the Reset button is insensitive.
+Reset button
+
+:::caution
+
+You can only reset a property value which has previously been set locally (that is, at the object class level you are currently viewing). In other cases, the Reset button is insensitive.
+
+:::
 
 *Explanation*
 

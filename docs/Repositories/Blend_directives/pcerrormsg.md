@@ -28,7 +28,7 @@ By contrast, [pc:error-textmsg](/docs/Repositories/Blend_directives/pcerrortextm
 
 *Syntax*
 
-```language-xml
+```xml
 <pc:error-msg />
 ```
 

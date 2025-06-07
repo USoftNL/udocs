@@ -31,7 +31,7 @@ The required **filepath** is a path leading to the ZIP file that you want to ext
 
 This example outputs the contents of the "asset1.txt" file from the top-level directory "assets" in the ZIP file to the standard output (the console):
 
-```language-xml
+```xml
 <pc:assign-string
     jarfile="c:\labs\GetAPI.jar"
     jarentry = "assets\asset1.txt"   />

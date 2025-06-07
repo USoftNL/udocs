@@ -19,7 +19,7 @@ Copies a file or a set of files to a different location. If there is an existing
 
 If successful, returns the following XML comment:
 
-```language-xml
+```xml
 <!--files:CopyFile(source, destination) true-->
 ```
 
@@ -45,13 +45,13 @@ If you pass the optional overwrite="yes", the effect is the same as pc:CopyFileO
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:CopyFile source="input.xml" destination="c:\temp\output.xml" />
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:CopyFile source="*.xml" destination="c:\temp" />
 ```
 
@@ -59,7 +59,7 @@ If you pass the optional overwrite="yes", the effect is the same as pc:CopyFileO
 
 If there is an existing file with the same name in the target location, and you do not pass overwrite="yes", then the call is ineffective, and the return value is:
 
-```language-xml
+```xml
 <!--files:CopyFile(source, destination) The file 'destination' already exists.-->
 ```
 

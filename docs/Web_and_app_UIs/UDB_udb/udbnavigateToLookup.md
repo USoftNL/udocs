@@ -4,12 +4,9 @@ tags: [USoft11, USoft10]
 ---
 # $.udb.navigateToLookup()
 
-
-
 ----
 
 `USoft 11``{.vs_11}`
-
 
 :::danger
 
@@ -23,7 +20,6 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 `USoft 10``{.vs_10}`
 
-
 :::note
 
 This article is about the **navigateToLookup()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
@@ -36,10 +32,9 @@ Navigates to a lookup page.
 
 Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
-
 :::danger
 
-If you navigate away from a page, asynchronous operations are in risk of being annulled if they do not return a promise (as opposed to just executing with an undefined result). For a full discussion of this risk, click [here]().
+If you navigate away from a page, asynchronous operations are in risk of being annulled if they do not return a promise (as opposed to just executing with an undefined result).
 
 :::
 
@@ -94,7 +89,7 @@ $.udb.navigateToLookup('MyLookupPage',{
 
 *Example 2*
 
-In this example, the effect of {mode:search} is that the value selected in the lookup page is used as a search condition on return to the calling page, as opposed to a value for data manipulation (a value used in an INSERT or UPDATE operation):
+In this example, the effect of `{mode:search}` is that the value selected in the lookup page is used as a search condition on return to the calling page, as opposed to a value for data manipulation (a value used in an INSERT or UPDATE operation):
 
 ```js
 $.udb.navigateToLookup('MyLookupPage',
@@ -109,7 +104,3 @@ $.udb.navigateToLookup('MyLookupPage',
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
 |[lookup](/docs/Web_and_app_UIs/UDB_Events/lookup.md)|Data objects of input controls|When the lookup button at the input control is clicked|
-
-
-
- 

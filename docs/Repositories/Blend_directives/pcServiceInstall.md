@@ -75,7 +75,7 @@ For the purpose of installing a Rules Service, the pc:ServiceInstall directive i
 
 *Example*
 
-```language-xml
+```xml
 <pc:ServiceInstall
     servicename="RulesService-7779"
     servicepath="C:\usd91\bin64\RulesService.exe"
@@ -110,7 +110,7 @@ servicestartup="RulesService1[,RulesService2...]"
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:ServiceInstall
     servicename="Default-8090"
     servicepath="c:\usd91\bin64\UService.exe"
@@ -119,7 +119,7 @@ servicestartup="RulesService1[,RulesService2...]"
 
 *Example 2*
 
-```language-xml
+```xml
 <InstallSFWServer xmlns:pc="Processing.Command">
    <pc:terminate test="not(wrights:HasAdminRole())" msg="{concat('Admin role is required. Available roles:', wrights:Roles())}"/>
    <pc:assign-string-default

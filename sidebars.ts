@@ -3802,7 +3802,7 @@ const sidebars: SidebarsConfig = {
         type: 'category',
         label: 'Web Benchmark API',
         items: [
-          {
+         {
             type: 'doc',
             id: 'Web_and_app_UIs/Web_Benchmark_API/udbbenchmarkplayback',
           },
@@ -3817,6 +3817,10 @@ const sidebars: SidebarsConfig = {
           {
             type: 'doc',
             id: 'Web_and_app_UIs/Web_Benchmark_API/udbbenchmarkviews',
+          },
+          {
+            type: 'doc',
+            id: 'Web_and_app_UIs/Web_Benchmark_API/udbbenchmarkevents',
           },
         ],
       },
@@ -3902,43 +3906,43 @@ const sidebars: SidebarsConfig = {
         items: [
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/Cascading_Style_Sheets_CSS',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/Cascading_Style_Sheets_CSS',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_selectors_in_stylesheet_rules',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_selectors_in_stylesheet_rules',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/How_to_define_CSS_stylesheet_rules_in_USoft',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/How_to_define_CSS_stylesheet_rules_in_USoft',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_Example_The_BODY_element',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_Example_The_BODY_element',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_Example_The_DIV_element_as_a_custom_header_bar',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_Example_The_DIV_element_as_a_custom_header_bar',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_Example_The_ButtonControl_class',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_Example_The_ButtonControl_class',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_Example_The_InputControl_class',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_Example_The_InputControl_class',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_Example_Highlighting_mandatory_fields',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_Example_Highlighting_mandatory_fields',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/CSS_record_colouring_in_grid_controls_and_grid_edit_controls',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/CSS_record_colouring_in_grid_controls_and_grid_edit_controls',
           },
           {
             type: 'doc',
-            id: 'Web_and_app_UIs/Cascading_Style_Sheets_(CSS)/Reusing_existing_style_sheets',
+            id: 'Web_and_app_UIs/Cascading_Style_Sheets_CSS/Reusing_existing_style_sheets',
           },
         ],
       },

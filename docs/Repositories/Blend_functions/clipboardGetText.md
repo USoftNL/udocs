@@ -35,7 +35,7 @@ clipboard:GetText( )
 
 *Example*
 
-```language-xml
+```xml
 <ClipBoard xmlns:pc="Processing.Command" pc:hideme="true">
    <pc:value-of select="clipboard:GetText()"/>
 </ClipBoard>

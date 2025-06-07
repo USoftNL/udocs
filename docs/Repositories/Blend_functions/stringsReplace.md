@@ -41,7 +41,7 @@ If *substring* does not appear in *string,* then *string* is returned unaffected
 
 *Example*
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
 	<example>
 		<pc:value-of select="strings:Replace('IS_FOLLOWED_BY', '_', '')"/>

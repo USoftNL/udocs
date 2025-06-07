@@ -41,7 +41,7 @@ A variable is created with name *name* if such a variable does not exist. The re
 
 This example creates the variable "envxml" and sets it to the contents of the "env.xml" file.
 
-```language-xml
+```xml
 <pc:evaluate select="variable:Set('envxml', files:XmlFile('env.xml'))"/>
 ```
 

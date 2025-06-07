@@ -37,7 +37,7 @@ If the optional pc:default element is present, its *content* is executed if none
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
        <pc:switch select="$x">
              <pc:case value="john">the name is John</pc:case>

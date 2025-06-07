@@ -39,7 +39,7 @@ wrights:HasAdminRole()
 
 To prevent a deploy script from being run otherwise than with the Run As Administrator option, add the following directive at the top of the script:
 
-```language-xml
+```xml
 <pc:terminate 
   test="not(wrights:HasAdminRole())" 
   msg="This script must be run with the Run As Administrator option."

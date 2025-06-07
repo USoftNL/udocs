@@ -38,7 +38,7 @@ http://localhost:8090/myservice/myconnection/tables
 
 The result will look something like this:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="/xsl/Resources.xsl"?>
 <Resources>

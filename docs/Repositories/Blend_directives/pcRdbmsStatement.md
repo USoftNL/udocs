@@ -51,7 +51,7 @@ The pc:RdbmsStatement element is allowed to have multiple statement-item child e
 
 *Example*
 
-```language-xml
+```xml
 <pc:RdbmsStatement
     rdbms="oracle"
     connectstr="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=XM310100444.usoft.com)(PORT = 1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)))"
@@ -90,7 +90,7 @@ The pc:RdbmsStatement element is allowed to have multiple statement-item child e
 
 *Example*
 
-```language-xml
+```xml
 <pc:RdbmsStatement
     rdbms="sqlserver"
     connectstr="P4900299383\SQLEXPRESS"
@@ -122,7 +122,7 @@ The pc:RdbmsStatement element is allowed to have multiple *statement-item* child
 
 In this example:
 
-```language-xml
+```xml
 <s10 destination="AUSTRALIA" num-days="12">
   update tour set status = 'Fully booked'
   where destination = :destination and num_days = :num_days
@@ -140,7 +140,7 @@ the following statement is sent to the RDBMS:
 
 If you have more than 1 statement item, statements are processed in document order. In the following example, the seqno attribute is irrelevant for processing order. The second statement is applied AFTER the first:
 
-```language-xml
+```xml
 <s seqno="20" status="Waiting">update tour set status=:status where service_msg is not null</s>
 <s seqno="10" status="Processed">update tour set status=:status where service_msg is null</s>
 ```
@@ -155,7 +155,7 @@ A commit also occurs immediately before and immediately after any DDL statement.
 
 If the transaction(s) is or are successful, an XML fragment is returned that identifies, for each statement, the number of records (rows) affected. It looks like this:
 
-```language-xml
+```xml
 <StatementsResults>
    <s0 nrowsaffected="10" />
    <s1 nrowsaffected="15" />

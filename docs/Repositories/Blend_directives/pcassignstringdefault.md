@@ -28,7 +28,7 @@ For each variable, *variable* identifies the variable by name and *expr* is the 
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string-default
      username="ADMIN"
      workingdir="{directories:Get()}"

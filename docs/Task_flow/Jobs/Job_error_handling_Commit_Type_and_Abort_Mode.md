@@ -102,7 +102,7 @@ You can catch the success status of a job execution by setting the **-returnstat
 
 If an error occurs and you have set **-returnstatus**, the return value of the call is:
 
-```language-xml
+```xml
 <Result>Error</Result>
 ```
 

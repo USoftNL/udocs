@@ -17,7 +17,7 @@ Blend directives are XML elements that act as commands in the USoft Blend script
 
 The following example script contains 2 Blend directives. The first is a command to create Authorizer tables. The second is a command to fill the tables with data found in an external file.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:Creapp application="USAUTH" ... />
   <pc:XmlImport alias="x1" commit="commit" source="c:\example\USAUTH.xml"/>

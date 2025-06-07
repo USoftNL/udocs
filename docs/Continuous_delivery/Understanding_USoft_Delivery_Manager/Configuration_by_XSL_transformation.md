@@ -52,7 +52,7 @@ Make sure that:
 
 1. Write and test an XSLT transformation (an XSLT stylesheet) that takes the source-side deliverable of step 1 as the source tree, and the registry of Step 2 as an additional source document. Here is a typical beginning of such an XSLT stylesheet:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="windows-1252"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
   <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="no" indent="yes"/>
@@ -71,13 +71,13 @@ Make sure that:
 
 1. Using the deploy sample scripts provided as a starting point, apply the transformation as a step in the deploy script that is taken prior to the actual deployment step. If you use the USoft Blend scripting framework to write your deploy script, the syntax for applying the transformation is:
 
-```language-xml
+```xml
 <pc:apply2file xml="{$sxmlfile}" xsl="{$susingrelpath}" filepath="{$stargetpath}" variable1="{$variable1}" variable2="{$variable2}" ... />
 ```
 
 In the case of the example in Merge scripts Step 3 (previous section), the variable name-value pairs could look like this:
 
-```language-xml
+```xml
 <pc:apply2file xml="{$sxmlfile}" xsl="{$susingrelpath}" filepath="{$stargetpath}" computername="{$thiscomputer}" targetname="{$targetname}" ... />
 ```
 

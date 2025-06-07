@@ -21,7 +21,7 @@ This is a security procedure. The only purpose of the backup is to enable you to
 
 ### Step 2: Violation reports
 
-[Make violation reports]()****for relationships, constraints and columns in the source repository (= the repository before upgrade).
+Make violation reports for relationships, constraints and columns in the source repository (= the repository before upgrade).
 
 If there are any violations, fix them, and run and inspect the reports again, until you have no violations left.
 

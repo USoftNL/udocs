@@ -86,7 +86,7 @@ To define a translation for a user-defined system message:
 
 4. On the Translations tab in the lower part of the window, set Language to the language that your translation is for, then set Local Message to your translation.
 
-If the system message has variable elements, and you want to use these also in your translation (which is optional), make sure the parameters are properly named and defined on the Parameters tab and that they are properly referenced from the message texts in all languages, using the **<***parameter-name***>**  syntax with angle brackets as placeholders.
+If the system message has variable elements, and you want to use these also in your translation (which is optional), make sure the parameters are properly named and defined on the Parameters tab and that they are properly referenced from the message texts in all languages, using the **`<***parameter-name***>`**  syntax with angle brackets as placeholders.
 
 To **test** translations of user-defined system messages, assuming that for testing you use a Rules Service running from repository, just restart the Rules Service and refresh your test browser. If your Rules Service runs from flat files, you must also re-generate the *application*.SMG file (do this via Tools, Create Flat Files in the Definer menu).
 

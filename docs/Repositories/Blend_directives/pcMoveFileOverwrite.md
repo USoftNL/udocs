@@ -39,13 +39,13 @@ For both **source** and **destination**, in the case of a relative filepath, the
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:MoveFileOverwrite source="input.xml" destination="c:\temp\output.xml" />
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:MoveFileOverwrite source="*.xml" destination="c:\temp" />
 ```
 

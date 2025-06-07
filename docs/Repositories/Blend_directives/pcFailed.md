@@ -20,7 +20,7 @@ Makes an action, or a series of actions, dependent on the fact that another acti
 *Syntax*
  
 
-```language-xml
+```xml
 <!-- Action(s) that fail(s) -->
 
   <pc:Failed>
@@ -36,7 +36,7 @@ The \<pc:Failed> element is a child element of the action that potentially fails
 
 A message "Failed to open file for logging" is written to the console if a logfile is not successfully opened for logging.
 
-```language-xml
+```xml
 <pc:WriteFile filepath="{$logfile}">
   <pc:Succeeded>
     <pc:ConsoleWrite>Logging in: <pc:value-of select="$logfile"/>...<pc:newline/></pc:ConsoleWrite>

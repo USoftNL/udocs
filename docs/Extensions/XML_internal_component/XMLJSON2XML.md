@@ -92,7 +92,7 @@ SELECT  '*input-data*'
 
 If the input is in the USoft JSON format, table names and column names appear as XML **element** names:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <root type="object">
   <TOUR type="array">
@@ -134,7 +134,7 @@ SELECT  '*input-data*'
 
 If the input is in the USoft JSON format, table names and column names appear as XML **attribute** names:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <root type="object">
   <item name="TOUR" type="array">

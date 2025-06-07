@@ -44,7 +44,7 @@ To import successfully, you must specify either the source attribute or the data
 
 This example resets a "Allow_Disable_Constraint" configuration parameter in USoft Authorizer so that, in a next step, data may be imported against a disabled Rules Engine.
 
-```language-xml
+```xml
 <pc:XmlImport connection="{$authconn}"  commit="commit">
   <Additional_Parameters documentName="Additional Parameters">
     <T_AUTH_OC_PARAMS OC_ID="LAN" SET_TYPE="URE" PARAM_NAME="Allow_Disable_Constraint" PARAM_VALUE="True"/>
@@ -70,7 +70,7 @@ INVOKE XML.MultiExportTables WITH SELECT regular-expression …
 
 If the import is successful, the return document looks something like this.
 
-```language-xml
+```xml
 <Participants documentName="Participants">
   <PARTICIPANT RES_ID="179" PERSON_ID="144" INSURANCE="Y" DIET="Vegetarian" WITHDRAWAL_DATE="" />
 </Participants>

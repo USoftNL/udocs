@@ -4,12 +4,9 @@ tags: [USoft11, USoft10]
 ---
 # $.udb.closePage()
 
-
-
 ----
 
 `USoft 11``{.vs_11}`
-
 
 :::danger
 
@@ -22,7 +19,6 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 ----
 
 `USoft 10``{.vs_10}`
-
 
 :::note
 
@@ -39,7 +35,7 @@ Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [ud
 
 :::danger
 
-If you navigate away from a page, asynchronous operations are in risk of being annulled if they do not return a promise (as opposed to just executing with an undefined result). For a full discussion of this risk, click [here]().
+If you navigate away from a page, asynchronous operations are in risk of being annulled if they do not return a promise (as opposed to just executing with an undefined result).
 
 :::
 

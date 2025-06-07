@@ -32,7 +32,7 @@ This directive is also allowed to appear, without the servicename attribute, as 
 
 *Example*
 
-```language-xml
+```xml
 <pc:ServiceStart servicename="RulesService-7779"/>
 ```
 

@@ -29,11 +29,11 @@ The optional **n** attribute indicates the number of newlines to be output. If y
 
 *Examples*
 
-```language-xml
+```xml
 <pc:newline />
 ```
 
-```language-xml
+```xml
 <pc:newline n="3" />
 ```
 

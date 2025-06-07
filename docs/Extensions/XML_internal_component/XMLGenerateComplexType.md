@@ -37,7 +37,7 @@ FROM       tour
 
 This results in the following output:
 
-```language-xml
+```xml
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:USoft:Tours" xmlns:tns="urn:USoft:Tours">
 <xsd:complexType name="ToursEx">
     <xsd:sequence>

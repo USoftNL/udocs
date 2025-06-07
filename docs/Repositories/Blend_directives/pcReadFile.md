@@ -29,13 +29,13 @@ The required **filepath** identifies the file to be read. If **filepath** is a r
 
 If applied to an input file that has the following contents:
 
-```language-xml
+```xml
 <file>Contents</file>
 ```
 
 the following script:
 
-```language-xml
+```xml
 <pc:assign path="c:\temp\definerData.txt"/>
 <pc:ReadFile filepath="{$path}" assign:fileContent="."/>
 <pc:value-of select="$fileContent" />

@@ -73,7 +73,7 @@ In the controls catalog there is a Related data source available for each child 
 
 ## SQLDataSources
 
-A [SQLDataSource ]()is essentially a SQL statement that defines some customised data interaction that you want in your web application.
+A [SQLDataSource ](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md)is essentially a SQL statement that defines some customised data interaction that you want in your web application.
 
 Create a SQLData Source by creating a subclass of the SQLDataSource control class that you find in the Web Designer Controls catalog:
 

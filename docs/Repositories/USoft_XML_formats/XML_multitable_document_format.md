@@ -23,7 +23,7 @@ The format begins with a required usoft-xml-processing-instruction. The required
 
 *Example*
 
-```language-xml
+```xml
 <?usoft-xml version="1.0" action="multi-tables-import"?>
 <MultiExport>
   <Accredited_Persons>

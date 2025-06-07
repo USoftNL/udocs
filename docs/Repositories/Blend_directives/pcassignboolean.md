@@ -37,7 +37,7 @@ If you set *booleanflags* to "yes", then special "flag-based" conversion rules a
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
    <pc:assign-nodeset registry="registry.xml"/>
    <pc:assign-boolean myboolean="{$registry//Computer[@name='COMPUTER_1']/Subtotals/@total}"/>

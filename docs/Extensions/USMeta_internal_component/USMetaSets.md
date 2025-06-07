@@ -68,7 +68,7 @@ SELECT USMeta.Sets( '.*application.*' Sets )
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
    <Sets>
@@ -103,7 +103,7 @@ SELECT USMeta.Sets( 'CLASS_H' Sets )
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
    <Sets>

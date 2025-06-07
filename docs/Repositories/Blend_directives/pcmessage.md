@@ -27,7 +27,7 @@ The required *content* is the message displayed. The pc:message element name, al
 
 *Example*
 
-```language-xml
+```xml
 <pc:message select="urgent">
     mymessage is <pc:value-of select="//pc:message/@select"/>
 </pc:message>

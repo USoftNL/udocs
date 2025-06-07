@@ -41,7 +41,7 @@ For an example of looping over a set of files or directories in the file system,
 
 This example stops multiple server processes that run as Windows services. It loops over a set of computer nodes. Each time, it stops the process represented by the server attribute of the computer element.
 
-```language-xml
+```xml
 <pc:each
      select="env/computers/computer"
      assign:servicename="@server">
@@ -53,7 +53,7 @@ This example stops multiple server processes that run as Windows services. It lo
 
 This example is similar to Example 1, but the information about computers is found in a separate file.
 
-```language-xml
+```xml
 <pc:assign-nodeset envxml="{files:XmlFile('env.xml')}"/>
 <pc:each
      select="$envxml/env/computers/computer"

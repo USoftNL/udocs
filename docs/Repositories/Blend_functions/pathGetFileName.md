@@ -47,7 +47,7 @@ For a full list of Blend functions in the area of path manipulation, use this co
 
 This example reports what is the file name found at the end of the path:
 
-```language-xml
+```xml
 <pc:assign-string fullpath="C:\Users\P3100014\Downloads\Export - 2021-12-23T170520.171.xml"/>
 <pc:ConsoleWrite>
   The file name is:

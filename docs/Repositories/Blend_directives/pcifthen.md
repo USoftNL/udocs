@@ -36,7 +36,7 @@ If you want to specify not only a **then** clause but also an **else** clause, u
 
 The element <PrintThis/> is written to standard output in:
 
-```language-xml
+```xml
 <pc:if-then test="1=1">
    <PrintThis/>
 </pc:if-then>
@@ -44,7 +44,7 @@ The element <PrintThis/> is written to standard output in:
 
 The element <PrintThis/> is NOT written to standard output in:
 
-```language-xml
+```xml
 <pc:if-then test="1=2">
    <PrintThis/>
 </pc:if-then>

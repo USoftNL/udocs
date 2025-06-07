@@ -47,7 +47,7 @@ At runtime, gets metadata information about relationships and relationship colum
 
 Relationship columns are shown in a child element, for example:
 
-```language-xml
+```xml
 <Relationship PARENT_TABLE="PERSON" CHILD_TABLE="ORDER" ... >
     <Relationship_Columns>
         <Column PARENT="PERSON_ID" CHILD="ORDER_ID"/>
@@ -104,7 +104,7 @@ SELECT USMeta.Relationships( 'TOUR' Children )
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
 	<Relationships>

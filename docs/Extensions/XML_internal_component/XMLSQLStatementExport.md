@@ -76,7 +76,7 @@ SELECT     'select concat(
 
 is this Meta-Rows-Fields document:
 
-```language-xml
+```xml
 <SQLXMLExport>
   <Meta>
     <OutputExpressions>

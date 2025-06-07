@@ -26,7 +26,7 @@ To get started with USoft Blend, all you need is an installation of the USoft pl
 
 4.    Using a text editor, create a text file in the try-out directory you have chosen. Give the file an appropriate name, for example, blend.xml, and make sure that its contents read like this:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="false">
   <pc:ConsoleWrite>Hello World!</pc:ConsoleWrite>
 </example>
@@ -42,7 +42,7 @@ c:\tryout\blend> *usoft-bindir*\ublendit.exe blend.xml
 Press Enter. This passes your blend.xml script to the USoft Blend processor.
 7.    See that the result is:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="false">
      Hello World!
 </example>
@@ -74,7 +74,7 @@ Now on to a more useful task. This example automates the deletion of a file from
 
 4.    Using a text editor, create a text file in the try-out directory you have chosen. Give the file an appropriate name, for example, blend.xml, and make sure that its contents read like this:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
    <pc:assign workingdir="{directories:Get()}"/>
    <pc:assign deletefile="{path:Combine($workingdir,'deletethis.txt')}"/>
@@ -93,7 +93,7 @@ c:\tryout\blend> *usoft-bindir*\ublendit.exe blend.xml
     Press Enter. This passes your blend.xml script to the USoft Blend processor.
 8.    See that the result on the console is:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="false">
    <!--files:DeleteFile(c:\myworkingdir\deletethis.txt) -->
 </example>

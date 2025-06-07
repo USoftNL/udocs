@@ -8,7 +8,7 @@ In order for a CSS stylesheet rule to have an effect on the published web page(s
 
 The following steps use of the fact that the **application.html** file contains by default the following instruction:
 
-```language-xml
+```xml
 <link rel="stylesheet" href="css/CustStyle.css" type="text/css"/>
 
 ```

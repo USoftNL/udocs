@@ -47,7 +47,7 @@ var s = $.udb.ui.transform("<label>{{'Example'}}</label>");
 
 A possible output of this example is:
 
-```language-html
+```html
 <label>
     <script class="lang-start" type="text/html">Example</script>
         Voorbeeld

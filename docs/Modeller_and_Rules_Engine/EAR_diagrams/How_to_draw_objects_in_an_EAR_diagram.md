@@ -166,7 +166,7 @@ You can reverse the cardinality of a line (parent becomes child and child become
 
 ![](./assets/932df897-cfec-4818-8fac-3ab4328067dc.png)
 
-Relation line, context menu2. Click on the '<’ icon at the bottom of this context menu.
+Relation line, context menu2. Click on the `<` icon at the bottom of this context menu.
 
 ### Changing the position or shape of a relation line
 

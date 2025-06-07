@@ -34,7 +34,7 @@ You can use pc:evaluate if you are interested in having an attribute resolved (a
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:evaluate select="service:InstallServiceMode('RulesService-7755', 'c:\usd90\bin\RulesService.exe', 'bla', 'manual')"/>
 ```
 
@@ -42,7 +42,7 @@ You can use pc:evaluate if you are interested in having an attribute resolved (a
 
 As its second argument, the strings:ReplaceVariables function takes an XPath expression, which references the XML content of the pc:evaluate element.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 
 <pc:assign-string-default

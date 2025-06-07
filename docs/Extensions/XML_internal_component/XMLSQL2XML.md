@@ -62,7 +62,7 @@ SELECT
 
 This results in the following XML output:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <SqlNode version="1.0"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -143,7 +143,7 @@ This describes the \<AssignmentList> element in XML.SQL2XML output. Mandatory el
 
 |**Parent**|**Children**|
 |--------|--------|
-|{ \<Select>\|\<Update> }|\<AssignmentListElement> ...|
+|`{ <Select>`\|`<Update> }`|`<AssignmentListElement>` ...|
 
 
 
@@ -178,7 +178,7 @@ The Prompt defined for the column appears as **prompt**. All columns have a Prom
 The **datatype** attribute is a generic initcap indication of data type ( 'String', 'Numeric' ). The **dbtype** attribute is the Data Type of the column's domain, prefixed by DB_, for example: DB_VARCHAR2.
 \<Column> appears at 2 levels if it is the conversion of SELECT *. The higher level registers the use of the * wildcard and the lower level shows the result of expanding this wildcard. The result XML looks like this:
 
-```language-xml
+```xml
 <SelectListElement>
   <Column name="*">
     <SelectListElement position="1">
@@ -200,9 +200,7 @@ This describes the \<ConnectBy> element in XML.SQL2XML output. Mandatory element
 
 |**Parent**|**Children**|
 |--------|--------|
-|\<Select>|<p>{ \<Operator> \| \<LogicalOperator> }</p>|
-
-
+|`<Select>`| `<Operator>` \| `<LogicalOperator>` |
 
 ### Delete
 
@@ -211,7 +209,7 @@ This describes the \<Delete> element in XML.SQL2XML output. Mandatory elements a
 
 |**Parent**|**Children**|
 |--------|--------|
-|\<Select>|{ \<SelectList> \| \<Records> }|
+|`<Select>` |`{ <SelectList>` \| `<Records> }`|
 
 
 
@@ -231,7 +229,7 @@ This describes the \<Function> element in XML.SQL2XML output. Mandatory elements
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|\<SelectListElement>|<p>{ <Column> \| <Value> \| }</p>|**name**|
+|`<SelectListElement>`| `{ <Column> \| <Value> }` |**name**|
 
 
 
@@ -260,9 +258,9 @@ This describes the \<GroupByList> element in XML.SQL2XML output. Mandatory eleme
 
 ### GroupByListElement
 
-This describes the <GroupByListElement> element in XML.SQL2XML output. Mandatory elements are printed in Bold. An ellipsis symbol (...) following a child element means that multiple child occurrences are possible.
+This describes the `<GroupByListElement>` element in XML.SQL2XML output. Mandatory elements are printed in Bold. An ellipsis symbol (...) following a child element means that multiple child occurrences are possible.
 
-<GroupByListElement> represents a GROUP BY element in a GROUP BY clause as follows:
+`<GroupByListElement>` represents a GROUP BY element in a GROUP BY clause as follows:
 
 |**Parent**|**Children**|
 |--------|--------|
@@ -272,13 +270,13 @@ This describes the <GroupByListElement> element in XML.SQL2XML output. Mandatory
 
 ### Host
 
-This describes the <Host> element in XML.SQL2XML output. Mandatory elements are printed in Bold. An ellipsis symbol (...) following a child element means that multiple child occurrences are possible.
+This describes the `<Host>` element in XML.SQL2XML output. Mandatory elements are printed in Bold. An ellipsis symbol (...) following a child element means that multiple child occurrences are possible.
 
 \<Host> represents the use of a host variable as in SELECT :1 ..., as follows:
 
 |**Parent**|**Attributes**|
 |--------|--------|
-|\<SelectListElement>|**{ name   \| quoted_name   }**<br/>			{ prefix \| quoted_prefix }<br/>**position**|
+|\<SelectListElement>|`{ name   \| quoted_name   }{ prefix \| quoted_prefix }`**position**|
 
 
 
@@ -316,7 +314,7 @@ select xml.sql2xml( 'INVOKE regexp.matches WITH SELECT ''ABC'', ''ABC'' ' )
 
 is:
 
-```language-xml
+```xml
 <SqlNode version="1.0">
   <Invoke type_name="REGEXP" method_name="MATCHES">
     <InvokeOutput>
@@ -372,7 +370,7 @@ ON t_table.table_name = t_column.table_name' )
 
 is:
 
-```language-xml
+```xml
 <SqlNode version="1.0">
 	<Select>
 		<SelectList>
@@ -425,7 +423,7 @@ select xml.sql2xml( 'SELECT regexp.matches( ''ABC'', ''ABC'' )'
 
 is:
 
-```language-xml
+```xml
 <SqlNode version="1.0">
   <Select>
     <SelectList>
@@ -445,17 +443,17 @@ is:
 
 ### LogicalOperator
 
-This describes the \<LogicalOperator> element in XML.SQL2XML output. Mandatory elements are printed in Bold. An ellipsis symbol (...) following a child element means that multiple child occurrences are possible.
+This describes the `<LogicalOperator>` element in XML.SQL2XML output. Mandatory elements are printed in Bold. An ellipsis symbol (...) following a child element means that multiple child occurrences are possible.
 
-\<LogicalOperator> represents the use of a logical operator: AND, OR, NOT.
+`<LogicalOperator>` represents the use of a logical operator: AND, OR, NOT.
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|\<Where> |{  \<Column>   \|<br/>			   \<Function>   \|<br/>			   \<Operator><br/>			   \<Value><br/>			}|**name**|
+|`<Where>` |`{ <Column>  <Function>  <Operator>  <Value> }`|**name**|
 
 
 
-Children: If the logical operator is NOT, it applies to a comparison or to a NOT or EXISTS operator; in this case, \<LogicalOperator> has an \<Operator> child element.
+Children: If the logical operator is NOT, it applies to a comparison or to a NOT or EXISTS operator; in this case, \<LogicalOperator> has an `<Operator>` child element.
 Attributes: **name** indicates the logical operator used: AND  OR  NOT .
 
 ### Lowerbound
@@ -466,7 +464,7 @@ This describes the \<Lowerbound> element in XML.SQL2XML output. Mandatory elemen
 
 |**Parent**|**Children**|
 |--------|--------|
-|\<Records>|{ \<Value> \| \<Host> }|
+|`<Records>`|`{ <Value> \| <Host> }`|
 
 
 
@@ -478,7 +476,7 @@ This describes the \<MathOperator> element in XML.SQL2XML output. Mandatory elem
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|\<SelectListElement>|{ \<Column> \|  \<Value> } ...|**name**|
+|\<SelectListElement>|`{ <Column> \| <Value> } ...`|**name**|
 
 
 
@@ -494,13 +492,13 @@ This describes the \<Operator> element in XML.SQL2XML output. Mandatory elements
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|\<Where> |{  \<Column>   \|<br/>			   \<Function> \|<br/>			   \<Select><br/>			   \<Set><br/>			   \<Value><br/>			}|**name**|
+|`<Where>` |`{ <Column>  <Function>  <Select>  <Set>  <Value> }`|**name**|
 
 
 
 Children: If the comparison is with the outcome of a subquery, then \<Operator> has a \<Select> child element. If comparison is with a set of values, as is possible with IN, ANY, ALL, one of the child elements of \<Operator> will be \<Set>.
 
-Attributes: name indicates the comparison operator used: =  !=  >  <  >=  <=  ..., or the SQL operator used:  EXISTS   IN   LIKE   BETWEEN   ANY   ALL
+Attributes: name indicates the comparison operator used: `=  !=  >  <  >=  <=  ...`, or the SQL operator used:  EXISTS   IN   LIKE   BETWEEN   ANY   ALL
 
 For backward compatibility, the *= operator remains supported for ODBC-style outer join syntax.
 
@@ -512,7 +510,7 @@ This describes the \<OrderByList> element in XML.SQL2XML output. Mandatory eleme
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|{ \<Select> \| \<SetSelect> }|\<OrderByListElement>|position|
+|`{ <Select> \| <SetSelect> }`|\<OrderByListElement>|position|
 
 
 
@@ -542,7 +540,7 @@ This describes the \<Records> element in XML.SQL2XML output. Mandatory elements 
 
 |**Parent**|**Children**|
 |--------|--------|
-|{ \<Select> \| \<Distinct> }|\<Lowerbound><br/>			   \<Value datatype="Numeric"><br/>			\</Lowerbound><br/>			\<Upperbound><br/>			   \<Value datatype="Numeric"><br/>			\</Upperbound><br/>			\<SelectList>|
+|`{ <Select> \| <Distinct> }`|\<Lowerbound><br/>			   \<Value datatype="Numeric"><br/>			\</Lowerbound><br/>			\<Upperbound><br/>			   \<Value datatype="Numeric"><br/>			\</Upperbound><br/>			\<SelectList>|
 
 
 
@@ -581,7 +579,7 @@ AND       tp.tour_type   = t.tour_type
 
 The XML.SQL2XML output for this statement is:
 
-```language-xml
+```xml
 <RelateList>
   <RelateListElement role="IS FOLLOWED BY" position="1">
     <RelateListElementTable name="tp" table_name="TOUR_PROGRAMME" is_parent="true"/>
@@ -614,9 +612,7 @@ This describes the \<Select> element in XML.SQL2XML output. Mandatory elements a
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|{  \<SQLNode>      \|<br/>			   \<Insert>       \|<br/>			   \<SetSelect>    <br/>			}|<p>{  \<SelectList>              \|<br/>			   \<Distinct>   \<SelectList> \|<br/>			   \<Records>    \<SelectList> \|<br/>			   \<Top>        \<SelectList><br/>			}</p><p>{  \<Where>        \|<br/>			   \<Having>       \|<br/>			   \<GroupByList>  \|<br/>			   \<OrderByList>  \|<br/>			   \<ConnectBy>    \|<br/>			   \<StartWith><br/>			}</p>|position|
-
-
+|`{ <SQLNode> \| <Insert> \| <SetSelect>}`|`{  <SelectList> \| <Distinct> <SelectList> \| <Records> <SelectList> \| <Top><SelectList> }`  `{ <Where>        \|  <Having> \| <GroupByList>  \| <OrderByList>  \| <ConnectBy>    \| <StartWith> }`   |`position`|
 
 Attributes: The **position** attribute does not appear if the SELECT clause is the main (= top-level) query.
 
@@ -626,9 +622,7 @@ This describes the \<SelectList> element in XML.SQL2XML output. Mandatory elemen
 
 |**Parent**|**Children**|
 |--------|--------|
-|{  \<Select>      \|<br/>			   \<Distinct>    \|<br/>			   \<Records>     \|<br/>			   \<Top>        <br/>			}|\<SelectListElement> ...|
-
-
+|`{ <Select> \|  <Distinct> \| <Records> \|  <Top> }`| `<SelectListElement> ...`|
 
 ### SelectListElement
 
@@ -636,7 +630,7 @@ This describes the \<SelectListElement> element in XML.SQL2XML output. Mandatory
 
 |**Parent**|**Children**|**Attributes**|
 |--------|--------|--------|
-|\<SelectList>|{  \<Column>        \|<br/>			   \<Function>      \|<br/>			   \<MathOperator>  \|<br/>			   \<Value>        <br/>			}|**position**|
+|\<SelectList>|`{ <Column> \| <Function> \| <MathOperator> \| <Value> }`|**position**|
 
 
 
@@ -692,7 +686,7 @@ This describes the \<SqlNode> element in XML.SQL2XML output. Mandatory elements 
 
 |**Parent**|**Children**|
 |--------|--------|
-|(none)  |{  \<Select>       \|<br/>			   \<SetSelect>  \|<br/>			   \<Insert>        \|<br/>			   \<Update>      \|<br/>			   \<Delete>     <br/>			}|
+|(none)  |`{ <Select>       \| <SetSelect>  \| <Insert>        \| <Update>      \| <Delete> }`|
 
 
 
@@ -704,7 +698,7 @@ This describes the \<StartWith> element in XML.SQL2XML output. Mandatory element
 
 |**Parent**|**Children**|
 |--------|--------|
-|\<Select>|{  \<Operator>  \|<br/>			   \<LogicalOperator><br/>			}|
+|\<Select>|`{  <Operator>  \| <LogicalOperator> }`|
 
 
 
@@ -716,7 +710,7 @@ This describes the \<TableList> element in XML.SQL2XML output. Mandatory element
 
 |**Parent**|**Children**|
 |--------|--------|
-|{  \<Select>     \|<br/>			   \<Insert>      \|<br/>			   \<Update>    \|<br/>			   \<Delete>     <br/>			}|\<TableListElement> ...|
+|`{ <Select>     \| <Insert>      \| <Update>    \| <Delete>  }`|\<TableListElement> ...|
 
 
 
@@ -742,7 +736,7 @@ This describes the \<Top> element in XML.SQL2XML output. Mandatory elements are 
 
 |**Parent**|**Children**|
 |--------|--------|
-|{  \<Select>  \|<br/>			   \<Distinct><br/>			}|\<TopValue><br/>			   \<Value datatype="Numeric"><br/>			\</TopValue><br/>			\<SelectList>|
+|`{ <Select>  \| <Distinct>}`|\<TopValue><br/>			   \<Value datatype="Numeric"><br/>			\</TopValue><br/>			\<SelectList>|
 
 
 
@@ -756,7 +750,7 @@ This describes the \<TopValue> element in XML.SQL2XML output. Mandatory elements
 
 |**Parent**|**Children**|
 |--------|--------|
-|\<Top>   |{  \<Value>  \|<br/>			   \<Host><br/>			}|
+|\<Top>   |`{ <Value>  \| <Host> }`|
 
 
 
@@ -768,9 +762,7 @@ This describes the \<Update> element in XML.SQL2XML output. Mandatory elements a
 
 |**Parent**|**Children**|
 |--------|--------|
-|\<Records>|{  \<Value>  \|<br/>			   \<Host><br/>			}|
-
-
+|\<Records>|`{  <Value>  \|  <Host>			}`|
 
 ### Where
 
@@ -780,8 +772,6 @@ This describes the \<Where> element in XML.SQL2XML output. Mandatory elements ar
 
 |**Parent**|**Children**|
 |--------|--------|
-|{  \<Select>      \|<br/>			   \<Update>     \|<br/>			   \<Delete>     <br/>			}|{  \<Operator>  \|<br/>			   \<LogicalOperator><br/>			}|
-
-
+|`{ <Select>      \|  <Update>     \|  <Delete> }`|`{ <Operator>  \| <LogicalOperator> }`|
 
 Attributes: **name** (or **quoted_name**, if the host variable placeholder is quoted in the input), has the value of ‘1’ if the input has :1. **name** has the value of ‘myvariable’ if the input has :myvariable.

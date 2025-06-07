@@ -8,7 +8,7 @@ An XML table section is an XML fragment that describes a set of records from the
 
 *Syntax*
 
-```language-xml
+```xml
 <*underscored-object-name-plural* documentName="*object-name-plural*">
   { <*table column="value" column="value"* ... />  |
     <*table column="value" column="value"* ... > <*dml-instruction-tag*/> </*table*> }
@@ -24,7 +24,7 @@ An XML table section is an XML fragment that describes a set of records from the
 
 *Example*
 
-```language-xml
+```xml
 <Accredited_Persons documentName="Accredited Persons">
     <PERSON ID="177" FAMILY_NAME="Haynes" FIRST_NAME="Deborah"/>
     <PERSON ID="112" FAMILY_NAME="Smith" FIRST_NAME="John"/>

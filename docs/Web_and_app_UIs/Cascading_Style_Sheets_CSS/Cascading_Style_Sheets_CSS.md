@@ -5,11 +5,8 @@ id: Cascading_Style_Sheets_CSS
 # Cascading Style Sheets (CSS)
 
 Cascading Style Sheets (CSS) provide a simple mechanism for adding style (e.g. fonts, colors, spacing) to web documents. This section describes how to use cascading style sheets with the generated web pages.
-
 One of the fundamental features of CSS is that style sheets cascade: more than one style sheet can influence the presentation of a document. Cascading is a fundamental feature of CSS, because any single document could very well end up with style sheets from multiple sources: the browser, the HTML author, the designer, and possibly the user.
-
 Each web browser has a default style sheet that presents documents in a reasonable manner. HTML authors can attach a preferred style sheet, while the reader may have a personal style sheet. HTML authors need to write style sheets only if they want to suggest a specific style for their documents.
-
 All information about Cascading Style Sheet technology that is NOT in this section or its sub-sections, can be found in the Cascading Style Sheet specification of the World Wide Web Consortium (W3C):
 
 ```
@@ -39,7 +36,7 @@ H1,H2,H3 { color: green }
 
 ```
 
-H1, H2, H3 {...}
+`H1, H2, H3 {...}`
 
 As the example shows, each declaration has two parts separated by a colon:
 
@@ -49,5 +46,3 @@ property : value
 ```
 
 Between the curly braces, you can have multiple declarations separated by semicolons.
-
- 

@@ -47,7 +47,7 @@ If you set *disable* to "yes", special XML characters in the output will not be 
 
 Information about a data import operation is written to a logfile.
 
-```language-xml
+```xml
 <root xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
 <pc:terminate test="not(wrights:HasAdminRole())" msg="{concat('Admin role is required. Available roles:', wrights:Roles())}"/>
 

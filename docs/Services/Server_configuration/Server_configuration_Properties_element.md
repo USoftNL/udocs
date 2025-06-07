@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, the \<Properties> element contains
 
 *Example*
 
-```language-xml
+```xml
 <Properties>   
   <Property name="QUEUE_NAME" index="1" value="TestQueue"/>   
   <Property name="WAIT_TIMEOUT" index="1" value="100"/>       

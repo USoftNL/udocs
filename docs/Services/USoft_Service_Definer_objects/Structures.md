@@ -120,7 +120,7 @@ MyReservationStructure[]  reservations = ( MyReservationStructure[])sql( MyRese
 
 If the output or input of a REST Service contains has a list of elements held in an XML or JSON array, you can use the same syntax **MyReservationStructure[]** in the Type field of the Parameter. Such a list of elements could look like this in XML:
 
-```language-xml
+```xml
 <MyReservationStructures>
     <MyReservationStructure participants="1" id="160">
         <destination>AUSTRALIA</destination>
@@ -180,7 +180,7 @@ Using annotations, you can map data in incoming and outgoing XML messages variou
 
 You have a REST service that produces the following XML response message on the basis of a structure named **MyPersonStructure**:
 
-```language-xml
+```xml
 <MyPersonStructure>
   <PERSON_ID>137</PERSON_ID>
   <FIRST_NAME>Johnny</FIRST_NAME>
@@ -191,7 +191,7 @@ You have a REST service that produces the following XML response message on the 
 
 You want this output to look like this:
 
-```language-xml
+```xml
 <Client ID="137">
   <FirstName>Johnny</FirstName>
   <Surname>LOGAN</Surname>

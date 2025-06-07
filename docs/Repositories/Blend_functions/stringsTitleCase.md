@@ -35,7 +35,7 @@ strings:TitleCase( *value* )
 
 Example
 
-```language-xml
+```xml
 select uscsxsl.blend(
   '<example xmlns:pc="Processing.Command" pc:hideme="true">
      <pc:assign-string-default val = "abcDEF"/>

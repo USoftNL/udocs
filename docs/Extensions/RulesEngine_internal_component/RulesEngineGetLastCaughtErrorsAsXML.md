@@ -29,7 +29,7 @@ SELECT RulesEngine.GetLastCaughtErrorsAsXML()
 
 The return XML document looks like this:
 
-```language-xml
+```xml
 <uslng:messages>
   <uslng:message>...</uslng:message>
   <uslng:message>...</uslng:message>
@@ -39,7 +39,7 @@ The return XML document looks like this:
 
 If no errors occurred in the active error catching session, the return value is:
 
-```language-xml
+```xml
 <uslng:messages/>
 ```
 

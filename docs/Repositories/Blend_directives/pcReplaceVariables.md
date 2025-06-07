@@ -49,7 +49,7 @@ Example
 
 In this example, each occurrence in the TRAVEL.txt file of ITALIA is translated to ITALIA and each occurrence of GERMANY to DEUTSCHLAND, and the result is returned.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" >
     <pc:defs><Settings><Setting NAME="ITALY" VALUE="ITALIA"/><Setting NAME="GERMANY" VALUE="DEUTSCHLAND"/></Settings></pc:defs>
     <pc:ReadFile filepath="TRAVEL.txt" assign:fileContent="."/>
@@ -67,7 +67,7 @@ If you are using **select**, the **select** attribute must be an XPath expressio
 
 for example:
 
-```language-xml
+```xml
 <r>
     <abc NAME="lazy" VALUE="wild"/>
     <abc NAME="dog" VALUE="lazy cat"/>
@@ -76,7 +76,7 @@ for example:
 
 or:
 
-```language-xml
+```xml
 <r>
     <abc><NAME>lazy</NAME><VALUE>wild</VALUE></abc>
     <def><NAME>dog</NAME><VALUE>lazy cat</VALUE></def>
@@ -85,7 +85,7 @@ or:
 
 or:
 
-```language-xml
+```xml
 <r>
    <abc><NAME>active</NAME><VALUE>lazy</VALUE></abc>
    <def NAME="dog" VALUE="active cat"/>
@@ -97,7 +97,7 @@ The name of the top-level element (here, r) and the names of its child elements 
 
 ## select, example with NAME only
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 <pc:defs>
    <r><abc NAME="lazy" VALUE="wild"/><def NAME="dog" VALUE="lazy cat"/></r>
@@ -118,7 +118,7 @@ This is a story about a wild cat. The wild cat is named Max.
 
 ## select, example with NAME and PATTERN
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:ReplaceVariables
      txt="This is a story about a dog. The dog is named Max."
@@ -140,7 +140,7 @@ This is a story about an lazy cat. The lazy cat is named Max.
 
 All the replacements are executed recursively, and all the matching replacements are ALWAYS executed, regardless of the order in which the instructions are stated (this is the difference with **varlist** in the next section). Following **about**, **a** is changed to **an** because, at one point in the replacement process, the text has "active cat", and **an** remains a part of the end result after the replacement of **active** by **lazy**. This unwanted effect may be countered by adding an extra instruction:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:ReplaceVariables
      txt="This is a story about a dog. The dog is named Max."
@@ -171,7 +171,7 @@ If you are using **varlist**, the **varlist** attribute must be an ordered list 
 
 ## varlist, example
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:ReplaceVariables
       txt="This is a story about a dog. The dog is named Max."
@@ -187,7 +187,7 @@ This is a story about a lazy cat. The lazy cat is named Max.
 
 In the same way as with replacements expressed by select, each of the replacements expressed by varlist is applied recursively to the input text. But UNLIKE replacements with select, each replacement with varlist is executed only once in the stated sequence of replacements. Compare:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:ReplaceVariables
       txt="This is a story about a dog. The dog is named Max."
@@ -213,7 +213,7 @@ Express the variable elements as variable references. Do an extra call to pc:ass
 
 This example shows input parameters passed to the pc:ReplaceVariables directive.
 
-```language-xml
+```xml
 <pc:assign-string-default myparameter1="my_replacement1"/>
 <pc:assign-string-default myparameter2="my_replacement2"/>
 
@@ -233,7 +233,7 @@ This example shows input parameters passed to the pc:ReplaceVariables directive.
 
 This example is equivalent to Example 1. This example shows input parameters passed to the strings:ReplaceVariables() function.
 
-```language-xml
+```xml
 <pc:assign-string-default myparameter1="my_replacement1"/>
 <pc:assign-string-default myparameter2="my_replacement2"/>
 

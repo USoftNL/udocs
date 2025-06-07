@@ -16,7 +16,7 @@ SQLDataSources are especially useful for more complex queries that you cannot ea
 
 `USoft 9.x``{.vs_10}`
 
-SQLDataSources are a USoft 10 feature. They are not available in USoft 9.x and earlier. To catch and use query result data in your USoft 9 web pages, see the [USoft 9 alternative to SQLDataSources]() below.
+SQLDataSources are a USoft 10 feature. They are not available in USoft 9.x and earlier. To catch and use query result data in your USoft 9 web pages, see the USoft 9 alternative to SQLDataSources below.
 
 ----
 

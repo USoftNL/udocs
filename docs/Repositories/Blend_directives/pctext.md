@@ -34,7 +34,7 @@ pc:text does not support the disable-output-escaping attribute, unlike pc:value-
 
 *Example*
 
-```language-xml
+```xml
 <pc:text>
    <d att="text1">text2</d>  <e>text3</e>
    text4

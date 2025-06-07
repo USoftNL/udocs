@@ -41,7 +41,7 @@ SELECT RulesEngine.GetProperty( name )
 
 This example finds out whether constraints for connection "thisconn" are currently deactivated or not:
 
-```language-xml
+```xml
 <pc:GetRulesEngineProperty connection="{$thisconn}" name="USoftLogDir" />
 ```
 

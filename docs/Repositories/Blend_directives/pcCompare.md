@@ -43,7 +43,7 @@ Do not confuse **leftfile** and **rightfile**. The first is the target data set 
 
 *Example*
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
   <pc:RunRulesService waittime="10000"
         user="MYNAME" pwd="MYPWD" rdbmstype="oracle" connection="XE" application="USAUTH"

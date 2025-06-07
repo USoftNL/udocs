@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, a \<Server> element contains the c
 
 *Example*
 
-```language-xml
+```xml
 <Server 
   name="Default" 
   baseURI="http://0.0.0.0:8090/" 

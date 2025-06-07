@@ -29,7 +29,7 @@ http://localhost:8092/health
 
 To expose the health check utility on the server, make sure that in the **config.xml** file for the server, the **advertise** attribute has the **HealthCheckResource** mention: for example:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Config>
    <Server name="..." 
@@ -48,7 +48,7 @@ Service Definer generates this HealthCheckResource mention for you if you publis
 
 You can limit access to the health check utility by enumerating specific IP addresses from which it may be called. To do this, include a section such as the following in the server's **config.xml** file:
 
-```language-xml
+```xml
 <HealthCheckWhiteList>
     <Address range="192.168.200.1/24"/>
     <Address range="10.10.1.5"/>

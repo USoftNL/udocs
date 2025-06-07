@@ -58,13 +58,13 @@ $.udb.lang.translate('<div class="box">{{Hello World}}</div>')
 
 This example could return this string if the current language is English:
 
-```language-html
+```html
 <div class="box">Hello World</div>
 ```
 
 This example could return this string if the current language is Dutch:
 
-```language-html
+```html
 <div class="box">Hallo Wereld</div>
 ```
 

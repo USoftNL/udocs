@@ -38,7 +38,7 @@ The content of pc:defs is not executed. The content of pc:void is executed but a
 
 A literal XML fragment is placed in a \<pc:defs> section so that it may be assigned as a node set to a variable called "mydefs".
 
-```language-xml
+```xml
 <pc:defs><somexml>Hi</somexml></pc:defs>
 <pc:assign-nodeset mydefs="{preceding-sibling::pc:defs/*}"/>
 ```
@@ -47,7 +47,7 @@ A literal XML fragment is placed in a \<pc:defs> section so that it may be assig
 
 Two XSLT templates are placed in a \<pc:defs> section so that they can be applied by a call to xslutil:applyTemplate() but are otherwise ignored.
 
-```language-xml
+```xml
 <authdata xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:pc="Processing.Command">
 ...
 <pc:defs>

@@ -43,7 +43,7 @@ All attributes are required. **connectstr** must be the full database connectstr
 
 *Example*
 
-```language-xml
+```xml
 <pc:DatabaseExists
     rdbms="oracle"
     connectstr="
@@ -59,7 +59,7 @@ All attributes are required. **connectstr** must be the full database connectstr
 
 If the USD100_TRAVEL database account exists and the owner/pwd username/password combination is a successful login for finding out about it, the return value looks like this:
 
-```language-xml
+```xml
 <yes
     connectstr="(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST=L3100100247.usoft.com)(PORT=1521))
         (CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=XE)"
@@ -68,7 +68,7 @@ If the USD100_TRAVEL database account exists and the owner/pwd username/password
 
 If the USD100_TRAVEL database account does not exist but the dba/dbapwd username/password combination is a successful login for finding out about existing database accounts at the connection, the return value looks like this:
 
-```language-xml
+```xml
 <no>
    <Schemas>
       <Schema owner="USD100_TRAVEL" />
@@ -93,7 +93,7 @@ If the USD100_TRAVEL database account does not exist but the dba/dbapwd username
 
 All attributes are required, except **dba** and **dbapwd** in certain cases (see details below). **connectstr** must be the string identifying the Server Name in terms of Microsoft SQL Server Management Studio. This is the same database connect string that you use in USoft Binder to access application data, except for the database suffix introduced by a colon. **database** must be the database name. The following 2 attribute settings:
 
-```language-xml
+```xml
 connectstr="MYSERVERNAME\SQLEXPRESS"
 
 database="MYDATABASE"
@@ -111,7 +111,7 @@ The combination of **dba** and **dbapwd** is a username/password combination tha
 
 This example only works if you have access to the database server using Windows Authentication:
 
-```language-xml
+```xml
 <pc:DatabaseExists
     rdbms="sqlserver"
     connectstr="P6400100200\SQLEXPRESS"
@@ -121,7 +121,7 @@ This example only works if you have access to the database server using Windows 
 
 If the USD100_TRAVEL database account exists, the return value looks like this:
 
-```language-xml
+```xml
 <yes
    connectstr="Server=L3100100247\SQLEXPRESS;Integrated security=SSPI;database=USD100_TRAVEL2"
    usoftconnectstr="L3100100247\SQLEXPRESS:USD100_TRAVEL2" />
@@ -129,7 +129,7 @@ If the USD100_TRAVEL database account exists, the return value looks like this:
 
 If the USD100_TRAVEL database account does not exist, the return value looks like this:
 
-```language-xml
+```xml
 <no>
    <SqlServers />
 </no>

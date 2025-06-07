@@ -39,14 +39,14 @@ If you pass disable-output-escaping="yes", XML markup characters (if any) will n
 
 *Examples*
 
-```language-xml
+```xml
 <pc:ReadFiles filepath="c:/temp/xmldirectory/">
      <file filepath="DefinerModel.xml"/>
      <file filepath="ApplicationData.xml"/>
 </pc:ReadFiles>
 ```
 
-```language-xml
+```xml
 <pc:ReadFiles>
      <file filepath="c:/temp/document_1.xml" assign:document1="."/>
      <file filepath="d:/production/document_2.xml" assign:document2="."/>

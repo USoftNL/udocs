@@ -48,7 +48,7 @@ If you specify **tablespace**, USoft tables are created in this tablespace. If y
 
 This example creates a new USoft development environment in an empty database account USD100_TRAVEL in tablespace TABLESPACE_1.
 
-```language-xml
+```xml
 <pc:NewUDevelop
     rdbms="oracle"
     connectstr="
@@ -108,7 +108,7 @@ Using Windows Authentication, this example creates a new USoft development envir
 
 Further objects are created to enable TRAVEL_LOGIN to connect to USD100_TRAVEL. For the new Database object, a User object TRAVEL_LOGIN and a Schema object TRAVEL_LOGIN are created. TRAVEL_LOGIN is given the Connect permission on the new USD100_TRAVEL database.
 
-```language-xml
+```xml
 <pc:NewUDevelop
     rdbms="sqlserver"
     connectstr="P6400100200\SQLEXPRESS"

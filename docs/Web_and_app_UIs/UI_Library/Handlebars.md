@@ -4,12 +4,9 @@ tags: [USoft11, USoft10]
 ---
 # Handlebars
 
-
-
 ----
 
 `USoft 11``{.vs_11}`
-
 
 :::danger
 
@@ -22,7 +19,6 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 ----
 
 `USoft 10``{.vs_10}`
-
 
 :::note
 
@@ -41,7 +37,7 @@ A GUI element normally consists of three parts:
 
 The HTML of a GUI element is described in a factory using a technology called handlebars. A compiled handlebar definition is stored in the template member of a factory object and is a function that, when called, returns a string that can be converted into HTML:
 
-```language-html
+```html
 <div {{attr "*"}} />
 ```
 
@@ -75,7 +71,7 @@ Parameters are optional. The first parameter is allowed to be "*". You can pass 
 
 *Example*
 
-```language-html
+```html
 <div {{attr "*" class="@useJQueryClasses:ui-widget-content"}}/>
 ```
 
@@ -161,13 +157,13 @@ The **data** helper only applies to **Label** and **Column** controls that are p
 
 *Example*
 
-```language-html
+```html
 There are {{data "CNT"}} item(s) to fix.
 ```
 
 can be converted to:
 
-```language-html
+```html
 There are 12 item(s) to fix.
 ```
 
@@ -188,7 +184,7 @@ The **lang** helper can be used to add text translations to an HTML element. It 
 
 *Example*
 
-```language-html
+```html
 <div>{{lang props.label "html"}}</div>
 can be converted to:
 <div>
@@ -226,13 +222,13 @@ The **now** helper can be used to add a date to a website.
 
 *Example*
 
-```language-html
+```html
 Copyright by USoft B.V. 1995 – {{now "YYYY"}}
 ```
 
 can be converted to:
 
-```language-html
+```html
 Copyright by USoft B.V. 1995 – 2022
 ```
 
@@ -248,13 +244,13 @@ The **preview** helper can be used to show design data that is only to be made v
 
 *Example*
 
-```language-html
+```html
 <iframe>{{#preview}}FrameControl example contents{{/preview}}</iframe>
 ```
 
 can be converted to:
 
-```language-html
+```html
 <iframe>FrameControl example contents</iframe>
 ```
 
@@ -272,13 +268,13 @@ The "*" parameter is required.
 
 *Example*
 
-```language-html
+```html
 <input {{rule "*"}}/>
 ```
 
 can be converted to:
 
-```language-html
+```html
 <input udb-mandatory="true" udb-ioformat="DD-MM-YYYY"/>
 ```
 
@@ -309,26 +305,24 @@ At this time, rule attributes are supported for mandatory, io-format, domain val
 In some cases you need to be able to preserve the handlebar notation in the HTML that is generated.
 Such a situation arises, for example, in combination with attributes. Consider a ButtonControl with the following setting for its title attribute (an Extra HTML Attributes property):
 
-```language-html
+```html
 title="Submit (Alt+S)"
 ```
 
 USoft will generate the following HTML:
 
-```language-html
+```html
 <button data-lang-title="Submit (Alt+S)" title="Submit (Alt+S)"> </button>
 ```
 
-An available translation for ‘Submit’ will not be used in this case because the key string is ‘Submit (Alt+S)’. The mnemonic part of the string is static and does not have to be part of the key string. This can be in the following way (pay attention to the combination of ‘{‘ and ‘[‘):
+An available translation for ‘Submit’ will not be used in this case because the key string is `Submit (Alt+S)`. The mnemonic part of the string is static and does not have to be part of the key string. This can be in the following way (pay attention to the combination of `{` and `[`):
 
-```language-html
+```html
 title="{["Submit"]} (Alt+S)"
 ```
 
 USoft will generate the following HTML:
 
-```language-html
+```html
 <button data-lang-title="{{"Submit"}} (Alt+S)" title="Submit (Alt+S)"> </button>
 ```
-
- 

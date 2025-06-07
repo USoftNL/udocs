@@ -37,7 +37,7 @@ The name **file** used for the child elements could be any valid XML element nam
 
 *Example*
 
-```language-xml
+```xml
 <pc:ReadXmlFiles filepath="c:\definerData">
 
      <file filepath="definerData1.xml"

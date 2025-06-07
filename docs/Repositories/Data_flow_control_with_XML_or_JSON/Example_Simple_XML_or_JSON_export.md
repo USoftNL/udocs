@@ -21,7 +21,7 @@ ORDER BY  person_id DESC
 
 This results in:
 
-```language-xml
+```xml
 <Persons documentName="Persons">
     <PERSON ID="177" FAMILY_NAME="Haynes" FIRST_NAME="Deborah"/>
     <PERSON ID="112" FAMILY_NAME="Smith" FIRST_NAME="John"/>

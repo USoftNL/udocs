@@ -35,7 +35,7 @@ The \<pc:Succeeded> element is a child element of the action that potentially su
 
 A message "Logging in: ..." is written to the console if a logfile is successfully opened for logging.
 
-```language-xml
+```xml
 <pc:WriteFile filepath="{$logfile}">
 
   <pc:Succeeded>

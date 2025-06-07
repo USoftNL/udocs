@@ -169,7 +169,7 @@ WHERE DESTINATION LIKE 'A%'
 
 is:
 
-```language-xml
+```xml
 <Where>
   <Operator name="LIKE" position="1">
     <Column name="DESTINATION" position="1" table_name="TOUR_PROGRAMME"

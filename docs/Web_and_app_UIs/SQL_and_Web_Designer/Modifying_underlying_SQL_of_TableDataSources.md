@@ -48,7 +48,7 @@ You can call RDMI components here, using function call syntax:
 
 ## Limiting query results
 
-At runtime, when users perform a query by using a form based on a TableDataSource, they can limit query results by typing search conditions in form fields. This adds a WHERE clause to the underlying SQL at runtime. This WHERE clause has the equality operator (=) by default, but end users can specify an inequality operator (!=) by typing '!’ as the first symbol in a search field, they can specify comparison operators by typing '>’, '<’, '>=’ or '<=’ as the first symbol(s) in a search field, and they can specify a LIKE operator by including '_’ and/or '%’ symbols in their search condition.
+At runtime, when users perform a query by using a form based on a TableDataSource, they can limit query results by typing search conditions in form fields. This adds a WHERE clause to the underlying SQL at runtime. This WHERE clause has the equality operator (=) by default, but end users can specify an inequality operator `(!=)` by typing '!’ as the first symbol in a search field, they can specify comparison operators by typing `>`, `<`, `>=` or `<=` as the first symbol(s) in a search field, and they can specify a LIKE operator by including `_` and/or `%` symbols in their search condition.
 
 In addition to this default runtime behaviour, you can add WHERE clauses of your own at development time. Do this by setting the TableDataSource’s **Where Clause** property:
 

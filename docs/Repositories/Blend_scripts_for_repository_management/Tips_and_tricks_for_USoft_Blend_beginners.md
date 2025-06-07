@@ -14,7 +14,7 @@ In practice, you often get a string when you expect a string, and a node set whe
 
 For example, **pc:value-of** is for evaluating and returning string values, so that you will have no trouble understanding that
 
-```language-xml
+```xml
 <pc:value-of select="concat('A','B')"/>
 ```
 
@@ -26,7 +26,7 @@ AB
 
 But beginners often forget that **select** attributes in XSLT, and therefore also in USoft Blend, expect **node set** expressions as a default. This script:
 
-```language-xml
+```xml
 <pc:value-of select="xy">
   <xy>z</xy>
 </pc:value-of>
@@ -40,7 +40,7 @@ z
 
 If you wanted to return the value “xy” instead, you would need to quote the value of the **select** attribute:
 
-```language-xml
+```xml
 <pc:value-of select="'xy'">
   <xy>z</xy>
 </pc:value-of>
@@ -54,13 +54,13 @@ Beginners are often confused by the fact that in some places, they need to write
 
 In this example, **pc:assign-string***expects* a string value, so if you pass a string value, you simply pass it as an attribute value (between the double quotes):
 
-```language-xml
+```xml
 <pc:assign-string username="ADMIN"/>
 ```
 
 But if you pass an XPath expression, you need to write curly braces to indicate that the expression is to be evaluated and converted to the expected string type:
 
-```language-xml
+```xml
 <pc:assign-string workingdir="{directories:Get()}"/>
 ```
 
@@ -68,13 +68,13 @@ In this particular example, the curly-braced expression refers to a function, bu
 
 The reverse can be seen in this contrasting example. Because it is the mission of **pc:value-of** to evaluate an XPath expression and convert it to a string value, its **select** attribute *expects* an XPath expression and not a string. As a result, if it is an XPath expression that you are supplying, you must write it WITHOUT curly braces:
 
-```language-xml
+```xml
 <pc:value-of select="path:Combine('c:\temp',$mysubdir)"/>
 ```
 
 By contrast, in contexts that DO expect string values, such as the following context in which a directory path is expected, you MUST write curly braces if the value you supply is not a literal string:
 
-```language-xml
+```xml
 <pc:assign-string mysubdir="temp2">
 <pc:DeleteDirectories>
      <Directory dirpath="{path:Combine('c:\temp',$mysubdir)}" />
@@ -92,7 +92,7 @@ Best practice when debugging is to keep constantly one or more *sandbox scripts*
 
 If you are not completely sure about some code, do not hesitate to test it in a sandbox first. Once tested, a snippet can easy be cut-and-pasted into your production script. Here is a sandbox script that tests the behaviour of the **select** attribute of **pc:value-of**:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mytest xmlns:pc="Processing.Command">
   <pc:value-of select="xy">

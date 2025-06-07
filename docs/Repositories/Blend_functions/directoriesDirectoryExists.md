@@ -37,7 +37,7 @@ directories:DirectoryExists( *folderpath* )
 
 *Example*
 
-```language-xml
+```xml
 <pc:if test="directories:DirectoryExists($webpages_dir)">
   <pc:then>
     <pc:assign-nodeset webpagesdir="{directories:DirectoryContent($webpages_dir, '*.*', '1', '', '')}"/>

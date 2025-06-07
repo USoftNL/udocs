@@ -39,7 +39,7 @@ This operation is only successful if the variable names and values are stored in
 
 This example loads all the variables found in "c:\\temp\\myfile.xml" except the connectstring and owner variables.
 
-```language-xml
+```xml
 <pc:LoadVariablesOverwrite filepath="c:\temp\myfile.xml" exclude="connectstring, owner">
 ```
 

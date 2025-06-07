@@ -4,12 +4,9 @@ tags: [USoft11, USoft10]
 ---
 # $.udb.logout()
 
-
-
 ----
 
 `USoft 11``{.vs_11}`
-
 
 :::danger
 
@@ -81,7 +78,7 @@ $.udb.logout()
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
 |[logout](/docs/Web_and_app_UIs/UDB_Events/logout.md)|Page objects|After each logout action|
-|[timeout](/docs/Web_and_app_UIs/UDB_Events/timeout.md)|<body> DOM element|User is idle for a longer period than the time-out period|
+|[timeout](/docs/Web_and_app_UIs/UDB_Events/timeout.md)|`<body>` DOM element|User is idle for a longer period than the time-out period|
 
 
 

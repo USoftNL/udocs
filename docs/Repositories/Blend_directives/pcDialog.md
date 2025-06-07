@@ -39,7 +39,7 @@ To determine what a dialog looks like and what it does, your embedded XML should
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog>
     <Form w="250">
@@ -94,7 +94,7 @@ When the dialog runs, result-value is assigned to the result attribute of the Fo
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:assign-string-default
    valuedialog:title="Button example"
@@ -120,7 +120,7 @@ A 2-valued check box in a dialog window. The user can choose to select or desele
 
 When the check box is selected, the string value of the CheckBox element is true, otherwise false.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
   <pc:Dialog
       assign:doaction="xslutil:test(/Forms/Form/CheckBox) and  xslutil:test(/Forms/Form/@result)">
@@ -157,7 +157,7 @@ The optional **firstitem** attribute is a string shown as the value of the Combo
 
 This example reports what option the user chose from the list. The value selected by the user is assigned to the ComboBox element as its string value.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog
     valuedialog:rdbmsvalue="/Forms/Form/ComboBox[@name='rdbmsvalue']/text()" >
@@ -189,7 +189,7 @@ In this example:
 - resultTo specifies that the file selected in the Browse window is passed to a text box in the dialog.
 - resultFrom specifies that if the text box already contains a file path, this path must be used as the default filepath when the user enters the Browse window.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
 
 <pc:assign-string-default
@@ -229,7 +229,7 @@ In this example:
 - resultTo specifies that the folder selected in the Browse window is passed to a text box in the dialog.
 - resultFrom specifies that if the text box already contains a folder path, this path must be selected by default when the user enters the Browse window.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
 
 <pc:assign-string-default
@@ -263,7 +263,7 @@ The canvas that displays the content of a dialog. The visual realisation of the 
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog>
     <Form w="700" h="200">
@@ -281,7 +281,7 @@ A hard-coded text label displayed in a dialog window.
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
 <pc:assign-string-default
    valuedialog:title="Label example"
@@ -305,7 +305,7 @@ The panel attribute of the RadioButton element specifies to which panel the radi
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
    <pc:Dialog
       assign:doaction="xslutil:test(/Forms/Form/Panel/RadioButton[1]) and  xslutil:test(/Forms/Form/@result)">
@@ -334,7 +334,7 @@ In this example:
 - location is a filepath pointing to the file that contains the picture.
 - scale provides a way to scale the picture's dimensions: scale="2" causes it to double in height and width. The default is scale="1".
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog >
      <Form w="400" h="200">
@@ -353,7 +353,7 @@ When a radio button is selected, the string value of the RadioButton element is 
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
    <pc:Dialog
       assign:doaction="xslutil:test(/Forms/Form/Panel/RadioButton[1]) and  xslutil:test(/Forms/Form/@result)">
@@ -401,7 +401,7 @@ You can only use a limited number of allowed values for the value of the Result 
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:assign-string-default
    valuedialog:title="Button example"
@@ -440,7 +440,7 @@ If the optional **select** attribute is used, its value is displayed in the fiel
 
 If you set multiline="yes", the field is allowed to be multi-line, that is: it is able to have variable height. Use the **h** attribute to set the height you want:
 
-```language-xml
+```xml
 <TextBox name="editor" multiline="yes" h="150" w="250" />
 ```
 
@@ -450,7 +450,7 @@ The optional **passwordchar** attribute may be used to mask password input. It m
 
 This example asks the user to provide a password.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog
     valuedialog:passwordvalue="/Forms/Form/TextBox[@name='password']/text()">
@@ -472,7 +472,7 @@ The text displayed in the window bar of a dialog.
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:valuedialog="Dialog.Result" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog>
     <Form w="700" h="200">
@@ -534,13 +534,13 @@ Size attributes
 
 You can catch user input by using a name attribute for an input control, for example, for a text box:
 
-```language-xml
+```xml
 <TextBox name="username" />
 ```
 
 You can then catch what the user typed in the text box. Assign a variable at the level of the pc:Dialog element, like so:
 
-```language-xml
+```xml
 <pc:Dialog
    assign:userinput="/Forms/Form/TextBox[@name='username']/text()"
  ...
@@ -557,7 +557,7 @@ $userinput
 
 You can hide password characters being typed by a runtime user by specifying the following passwordchar attribute of a TextBox element:
 
-```language-xml
+```xml
 <TextBox passwordchar="*" />
 ```
 
@@ -567,7 +567,7 @@ You can use a Result child element of Button to associate the event of the user 
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog
        assign:proceed="/Forms/Form/@result='OK'">
@@ -589,7 +589,7 @@ You can use a Result child element of Button to associate the event of the user 
 
 The return value of this Example:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:hideme="true">
   <pc:Dialog>
     <Form w="250">
@@ -604,19 +604,19 @@ The return value of this Example:
 
 is:
 
-```language-xml
+```xml
 <Forms><Form name="Form0" result="OK"><Label name="Label0">This is a USoft Blend dialog.</Label></Form></Forms>
 ```
 
 The return value is automatically suppressed if you assign a variable like so (as in Example 2 in the previous section):
 
-```language-xml
+```xml
 <pc:Dialog assign:variable=""/>
 ```
 
 and also if you include a pc:return attribute. Consequently, you can simply suppress output by coding:
 
-```language-xml
+```xml
 <pc:Dialog pc:return=""/>
 ```
 

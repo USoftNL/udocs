@@ -35,7 +35,7 @@ Generates a USoft .CON flat file from a USoft Definer repository for an applicat
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
   <pc:CreateConceptualFile
     rdbms="oracle"

@@ -8,7 +8,7 @@ In a **SecurityConfig.xml**security configuration file, the \<Attributes> elemen
 
 *Example*
 
-```language-xml
+```xml
 <Attributes representation="adfs" description="" serviceName="travel_saml" nameIDFormats="EMAIL ">
    <Attribute require="false" friendlyName="E-Mail Address" name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" />
 </Attributes>

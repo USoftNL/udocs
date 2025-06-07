@@ -6,7 +6,7 @@ id: XML_error_messages
 
 USoft XML error messages look like this:
 
-```language-xml
+```xml
 <uslng:messages xmlns:uslng="..." app-interface="..." version="1.0">
     <uslng:message msg-code="..." msg-category="..." msg-type="..." system-msg="..." language="...">
     </uslng:message>
@@ -15,7 +15,7 @@ USoft XML error messages look like this:
 
 USoft XML error messages may have a nested structure. In the following example, a constraint raised a violation (in the \<violation> element) and this message structure is embedded in a parent structure that tells you that the constraint was fired in the context of a batch SQL task:
 
-```language-xml
+```xml
 <uslng:messages app-interface="batch" ... >
 <uslng:message msg-code="424" ... >
     Failed to execute SQL statement in SQL task "
@@ -61,7 +61,7 @@ USoft XML error messages contain the following attributes:
 
 System messages may or may not have parameters. Parameters show up in \<param> elements, for example:
 
-```language-xml
+```xml
 <uslng:messages ..common-attributes..>
     <uslng:message ..common attributes..>
         <uslg:param name=".."> ... </uslng:param>
@@ -75,7 +75,7 @@ Rule violation messages are raised by constraints (both at table and domain leve
 
 Rule violation messages have this general structure:
 
-```language-xml
+```xml
 <uslng:messages ... - >
   <uslng:message ... source="..." >
     <uslng:context> ... </uslng:context>
@@ -90,7 +90,7 @@ Rule violation messages have this general structure:
 
  Messages for productive rules have \<correction> instead of \<violation>:
 
-```language-xml
+```xml
 <uslng:messages ... - >
   <uslng:message ... source="..." >
     <uslng:context> ... </uslng:context>
@@ -109,7 +109,7 @@ The **source** attribute has value ‘constraint’  if the message was raised 
 
 Rule violation messages and RDBMS messages can contain context information about statement execution and records at the time of the error. This context information is in a \<context> child element of the \<message> element and looks like this:
 
-```language-xml
+```xml
 <uslng:context app-interface="(same as in uslng:messages element)">
     <uslng:execution-stack>
         <uslng:execution-element section=".." type=".." name=".."/>
@@ -135,7 +135,7 @@ The table below gives details on attributes.
 
 Record information at the time of the error is contained in the "uslng:record" element:
 
-```language-xml
+```xml
 <uslng:record>
     <uslng:painted-window-name>...</uslng:painted-window-name>
     <uslng:defined-window-name>...</uslng:defined-window-name>
@@ -193,7 +193,7 @@ Specific attributes for other (built-in) rule violation messages include:
 
 RDBMS messages are always wrapped within an uslng:param element in USoft system message 931. The **source** attribute is set to ‘rdbms’.
 
-```language-xml
+```xml
 <uslng:messages ... ->
 <uslng:message msg-code="931" ... source="rdbms">
     <uslng:context> ... </uslng:context>

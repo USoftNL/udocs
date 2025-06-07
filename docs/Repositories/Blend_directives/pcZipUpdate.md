@@ -49,7 +49,7 @@ In either case, for **entryname**, supply a relative path that determines the pl
 
 *Example*
 
-```language-xml
+```xml
 <pc:ZipUpdate filepath="{$myjarfile}" >
     <Content entryname="{$myentry}" content="{$NewUServiceClasses}" />
 </pc:ZipUpdate>

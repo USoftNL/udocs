@@ -38,7 +38,7 @@ files:ReadFile( *filepath* )
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string filecontent="{files:ReadFile($myfile)}"/>
 ```
 

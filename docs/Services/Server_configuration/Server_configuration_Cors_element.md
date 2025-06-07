@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, the \<Cors> element contains confi
 
 *Example*
 
-```language-xml
+```xml
 <Cors>
    <CorsConfig name="Default">
       <Rule 

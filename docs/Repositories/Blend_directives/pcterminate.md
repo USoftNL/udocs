@@ -31,7 +31,7 @@ The attributes are all optional. If **test** is specified, the script is termina
 
 If **exitcode** is specified, *exitcode* is returned as an error code to the calling shell on termination, as demonstrated by:
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command">
     <pc:assign-string-default exitcode="-1"/>
     <pc:ConsoleWrite>Use echo %ERRORLEVEL% to inspect the exit code is <pc:value-of select="$exitcode"/> after this script has terminated.</pc:ConsoleWrite>
@@ -43,7 +43,7 @@ If **exitcode** is specified, *exitcode* is returned as an error code to the cal
 
 This example terminates a script if it is not run as Administrator.
 
-```language-xml
+```xml
 <pc:terminate test="not(wrights:HasAdminRole())" msg="{concat('Admin role is required. Available roles:', wrights:Roles())}"/>
 ```
 
@@ -51,7 +51,7 @@ This example terminates a script if it is not run as Administrator.
 
 This example terminates a script if starting a Rules Service was unsuccessful:
 
-```language-xml
+```xml
 <pc:RunRulesService waittime="10000"
     user="MYNAME" pwd="MYPWD" rdbmstype="oracle" connection="XE" application="MYAPP"
     owner="MYNAME"

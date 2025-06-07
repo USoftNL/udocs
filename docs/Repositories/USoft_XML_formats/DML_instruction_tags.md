@@ -27,7 +27,7 @@ In the case of "Update":
 
 *Example INSERT*
 
-```language-xml
+```xml
 <Accredited_Persons documentName="Accredited Persons">
     <PERSON ID="177" FAMILY_NAME="Haynes" FIRST_NAME="Deborah">
       <Insert/>
@@ -39,7 +39,7 @@ In the case of "Update":
 
 The ID attribute of the PERSON element is required. It identifies the record to be updated by its primary key.
 
-```language-xml
+```xml
 <Accredited_Persons documentName="Accredited Persons">
     <PERSON ID="177">
       <Update FIRST_NAME="Deborah"/>
@@ -49,7 +49,7 @@ The ID attribute of the PERSON element is required. It identifies the record to 
 
 *Example DELETE*
 
-```language-xml
+```xml
 <Accredited_Persons documentName="Accredited Persons">
     <PERSON ID="177" FAMILY_NAME="Haynes" FIRST_NAME="Deborah">
       <Delete/>

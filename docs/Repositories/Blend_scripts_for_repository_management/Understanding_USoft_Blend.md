@@ -12,7 +12,7 @@ This article offers information about the concepts behind the USoft Blend script
 
 Directives are the nearest equivalent to Powershell **commands**. Here is an example script with 3 directives or commands. The first 2 are instances of the **pc:assign-string** directive. The first assigns the directory from which the Blend script was started to a variable called **workingdir**. The second uses this assignment to create a further variable called **deletefile** which identifies a file to be deleted. The last directive actually deletes that file:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mydocument xmlns:pc="Processing.Command">
    <pc:assign-string workingdir="{directories:Get()}"/>
@@ -31,7 +31,7 @@ Blend directives are listed by name and by subject in [Blend directives](/docs/R
 
 Functions are much like directives, but their syntax and structure is closer to the function calls that programmers are familiar with. Input parameters are passed between parentheses and separated by commas, and functions return a *return value*. An example is the **Combine** function in the **path** namespace, which is able to combine 2 or more elements into a path expression that points at a directory or file on the file system, and then to return that path as a string value, as in this context:
 
-```language-xml
+```xml
    <pc:assign-string deletefile="{path:Combine($workingdir,'deletethis.xml')}"/>
 ```
 
@@ -117,7 +117,7 @@ USoft Blend scripts are processed in such a way that the Blend directives are ex
 
 This script deletes the "deletethis.xml" file from the file system:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mydocument xmlns:pc="Processing.Command">
    <pc:assign-string workingdir="{directories:Get()}"/>
@@ -128,7 +128,7 @@ This script deletes the "deletethis.xml" file from the file system:
 
 The standard output of this script looks like this:
 
-```language-xml
+```xml
 <mydocument>
   <!--files:DeleteFile(c:\myworkingdir\deletethis.xml) -->
 </mydocument>
@@ -154,7 +154,7 @@ Like any valid XML document, a USoft Blend script has a document element. This i
 
 This script deletes the "deletethis.xml" file from the file system:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <mydocument xmlns:pc="Processing.Command">
    <pc:assign workingdir="{directories:Get()}"/>
@@ -173,7 +173,7 @@ When this script is processed:
 
 The standard output of the transformation looks like this:
 
-```language-xml
+```xml
 <mydocument>
   <!--files:DeleteFile(c:\myworkingdir\deletethis.xml) -->
 </mydocument>
@@ -196,7 +196,7 @@ Further XML-based components have been added to provide a full XML toolkit, espe
 Both USoft XML-based set processors allow you to:
 
 - Process file-based XML as well as inline XML.
-- "Mix in" data sets into the input XML or into the XSLT stylesheet before the XSLT transformation is executed. For details of "mixing in" click [here]().
+- "Mix in" data sets into the input XML or into the XSLT stylesheet before the XSLT transformation is executed.
 - Cache compiled XML and XSLT for faster processing.
 
 More explanation on RDMI is [What is an RDMI component](/docs/Extensions/RDMI_Components/What_is_an_RDMI_component_and_how_do_you_create_one.md).

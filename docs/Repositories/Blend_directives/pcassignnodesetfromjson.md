@@ -34,7 +34,7 @@ $*variable*
 
 *Example 1*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:assign-nodeset-from-json
     xmlresult = "{path:Combine('c:\usoft\blend\JSON', 'app.config.json')}" />
@@ -46,7 +46,7 @@ $*variable*
 
 This example passes JSON as *embedded text*:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 	<pc:assign-nodeset-from-json xmlresult = "{.}">
 	  {"myname":"Lakshmi"}
@@ -60,7 +60,7 @@ This example passes JSON as *embedded text*:
 
 This example passes JSON as the content of *an**element*:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 	<pc:assign-nodeset-from-json xmlresult = "{myjson}">
 	  <myjson>{"myname":"Lakshmi"}</myjson>
@@ -73,7 +73,7 @@ This example passes JSON as the content of *an**element*:
 
 This example passes JSON as the value of *an**attribute*. The attribute value is specified by single quotes because the JSON content already uses double quotes:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 	<pc:assign-nodeset-from-json xmlresult = "{myjson/@somejson}">
 	  <myjson somejson='{"myname":"Lakshmi"}'/>
@@ -86,7 +86,7 @@ This example passes JSON as the value of *an**attribute*. The attribute value is
 
 This example passes JSON as an *inline expression*. The double brackets are an escape strategy. They are needed because single brackets would be interpreted as an XSLT attribute value template:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 	<pc:assign-nodeset-from-json xmlresult = '{{"myname":"Lakshmi"}}'/>
 	<pc:copy-of select="$xmlresult"/>
@@ -97,7 +97,7 @@ This example passes JSON as an *inline expression*. The double brackets are an e
 
 This example passes JSON inline in a *string variable:*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 	<pc:assign-string jsonstring = "{.}">{"myname":"Lakshmi"}</pc:assign-string>
 	<pc:assign-nodeset-from-json xmlresult = "{$jsonstring}" />
@@ -109,7 +109,7 @@ This example passes JSON inline in a *string variable:*
 
 This example explicitly calls the underlying converter function to a JSON string and catches the result in a nodeset variable:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 	<pc:assign-string jsonstring = "{.}">{"myname":"Lakshmi"}</pc:assign-string>
 	<pc:assign-nodeset xmlresult = "{xslutil:json2xml($jsonstring)}" />

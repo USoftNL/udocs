@@ -152,7 +152,7 @@ To start the Rules Service as a Windows service, include one or more of the opti
 <pc:ServiceStart>
 ```
 
-In this use, the **<pc:RunRulesService>** and the 4 **<pc:Service...>** directives must have empty content and they must be direct child elements of **<pc:ConfigRulesService>**, not grandchildren or descendent elements at a lower level.
+In this use, the **`<pc:RunRulesService>`** and the 4 **`<pc:Service...>`** directives must have empty content and they must be direct child elements of **`<pc:ConfigRulesService>`**, not grandchildren or descendent elements at a lower level.
 
 When you install a Windows service in this way, the Rules Service is installed as a Windows service by the following name:
 
@@ -233,7 +233,7 @@ In this example, a new Rules Service with port number 7778 is based on configura
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" >
      <pc:assign-nodeset mynodeset="{rulesservice:ReadConfig('c:\usd91\bin64\RulesService-7777.config')/config/param}" />
      <pc:ConfigRulesService

@@ -46,7 +46,7 @@ If you set overwrite="yes", result directories and files that already exist by t
 
 *Example*
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command">
   <pc:ZipExtractFiles filepath="c:\temp\Installation.zip" pattern="asset*\asset*" destinationpath="c:\temp\output" />
 </root>

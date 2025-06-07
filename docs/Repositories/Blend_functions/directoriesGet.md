@@ -35,7 +35,7 @@ directories:Get( )
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string-default workingdir="{directories:Get()}"/>
 ```
 

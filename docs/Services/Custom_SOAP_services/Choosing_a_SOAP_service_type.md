@@ -16,7 +16,7 @@ The body of an RPC-style SOAP message is constructed in a specific way, which is
 
 *Example*
 
-```language-xml
+```xml
 <soap:envelope>
   <soap:body>
     <getTemperature>                <!-- web method name -->
@@ -35,7 +35,7 @@ If you choose a document-oriented approach, you can use a **literal** style or a
 
 *Example*
 
-```language-xml
+```xml
 <soap:envelope>
   <soap:body>
     <Location city=”AMS” country=”NL”/>
@@ -49,7 +49,7 @@ The main drawback of this literal style is that there is no standard way of dete
 
 *Example*
 
-```language-xml
+```xml
 <soap:envelope>
   <soap:body>
     <getTemperature>                        <!-- web method name -->

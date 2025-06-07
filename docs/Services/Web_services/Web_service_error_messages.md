@@ -26,7 +26,7 @@ Web service providers will be removed from USoft Definer and USoft Authorizer in
 
 ## Web service error messages
 
-**Deserializing parameter <parameter name>: Could not find deserializer for type {<namespace>}<xml type name>**
+**Deserializing parameter `<parameter name>`: Could not find deserializer for type `{<namespace>}<xml type name>`**
 
 **Cause:**
 
@@ -36,7 +36,7 @@ This error occurs for an RPC-oriented method if the type specified in the WSDL f
 
 If the web service provider is a USoft web service and the service is published in the Definer, make sure that the namespace used in the Authorizer is the same as the namespace used in the Definer.
 
-**A fatal error occurred during XML parse at line <line number> column <column number>. Invalid document structure.**
+**A fatal error occurred during XML parse at line `<line number>` column `<column number>`. Invalid document structure.**
 
 **Cause:**
 
@@ -69,13 +69,9 @@ The main characteristics of both types of error messages are:
 |**Customized XML Error Messages**|**USoft XML Error Messages**|
 |--------|--------|
 |Each method has its own XSL transformation. A default transformation is provided (userror_wsp.xsl).|Each USoft installation uses one XSL transformation, for example userror.xsl or userror_enduser.xsl|
-|The <soap:detail> element in the soap fault message contains the transformation result. This can be XML.|The result of the transformation is a string and goes into soap:faultstring and soap:detail elements in the soap fault message.|
+|The `<soap:detail>` element in the soap fault message contains the transformation result. This can be XML.|The result of the transformation is a string and goes into soap:faultstring and soap:detail elements in the soap fault message.|
 |The WSDL schema contains fault information.|The WSDL schema does NOT contain fault information|
 |Only the error messages reported by a web service method are changed.|Changing userror.xsl or userror_enduser.xsl changes all error messages reported by the Rules Service or by the application running.|
-
-
-
- 
 
 ## Customised XML error messages
 
@@ -85,7 +81,7 @@ For each web service provider method, you can customize the error handling by cl
 
 The default error message structure for customized XML error messages is:
 
-```language-xml
+```xml
 <ErrorResponse xmlns=" http://www.usoft.com/Solutions/USoft/Product/Messages">
 <Code>code </Code>
 <Message>message</Message>
@@ -134,7 +130,7 @@ This example is based on Web Service Example 3: RPC-oriented method with a compl
 
 One of the inserted column values is a maximum age. The corresponding AGE domain has four allowed values. When the request message contains 36 as value for max_age, you will get an error message, because 36 is not an allowed value. The soap error message is:
 
-```language-xml
+```xml
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
 <soap:Body>
 <soap:Fault>
@@ -154,7 +150,7 @@ To change this default error for a web service method, click the Advanced button
 
 The soap error message is now:
 
-```language-xml
+```xml
 <soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
 <soap:Body>
 <soap:Fault>

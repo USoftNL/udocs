@@ -43,7 +43,7 @@ The result file contains an XML document in the "Processing:Command" namespace w
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string mystring="HelloUniverse"/>
 <pc:defs><somexml>Hi</somexml></pc:defs>
 <pc:assign-nodeset mydefs="{preceding-sibling::pc:defs/*}"/>
@@ -55,7 +55,7 @@ The result file contains an XML document in the "Processing:Command" namespace w
 
 Example content of the "c:\\temp\\output.xml" result file is:
 
-```language-xml
+```xml
 <pc:Variables xmlns:pc="Processing.Command">
     <pc:Variable name="mystring">HelloUniverse</pc:Variable>
     <pc:Variable name="mydefs">

@@ -228,7 +228,7 @@ This report describes differences by using [DML instruction tags](/docs/Reposito
 
 If your “Compare’ report contains this item:
 
-```language-xml
+```xml
 <Rule_Sets documentName="Rule Sets">
   <T_RULE_SET NAME="Address change" BUS_AREA="General" DESCRIPTION="">
     <Delete/>

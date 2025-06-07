@@ -73,7 +73,7 @@ In place of the NAME attribute you can have a PATTERN attribute, or you can have
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true" >
 <pc:defs>
      update book set published_in = 'English' where author = 'English'; update book set published_in = 'American' where author = 'American';
@@ -109,7 +109,7 @@ If **all** of the 3 optional arguments are passed, each *instruction-element* in
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true" >
 <pc:defs>
      update book set published_in = 'English' where author = 'English'; update book set published_in = 'American' where author = 'American';
@@ -146,7 +146,7 @@ If both *name-attribute-name* and *pattern-attribute-name* are non-empty, replac
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true" >
 <pc:defs>
      ID: 18900, RGB: grey red; ID: 18901, RGB: gray red;

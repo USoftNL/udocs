@@ -78,13 +78,13 @@ This file is not generated but can be edited by the developer manually. When the
 
 USoft web client inserts extra HTML to preserve the original string to translate: the key. For node content, this will result in the following construction:
 
-```language-html
+```html
 <script class="lang-start" type="text/html">key-text</script>
     translated-text
 <script class="lang-end" type="text/html"/>
 ```
 
-The part between the <script> tags, ie., translated-text, is the part that is replaced when the language changes. The <script> tags themselves are not visible in the browser.
+The part between the `<script>` tags, ie., translated-text, is the part that is replaced when the language changes. The `<script>` tags themselves are not visible in the browser.
 
 When the part that needs to be translated is not an HTML-node but an attribute, **a data-lang attribute** is used:
 
@@ -95,16 +95,13 @@ When the part that needs to be translated is not an HTML-node but an attribute, 
 |title   |data-lang-title|
 |value   |data-lang-value|
 
-
-
-
 When USoft detects any of the above attributes without a corresponding data-lang equivalent, it assumes that the attribute contains the key string. USoft will create the data-lang equivalent with the key string as value.
 
 ## Showing and hiding language-specific blocks
 
 It is also possible to show/hide an entire block. When an element has a data-lang attribute (see previous section in this help topic) with a language code as its value, the block is only visible when the value matches the language setting.
 
-```language-html
+```html
 <div data-lang="en">English text</div>
 <div data-lang="nl">Nederlandse tekst</div>
 ```
@@ -113,18 +110,12 @@ It is also possible to show/hide an entire block. When an element has a data-lan
 
 The mechanism behind the ability to translate pages is that the factories surround parts of the DOM that can be translated with markers:
 
-```language-html
+```html
 <script class="lang-start text" type="text/html">original-content</script>
   translated-content
 <script class="lang-end" type="text/html"></script>
 ```
 
-The part between the <script> tags, ie., translated-content, is the part that is replaced when the language changes. The <script> elements themselves are not visible in the browser.
+The part between the `<script>` tags, ie., translated-content, is the part that is replaced when the language changes. The `<script>` elements themselves are not visible in the browser.
 
-This technique is comparable to the mechanism described in the "Key is preserved during translation" section earlier in this help topic. See that section for the use of data-lang-... attributes.
-
-See also:
-
-
-
- 
+This technique is comparable to the mechanism described in the "Key is preserved during translation" section earlier in this help topic. See that section for the use of `data-lang-...` attributes.

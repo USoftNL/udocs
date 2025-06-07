@@ -61,7 +61,8 @@ Installed nuget versions are listed in the “Find Nuget” tool but they are no
 
 ## Having a referenced nuget version installed automatically
 
-You have referenced a nuget package in the [Assembly References]() field of your component.
+<!-- TODO: check if this needs to be a link: You have referenced a nuget package in the [Assembly References]() field of your component. -->
+You have referenced a nuget package in the Assembly References field of your component.
 
 To have this nuget package installed automatically:
 

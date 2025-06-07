@@ -12,7 +12,7 @@ In the examples that follow, the word "short” is not a keyword but just a rand
 
 You can create a reroute mapping for a REST Service that has Functional Type = **USoft Page Engine Resource**. This allows users to browse your USoft web application through a short URL of this type:
 
-```language-html
+```html
 https://*host*:*port-number*/short
 ```
 

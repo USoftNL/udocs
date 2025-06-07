@@ -50,7 +50,7 @@ During import, children are connected with their parent on the basis of identica
 
 *Example*
 
-```language-xml
+```xml
 <?usoft-xml version="1.0" action="multi-tables-import" use-io-formats="no" verify-original-values="no" return-corrected-records ="yes"?>
 <MultiImport>
   <Companies>

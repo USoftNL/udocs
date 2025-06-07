@@ -4,27 +4,80 @@
  * work well for content-centric websites.
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* metropolis-latin-400-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 400;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-500-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-500-normal.woff) format('woff');
+}
+
+/* metropolis-latin-600-normal */
+@font-face {
+  font-family: 'Metropolis';
+  font-style: normal;
+  font-display: swap;
+  font-weight: 700;
+  src: url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-700-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/metropolis@latest/latin-700-normal.woff) format('woff');
+}
+
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-color-primary: #007EC6;
+  --ifm-color-primary-dark: #0071B3;
+  --ifm-color-primary-darker: #006199;
+  --ifm-color-primary-darkest: #005485;
+  --ifm-color-primary-light: #A8DFFF;
+  --ifm-color-primary-lighter: #C9E6FF;
+  --ifm-color-primary-lightest: #EBF8FF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  --ifm-font-family-base: "Open Sans", sans-serif;
+  --ifm-heading-font-weight: 600;
+  --ifm-footer-background-color: #002A42;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #00BAFF;
+  --ifm-color-primary-dark: #007EC6;
+  --ifm-color-primary-darker: #0071B3;
+  --ifm-color-primary-darkest: #006199;
+  --ifm-color-primary-light: #A8DFFF;
+  --ifm-color-primary-lighter: #C9E6FF;
+  --ifm-color-primary-lightest: #EBF8FF;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-footer-background-color: #002A42;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #002A42;
+
+}
+
+
+.admonition {
+  border-left: 5px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f9f9f9;
+}
+
+.admonition.note {
+  border-left-color: blue;
+  background-color: #e7f3ff;
+}
+
+.admonition.warning {
+  border-left-color: orange;
+  background-color: #fff3cd;
+}
+
+.admonition.tip {
+  border-left-color: green;
+  background-color: #d4edda;
 }

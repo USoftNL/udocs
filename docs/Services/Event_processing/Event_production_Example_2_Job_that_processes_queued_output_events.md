@@ -115,7 +115,7 @@ Status: **NONE**
 
 XML Message: (A message in USoft's XML.Export format as applied to the SCHEDTOUR table, for example:)
 
-```language-xml
+```xml
 <Scheduled_Tours documentName="Scheduled Tours">
   <SCHEDTOUR 
      SCHEDTOUR_ID="57" 

@@ -15,7 +15,7 @@ FROM      XML_QUERIES
 
 For example, suppose a record in the XML_QUERIES table contains this xml_query:
 
-```language-xml
+```xml
 <Query>
     <Table Name="PERSON">
         <Column Name="FAMILY_NAME" Condition="Jo%"/>
@@ -26,7 +26,7 @@ For example, suppose a record in the XML_QUERIES table contains this xml_query:
 
 For this xml_query, the XML query method queries the corresponding PERSON records, and generates XML output that contains the query results. The records are in no specific order:
 
-```language-xml
+```xml
 <Persons>
     <PERSON ID="377" FAMILY_NAME="Jones" FIRST_NAME="Bill"/>
     <PERSON ID="312" FAMILY_NAME="Johnson" FIRST_NAME="Ann"/>

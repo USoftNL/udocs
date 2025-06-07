@@ -44,7 +44,7 @@ Returns an XML document as demonstrated in Example 1 below.
 
 If the column is in a table is from a consumed module, the consumers are listed in a "Consumed_In_Modules” child element, for example:
 
-```language-xml
+```xml
 <Column TABLE_NAME="BOAT" COLUMN_NAME="BOAT_ID" MODULE_NAME="BOATS" PROMPT="Boat ID" KEY_NUMBER="1" MANDATORY="Y" INPUT_ALLOWED="Y" UPDATABLE="Y" QUERY_ALLOWED="Y" COLUMN_TYPE="DATABASE" DISPLAYED="Y" DEF_VALUE="" COLUMN_HELP_TEXT="" USABLE_AS_INTERFACE="N" FOREIGN_KEY="N" IMPLEMENTING_MODULE=""  >
   <Domain NAME="BOAT_ID" MODULE_NAME="BOATS" DATABASE_TYPE="NVARCHAR" DISPLAY_DATATYPE="CHAR" UPPERCASE="N" TOTAL_LENGTH="254" LENGTH_AFTER_PERIOD="0" DISPLAY_LENGTH="0" DISPLAY_LENGTH_AFTER_PERIOD="0" FIXED_LENGTH="N" DEFAULT_VALUE="" MIN_VALUE="" MAX_VALUE="" HELP_TEXT="" SEQNO_TYPE="NO SEQNO" Component="" IO_FORMAT="" INTERFACE_FROM_MODULE="Y" IMPLEMENTING_MODULE="BOATS"/>
   <Consumed_In_Modules>
@@ -96,7 +96,7 @@ If *interfaces-only* is set to 'yes', only columns that have Interface = Yes are
 
 *Module-pattern* is a regular expression that matches zero, one or more module names in the model. The result data is limited to columns within modules matching the pattern. Any columns that are consumed from a different module which is filtered out by the regular expression, will show two additional fields 'INTERFACE_FROM_MODULE', which will be 'Y', and 'IMPLEMENTING_MODULE', which will contain the module name where the column originates from. The 'MODULE_NAME' field will in this case contain the name of the module in which the interface was consumed. If *module-pattern* is omitted, then the result data is not limited in this way.
 
-*Yes-value* is a string value from the set { 'yes’, 'Y’, 'true’, '1’ }, regardless of case. *No-value* is any other value.
+*Yes-value* is a string value from the set `{ 'yes’, 'Y’, 'true’, '1’ }`, regardless of case. *No-value* is any other value.
 
 *Example 1*
 
@@ -111,7 +111,7 @@ SELECT USMeta.Columns(
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
 	<Columns>
@@ -133,5 +133,4 @@ SELECT USMeta.Columns(
 ,   'yes                InterfacesOnly
 )
 ```
-
  

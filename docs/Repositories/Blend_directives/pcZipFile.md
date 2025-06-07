@@ -29,13 +29,13 @@ The required filepath is a path leading to the ZIP file you want described.
 
 *Example*
 
-```language-xml
+```xml
 <pc:ZipFile filepath="c:\temp\mynewzipfile.zip" />
 ```
 
 The result looks like this:
 
-```language-xml
+```xml
 <ZipFile name="mynewzip">
       <Entry fullpath="assets\asset1.txt" path="" name="asset1 - Copy.txt" ext=".txt" lastwrite="2019/0122112122" />
       <Entry fullpath="assets\asset2.txt" path="" name="asset1.txt" ext=".txt" lastwrite="2019/0122112122" />

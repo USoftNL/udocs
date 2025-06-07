@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, the \<Config> element defines a co
 
 *Example*
 
-```language-xml
+```xml
 <Config>
    <Server 
       name="Default" 

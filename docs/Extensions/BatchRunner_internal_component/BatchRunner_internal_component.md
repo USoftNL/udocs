@@ -233,7 +233,7 @@ If this parameter is set to true (the default is false), all **information** and
 
 If this parameter is set to true, the job call does not fail in the event of an error. Instead, data is returned if an output set is defined and a correct result value exists. Nothing is returned if an output set is not defined but a correct result value exists. The XML string
 
-```language-xml
+```xml
 <Result>Error</Result>
 ```
 

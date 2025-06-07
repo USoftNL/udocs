@@ -189,7 +189,7 @@ To test your WebSocket service you need a client application. You can download a
 
 1. Save following html/JavaScript code as **chatApp.html**
 
-```language-html
+```html
 <!DOCTYPE html>
 <html>
 <head>

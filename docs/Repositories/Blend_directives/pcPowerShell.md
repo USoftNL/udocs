@@ -36,7 +36,7 @@ Variables passed as *variable="value"* arguments of pc:PowerShell are global in 
 
 *Example*
 
-```language-xml
+```xml
 <pc:PowerShell> Write-Output "Hello World" </pc:PowerShell>
 ```
 
@@ -44,14 +44,14 @@ Variables passed as *variable="value"* arguments of pc:PowerShell are global in 
 
 You can pass variables of type string to the PowerShell command like so:
 
-```language-xml
+```xml
 <pc:assign-string somebody="John"/>
 <pc:PowerShell arg1="{$somebody}">Write-Output "Hello $arg1's Universe"</pc:PowerShell>
 ```
 
 The return value of this example is:
 
-```language-xml
+```xml
 <PowerShell><Result> Hello John's Universe </Result></PowerShell>
 ```
 
@@ -59,7 +59,7 @@ The return value of this example is:
 
 You can pass variables of type node set to the PowerShell command like so:
 
-```language-xml
+```xml
 <pc:assign-nodeset myxml="{$xmldoc1}"/>
 <pc:PowerShell arg1="{$myxml}">Write-Output $arg1.InnerXml</pc:PowerShell>
 ```
@@ -68,7 +68,7 @@ You can pass variables of type node set to the PowerShell command like so:
 
 The return value is an XML fragment that has this syntax:
 
-```language-xml
+```xml
 <PowerShell>
   <Result> result </Result>
 </PowerShell>
@@ -76,13 +76,13 @@ The return value is an XML fragment that has this syntax:
 
 The return value of:
 
-```language-xml
+```xml
 <pc:PowerShell> Write-Output "Hello World" </pc:PowerShell>
 ```
 
 is:
 
-```language-xml
+```xml
 <PowerShell><Result> Hello World </Result></PowerShell>
 ```
 
@@ -90,7 +90,7 @@ is:
 
 The optional *variable="value"* arguments can only be used to pass input to pc:PowerShell, not to catch output from the embedded XML that pc:PowerShell returns. As a workaround, you can catch the output in a variable in a separate step, eg., by using pc:evaluate. This allows further processing of the output:
 
-```language-xml
+```xml
 <pc:evaluate assign:output_from_powershell=".">
     <pc:PowerShell> Write-Output "Hello World" </pc:PowerShell>
 </pc:evaluate>

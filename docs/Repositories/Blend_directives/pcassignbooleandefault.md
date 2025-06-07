@@ -41,7 +41,7 @@ verbose=true
 
 Showing the typical use case in which your script provides a default value if the user does not pass an explicit yes/no flag.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
    <pc:assign-boolean-default pc:booleanflags="yes" verbose="no"/>
    ...

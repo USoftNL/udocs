@@ -10,7 +10,7 @@ id: USXSLApply
 :::note
 
 This article is about the **Apply** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
-See also the [Data transformation with XSLT]() section.
+<!-- TODO: (where is this??)  See also the [Data transformation with XSLT]() section. -->
 
 :::
 
@@ -53,7 +53,7 @@ Each optional *parameter-name, parameter-value* argument pair is used to pass an
 
 In each case, *parameter-value* must be either a literal string or a document. In the latter case, it must equal an XML string, URL, filename, or an alias previously connected to an XML document by calling the USXSL.SetXML or USXSL.SetXSL method.
 
-Use the optional 'document:' or 'string:' prefix in the *parameter-name* to make an explicit distinction between these two data types as in the following examples. The 'document:' prefix only works on a Windows platform. If *parameter-name* does not use a prefix, and *parameter-value* starts with '<?xml' or 'file:', then *parameter-value* is treated as a document. Otherwise, it is treated as a string.
+Use the optional 'document:' or 'string:' prefix in the *parameter-name* to make an explicit distinction between these two data types as in the following examples. The 'document:' prefix only works on a Windows platform. If *parameter-name* does not use a prefix, and *parameter-value* starts with `<?xml` or `file:`, then *parameter-value* is treated as a document. Otherwise, it is treated as a string.
 
 *Example 1*
 

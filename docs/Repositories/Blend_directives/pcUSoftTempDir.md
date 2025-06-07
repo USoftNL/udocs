@@ -31,7 +31,7 @@ The **alias** attribute identifies a connection run by the local USoft installat
 
 *Example*
 
-```language-xml
+```xml
 <pc:USoftTempDir alias="MYAPP1" />
 ```
 

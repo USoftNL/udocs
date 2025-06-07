@@ -32,7 +32,7 @@ All attributes are required. **Alias** is a name-literal that acts as a handle b
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="false">
 <pc:assign-string-default
        port = "9157"

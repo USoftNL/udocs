@@ -47,7 +47,7 @@ For a full list of Blend functions in the area of path manipulation, use this co
 
 This example assigns to a variable called "destdir" the (existing or virtual) \\app subdirectory of the working directory.
 
-```language-xml
+```xml
 <pc:assign-string-default workingdir="{directories:Get()}"/>
 <pc:assign-string
   destdir="{path:Combine( $workingdir, 'app' )}"/>

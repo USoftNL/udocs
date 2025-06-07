@@ -38,7 +38,7 @@ This operation is only successful if the variable names and values are stored in
 
 This example loads, from the variable settings found in "c:\\temp\\myfile.xml", the settings for the connectstring and owner variables.
 
-```language-xml
+```xml
 <pc:LoadVariables pc:filepath="c:\temp\myfile.xml" pc:include="connectstring, owner">
 ```
 

@@ -238,6 +238,6 @@ Like SQL-style constraints, INVOKE constraints ultimately guarantee some aspect 
 :::note
 
 For components in USoft Definer, go to the [Extensions](/docs/Extensions) page.
-For the INVOKE syntax, go to [INVOKE]() in the SQL syntax section.
+For the INVOKE syntax, go to [INVOKE](/docs/Modeller_and_Rules_Engine/SQL_syntax/INVOKE.md) in the SQL syntax section.
 
 :::

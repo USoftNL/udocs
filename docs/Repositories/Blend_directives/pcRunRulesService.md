@@ -97,7 +97,7 @@ The Rules Service will log on to **application** in the database account specifi
 
 The optional **alias** attribute allows you to specify a string that can be used as a handle for referring to the started Rules Service in subsequent calls. If you do not pass **alias**, then the started Rules Service can still be referenced by an internal name traceable by pointing at the **alias** attribute, or its **id** equivalent, of the directive's embedded XML. The alias value is allowed to be any literal string value. Thus:
 
-```language-xml
+```xml
 <pc:RunRulesService alias="myalias" ... />
 ...
 <pc:StopRulesService alias="myalias"/>
@@ -105,7 +105,7 @@ The optional **alias** attribute allows you to specify a string that can be used
 
 is equivalent to :
 
-```language-xml
+```xml
 <pc:RunRulesService assign:myalias="/*/@alias" ... />
 ...
 <pc:StopRulesService alias="{$myalias}"/>
@@ -123,13 +123,13 @@ If you omit **logfilenameprefix**, the Logfile Name Prefix will be set to the va
 
 The optional **options** attribute allows you to pass additional [command line switches known to the RulesService.exe command](/docs/USoft_for_administrators/USoft_command_line_syntax/rulesserviceexe.md). This allows you, for example, to specify multiple controlling hosts:
 
-```language-xml
+```xml
 <pc:RunRulesService  options="-gc=*myhost1* -gc=*127.30.60.123*" ... />
 ```
 
 *Example*
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
 
   <pc:assign-string-default

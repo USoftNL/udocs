@@ -49,7 +49,7 @@ In both cases, for **entryname**, supply a relative filepath that determines the
 
 This example zips 3 files into 1 ZIP file.
 
-```language-xml
+```xml
 <pc:ZipFileCreate filepath="c:\temp\mynewzip.zip">
    <File entryname="assets\resources.xml" path="c:\temp\resources.xml" />
    <File entryname="assets\tasks.xml" path="c:\temp\tasks.xml" />
@@ -61,7 +61,7 @@ This example zips 3 files into 1 ZIP file.
 
 This is the same as Example 1, except for the select attribute. This example zips only the 2 first referenced files. The 3rd \<File> element is not processed because it does not match the location path in the select attribute.
 
-```language-xml
+```xml
 <pc:ZipFileCreate filepath="c:\temp\mynewzip.zip" select="*[contains(@path,'.xml')]">
    <File entryname="assets\resources.xml" path="c:\temp\resources.xml" />
    <File entryname="assets\tasks.xml" path="c:\temp\tasks.xml" />
@@ -71,7 +71,7 @@ This is the same as Example 1, except for the select attribute. This example zip
 
 *Example 3*
 
-```language-xml
+```xml
 <pc:ZipFileCreate filepath="c:\temp\mynewzip.zip">
     <Content entryname="assets\resources.txt">No resources apply to this instance.</Content>
 </pc:ZipFileCreate>

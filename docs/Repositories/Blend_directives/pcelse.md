@@ -23,7 +23,7 @@ Identifies a script section that is executed only if a condition specified in th
 
 The element <PrintThat/> is written to standard output in:
 
-```language-xml
+```xml
 <pc:if test="1=2">
   <pc:then> <PrintThis/> </pc:then>
   <pc:else> <PrintThat/> </pc:else>

@@ -29,11 +29,11 @@ The optional **n** attribute indicates the number of tabs to be output. If you o
 
 *Examples*
 
-```language-xml
+```xml
 <pc:tab />
 ```
 
-```language-xml
+```xml
 <pc:tab n="3" />
 ```
 

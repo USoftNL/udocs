@@ -79,7 +79,7 @@ For each variable, a *name* and a *value* is required and a *type* prefix (follo
 
 This example prints the current content of your clipboard. If the Name of the component is PRINT_CLIPBOARD, and the Program Source for the component is:
 
-```language-xml
+```xml
 <Example xmlns:pc="Processing.Command">
    <pc:value-of select="clipboard:GetText()"/>
 </Example>
@@ -99,7 +99,7 @@ then both these calls:
 
 yield this result:
 
-```language-xml
+```xml
 <Example>Hello there</Example>
 ```
 
@@ -107,7 +107,7 @@ yield this result:
 
 This example shows input parameters (read the end of this section for a discussion). If the Name of the component is PRINT_VARIABLES, and the Program Source for the component is:
 
-```language-xml
+```xml
 <Example xmlns:pc="Processing.Command">
    <pc:value-of select="concat( $myvar1, ' ', $myvar2 )"/>
 </Example
@@ -129,13 +129,13 @@ SELECT print_clipboard.blend( 'myvar1', 'Hello', 'myvar2', 'there' )
 
 yield this result:
 
-```language-xml
+```xml
 <Example>Hello there</Example>
 ```
 
-As you can see, a USoft Blend script expects input parameters simply by containing variable references. If you prefer to declare expected input parameters at the top of the script, you can use one of the <pc:assign...> directives, for example, you can declare variables with **<pc:assign-default>**: 
+As you can see, a USoft Blend script expects input parameters simply by containing variable references. If you prefer to declare expected input parameters at the top of the script, you can use one of the `<pc:assign...>` directives, for example, you can declare variables with **`<pc:assign-default>`**: 
 
-```language-xml
+```xml
 <Example xmlns:pc="Processing.Command">
    <pc:assign-default
       myvar1=""
@@ -146,7 +146,7 @@ As you can see, a USoft Blend script expects input parameters simply by containi
 
 You can add error handling for mandatory input parameters:
 
-```language-xml
+```xml
 <Example xmlns:pc="Processing.Command">
    <pc:assign-default
       myvar1=""

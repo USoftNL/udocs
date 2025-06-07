@@ -32,7 +32,7 @@ The required **test** evaluates to a boolean. Only if it evaluates to false() ac
 
 The element <PrintThis/> is written to standard output in:
 
-```language-xml
+```xml
 <pc:if-not-then test="1=2">
   <PrintThis/>
 </pc:if-not-then>
@@ -40,7 +40,7 @@ The element <PrintThis/> is written to standard output in:
 
 The element <PrintThis/> is NOT written to standard output in:
 
-```language-xml
+```xml
 <pc:if-not-then test="1=1">
  <PrintThis/>
 </pc:if-not-then>

@@ -36,15 +36,13 @@ Navigates to a different page.
 
 Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
-
 :::danger
 
-If you navigate away from a page, asynchronous operations are in risk of being annulled if they do not return a promise (as opposed to just executing with an undefined result). For a full discussion of this risk, click [here]().
+If you navigate away from a page, asynchronous operations are in risk of being annulled if they do not return a promise (as opposed to just executing with an undefined result).
 
 :::
 
 *Syntax*
- 
 
 ```js
 .navigateTo( *page*, *options* )
@@ -97,7 +95,3 @@ $.udb.navigateTo('MyNextPage',{quiet:true});
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
 |[beforenavigate](/docs/Web_and_app_UIs/UDB_Events/beforenavigate.md)|Page objects|Before navigation to a different page takes place|
-
-
-
- 

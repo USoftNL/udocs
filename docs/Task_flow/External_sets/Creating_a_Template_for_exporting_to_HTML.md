@@ -38,7 +38,7 @@ The @data@ placeholder specifies where the data is to be included in the page.
 
 You can place both placeholders on the same line. You can also include the placeholders within standard HTML code on the same line, so that the generated page keeps any formatting you have specified in the HTML code (color, justification, and so on). For example, the code:
 
-```language-xml
+```xml
 <FONT COLOR="#FF0000">@data@</FONT>
 
 ```
@@ -49,7 +49,7 @@ The @template@ placeholder is used to identify the table structure into which yo
 
 The following HTML fragment is an example of what your template could look like.
 
-```language-xml
+```xml
 <HTML>
 <HEAD></HEAD>
 <BODY>
@@ -96,7 +96,7 @@ You must then define a list structure to be used for the child data (using the \
 
 For example, you could write the following HTML:
 
-```language-xml
+```xml
 <ul type="circle" @template@>
     <li>&nbsp;</li>
 </ul>

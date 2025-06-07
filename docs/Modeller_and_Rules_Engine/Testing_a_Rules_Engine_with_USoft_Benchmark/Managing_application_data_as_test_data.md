@@ -76,7 +76,7 @@ This allows you to write (export) a copy of all your current application data to
 :::warning
 
 If you want to Import, be careful not to accidentally press Export, because Export would **overwrite** the file you wanted to import with the current state of the data.
-You cannot Import if you are running your development repository as a [version-controlled repository]().
+You cannot Import if you are running your development repository as a [version-controlled repository](/docs/Repositories/Version_control/Versioncontrolled_repositories.md).
 
 :::
 

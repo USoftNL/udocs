@@ -46,7 +46,7 @@ The optional **transaction-mode** is appropriate only for a subset of Rules Engi
 
 This example deactivates all constraints that are active for connection "thisconn":
 
-```language-xml
+```xml
 <pc:SetRulesEngineProperty alias="thisconn" name="CONSTRAINTSACTIVE" value="no" transaction="commit"/>
 ```
 

@@ -45,13 +45,13 @@ If you pass overwrite="yes", the effect is the same as pc:MoveFileOverwrite.
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:MoveFile source="input.xml" destination="c:\temp\output.xml" />
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:MoveFile source="*.xml" destination="c:\temp" />
 ```
 
@@ -59,7 +59,7 @@ If you pass overwrite="yes", the effect is the same as pc:MoveFileOverwrite.
 
 If there is an existing file with the same name in the target location, and you do not pass overwrite="yes", then the call is ineffective, and the return value is:
 
-```language-xml
+```xml
 <!--files:MoveFile(source, destination) The file 'destination' already exists.-->
 ```
 

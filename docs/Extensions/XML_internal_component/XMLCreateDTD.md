@@ -53,7 +53,7 @@ FROM        person
 
 This results in:
 
-```language-xml
+```xml
 <!ELEMENT PERSON ((Person|QUERY)*)>
 <!ELEMENT Person ((INSERT|UPDATE|DELETE)?)>
 <!ELEMENT INSERT (EMPTY)>
@@ -77,7 +77,7 @@ Here is a more involved example that shows how USoft data integrity rules transl
 
 You can validate against such a DTD the content of an XML file to be imported into USoft. However, a USoft repository can check many more aspects of data integrity. The number of possible checks that can be generated into a DTD is more limited.
 
-```language-xml
+```xml
 <!ELEMENT employees ((employee | query)*)>
 <!ELEMENT employee (insert | update | delete)?>
 <!ATTLIST employee ID #CDATA #REQUIRED>
@@ -100,19 +100,19 @@ You can validate against such a DTD the content of an XML file to be imported in
 
 The following DTD line indicates that the XML may contain the employees element, which many have zero or more employee elements:
 
-```language-xml
+```xml
 <!ELEMENT employees (employee*)>
 ```
 
 The following indicates that an employee element may contain zero or one insert, update or delete element. This maps to whether the table is insertable, updatable, deletable.
 
-```language-xml
+```xml
 <!ELEMENT employee (insert | update | delete)?>
 ```
 
 The following specifies that there can be empty insert, update, and delete elements.
 
-```language-xml
+```xml
 <!ELEMENT insert (EMPTY)>
 <!ELEMENT delete (EMPTY)>
 <!ELEMENT update (EMPTY)>
@@ -124,7 +124,7 @@ The following indicates that the employee element has a 'lastname' attribute wit
 
 It also has a ‘name’ attribute. This attribute is NOT required. (IMPLIED).
 
-```language-xml
+```xml
 <!ATTLIST employee lastname #CDATA #REQUIRED>
 <!ATTLIST employee name CDATA #IMPLIED>
 ```
@@ -135,13 +135,13 @@ The employee element has an insertion attribute of type character. The values ar
 
 The values represented in XML correspond with the allowed values (the exact data in the database), not with the prompts for the allowed values.
 
-```language-xml
+```xml
 <!ATTLIST employee insertion #CDATA ("den" | "van der" | "van") "">
 ```
 
 If a column is not updateable, there will be no attribute for it in the update element. Update attributes are non mandatory (IMPLIED). No measures have been taken to prevent the update of a primary key value. This should be defined by making the column non-updatable. The insertion attribute can only be updated to an allowed value:
 
-```language-xml
+```xml
 <!ATTLIST update lastname #CDATA #IMPLIED>
 <!ATTLIST update name #CDATA #IMPLIED>
 <!ATTLIST update insertion CDATA ("den" | "van der" | "van") "">

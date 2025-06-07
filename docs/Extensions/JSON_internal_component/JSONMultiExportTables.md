@@ -6,9 +6,6 @@ id: JSONMultiExportTables
 
 ![](./assets/ba9b59ee-92c4-42d3-8ee4-4a2d6b784bc2.png)
 
-
-
-
 :::note
 
 This article is about the **MultiExportTables** method of the [JSON internal component](/docs/Extensions/JSON_internal_component).
@@ -23,12 +20,9 @@ Exports data from multiple tables to a JSON object on the basis of a regular exp
 
 ![](./assets/b011ef75-21b5-4ae7-a207-b41495eaf8fa.png)
 
-
-
 Exports binary data (of the BLOB data type) to base64 encoding.
 
 ----
-
 
 :::tip
 
@@ -145,12 +139,13 @@ INVOKE JSON.MultiExportTables WITH SELECT
 
 Available parameter settings are in the table below. The order in which you specify settings has no effect. The use of each parameter is optional. If you do not refer to a given parameter, and it has a default value associated with it, the result is as if you specified that default. Both the parameter names and the values are case-insensitive strings.
 
+<!-- TODO: cleanup this html -->
 |***parameter***|***value***|**Description**|
 |--------|--------|--------|
 |AppendToFile|<p>*USFile-alias*</p><p>*output-file-name*</p>|<p>This parameter is used to specify that the output is to be written directly to a file. If the file exists, it will be appended to. To overwrite the existing file, use the WriteOutputTo parameter instead.</p><p>It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.'</p>|
-|EmptyDocOnZeroRows|{ yes  \| no }|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If set to 'no', if the SELECT statement of the JSON export does not return any rows, USoft returns an empty string.</p><p>If set to ‘yes’ (the default), then the output is always a JSON object. If no rows are returned, this JSON object contains only a wrapper.</p>|
-|ProcessingInstruction|{ yes  \| no }|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, a [meta-instruction property](/docs/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md) such as the following is added to the output JSON object:</p><pre><code class="language-language-json">"@usoft-json": {<br/>	"version": "1.0",<br/>	"action": "multi-tables-import",<br/>	"use-io-formats": "No",<br/>	"trim-spaces": "No",<br/>	"verify-original-values": "no",<br/>	"return-corrected-records": "c:\\temp\\json.json",<br/>	"append-to-file": "No",<br/>	"overwrite-non-updatables": "No",<br/>	"relationship-behaviour": "default"<br/>}</code></pre><p>Otherwise, meta-instruction property is added to the output JSON object.</p>|
-|RestrictiveSupertypeListing|{ yes  \| no }|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, only supertype records are output that are not also a subtype (or more than 1 subtype). The number of supertype records listed in the supertype section of the export file may be less than the number of records in the supertype table in the database.</p><p>If you specify 'no' for this parameter (the default), these 2 numbers are always equal.</p>|
+|EmptyDocOnZeroRows|`{ yes  \| no }`|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If set to 'no', if the SELECT statement of the JSON export does not return any rows, USoft returns an empty string.</p><p>If set to ‘yes’ (the default), then the output is always a JSON object. If no rows are returned, this JSON object contains only a wrapper.</p>|
+|ProcessingInstruction|`{ yes  \| no }`|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, a [meta-instruction property](/docs/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md) such as the following is added to the output JSON object:</p><pre><code class="language-language-json">"@usoft-json": `{`<br/>	"version": "1.0",<br/>	"action": "multi-tables-import",<br/>	"use-io-formats": "No",<br/>	"trim-spaces": "No",<br/>	"verify-original-values": "no",<br/>	"return-corrected-records": "c:\\temp\\json.json",<br/>	"append-to-file": "No",<br/>	"overwrite-non-updatables": "No",<br/>	"relationship-behaviour": "default"<br/>`}`</code></pre><p>Otherwise, meta-instruction property is added to the output JSON object.</p>|
+|RestrictiveSupertypeListing|`{ yes  \| no }`|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, only supertype records are output that are not also a subtype (or more than 1 subtype). The number of supertype records listed in the supertype section of the export file may be less than the number of records in the supertype table in the database.</p><p>If you specify 'no' for this parameter (the default), these 2 numbers are always equal.</p>|
 |WriteOutputTo|<p>*USFile-alias*</p><p>*output-file-name*</p>|<p>This parameter is used to specify that the output is to be written directly to a file. If the file exists, it will be **overwritten**. To prevent this, use the AppendToFile parameter instead.</p><p>It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.'</p>|
 
 

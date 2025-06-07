@@ -25,7 +25,7 @@ Evaluates XML content and writes the result to the standard output console in re
 
 *Example*
 
-```language-xml
+```xml
 <pc:ConsoleWrite>Logging in: <pc:value-of select="$logfile"/>...<pc:newline/></pc:ConsoleWrite>
 ```
 

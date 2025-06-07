@@ -4,12 +4,9 @@ tags: [USoft11, USoft10]
 ---
 # $.udb.executeSQLStatement()
 
-
-
 ----
 
 `USoft 11``{.vs_11}`
-
 
 :::danger
 
@@ -23,7 +20,6 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 `USoft 10``{.vs_10}`
 
-
 :::note
 
 This article is about the **executeSQLStatement()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
@@ -34,21 +30,19 @@ This article is about the **executeSQLStatement()** function of the [udb object]
 
 Executes a SQL statement.
 
-
 :::warning
 
-On USoft 10, do not use this technique for queries. For queries, prefer a [SQLDataSource]() object that you access like so:
+On USoft 10, do not use this technique for queries. For queries, prefer a [SQLDataSource](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md) object that you access like so:
 
 :::
 
 Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
-In the case of queries, does not return record result values. You can "catch” the result values in a [SQLDataSource ]()(USoft 10) or in a VariableSetDataSource (USoft 9, see [USoft 9 alternative to SQLDataSource]()).
-
+In the case of queries, does not return record result values. You can "catch” the result values in a [SQLDataSource ](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md)(USoft 10) or in a VariableSetDataSource (USoft 9).
 
 :::danger
 
-Make sure this function *returns* the promise instead of just *executing* with an undefined result. Otherwise, further operations may not wait until it completes. For a full discussion, click [here]().
+Make sure this function *returns* the promise instead of just *executing* with an undefined result. Otherwise, further operations may not wait until it completes.
 
 :::
 
@@ -91,5 +85,3 @@ $.udb.executeSQLStatement( 'MySQL', {hostvars: {ID:'NL01234'} } )
             ...
 });
 ```
-
- 

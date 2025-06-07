@@ -185,7 +185,7 @@ Messages must follow the restrictions of the XML.Export format on the RESERVATIO
 
  
 
-```language-xml
+```xml
 <Reservations>   <RESERVATION SCHEDTOUR_ID="53" MADE_BY="14" DEALT_WITH_BY="1"/></Reservations>
 
 ```

@@ -32,26 +32,26 @@ If *xpath* evaluates to a string then this string is returned. If it evaluates t
 
 If *xpath* evaluates to an XML document, then this entire document is copied to the result tree:
 
-```language-xml
+```xml
 <pc:assign-nodeset envxml="{files:XmlFile('env.xml')}"/>
 <pc:copy-of select="$envxml"/>
 ```
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:copy-of select="$myvariable"/>
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:copy-of select="strings:ReplaceVariables($infile, $replacements, 'name', 'value', '')"/>
 ```
 
 *Example 3*
 
-```language-xml
+```xml
 <pc:assign-nodeset mydialog="{.}">
    <Form w="200" h="50" >
       <Title>An empty dialog</Title>

@@ -34,7 +34,7 @@ This directive is also allowed to appear, without the servicename attribute, as 
 
 An example of a service name is **RulesService-7779**.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
 
    <pc:assign-string-default servicename=""/>

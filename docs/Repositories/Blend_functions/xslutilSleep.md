@@ -41,7 +41,7 @@ The required *time* is a lapse of time expressed in milliseconds.
 
 This line of code halts processing for 3 seconds.
 
-```language-xml
+```xml
 <pc:if-then test="xslutil:Sleep(3000)"/>
 ```
 

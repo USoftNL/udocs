@@ -47,7 +47,7 @@ Use this option when you are writing XML that you want to process further (Examp
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:assign-string path="c:\temp\output.txt"/>
 <pc:WriteFile filepath="{$path}">Hello world</pc:WriteFile>
 ```
@@ -58,7 +58,7 @@ In this example the TRAVEL.xml inputfile is picked up and converted to flat text
 
 disable-output-escaping="yes" causes special XML characters in the output to be preserved instead of being converted to entity references such as >.
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <example xmlns:pc="Processing.Command" >
   <pc:defs><Settings><Setting NAME="ITALY" VALUE="ITALIA"/><Setting NAME="GERMANY" VALUE="DEUTSCHLAND"/></Settings></pc:defs>

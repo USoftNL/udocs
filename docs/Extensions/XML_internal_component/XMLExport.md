@@ -75,7 +75,7 @@ Both *value* and *parameter* are case-insensitive.
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|AppendToFile|
+| ` { yes  \| no }`|AppendToFile|
 
 
 
@@ -89,7 +89,7 @@ This parameter is used with the "WriteOutputTo" parameter. If you specify 'yes' 
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|ConvertWhiteSpaces|
+| ` { yes  \| no }`|ConvertWhiteSpaces|
 
 
 
@@ -115,7 +115,7 @@ This parameter is used to specify a header line in the XML output with a DOCTYPE
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|EmptyDocOnZeroRows|
+| ` { yes  \| no }`|EmptyDocOnZeroRows|
 
 
 
@@ -131,9 +131,7 @@ If set to ‘yes’, then the output is always an XML document. If no rows are r
 
 |***value***|***parameter***|
 |--------|--------|
-|{ Insert \| Update \| Delete }|ExecutionType|
-
-
+|`{ Insert \| Update \| Delete }`|ExecutionType|
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 
@@ -156,7 +154,7 @@ The Update tag is necessary if you want to identify records where a primary key 
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|LeadingZeroForDecimal|
+| ` { yes  \| no }`|LeadingZeroForDecimal|
 
 
 
@@ -174,7 +172,7 @@ If set to ‘no’, they will appear without leading zero, as in '.30'.
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|LobAsCData|
+| ` { yes  \| no }`|LobAsCData|
 
 
 
@@ -184,7 +182,7 @@ This parameter affects large-object (LOB) columns. They are columns with datatyp
 
 If set to ‘yes’, LOB columns appear as a child XML element containing the column value as a CDATA section. This has the advantage that the content remains readable even if special characters are used:
 
-```language-xml
+```xml
 <TABLE_1 KEY_COLUMN="101">
   <LOB_COLUMN><![CDATA[This is raw data with special <> && characters.]]></LOB_COLUMN>
 </TABLE_1>
@@ -192,7 +190,7 @@ If set to ‘yes’, LOB columns appear as a child XML element containing the co
 
 If set to ‘no’ (the default), LOB columns appear as per normal as an XML attribute. Special characters in the attribute value are escaped by entity referencing:
 
-```language-xml
+```xml
 <TABLE_1 KEY_COLUMN="101" LOB_COLUMN="This is raw data with special <> && characters."/>
 ```
 
@@ -200,9 +198,7 @@ If set to ‘no’ (the default), LOB columns appear as per normal as an XML att
 
 |***value***|***parameter***|
 |--------|--------|
-|{ Compact \|<br/>			  Indent \|<br/>			  Newline<br/>			}|PrettyPrint|
-
-
+|`{ Compact \| Indent \| Newline }`|PrettyPrint|
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 
@@ -212,35 +208,25 @@ If set to ‘Indent’, the result XML contains inserted newline and indentation
 
 If set to 'Newline’ (the default), the result XML contains inserted newline characters, but not indentation characters. This ensures a limited level of readability for humans.
 
- 
-
 ### TrimSpaces
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|TrimSpaces|
-
-
+| ` { yes  \| no }`|TrimSpaces|
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 
 If set to ‘yes’, any trailing whitespace characters will be removed from the XML result.
 
- 
-
 ### UseIOFormats
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|TrimSpaces|
-
-
+| ` { yes  \| no }`|TrimSpaces|
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 
 If you specify 'yes' for this parameter, column values in the resulting XML output get the IO format of the corresponding domain. Otherwise they are written as they are retrieved from the database.
-
- 
 
 ### WriteOutputTo
 
@@ -248,19 +234,13 @@ If you specify 'yes' for this parameter, column values in the resulting XML outp
 |--------|--------|
 |<p>*USFile-alias*</p><p>*output-file-name*</p>|WriteOutputTo|
 
-
-
 This parameter is used to specify that the output is to be written directly to a file. It is possible to use a file which has previously been opened using the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method. To do this, the alias used in the USFile.Open method must be specified, preceded by 'USFile.' If no USFile alias is specified, the XML will be written directly to the file specified. If the file exists, it will be overwritten. To prevent this, use the 'AppendToFile' parameter. If specified, the method will return the file name.
-
- 
 
 ### XmlDeclaration
 
 |***value***|***parameter***|
 |--------|--------|
-|{ yes \| no }|XmlDeclaration|
-
-
+| `{ yes  \| no }`|XmlDeclaration|
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 

@@ -15,7 +15,7 @@ This is a wayfinding article on **Blend functions** in the USoft Community Knowl
 
 You can call most of the functionality in USoft Blend by placing **Blend directives** in your scripts. These act as commands and are comparable to commands in a Powershell script. The following example script contains 2 Blend directives. The first is a command to create Authorizer tables. The second is a command to fill the tables with data found in an external file.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:Creapp application="USAUTH" ... />
   <pc:XmlImport alias="x1" commit="commit" source="c:\example\USAUTH.xml"/>
@@ -26,7 +26,7 @@ Some of the functionality of USoft Blend is available by calling **Blend functio
 
 Functionally, the main difference between directives and functions is syntax. With directives, you pass parameters in XML attributes, that is, by *name:*
 
-```language-xml
+```xml
 <pc:Creapp application="USAUTH"... />
 ```
 
@@ -45,7 +45,7 @@ Technically, functions are responsible for actually executing USoft Blend. Direc
 
 The pc:evaluate directive lets you wrap a function in a directive:
 
-```language-xml
+```xml
 <pc:evaluate select="variable:Set('envxml', files:XmlFile('env.xml'))"/>
 ```
 

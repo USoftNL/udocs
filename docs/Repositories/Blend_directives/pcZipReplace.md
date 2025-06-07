@@ -47,7 +47,7 @@ In both cases, for entryname, supply a relative file path that determines the pl
 
 *Example*
 
-```language-xml
+```xml
 <pc:ZipReplace filepath="{$myjarfile}" >
     <Content entryname="{$myentry}" content="{$NewUServiceClasses}" />
 </pc:ZipReplace>

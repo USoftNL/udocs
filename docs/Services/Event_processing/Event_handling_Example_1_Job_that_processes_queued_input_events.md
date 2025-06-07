@@ -111,7 +111,7 @@ Status: **NONE**
 
 XML Message: (A message in USoft's XML.Export format as applied to the RESERVATION table, for example:)
 
-```language-xml
+```xml
 <Reservations>
    <RESERVATION SCHEDTOUR_ID="53" MADE_BY="14" DEALT_WITH_BY="1"/>
 </Reservations>

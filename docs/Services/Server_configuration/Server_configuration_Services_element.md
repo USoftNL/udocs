@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, the \<Services> element contains c
 
 *Example*
 
-```language-xml
+```xml
 <Services>
    <Service name="CustomREST" active="true"/>
    <Service name="CustomSOAPLiteral" active="true"/>

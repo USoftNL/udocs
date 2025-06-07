@@ -41,7 +41,7 @@ The required *xpath* must evaluate to a string that is the name of an instantiat
 
 The result of the following is **boolean**:
 
-```language-xml
+```xml
 <pc:assign-boolean defined="{true()}" />
 <pc:assign-string mytype="{variable:TypeOf($defined)}"/>
 <pc:value-of select="$mytype"/>
@@ -51,7 +51,7 @@ The result of the following is **boolean**:
 
 A variable may be initialised and have the empty string ( '' ) as a value. The result of the following is **string**:
 
-```language-xml
+```xml
 <pc:assign-string defined="" />
 <pc:assign-string mytype="{variable:TypeOf($defined)}"/>
 <pc:value-of select="$mytype"/>
@@ -61,7 +61,7 @@ A variable may be initialised and have the empty string ( '' ) as a value. The
 
 If no variable by the name of "defined" is instantiated, the result of the following is **nodeset**:
 
-```language-xml
+```xml
 <pc:assign-string mytype="{variable:TypeOf($defined)}"/>
 <pc:value-of select="$mytype"/>
 ```

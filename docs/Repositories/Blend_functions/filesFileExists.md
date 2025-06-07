@@ -37,7 +37,7 @@ files:FileExists( *filepath* )
 
 *Example*
 
-```language-xml
+```xml
    <pc:if-then test="files:FileExists(path:Combine($appdir, 'USAUTH.con'))">
       <pc:ConsoleWrite>USAUTH.con file found.</pc:ConsoleWrite>
    </pc:if-then>

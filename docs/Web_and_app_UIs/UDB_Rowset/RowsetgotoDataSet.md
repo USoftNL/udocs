@@ -66,11 +66,14 @@ The required *index* is a string or an integer that identifies the data set that
 |first   |Move processing to the first data set relative to the current|
 |next    |Move processing to the next data set relative to the current|
 |previous|Move processing to the previous data set relative to the current|
-|*index* |<p>Move processing to the data set that has index as its index.</p>> [!WARNING]
-> The index is 1-based. The first item has index 1, not 0.
-
+|*index* |<p>Move processing to the data set that has index as its index.</p>
 |
 
+:::warning
+
+The index is 1-based. The first item has index 1, not 0.
+
+:::
 
 
 The optional *options* is a struct that can have the following items, all of which are optional.

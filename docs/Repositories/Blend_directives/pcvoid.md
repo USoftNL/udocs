@@ -39,7 +39,7 @@ Often, you do not need to write pc:void explicitly. It is standard behaviour in 
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string mystring="HelloUniverse"/>
 <pc:defs><somexml>Hi</somexml></pc:defs>
 <pc:assign-nodeset mydefs="{preceding-sibling::pc:defs/*}"/>

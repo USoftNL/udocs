@@ -36,7 +36,7 @@ You can optionally specify one or more XML schemas. For these, you can use any a
 
 This example tests that the XML document stored in the "persons.xml" file is well-formed XML. If the XML is well-formed, the return value is:
 
-```language-xml
+```xml
 <ValidationResult valid="yes" errors="0" warnings="0" exceptions="0"/>
 ```
 
@@ -48,7 +48,7 @@ The 'persson' start tag on line 2 position 3 does not match the end tag of 'pers
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
    <pc:assign-nodeset xml="persons.xml"/>
    <pc:ValidateSchemas xml="{$xml}" />
@@ -59,13 +59,13 @@ The 'persson' start tag on line 2 position 3 does not match the end tag of 'pers
 
 This example tests that the XML document stored in the "persons.xml" file is schema-valid when checked against the schema in the "persons.xsd" file. In addition, it tests whether the XML is well-formed in itself (see the previous section). If the XML is both schema-valid and well-formed, the return value is:
 
-```language-xml
+```xml
 <ValidationResult valid="yes" errors="0" warnings="0" exceptions="0"/>
 ```
 
 If the XML is not schema-valid, the return value will be a message such as the following:
 
-```language-xml
+```xml
 <ValidationResult valid="no" errors="1" warnings="0" exceptions="0">
    <Error Message="The element 'person' has invalid child element 'age'. List of possible elements expected: 'birthdate'." SourceUri="" />
 </ValidationResult>
@@ -73,7 +73,7 @@ If the XML is not schema-valid, the return value will be a message such as the f
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
    <pc:assign-nodeset xml="persons.xml"/>
    <pc:assign-nodeset xsd="persons.xsd"/>   
@@ -89,7 +89,7 @@ This example also illustrates how you can pass the XML schemas inline rather tha
 
 The example script below raises error:
 
-```language-xml
+```xml
 <ValidationResult valid="no" errors="0" warnings="0" exceptions="1">
   <Exception message="The value 'male' is invalid according to its schema type 'String' - The Enumeration constraint failed." />
 </ValidationResult>
@@ -97,7 +97,7 @@ The example script below raises error:
 
 given the following "persons.xml" file:
 
-```language-xml
+```xml
 <persons>
    <person version="1.0" xmlns:xi="http://www.w3.org/2001/XMLSchema-instance">
       <author>Brent Smith</author>
@@ -109,7 +109,7 @@ given the following "persons.xml" file:
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
    <pc:assign-string workingdir="{path:GetFullPath('.')}" />
    <pc:assign-nodeset this="{files:XmlFile(path:Combine($workingdir,'persons.xml'))}"/>

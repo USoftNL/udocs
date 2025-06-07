@@ -46,7 +46,7 @@ RulesService-7901.config
 
 These 2 files will contain settings copied from the delivered "RulesService-7777.config" sourcefile, except for service-specific settings indicated in the registry XML. In the example, the config file for port number 7901 will have a Connection Timeout setting of 1000 instead of the default 600 milliseconds:
 
-```language-xml
+```xml
 <Computer name="P3100500888">
     <RulesServices>
          <RulesService port="7900" sourcefile="RulesService-7777.config" servertimeout="600"/>

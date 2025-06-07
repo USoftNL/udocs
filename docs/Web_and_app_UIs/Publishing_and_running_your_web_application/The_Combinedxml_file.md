@@ -21,7 +21,7 @@ Each time a client browser requests data, the USoft Page Engine makes a new Comb
 
 The Combined.xml file has the following basic structure: a main Combined element with five child elements:
 
-```language-xml
+```xml
 <Combined>    
      <Data/>    
      <Messages/>

@@ -35,7 +35,7 @@ service:ServiceState( *servicename* )
 
 *Example*
 
-```language-xml
+```xml
 <pc:value-of select="service:ServiceState($servicename)"/>
 ```
 

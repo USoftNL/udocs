@@ -34,7 +34,7 @@ If recursive="yes" is passed, then files and subdirectories contained by the fol
 
 *Example*
 
-```language-xml
+```xml
 <pc:DeleteDirectories>
      <Directory dirpath="{$serverdir}" recursive="yes"/>
      <Directory dirpath="{path:Combine($serverdir, '..', 'help')}" />
@@ -57,7 +57,7 @@ Deleted *n* directories. Could not find a part of the path *folderpath*.
 
 To test ahead of time whether a directory exists, you can write:
 
-```language-xml
+```xml
 ...
 <pc:assign-nodeset dirfound="{directories:DirectoryContent($mydir, '*', '0', '', '')}" />   
 <pc:if-then test="$mydir/Directory">

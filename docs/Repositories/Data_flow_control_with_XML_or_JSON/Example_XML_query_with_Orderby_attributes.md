@@ -6,7 +6,7 @@ id: Example_XML_query_with_Orderby_attributes
 
 Here is an example of an XML query document with several Order-by attributes specified:
 
-```language-xml
+```xml
 <Query>
     <Table Name="PERSON">
         <Column Name="FAMILY_NAME" Condition="Jo%"
@@ -22,7 +22,7 @@ Here is an example of an XML query document with several Order-by attributes spe
 
 This results in an XML output document that contains all columns of all records where FAMILY_NAME starts with 'Jo' and ADDRESS contains 'STREET':
 
-```language-xml
+```xml
 <Persons>
     <PERSON ID="377" FAMILY_NAME="Jones" FIRST_NAME="Bill"
         ADDRESS="HIGHSTREET 501"/>

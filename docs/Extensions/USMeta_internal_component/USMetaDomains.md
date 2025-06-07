@@ -56,7 +56,7 @@ For each retrieved domain, the output takes the form of name/value pairs:
 
 If the domain has allowed values, these are listed in an "Allowed Values” child element, in the following format (example):
 
-```language-xml
+```xml
 <Domain NAME="BOOLEAN" ... >
     <Allowed_Values>
         <Allowed_Value VALUE="N" PROMPT="No"/>
@@ -69,7 +69,7 @@ If the domain has allowed values, these are listed in an "Allowed Values” chil
 
 If the table is from a consumed module, the consumers are listed in a "Consumed_In_Modules” child element, for example:
 
-```language-xml
+```xml
 <Domain NAME="USVC_NAME_60" MODULE_NAME="USVC" ...>
   <Consumed_In_Modules>
     <Module MODULE_NAME="USD"/>
@@ -177,7 +177,7 @@ SELECT USMeta.Domains(
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
 	<Domains>

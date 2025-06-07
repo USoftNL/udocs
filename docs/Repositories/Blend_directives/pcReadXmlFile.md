@@ -31,14 +31,14 @@ The required **filepath** points to the file to be read. If **filepath** is a re
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:assign path="c:\temp\definerData.xml"/>
 <pc:ReadXmlFile filepath="{$path}"/>
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:assign path="c:\temp\definerData.xml"/>
 <pc:ReadXmlFile filepath="{$path}" assign:rulemsg="rules/rule[2]"/>
 <pc:value-of select="$rulemsg"/>
@@ -46,7 +46,7 @@ The required **filepath** points to the file to be read. If **filepath** is a re
 
 If the file's content is :
 
-```language-xml
+```xml
 <rules>
   <rule>This is rule 1.</rule>
   <rule>This is rule 2.</rule>
@@ -63,7 +63,7 @@ This is rule 2.
 
 This example reads a dialog description from a file and passes it to pc:Dialog which displays the dialog on the screen.
 
-```language-xml
+```xml
 <pc:Dialog>   
        <pc:ReadXmlFile filepath="c:\temp\mydialog.xml"/>
 </pc:Dialog>

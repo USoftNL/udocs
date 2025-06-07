@@ -44,9 +44,11 @@ DO NOT issue the RecordStore() command, or otherwise manipulate the current reco
 
 :::
 
-- > [!WARNING]
-> DO NOT issue the RecordStore(), RecordCreate(), or QueryExecute() command on a column's pre-field-entry, post-edit or post-change action lists.
+:::warning
 
+DO NOT issue the RecordStore(), RecordCreate(), or QueryExecute() command on a column's pre-field-entry, post-edit or post-change action lists.
+
+:::
 
 - *Example*
 The user queries a record with a primary key spanning two columns, changes the value of one of the primary key values (UPDATE), and commits.

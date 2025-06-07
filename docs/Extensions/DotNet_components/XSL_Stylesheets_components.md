@@ -65,7 +65,7 @@ You can view the signature (parameter list) of each method in the Parameters box
 
 All APPLY... methods allow you to pass a list of input parameters (the **args** InListparameter listed). You can use this mechanism to pass values to XSL transformations that expect named input parameters as specified by
 
-```language-xml
+```xml
 <xsl:param>
 ```
 
@@ -86,7 +86,7 @@ This example shows a transformation that strips certain timestamp attributes fro
 
 If the Name set for the component is STRIP_LOG_INFO, and the Program Source set for the component is:
 
-```language-xml
+```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="yes"/>
 
@@ -112,7 +112,7 @@ SELECT strip_log_info.apply( '<Test CREATED_BY="User_1"/>')
 
 yields this result:
 
-```language-xml
+```xml
 <Test />
 ```
 
@@ -120,7 +120,7 @@ yields this result:
 
 This example shows input parameters. The Program Source for the component is:
 
-```language-xml
+```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="yes"/>
 <xsl:param name="string1"/>
@@ -167,7 +167,7 @@ SELECT strip_log_info.apply(
 
 yields this result:
 
-```language-xml
+```xml
 <Tests>
   <Test1 />
   <Test2/>
@@ -206,7 +206,7 @@ This particular example could just as well have been written as Example 2 above.
 
 If the Name of the component is STRIP_LOG_INFO, and the Program Source for the component is:
 
-```language-xml
+```xml
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="yes"/>
 
@@ -255,7 +255,7 @@ SELECT strip_log_info.apply(
 
 yields this result:
 
-```language-xml
+```xml
 <Tests>
   <Test1 />
   <Test2 />
@@ -276,7 +276,7 @@ SELECT strip_log_info.apply0(
 
 yields this result:
 
-```language-xml
+```xml
 <Tests>
   <Test1 CREATED_BY="User_1"/>
   <Test2 CREATED_BY="User_1"/>
@@ -297,7 +297,7 @@ SELECT strip_log_info.apply1(
 
 yields this result:
 
-```language-xml
+```xml
 <Tests>
   <Test1 />
   <Test2 />

@@ -39,7 +39,7 @@ If you do not specify *sid* (as in Example 2), the string **XE** is used.
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:evaluate select="oracle:USoftConnectString('MYSERVER', 'MYSID')"/>
 ```
 
@@ -51,7 +51,7 @@ The result is:
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:evaluate select="oracle:USoftConnectString('', '')"/>
 ```
 

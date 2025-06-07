@@ -6,7 +6,7 @@ id: The_USoft_component_table_XML_format
 
 The syntax of the USoft component table XML format is:
 
-```language-xml
+```xml
 <Table>
     <Row>
         <Field Name = "..." Value = "..." Index = "..."/>

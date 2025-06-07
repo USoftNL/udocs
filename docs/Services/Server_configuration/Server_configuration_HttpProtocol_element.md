@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, the \<HttpProtocol> element contai
 
 *Example*
 
-```language-xml
+```xml
 <HttpProtocol>
  <Headers>
     <Header 

@@ -18,7 +18,8 @@ For an alphabetic list of USCSXSL methods, click [here](/docs/Extensions/USCSXSL
 
 The USCSXSL internal component is an XSLT 1.0 processor with rich extensions also found in XSLT 2.0 or 3.0. It is a USoft-proprietary C# implementation.
 
-The USCSXSL internal component gives you the same basic XSLT functionality as the [USXSL component](/docs/Extensions/USXSL_internal_component/USXSL_internal_component.md). This is to say that it provides a standard XSLT 1.0 processor and, in addition, the capability to [mix in USoft application data]().
+The USCSXSL internal component gives you the same basic XSLT functionality as the [USXSL component](/docs/Extensions/USXSL_internal_component/USXSL_internal_component.md). This is to say that it provides a standard XSLT 1.0 processor and, in addition, the capability to mix in USoft application data.
+<!-- TODO: [mix in USoft application data]() -->
 
 But in addition to the USXSL component, USCSXSL also allows you to call [extension functions](/docs/Repositories/Blend_functions). You can discover these functions by calling ublendit.exe:
 
@@ -47,11 +48,12 @@ Use this component in any way that you would normally use XSLT 1.0:
 
 Use it also to:
 
-- [Mix USoft application data]() into an XSLT transformation.
+<!-- TODO: fix link - [Mix USoft application data]() into an XSLT transformation. -->
+- Mix USoft application datainto an XSLT transformation.
 
 Finally, use it also for its extension functions. You can call these functions from [Blend scripts](/docs/Repositories/Blend_scripts_for_repository_management/Introducing_Blend_scripts.md), a special way of using USCSXSL, but you can also call these functions directly when you apply USCSXSL to transform an XML document, for example:
 
-```language-xml
+```xml
 <xsl:variable name="rdmlx" select="xslutil:xmlfragment(strings:Text2Xml(files:ReadFile($filepath, .)), .)"/>
 ```
 
@@ -72,13 +74,13 @@ Correspondingly, in this case, the USCSXSL component produces the attribute enco
 
 By default, the USCSXSL component produces UTF-8 output encoding externally, ie., when the result is written to a file on the file system, as is the case when you call **USCSXSL.Apply2File**, or is passed to a third party by way of a webservice call. This is because UTF-8 is a common default in these cases. You can obtain a different external output encoding by specifying it as the encoding attribute of the \<xsl:output> instruction in the XSL stylesheet, for example:
 
-```language-xml
+```xml
 <xsl:output encoding="UTF-16"/>
 ```
 
 or
 
-```language-xml
+```xml
 <xsl:output encoding="ISO-8859-1"/>
 ```
 

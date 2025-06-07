@@ -34,7 +34,7 @@ For each variable, *variable* identifies the variable by name and *expr* is the 
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-number
     total="//booking[@id=$id]/@total" />
 ```

@@ -4,7 +4,6 @@ id: Promises_for_asynchronous_Javascript
 
 # Promises for asynchronous Javascript
 
-
 :::note
 
 This article explains the idea of promises and tells you why and how to code .**then()**, **.catch()** and **.finally()** clauses in USoft web applications.
@@ -15,7 +14,6 @@ It gives some explanation about USoft's [udbPromise](#the-udbpromise-object) obj
 **Promises** are a JavaScript feature that represents the eventual completion (or failure thereof) of an operation of an asynchronous nature.
 
 Promises make web applications more responsive. They use as much of the browser's execution capabilities as possible. Promises have been integrated into every aspect of the USoft Web API.
-
 
 :::danger
 
@@ -190,11 +188,11 @@ A promise comes into play when you call an asynchronous function that returns a 
 
 This neat response structure simplifies error handling, especially if you have a sequence (*chain*) of multiple asynchronous calls that depend on each other's result.
 
-You can react to a Promise coming back *fulfilled* by writing one or more **.then()** clauses.
+You can react to a Promise coming back *fulfilled* by writing one or more **`.then()`** clauses.
 
-You can react to a Promise coming back *unfulfilled* by writing one or more **.catch()** clauses. Do not confuse with the **catch(exception) { … }** Javascript block syntax.
+You can react to a Promise coming back *unfulfilled* by writing one or more **`.catch()`** clauses. Do not confuse with the **`catch(exception) { … }`** Javascript block syntax.
 
-You can add a **.finally()** clause that is executed *after* the **.then()** or the **.catch()** clause have finished executing. That is, the **.finally()** clause will execute regardless of the promise being fulfilled or not.
+You can add a **`.finally()`** clause that is executed *after* the **`.then()`** or the **`.catch()`** clause have finished executing. That is, the **`.finally()`** clause will execute regardless of the promise being fulfilled or not.
 
 Order is important. The **.then()** clause must be placed before the **.catch()** clause. Otherwise, the **.then()** clause will only fire if an error occurs, and moreover, it will only execute after that error has been handled.
 

@@ -35,7 +35,7 @@ xmlns:xslutil="USoft:XslUtil"
 xslutil:test( { *xpath-expression* | *comparison* } )
 ```
 
-The required argument is either an XPath expression or a comparison. It is a comparison if it contains one of the comparison operators =,  !=,  <=,  <,  >,  >=,  <>. In a comparison, both the left-hand operand and the right-hand operand are XPath expressions.
+The required argument is either an XPath expression or a comparison. It is a comparison if it contains one of the comparison operators `=, !=,  <=, <, >, >=, <>.` In a comparison, both the left-hand operand and the right-hand operand are XPath expressions.
 
 
 :::warning

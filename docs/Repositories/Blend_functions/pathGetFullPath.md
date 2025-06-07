@@ -47,7 +47,7 @@ For a full list of Blend functions in the area of path manipulation, use this co
 
 This example writes to the console the full path leading to the current directory.
 
-```language-xml
+```xml
 <pc:assign-string fullpath="{path:GetFullPath('.')}"/>
 <pc:ConsoleWrite>
   The full path to the current directory is:

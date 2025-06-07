@@ -36,7 +36,7 @@ If you specify the optional **filepath**, the key schema XML is written to the s
 
 This example is called from the command line. It writes the key schema to file.
 
-```language-xml
+```xml
 <pc:assign-string-default
      keyschemafile="{concat('c:\temp\KeySchema_', $application, '.xml')"
 />

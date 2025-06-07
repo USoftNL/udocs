@@ -31,7 +31,7 @@ Here are iteration methods to be used with the **e-for** directive. Each iterate
 
 *Example*
 
-```language-xml
+```xml
 <esi:class name="{table.getName()}" access_type="ownership" e-for="table in dictionary.getTables()">
    …
 </esi:class>
@@ -40,7 +40,7 @@ Here are iteration methods to be used with the **e-for** directive. Each iterate
 
 If the metadata describe 3 tables TABLE_A, TABLE_B, TABLE_C, this example template instruction translates into:
 
-```language-xml
+```xml
 <esi:class name="TABLE_A" access_type="ownership">
    …
 </esi:class>

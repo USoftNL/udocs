@@ -27,7 +27,7 @@ RETURN <Tour>(<Name>{$c/DESTINATION/text()}</Name>,<StartDate>{$c/START_DATE/tex
 
 The result is:
 
-```language-xml
+```xml
 <Tours>
   <Tour>
     <Name>EUROPE</Name>
@@ -72,7 +72,7 @@ RETURN <Destination>{$s/ROW/DESTINATION/text()}</Destination>
 
 The result is
 
-```language-xml
+```xml
 <Tours>
   <Person first_name="Albert" family_name="SMITH">
     <Destination>EUROPE</Destination>

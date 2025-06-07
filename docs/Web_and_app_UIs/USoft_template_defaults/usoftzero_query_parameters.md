@@ -74,7 +74,7 @@ You are now ready to develop, test and debug the solution by browsing with optio
 
 *Example*
 
-In this example, the default start page option is combined with the [auto login option]():
+In this example, the default start page option is combined with the auto login option:
 
 ```language-http
 http://localhost:8096/myservice1/myconnection1/?autologin=TEST_USER_2&page=InfoPage_1_PERSON

@@ -41,7 +41,7 @@ At runtime, gets metadata information about tables from the model developed in U
 
 If the table is has USABLE_AS_INTERFACE = ‘Y’ AND the Definer environment of an in-scope consumer has synchronised with the module .CON file, so that the table is visible as "Interface Table” in that Definer environment, then that consumer appears in a "Consumed_In_Modules” list of child elements, for example:
 
-```language-xml
+```xml
 <Table TABLE_NAME="C_USVC_HERITAGE" MODULE_NAME="USVC" ...>
   <Consumed_In_Modules>
     <Module MODULE_NAME="USD"/>
@@ -103,7 +103,7 @@ If *interfaces-only* is set to 'yes', only tables that have the Interface = Yes 
 
 *Module-pattern* is a regular expression that matches zero, one or more module names in the model. The result data is limited to tables within modules matching the pattern. Any tables that are consumed from a different module which is filtered out by the regular expression, will show two additional fields 'INTERFACE_FROM_MODULE', which will be 'Y', and 'IMPLEMENTING_MODULE', which will contain the module name where the table originates from. The 'MODULE_NAME' field will in this case contain the name of the module in which the interface was consumed. If *module-pattern* is omitted, then the result data is not limited in this way.
 
-*Yes-value* is a string value in the set { 'yes’, 'Y’, 'true’, '1’ }, regardless of case. *No-value* is any other value.
+*Yes-value* is a string value in the set `{ 'yes’, 'Y’, 'true’, '1’ }`, regardless of case. *No-value* is any other value.
 
 *Mime-type* determines whether the output is in XML ( ‘application/xml‘ or 'xml’) or in JSON ('application/json’ or 'json’). The default is XML.
 
@@ -117,7 +117,7 @@ SELECT USMeta.Tables( 'DISCOUNT' Tables )
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
    <Tables>
@@ -142,7 +142,7 @@ SELECT USMeta.Tables(
 
 *Example 3*
 
-You can use USMeta.Tables() to determine exactly what type(s) of table you want to export with [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
+You can use `USMeta.Tables()` to determine exactly what type(s) of table you want to export with [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
 
 
 :::note

@@ -30,7 +30,7 @@ The required **dirpath** identifies, in each case, the folder to be created.
 
 *Example*
 
-```language-xml
+```xml
 <pc:CreateDirectories>
      <Directory dirpath="{$serverdir}" />
 </pc:CreateDirectories>

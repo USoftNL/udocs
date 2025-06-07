@@ -32,7 +32,7 @@ Any number of attribute-value pairs may be specified. Each leads to a name-value
 
 *Example*
 
-```language-xml
+```xml
 <pc:processing-instruction name="usoft-xml"
      attr1="setting1"
      attr2="setting2"
@@ -41,7 +41,7 @@ Any number of attribute-value pairs may be specified. Each leads to a name-value
 
 This results in the following processing instruction being added to the result tree:
 
-```language-xml
+```xml
 <? usoft-xml attr1="setting1" attr2="setting2" ?>
 ```
 

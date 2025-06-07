@@ -28,7 +28,7 @@ By contrast, [pc:msg](/docs/Repositories/Blend_directives/pcmsg.md) returns an X
 
 *Syntax*
 
-```language-xml
+```xml
 <pc:textmsg />
 ```
 
@@ -36,7 +36,7 @@ By contrast, [pc:msg](/docs/Repositories/Blend_directives/pcmsg.md) returns an X
 
 This example is an attempt to import a record with a non-unique primary key:
 
-```language-xml><pc:textmsg
+```xml><pc:textmsg
 <pc:XmlImport connection="{$myconn}" commit="commit" source="{$myfile}">
 <pc:Succeeded>
    <pc:ConsoleWrite>Application data imported.<pc:newline/></pc:ConsoleWrite>
@@ -68,7 +68,7 @@ At: /root[(1)]/pc:AppendFile[(1)]/pc:XmlImport[(1)]<pc:XmlImport connection="{$a
 
 \<pc:textmsg/> returns the *most recently produced* message. It is typically used in combination with \<pc:Succeeded> and \<pc:Failed> as the Example showed, but you can also used it on its own. This \<pc:textmsg/> produces any message raised by the call to pc:RunRulesService:
 
-```language-xml
+```xml
 <pc:RunRulesService>
   ...
 </pc:RunRulesService>

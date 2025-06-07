@@ -41,7 +41,7 @@ The required **alias** identifies the connection to the Rules Engine that you wa
 
 The optional *commit-mode* determines whether or not the operation is committed after import. Choose the "rollback" option for debugging purposes, in particular to find out if the external data violate any rules. In terms of data change, the net effect of running the operation with "rollback" is null.
 
-*directive(s)* is a section of one or more USoft Blend directives from which the input data is built. This could be, for example, a <pc:copy-of ... > directive. It is possible to build and import multiple data sets.
+*directive(s)* is a section of one or more USoft Blend directives from which the input data is built. This could be, for example, a `<pc:copy-of ... >` directive. It is possible to build and import multiple data sets.
 
 ## Import format
 
@@ -61,7 +61,7 @@ INVOKE XML.MultiExportTables WITH SELECT regular-expression …
 
 If the import is successful, the return document looks something like this.
 
-```language-xml
+```xml
 <Participants documentName="Participants">
   <PARTICIPANT RES_ID="179" PERSON_ID="144" INSURANCE="Y" DIET="Vegetarian" WITHDRAWAL_DATE="" />
 </Participants>

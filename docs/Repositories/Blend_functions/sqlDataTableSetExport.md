@@ -48,7 +48,7 @@ If *outputfile* is specified, the return value is written to the specified folde
 
 *Example*
 
-```language-xml
+```xml
 <root 
   xmlns:pc="Processing.Command" 
   xmlns:assign="Processing.Command.Assign">
@@ -67,7 +67,7 @@ If *outputfile* is specified, the return value is written to the specified folde
 
 The returned XML format looks like this:
 
-```language-xml
+```xml
 <?usoft-xml version="1.0" action="multi-tables-import" use-io-formats="no" verify-original-values="no" return-corrected-records ="yes"?>
 <MultiExport>
   <object-name-plural-no-space documentName="object-name-plural">
@@ -82,7 +82,7 @@ The returned XML format looks like this:
 
 For example:
 
-```language-xml
+```xml
 <?usoft-xml version="1.0" action="multi-tables-import" use-io-formats="no" verify-original-values="no" return-corrected-records ="yes"?>
 <MultiExport>
   <Hired_Employees documentName="Hired Employees">

@@ -38,7 +38,7 @@ The optional **waittime** specifies in milliseconds how long you want to wait fo
 
 This example lists folders and files contained by the working directory. This is a USoft Blend script processed by ublendit.exe from the command line.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" >
   <pc:value-of mycmd="cmd.exe /C dir"/>
   <pc:WinCommand cmd="cmd.exe" args="{$mycmd}"/>
@@ -62,7 +62,7 @@ select uscsxsl.blend
 
 *Example 3*
 
-```language-xml
+```xml
 <application xmlns:pc="Processing.Command">
   <pc:assign-string-default
     usoftexe = "\\FS.USOFT.COM\prorep\usd911A\bin64\usd.exe"
@@ -95,7 +95,7 @@ The return value is an XML fragment that has this syntax:
 
 **Waittime** (in milliseconds) is the waittime passed as an argument of \<pc:WinCommand>, or else the default waittime of 1000 milliseconds. The **Busy** attribute only appears if the command did not complete within the waittime. Busy="true" means that the process was running at the end of the waittime. For example:
 
-```language-xml
+```xml
 <CommandResult cmd="cmd.exe" wd="C:\Users\P3100014\AppData\Local\Temp" args="cmd.exe /C dir" waittime="1000">
   <Output>
     Volume in drive C has no label.

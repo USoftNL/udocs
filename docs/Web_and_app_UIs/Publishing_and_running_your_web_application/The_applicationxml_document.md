@@ -8,7 +8,7 @@ When you publish a web application from USoft Web Designer, an "application.xml"
 
 The “application.xml” file contains publication properties: a list of name-value pairs that looks something like this:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <application>
    <param name="ApplicationName">TRAVEL</param>

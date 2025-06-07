@@ -15,7 +15,7 @@ These internal Class and ID can be changed by setting the XML Tag Name and Id pr
 
 For example, suppose that an existing style sheet rule specifies that all buttons that belong to the ThreeDButton class have a three-dimensional outset border. Your current web site contains many buttons with this look. Here is the style sheet rule:
 
-.ThreeDButton {    border-style: outset;    border-width: 2pt}
+`.ThreeDButton {    border-style: outset;    border-width: 2pt}`
 
 In Web Designer, for each individual button you can specify that it must look like a ThreeDButton, by setting its general Class property to: ThreeDButton.
 
@@ -78,7 +78,7 @@ The class attribute of an HTML element can contain a space-separated list of cla
 <td class="myFont myBorder">text</td>
 ```
 
-You can define two generic style sheet rules that both affect this <td> element. One style sheet rule specifies font-characteristics:
+You can define two generic style sheet rules that both affect this `<td>` element. One style sheet rule specifies font-characteristics:
 
 ```language-css
 .myFont {
@@ -99,6 +99,6 @@ And another style sheet rule specifies border characteristics:
 
 Within Web Designer, you can specify that one control belongs to more than one Class, by separating these classes in a list, and setting the Class List property to:
 
-```
+```css
 MyFont MyBorder
 ```

@@ -46,7 +46,7 @@ booleanflags:Show( )
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
    <pc:assign-nodeset mylist="{booleanflags:Show()}"/>
    <pc:copy-of select="$mylist"/>
@@ -55,7 +55,7 @@ booleanflags:Show( )
 
 If this Example returns the following:
 
-```language-xml
+```xml
 <Flags>
   <Flag true="true" false="false" index="0" />
   <Flag true="yes"  false="no"    index="1" />

@@ -39,7 +39,7 @@ guid:newguid( )
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string ticket="{guid:newguid()}"/>
 <pc:value-of select="$ticket"/>
 ```

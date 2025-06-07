@@ -35,7 +35,7 @@ xslutil:nodeset( *expression* )
 
 If *expression* can be construed as an XPath node set, this is what is returned.
 
-If *expression* begins with a **<** character, an attempt is made to interpret it as a node set.
+If *expression* begins with a **\<** character, an attempt is made to interpret it as a node set.
 
 In remaining cases, as in the example below, expression is interpreted as a path leading to an XML document and if an XML file is found at the endpoint of the path, its content is returned as a node set.
 
@@ -43,14 +43,14 @@ In remaining cases, as in the example below, expression is interpreted as a path
 
 This example returns the content of an XML document in a file named "c:\\temp\\root.xml" as a node set.
 
-```language-xml
+```xml
 <pc:assign rootpath="c:\temp\root.xml"/>
 <pc:copy-of select="xslutil:nodeset($rootpath)"/>
 ```
 
 Contrast with the following, which returns a text node with string-value "c:temp\\root.xml":
 
-```language-xml
+```xml
 <pc:assign rootpath="c:\temp\root.xml"/>
 <pc:copy-of select="$rootpath"/>
 ```

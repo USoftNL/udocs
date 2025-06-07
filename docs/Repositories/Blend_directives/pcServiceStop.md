@@ -25,7 +25,7 @@ Stops a Windows service on the local computer.
 
 *Example*
 
-```language-xml
+```xml
 <pc:ServiceStop servicename="RulesService-7779"/>
 ```
 

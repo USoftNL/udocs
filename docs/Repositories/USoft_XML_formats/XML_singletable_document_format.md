@@ -18,7 +18,7 @@ This means that a USoft XML single-table document consists of exactly 1 [XML tab
 
 *Example*
 
-```language-xml
+```xml
 <Accredited_Persons documentName="Accredited Persons">
     <PERSON ID="177" FAMILY_NAME="Haynes" FIRST_NAME="Deborah"/>
     <PERSON ID="112" FAMILY_NAME="Smith" FIRST_NAME="John"/>

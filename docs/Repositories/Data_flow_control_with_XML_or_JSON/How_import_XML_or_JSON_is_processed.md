@@ -40,7 +40,7 @@ EMPLOYEE_LANGUAGE_SKILL:   EMP_ID = 101, LANG = NL
 
 and this import document:
 
-```language-xml
+```xml
 <?usoft-xml version="1.0" action="multi-tables-import" use-io-formats="no" verify-original-values="no" return-corrected-records ="yes"?>
 <MultiImport>
   <Employees>

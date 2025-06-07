@@ -46,7 +46,7 @@ The required **alias** identifies the connection to the Rules Engine that you wa
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:RunRulesService waittime="10000"
    application="TRAVEL" rdbmstype="{$rdbms}" connection="{$dbconnection}"
    user="{$username}" pwd="{$userpassword}" owner="{$owner}"
@@ -65,7 +65,7 @@ The result is:
 
 This example is equivalent to Example 1.
 
-```language-xml
+```xml
 <pc:RunRulesService waittime="10000"
    application="TRAVEL" rdbmstype="{$rdbms}" connection="{$dbconnection}"
    user="{$username}" pwd="{$userpassword}" owner="{$owner}"

@@ -25,7 +25,7 @@ Outputs the state of a Windows service on the local computer.
 
 *Example*
 
-```language-xml
+```xml
 <pc:ServiceState servicename="RulesService-7779"/>
 ```
 

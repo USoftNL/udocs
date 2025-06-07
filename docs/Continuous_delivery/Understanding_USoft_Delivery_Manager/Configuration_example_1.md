@@ -48,7 +48,7 @@ and Blocked = No.
 
 3. Re-run the task step that releases the flatfiles. Check that a "deploy.xml" script has been output that reads the installation directories from the registry (most relevant code is **bold**): 
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <root xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
 <pc:terminate test="not(wrights:HasAdminRole())" 

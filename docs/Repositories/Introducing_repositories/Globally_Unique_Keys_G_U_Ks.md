@@ -10,7 +10,7 @@ USoft stores Globally Unique Keys (G_U_Ks) in non-displayed columns in USoft app
 
 G_U_Ks are random generated sequences of alphanumeric characters. They surface in G_U_K columns when you export to XML or JSON, for example:
 
-```language-xml
+```xml
 <Tables>
   <T_TABLE TABLE_NAME="T1" ... G_U_K="7CBBA3A755064385B8018E2E428DE0A9"/>
   <T_TABLE TABLE_NAME="T2" ... G_U_K="CB2F4784303A4F5693FD2FB109496316"/>

@@ -33,7 +33,7 @@ Produces "tidy XML": applies indentation to your output XML document so that the
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:ignorewhitespace="yes" pc:indent="yes" >
 <object>
       <height><unknown/></height>
@@ -44,7 +44,7 @@ Produces "tidy XML": applies indentation to your output XML document so that the
 
 The effect of running this example as a USoft Blend script is:
 
-```language-xml
+```xml
 <example>
   <object>
     <height>

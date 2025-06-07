@@ -58,7 +58,7 @@ Strip the <Insert/> tags. The record(s) where you removed the <Insert/> tag will
 
 You can strip <Insert/> tags by applying an XSLT transformation to the document that has the following template or a similar template. To make XSLT operations optimally traceable, use USoft Delivery Manager, for example its "Added XSL" feature.
 
-```language-xml
+```xml
 <xsl:template match="Insert"/>
 
 ```
@@ -79,7 +79,7 @@ Make sure that the Rules Engine does not check whether the record to be deleted 
 
 You can reset an usoft-xml processing instruction by applying an XSLT transformation that has the following template or a like template. To make XSLT operations optimally traceable, use USoft Delivery Manager, for example its "Added XSL" feature.
 
-```language-xml
+```xml
 <xsl:template match="processing-instruction()[local-name()='usoft-xml']">
   <xsl:processing-instruction name="usoft-xml">
     <xsl:text>
@@ -103,7 +103,7 @@ Importing a parent record and a new set of child records can cause existing chil
 
 Disable the effect of Type Of Relationship = Composition during import. Do this by making sure that the import document has the setting **relationship-behaviour="as-reference"** in its usoft-xml processing instruction. You can reset an usoft-xml processing instruction by applying an XSLT transformation that has the following template or a similar template. To make XSLT operations optimally traceable, use USoft Delivery Manager, for example its "Added XSL" feature.
 
-```language-xml
+```xml
 <xsl:template match="processing-instruction()[local-name()='usoft-xml']">
   <xsl:processing-instruction name="usoft-xml">
     <xsl:text>

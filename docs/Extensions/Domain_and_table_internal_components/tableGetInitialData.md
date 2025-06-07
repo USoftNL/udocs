@@ -10,14 +10,16 @@ id: tableGetInitialData
 :::note
 
 This article is about the **table.GetInitialData** method of [table internal components](/docs/Extensions/Domain_and_table_internal_components).
+<!-- TODO: no link here
 **See also**
-[Initial Data]()
+[Initial Data]() 
+-->
 
 :::
 
 ## **table.GetInitialData**
 
-Returns the [initial data]() defined for table *table*.
+Returns the initial data defined for table *table*.
 
 
 :::warning

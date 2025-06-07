@@ -31,7 +31,7 @@ The specified alias makes a difference if you have multiple USoft installations 
 
 *Example*
 
-```language-xml
+```xml
 <pc:USoftSystemDir alias="MYAPP1" />
 ```
 

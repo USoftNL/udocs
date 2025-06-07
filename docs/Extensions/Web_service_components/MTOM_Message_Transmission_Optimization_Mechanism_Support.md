@@ -92,12 +92,12 @@ this.sendSOAPMessage((U) :0, (U) :1, (U) :2)
 where:
 
 - body represents the body of your SOAP message. The element that contains binary data must have as a subelement a USoft processing instruction that will specify that that element contains binary data in MTOM format:
-- <?usoft-mtom path="path to the file that will be sent as binary with the message"?>.
+- `<?usoft-mtom path="path to the file that will be sent as binary with the message"?>`.
 - If there is a input_folder specified in constructor than the path can be only the file name, otherwize the path should be the absolute path of the file.
 
 *Example*
 
-```
+```xml
 <MTOMM-essage xmlns="http://www.test.com/TestMtom/v1">
 ```
 
@@ -244,7 +244,7 @@ For example, if the received message is:
 </MTOMResponse>
 ```
 
-and you want to retrieve the file name from the <FileName> element, the transformation must look like the following:
+and you want to retrieve the file name from the `<FileName>` element, the transformation must look like the following:
 
 ```
 '<?xml version="1.0" encoding="windows-1252"?>
@@ -346,7 +346,7 @@ This example generates customer specific filenames for files received  in the w
 
 The transformation is as follows:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="windows-1252" ?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:ns1="MyMTOMProviderURN" xmlns:System="xalan://java.lang.System" xmlns:java="http://xml.apache.org/xalan/java">
   <xsl:output method="xml" encoding="windows-1252" omit-xml-declaration="no" />

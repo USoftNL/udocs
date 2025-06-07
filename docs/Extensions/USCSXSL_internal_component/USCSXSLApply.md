@@ -45,7 +45,7 @@ select uscsxsl.apply( '<MyClipboardNow/>', 'c:\temp\PrintClipboard.xsl' )
 
 If the file content of the "c:\\temp\\PrintClipboard.xsl" file is:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="windows-1252"?>
 <xsl:stylesheet version="1.0"
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -70,7 +70,7 @@ If the file content of the "c:\\temp\\PrintClipboard.xsl" file is:
 
 and your clipboard currently contains "Hello World", then the result of the transformation is:
 
-```language-xml
+```xml
 <MyClipboardNow>Hello World</MyClipboardNow>
 ```
 

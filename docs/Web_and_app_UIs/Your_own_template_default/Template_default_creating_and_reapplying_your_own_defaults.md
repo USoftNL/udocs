@@ -83,7 +83,7 @@ The *item* alias can be used in placeholders that have a “moustache” syntax 
 
 *Example*
 
-```language-xml
+```xml
 <esi:class name="{table.getName()}" access_type="ownership" e-for="table in dictionary.getTables()">
   …
 </esi:class>
@@ -92,7 +92,7 @@ The *item* alias can be used in placeholders that have a “moustache” syntax 
 
 If the metadata describe 3 tables TABLE_A, TABLE_B, TABLE_C, this example template instruction translates into:
 
-```language-xml
+```xml
 <esi:class name="TABLE_A" access_type="ownership">
    …
 </esi:class>
@@ -107,7 +107,7 @@ If the metadata describe 3 tables TABLE_A, TABLE_B, TABLE_C, this example templa
 
 The number of possible expressions within the placeholder is limited, but you can concatenate values:
 
-```language-xml
+```xml
 <esi:class name="{'Info ' + table.getName()}" access_type="ownership" e-for="table in dictionary.getTables()">
 	<esi:heritage name="{table.getName()}"/>
 </esi:class>
@@ -118,7 +118,7 @@ The number of possible expressions within the placeholder is limited, but you ca
 
 The directive *e-if* is used to conditionally render a block. The block will only be rendered if the directive's expression returns a true value. You can express a logical negation by prefixing an exclamation mark (**!**):
 
-```language-xml
+```xml
 <esi:property name="deletable" value="false" e-if="!table.isDeleteAllowed()"/>
 <esi:property name="insertable" value="false" e-if="!table.isInsertAllowed()"/>
 <esi:property name="updatable" value="false" e-if="!table.isUpdateAllowed()"/>

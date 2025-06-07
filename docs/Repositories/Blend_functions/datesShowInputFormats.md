@@ -24,7 +24,7 @@ dates:ShowInputFormats()
 
 *Example*
 
-```language-xml
+```xml
 <pc:value-of select="dates:ShowInputFormats()"/>
 ```
 

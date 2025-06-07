@@ -9,19 +9,19 @@ id: Guide_to_Blend_debugging
 In practice, the most common way to debug a Blend script is simply to insert temporary statements that provide messages or output for yourself as a developer to inspect. When you are done debugging, you remove these statements.
 To write output to the console during script execution, call:
 
-```language-xml
+```xml
 <pc:ConsoleWrite>
 ```
 
 To output data elements as a response to the console, perhaps in order to see whether certain data are available, for string data, call:
 
-```language-xml
+```xml
 <pc:value-of>
 ```
 
 and, for node sets, call:
 
-```language-xml
+```xml
 <pc:copy-of>
 ```
 
@@ -33,7 +33,7 @@ To send this type of debug information to a file instead of the console, redirec
 
 When debugging long scripts, you can temporarily skip sections by commenting them out:
 
-```language-xml
+```xml
 <!--  -->
 ```
 

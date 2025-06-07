@@ -37,7 +37,7 @@ The required path is a path expression identifying the configuration file that y
 
 *Example*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
     <pc:copy-of select="rulesservice:ReadConfig('c:\usd91\bin64\RulesService-7777.config')"/>
 </example>
@@ -58,7 +58,7 @@ yes
 
 then the return value looks like this:
 
-```language-xml
+```xml
 <example>
    <config>
       <param name="URE.PASSWORD.RDBMSPassword"> o1@(mWVKD'>YL6HAVV=Z4-<8*519>I[J4*#T-R$.?9)1W:\b7XU</param>

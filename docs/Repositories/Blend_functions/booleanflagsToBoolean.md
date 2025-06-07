@@ -59,7 +59,7 @@ verbose=no
 
 The booleanflags:ToBoolean() function is necessary to get this behaviour. If it were omitted, the text "Executed verbosely" would always appear because the test would be whether or not the verbose variable had a non-empty string as a value. This is always the case because of the pc:assign-string-default line.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command">
   <pc:assign-string-default verbose="no"/>
   <pc:if-then test="booleanflags:ToBoolean($verbose)">

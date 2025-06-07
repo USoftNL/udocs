@@ -12,7 +12,7 @@ In USoft applications, all messages are initially formatted in XML. XSL transfor
 
 An example of the XML format of a simple message without parameters is:
 
-```language-xml
+```xml
 <messages>
     <message>
       Rollback Performed
@@ -22,7 +22,7 @@ An example of the XML format of a simple message without parameters is:
 
 An example of the XML format of a simple message with one parameter containing run-time data is:
 
-```language-xml
+```xml
 <messages>
     <message>
       (<param>12</param>) Records committed

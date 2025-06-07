@@ -31,7 +31,7 @@ Returns an XML document in the "Processing:Command" namespace with a \<pc:Variab
 
 *Example*
 
-```language-xml
+```xml
 <pc:assign-string mystring="HelloUniverse"/>
 <pc:defs><somexml>Hi</somexml></pc:defs>
 <pc:assign-nodeset mydefs="{preceding-sibling::pc:defs/*}"/>
@@ -43,7 +43,7 @@ Returns an XML document in the "Processing:Command" namespace with a \<pc:Variab
 
 An example result value is:
 
-```language-xml
+```xml
 <pc:Variables xmlns:pc="Processing.Command">
     <pc:Variable name="mystring">HelloUniverse</pc:Variable>
     <pc:Variable name="mydefs">

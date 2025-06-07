@@ -37,7 +37,7 @@ If you omit pc:indentchars, then pc:indent will use 2 spaces as indentation.
 
 This example uses a Tab character for indentation.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:ignorewhitespace="yes" pc:indent="yes" pc:indentchars="&#9;" >
 <object>
       <height><unknown/></height>
@@ -48,7 +48,7 @@ This example uses a Tab character for indentation.
 
 The effect of running this example as a USoft Blend script is:
 
-```language-xml
+```xml
 <example>
        <object>
               <height>
@@ -63,7 +63,7 @@ The effect of running this example as a USoft Blend script is:
 
 You can specify other indentation characters than spaces.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:ignorewhitespace="yes" pc:indent="yes" pc:indentchars="--" >
 <object>
       <height><unknown/></height>
@@ -74,7 +74,7 @@ You can specify other indentation characters than spaces.
 
 The effect of running this example as a USoft Blend script is:
 
-```language-xml
+```xml
 <example>
 --<object>
 ----<height>

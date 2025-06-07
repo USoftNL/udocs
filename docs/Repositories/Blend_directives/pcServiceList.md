@@ -43,7 +43,7 @@ The pattern is applied to the service's name, not to the display name that is vi
 
 This example gives you all the Windows services of which the name starts with "RulesService".
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
      <pc:ServiceList pattern="RulesService"/>
 </example>
@@ -53,7 +53,7 @@ This example gives you all the Windows services of which the name starts with "R
 
 This example gives you all the Windows services installed on the local computer.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
      <pc:ServiceList pattern=".*"/>
 </example>
@@ -63,7 +63,7 @@ This example gives you all the Windows services installed on the local computer.
 
 The return value of Example 1 looks like this:
 
-```language-xml
+```xml
 <Services>
    <Service DisplayName="RulesService SALES-7755" name="RulesService SALES-7755" MachineName="L3100100247" ServiceType="Win32OwnProcess" status="Running, can be stopped" path="C:\usd911C\bin64\RulesService.exe -run_as_service" pid="4352" />
    <Service DisplayName="RulesService-7093" name="RulesService-7093" MachineName="L3100100247" ServiceType="Win32OwnProcess" status="STOPPED" path=""c:\usd91\bin64\RulesService.exe" -run_as_service -gc=l3100100247.usoft.com" />

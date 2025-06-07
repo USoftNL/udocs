@@ -42,7 +42,7 @@ The \<pc:SqlStatement> element must contain at least one child element. Each chi
 
 This example inserts 2 records in table T_AUTH_ROLE_USER in USoft Authorizer. Each SQL statement has a variable element, which is an Application User name stored in a Blend variable named username.
 
-```language-xml
+```xml
 <pc:SqlStatement alias="x3" commit="commit" >
      <s>insert into T_AUTH_ROLE_USER(app_name,role_name,username) values('MY_APP','DEVELOPER','<pc:value-of select="$username"/>')</s>
      <s>insert into T_AUTH_ROLE_USER(app_name,role_name,username) values('MY_APP','PLANNER','<pc:value-of select="$username"/>')</s>
@@ -53,7 +53,7 @@ This example inserts 2 records in table T_AUTH_ROLE_USER in USoft Authorizer. Ea
 
 If successful, pc:SqlStatement returns, for each statement executed, an XML fragment reporting on the type of operation (Insert, Update, Delete) and the number of rows affected. The return value of the Example in this article could be:
 
-```language-xml
+```xml
 <Insert rowsaffected="1"/>
 <Insert rowsaffected="1"/>
 ```

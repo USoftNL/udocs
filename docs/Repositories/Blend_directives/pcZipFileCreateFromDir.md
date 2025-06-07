@@ -36,7 +36,7 @@ If you set overwrite="yes", any existing ZIP file with the same name will be sil
 
 *Example*
 
-```language-xml
+```xml
 <pc:ZipFileCreateFromDir
      dirpath="c:\temp\zip\mynewzip\mydir"
      filepath="c:\temp\zip\mynewzip.zip"

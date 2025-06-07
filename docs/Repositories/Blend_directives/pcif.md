@@ -38,7 +38,7 @@ If you omit the \<pc:else> element, you can write the construct in a more compre
 
 The element \<PrintThis/> is written to standard output in:
 
-```language-xml
+```xml
 <pc:if test="1=1">
   <pc:then> <PrintThis/> </pc:then>
   <pc:else> <PrintThat/> </pc:else>
@@ -47,7 +47,7 @@ The element \<PrintThis/> is written to standard output in:
 
 The element \<PrintThat/> is written to standard output in:
 
-```language-xml
+```xml
 <pc:if test="1=2">
   <pc:then> <PrintThis/> </pc:then>
   <pc:else> <PrintThat/> </pc:else>

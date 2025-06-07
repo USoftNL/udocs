@@ -47,7 +47,7 @@ Therefore, if MDAC version 2.1 is installed, you must check the following:
 
 - In the Registry Editor, navigate to the Microsoft OLE DB Provider for ODBC entry. This entry has class ID:
 
-**HKEY_CLASSES_ROOT\\CLSID\\{c8b522cb-5cf3-11ce-ade5-00aa0044773d}**
+**`HKEY_CLASSES_ROOT\CLSID\{c8b522cb-5cf3-11ce-ade5-00aa0044773d}`**
 
 - If the Default value for this entry is 'MSDASQL' and an 'OLEDB_SERVICES' entry exists, you must delete the OLEDB_SERVICES entry.
 

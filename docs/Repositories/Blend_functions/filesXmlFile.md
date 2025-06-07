@@ -38,13 +38,13 @@ files:XmlFile( *filepath* )
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:evaluate select="variable:Set('envxml', files:XmlFile('env.xml'))"/>
 ```
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:assign-nodeset mynodeset="{files:XmlFile('config.xml')}" />
 <pc:assign myinstalldir="{$mynodeset//computer[@name=environment:MachineName()]/@installdir}"/>
 ```

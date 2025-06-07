@@ -45,7 +45,7 @@ select uscsxsl.blend(
 
 If your clipboard currently contains "Hello World", the result is:
 
-```language-xml
+```xml
 <Example>Hello World</Example>
 ```
 

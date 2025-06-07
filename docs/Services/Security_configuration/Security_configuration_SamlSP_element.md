@@ -8,7 +8,7 @@ In a **SecurityConfig.xml**security configuration file, the \<SamlSP> element co
 
 *Example*
 
-```language-xml
+```xml
 <SamlSP samlVersion="urn:oasis:names:tc:SAML:2.0:protocol" metadataURL="https://adfs.usoft.com/federationmetadata/2007-06/federationmetadata.xml" sessionName="pet_saml" spFriendlyName="PET91_saml" lifeTime="1800" landingPage="" nameQualifier="">
    <Attributes representation="adfs" description="" serviceName="travel_saml" nameIDFormats="EMAIL ">
       <Attribute require="false" friendlyName="E-Mail Address" name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" />

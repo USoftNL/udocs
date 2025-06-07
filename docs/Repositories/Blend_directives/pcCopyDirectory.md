@@ -35,7 +35,7 @@ If overwrite="yes" is passed, then any existing content in the destination folde
 
 *Example*
 
-```language-xml
+```xml
 <pc:CopyDirectory source="{$sourcedir}" destination="{$serverdir}" overwrite="yes">
    <pc:Succeeded>
       <pc:ConsoleWrite>Server deployed to <pc:value-of select="$serverdir"/>.</pc:ConsoleWrite>   

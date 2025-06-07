@@ -19,16 +19,16 @@ This object exposes the Web benchmark recorder engine API.
 
 The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback engine.
 
-### breakpoints: {}
+### breakpoints: `{}`
 
 |        |        |
 |--------|--------|
 |**Description**|<p>Contains all breakpoints set in the *Edit test actions and parameters* dialog. The breakpoints are only listed in the context of the currently selected test. Each breakpoint is set as a key-value (test step :`true` or `false`) pair object</p>|
-|**Example**|<p>A test with a breakpoint set at step five:</p><p>breakpoints: {{5:true}}</p>|
+|**Example**|<p>A test with a breakpoint set at step five:</p><p>breakpoints: `{{5:true}}`</p>|
 
 
 
-### createWaitFunctions: ƒ (entries)
+### createWaitFunctions: `ƒ (entries)`
 
 |        |        |
 |--------|--------|

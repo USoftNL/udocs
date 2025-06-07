@@ -260,7 +260,7 @@ To script behaviour *between* windows, you can pass objects of the calling windo
 My_Days_Property( Days( Self() ).Window.Create() )
 ```
 
-In this technique, you need to create one or more user-defined properties in the called window class (here: the Days window class). For details, search "window interaction". This object-oriented technology, based on internal object IDs, replaces an obsolete path technology based on a hierarchy of embedding runtime windows, where <- was a navigation path to the shell of the current window, <-<- a navigation path to the shell of the parent window, and **name* a wildcard navigating to the next descendent match of *name*, as explained to some length in the ac-rel() help topic.
+In this technique, you need to create one or more user-defined properties in the called window class (here: the Days window class). For details, search "window interaction". This object-oriented technology, based on internal object IDs, replaces an obsolete path technology based on a hierarchy of embedding runtime windows, where `<-` was a navigation path to the shell of the current window, `<-<-` a navigation path to the shell of the parent window, and **name* a wildcard navigating to the next descendent match of *name*, as explained to some length in the `ac-rel()` help topic.
 
 
 :::note

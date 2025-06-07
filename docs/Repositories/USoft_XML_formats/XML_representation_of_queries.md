@@ -8,7 +8,7 @@ XML documents can contain query instructions with conditions for the records to 
 
 *Syntax*
 
-```language-xml
+```xml
 <Query>
     <Table Name="value">
         <Column Name="value" Condition="value"
@@ -32,7 +32,7 @@ Furthermore:
 
 *Example*
 
-```language-xml
+```xml
 <Query>
     <Table Name="value">
         <Column Name="value" Condition="value"

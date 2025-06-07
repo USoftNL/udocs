@@ -45,7 +45,7 @@ If you run your USoft web application with a Page Engine defined in USoft Servic
 
 If you want to minimise caching, set the Cache Refresh Period for your Publication Configuration to 0. This results in the following element in “uspublication.xml”:
 
-```language-xml
+```xml
 <CACHE_REFRESH PERIOD="0"/>
 ```
 

@@ -12,7 +12,7 @@ A travel agency wants to create a technical interface for message events that fo
 
 Participant reservation is the operation of registering a new participant in a reservation. It involves data such as the following.
 
-```language-xml
+```xml
 <ParticipantRegistrationEvent>
    <EventDateTime>2018-12-31T11:00:00</EventDateTime>
    <ReservationId>RES10000</ReservationId>
@@ -25,7 +25,7 @@ Participant reservation is the operation of registering a new participant in a r
 
 Participant arrival is the operation of registering that a participant has arrived at a specific location to join a group (for example, when the tour starts). It involves data such as the following.
 
-```language-xml
+```xml
 <ParticipantArrivalEvent>
    <EventDateTime>2019-03-10T11:00:00</EventDateTime>
    <ReservationId>RES10000</ReservationId>
@@ -38,7 +38,7 @@ Participant arrival is the operation of registering that a participant has arriv
 
 Participant departure is the operation of registering that a participant has left the group (for example, at the end of the tour). It involves data such as the following.
 
-```language-xml
+```xml
 <ParticipantDepartureEvent>
    <EventDateTime>2019-03-20T16:10:00</EventDateTime>
    <ReservationId>RES10000</ReservationId>

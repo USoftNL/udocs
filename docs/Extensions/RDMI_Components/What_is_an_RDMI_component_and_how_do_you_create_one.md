@@ -33,14 +33,14 @@ USoft has 3 types of RDMI components.
 5. Consider what else is needed to make the USoft calls that you want to make to this component. Special action may or may not be needed in the following fields:
 
 - You may need to make settings about the component's [state](/docs/Extensions/RDMI_Components/Component_state.md) or lack of statefulness.
-- You may need to define [Constructor SQL]().
+- You may need to define [Constructor SQL](/docs/Extensions/RDMI_Components/Constructor_SQL.md).
 - You may need to define a [query protocol](/docs/Extensions/RDMI_Components/Query_protocol_component_table.md) or [aggregate protocol](/docs/Extensions/RDMI_Components/Aggregate_protocol.md).
 
 ## Internal RDMI components
 
 USoft ships a set of *internal RDMI components* for general tasks. These are an integral part of the platform. They are called in the same way as other RDMI components.  The only difference is that they are automatically available: you do not need to declare the component as an RDMI component first.
 
-Details about these internal components can be found [here](/docs/Extensions).
+[Details about these internal components](/docs/Extensions).
 
 |**Internal RDMI component**|**Purpose**|
 |--------|--------|

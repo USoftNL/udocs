@@ -118,7 +118,7 @@ startupoptions
 *Example*
  
 
-```language-xml
+```xml
 <pc:NewBinder
     filepath="c:\temp\mybinderH.usb"
     projectName="TEST"

@@ -48,7 +48,7 @@ Accepted   Declined
 Approved   Rejected
 ```
 
-```language-xml
+```xml
 <pc:define-boolean-flags>
      <flag true="Accepted" false="Declined"/>
      <flag true="Approved" false="Rejected"/>

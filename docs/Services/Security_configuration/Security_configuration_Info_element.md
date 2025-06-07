@@ -8,7 +8,7 @@ In a **SecurityConfig.xml**security configuration file, the \<Info> element cont
 
 *Example*
 
-```language-xml
+```xml
 <Info lang="en" contactEmail="atechnicalperson@usoft.com" contactName="Technical Person" contactType="technical" organisationURL="www.usoft.com" displayName="Usoft" organisationName="USoft"/>
 
 ```

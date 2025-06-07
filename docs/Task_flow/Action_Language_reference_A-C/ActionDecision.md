@@ -49,7 +49,7 @@ Do not confuse input parameter numbering with the :1, :2... placeholders that yo
 :::tip
 
 When you define Jobs,  **ActionDecision()** opens the way to [branching and looping in Decisions](/docs/Task_flow/Decisions/Decision_branching_and_looping.md).
-If you want to execute SQL in a job, your first choice should be SQL Tasks. But if you need the flexibility of Decisions, then use Action Tasks that contain ActionDecision() to access Decisions. One way you can use Decisions is to have [SqlScript()]() execute SQL only if certain conditions (expressed in Decision SQL) are met.
+If you want to execute SQL in a job, your first choice should be SQL Tasks. But if you need the flexibility of Decisions, then use Action Tasks that contain ActionDecision() to access Decisions. One way you can use Decisions is to have [SqlScript()](/docs/Task_flow/Action_Language_Reference_S-Z/SqlScript.md) execute SQL only if certain conditions (expressed in Decision SQL) are met.
 
 :::
 

@@ -27,7 +27,7 @@ where alias is the alias that was provided when \<pc:RunRulesService> was called
 
 *Example*
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
   <pc:RunRulesService waittime="10000"
         user="MYNAME" pwd="MYPWD" rdbmstype="oracle" connection="XE" application="MYAPP"

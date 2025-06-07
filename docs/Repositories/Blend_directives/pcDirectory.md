@@ -54,13 +54,13 @@ The optional **before** and **after** allow you to specify that you only want in
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp" />
 ```
 
 An example result is:
 
-```language-xml
+```xml
 <Directory dirpath="c:\temp\" dirname="temp" lastwrite="2019/0109100614">
   <Directory dirpath="c:\temp\mydir2" dirname="mydir2" lastwrite="2019/0109100620">
     <File filepath="c:\temp\mydir2\myfile4.txt" filename="myfile4.txt" lastwrite="2019/0109100021" />
@@ -73,13 +73,13 @@ An example result is:
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp" select="Directory/File" />
 ```
 
 An example result is:
 
-```language-xml
+```xml
 <File filepath="c:\temp\myfile1.xml" filename="myfile1.xml" lastwrite="2019/0109093257" />
 <File filepath="c:\temp\myfile2.xml" filename="myfile2.xml" lastwrite="2019/0109083456" />
 <File filepath="c:\temp\myfile3.txt" filename="myfile3.txt" lastwrite="2019/0108180520" />
@@ -87,13 +87,13 @@ An example result is:
 
 *Example 3*
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp" select="Directory/File" filter="*.xml" />
 ```
 
 An example result is:
 
-```language-xml
+```xml
 <File filepath="c:\temp\myfile1.xml" filename="myfile1.xml" lastwrite="2019/0109093257" />
 <File filepath="c:\temp\myfile2.xml" filename="myfile2.xml" lastwrite="2019/0109083456" />
 This is more efficient than the following, because the result is filtered upfront, as opposed to the whole set being retrieved before it is filtered:
@@ -106,7 +106,7 @@ You can optionally specify that you only want to see items that have a timestamp
 
 In the following example, the result only contains XML files that have a timestamp between 1 and 15 of January, 2019:
 
-```language-xml
+```xml
 <pc:Directory
      filepath="c:\temp" filter="*.xml"
      before="01-01-2019"
@@ -131,7 +131,7 @@ The use of the before and after attributes yields an uncertain result if applied
 
 To loop over a set or files or directories, you can use the following 2 directives. This particular example simply outputs a list of filenames.
 
-```language-xml
+```xml
 <pc:assign-nodeset textfiles="{.}">
    <pc:Directory filepath="c:\temp" select="Directory/File" filter="*.xml"/>
 </pc:assign-nodeset>

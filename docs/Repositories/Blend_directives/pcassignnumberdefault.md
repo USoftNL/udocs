@@ -34,7 +34,7 @@ This example assigns to variable "total" the attribute value found at the end of
 total=500
 ```
 
-```language-xml
+```xml
 <pc:assign-number-default
     total="//booking[@id=$id]/@total" />
 ```

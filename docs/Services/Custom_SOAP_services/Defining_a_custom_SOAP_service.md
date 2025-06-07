@@ -60,9 +60,12 @@ To associate the custom SOAP service with a connection:
 
 - 1.  In the "SOAP Services" window, for the SOAP service, click the Connections tab and specify the connection that you want the service to use.
 - 2.  Save.
-- > [!TIP]
-> Get a list of available connections by pressing, in the Connections tab, the F12 key.
 
+:::tip
+
+Get a list of available connections by pressing, in the Connections tab, the F12 key.
+
+:::
 
 
 ### (Re)publishing the custom SOAP service at the server

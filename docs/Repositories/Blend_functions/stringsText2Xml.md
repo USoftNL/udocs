@@ -39,7 +39,7 @@ The required *boundary-aliases* is a quoted string of 3 character sequences sepa
 
 *Example*
 
-```language-xml
+```xml
 <root xmlns:pc="Processing.Command" pc:hideme="true">
   <pc:defs>
     URE..TEXT. Application
@@ -51,7 +51,7 @@ The required *boundary-aliases* is a quoted string of 3 character sequences sepa
 
 This example returns the following XML document. For comments, see the sections below the XML document.
 
-```language-xml
+```xml
 <P>
   <l>
     <elem ws="">URE</elem>

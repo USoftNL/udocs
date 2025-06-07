@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, an \<Authenticator> element contai
 
 *Example*
 
-```language-xml
+```xml
 <Authenticator 
   name="Fixed Password Sample" 
   type="FixedPassword" 

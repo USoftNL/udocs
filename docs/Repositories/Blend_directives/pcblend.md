@@ -30,7 +30,7 @@ The result is the same as when the nodes pointed at are passed to **ublendit.exe
 
 *Syntax*
 
-```language-xml
+```xml
 <pc:blend
   {
     pc:filepath = "*file-path*" |
@@ -73,7 +73,7 @@ Hello world
 
 This example demonstrates using **pc:xpath** to point at the target nodes to be executed:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="yes">
   <pc:defs>
     <pc:text>Hello </pc:text>
@@ -105,7 +105,7 @@ pc:xpath="//pc:*[@id='*id*']"
 
 Here is the example:
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="yes">
 	<pc:defs id="callme">
 		<pc:text> once </pc:text><pc:value-of select="$msg"/>
@@ -133,7 +133,7 @@ Crime is bad
 
 This example demonstrates using embedded XML as the code block to be executed. This example also illustrates certain aspects of variable scope discussed in the next section.
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign" pc:ignorewhitespace="yes" pc:hideme="yes">
 	<pc:assign-string msg="Crime is bad"/>
 	<pc:defs id="42">
@@ -172,7 +172,7 @@ If you pass **pc:samecontext=true** and the called context uses **pc:terminate**
 
 \<pc:blend> can lead to infinite recursion, eg.
 
-```language-xml
+```xml
 <pc:blend pc:xpath="/*" />
 ```
 

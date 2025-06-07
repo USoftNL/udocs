@@ -8,7 +8,7 @@ In a **SecurityConfig.xml**security configuration file, the \<SecurityConfig> el
 
 *Example*
 
-```language-xml
+```xml
 <SecurityConfig config="TRAVEL_SAML">
    <KeyStore pwd="n1u//r46" type="PKCS12">certificate value here
    </KeyStore>

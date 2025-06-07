@@ -8,7 +8,7 @@ In a **config.xml**server configuration file, the \<Connections> element contain
 
 *Example*
 
-```language-xml
+```xml
 <Connections>
    <Connection name="myconnection" application="TRAVEL" sessionName="myconnection" sessionTimeout="600">
       <RulesServices>

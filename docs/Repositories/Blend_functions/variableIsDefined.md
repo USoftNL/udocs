@@ -41,7 +41,7 @@ The return value is true if a variable by the name of string has been initialise
 
 A variable may be initialised and have the empty string ( '' ) as a value. The result of the following is true:
 
-```language-xml
+```xml
 <pc:assign-string-default rdbms="" />
 <pc:assign-boolean isdefined="{variable:IsDefined('rdbms')}"/>
 <pc:value-of select="$isdefined"/>

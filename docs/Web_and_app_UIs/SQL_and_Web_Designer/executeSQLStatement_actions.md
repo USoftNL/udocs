@@ -113,8 +113,8 @@ This code snippet illustrates that you can use **hostvars** settings to pass val
 
 `USoft 10.x``{.vs_10}`
 
-On USoft 10, for queries, prefer using a [SQLDataSource]() instead of an executeSQLStatement action.
+On USoft 10, for queries, prefer using a [SQLDataSource](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md) instead of an executeSQLStatement action.
 
 `USoft 9.x``{.vs_10}`
 
-On USoft 9, see the [USoft 9 alternative for SQLDataSource]() if you want to "catch” a query result in your page so that you can do something with it.
+On USoft 9, see the USoft 9 alternative for SQLDataSource if you want to "catch” a query result in your page so that you can do something with it.

@@ -36,7 +36,7 @@ If **select** is absent, *content* is first converted to a string and then copie
 
 This example returns the XML document in the "env.xml" file in XML comment brackets:
 
-```language-xml
+```xml
 <pc:assign-nodeset envxml="{files:XmlFile('env.xml')}"/>
 <pc:comment-of select="$envxml"/>
 ```

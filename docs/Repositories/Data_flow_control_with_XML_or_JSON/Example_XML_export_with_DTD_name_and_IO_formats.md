@@ -21,7 +21,7 @@ ORDER BY   id
 
 This XML export exports all orders between November 11 and November 14. The XML export results in:
 
-```language-xml
+```xml
 <!DOCTYPE Orders SYSTEM "Orders.dtd">
 <New_Orders documentName="New Orders">
     <ORDER ID="000123" ORDER_DATE="2000-11-12" TOTAL_PRICE="1378,34"/>

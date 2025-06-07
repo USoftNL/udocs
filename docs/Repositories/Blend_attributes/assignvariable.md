@@ -32,7 +32,7 @@ This example executes a script ( ... ) for each of the "computer" elements found
 
 In each interation, the "name" attribute of "computer" is assigned to a variable called "result". This variable value may be referred to as **$result**.
 
-```language-xml
+```xml
 <pc:each
    select="env/computers/computer"
    assign:result="@name"

@@ -10,13 +10,13 @@ id: USXSL_internal_component
 :::note
 
 This article contains general information about the **USXSL** internal component.
-For an alphabetic list of USXSL methods, click [here](/docs/Extensions/USXSL_internal_component).
+For an alphabetic list of [USXSL methods](/docs/Extensions/USXSL_internal_component).
 
 :::
 
 ## What is it?
 
-The USXSL internal component is an XSLT 1.0 processor that is a 3rd party C++ implementation (Xalan/Xerces) to which USoft has added the capability to [mix in USoft application data]() on condition that you provide this data in a valid XML format.
+The USXSL internal component is an XSLT 1.0 processor that is a 3rd party C++ implementation (Xalan/Xerces) to which USoft has added the capability to mix in USoft application data on condition that you provide this data in a valid XML format.
 
 ## Intended use
 
@@ -31,12 +31,12 @@ Use this component in any way that you would normally use XSLT 1.0:
 
 Use it also to:
 
-- [Mix USoft application data]() into an XSLT transformation.
+- Mix USoft application data into an XSLT transformation.
 
 
 :::tip
 
-Consider switching to the [USCSXSL component]() which offers the same as USXSL but also extension functions.
+Consider switching to the USCSXSL component which offers the same as USXSL but also extension functions.
 
 :::
 
@@ -50,13 +50,13 @@ Correspondingly, in this case, the USXSL component produces the attribute encodi
 
 By default, the USXSL component produces UTF-8 output encoding externally, ie., when the result is written to a file on the file system, as is the case when you call **USXSL.Apply2File**, or is passed to a third party by way of a webservice call. This is because UTF-8 is a common default in these cases. You can obtain a different external output encoding by specifying it as the encoding attribute of the \<xsl:output> instruction in the XSL stylesheet, for example:
 
-```language-xml
+```xml
 <xsl:output encoding="UTF-16"/>
 ```
 
 or
 
-```language-xml
+```xml
 <xsl:output encoding="ISO-8859-1"/>
 ```
 

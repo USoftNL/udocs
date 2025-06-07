@@ -4,9 +4,6 @@ id: Join_constructs
 
 # Join constructs
 
-
-
-
 :::note
 
 This article is about **Join constructs** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
@@ -42,7 +39,7 @@ If one table has m rows and the other n rows, joining them WITHOUT any join-cond
 To express join conditions, you can alternatively use RELATE or WHERE. USoft recommends RELATE:
 
 - RELATE clauses connect the tables via a USoft relationship declared in USoft Definer. The join is made by comparing values of the columns declared for the relationship. The relationship as a whole is identified by the combination of parent, role and child: parent is the Parent Object, role is the Parent Role, child is the Child Object of the relationship. RELATE is a USoft-specific extension to the SQL language. RELATE is equivalent to a WHERE condition with an equality operator.
-- WHERE clauses that typically test the equality of foreign key values in the child table to primary key values in the parent table. Other comparison operators ( >, <, >=, <=, <>, !=) are also supported.
+- WHERE clauses that typically test the equality of foreign key values in the child table to primary key values in the parent table. Other comparison operators ( `>, <, >=, <=, <>, !=`) are also supported.
 
 *Example 1: RELATE*
 
@@ -98,7 +95,7 @@ The required top‑level *join-clause* links 2 data sets (the *operands* of the 
 
 It is customary that an ON sub-clause restricts the query result to combinations of related data.
 
-If present, the ON keyword introduces a *join-condition* that typically uses the **=** comparison operator to test the equality of foreign key values in the child table to primary key values in the parent table. Other comparison operators ( >, <, >=, <=, \<>, !=) are also supported. Within the ON clause, multiple conditions may be combined by using logical operators, eg., ON ... AND ... . .
+If present, the ON keyword introduces a *join-condition* that typically uses the **=** comparison operator to test the equality of foreign key values in the child table to primary key values in the parent table. Other comparison operators ( `>, <, >=, <=, \<>, !=`) are also supported. Within the ON clause, multiple conditions may be combined by using logical operators, eg., ON ... AND ... . .
 
 The ON sub-clause is optional. If you omit the ON sub-clause, if one data set has **m** rows and the other **n** rows, the query result has **m * n** rows (Cartesian product).
 
@@ -141,7 +138,7 @@ The effect of outer join is that, in addition to returning all record combinatio
 
 Extra output records that are added tot the result in this way will have NULL values for any output columns of the other data set.
 
-The required ON clause typically uses the equality operator, as in the Example below. Other comparison operators ( >, <, >=, <=, \<>, !=) are also supported. Within the ON clause, multiple conditions may be combined by using logical operators, eg., ON ... AND ... . .
+The required ON clause typically uses the equality operator, as in the Example below. Other comparison operators ( `>, <, >=, <=, \<>, !=`) are also supported. Within the ON clause, multiple conditions may be combined by using logical operators, eg., ON ... AND ... . .
 
 *Example 1*
 
@@ -187,7 +184,7 @@ The only difference with the standard join syntax with WHERE clauses, shown at t
 (+)
 ```
 
-modifier following it. This (+) modifier may be placed, alternatively, at the first-mentioned column or at the second-mentioned column. The connecting operator is typically the equality operator ( = ). Other comparison operators ( >, <, >=, <=, \<>, != ) are also supported.
+modifier following it. This (+) modifier may be placed, alternatively, at the first-mentioned column or at the second-mentioned column. The connecting operator is typically the equality operator ( = ). Other comparison operators ( `>, <, >=, <=, \<>, !=` ) are also supported.
 
 The effect of adding the (+) modifier to table‑1.column is that, in addition to record combinations of table-1 and table-2 that satisfy the WHERE clause, a dummy NULL record is added to the table‑1 data set.
 

@@ -36,7 +36,7 @@ For each object, the XML Tag Name property specifies this class. For example, th
 
 This classification is stored in the repository and in the generated (GUI) XML documents. These documents represent the internal page structure and presentation definitions of all pages. The important thing is that at run time, these class definitions are also generated into the client HTML documents. Here is a fragment of a generated client HTML file:
 
-```language-xml
+```xml
 <table id="ResultRecordRangeGroup" class="ContainerControl" style="width:100%;">
    <tr>
       <td>
@@ -68,7 +68,7 @@ td.GridCellControl{
 
 Web Designer classes are specified in the class attribute of HTML elements in the client HTML documents. For example:
 
-```language-html
+```html
 <input class="InputControl">
 ```
 

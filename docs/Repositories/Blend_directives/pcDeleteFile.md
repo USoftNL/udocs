@@ -29,7 +29,7 @@ This call has no effect and raises no error if no file is found at filepath.
 
 *Example*
 
-```language-xml
+```xml
 <pc:DeleteFile source="{path:Combine($mydir, 'old.xml')}" />
 ```
 

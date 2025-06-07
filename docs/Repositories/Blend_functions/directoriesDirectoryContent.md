@@ -50,14 +50,14 @@ The result is filtered using *filter* and *level*, and, optionally, *after* and 
 
 *Example 1*
 
-```language-xml
+```xml
 <pc:assign-nodeset mycontentslist="{directories:DirectoryContent($workingdir, '*.*', '1', '', '')}" />
 <pc:copy-of select="$mycontentslist"/>
 ```
 
 This example could return:
 
-```language-xml
+```xml
 <Directory dirpath="c:\usoft\1.0\flatfiles\using" dirname="using" lastwrite="2018/0103123145">
   <File filepath="c:\usoft\1.0\flatfiles\using\config.xsl" filename="config.xsl" lastwrite="2018/0103125957" />
   <File filepath="c:\usoft\1.0\flatfiles\using\sample.xsl" filename="sample.xsl" lastwrite="2018/0103123145" />
@@ -71,7 +71,7 @@ This example could return:
 
 *Example 2*
 
-```language-xml
+```xml
 <pc:each
   using="directories:DirectoryContent($workingdir, '*.*', '1', '', '')"
   select="Directory/File[not(@filename='deploy.xml')]

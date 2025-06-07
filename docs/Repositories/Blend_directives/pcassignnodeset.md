@@ -34,7 +34,7 @@ For each variable, *variable* identifies the variable by name and *expr* is the 
 
 This example assigns to a variable named tables the node set made up of the child elements of the \<Tables> child element of the context node.
 
-```language-xml
+```xml
 <pc:assign-nodeset   tables="{Tables/*}" />
 ```
 
@@ -42,7 +42,7 @@ This example assigns to a variable named tables the node set made up of the chil
 
 This example assigns to a variable named registry the contents of an XML document on the file system identified by a path expression.
 
-```language-xml
+```xml
 <pc:assign-nodeset   registry="..\registry.xml" />
 ```
 
@@ -50,7 +50,7 @@ This example assigns to a variable named registry the contents of an XML documen
 
 This example assigns to a variable named servers a node set found in the XML document stored in the registry variable.
 
-```language-xml
+```xml
 <pc:assign-string   registry="{files:XmlFile('..\registry.xml')}">
 <pc:assign-nodeset  servers="{$registry/Computers/Computer[@name=$thiscomputer]/Servers/Server}" />
 ```

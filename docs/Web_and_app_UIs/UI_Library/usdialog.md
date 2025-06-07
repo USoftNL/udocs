@@ -49,7 +49,7 @@ Prefer [$.udb.dialog()](/docs/Web_and_app_UIs/UDB_udb/udbdialog.md) if you want 
 
 :::warning
 
-**usdialog()** documentation is **deprecated** in USoft 11. Prefer calling methods and acting on events exposed by the native HTML **<dialog>** element.
+**usdialog()** documentation is **deprecated** in USoft 11. Prefer calling methods and acting on events exposed by the native HTML `<dialog>` element.
 
 :::
 
@@ -145,7 +145,7 @@ For an example of how to add functionality to the buttons, see *Example 3* at th
 
 1.Add an HTMLControl control to your page. Set the HTML property of this control to:
 
-```language-html
+```html
 <div class="my-dialog">My text</div>
 ```
 
@@ -172,7 +172,7 @@ This shows the principle of displaying previously hidden HTML as a modal dialog,
 
 1.Add an HTMLControl control to your page. Set the HTML property of this control to:
 
-```language-html
+```html
 <div id="my-dialog"><p>My text</p></div>
 ```
 
@@ -192,7 +192,7 @@ This shows the principle of styling a dialog in the HTML code.
 
 1.Add an HTMLControl control to your page. Set the HTML property of this control to:
 
-```language-html
+```html
 <div class="modal hide">
   <div class="my-dialog">
     <div class="dialog-content modal-content">

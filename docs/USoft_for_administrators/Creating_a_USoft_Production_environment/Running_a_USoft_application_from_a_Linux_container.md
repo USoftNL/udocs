@@ -34,7 +34,7 @@ For more information on Docker storage drivers, go to: [Docker Storage Documenta
 ## Prerequisites
 
 - [Docker engine](https://docs.docker.com/engine/)
-- [Valid credentials to USoft's Azure Container Registry (ACR)]()
+- Valid credentials to USoft's Azure Container Registry (ACR)
 - [Access to an application database](/docs/USoft_for_administrators/Installing_USoft)
 
 ## USoft Docker image

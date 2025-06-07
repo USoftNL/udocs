@@ -21,7 +21,7 @@ This directive is a synonym of [pc:blend](/docs/Repositories/Blend_directives/pc
 
 *Syntax*
 
-```language-xml
+```xml
 <pc:call
   {
     pc:filepath = "*file-path*" |

@@ -20,7 +20,7 @@ http://localhost:8090/mysoapservice
 
 The XML message is:
 
-```language-xml
+```xml
 <Reservation id=”154”>
   <Participants>
     <Participant first_name=”Albert” last_name=”SMITH”>

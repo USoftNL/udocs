@@ -119,7 +119,7 @@ You are given a form in which to submit a message.
 
 4. Specify that your message is XML, then submit the following message:
 
-```language-xml
+```xml
 <MyClientStructure>
   <FirstName>Roger</FirstName>
   <FamilyName>WINSTON</FamilyName>

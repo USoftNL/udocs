@@ -27,7 +27,7 @@ This document format is not re-importable by calling [XML.Import](/docs/Extensio
 *Syntax*
  
 
-```language-xml
+```xml
 <SQLXMLExport>
   <Meta>
     <OutputExpressions>
@@ -64,7 +64,7 @@ group by    t.destination, t.tour_type, tp.num_days
 
 is this Meta-Rows-Fields document:
 
-```language-xml
+```xml
 <SQLXMLExport>
   <Meta>
     <OutputExpressions>

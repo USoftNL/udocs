@@ -32,7 +32,7 @@ A *literal expression* is an expression made up of Unicode characters and not sp
 
 XPath does not have a special data type for dates or clock times. USoft Blend is able to interpret (XPath and non-XPath) string expressions as indications of date or time by applying the list of format masks that is returned by:
 
-```language-xml
+```xml
 <pc:value-of select="dates:ShowInputFormats" />
 ```
 
@@ -152,8 +152,8 @@ Each path is either a file path or a folder path:
 
 |**Data type**|**Explanation**|**Examples**|
 |--------|--------|--------|
-|*file-path*|A *path* in which the rightmost step is interpreted as the name of a file, or as an expression pointing to a set of files.|`c:\temp\MyExample.xml`<p> </p>|
-|*folder-path*|A *path* in which the rightmost step is interpreted as the name of a folder.|<pre><code>c:\temp\MySubDirectory<br/><br/>c:\temp\MySubDirectory\</code></pre><p> </p>|
+|*file-path*|A *path* in which the rightmost step is interpreted as the name of a file, or as an expression pointing to a set of files.|`c:\temp\MyExample.xml`|
+|*folder-path*|A *path* in which the rightmost step is interpreted as the name of a folder.|`c:\temp\MySubDirectory` `c:\temp\MySubDirectory\`|
 
 
 
@@ -188,7 +188,7 @@ c:\temp\*.xml
 
 A file name pattern may also occur as an attribute value in selected contexts, for example, as the value of the filter attribute of pc:Directory:
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp" filter="*.xml">
 ```
 
@@ -229,7 +229,7 @@ Embedded XML is a specialised use of XML. It is specific to the USoft Blend fram
 *Example*
 This example shows XML embedded in a pc:Dialog element.
 
-```language-xml
+```xml
 <pc:Dialog>
    <Form w="250">
       <Title>USoft Blend dialog</Title>
@@ -247,7 +247,7 @@ In some cases you can pass embedded XML as part of your script. The example of t
 
 Some directives return embedded XML as an output value. For example, pc:Directory returns embedded XML that describes the files and folders of a directory:
 
-```language-xml
+```xml
 <Directory dirpath="c:\temp\" dirname="temp" 
         lastwrite="2019/0109100614">
   <Directory dirpath="c:\temp\mydir2" dirname="mydir2" 
@@ -266,11 +266,11 @@ Some directives return embedded XML as an output value. For example, pc:Director
 
 To *change* the embedded XML that you get as output, use the special pc:return attribute on the directive. Values of **pc:return** take the root node of the embedded XML as the root node (for absolute location path values) and as the context node (for relative location path values), so that the two following location paths return the same result:
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp" pc:return="/Directory/File" />
 ```
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp" pc:return="Directory/File" />
 ```
 
@@ -279,12 +279,12 @@ To *change* the embedded XML that you get as output, use the special pc:return a
 To *refer*, later in your Blend script, to information in the embedded XML that you get as output, use an **assign:variable** attribute on the directive.
 The following example selects the /Directory/File nodes from the embedded XML returned by pc:Directory. You can refer to these nodes later in your script by writing **$myfiles**. Values of **assign:variable** take the root node of the embedded XML as the root node (for absolute location path values) and as the context node (for relative location path values), so that the following 2 location paths return the same result:
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp"
     assign:myfiles="/Directory/File" />
 ```
 
-```language-xml
+```xml
 <pc:Directory filepath="c:\temp"
     assign:myfiles="Directory/File" />
 ```
@@ -296,7 +296,7 @@ As a result, if you simply want to suppress the return XML altogether, you can w
 
 **Embedded XML as a variable set: pc:defs**
 
-You can read, configure, and edit embedded XML programmatically. One way is to place embedded XML in a **<pc:defs>** section of your script. You can then mobilise it when you need it, for example, to produce a certain type of dialog with **<pc:Dialog>**. If you work in this way, embedded XML has the role of a variable set.
+You can read, configure, and edit embedded XML programmatically. One way is to place embedded XML in a **`<pc:defs>`** section of your script. You can then mobilise it when you need it, for example, to produce a certain type of dialog with **`<pc:Dialog>`**. If you work in this way, embedded XML has the role of a variable set.
 
 ## SQL expressions
 
@@ -402,7 +402,7 @@ and special abbreviated notations:
 
 **Example 1**
 
-```language-xml
+```xml
 <pc:ReadXmlFile filepath="c:\temp\myxml.xml" assign:myvar="/*/Resources/RESOURCE[@type='SALES']" />
 ```
 
@@ -411,7 +411,7 @@ This directive first reads the external file, which is an XML document, and then
 
 **Example 2**
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command"/>
   <pc:defs>
      <File path="c:\temp\assets.xml" entryname="assets/assets.xml"/>
@@ -421,11 +421,11 @@ This directive first reads the external file, which is an XML document, and then
 </example>
 ```
 
-Here, the absolute location path **/*/pc:defs/File** has the root node of the script itself (the parent node of the <example> document node) as its root node. The **pc:ZipFileCreate** directive refers back to the **pc:defs** section to find its input information.
+Here, the absolute location path **/*/pc:defs/File** has the root node of the script itself (the parent node of the `<example>` document node) as its root node. The **pc:ZipFileCreate** directive refers back to the **pc:defs** section to find its input information.
 
 **Example 3**
 
-```language-xml
+```xml
 <pc:ZipFileCreate filepath="c:\temp\mynewzip.zip" pc:return="*[contains(@path,'.xml')]">
      <File path="c:\temp\assets.xml" entryname="assets/assets.xml"/>
      <File path="c:\temp\resources.xml" entryname="mypath/resources.xml"/>
@@ -433,8 +433,8 @@ Here, the absolute location path **/*/pc:defs/File** has the root node of the sc
 </pc:ZipFileCreate>
 ```
 
-Here, the relative location path ***[contains(@path,'.xml')]** has as context node the root node of the return value of pc:ZipFileCreate, which is the same as the embedded node set, ie., the non-visible parent node of the three <File> elements.
-This example creates a new ZIP file and returns a list of all those files zipped that have the .XML extension. The first two <File> elements referring to files with an ".xml" extension refer to the content that is zipped. The last <File> element, which refers to a file with extension '.txt', is ignored.
+Here, the relative location path ***[contains(@path,'.xml')]** has as context node the root node of the return value of pc:ZipFileCreate, which is the same as the embedded node set, ie., the non-visible parent node of the three `<File>` elements.
+This example creates a new ZIP file and returns a list of all those files zipped that have the .XML extension. The first two `<File>` elements referring to files with an ".xml" extension refer to the content that is zipped. The last `<File>` element, which refers to a file with extension '.txt', is ignored.
 
 **Example 4**
 
@@ -484,13 +484,13 @@ You can extend the list of string that "flag-based" conversion interprets as **f
 
 In contexts where an XPath expression is expected, you can surround an XPath expression by quotes to express that you mean a string and not a node set expression (ie., not a node test). The following yields the string 'xy', as opposed to referring to a child element called 'xy’:
 
-```language-xml
+```xml
 <pc:value-of select="'xy'" />
 ```
 
 Accordingly, you must quote literal string input parameters that you pass to XPath functions and Blend functions, since these function calls are just another type of XPath expression:
 
-```language-xml
+```xml
 <pc:assign-nodeset mynodeset="{files:XmlFile('config.xml')}" />
 ```
 
@@ -504,13 +504,13 @@ Do not confuse XPath string expressions with regular XML attribute values that a
 
 In this example, the SQL statement is a regular XML attribute, and therefore is not quoted. As a consequence, the quotes inside the SQL do not need to be escaped:
 
-```language-xml
+```xml
 <pc:XmlExport sql="SELECT destination, tour_type FROM tour WHERE destination LIKE 'AUS%'" />
 ```
 
 In this example, the file path is a regular XML attribute, and therefore is not quoted:
 
-```language-xml
+```xml
 <pc:WriteFile filepath="c:\temp\HelloWorld.txt">Hello world</pc:WriteFile>
 ```
 
@@ -534,13 +534,13 @@ In USoft Blend, in contexts where an XPath expression is legal, you can use pare
 
 From a syntax point of view, a call to a USoft Blend function may be recognised by the presence of an explicit namespace prefix as, for example, "dates:" in:
 
-```language-xml
+```xml
 <pc:value-of select="dates:ShowInputFormats" />
 ```
 
 By contrast, a call to an XPath function may be recognised by the *absence* of an explicit namespace prefix as, for example, in:
 
-```language-xml
+```xml
 <pc:value-of select="concat( 'A', 'B' )" />
 ```
 
@@ -592,7 +592,7 @@ syntax for referring to variables. Once declared, a USoft Blend variable is glob
 
 You have a number of different syntax options for introducing USoft Blend variables. It is also possible to load variables from an external file. Here is just one example of the declaration of a Blend variable:
 
-```language-xml
+```xml
 <pc:assign-string
      mypath="{path:GetFullPath(directories:Get())}" />
 ```
@@ -603,7 +603,7 @@ For an explanation of the curly braces in this example, go to “Evaluated expre
 
 Here is just one example of how you can refer to the value of a variable called **myvariable**:
 
-```language-xml
+```xml
 <pc:WriteFile filepath="{$myvariable}">Hello world</pc:WriteFile>
 ```
 
@@ -664,7 +664,7 @@ Whenever a number is expected:
 
 **Boolean is expected**
 
-```language-xml
+```xml
 <pc:assign-string mysubdir="temp2">
 <pc:value-of select="path:Combine('c:\temp',$mysubdir)"/>
 ```
@@ -685,7 +685,7 @@ As an alternative to this, USoft Blend offers "flag-based" string-to-boolean con
 
 - The number values **0** (zero) and **NaN** (not-a-number) evaluate to boolean **false()**. Other number values evaluate to boolean **true()**.
 
-2.If a *comparison* is supplied,that is to say, an XPath expression that contains one of the comparison operators **=,  !=,  <=,  <,  >,  >=,  <>** :
+2.If a *comparison* is supplied,that is to say, an XPath expression that contains one of the comparison operators `**=`,  `!=`,  `<=`,  `<`,  `>`,  `>=`,  `<>**` :
 
 - If both operands are node sets, the comparison returns **true()** if there is any node in the first node set and any node in the second node set such that the result of comparing the string-value of the two nodes evaluates to **true()**.
 - If one operand is a node set and the other a boolean, the comparison returns **true()** if the result of converting the node-set to a boolean, when compared to the other boolean, evaluates to **true()**.
@@ -708,7 +708,7 @@ USoft Blend automatically evaluates XPath expressions in attribute values in the
 *Example*
 This example outputs the value **c:\\temp\\temp**2. Curly braces are NOT called for.
 
-```language-xml
+```xml
 <pc:assign-string mysubdir="temp2">
 <pc:value-of select="path:Combine('c:\temp',$mysubdir)"/>
 ```
@@ -719,7 +719,7 @@ If USoft Blend does not automatically evaluate but you want evaluation, you must
 Example
 This example deletes directory **c:\\temp\\temp2**. Curly braces ARE called for.
 
-```language-xml
+```xml
 <pc:assign-string mysubdir="temp2">
 <pc:DeleteDirectories>
      <Directory dirpath="{path:Combine('c:\temp',$mysubdir)}" />
@@ -734,14 +734,14 @@ Contrast the following 2 examples.
 *Example 1*
 In this example, xy is evaluated as an XPath expression: a relative location path. If the context node has one or more child elements named 'xy' then the string-value of the first 'xy' child element in document order is returned, following the XSLT specification.
 
-```language-xml
+```xml
 <pc:value-of select="xy"> ... </pc:value-of>
 ```
 
 *Example 2*
 This example returns the character string 'xy'.
 
-```language-xml
+```xml
 <pc:value-of select="'xy'" />
 ```
 

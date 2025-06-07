@@ -67,7 +67,7 @@ select uscsxsl.blend(
 
 The result value of running the following Blend script is the name **TRAVEL**:
 
-```language-xml
+```xml
 <t xmlns:pc="Processing.Command" xmlns:assign="Processing.Command.Assign">
 
   <pc:RunRulesService waittime="10000"
@@ -107,7 +107,7 @@ If the content of the file "mydata.xml" is:
 
 then the following:
 
-```language-xml
+```xml
 <pc:ReadFile filepath="mydata.xml" assign:fileContent="."/>
 <pc:value-of select="$fileContent" />
 ```
@@ -120,7 +120,7 @@ will yield:
 
 but the following:
 
-```language-xml
+```xml
 <pc:ReadFile filepath="mydata.xml" assign:fileContent="."/>
 <pc:value-of select="$fileContent" disable-output-escaping="yes" />
 ```

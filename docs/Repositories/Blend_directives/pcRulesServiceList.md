@@ -29,7 +29,7 @@ Returns an XML document.
 
 An example return document is:
 
-```language-xml
+```xml
 <Services>
    <Service DisplayName="RulesService-7778" name="RulesService-7778" MachineName="L3100100247" ServiceType="Win32OwnProcess" status="STOPPED" path="C:\usd91\bin64\RulesService.exe -run_as_service" />
    <Service DisplayName="RulesService-7780" name="RulesService-7780" MachineName="L3100100247" ServiceType="Win32OwnProcess" status="Running, can be stopped" path="C:\usd91\bin64\RulesService.exe -run_as_service" pid="14908" />

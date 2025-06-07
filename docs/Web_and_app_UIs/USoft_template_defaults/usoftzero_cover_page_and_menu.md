@@ -34,7 +34,7 @@ In Web Designer, the cover page and cover menu are implemented by classes on the
 
 Icons appear by default on each tile in the cover page and on each menu line in the main menu. They are implemented by class settings on the **\<i>** HTML element in the **Prompt (HTML)** property of the MenuLine object in covermenu or mainmenu. For example, icons in tiles on the cover page appear because of this class setting, where "mt-3” is a margin-top setting:
 
-```language-html
+```html
 <i class="bi bi-table mt-3"></i>
 ```
 
@@ -58,7 +58,7 @@ $.udb.navigateTo(
 );
 ```
 
-For details, go to [$.udb.navigateTo()]().
+For details, go to [$.udb.navigateTo()](/docs/Web_and_app_UIs/UDB_udb/udbnavigateTo.md).
 
 In the example, four options are passed:
 

@@ -88,7 +88,7 @@ If you still require jQuery, you can simply add it to the application.html file.
 
 ## $.udb( *dsRef* ) functions
 
-$.udb(<dsRef>) and $.udbMeta(<dsRef>) have been merged to a single structure, ie., $.udb(<dsRef>).
+`$.udb(<dsRef>)` and `$.udbMeta(<dsRef>)` have been merged to a single structure, ie., `$.udb(<dsRef>)`.
 
 Output changed to UdbDsc array of UdbDataSource instances instead of array of strings.
 
@@ -114,11 +114,9 @@ Output changed to UdbDsc array of UdbDataSource instances instead of array of st
 |`.searchCols()`|Returns an UdbCols array of objects containing UdbColumn instances.|
 |`.setBusy()`|New function.|
 
-
-
 ## $.udb( *dsRef* ).rowSet( *rowSetRef* ) functions
 
-This section lists changes to $.udb(<dsRef>).rowSet(<rowSetRef>) functions.
+This section lists changes to `$.udb(<dsRef>).rowSet(<rowSetRef>)` functions.
 
 Output changed to UdbRowSets array of UdbRowSet instances instead of array of JSON objects.
 
@@ -128,11 +126,9 @@ Output changed to UdbRowSets array of UdbRowSet instances instead of array of JS
 |`.data()`|Dropped.|
 |`.rows()`|Returns an UdbRows array of UdbRecord instances.|
 
-
-
 ## $.udb( *dsRef* ).rowSet( *rowSetRef* ).rows( *ref1*, *ref2* ) functions
 
-This section lists changes to $.udb(<dsRef>).rowSet(<rowSetRef>).rows(<ref1>,<ref2>) functions.
+This section lists changes to `$.udb(<dsRef>).rowSet(<rowSetRef>).rows(<ref1>,<ref2>)` functions.
 
 Output changed to UdbRows array of UdbRecord instances instead of array of JSON objects.
 
@@ -145,11 +141,9 @@ Output changed to UdbRows array of UdbRecord instances instead of array of JSON 
 |`.keysString()`|'full' parameter is dropped, because the full keys string is now always returned.|
 |`.keysXML()`|Obsolete, no longer supported.|
 
-
-
 ## $.udb( *dsRef* ).rowSet( *rowSetRef* ).rows( *ref1*, *ref2* ).cols( *colRef* ) functions
 
-This section lists changes to $.udb(<dsRef>).rowSet(<rowSetRef>).rows(<ref1>,<ref2>).cols(<colRef>) functions.
+This section lists changes to `$.udb(<dsRef>).rowSet(<rowSetRef>).rows(<ref1>,<ref2>).cols(<colRef>)` functions.
 
 Output changed to UdbCols array of UdbColumn instances instead of array of JSON objects.
 
@@ -166,7 +160,7 @@ Output changed to UdbCols array of UdbColumn instances instead of array of JSON 
 
 ## Object extension functions
 
-USoft 10.1 offered extra functionality added to various kind of objects, eg., .forEachValue() and .forEachKey(), .map(), but these could cause name clashes with third-party libraries. These functions (including some added as of USoft 11) have been moved to a .usoft extension. Use a ‘.usoft’ prefix to access the USoft functions on the prototypes, eg.,
+USoft 10.1 offered extra functionality added to various kind of objects, eg., `.forEachValue()` and `.forEachKey()`, `.map()`, but these could cause name clashes with third-party libraries. These functions (including some added as of USoft 11) have been moved to a .usoft extension. Use a ‘.usoft’ prefix to access the USoft functions on the prototypes, eg.,
 
 ```js
 object.usoft.map()

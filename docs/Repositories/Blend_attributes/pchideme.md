@@ -34,7 +34,7 @@ As the examples show, in practice, this attribute is used for the document node 
 
 *Example 1*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" >
     content
 </example>
@@ -42,7 +42,7 @@ As the examples show, in practice, this attribute is used for the document node 
 
 The output of this example is:
 
-```language-xml
+```xml
 <example>
     content
 </example>
@@ -50,7 +50,7 @@ The output of this example is:
 
 *Example 2*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="true">
      content
 </example>
@@ -58,13 +58,13 @@ The output of this example is:
 
 The output of this example is:
 
-```language-xml
+```xml
     content
 ```
 
 *Example 3*
 
-```language-xml
+```xml
 <example xmlns:pc="Processing.Command" pc:hideme="false" >
      content  
 </example>
@@ -72,7 +72,7 @@ The output of this example is:
 
 The output of this example is:
 
-```language-xml
+```xml
 <example
   xmlns:pc="Processing.Command"
   pc:hideme="false" >

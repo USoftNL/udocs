@@ -137,7 +137,7 @@ It is possible to use a file which has previously been opened using the [USFile.
 
 |***parameter***|***value***|
 |--------|--------|
-|ConvertWhiteSpaces|{ yes  \| no }|
+|ConvertWhiteSpaces|`{ yes  \| no }`|
 
 
 
@@ -151,7 +151,7 @@ If you specify 'yes' for this parameter, then tab characters, spaces, newline ch
 
 |***parameter***|***value***|
 |--------|--------|
-|EmptyDocOnZeroRows|{ yes  \| no }|
+|EmptyDocOnZeroRows| ` { yes  \| no }`|
 
 
 
@@ -171,7 +171,7 @@ If set to ‘yes’ (the default), then the output is always an XML document. If
 
 |***parameter***|***value***|
 |--------|--------|
-|LOBAsCDATA|{ yes  \| no }|
+|LOBAsCDATA| ` { yes  \| no }`|
 
 
 
@@ -181,7 +181,7 @@ This parameter affects large-object (LOB) columns. They are columns with datatyp
 
 If set to ‘yes’, LOB columns appear as a child XML element containing the column value as a CDATA section. This has the advantage that the content remains readable even if special characters are used:
 
-```language-xml
+```xml
 <TABLE_1 KEY_COLUMN="101">
   <LOB_COLUMN><![CDATA[This is raw data with special <> && characters.]]></LOB_COLUMN>
 </TABLE_1>
@@ -189,7 +189,7 @@ If set to ‘yes’, LOB columns appear as a child XML element containing the co
 
 If set to ‘no’ (the default), LOB columns appear as per normal as an XML attribute. Special characters in the attribute value are escaped by entity referencing:
 
-```language-xml
+```xml
 <TABLE_1 KEY_COLUMN="101" LOB_COLUMN="This is raw data with special <> && characters."/>
 ```
 
@@ -199,15 +199,13 @@ If set to ‘no’ (the default), LOB columns appear as per normal as an XML att
 
 |***parameter***|***value***|
 |--------|--------|
-|ProcessingInstruction|{ yes  \| no }|
-
-
+|ProcessingInstruction|  `{ yes  \| no }`|
 
 *Value* is a string and must be quoted, as in the example earlier in this help topic.
 
 If you specify 'yes' for this parameter, the following top-level processing-instruction is added to the output XML document:
 
-```
+```xml
 <?usoft-xml version="1.0" action="multi-tables-import" use-io-formats="no"
    verify-original-values="no" return-corrected-records ="yes"?>
 ```
@@ -220,7 +218,7 @@ Otherwise no encoding processing instruction is added to the returned XML docume
 
 |***parameter***|***value***|
 |--------|--------|
-|RestrictiveSupertypeListing|{ yes  \| no }|
+|RestrictiveSupertypeListing| ` { yes  \| no }`|
 
 
 
@@ -250,7 +248,7 @@ It is possible to use a file which has previously been opened using the [USFile.
 
 |***parameter***|***value***|
 |--------|
-|{ yes  \| no }|
+| ` { yes  \| no }`|
 
 
 

@@ -38,7 +38,7 @@ In an XML schema document, the line
 
 specifies that all XML schema elements are to be prefixed with an xsd: element. For example:
 
-**<xsd:MySchema...>**
+**\<xsd:MySchema...\>**
 
 Since a web service uses XML based messages to exchange data with a client application, and this application needs to know the structure of the exchanged data, the web service provider has to supply one or more XML schema definitions for this data.
 

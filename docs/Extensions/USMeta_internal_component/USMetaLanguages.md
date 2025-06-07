@@ -53,7 +53,7 @@ SELECT USMeta.Languages()
 
 The return value of this statement could be:
 
-```language-xml
+```xml
 <?xml version="1.0" encoding="UTF-16"?>
 <Meta>
 	<Languages>
