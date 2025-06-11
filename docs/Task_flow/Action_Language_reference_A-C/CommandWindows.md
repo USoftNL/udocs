@@ -9,7 +9,7 @@ id: CommandWindows
 
 :::note
 
-This article is about the **CommandWindows** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about the **CommandWindows** action in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 
@@ -17,7 +17,7 @@ This article is about the **CommandWindows** action in the [USoft Action Languag
 
 Executes an operating system command on a Windows or Linux system.
 
-- On **Windows**, the command is executed in the **background** and a DOS box is not used. Because a DOS box is not used, you cannot use this action to execute DOS commands (for example, MKDIR, DEL, DIR, etc.). Use [CommandSystemForeground()](/docs/Task_flow/Action_Language_reference_A-C/CommandSystemForeground.md) to execute these commands.
+- On **Windows**, the command is executed in the **background** and a DOS box is not used. Because a DOS box is not used, you cannot use this action to execute DOS commands (for example, MKDIR, DEL, DIR, etc.). Use [CommandSystemForeground()](/Task_flow/Action_Language_reference_A-C/CommandSystemForeground.md) to execute these commands.
 - On **Linux**, the command is executed in the **foreground**.
 
 *Syntax*

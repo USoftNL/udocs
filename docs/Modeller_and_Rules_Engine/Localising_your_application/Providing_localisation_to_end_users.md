@@ -6,7 +6,7 @@ id: Providing_localisation_to_end_users
 
 Once you have defined system languages, their associated text translations (System Messages, Application Strings), and their associated regional preferences (separator symbols for number values), you must *provide* these forms of localisation to target environments so that they “come through” (= are effectively presented to the end user). This applies, of course, also each time you want to **test** localisation in Development or Testing environments.
 
-This article covers how you provide default localisation. Click [here](/docs/Modeller_and_Rules_Engine/Localising_your_application/Dynamic_language_switching.md) to find out how to change this default while the application is being used (*language switching* or *dynamic localisation*).
+This article covers how you provide default localisation. Click [here](/Modeller_and_Rules_Engine/Localising_your_application/Dynamic_language_switching.md) to find out how to change this default while the application is being used (*language switching* or *dynamic localisation*).
 
 Providing default localisation has 2 aspects:
 
@@ -39,7 +39,7 @@ This "DefaultLanguage" publication property is what determines in which language
 :::warning
 
 Confusingly, in this scenario, the Rules Service's Language configuration parameter **has no effect**.
-The "DefaultLanguage” publication property determines, for each individual call to the Rules Service, what is the return language expected of the Rules Service. This happens independently of the "Language" Rules Service configuration parameter. This particular behaviour makes it possible to have a Rules Service respond in different languages during [dynamic language switching](/docs/Modeller_and_Rules_Engine/Localising_your_application/Dynamic_language_switching.md).
+The "DefaultLanguage” publication property determines, for each individual call to the Rules Service, what is the return language expected of the Rules Service. This happens independently of the "Language" Rules Service configuration parameter. This particular behaviour makes it possible to have a Rules Service respond in different languages during [dynamic language switching](/Modeller_and_Rules_Engine/Localising_your_application/Dynamic_language_switching.md).
 
 :::
 

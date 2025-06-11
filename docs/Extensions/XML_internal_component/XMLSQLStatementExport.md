@@ -9,13 +9,13 @@ id: XMLSQLStatementExport
 
 :::note
 
-This article is about the **SQLStatementExport** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+This article is about the **SQLStatementExport** method of the [XML internal component](/Extensions/XML_internal_component).
 
 :::
 
 ## **XML.SQLStatementExport**
 
-Exports data to the [Meta-Rows-Fields document format](/docs/Repositories/USoft_XML_formats/MetaRowsFields_document_format.md) on the basis of a SELECT statement.
+Exports data to the [Meta-Rows-Fields document format](/Repositories/USoft_XML_formats/MetaRowsFields_document_format.md) on the basis of a SELECT statement.
 
 This export method is the same as XML.SQLExport, except that the entire SELECT statement is passed as a variable element, which allows you to build or store a SELECT statement dynamically and then pass it to the export command.
 

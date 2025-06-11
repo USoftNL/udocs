@@ -9,7 +9,7 @@ id: pcvalueof
 
 :::note
 
-This article is about the **pc:value-of**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:value-of**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

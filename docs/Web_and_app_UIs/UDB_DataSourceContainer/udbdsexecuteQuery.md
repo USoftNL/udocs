@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,15 +26,15 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **executeQuery()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+This article is about the **executeQuery()** function of the [DataSourceContainer object](/Web_and_app_UIs/UDB_DataSourceContainer).
 
 :::
 
 ## **$.udb(ds).executeQuery()**
 
-Executes a query. Existing queried data (if any) is cleared before the query is executed. The data that is retrieved by the query is always the first data set of the data source, which has its boundaries defined by the [dataSetSize()](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/udbMetadsdataSetSize.md) function of the DataSourceMetaContainer object.
+Executes a query. Existing queried data (if any) is cleared before the query is executed. The data that is retrieved by the query is always the first data set of the data source, which has its boundaries defined by the [dataSetSize()](/Web_and_app_UIs/UDB_DataSourceMetaContainer/udbMetadsdataSetSize.md) function of the DataSourceMetaContainer object.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 
@@ -63,7 +63,7 @@ $.udb( *ds* ).executeQuery( *options* )
 *promise*         ::=  { true | false }
 ```
 
-The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
+The optional *ds* is a [data source selector](/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 *Options* is a struct that can contain the following items, all of which are optional.
 
@@ -97,7 +97,7 @@ $.udb('EMP').executeQuery({
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[beforeexecutequery](/docs/Web_and_app_UIs/UDB_Events/beforeexecutequery.md)|Data source objects|Before the data source is queried|
+|[beforeexecutequery](/Web_and_app_UIs/UDB_Events/beforeexecutequery.md)|Data source objects|Before the data source is queried|
 
 
 

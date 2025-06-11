@@ -9,7 +9,7 @@ id: pcSaveVariables
 
 :::note
 
-This article is about the **pc:SaveVariables**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:SaveVariables**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

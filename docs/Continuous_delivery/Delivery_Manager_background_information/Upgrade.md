@@ -32,7 +32,7 @@ To upgrade metadata on a target machine:
 
 - Make sure that any running USoft Rules Services and any opened client/server USoft applications are stopped.
 - Open USoft Definer and Import the metadata changes delivered in the "metadata" section of the release folder. You can do this by calling XML.IMPORT from SQL Command. If your application is called MYAPP, the metadata changes are delivered in a file named "MYPP.USD.diff.xml".
-- If your application is a top-level application that consumes modules, you will need to [replace the module flatfiles](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Modules_in_UDeliver.md) if you are moving to a later version of the module.
+- If your application is a top-level application that consumes modules, you will need to [replace the module flatfiles](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Modules_in_UDeliver.md) if you are moving to a later version of the module.
 - If you run the top-level application from Repository, best practice is NOT to install the flat files of the top-level application. If you choose to do this, take care that local Rules Services do not have the Definitions From = "Automatic" setting, because in that case, a Rules Service will automatically run from Flat Files when it is restarted if flat files are found in the \\APP folder.
 - Restart the USoft Rules Services.
 

@@ -9,7 +9,7 @@ id: Drop_repository
 
 :::note
 
-This article is about the **Drop repository**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Drop repository**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

@@ -33,6 +33,6 @@ You can create *user-defined classes* by right-clicking on a node in the catalog
 
 :::tip
 
-USoft creates a fully functional default web application for you that gives you default access to pages for all tables in your data model. It is good practice to leave the default alone so that you can always fall back on it, even after you have created custom implementations of your own. For more on this practice, see Tip 1 in [this](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md) article.
+USoft creates a fully functional default web application for you that gives you default access to pages for all tables in your data model. It is good practice to leave the default alone so that you can always fall back on it, even after you have created custom implementations of your own. For more on this practice, see Tip 1 in [this](/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md) article.
 
 :::

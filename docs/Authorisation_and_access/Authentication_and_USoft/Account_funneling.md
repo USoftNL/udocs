@@ -6,7 +6,7 @@ tags: [USoft10]
 
 `USoft 10``{.vs_10}`
 
-This article is for USoft 10 only. For USoft 11, go to [Front-end users and RDBMS users](/docs/Authorisation_and_access/Authentication_and_USoft/Frontend_users_and_RDBMS_users.md).
+This article is for USoft 10 only. For USoft 11, go to [Front-end users and RDBMS users](/Authorisation_and_access/Authentication_and_USoft/Frontend_users_and_RDBMS_users.md).
 
 In USoft web solutions, in Production, authentication of end users is typically performed by USoft. On behalf of end users, under the hood, USoft accesses the RDBMS using an RDBMS username/password combination. This has 2 distinct purposes:
 

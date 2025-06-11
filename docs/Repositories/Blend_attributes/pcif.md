@@ -9,7 +9,7 @@ id: pcif
 
 :::note
 
-This article is about the **pc:if**[ Blend attribute](/docs/Repositories/Blend_attributes).
+This article is about the **pc:if**[ Blend attribute](/Repositories/Blend_attributes).
 
 :::
 

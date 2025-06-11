@@ -4,7 +4,7 @@ id: When_is_a_record_stored
 
 # When is a record stored?
 
-It is often important to know exactly when an INSERT, UPDATE or DELETE manipulation is stored. The moment of row storage is when row constraints are evaluated, when actions associated with behavior properties such as Post-change (Info Box property) or Post-insert are executed, and when the [:recordStatus](/docs/Desktop_UIs/Windows_GUI_events/recordStatus_and_applicationStatus.md) variable begins to refer to a different record.
+It is often important to know exactly when an INSERT, UPDATE or DELETE manipulation is stored. The moment of row storage is when row constraints are evaluated, when actions associated with behavior properties such as Post-change (Info Box property) or Post-insert are executed, and when the [:recordStatus](/Desktop_UIs/Windows_GUI_events/recordStatus_and_applicationStatus.md) variable begins to refer to a different record.
 
 ## DELETE
 

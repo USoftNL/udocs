@@ -9,7 +9,7 @@ id: USFormatCharToDate
 
 :::note
 
-This article is about the **CharToDate** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
+This article is about the **CharToDate** method of the [USFormat internal component](/Extensions/USFormat_internal_component).
 
 :::
 
@@ -28,7 +28,7 @@ SELECT USFormat.CharToDate(
 )
 ```
 
-Both *string* and *date-format-pattern* are required. *Date-format-pattern* must be one of the [USoft IO formats](/docs/Modeller_and_Rules_Engine/Domains/IO_formats.md) for date values.
+Both *string* and *date-format-pattern* are required. *Date-format-pattern* must be one of the [USoft IO formats](/Modeller_and_Rules_Engine/Domains/IO_formats.md) for date values.
 
 *Example*
 

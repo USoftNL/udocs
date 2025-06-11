@@ -10,7 +10,7 @@ tags: [USoft11]
 :::note
 
 **See also**
-[Formulations in USoft Definer](/docs/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md)
+[Formulations in USoft Definer](/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md)
 
 :::
 

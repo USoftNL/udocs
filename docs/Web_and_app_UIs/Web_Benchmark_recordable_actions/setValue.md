@@ -6,11 +6,11 @@ id: setValue
 
 **See also**
 
-- [Web Benchmark recordable actions](/docs/Web_and_app_UIs/Web_Benchmark_recordable_actions)
+- [Web Benchmark recordable actions](/Web_and_app_UIs/Web_Benchmark_recordable_actions)
 
 The **setValue** recordable action in Web Benchmark change in any InputControl. The target can be an actual InputControl, but also a field in an input dialog, or a field in dynamically generated HTML or custom controls.
 
-The following [generic target control properties](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_test_editing_Identifying_target_controls_and_their_properties.md) are in scope: Reference name, Occurrence rank, Source Frame, Context reference name, Context occurrence rank.
+The following [generic target control properties](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_test_editing_Identifying_target_controls_and_their_properties.md) are in scope: Reference name, Occurrence rank, Source Frame, Context reference name, Context occurrence rank.
 
 In addition, the following properties are also in scope for the **setValue** recordable action:
 

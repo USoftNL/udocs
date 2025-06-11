@@ -9,13 +9,13 @@ id: ShowComponentErrors
 
 :::note
 
-This article is about the **ShowComponentErrors**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **ShowComponentErrors**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **ShowComponentErrors**
 
-The **ShowComponentErrors** Rules Engine property can be used to override the [Show_Component_Errors](/docs/Authorisation_and_access/Deployment_configurations/Show_Component_Errors.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **ShowComponentErrors** Rules Engine property can be used to override the [Show_Component_Errors](/Authorisation_and_access/Deployment_configurations/Show_Component_Errors.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

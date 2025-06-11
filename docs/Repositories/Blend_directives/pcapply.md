@@ -9,7 +9,7 @@ id: pcapply
 
 :::note
 
-This article is about the **pc:apply** [Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:apply** [Blend directive](/Repositories/Blend_directives).
 
 :::
 

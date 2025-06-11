@@ -8,10 +8,10 @@ tags: [USoft11]
 :::note
 
 **See also**
-[Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
-[Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
-[Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
-[Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+[Version-controlled local branches](/Repositories/Version_control/Versioncontrolled_local_branches.md)
+[Version control: Create](/Repositories/Version_control/Version_control_Create.md)
+[Version control: Connect](/Repositories/Version_control/Version_control_Connect.md)
+[Version control: Synchronise, Temporarily Disable, Disconnect](/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
 
 :::
 
@@ -31,7 +31,7 @@ The advantage of working in this way is that each contribution to the USoft appl
 
 USoft supports version control for any version control system that is completely file-based. Git is completely file-based.
 
-Version control is something you must [put in place](/docs/Repositories/Version_control/Version_control_Create.md). As long as you don't, the default USoft development environment applies where team members connect to a shared, central database:
+Version control is something you must [put in place](/Repositories/Version_control/Version_control_Create.md). As long as you don't, the default USoft development environment applies where team members connect to a shared, central database:
 
 ![](./assets/e3016cbf-c2e5-4937-90ac-fddfdc977a48.png)
 

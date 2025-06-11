@@ -9,7 +9,7 @@ id: USFileClose
 
 :::note
 
-This article is about the **Close** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+This article is about the **Close** method of the [USFile internal component](/Extensions/USFile_internal_component).
 
 :::
 

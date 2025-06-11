@@ -9,7 +9,7 @@ id: guidnewguid
 
 :::note
 
-This article is about the **guid:newguid**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **guid:newguid**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

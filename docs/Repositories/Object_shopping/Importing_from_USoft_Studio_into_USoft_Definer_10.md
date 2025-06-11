@@ -125,7 +125,7 @@ For Formulations (imported in Definer as Business Rules), the result set contain
 
 ### Step 2: Import
 
-The result set is imported into USoft Definer following the “[UPSERT](/docs/Extensions/XML_internal_component/XMLImport.md)” principle:
+The result set is imported into USoft Definer following the “[UPSERT](/Extensions/XML_internal_component/XMLImport.md)” principle:
 
 - Any item found in Studio but not in Definer is **added**.
 - No item is **deleted**.
@@ -158,7 +158,7 @@ This report offers a full comparison between Studio and Definer of all the items
 - Business objects
 - Rule sets
 
-This report describes differences by using [DML instruction tags](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md), a standard feature of USoft XML:
+This report describes differences by using [DML instruction tags](/Repositories/USoft_XML_formats/DML_instruction_tags.md), a standard feature of USoft XML:
 
 |        |        |
 |--------|--------|
@@ -186,8 +186,8 @@ The "Compare” preview report is machine-processable. If you like, you can remo
 :::note
 
 This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
-[Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
-[Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
+[Compare in USoft Blend](/Repositories/Blend_directives/pcCompare.md)
+[Compare in Delivery Manager](/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
 
 :::
 
@@ -247,7 +247,7 @@ For many teams, in practice, the best convention is that no team member makes an
 
 :::note
 
-Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+Definer has special [..._NO_STUDIO roles](/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
 
 :::
 

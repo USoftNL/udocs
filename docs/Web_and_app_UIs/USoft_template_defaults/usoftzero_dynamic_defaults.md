@@ -62,7 +62,7 @@ Or, the user manipulates purchase amounts in contract lines in a contract. The c
 
 :::note
 
-The “dynamic defaults” feature described in this article is the counterpart of [input validation](/docs/Web_and_app_UIs/Web_Designer_controls/Input_validation.md)**.** With dynamic defaults, the web UI reacts to user input by producing a value or a non-blocking message. The focus is on what the UI produces as a reaction to user input. With input validation, the web UI reacts by producing an error: it checks the user input for correctness. The focus is on the user input itself.
+The “dynamic defaults” feature described in this article is the counterpart of [input validation](/Web_and_app_UIs/Web_Designer_controls/Input_validation.md)**.** With dynamic defaults, the web UI reacts to user input by producing a value or a non-blocking message. The focus is on what the UI produces as a reaction to user input. With input validation, the web UI reacts by producing an error: it checks the user input for correctness. The focus is on the user input itself.
 Another difference is that input validation is built into USoft. It is always available by default. Dynamic defaults are a feature of the usoft-zero template default. They are only available by default if your web application is based on this template default.
 
 :::

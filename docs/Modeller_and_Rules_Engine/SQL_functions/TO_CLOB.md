@@ -10,7 +10,7 @@ id: TO_CLOB
 :::note
 
 This article has additional information about the **TO_CLOB** SQL function.
-For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
+For convertibility of this function, go to [SQL functions  S - Z](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
 
 :::
 

@@ -9,7 +9,7 @@ id: Wait_for_Lock
 
 :::note
 
-This article is about the **Wait_for_Lock**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+This article is about the **Wait_for_Lock**[deployment configuration parameter](/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 :::
 

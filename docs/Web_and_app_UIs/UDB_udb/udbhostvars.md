@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **hostvars** property of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **hostvars** property of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -36,9 +36,9 @@ This article is about the **hostvars** property of the [udb object](/docs/Web_an
 :::warning
 
 This property is **old use**. One-time hostvars are mostly appropriate in executeQuery and executeSQLStatement calls. These two functions now have their own **hostvars** options, which you should prefer:
-[$udb(ds).executeQuery()](/docs/Web_and_app_UIs/UDB_DataSourceContainer/udbdsexecuteQuery.md)
-[$.udb.executeSqlStatement()](/docs/Web_and_app_UIs/UDB_udb/udbexecuteSQLStatement.md)
-Otherwise, you generally need [generic hostvars](/docs/Web_and_app_UIs/UDB_udb/udbgenericHostVar.md) rather than one-time hostvars.
+[$udb(ds).executeQuery()](/Web_and_app_UIs/UDB_DataSourceContainer/udbdsexecuteQuery.md)
+[$.udb.executeSqlStatement()](/Web_and_app_UIs/UDB_udb/udbexecuteSQLStatement.md)
+Otherwise, you generally need [generic hostvars](/Web_and_app_UIs/UDB_udb/udbgenericHostVar.md) rather than one-time hostvars.
 
 :::
 

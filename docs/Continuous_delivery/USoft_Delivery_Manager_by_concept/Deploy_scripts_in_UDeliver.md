@@ -13,9 +13,9 @@ This article is about the **deploy script** concept in USoft Delivery Manager ("
 
 **See also**
 
-- [Creating a deploy script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_deploy_script.md)
-- [Running a deploy script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Running_a_deploy_script.md)
-- [Loading deploy samples](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Loading_deploy_samples_and_added_XSL_samples.md)
+- [Creating a deploy script](/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_deploy_script.md)
+- [Running a deploy script](/Continuous_delivery/Delivery_Manager_basic_procedures/Running_a_deploy_script.md)
+- [Loading deploy samples](/Continuous_delivery/Delivery_Manager_basic_procedures/Loading_deploy_samples_and_added_XSL_samples.md)
 
 A *deploy script* is a file-based script written in some script language, typically MS PowerShell or USoft Blend.
 

@@ -9,7 +9,7 @@ id: filesReadFile
 
 :::note
 
-This article is about the **files:ReadFile**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **files:ReadFile**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

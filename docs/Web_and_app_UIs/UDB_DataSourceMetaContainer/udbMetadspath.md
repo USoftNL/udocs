@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **path()** function of the [DataSourceMetaContainer object](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer).
+This article is about the **path()** function of the [DataSourceMetaContainer object](/Web_and_app_UIs/UDB_DataSourceMetaContainer).
 
 :::
 
@@ -34,7 +34,7 @@ This article is about the **path()** function of the [DataSourceMetaContainer ob
 
 Gets the full data source path of the first data source in the container, including embedded pages (if any).
 
-Returns a data source path using [data source path syntax](/docs/Web_and_app_UIs/Data_sources/Data_source_path_syntax.md).
+Returns a data source path using [data source path syntax](/Web_and_app_UIs/Data_sources/Data_source_path_syntax.md).
 
 *Syntax*
 
@@ -44,7 +44,7 @@ $.udbMeta( *ds* ).path( *short* )
 *short*  ::=  { true | false }
 ```
 
-The required *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
+The required *ds* is a [data source selector](/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 If *short* is true, the main page's path is excluded from the result.
 

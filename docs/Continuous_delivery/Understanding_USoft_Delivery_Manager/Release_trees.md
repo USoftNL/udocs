@@ -16,12 +16,12 @@ The root folder contains one or more *release folders* which, in turn, contain *
 
 You can use Delivery Manager for releases, but also for other things. Only in the first case do you need a release tree.
 
-If you plan to use Delivery Manager for releases, [initialise](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Initialising_a_release_tree.md) the release tree as the first logical step when you start using the tool.
+If you plan to use Delivery Manager for releases, [initialise](/Continuous_delivery/Delivery_Manager_basic_procedures/Initialising_a_release_tree.md) the release tree as the first logical step when you start using the tool.
 
 
 :::note
 
-Once it is initialised, you can [move](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [archive](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [drop](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) the release tree, or [start over](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) with Delivery Manager.
+Once it is initialised, you can [move](/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [archive](/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), [drop](/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) the release tree, or [start over](/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) with Delivery Manager.
 
 :::
 
@@ -43,7 +43,7 @@ As long as the current release folder remains the same, every time you release n
 
 ### Creating a new release
 
-You can [create a new release](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_new_release.md). This causes a new release version number to become the *current release.* For example, in the picture in this help topic, the current release is 'TRAVEL-1.4.22'. You can create a new release named 'TRAVEL-1.4.23'. As a result, 'TRAVEL-1.4.22' becomes the *previous release.*
+You can [create a new release](/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_new_release.md). This causes a new release version number to become the *current release.* For example, in the picture in this help topic, the current release is 'TRAVEL-1.4.22'. You can create a new release named 'TRAVEL-1.4.23'. As a result, 'TRAVEL-1.4.22' becomes the *previous release.*
 
 Creating a new release has the effect of *freezing* the current release. From the time when you create 'TRAVEL-1.4.23', Delivery Manager will no longer write to the 'TRAVEL-1.4.22' folder: no more changes will be made to 'TRAVEL-1.4.22'. This makes version 'TRAVEL-1.4.22' suitable for distribution to target machines.
 
@@ -55,8 +55,8 @@ When you create releases, Delivery Manager does not clean up or archive older re
 
 ### Reverting to the previous release
 
-You can [revert to the previous release](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Reverting_to_the_previous_release.md). The current release is dropped and the previous release becomes current.
+You can [revert to the previous release](/Continuous_delivery/Delivery_Manager_basic_procedures/Reverting_to_the_previous_release.md). The current release is dropped and the previous release becomes current.
 
 Reverting to a previous release is not normally part of a typical release process. The only intended use of the Revert option is to go back to the previous release if you have made some mistake. For example, you can revert if you have just started a new release but you have changed your mind about the ideal name of this new release.
 
-When you revert, Delivery Manager removes everything associated with the current release and then automatically qualifies the previous release as "current". You could go all the way back to the initial release by repeating the Revert action, but there is a [better way](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) to start over with Delivery Manager, if that is what you want.
+When you revert, Delivery Manager removes everything associated with the current release and then automatically qualifies the previous release as "current". You could go all the way back to the initial release by repeating the Revert action, but there is a [better way](/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md) to start over with Delivery Manager, if that is what you want.

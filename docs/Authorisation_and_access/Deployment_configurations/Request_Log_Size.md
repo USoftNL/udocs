@@ -9,7 +9,7 @@ id: Request_Log_Size
 
 :::note
 
-This article is about the **Request_Log_Size**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+This article is about the **Request_Log_Size**[deployment configuration parameter](/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 :::
 

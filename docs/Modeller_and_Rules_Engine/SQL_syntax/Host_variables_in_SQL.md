@@ -9,8 +9,8 @@ id: Host_variables_in_SQL
 
 :::note
 
-This article is about **host variables** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
-Host variables in SQL are a feature of the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about **host variables** as part of the [SQL syntax](/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+Host variables in SQL are a feature of the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 

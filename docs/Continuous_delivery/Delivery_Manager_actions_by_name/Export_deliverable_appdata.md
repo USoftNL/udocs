@@ -9,7 +9,7 @@ id: Export_deliverable_appdata
 
 :::note
 
-This article is about the **Export deliverable appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Export deliverable appdata**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -45,11 +45,11 @@ Make sure you export appdata in such a way that you will not have problems re-im
 
 ### Other similar actions
 
-This action is identical to "[Release deliverable appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_deliverable_appdata.md)", except that:
+This action is identical to "[Release deliverable appdata](/Continuous_delivery/Delivery_Manager_actions_by_name/Release_deliverable_appdata.md)", except that:
 
 - you specify the destination folder manually instead of writing to a predefined release folder, and
 - no comparison with appdata from the previous release is made.
 
-This action is identical to "[Export all appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_all_appdata.md)" except that the result is limited to application tables marked as "Deliverable = Yes".
+This action is identical to "[Export all appdata](/Continuous_delivery/Delivery_Manager_actions_by_name/Export_all_appdata.md)" except that the result is limited to application tables marked as "Deliverable = Yes".
 
-To get or refresh the list of Application Tables for "Application" and "Database account", run "[Populate tables list](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Populate_tables_list.md)".
+To get or refresh the list of Application Tables for "Application" and "Database account", run "[Populate tables list](/Continuous_delivery/Delivery_Manager_actions_by_name/Populate_tables_list.md)".

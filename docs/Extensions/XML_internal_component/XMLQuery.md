@@ -9,13 +9,13 @@ id: XMLQuery
 
 :::note
 
-This article is about the **Query** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+This article is about the **Query** method of the [XML internal component](/Extensions/XML_internal_component).
 
 :::
 
 ## **XML.Query**
 
-Executes a query that is defined in an input XML document. The structure of this XML document must comply with the Query By Form (QBF) specification described in [XML Representation of Queries](/docs/Repositories/USoft_XML_formats/XML_representation_of_queries.md).
+Executes a query that is defined in an input XML document. The structure of this XML document must comply with the Query By Form (QBF) specification described in [XML Representation of Queries](/Repositories/USoft_XML_formats/XML_representation_of_queries.md).
 
 Returns XML output that contains the query results. The structure of this XML output is described here. This XML output contains ALL column values of the records exported.
 

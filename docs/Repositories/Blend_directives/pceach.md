@@ -9,7 +9,7 @@ id: pceach
 
 :::note
 
-This article is about the **pc:each**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:each**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

@@ -9,7 +9,7 @@ id: pcassignnodeset
 
 :::note
 
-This article is about the **pc:assign-nodeset**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:assign-nodeset**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

@@ -6,7 +6,7 @@ id: USXSLNode
 
 :::note
 
-This article is about the **Node** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
+This article is about the **Node** method of the [USXSL internal component](/Extensions/USXSL_internal_component).
 
 :::
 

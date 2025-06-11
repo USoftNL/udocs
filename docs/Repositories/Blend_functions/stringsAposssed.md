@@ -9,7 +9,7 @@ id: stringsAposssed
 
 :::note
 
-This article is about the **strings:Aposssed**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:Aposssed**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

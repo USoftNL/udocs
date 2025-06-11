@@ -9,7 +9,7 @@ id: stringsReplace
 
 :::note
 
-This article is about the **strings:Replace**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:Replace**[ Blend function](/Repositories/Blend_functions).
 
 :::
 
@@ -58,6 +58,6 @@ IS FOLLOWED BY
 
 :::tip
 
-To make a replacement in each substring that matches a specified regular expression pattern, use [strings:REReplace()](/docs/Repositories/Blend_functions/stringsREReplace.md) instead.
+To make a replacement in each substring that matches a specified regular expression pattern, use [strings:REReplace()](/Repositories/Blend_functions/stringsREReplace.md) instead.
 
 :::

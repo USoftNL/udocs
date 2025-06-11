@@ -117,7 +117,7 @@ myservername\SQLEXPRESS:USD100_TRAVEL
 
 :::note
 
-For more on database connect strings, go to [Connecting to the RDBMS](/docs/USoft_for_administrators/Installing_USoft/Connecting_to_the_RDBMS.md).
+For more on database connect strings, go to [Connecting to the RDBMS](/USoft_for_administrators/Installing_USoft/Connecting_to_the_RDBMS.md).
 
 :::
 

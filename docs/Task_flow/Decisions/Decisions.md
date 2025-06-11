@@ -31,7 +31,7 @@ ActionDecision( TEST_SYSTEM_CREATE_APPDATA )
 
 ```
 
-You can also place ActionDecision( ) in the Yes Action or No Action of a Decision. This allows [branching and looping](/docs/Task_flow/Decisions/Decision_branching_and_looping.md) between decisions.
+You can also place ActionDecision( ) in the Yes Action or No Action of a Decision. This allows [branching and looping](/Task_flow/Decisions/Decision_branching_and_looping.md) between decisions.
 
 To call a decision from a SQL context, for example the SQL Command window, you must use the **action** keyword :
 
@@ -59,7 +59,7 @@ To define a decision:
 
 ## Calling a decision
 
-To call the decision you have defined, use the [ActionDecision()](/docs/Task_flow/Action_Language_reference_A-C/ActionDecision.md)****action.
+To call the decision you have defined, use the [ActionDecision()](/Task_flow/Action_Language_reference_A-C/ActionDecision.md)****action.
 
 ## Decision Name
 
@@ -80,7 +80,7 @@ If Decision SQL is an INVOKE statement, the INVOKE statement is executed, and th
 
 :::note
 
-For more on placeholders, go to [Decision variables and placeholders](/docs/Task_flow/Decisions/Decision_variables_and_placeholders.md).
+For more on placeholders, go to [Decision variables and placeholders](/Task_flow/Decisions/Decision_variables_and_placeholders.md).
 
 :::
 
@@ -98,7 +98,7 @@ If the Decision SQL is empty, the Yes Action script is executed once.
 
 ## Yes Action
 
-The required Yes Action is a script containing one or more actions from the [USoft action language](/docs/Task_flow/Action_Language_reference). Multiple action statements are separated by newlines.
+The required Yes Action is a script containing one or more actions from the [USoft action language](/Task_flow/Action_Language_reference). Multiple action statements are separated by newlines.
 
 The Yes Action script is executed when the Decision is called and the Decision SQL produces 1 or more rows. The Yes Action is executed once for each row.
 

@@ -4,7 +4,7 @@ id: Initialising_a_release_tree
 
 # Initialising a release tree
 
-Follow these steps to initialise a [release tree](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_trees.md).
+Follow these steps to initialise a [release tree](/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_trees.md).
 
 1. Choose Release, Quick Start from the menu. A dialog appears.
 2. In this dialog, provide a filepath leading to a Root Folder. This is the location on the file system that Delivery Manager will write all your deliverables to.

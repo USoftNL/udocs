@@ -9,7 +9,7 @@ id: pcCreateDirectories
 
 :::note
 
-This article is about the **pc:CreateDirectories**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:CreateDirectories**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

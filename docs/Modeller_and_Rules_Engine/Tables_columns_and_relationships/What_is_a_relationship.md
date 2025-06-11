@@ -35,7 +35,7 @@ It is also possible for the 2 instances to be of the same entity (the same type)
 
 Exactly how you implement a relationship in terms of specific USoft Tables, Columns and Relationships is a design choice that mainly depends on the connection's *cardinality.* 
 
-For help on mapping cardinality to USoft Tables, Columns and Relationships, click [here](/docs/Modeller_and_Rules_Engine/Tables_columns_and_relationships/Cardinality_in_relationships.md).
+For help on mapping cardinality to USoft Tables, Columns and Relationships, click [here](/Modeller_and_Rules_Engine/Tables_columns_and_relationships/Cardinality_in_relationships.md).
 
 Cardinality is the number of times that an instance is allowed to play a part (or *role*) in a relationship. Cardinality is a separate issue for each "side" of the relationship:
 

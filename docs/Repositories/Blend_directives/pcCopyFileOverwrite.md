@@ -9,7 +9,7 @@ id: pcCopyFileOverwrite
 
 :::note
 
-This article is about the **pc:CopyFileOverwrite**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:CopyFileOverwrite**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

@@ -7,10 +7,10 @@ id: USoft_Action_Language
 
 :::note
 
-[Action Language reference A - C](/docs/Task_flow/Action_Language_reference_A-C)
-[Action Language reference D - H](/docs/Task_flow/Action_Language_reference_D-H)
-[Action Language reference I - R](/docs/Task_flow/Action_Language_reference_I-R)
-[Action Language reference S - Z](/docs/Task_flow/Action_Language_Reference_S-Z)
+[Action Language reference A - C](/Task_flow/Action_Language_reference_A-C)
+[Action Language reference D - H](/Task_flow/Action_Language_reference_D-H)
+[Action Language reference I - R](/Task_flow/Action_Language_reference_I-R)
+[Action Language reference S - Z](/Task_flow/Action_Language_Reference_S-Z)
 
 :::
 
@@ -33,7 +33,7 @@ In USoft Definer, you can script commands in the Action Language:
 
 :::tip
 
-Please find explanations, examples and tutorials in the [Decisions](/docs/Task_flow/Decisions) section.
+Please find explanations, examples and tutorials in the [Decisions](/Task_flow/Decisions) section.
 
 :::
 
@@ -42,7 +42,7 @@ In this context, a small subset of actions is particularly important:
 |        |        |        |
 |--------|--------|--------|
 |**ActionDecision()**|**SqlScript()**|**ResourceFileUpdate()**|
-|[MessageInformation()](/docs/Task_flow/Action_Language_reference_I-R/MessageInformation.md)|[MessageError()](/docs/Task_flow/Action_Language_reference_I-R/MessageError.md)|[ResourceFileUpdateKeepBackslash()](/docs/Task_flow/Action_Language_reference_I-R/ResourceFileUpdateKeepBackslash.md)|
+|[MessageInformation()](/Task_flow/Action_Language_reference_I-R/MessageInformation.md)|[MessageError()](/Task_flow/Action_Language_reference_I-R/MessageError.md)|[ResourceFileUpdateKeepBackslash()](/Task_flow/Action_Language_reference_I-R/ResourceFileUpdateKeepBackslash.md)|
 
 
 
@@ -62,7 +62,7 @@ In USoft Windows Designer, you can script command in the Action Language in **pr
 
 :::tip
 
-For customising C/S screens, please find an alphabetic list of all actions [in this section](/docs/Task_flow/Action_Language_reference).
+For customising C/S screens, please find an alphabetic list of all actions [in this section](/Task_flow/Action_Language_reference).
 
 :::
 
@@ -105,7 +105,7 @@ A script contains at least 1 *action* and possibly multiple actions. Depending o
 *action*(  )
 ```
 
-For syntax examples and explanations, please refer to the individual actions listed [in this section](/docs/Task_flow/Action_Language_reference).
+For syntax examples and explanations, please refer to the individual actions listed [in this section](/Task_flow/Action_Language_reference).
 
 ## Literals
 
@@ -133,7 +133,7 @@ but the following is recommended because faster and safer:
 
 The notation colon ( **:** ) + *integer* allows you to pass a value between your application and a SQL statement or SQL script. Values are passed by position: **:1** represents the first value passed or retrieved; **:2** the second, and so on.
 
-Numbered placeholders are covered in [Host variables in SQL](/docs/Modeller_and_Rules_Engine/SQL_syntax/Host_variables_in_SQL.md).
+Numbered placeholders are covered in [Host variables in SQL](/Modeller_and_Rules_Engine/SQL_syntax/Host_variables_in_SQL.md).
 
 ## Variable elements: named placeholders
 
@@ -252,7 +252,7 @@ A special subset of action calls are *property calls.* The name **background** i
 MyPersonsWindow.background( 'red' )
 ```
 
-In Windows GUI, use the **Object Activator** tool to find the available names of objects, methods and properties within a window. Search "actions examples" for more examples of command scripts in a Windows GUI context. To find property names that you can use in action scripts, see the [Property Reference](/docs/Task_flow/Action_Language_reference/Property_reference.md) article.
+In Windows GUI, use the **Object Activator** tool to find the available names of objects, methods and properties within a window. Search "actions examples" for more examples of command scripts in a Windows GUI context. To find property names that you can use in action scripts, see the [Property Reference](/Task_flow/Action_Language_reference/Property_reference.md) article.
 
 To script behaviour *between* windows, you can pass objects of the calling window as a *user-defined property* of the called window. The following call demonstrates this technique:
 
@@ -265,7 +265,7 @@ In this technique, you need to create one or more user-defined properties in the
 
 :::note
 
-For  a full explanation of this technique, go to [Window interaction](/docs/Desktop_UIs/Scripting_in_USoft_Windows_Designer/Window_interaction.md).
+For  a full explanation of this technique, go to [Window interaction](/Desktop_UIs/Scripting_in_USoft_Windows_Designer/Window_interaction.md).
 
 :::
 

@@ -15,7 +15,7 @@ This article is under construction.
 
 ## **$.udb.benchmark.settings**
 
-Provides access to USoft [Web Benchmark settings](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_settings.md). For each resource, refer to the corresponding Web benchmark setting highlighted in the descriptions for full details.
+Provides access to USoft [Web Benchmark settings](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_settings.md). For each resource, refer to the corresponding Web benchmark setting highlighted in the descriptions for full details.
 
 Typical usage of this property would be whenever you need to automatically adjust settings (e.g. modify playback speed for specific tests) during test playback . You can use script execution actions to make these adjustments without requiring GUI interaction. 
 

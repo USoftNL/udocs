@@ -10,7 +10,7 @@ Follow these steps to publish and run an application in Development with USoft d
 
 ![](./assets/3245c750-b4d8-44ea-89ef-c4bc9dfee706.png)
 
-After completing Step 9, if required, you can [upgrade to the HTTPS protocol](/docs/Web_and_app_UIs/Getting_started_with_Web_Designer/Upgrading_to_the_HTTPS_protocol.md).
+After completing Step 9, if required, you can [upgrade to the HTTPS protocol](/Web_and_app_UIs/Getting_started_with_Web_Designer/Upgrading_to_the_HTTPS_protocol.md).
 
 ## Step 1. Planning ahead
 
@@ -273,4 +273,4 @@ If the service only has a single connection, you can omit */connection*:
 http://localhost:8090/myservice1
 ```
 
-3. If required, as a next step, you can [upgrade to the HTTPS protocol](/docs/Web_and_app_UIs/Getting_started_with_Web_Designer/Upgrading_to_the_HTTPS_protocol.md).
+3. If required, as a next step, you can [upgrade to the HTTPS protocol](/Web_and_app_UIs/Getting_started_with_Web_Designer/Upgrading_to_the_HTTPS_protocol.md).

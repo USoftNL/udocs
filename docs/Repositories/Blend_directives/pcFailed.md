@@ -9,7 +9,7 @@ id: pcFailed
 
 :::note
 
-This article is about the **pc:Failed**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:Failed**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

@@ -109,25 +109,25 @@ Developers can have many different purposes for USoft Blend, and many different 
 
 Blend is made up of **directives, functions, resources,** and **utilities.** For a beginner, it is helpful to understand the difference between these 4.
 
-Directives and functions are the "commands”: the script language. You need to know about them, or be able to look them up, in order to write your own Blend scripts. Resources are snippets of sample code that you can use as a starting point: copy and tweak them to your own needs. Utilities are just ready-made pieces of software that you use as-is: their relationship with Blend is that USoft created them as Blend implementations. More explanation is [here](/docs/Repositories/Blend_scripts_for_repository_management/Understanding_USoft_Blend.md).
+Directives and functions are the "commands”: the script language. You need to know about them, or be able to look them up, in order to write your own Blend scripts. Resources are snippets of sample code that you can use as a starting point: copy and tweak them to your own needs. Utilities are just ready-made pieces of software that you use as-is: their relationship with Blend is that USoft created them as Blend implementations. More explanation is [here](/Repositories/Blend_scripts_for_repository_management/Understanding_USoft_Blend.md).
 
-If you like to learn by grasping concepts, click [here](/docs/Repositories/Blend_scripts_for_repository_management/Understanding_USoft_Blend.md), and read that entire article through to the end.
+If you like to learn by grasping concepts, click [here](/Repositories/Blend_scripts_for_repository_management/Understanding_USoft_Blend.md), and read that entire article through to the end.
 
 If you like to learn by experimenting, use the entrypoints given below to find directives, functions, resources and utilities, and to use them in a sandbox situation.
 
 ### Tips and tricks for USoft Blend beginners
 
-Once you have a basic grasp of USoft Blend, make sure you read the [Tips and tricks for USoft Blend beginners](/docs/Repositories/Blend_scripts_for_repository_management/Tips_and_tricks_for_USoft_Blend_beginners.md) article. This will help you avoid typical problems that many beginners have.
+Once you have a basic grasp of USoft Blend, make sure you read the [Tips and tricks for USoft Blend beginners](/Repositories/Blend_scripts_for_repository_management/Tips_and_tricks_for_USoft_Blend_beginners.md) article. This will help you avoid typical problems that many beginners have.
 
 ### Reference information
 
 Many people find it easy to read code examples along with explanatory text and then copy the code and test and tweak it to their needs. For this type of per-item reference information, go to:
 
-[Blend directives](/docs/Repositories/Blend_directives)
+[Blend directives](/Repositories/Blend_directives)
 
-[Blend attributes](/docs/Repositories/Blend_attributes)
+[Blend attributes](/Repositories/Blend_attributes)
 
-[Blend functions](/docs/Repositories/Blend_functions)
+[Blend functions](/Repositories/Blend_functions)
 
 ### Experimenting from the command line
 
@@ -186,4 +186,4 @@ For experimenting with utilities:
 
 If you use Blend in a context of delivery, and you release, configure and deploy your USoft application with USoft Delivery Manager, then a good place to start is by trying out the built-in example deploy scripts. Delivery Manager has a sample deploy script for each type of deliverable, that you can tweak to your team's needs.
 
-An explanation of Blend deploy scripts is [here](/docs/Continuous_delivery/Blend_deploy_scripts/Blend_deploy_scripts.md).
+An explanation of Blend deploy scripts is [here](/Continuous_delivery/Blend_deploy_scripts/Blend_deploy_scripts.md).

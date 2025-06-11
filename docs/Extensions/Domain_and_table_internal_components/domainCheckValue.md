@@ -9,7 +9,7 @@ id: domainCheckValue
 
 :::note
 
-This article is about the **domain.CheckValue** method of [domain internal components](/docs/Extensions/Domain_and_table_internal_components).
+This article is about the **domain.CheckValue** method of [domain internal components](/Extensions/Domain_and_table_internal_components).
 
 :::
 

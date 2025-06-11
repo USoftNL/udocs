@@ -23,11 +23,11 @@ To install the USoft product, you need an executable and a license file. The exe
 
 ## Requirements
 
-[Hardware and operating system requirements](/docs/USoft_for_administrators/Installing_USoft/Hardware_and_operating_system_requirements.md)
+[Hardware and operating system requirements](/USoft_for_administrators/Installing_USoft/Hardware_and_operating_system_requirements.md)
 
-[Oracle requirements](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)
+[Oracle requirements](/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)
 
-[Microsoft SQL Server requirements](/docs/USoft_for_administrators/Installing_USoft/Microsoft_SQL_Server_requirements.md)
+[Microsoft SQL Server requirements](/USoft_for_administrators/Installing_USoft/Microsoft_SQL_Server_requirements.md)
 
 ## Environments
 

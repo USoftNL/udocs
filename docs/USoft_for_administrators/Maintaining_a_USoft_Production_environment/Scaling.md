@@ -35,7 +35,7 @@ A baseline should be single-threaded so that you rule out the influence of accid
 
 Using (re-)initialisation scripts and documentation should allow you to rebuild the baseline as much as possible in the same way as in the previous run: same architecture, same configurations, same data content, same tested operations.
 
-This article helps you see different application layers. You need different tools to monitor performance at different levels. Use OS tools for CPU monitoring. Use RDBMS diagnostic tools for monitoring database behaviour. Use [USoft Benchmark](/docs/Modeller_and_Rules_Engine/Testing_a_Rules_Engine_with_USoft_Benchmark/Getting_started_with_USoft_Benchmark.md) for monitoring and analysing Rules Engine behaviour. In large applications you may want to mobilise specialised tooling for network and server monitoring, for example, Nagios.
+This article helps you see different application layers. You need different tools to monitor performance at different levels. Use OS tools for CPU monitoring. Use RDBMS diagnostic tools for monitoring database behaviour. Use [USoft Benchmark](/Modeller_and_Rules_Engine/Testing_a_Rules_Engine_with_USoft_Benchmark/Getting_started_with_USoft_Benchmark.md) for monitoring and analysing Rules Engine behaviour. In large applications you may want to mobilise specialised tooling for network and server monitoring, for example, Nagios.
 
 ### Troubleshooting
 
@@ -59,7 +59,7 @@ Typically, USoft web applications have 3 layers that you can scale. In a USoft w
 
 In a USoft service-oriented interface (a software layer directed at automated use by other software), they are:
 
-- The interface services, typically offered by a **server** developed in [USoft's Service Framework](/docs/Services/Introducing_USoft_Services/Introducing_USoft_Services.md);
+- The interface services, typically offered by a **server** developed in [USoft's Service Framework](/Services/Introducing_USoft_Services/Introducing_USoft_Services.md);
 - Rules Services and Rules Engines.
 - The RDBMS.
 
@@ -93,7 +93,7 @@ A Rules Service can activate multiple Rules Engines to allow for multithreading:
 
 Keeping transactions small is important for systems that process large volumes of messages. If a transaction is small, a single Rules Engine can handle many requests.
 
-You can open a browser-based Rules Service configuration console at a **ure.config** URL, for example, by creating and then using a **Rules Service item** in a [USoft Binder file](/docs/USoft_for_administrators/USoft_Binder/USoft_Binder_for_administrators.md). In this console, you can set **Idle Timeout** and **Connection Timeout** for a Rules Service:
+You can open a browser-based Rules Service configuration console at a **ure.config** URL, for example, by creating and then using a **Rules Service item** in a [USoft Binder file](/USoft_for_administrators/USoft_Binder/USoft_Binder_for_administrators.md). In this console, you can set **Idle Timeout** and **Connection Timeout** for a Rules Service:
 
 ![](./assets/47174d7a-67bb-4bd5-8efe-3ce4d4af2964.png)
 
@@ -131,7 +131,7 @@ To take scaling measures at RDBMS level, you need to mobilise RDBMS-specific too
 
 This section discusses applicative scaling of *event-driven* USoft solutions. The purpose of event processing with USoft is to enforce business rules by analysing incoming information and reacting to it in real time. This allows you to adapt to change, distribute workload on multiple event processing engines, and implement fault-tolerant behaviour.
 
-An event-driven system in USoft consists of [event processing](/docs/Services/Event_processing) services that:
+An event-driven system in USoft consists of [event processing](/Services/Event_processing) services that:
 
 - Receive events;
 - Process the information carried by the events, where the USoft Rules Engine is responsible for enforcing business rules on the event data by executing *constraints*;

@@ -9,7 +9,7 @@ id: SQLServer_Option_Fast_1
 
 :::note
 
-This article is about the **SQLServer_Option_Fast_1**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+This article is about the **SQLServer_Option_Fast_1**[deployment configuration parameter](/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 :::
 

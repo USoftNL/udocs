@@ -9,7 +9,7 @@ id: stringsQuoted
 
 :::note
 
-This article is about the **strings:Quoted**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:Quoted**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

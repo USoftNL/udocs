@@ -9,7 +9,7 @@ id: Publish_server
 
 :::note
 
-This article is about the **Publish server**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Publish server**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -17,7 +17,7 @@ This article is about the **Publish server**[Delivery Manager action](/docs/Cont
 
 This action is the equivalent of running Publish for a server in USoft Service Definer.
 
-You can only run this action successfully if you first register the server in Delivery Manager using the “[Extract servers](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Extract_servers.md)” action. Choose Definer, Extracted Server Objects to see servers registered.
+You can only run this action successfully if you first register the server in Delivery Manager using the “[Extract servers](/Continuous_delivery/Delivery_Manager_actions_by_name/Extract_servers.md)” action. Choose Definer, Extracted Server Objects to see servers registered.
 
 1. Re-executes the Extract servers action for "Database account". Uses the result of this action to check that "Server object" exists in "Database account":
 

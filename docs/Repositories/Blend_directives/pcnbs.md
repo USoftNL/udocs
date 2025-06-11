@@ -9,7 +9,7 @@ id: pcnbs
 
 :::note
 
-This article is about the **pc:nbs**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:nbs**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

@@ -13,8 +13,8 @@ This article is about the **registry** concept in USoft Delivery Manager (“UDe
 
 **See also**
 
-- [Loading registry samples](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Loading_registry_samples.md)
-- [Creating a registry](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_registry.md)
+- [Loading registry samples](/Continuous_delivery/Delivery_Manager_basic_procedures/Loading_registry_samples.md)
+- [Creating a registry](/Continuous_delivery/Delivery_Manager_basic_procedures/Creating_a_registry.md)
 
 A *registry* is an XML document that acts as a mini-database describing how target machines are different from Development machines: it provides data needed for *configuration.*
 
@@ -56,7 +56,7 @@ Deploy scripts can tap into this registry data and distribute a set of flatfiles
 
 :::note
 
-While registries describe target machines and source variables do not, teams have reported that variable substitution in registries is generally useful. For this reason, from USoft 10.0.1C, you can use [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md) in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
+While registries describe target machines and source variables do not, teams have reported that variable substitution in registries is generally useful. For this reason, from USoft 10.0.1C, you can use [source variables](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md) in registry XML. They are automatically substituted by values when you release the registry. The substitutions can be previewed on the Settings tab in the Registries window.
 
 :::
 

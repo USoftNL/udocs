@@ -4,7 +4,7 @@ id: Deployment_configurations
 
 # Deployment configurations
 
-A **deployment configuration** is a set of parameter-value pairs. In this set, each of a fixed set of [deployment configurations parameters](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md) is set to a specific value. These settings influence the runtime behavior of USoft during a session.
+A **deployment configuration** is a set of parameter-value pairs. In this set, each of a fixed set of [deployment configurations parameters](/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md) is set to a specific value. These settings influence the runtime behavior of USoft during a session.
 
 When a user logs on to the application, exactly 1 deployment configuration is selected:
 
@@ -24,7 +24,7 @@ Do not differentiate between deployment configurations unless and until you have
 
 :::tip
 
-You can influence a number of other aspects of Rules Engine behaviour by setting [Rules Engine parameters](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md).
+You can influence a number of other aspects of Rules Engine behaviour by setting [Rules Engine parameters](/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md).
 
 :::
 

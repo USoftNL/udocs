@@ -9,7 +9,7 @@ id: pcprocessinginstruction
 
 :::note
 
-This article is about the **pc:processing-instruction**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:processing-instruction**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

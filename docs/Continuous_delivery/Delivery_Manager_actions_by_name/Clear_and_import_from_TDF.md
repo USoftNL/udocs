@@ -9,7 +9,7 @@ id: Clear_and_import_from_TDF
 
 :::note
 
-This article is about the **Clear and import from TDF**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Clear and import from TDF**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

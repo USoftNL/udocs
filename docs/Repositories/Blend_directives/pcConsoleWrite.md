@@ -9,7 +9,7 @@ id: pcConsoleWrite
 
 :::note
 
-This article is about the **pc:ConsoleWrite**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:ConsoleWrite**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

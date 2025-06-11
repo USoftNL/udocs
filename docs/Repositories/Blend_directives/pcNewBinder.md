@@ -9,7 +9,7 @@ id: pcNewBinder
 
 :::note
 
-This article is about the **pc:NewBinder**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:NewBinder**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
@@ -98,7 +98,7 @@ If you use separate settings:
 
 :::note
 
-For the USoft concepts of User and Owner, go to [USoft Binder for administrators](/docs/USoft_for_administrators/USoft_Binder/USoft_Binder_for_administrators.md).
+For the USoft concepts of User and Owner, go to [USoft Binder for administrators](/USoft_for_administrators/USoft_Binder/USoft_Binder_for_administrators.md).
 
 :::
 

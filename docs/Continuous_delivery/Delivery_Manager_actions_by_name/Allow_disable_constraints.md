@@ -9,7 +9,7 @@ id: Allow_disable_constraints
 
 :::note
 
-This article is about the **Allow disable constraints**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Allow disable constraints**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

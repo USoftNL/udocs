@@ -8,7 +8,7 @@ id: Authorising_team_members_for_USoft_100
 :::tip
 
 This article is about authorising team members in a **USoft 10.0** development environment.
-For the USoft 9.1 situation, click [here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_91.md).
+For the USoft 9.1 situation, click [here](/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_91.md).
 
 :::
 

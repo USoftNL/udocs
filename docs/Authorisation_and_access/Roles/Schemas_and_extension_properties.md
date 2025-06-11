@@ -40,7 +40,7 @@ The Descriptors related box at the bottom of the Extension Properties window app
 
 :::tip
 
-At runtime, the [internal component](/docs/Extensions/CurrentUser_internal_component) allows you to get or set values of extension properties for the current user dynamically.
+At runtime, the [internal component](/Extensions/CurrentUser_internal_component) allows you to get or set values of extension properties for the current user dynamically.
 
 :::
 

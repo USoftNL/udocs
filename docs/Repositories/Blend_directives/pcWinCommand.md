@@ -9,7 +9,7 @@ id: pcWinCommand
 
 :::note
 
-This article is about the **pc:WinCommand**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:WinCommand**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

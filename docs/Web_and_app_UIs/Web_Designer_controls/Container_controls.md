@@ -20,7 +20,7 @@ Finally, make local changes to each of the 5 pages as required.
 :::tip
 
 **Group or Container ?**
-Use a **Group** control to group, sequence and position objects in a page. Use a **Container** control to create a sub-area of objects and behaviour that you want to re-use across multiple pages. Click [here](/docs/Web_and_app_UIs/Web_Designer_controls/Group_controls.md) to learn more.
+Use a **Group** control to group, sequence and position objects in a page. Use a **Container** control to create a sub-area of objects and behaviour that you want to re-use across multiple pages. Click [here](/Web_and_app_UIs/Web_Designer_controls/Group_controls.md) to learn more.
 
 :::
 

@@ -49,7 +49,7 @@ Script(js) = $.udb.navigateTo(
 
 ## Data sources and frame controls
 
-The USoft implementation of frame controls is an example of [page chaining](/docs/Web_and_app_UIs/Navigation_between_web_pages/Page_chaining.md) and not of [page stacking](/docs/Web_and_app_UIs/Navigation_between_web_pages/Page_stacking.md). Page chaining implies that, when you navigate from one page to another in a frame, and the first page contains a data source A and the second page also contains a data source called A, then data is automatically carried over from data source A on the first page to data source A on the second page.
+The USoft implementation of frame controls is an example of [page chaining](/Web_and_app_UIs/Navigation_between_web_pages/Page_chaining.md) and not of [page stacking](/Web_and_app_UIs/Navigation_between_web_pages/Page_stacking.md). Page chaining implies that, when you navigate from one page to another in a frame, and the first page contains a data source A and the second page also contains a data source called A, then data is automatically carried over from data source A on the first page to data source A on the second page.
 
 This fact has a number of implications.
 

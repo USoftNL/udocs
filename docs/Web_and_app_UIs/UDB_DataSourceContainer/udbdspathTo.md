@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **pathTo()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+This article is about the **pathTo()** function of the [DataSourceContainer object](/Web_and_app_UIs/UDB_DataSourceContainer).
 
 :::
 
@@ -56,14 +56,14 @@ $.udb( *ds* ).pathTo( *dsc* )
 *dsc*  ::=  { *data-source-object* | *data-source-reference* }
 ```
 
-The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
+The optional *ds* is a [data source selector](/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 The required *dsc* can be a data source object or a reference to a data source object. There are multiple ways of referencing (or selecting) a data source: by data source name, data source ID, by data source alias (a letter-number code of the type DS98, or by an absolute or relative data source path. Data source aliases may be inspected on the JSON tab of the Web Designer tool when the page is opened.
 
 
 :::note
 
-For details on data source paths, go to the [Data source path syntax](/docs/Web_and_app_UIs/Data_sources/Data_source_path_syntax.md) article.
+For details on data source paths, go to the [Data source path syntax](/Web_and_app_UIs/Data_sources/Data_source_path_syntax.md) article.
 
 :::
 

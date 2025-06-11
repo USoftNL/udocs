@@ -10,7 +10,7 @@ id: CAST
 :::note
 
 This article has additional information about the **CAST** SQL function.
-For convertibility of this function, go to [SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md).
+For convertibility of this function, go to [SQL functions  A - C](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md).
 
 :::
 

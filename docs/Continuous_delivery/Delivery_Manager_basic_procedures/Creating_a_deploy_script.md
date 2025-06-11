@@ -6,7 +6,7 @@ id: Creating_a_deploy_script
 
 **See also**
 
-- [Deploy scripts in UDeliver](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Deploy_scripts_in_UDeliver.md)
+- [Deploy scripts in UDeliver](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Deploy_scripts_in_UDeliver.md)
 
 To create a deploy script:
 

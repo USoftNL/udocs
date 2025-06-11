@@ -134,14 +134,14 @@ As an example, the following steps describe how you can set up a test app in POS
 
 **If you are using "USoft Table Resource", choose a topic from this list to continue:**
 
-[Retrieving data with USoft Table Resource](/docs/Services/Predefined_REST_services/Retrieving_data_with_USoft_Table_Resource.md)
+[Retrieving data with USoft Table Resource](/Services/Predefined_REST_services/Retrieving_data_with_USoft_Table_Resource.md)
 
-[Adding data with USoft Table Resource](/docs/Services/Predefined_REST_services/Adding_data_with_USoft_Table_Resource.md)
+[Adding data with USoft Table Resource](/Services/Predefined_REST_services/Adding_data_with_USoft_Table_Resource.md)
 
-[Updating data with USoft Table Resource](/docs/Services/Predefined_REST_services/Updating_data_with_USoft_Table_Resource.md)
+[Updating data with USoft Table Resource](/Services/Predefined_REST_services/Updating_data_with_USoft_Table_Resource.md)
 
-[Deleting data with USoft Table Resource](/docs/Services/Predefined_REST_services/Deleting_data_with_USoft_Table_Resource.md)
+[Deleting data with USoft Table Resource](/Services/Predefined_REST_services/Deleting_data_with_USoft_Table_Resource.md)
 
 **If you are using "USoft Job Resource", choose a topic from this list to continue:**
 
-[Calling a Batch Job with USoft Job Resource](/docs/Services/Predefined_REST_services/Calling_a_batch_job_with_USoft_Job_Resource.md)
+[Calling a Batch Job with USoft Job Resource](/Services/Predefined_REST_services/Calling_a_batch_job_with_USoft_Job_Resource.md)

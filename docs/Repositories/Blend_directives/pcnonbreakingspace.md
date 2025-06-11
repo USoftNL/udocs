@@ -9,7 +9,7 @@ id: pcnonbreakingspace
 
 :::note
 
-This article is about the **pc:non-breaking-space**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:non-breaking-space**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

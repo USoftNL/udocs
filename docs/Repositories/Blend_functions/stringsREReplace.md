@@ -9,7 +9,7 @@ id: stringsREReplace
 
 :::note
 
-This article is about the **strings:REReplace**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:REReplace**[ Blend function](/Repositories/Blend_functions).
 
 :::
 
@@ -60,6 +60,6 @@ MyValue
 
 :::tip
 
-If you want to do a simple replacement for which you do not require a regexp pattern, use [strings:Replace()](/docs/Repositories/Blend_functions/stringsReplace.md) instead.
+If you want to do a simple replacement for which you do not require a regexp pattern, use [strings:Replace()](/Repositories/Blend_functions/stringsReplace.md) instead.
 
 :::

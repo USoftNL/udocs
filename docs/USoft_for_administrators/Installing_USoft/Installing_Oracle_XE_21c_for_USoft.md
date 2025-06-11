@@ -10,7 +10,7 @@ This article tells you how to install Oracle XE 21c for USoft.
 :::danger
 
 This article is for developers who want to create a local USoft sandbox installation on top of a free Oracle version.
-We have NOT yet tried and tested Oracle 21c for Production environments (as you can see [here](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)). In client projects, use Oracle 19c****instead.
+We have NOT yet tried and tested Oracle 21c for Production environments (as you can see [here](/USoft_for_administrators/Installing_USoft/Oracle_requirements.md)). In client projects, use Oracle 19c****instead.
 
 :::
 

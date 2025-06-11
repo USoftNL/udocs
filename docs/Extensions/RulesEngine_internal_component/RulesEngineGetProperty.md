@@ -9,14 +9,14 @@ id: RulesEngineGetProperty
 
 :::note
 
-This article is about the **GetProperty** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
-See also [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **GetProperty** method of the [RulesEngine internal component](/Extensions/RulesEngine_internal_component).
+See also [Rules Engine properties](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **RulesEngine.GetProperty**
 
-Retrieves the current setting for a [Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties) by accessing the value of the specified property. To reset a Rules Engine property to a different value, use the **SetProperty** method.
+Retrieves the current setting for a [Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties) by accessing the value of the specified property. To reset a Rules Engine property to a different value, use the **SetProperty** method.
 
 *Syntax*
 

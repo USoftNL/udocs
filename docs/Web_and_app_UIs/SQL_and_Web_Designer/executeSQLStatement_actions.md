@@ -10,7 +10,7 @@ This article is about using an **executeSQLStatement** action in your web page i
 
 Add an executeSQLStatement action to your web page if you need to perform additional data manipulation over and above the data manipulation afforded to your end users when they interact with standard forms based on TableDataSources. You define the data manipulation by writing your own SQL statement.
 
-You can use this technique for straightforward INSERT, UPDATE and DELETE commands, but also for job calls and RDMI calls: if you plan to process the output data or return values of such calls, then on USoft 10, a [SQLDataSource](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md) is a better alternative.
+You can use this technique for straightforward INSERT, UPDATE and DELETE commands, but also for job calls and RDMI calls: if you plan to process the output data or return values of such calls, then on USoft 10, a [SQLDataSource](/Web_and_app_UIs/Data_sources/SQLDataSources.md) is a better alternative.
 
 ## Creating an executeSQLStatement action
 
@@ -113,7 +113,7 @@ This code snippet illustrates that you can use **hostvars** settings to pass val
 
 `USoft 10.x``{.vs_10}`
 
-On USoft 10, for queries, prefer using a [SQLDataSource](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md) instead of an executeSQLStatement action.
+On USoft 10, for queries, prefer using a [SQLDataSource](/Web_and_app_UIs/Data_sources/SQLDataSources.md) instead of an executeSQLStatement action.
 
 `USoft 9.x``{.vs_10}`
 

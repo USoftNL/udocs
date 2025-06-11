@@ -9,13 +9,13 @@ id: BatchLogLevel
 
 :::note
 
-This article is about the **BatchLogLevel**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **BatchLogLevel**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **BatchLogLevel**
 
-The **BatchLogLevel** Rules Engine property can be used to override the [Batch_Loglevel](/docs/Authorisation_and_access/Deployment_configurations/Batch_Loglevel.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **BatchLogLevel** Rules Engine property can be used to override the [Batch_Loglevel](/Authorisation_and_access/Deployment_configurations/Batch_Loglevel.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

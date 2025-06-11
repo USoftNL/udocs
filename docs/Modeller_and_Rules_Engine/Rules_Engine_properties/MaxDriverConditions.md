@@ -9,13 +9,13 @@ id: MaxDriverConditions
 
 :::note
 
-This article is about the **MaxDriverConditions**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **MaxDriverConditions**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **MaxDriverConditions**
 
-The **MaxDriverConditions** Rules Engine property can be used to override the [Max_Driver_Conditions](/docs/Authorisation_and_access/Deployment_configurations/Max_Driver_Conditions.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **MaxDriverConditions** Rules Engine property can be used to override the [Max_Driver_Conditions](/Authorisation_and_access/Deployment_configurations/Max_Driver_Conditions.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

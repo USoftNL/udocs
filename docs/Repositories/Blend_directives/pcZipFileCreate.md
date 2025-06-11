@@ -9,7 +9,7 @@ id: pcZipFileCreate
 
 :::note
 
-This article is about the **pc:ZipFileCreate**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:ZipFileCreate**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

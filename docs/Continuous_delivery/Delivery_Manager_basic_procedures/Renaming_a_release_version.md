@@ -20,7 +20,7 @@ Follow these steps to rename the current release version.
 
 ## Renaming an archived release
 
-Once you have archived a release or an entire release tree [as explained here](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), that release no longer has any connection with the Delivery Manager tool. You can simply rename at file system level by renaming folders and files.
+Once you have archived a release or an entire release tree [as explained here](/Continuous_delivery/Delivery_Manager_basic_procedures/Dropping_moving_archiving_a_release_tree_or_starting_over.md), that release no longer has any connection with the Delivery Manager tool. You can simply rename at file system level by renaming folders and files.
 
 ## Renaming a past release referenced by Delivery Manager
 

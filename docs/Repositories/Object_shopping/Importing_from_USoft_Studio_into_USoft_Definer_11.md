@@ -25,7 +25,7 @@ We offer a workaround utility for exports from USoft Studio 4.1. Perform the fol
 
 :::tip
 
-We also offer a workaround utility for **migrating earlier Business Rules from Definer (Teamwork) to Studio**. Please go to the bottom of this article: [Formulations in USoft Definer](/docs/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md).
+We also offer a workaround utility for **migrating earlier Business Rules from Definer (Teamwork) to Studio**. Please go to the bottom of this article: [Formulations in USoft Definer](/Collaboration/Between_business_rules_and_implementations/Formulations_in_USoft_Definer.md).
 
 :::
 
@@ -187,7 +187,7 @@ For Formulations (imported in Definer as Business Rules), the result contains on
 
 ### Step 2: Import
 
-The items are imported into USoft Definer following the “[UPSERT](/docs/Extensions/XML_internal_component/XMLImport.md)” principle:
+The items are imported into USoft Definer following the “[UPSERT](/Extensions/XML_internal_component/XMLImport.md)” principle:
 
 - Any item found in the exportfile but not in Definer is **added**.
 - No item is **deleted**.
@@ -216,7 +216,7 @@ This report offers a full comparison between Studio and Definer of items in the 
 - Business objects
 - Rule sets
 
-This report describes differences by using [DML instruction tags](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md), a standard feature of USoft XML:
+This report describes differences by using [DML instruction tags](/Repositories/USoft_XML_formats/DML_instruction_tags.md), a standard feature of USoft XML:
 
 |        |        |
 |--------|--------|
@@ -244,8 +244,8 @@ The "Compare” preview report is machine-processable. If you like, you can remo
 :::note
 
 This kind of comparison report is a standard feature of USoft Blend and USoft Delivery Manager.
-[Compare in USoft Blend](/docs/Repositories/Blend_directives/pcCompare.md)
-[Compare in Delivery Manager](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
+[Compare in USoft Blend](/Repositories/Blend_directives/pcCompare.md)
+[Compare in Delivery Manager](/Continuous_delivery/Delivery_Manager_actions_by_name/Compare_data_files.md)
 
 :::
 
@@ -304,7 +304,7 @@ For many teams, in practice, the best convention is that no team member makes an
 
 :::note
 
-Definer has special [..._NO_STUDIO roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
+Definer has special [..._NO_STUDIO roles](/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) that guarantee that the Definer user does not manipulate Business Rules that should be manipulated in USoft Studio instead.
 
 :::
 

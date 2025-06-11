@@ -9,7 +9,7 @@ id: environmentMachineName
 
 :::note
 
-This article is about the **environment:MachineName**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **environment:MachineName**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

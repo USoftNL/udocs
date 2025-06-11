@@ -11,7 +11,7 @@ id: Release_createtables_script
 
 :::note
 
-This article is about the **Release create-tables script**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Release create-tables script**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -85,10 +85,10 @@ To customise, you need to understand the different steps that Delivery Manager t
 
 ### Other similar actions
 
-Calling "Release create-tables script" is different from calling USoft's standard "Create Physical Tables" option, as executed by the "[Generate create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Generate_createtables_script.md)" action, because :
+Calling "Release create-tables script" is different from calling USoft's standard "Create Physical Tables" option, as executed by the "[Generate create-tables script](/Continuous_delivery/Delivery_Manager_actions_by_name/Generate_createtables_script.md)" action, because :
 
 - "Release create-tables script" is based on a comparison with metadata as defined for the PREVIOUS release and registered in Delivery Manager's previous release folder, whereas
-- USoft's standard "Create Physical Tables" option is based on whatever database state is found on the local machine where the option is run. To execute this standard option from Delivery Manager, if you want changes to apply immediately to the repository, call “[Create tables](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Create_tables.md)" with “Run from repository” = Yes. If you want to write the changes to a script file, call "[Generate create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Generate_createtables_script.md)".
+- USoft's standard "Create Physical Tables" option is based on whatever database state is found on the local machine where the option is run. To execute this standard option from Delivery Manager, if you want changes to apply immediately to the repository, call “[Create tables](/Continuous_delivery/Delivery_Manager_actions_by_name/Create_tables.md)" with “Run from repository” = Yes. If you want to write the changes to a script file, call "[Generate create-tables script](/Continuous_delivery/Delivery_Manager_actions_by_name/Generate_createtables_script.md)".
 
-Instead of calling "Release create-tables script", you can alternatively call "[Release scripts](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_scripts.md)" with "Include physical tables upgrade script" = Yes. The result is identical.
+Instead of calling "Release create-tables script", you can alternatively call "[Release scripts](/Continuous_delivery/Delivery_Manager_actions_by_name/Release_scripts.md)" with "Include physical tables upgrade script" = Yes. The result is identical.
 The only difference between "Release create-tables script" and "Release scripts" is that "Release scripts" also releases other upgrade scripts (if any exist for the current version of "Application").

@@ -9,7 +9,7 @@ id: directoriesDirectoryExists
 
 :::note
 
-This article is about the **directories:DirectoryExists**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **directories:DirectoryExists**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

@@ -9,7 +9,7 @@ id: pccommentof
 
 :::note
 
-This article is about the **pc:comment-of**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:comment-of**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

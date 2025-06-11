@@ -4,7 +4,7 @@ id: Upgrading_the_Development_environment_to_USoft_100
 
 # Upgrading the Development environment to USoft 10.0
 
-To upgrade to USoft 10.0, first [upgrade to USoft 9.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_91.md). Then, upgrade to USoft 10.0 as a separate action.
+To upgrade to USoft 10.0, first [upgrade to USoft 9.1](/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_91.md). Then, upgrade to USoft 10.0 as a separate action.
 
 
 :::warning
@@ -68,7 +68,7 @@ Carry out the actions on the checklist before or after this Step 4, as appropria
 
 For USoft Definer, most teams have assigned developers and other team members in Development to pre-defined USoft developer roles (called *user groups* in USoft 9.1, and *roles* in USoft 10.0). These assignments will automatically upgrade to USoft 10.0.
 
-Some teams have *altered* the pre-defined USoft 9.1 access rights to USD (USoft Definer) for developers. This was possible in 9.1 Authorizer, but is no longer possible in USoft 10.0. Any such alterations will be **lost** on upgrade to USoft 10.0. Instead, developers will get the predefined USoft 10.0 access rights to USD. These access rights are [described here](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md).
+Some teams have *altered* the pre-defined USoft 9.1 access rights to USD (USoft Definer) for developers. This was possible in 9.1 Authorizer, but is no longer possible in USoft 10.0. Any such alterations will be **lost** on upgrade to USoft 10.0. Instead, developers will get the predefined USoft 10.0 access rights to USD. These access rights are [described here](/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md).
 
 ### USoft data export files
 

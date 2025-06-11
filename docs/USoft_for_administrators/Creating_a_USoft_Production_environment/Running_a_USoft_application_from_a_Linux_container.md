@@ -35,7 +35,7 @@ For more information on Docker storage drivers, go to: [Docker Storage Documenta
 
 - [Docker engine](https://docs.docker.com/engine/)
 - Valid credentials to USoft's Azure Container Registry (ACR)
-- [Access to an application database](/docs/USoft_for_administrators/Installing_USoft)
+- [Access to an application database](/USoft_for_administrators/Installing_USoft)
 
 ## USoft Docker image
 
@@ -78,7 +78,7 @@ The **USoft RulesService** container supports connections to 2 database platform
 
 ### Oracle
 
-The base image comes with Oracle Instant Client pre-installed. This allows you to connect to an Oracle database out-of-the-box. To use this, simply [configure the Oracle connection string](/docs/USoft_for_administrators/Installing_USoft/Oracle_requirements.md).
+The base image comes with Oracle Instant Client pre-installed. This allows you to connect to an Oracle database out-of-the-box. To use this, simply [configure the Oracle connection string](/USoft_for_administrators/Installing_USoft/Oracle_requirements.md).
 
 
 :::warning
@@ -189,13 +189,13 @@ Use [docker storage](https://docs.docker.com/engine/storage/) to make changes to
 
 ### Service Framework
 
-To run the USoft Service Framework from the Linux container, ensure that [application resources](/docs/Services) are defined in the USoft Service Definer. You will need the application’s service definitions to configure the service framework correctly.
+To run the USoft Service Framework from the Linux container, ensure that [application resources](/Services) are defined in the USoft Service Definer. You will need the application’s service definitions to configure the service framework correctly.
 
 ## Step-by-step guide
 
 This section tells you how to make the following available from a Linux container:
 
-- A default USoft web application with a database located outside the container but on the same machine. This default will have the [usoft-zero](/docs/Web_and_app_UIs/USoft_template_defaults) look-and feel.
+- A default USoft web application with a database located outside the container but on the same machine. This default will have the [usoft-zero](/Web_and_app_UIs/USoft_template_defaults) look-and feel.
 - A USoft REST API or SOAP service.
 
 

@@ -66,7 +66,7 @@ In certain cases where application data cannot be preserved automatically, for e
 
 :::tip
 
-Tables that are described in USoft Definer but that are in fact an RDBMS view or an RDBMS synonym, are ignored by Create Table. See [External tables](/docs/Modeller_and_Rules_Engine/Tables_columns_and_relationships/External_tables.md).
+Tables that are described in USoft Definer but that are in fact an RDBMS view or an RDBMS synonym, are ignored by Create Table. See [External tables](/Modeller_and_Rules_Engine/Tables_columns_and_relationships/External_tables.md).
 
 :::
 

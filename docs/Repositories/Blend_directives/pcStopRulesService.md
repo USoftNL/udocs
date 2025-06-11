@@ -9,7 +9,7 @@ id: pcStopRulesService
 
 :::note
 
-This article is about the **pc:StopRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:StopRulesService**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

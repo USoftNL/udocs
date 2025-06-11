@@ -9,7 +9,7 @@ id: filesXmlFile
 
 :::note
 
-This article is about the **files:XmlFile**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **files:XmlFile**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

@@ -9,7 +9,7 @@ id: DeactivateConstraint
 
 :::note
 
-This article is about the **DeactivateConstraint** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about the **DeactivateConstraint** action in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 
@@ -20,7 +20,7 @@ Dynamically sets a constraint to Active = No. The result is that, temporarily, t
 
 :::warning
 
-This action is effective only if you have set the [Allow_Disable_Constraint](/docs/Authorisation_and_access/Deployment_configurations/Allow_Disable_Constraint.md) deployment configuration parameter for the runtime environment.
+This action is effective only if you have set the [Allow_Disable_Constraint](/Authorisation_and_access/Deployment_configurations/Allow_Disable_Constraint.md) deployment configuration parameter for the runtime environment.
 
 :::
 

@@ -9,7 +9,7 @@ id: stringsjoin
 
 :::note
 
-This article is about the **strings:join**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:join**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

@@ -10,7 +10,7 @@ id: Export_tasks
 - you require a high level of performance because of large data volumes, or
 - you are working on legacy USoft applications that use export tasks.
 
-In other cases, consider using [XML/JSON import](/docs/Repositories/Data_flow_control_with_XML_or_JSON/Data_flow_control_with_XML_or_JSON.md) instead. This gives you better control over the data in testing in and debugging.
+In other cases, consider using [XML/JSON import](/Repositories/Data_flow_control_with_XML_or_JSON/Data_flow_control_with_XML_or_JSON.md) instead. This gives you better control over the data in testing in and debugging.
 
 ### Export tasks, purpose
 

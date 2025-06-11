@@ -9,7 +9,7 @@ id: pcNewUDevelop
 
 :::note
 
-This article is about the **pc:NewUDevelop**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:NewUDevelop**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

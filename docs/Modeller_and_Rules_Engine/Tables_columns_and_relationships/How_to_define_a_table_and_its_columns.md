@@ -73,14 +73,14 @@ You can find this table attribute on the Table Details tab in the Database Table
 
 :::tip
 
-To get the initial data you have stored here, call [table.GetInitialData()](/docs/Extensions/Domain_and_table_internal_components/tableGetInitialData.md).
+To get the initial data you have stored here, call [table.GetInitialData()](/Extensions/Domain_and_table_internal_components/tableGetInitialData.md).
 
 :::
 
 
 :::tip
 
-Use any data format (XML, JSON, CSV...) that you prefer. For example, to create initial data in XML, you can enter the initial data in Development and call [XML.Export](/docs/Extensions/XML_internal_component/XMLExport.md). Then, to apply that initial data, for example during a version release, write a batch job that executes [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md).
+Use any data format (XML, JSON, CSV...) that you prefer. For example, to create initial data in XML, you can enter the initial data in Development and call [XML.Export](/Extensions/XML_internal_component/XMLExport.md). Then, to apply that initial data, for example during a version release, write a batch job that executes [XML.Import](/Extensions/XML_internal_component/XMLImport.md).
 
 :::
 

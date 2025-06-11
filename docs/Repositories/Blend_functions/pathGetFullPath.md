@@ -9,7 +9,7 @@ id: pathGetFullPath
 
 :::note
 
-This article is about the **path:GetFullPath**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **path:GetFullPath**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

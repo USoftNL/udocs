@@ -89,7 +89,7 @@ Perhaps you don't need pick-up branch in any diagram at all - formulations you h
 
 ### EAR attributes as roles
 
-As you probably noticed, just mapping data attributes to independent noun concepts is unprecise. In our USoft [SBVR toolkit](/docs/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md) we distinguish independent [noun concepts](/docs/Business_rules/Vocabulary_concepts/Noun_concepts.md) (SBVR: *general concepts*) from noun concepts that play [roles](/docs/Business_rules/Vocabulary_concepts/Roles.md). It does not cost you much to make the difference at the time when you draw a diagram. This distinction clarifies concepts both for you as an author, and also for your readers. The diagram choices on the right are more precise and informative:
+As you probably noticed, just mapping data attributes to independent noun concepts is unprecise. In our USoft [SBVR toolkit](/Business_rules/Vocabulary_concepts/A_minimal_toolkit_of_SBVR_vocabulary_concepts.md) we distinguish independent [noun concepts](/Business_rules/Vocabulary_concepts/Noun_concepts.md) (SBVR: *general concepts*) from noun concepts that play [roles](/Business_rules/Vocabulary_concepts/Roles.md). It does not cost you much to make the difference at the time when you draw a diagram. This distinction clarifies concepts both for you as an author, and also for your readers. The diagram choices on the right are more precise and informative:
 
 ![](./assets/1c63a8f3-f0a6-42eb-af99-03c9cfc24153.png)
 
@@ -126,7 +126,7 @@ In this situation, handler indicator and its synonym HI-code are *descriptor con
 
 :::tip
 
-Descriptor concepts are like [type concepts](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md) in many ways, but they come into existence for slightly different reasons.
+Descriptor concepts are like [type concepts](/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_type_concepts_if_you_can.md) in many ways, but they come into existence for slightly different reasons.
 
 :::
 

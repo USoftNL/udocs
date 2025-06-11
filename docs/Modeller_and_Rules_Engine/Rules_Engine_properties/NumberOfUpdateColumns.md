@@ -9,13 +9,13 @@ id: NumberOfUpdateColumns
 
 :::note
 
-This article is about the **NumberOfUpdateColumns**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **NumberOfUpdateColumns**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **NumberOfUpdateColumns**
 
-The **NumberOfUpdateColumns** Rules Engine property can be used to override the [Number_Of_Update_Columns](/docs/Authorisation_and_access/Deployment_configurations/Number_of_Update_Columns.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **NumberOfUpdateColumns** Rules Engine property can be used to override the [Number_Of_Update_Columns](/Authorisation_and_access/Deployment_configurations/Number_of_Update_Columns.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

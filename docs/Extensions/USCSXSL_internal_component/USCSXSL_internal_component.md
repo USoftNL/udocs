@@ -10,7 +10,7 @@ id: USCSXSL_internal_component
 :::note
 
 This article contains general information about the **USCSXSL** internal component.
-For an alphabetic list of USCSXSL methods, click [here](/docs/Extensions/USCSXSL_internal_component).
+For an alphabetic list of USCSXSL methods, click [here](/Extensions/USCSXSL_internal_component).
 
 :::
 
@@ -18,10 +18,10 @@ For an alphabetic list of USCSXSL methods, click [here](/docs/Extensions/USCSXSL
 
 The USCSXSL internal component is an XSLT 1.0 processor with rich extensions also found in XSLT 2.0 or 3.0. It is a USoft-proprietary C# implementation.
 
-The USCSXSL internal component gives you the same basic XSLT functionality as the [USXSL component](/docs/Extensions/USXSL_internal_component/USXSL_internal_component.md). This is to say that it provides a standard XSLT 1.0 processor and, in addition, the capability to mix in USoft application data.
+The USCSXSL internal component gives you the same basic XSLT functionality as the [USXSL component](/Extensions/USXSL_internal_component/USXSL_internal_component.md). This is to say that it provides a standard XSLT 1.0 processor and, in addition, the capability to mix in USoft application data.
 <!-- TODO: [mix in USoft application data]() -->
 
-But in addition to the USXSL component, USCSXSL also allows you to call [extension functions](/docs/Repositories/Blend_functions). You can discover these functions by calling ublendit.exe:
+But in addition to the USXSL component, USCSXSL also allows you to call [extension functions](/Repositories/Blend_functions). You can discover these functions by calling ublendit.exe:
 
 ```
 > *usoft-bindir*\ublendit.exe functions
@@ -34,7 +34,7 @@ But in addition to the USXSL component, USCSXSL also allows you to call [extensi
 
 :::note
 
-To find out all about extension functions but also other Blend-related resources, go to [Learning USoft Blend for repository management](/docs/Repositories/Blend_scripts_for_repository_management/Learning_USoft_Blend_for_repository_management.md).
+To find out all about extension functions but also other Blend-related resources, go to [Learning USoft Blend for repository management](/Repositories/Blend_scripts_for_repository_management/Learning_USoft_Blend_for_repository_management.md).
 
 :::
 
@@ -51,7 +51,7 @@ Use it also to:
 <!-- TODO: fix link - [Mix USoft application data]() into an XSLT transformation. -->
 - Mix USoft application datainto an XSLT transformation.
 
-Finally, use it also for its extension functions. You can call these functions from [Blend scripts](/docs/Repositories/Blend_scripts_for_repository_management/Introducing_Blend_scripts.md), a special way of using USCSXSL, but you can also call these functions directly when you apply USCSXSL to transform an XML document, for example:
+Finally, use it also for its extension functions. You can call these functions from [Blend scripts](/Repositories/Blend_scripts_for_repository_management/Introducing_Blend_scripts.md), a special way of using USCSXSL, but you can also call these functions directly when you apply USCSXSL to transform an XML document, for example:
 
 ```xml
 <xsl:variable name="rdmlx" select="xslutil:xmlfragment(strings:Text2Xml(files:ReadFile($filepath, .)), .)"/>

@@ -18,7 +18,7 @@ flight booking in:
 
 ![](./assets/7f03a2ee-f3b8-4147-a63c-b2d33f97760e.png)
 
-This is a [nominalisation](/docs/Business_rules/Vocabulary_concepts/Nominalisations.md).
+This is a [nominalisation](/Business_rules/Vocabulary_concepts/Nominalisations.md).
 
 *Example 2*
 
@@ -38,7 +38,7 @@ This is a placeholder for an entire structure of other terms, not just for 1 ver
 
 *Example 4*
 
-A car renter has a subsystem of business rules that apply in a defined situation of high demand, and only then. You could have the [unary verb concept](/docs/Business_rules/Vocabulary_concepts/Unary_verb_concepts.md) ‘branch*is in-high-demand*’ as a stepping stone so that it is much easier to formulate all those rules.
+A car renter has a subsystem of business rules that apply in a defined situation of high demand, and only then. You could have the [unary verb concept](/Business_rules/Vocabulary_concepts/Unary_verb_concepts.md) ‘branch*is in-high-demand*’ as a stepping stone so that it is much easier to formulate all those rules.
 
 In this example, only 1 rule is shown, but the strategy becomes more interesting with every additional “high demand rule”:
 

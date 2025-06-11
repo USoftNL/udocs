@@ -9,7 +9,7 @@ id: wrightsHasAdminRole
 
 :::note
 
-This article is about the **wrights:HasAdminRole**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **wrights:HasAdminRole**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

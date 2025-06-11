@@ -6,8 +6,8 @@ id: Loading_deploy_samples_and_added_XSL_samples
 
 **See also**
 
-- [Deploy scripts in UDeliver](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Deploy_scripts_in_UDeliver.md)
-- [Added XSL in UDeliver](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Added_XSL_in_UDeliver.md)
+- [Deploy scripts in UDeliver](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Deploy_scripts_in_UDeliver.md)
+- [Added XSL in UDeliver](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Added_XSL_in_UDeliver.md)
 
 To load deploy samples and added XSL samples:
 

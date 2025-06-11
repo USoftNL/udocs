@@ -8,10 +8,10 @@ tags: [USoft11]
 :::note
 
 **See also**
-[Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
-[Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
-[Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
-[Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
+[Version-controlled repositories](/Repositories/Version_control/Versioncontrolled_repositories.md)
+[Version-controlled local branches](/Repositories/Version_control/Versioncontrolled_local_branches.md)
+[Version control: Create](/Repositories/Version_control/Version_control_Create.md)
+[Version control: Connect](/Repositories/Version_control/Version_control_Connect.md)
 
 :::
 
@@ -19,7 +19,7 @@ tags: [USoft11]
 
 This article describes how you work as a development team member with a version-controlled USoft repository.
 
-To do that, you must have [Connected](/docs/Repositories/Version_control/Version_control_Connect.md) to such a repository as a one-time action.
+To do that, you must have [Connected](/Repositories/Version_control/Version_control_Connect.md) to such a repository as a one-time action.
 
 ## Pull, synchronize, push
 

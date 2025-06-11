@@ -13,8 +13,8 @@ This article is about the **attachment** concept in USoft Delivery Manager ("UDe
 
 **See also**
 
-- [Including an attachment](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Including_an_attachment.md)
-- [Blocking an attachment](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Blocking_an_attachment.md)
+- [Including an attachment](/Continuous_delivery/Delivery_Manager_basic_procedures/Including_an_attachment.md)
+- [Blocking an attachment](/Continuous_delivery/Delivery_Manager_basic_procedures/Blocking_an_attachment.md)
 
 An attachment is a file stored in a CLOB in USoft Delivery Manager and associated with a release section.  
 

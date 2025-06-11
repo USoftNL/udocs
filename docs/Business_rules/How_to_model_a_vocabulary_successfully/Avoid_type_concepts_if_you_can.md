@@ -7,7 +7,7 @@ id: Avoid_type_concepts_if_you_can
 
 :::tip
 
-This tip is closely related to : [Avoid abstractions if you can](/docs/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_abstractions_if_you_can.md).
+This tip is closely related to : [Avoid abstractions if you can](/Business_rules/How_to_model_a_vocabulary_successfully/Avoid_abstractions_if_you_can.md).
 
 :::
 

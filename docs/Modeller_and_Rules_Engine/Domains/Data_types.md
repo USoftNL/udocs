@@ -90,7 +90,7 @@ On SQL Server, USoft converts NUMBER automatically to NUMERIC.
 
 ### Number with decimals
 
-Typical columns for numbers with decimals are best based on a domain with Data Type = NUMBER, Display Type = Text Box (Number), Column Width = (expected maximum number length + number of decimals as set by Decimals, eg., 6 + 2 = 8), Display Length = (empty), Decimals = (required number of decimals), IO Format = ZZZZZ9.99 (click [here ](/docs/Modeller_and_Rules_Engine/Domains/IO_formats.md)for more on this), where the number of '9’ symbols after the separator dot equals the number of decimals set by Decimals, and the number of symbols preceding the dot equals the Column Width minus Decimals.
+Typical columns for numbers with decimals are best based on a domain with Data Type = NUMBER, Display Type = Text Box (Number), Column Width = (expected maximum number length + number of decimals as set by Decimals, eg., 6 + 2 = 8), Display Length = (empty), Decimals = (required number of decimals), IO Format = ZZZZZ9.99 (click [here ](/Modeller_and_Rules_Engine/Domains/IO_formats.md)for more on this), where the number of '9’ symbols after the separator dot equals the number of decimals set by Decimals, and the number of symbols preceding the dot equals the Column Width minus Decimals.
 
 These tips also apply to typical columns for amounts of money. For these, set Display Type = Text Box (Money). In money amounts, many teams like 5 decimals with 2 decimals displayed because this gives good rounding results: Decimals = 5, Decimals Displayed = 2.
 

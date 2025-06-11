@@ -6,11 +6,11 @@ id: Creating_a_USoft_Development_environment
 
 To create a development environment for USoft Developer:
 
-1. Install, configure and start a development database. Make sure you meet USoft's RDBMS requirements, you can find more information [here](/docs/USoft_for_administrators/Installing_USoft).
+1. Install, configure and start a development database. Make sure you meet USoft's RDBMS requirements, you can find more information [here](/USoft_for_administrators/Installing_USoft).
 
 2. Install the USoft Developer product on each developer machine. Click the executable file delivered by USoft and follow the steps of the installation wizard. For more information, step out to help topic Installing USoft Developer.
 
-3. Create the USoft Development Repository for the team. For more information, step out to help topic [Installling a USoft Development Repository](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Installing_a_USoft_Development_repository.md).
+3. Create the USoft Development Repository for the team. For more information, step out to help topic [Installling a USoft Development Repository](/USoft_for_administrators/Creating_a_USoft_Development_environment/Installing_a_USoft_Development_repository.md).
 
 4. Create USoft Binder files for team members.
 

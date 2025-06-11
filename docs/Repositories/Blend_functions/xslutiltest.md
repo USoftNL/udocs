@@ -9,7 +9,7 @@ id: xslutiltest
 
 :::note
 
-This article is about the **xslutil:test**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **xslutil:test**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

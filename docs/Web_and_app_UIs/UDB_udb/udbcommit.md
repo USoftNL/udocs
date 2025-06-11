@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **commit()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **commit()** function of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -34,7 +34,7 @@ This article is about the **commit()** function of the [udb object](/docs/Web_an
 
 Commits data manipulations (INSERT, UPDATE, DELETE).
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 
@@ -100,8 +100,8 @@ If a web page performs 2 dependent commits with minimal time in between, it can 
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[beforecommit](/docs/Web_and_app_UIs/UDB_Events/beforecommit.md)|Page objects|Before each commit action|
-|[postcommit](/docs/Web_and_app_UIs/UDB_Events/postcommit.md)|Page objects|After each commit action|
+|[beforecommit](/Web_and_app_UIs/UDB_Events/beforecommit.md)|Page objects|Before each commit action|
+|[postcommit](/Web_and_app_UIs/UDB_Events/postcommit.md)|Page objects|After each commit action|
 
 
 

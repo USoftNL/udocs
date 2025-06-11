@@ -56,7 +56,7 @@ It is possible to install multiple patch versions and major versions of USoft al
 
 :::
 
-You will now be asked to type the path to your license file (LICENSE.DAT). This file will have been provided to you by the USoft Service desk. You should refer to the [License ](/docs/USoft_for_administrators/USoft_license_management)documentation for details of how to install and use it.
+You will now be asked to type the path to your license file (LICENSE.DAT). This file will have been provided to you by the USoft Service desk. You should refer to the [License ](/USoft_for_administrators/USoft_license_management)documentation for details of how to install and use it.
 
 
 :::note

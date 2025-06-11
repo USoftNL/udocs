@@ -9,7 +9,7 @@ id: pcmsg
 
 :::note
 
-This article is about the **pc:msg**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:msg**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
@@ -22,7 +22,7 @@ Returns an XML document.
 
 :::tip
 
-By contrast, [pc:textmsg](/docs/Repositories/Blend_directives/pctextmsg.md) returns a text string.
+By contrast, [pc:textmsg](/Repositories/Blend_directives/pctextmsg.md) returns a text string.
 
 :::
 

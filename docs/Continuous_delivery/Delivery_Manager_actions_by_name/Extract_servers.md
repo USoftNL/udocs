@@ -9,7 +9,7 @@ id: Extract_servers
 
 :::note
 
-This article is about the **Extract servers**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Extract servers**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

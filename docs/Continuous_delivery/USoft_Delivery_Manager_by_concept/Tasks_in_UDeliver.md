@@ -13,9 +13,9 @@ This article is about the **tasks** concept in USoft Delivery Manager ("UDeliver
 
 **See also**
 
-- [Defining a task](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Defining_a_task.md)
-- [Running a task](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Running_a_task.md)
-- [Defining a task category](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Defining_a_task_category.md)
+- [Defining a task](/Continuous_delivery/Delivery_Manager_basic_procedures/Defining_a_task.md)
+- [Running a task](/Continuous_delivery/Delivery_Manager_basic_procedures/Running_a_task.md)
+- [Defining a task category](/Continuous_delivery/Delivery_Manager_basic_procedures/Defining_a_task_category.md)
 
 You can perform delivery and data management operations by defining and then running *tasks.* A task is a series of actions that you perform in a set order. Most actions require *parameters.* For example, when you run the action "Release flatfiles", you must pass a parameter called Database Account to indicate the repository where the flatfiles are to be generated from.
 

@@ -9,7 +9,7 @@ id: Release_metadata
 
 :::note
 
-This article is about the **Release metadata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Release metadata**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -59,4 +59,4 @@ If the current release frame has "Include Packing Slip" = Yes:
 
 ### Other similar actions
 
-To export metadata to a destination folder of your choice, instead of to the release folder, you can call "[Export metadata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_metadata.md)".
+To export metadata to a destination folder of your choice, instead of to the release folder, you can call "[Export metadata](/Continuous_delivery/Delivery_Manager_actions_by_name/Export_metadata.md)".

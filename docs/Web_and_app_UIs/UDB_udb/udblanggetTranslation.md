@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **lang.getTranslation()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **lang.getTranslation()** function of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -77,10 +77,10 @@ If the translation is not found, the input *string* is returned.
 
 :::warning
 
-**getTranslation()** is intended only as a dynamic extension of the [standard USoft translation mechanism](/docs/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md). Rely on that standard mechanism unless you need runtime, on-the-fly translations for custom alerts or HTML controls. Use **getTranslation()** only for the latter.
+**getTranslation()** is intended only as a dynamic extension of the [standard USoft translation mechanism](/Modeller_and_Rules_Engine/Localising_your_application/Localisation_system_languages_translations_and_regional_settings.md). Rely on that standard mechanism unless you need runtime, on-the-fly translations for custom alerts or HTML controls. Use **getTranslation()** only for the latter.
 
 :::
 
 See also
 
-[$.udb.lang.translate()](/docs/Web_and_app_UIs/UDB_udb/udblangtranslate.md)
+[$.udb.lang.translate()](/Web_and_app_UIs/UDB_udb/udblangtranslate.md)

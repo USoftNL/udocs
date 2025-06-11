@@ -9,7 +9,7 @@ id: USXSLSetGlobalXsl
 
 :::note
 
-This article is about the **SetGlobalXsl** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
+This article is about the **SetGlobalXsl** method of the [USXSL internal component](/Extensions/USXSL_internal_component).
 
 :::
 

@@ -9,7 +9,7 @@ id: pcerrortextmsg
 
 :::note
 
-This article is about the **pc:error-textmsg**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:error-textmsg**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
@@ -22,7 +22,7 @@ Returns a text string.
 
 :::tip
 
-By contrast, [pc:error-msg](/docs/Repositories/Blend_directives/pcerrormsg.md) returns an XML document.
+By contrast, [pc:error-msg](/Repositories/Blend_directives/pcerrormsg.md) returns an XML document.
 
 :::
 
@@ -35,6 +35,6 @@ By contrast, [pc:error-msg](/docs/Repositories/Blend_directives/pcerrormsg.md) r
 
 :::note
 
-For examples, go to [pc:text-msg](/docs/Repositories/Blend_directives/pctextmsg.md), which is a synonym of **pc:error-textmsg**.
+For examples, go to [pc:text-msg](/Repositories/Blend_directives/pctextmsg.md), which is a synonym of **pc:error-textmsg**.
 
 :::

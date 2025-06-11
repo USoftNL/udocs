@@ -11,7 +11,7 @@ To be able to call a batch job through a REST service based on "USoft Job Resour
 - Publish it, and
 - Set up a test environment.
 
-These tasks are explained in [Predefined REST services](/docs/Services/Predefined_REST_services/Predefined_REST_services.md).
+These tasks are explained in [Predefined REST services](/Services/Predefined_REST_services/Predefined_REST_services.md).
 
 ## Calling a batch job
 

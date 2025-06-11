@@ -9,7 +9,7 @@ id: pcPowerShell
 
 :::note
 
-This article is about the **pc:PowerShell**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:PowerShell**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

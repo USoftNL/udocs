@@ -10,7 +10,7 @@ id: OLD
 :::note
 
 This article has additional information about the **OLD** SQL function.
-For convertibility of this function, go to [SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
+For convertibility of this function, go to [SQL functions  N - R](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md).
 
 :::
 
@@ -34,6 +34,6 @@ This function is legal only in the context of **constraint SQL** (for both table
 
 :::tip
 
-Go to [Transitional constraints](/docs/Modeller_and_Rules_Engine/Constraints/Transitional_constraints.md) to find out how the OLD function is used.
+Go to [Transitional constraints](/Modeller_and_Rules_Engine/Constraints/Transitional_constraints.md) to find out how the OLD function is used.
 
 :::

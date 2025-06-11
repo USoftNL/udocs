@@ -9,7 +9,7 @@ id: pcValidateSchemas
 
 :::note
 
-This article is about the **pc:ValidateSchemas**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:ValidateSchemas**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

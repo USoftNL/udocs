@@ -9,7 +9,7 @@ Follow these steps to get started with Delivery Manager.
 
 :::note
 
-In this article, we will assume you plan to use Delivery Manager to release a product (Delivery Manager has many [additional purposes](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Introducing_USoft_Delivery_Manager.md)). We will assume you already have a USoft application that you want to release. You already have a database account with USoft set up. You already have a USoft Binder file for access.
+In this article, we will assume you plan to use Delivery Manager to release a product (Delivery Manager has many [additional purposes](/Continuous_delivery/Understanding_USoft_Delivery_Manager/Introducing_USoft_Delivery_Manager.md)). We will assume you already have a USoft application that you want to release. You already have a database account with USoft set up. You already have a USoft Binder file for access.
 
 :::
 

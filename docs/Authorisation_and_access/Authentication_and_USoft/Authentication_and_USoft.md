@@ -7,7 +7,7 @@ id: Authentication_and_USoft
 
 :::note
 
-See also: [Authentication in services](/docs/Services/Authentication_in_services/Authentication_in_services.md)
+See also: [Authentication in services](/Services/Authentication_in_services/Authentication_in_services.md)
 
 :::
 
@@ -92,7 +92,7 @@ In USoft Authorizer, users have one of the following Validation Agent options:
 |LDAP    |Users are authenticated by having the LDAP (Lightweight Directory Access Protocol) RDMI component connect to a Directory Service such as Open LDAP or Microsoft Active Directory.|
 |Operating System|USoft validates the supplied user credentials against the Windows operating system.|
 |Single Sign On|USoft allows access on the basis of the user having successfully logged on to the Windows operating system.|
-|Mapped Account|Other types of [mapped authentication](/docs/Authorisation_and_access/Authentication_and_USoft/User_account_mapping.md). Authentication is delegated to the validation agent that has been specified as the mapped account.|
+|Mapped Account|Other types of [mapped authentication](/Authorisation_and_access/Authentication_and_USoft/User_account_mapping.md). Authentication is delegated to the validation agent that has been specified as the mapped account.|
 
 
 

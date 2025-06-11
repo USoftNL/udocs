@@ -8,7 +8,7 @@ id: Light_World_Assumption
 :::note
 
 **Summary:**  If you don't have a rule, people have freedom.
-[More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
+[More SBVR principles for good elements of guidance](/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
 
 :::
 

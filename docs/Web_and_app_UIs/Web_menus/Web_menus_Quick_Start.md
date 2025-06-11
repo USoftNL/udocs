@@ -30,7 +30,7 @@ So, USoft recommends that you:
 
 The remainder of this article explains how you create a custom**menu for developers that (for the time being) is *role-independent.*
 
-You can also create [role-based web menus](/docs/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md).
+You can also create [role-based web menus](/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md).
 
 ## Step 1: Defining a custom menu
 
@@ -77,7 +77,7 @@ The Property Inspector opens for this MenuControl object.
 
 :::tip
 
-If you want a *role-based* menu, instead of setting Menu Name to a menu page name, set it to the value **Group Menu**, and define role-based menus in Web Designer. Click [here](/docs/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for details.
+If you want a *role-based* menu, instead of setting Menu Name to a menu page name, set it to the value **Group Menu**, and define role-based menus in Web Designer. Click [here](/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for details.
 
 :::
 

@@ -9,7 +9,7 @@ id: pctab
 
 :::note
 
-This article is about the **pc:tab**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:tab**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

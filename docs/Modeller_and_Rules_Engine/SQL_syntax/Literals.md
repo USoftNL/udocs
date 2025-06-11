@@ -9,7 +9,7 @@ id: Literals
 
 :::note
 
-This article is about **Literals** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+This article is about **Literals** as part of the [SQL syntax](/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
 
 :::
 
@@ -81,7 +81,7 @@ NULL
 
 :::warning
 
-NULL values are a source of errors generally. This is especially true in a USoft context, because any comparison with NULL evaluates to False (see [Comparison operators](/docs/Modeller_and_Rules_Engine/SQL_syntax/Comparison_operators.md) for this), and this causes a constraint to remain without effect.
+NULL values are a source of errors generally. This is especially true in a USoft context, because any comparison with NULL evaluates to False (see [Comparison operators](/Modeller_and_Rules_Engine/SQL_syntax/Comparison_operators.md) for this), and this causes a constraint to remain without effect.
 For this reason, best practice is to make database columns mandatory whenever you can.
 
 :::

@@ -9,13 +9,13 @@ id: XMLSQLExport
 
 :::note
 
-This article is about the **SQLExport** method of the [XML internal component](/docs/Extensions/XML_internal_component).
+This article is about the **SQLExport** method of the [XML internal component](/Extensions/XML_internal_component).
 
 :::
 
 ## **XML.SQLExport**
 
-Exports data to the [Meta-Rows-Fields document format](/docs/Repositories/USoft_XML_formats/MetaRowsFields_document_format.md) on the basis of a SELECT statement.
+Exports data to the [Meta-Rows-Fields document format](/Repositories/USoft_XML_formats/MetaRowsFields_document_format.md) on the basis of a SELECT statement.
 
 This export method has the drawback that the result is NOT re-importable with **XML.Import**.
 
@@ -93,7 +93,7 @@ All parameters are optional, and the parameter names and values are not case-sen
 `{ yes \| no }`|AppendToFile|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, the file is appended to. Otherwise, the file is overwritten.</p>|
 `{ yes \| no }`|TrimSpaces|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, any space characters produced during export because of an IO format will be stripped. Otherwise, the spaces remain. This parameter changes the output of:</p><pre><code class="language-sql">INVOKE XML.SqlExport with<br/>SELECT USFormat.DoubleToChar( 123.22, 'ZZ,ZZZ,ZZ9.99' ) COL1</code></pre>|
 `{ yes \| no }`|UseIOFormats|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, column values in the resulting XML output get the IO format of the corresponding domain. Otherwise, they are written as they are retrieved from the database.</p>|
-|*output-file-name*|WriteOutputTo|Specifies whether the output is to be written directly to a file. It is possible to use a file which has previously been opened using the USFile.Open method. To do this, the alias used in the [USFile.Open](/docs/Extensions/USFile_internal_component/USFileOpen.md) method must be specified, preceded by 'USFile.' If no USFile alias is specified, the XML will be written directly to the file specified. If the file exists, it will be overwritten. To prevent this, use the 'Append' parameter. If specified, the method will return the file name.|
+|*output-file-name*|WriteOutputTo|Specifies whether the output is to be written directly to a file. It is possible to use a file which has previously been opened using the USFile.Open method. To do this, the alias used in the [USFile.Open](/Extensions/USFile_internal_component/USFileOpen.md) method must be specified, preceded by 'USFile.' If no USFile alias is specified, the XML will be written directly to the file specified. If the file exists, it will be overwritten. To prevent this, use the 'Append' parameter. If specified, the method will return the file name.|
 `{ yes \| no }`|XmlDeclaration|<p>*Value* is a string and must be quoted, as in the example earlier in this help topic.</p><p>If you specify 'yes' for this parameter, the default Rules Engine encoding is returned in XML processing instructions. Otherwise, no encoding processing instruction is added to the returned XML document.</p>|
 
 

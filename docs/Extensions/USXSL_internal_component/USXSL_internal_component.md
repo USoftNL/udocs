@@ -10,7 +10,7 @@ id: USXSL_internal_component
 :::note
 
 This article contains general information about the **USXSL** internal component.
-For an alphabetic list of [USXSL methods](/docs/Extensions/USXSL_internal_component).
+For an alphabetic list of [USXSL methods](/Extensions/USXSL_internal_component).
 
 :::
 

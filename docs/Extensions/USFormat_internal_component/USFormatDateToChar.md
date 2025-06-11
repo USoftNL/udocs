@@ -9,7 +9,7 @@ id: USFormatDateToChar
 
 :::note
 
-This article is about the **DateToChar** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
+This article is about the **DateToChar** method of the [USFormat internal component](/Extensions/USFormat_internal_component).
 
 :::
 
@@ -28,7 +28,7 @@ SELECT USFormat.DateToChar(
 )
 ```
 
-Both *date* and *date-format-pattern* are required. *Date-format-pattern* must be one of the [USoft IO formats](/docs/Modeller_and_Rules_Engine/Domains/IO_formats.md) for date values.
+Both *date* and *date-format-pattern* are required. *Date-format-pattern* must be one of the [USoft IO formats](/Modeller_and_Rules_Engine/Domains/IO_formats.md) for date values.
 
 *Example*
 

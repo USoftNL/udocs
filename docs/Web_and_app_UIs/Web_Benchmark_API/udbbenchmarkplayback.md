@@ -20,7 +20,7 @@ The [$.udb.benchmark.rec](#) object exposes Web benchmark recording engine. Un
 
 |        |        |
 |--------|--------|
-|**Description**|<p>All [recordable actions](/docs/Web_and_app_UIs/Web_Benchmark_recordable_actions) in Web Benchmark are processed via this object during playback. The following actions are accessed as functions with the action being passed as parameter:</p><p>- `assert` : `*ƒ*`<br/>- `click` : `*ƒ*`<br/>- `comment` : `*ƒ*`<br/>- `delay` :`*ƒ*`<br/>- `gotoDataSet` :`*ƒ*`<br/>- `invoke` :`*ƒ*`<br/>- `message` :`*ƒ*`<br/>- `navigateMenu` :`*ƒ*`<br/>- `navigateToLookup` :`*ƒ*`<br/>- `script` :`*ƒ*`<br/>- `setValue` :`*ƒ*`<br/>- `test` :`*ƒ*`<br/>- `variable` :`*ƒ*`<br/></p>|
+|**Description**|<p>All [recordable actions](/Web_and_app_UIs/Web_Benchmark_recordable_actions) in Web Benchmark are processed via this object during playback. The following actions are accessed as functions with the action being passed as parameter:</p><p>- `assert` : `*ƒ*`<br/>- `click` : `*ƒ*`<br/>- `comment` : `*ƒ*`<br/>- `delay` :`*ƒ*`<br/>- `gotoDataSet` :`*ƒ*`<br/>- `invoke` :`*ƒ*`<br/>- `message` :`*ƒ*`<br/>- `navigateMenu` :`*ƒ*`<br/>- `navigateToLookup` :`*ƒ*`<br/>- `script` :`*ƒ*`<br/>- `setValue` :`*ƒ*`<br/>- `test` :`*ƒ*`<br/>- `variable` :`*ƒ*`<br/></p>|
 |**Example**|<p> </p>|
 
 ### clear: `*ƒ ()*`

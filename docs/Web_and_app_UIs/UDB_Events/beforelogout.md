@@ -9,7 +9,7 @@ id: beforelogout
 
 :::note
 
-This article is about the **beforelogout**[ UDB event handler](/docs/Web_and_app_UIs/UDB_Events).
+This article is about the **beforelogout**[ UDB event handler](/Web_and_app_UIs/UDB_Events).
 
 :::
 

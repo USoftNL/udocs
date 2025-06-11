@@ -9,7 +9,7 @@ id: BatchRunnerRunJob
 
 :::note
 
-This article is about the **RunJob** method of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
+This article is about the **RunJob** method of the [BatchRunner internal component](/Extensions/BatchRunner_internal_component).
 
 :::
 
@@ -57,6 +57,6 @@ SELECT    BatchRunner.RunJob('MyJob', 'True' "-quiet", contract_id "contract_id"
 
 :::tip
 
-In this example, **-quiet** is a [predefined parameter](/docs/Extensions/BatchRunner_internal_component/BatchRunner_internal_component.md).
+In this example, **-quiet** is a [predefined parameter](/Extensions/BatchRunner_internal_component/BatchRunner_internal_component.md).
 
 :::

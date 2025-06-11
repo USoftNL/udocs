@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **login()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **login()** function of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -34,7 +34,7 @@ This article is about the **login()** function of the [udb object](/docs/Web_and
 
 Logs in.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
 
@@ -83,9 +83,9 @@ $.udb.login('ABC','DEF').then(function(){
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[beforelogin](/docs/Web_and_app_UIs/UDB_Events/beforelogin.md)|Page objects|Before each login action|
-|[beforelogout](/docs/Web_and_app_UIs/UDB_Events/beforelogout.md)|Page objects|Before each logout action|
-|[login](/docs/Web_and_app_UIs/UDB_Events/login.md)|Page objects|After each login action|
+|[beforelogin](/Web_and_app_UIs/UDB_Events/beforelogin.md)|Page objects|Before each login action|
+|[beforelogout](/Web_and_app_UIs/UDB_Events/beforelogout.md)|Page objects|Before each logout action|
+|[login](/Web_and_app_UIs/UDB_Events/login.md)|Page objects|After each login action|
 
 
 

@@ -14,7 +14,7 @@ Formulations talk about the business of the organisation that the development te
 
 As the example shows, formulations are colour-coded in a characteristic way. They take part of their meaning from surrounding terms, definitions and rules that you can find by clicking on some words coloured in green or blue.
 
-The purpose of the [USoft Studio](/docs/Business_rules/USoft_Studio/USoft_Studio_quick_tour.md) tool is to create and refine formulations. In USoft 11, you can increasingly use this technique in USoft Definer.
+The purpose of the [USoft Studio](/Business_rules/USoft_Studio/USoft_Studio_quick_tour.md) tool is to create and refine formulations. In USoft 11, you can increasingly use this technique in USoft Definer.
 
 ## Viewing formulations in the USoft Definer tool
 
@@ -30,7 +30,7 @@ A formulation in the Business Rules window### Implementations windows
 
 Formulations appear on "Formulations” tabs in windows showing implementations, for example in the Constraints window. A "Formulations” tab works in tandem with the "Implements” tab right next to it. The formulations shown correspond to what you select in the "Implements” tab. As long as you do not populate the “Implements” tab, nothing will show in the “Formulations” tab.
 
-For more on populating the "Implements” tabs, go to [Implementation registration](/docs/Collaboration/Between_business_rules_and_implementations/Implementation_registration.md).
+For more on populating the "Implements” tabs, go to [Implementation registration](/Collaboration/Between_business_rules_and_implementations/Implementation_registration.md).
 
 These tabs are multi-record, so it is possible for more than 1 formulation to appear at a time:
 

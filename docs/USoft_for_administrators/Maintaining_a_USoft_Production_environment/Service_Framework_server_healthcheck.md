@@ -9,7 +9,7 @@ You can run a health check utility on a **USoft server**. A USoft server is part
 
 :::note
 
-You can also run a [health check on a USoft Rules Service](/docs/USoft_for_administrators/Maintaining_a_USoft_Production_environment/Rules_Service_healthcheck.md).
+You can also run a [health check on a USoft Rules Service](/USoft_for_administrators/Maintaining_a_USoft_Production_environment/Rules_Service_healthcheck.md).
 
 :::
 

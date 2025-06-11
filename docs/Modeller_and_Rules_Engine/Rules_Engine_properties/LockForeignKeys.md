@@ -9,13 +9,13 @@ id: LockForeignKeys
 
 :::note
 
-This article is about the **LockForeignKeys**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **LockForeignKeys**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **LockForeignKeys**
 
-The **LockForeignKeys** Rules Engine property can be used to override the [Lock_Foreign_Keys](/docs/Authorisation_and_access/Deployment_configurations/Lock_Foreign_Keys.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **LockForeignKeys** Rules Engine property can be used to override the [Lock_Foreign_Keys](/Authorisation_and_access/Deployment_configurations/Lock_Foreign_Keys.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

@@ -9,7 +9,7 @@ id: DELETE
 
 :::note
 
-This article is about the **DELETE** statement as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+This article is about the **DELETE** statement as part of the [SQL syntax](/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
 
 :::
 

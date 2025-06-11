@@ -9,7 +9,7 @@ id: Import_appdata
 
 :::note
 
-This article is about the **Import appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Import appdata**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

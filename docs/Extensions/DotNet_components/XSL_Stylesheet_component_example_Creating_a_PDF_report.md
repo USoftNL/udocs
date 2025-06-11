@@ -4,7 +4,7 @@ id: XSL_Stylesheet_component_example_Creating_a_PDF_report
 
 # XSL Stylesheet component example: Creating a PDF report
 
-You can use a USoft [XSL Stylesheets component](/docs/Extensions/DotNet_components/XSL_Stylesheets_components.md) to instantly create a PDF report from data retrieved from a Rules Engine.
+You can use a USoft [XSL Stylesheets component](/Extensions/DotNet_components/XSL_Stylesheets_components.md) to instantly create a PDF report from data retrieved from a Rules Engine.
 
 If the component source is an XSL stylesheet that produces XSL-FO formatting objects and has the following top-level namespace declaration:
 
@@ -26,7 +26,7 @@ then, at the time when you have the component checked, extra methods are automat
 
 :::tip
 
-The PDF generator uses version 1.0.5 of the **Fonet.Standard** [Nuget](/docs/Extensions/DotNet_components/Nugets.md). This nuget version is installed automatically with USoft.
+The PDF generator uses version 1.0.5 of the **Fonet.Standard** [Nuget](/Extensions/DotNet_components/Nugets.md). This nuget version is installed automatically with USoft.
 
 :::
 

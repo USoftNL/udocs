@@ -21,15 +21,15 @@ Here are the names of the 11 concepts that USoft practitioners use most often:
 
 |        |        |
 |--------|--------|
-|[Noun concepts](/docs/Business_rules/Vocabulary_concepts/Noun_concepts.md)|[Roles](/docs/Business_rules/Vocabulary_concepts/Roles.md)|
-|        |[Nominalisations](/docs/Business_rules/Vocabulary_concepts/Nominalisations.md)|
-|[Binary verb concepts](/docs/Business_rules/Vocabulary_concepts/Binary_verb_concepts.md)|        |
-|[Unary verb concepts](/docs/Business_rules/Vocabulary_concepts/Unary_verb_concepts.md)|        |
-|[N-ary verb concepts](/docs/Business_rules/Vocabulary_concepts/Nary_verb_concepts.md)|[Synonyms](/docs/Business_rules/Vocabulary_concepts/Synonyms.md)|
-|        |[Categories](/docs/Business_rules/Vocabulary_concepts/Categories.md)|
-|        |[Segmentations](/docs/Business_rules/Vocabulary_concepts/Categories.md)|
-|[Individual concepts](/docs/Business_rules/Vocabulary_concepts/Individual_concepts.md)|        |
-|[Examples, instances](/docs/Business_rules/Vocabulary_concepts/Examples_instances.md)|        |
+|[Noun concepts](/Business_rules/Vocabulary_concepts/Noun_concepts.md)|[Roles](/Business_rules/Vocabulary_concepts/Roles.md)|
+|        |[Nominalisations](/Business_rules/Vocabulary_concepts/Nominalisations.md)|
+|[Binary verb concepts](/Business_rules/Vocabulary_concepts/Binary_verb_concepts.md)|        |
+|[Unary verb concepts](/Business_rules/Vocabulary_concepts/Unary_verb_concepts.md)|        |
+|[N-ary verb concepts](/Business_rules/Vocabulary_concepts/Nary_verb_concepts.md)|[Synonyms](/Business_rules/Vocabulary_concepts/Synonyms.md)|
+|        |[Categories](/Business_rules/Vocabulary_concepts/Categories.md)|
+|        |[Segmentations](/Business_rules/Vocabulary_concepts/Categories.md)|
+|[Individual concepts](/Business_rules/Vocabulary_concepts/Individual_concepts.md)|        |
+|[Examples, instances](/Business_rules/Vocabulary_concepts/Examples_instances.md)|        |
 
 
 

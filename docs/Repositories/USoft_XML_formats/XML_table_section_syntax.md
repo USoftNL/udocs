@@ -4,7 +4,7 @@ id: XML_table_section_syntax
 
 # XML table section syntax
 
-An XML table section is an XML fragment that describes a set of records from the same table. Table sections are used in [XML single-table documents](/docs/Repositories/USoft_XML_formats/XML_singletable_document_format.md) and [XML multi-table documents](/docs/Repositories/USoft_XML_formats/XML_multitable_document_format.md). An XML table section may contain any number of elements corresponding to records in the table.
+An XML table section is an XML fragment that describes a set of records from the same table. Table sections are used in [XML single-table documents](/Repositories/USoft_XML_formats/XML_singletable_document_format.md) and [XML multi-table documents](/Repositories/USoft_XML_formats/XML_multitable_document_format.md). An XML table section may contain any number of elements corresponding to records in the table.
 
 *Syntax*
 
@@ -18,9 +18,9 @@ An XML table section is an XML fragment that describes a set of records from the
 
 *Underscored-object-name-plural* is the table's Object Name Plural with spaces (if any) replaced by underscores ( _ ) and underscores (if any) replaced by a sequence of 2 underscores (__). *Object-name-plural* is the table's Object Name Plural with spaces (if any) unreplaced by underscores.
 
-*Table* and *column* are database table names and database column names as defined in USoft Definer. If you want [XML.Import](/docs/Extensions/XML_internal_component/XMLImport.md) to import a table element, the element MUST contain a primary key value, or multiple values if the parent key spans multiple columns. Otherwise it's an error.
+*Table* and *column* are database table names and database column names as defined in USoft Definer. If you want [XML.Import](/Extensions/XML_internal_component/XMLImport.md) to import a table element, the element MUST contain a primary key value, or multiple values if the parent key spans multiple columns. Otherwise it's an error.
 
-*Table* elements have *column* attributes but are otherwise empty: they do not contain child elements or other contents. The only exception to this is that a table element can contain an optional [dml-instruction-tag](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md), which is either an \<Insert>, \<Update>, or \<Delete> element.
+*Table* elements have *column* attributes but are otherwise empty: they do not contain child elements or other contents. The only exception to this is that a table element can contain an optional [dml-instruction-tag](/Repositories/USoft_XML_formats/DML_instruction_tags.md), which is either an \<Insert>, \<Update>, or \<Delete> element.
 
 *Example*
 

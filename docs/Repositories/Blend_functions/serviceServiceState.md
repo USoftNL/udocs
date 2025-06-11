@@ -9,7 +9,7 @@ id: serviceServiceState
 
 :::note
 
-This article is about the **service:ServiceState**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **service:ServiceState**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

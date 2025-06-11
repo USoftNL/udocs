@@ -10,7 +10,7 @@ id: USERGROUP
 :::note
 
 This article has additional information about the **USERGROUP** SQL function.
-For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
+For convertibility of this function, go to [SQL functions  S - Z](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
 
 :::
 
@@ -27,6 +27,6 @@ USERGROUP()
 
 :::danger
 
-This function has been **deprecated** in USoft 10.0. Use [the ROLE function](/docs/Modeller_and_Rules_Engine/SQL_functions/ROLE.md) instead.
+This function has been **deprecated** in USoft 10.0. Use [the ROLE function](/Modeller_and_Rules_Engine/SQL_functions/ROLE.md) instead.
 
 :::

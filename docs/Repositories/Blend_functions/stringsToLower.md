@@ -9,7 +9,7 @@ id: stringsToLower
 
 :::note
 
-This article is about the **strings:ToLower**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:ToLower**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

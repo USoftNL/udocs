@@ -9,7 +9,7 @@ id: xslutilSleep
 
 :::note
 
-This article is about the **xslutil:Sleep**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **xslutil:Sleep**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

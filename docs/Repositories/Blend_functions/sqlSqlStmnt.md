@@ -9,7 +9,7 @@ id: sqlSqlStmnt
 
 :::note
 
-This article is about the **sql:SqlStmnt**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **sql:SqlStmnt**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

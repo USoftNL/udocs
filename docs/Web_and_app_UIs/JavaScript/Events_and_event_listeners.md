@@ -42,12 +42,12 @@ For information on W3C standard event types, see
 http://www.w3.org
 ```
 
-USoft adds event types of its own, as well as USoft-specific implementations of certain standard event types. Go to [UDB events](/docs/Web_and_app_UIs/UDB_Events).
+USoft adds event types of its own, as well as USoft-specific implementations of certain standard event types. Go to [UDB events](/Web_and_app_UIs/UDB_Events).
 
 
 :::warning
 
-The **onload** standard event type is not typically applied in USoft 10 applications anymore. With the advent of Ajax technology, pages load much less frequently than in the past. Prefer the USoft-specific [dataset](/docs/Web_and_app_UIs/UDB_Events/dataset.md)****event type.
+The **onload** standard event type is not typically applied in USoft 10 applications anymore. With the advent of Ajax technology, pages load much less frequently than in the past. Prefer the USoft-specific [dataset](/Web_and_app_UIs/UDB_Events/dataset.md)****event type.
 
 :::
 

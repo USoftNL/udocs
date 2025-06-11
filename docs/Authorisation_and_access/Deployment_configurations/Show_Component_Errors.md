@@ -9,7 +9,7 @@ id: Show_Component_Errors
 
 :::note
 
-This article is about the **Show_Component_Errors**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+This article is about the **Show_Component_Errors**[deployment configuration parameter](/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 :::
 

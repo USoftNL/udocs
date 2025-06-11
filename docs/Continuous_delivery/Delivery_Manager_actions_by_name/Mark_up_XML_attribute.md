@@ -9,7 +9,7 @@ id: Mark_up_XML_attribute
 
 :::note
 
-This article is about the **Mark up XML attribute**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Mark up XML attribute**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -33,9 +33,9 @@ The required "Replacement" must be a string that consists of at least one variab
 - If the optional Key ancestor value is passed, replacement only takes place in XML elements that have an element by the name of Key ancestor as an ancestor.
 - If the optional Key descendant value is passed, replacement only takes place in XML elements that have an element by the name of Key descendant as a descendant.
 
-The primary purpose of calling this action is to make deliverable, released XML data files configurable to specific target computers. See the “[Mark up text file](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Mark_up_text_file.md)” action for creating variable placeholders in deliverables that are non-XML data files, eg., HTML, JSON, CSS, or flat text.
+The primary purpose of calling this action is to make deliverable, released XML data files configurable to specific target computers. See the “[Mark up text file](/Continuous_delivery/Delivery_Manager_actions_by_name/Mark_up_text_file.md)” action for creating variable placeholders in deliverables that are non-XML data files, eg., HTML, JSON, CSS, or flat text.
 
-The [Configuration example 2](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Configuration_example_2.md) article illustrates the use of the "Mark up XML attribute" action. If you need more control over the exact way the replacement is done than is offered by this action, use the "mark-up-xml-custom" custom XSL sample. For details of this technique, see the [Added XSL in UDeliver](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Added_XSL_in_UDeliver.md) article.
+The [Configuration example 2](/Continuous_delivery/Understanding_USoft_Delivery_Manager/Configuration_example_2.md) article illustrates the use of the "Mark up XML attribute" action. If you need more control over the exact way the replacement is done than is offered by this action, use the "mark-up-xml-custom" custom XSL sample. For details of this technique, see the [Added XSL in UDeliver](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Added_XSL_in_UDeliver.md) article.
 
 ### Parameters
 

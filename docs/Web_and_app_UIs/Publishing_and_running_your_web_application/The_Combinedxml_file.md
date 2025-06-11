@@ -7,7 +7,7 @@ id: The_Combinedxml_file
 
 :::note
 
-This article applies to USoft 9.0 only. In USoft 9.1 and later, the Combined.xml file has been replaced by the [Combined JSON Object](/docs/Web_and_app_UIs/Publishing_and_running_your_web_application/The_Combined_JSON_object.md).
+This article applies to USoft 9.0 only. In USoft 9.1 and later, the Combined.xml file has been replaced by the [Combined JSON Object](/Web_and_app_UIs/Publishing_and_running_your_web_application/The_Combined_JSON_object.md).
 
 :::
 

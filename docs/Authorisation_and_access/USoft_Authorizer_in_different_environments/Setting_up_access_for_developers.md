@@ -84,7 +84,7 @@ After this initial stage, you will start using other USoft applications. In USof
 :::tip
 
 If you use USoft Studio in combination with USoft Definer, you don't want people to change Business Rules in Definer. Business Rules "come in” from Studio via the Studio-Definer Import bridge. They should be manipulated at the source (ie., in USoft Studio).
-There are special [...NO_STUDIO developer roles](/docs/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) for USD that guarantee that Business Rules are not manipulated in Definer.
+There are special [...NO_STUDIO developer roles](/USoft_for_administrators/Creating_a_USoft_Development_environment/Authorising_team_members_for_USoft_100.md) for USD that guarantee that Business Rules are not manipulated in Definer.
 
 :::
 

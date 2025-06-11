@@ -9,7 +9,7 @@ id: USCSXSLApply
 
 :::note
 
-This article is about the **Apply** method of the [USCSXSL internal component](/docs/Extensions/USCSXSL_internal_component).
+This article is about the **Apply** method of the [USCSXSL internal component](/Extensions/USCSXSL_internal_component).
 
 :::
 

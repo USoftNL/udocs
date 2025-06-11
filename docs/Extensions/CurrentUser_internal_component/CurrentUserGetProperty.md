@@ -9,7 +9,7 @@ id: CurrentUserGetProperty
 
 :::note
 
-This article is about the **GetProperty** method of the [CurrentUser internal component](/docs/Extensions/CurrentUser_internal_component).
+This article is about the **GetProperty** method of the [CurrentUser internal component](/Extensions/CurrentUser_internal_component).
 
 :::
 

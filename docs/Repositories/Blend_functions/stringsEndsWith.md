@@ -9,7 +9,7 @@ id: stringsEndsWith
 
 :::note
 
-This article is about the **strings:EndsWith**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:EndsWith**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

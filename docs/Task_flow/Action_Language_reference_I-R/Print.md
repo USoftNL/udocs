@@ -9,7 +9,7 @@ id: Print
 
 :::note
 
-This article is about the **Print** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about the **Print** action in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 

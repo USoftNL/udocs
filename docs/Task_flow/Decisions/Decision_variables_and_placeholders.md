@@ -8,7 +8,7 @@ When you call a Decision, you can pass values to it as input parameters. In the 
 
 ## Passing values to decisions as input parameters
 
-When you call a Decision, you can pass values to it as the second, third... argument of the [ActionDecision()](/docs/Task_flow/Action_Language_reference_A-C/ActionDecision.md)****action:
+When you call a Decision, you can pass values to it as the second, third... argument of the [ActionDecision()](/Task_flow/Action_Language_reference_A-C/ActionDecision.md)****action:
 
 ```
 ActionDecision( 'MY_DECISION', 'Table1', 776 )
@@ -77,7 +77,7 @@ A popular pattern is to catch outputs from Decision SQL and use them in SqlScrip
 
 
 
-The [back tick syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax/Host_variables_in_SQL.md) explained here is available from USoft 10.1.1A.
+The [back tick syntax](/Modeller_and_Rules_Engine/SQL_syntax/Host_variables_in_SQL.md) explained here is available from USoft 10.1.1A.
 
 (Decision SQL:)
 
@@ -103,7 +103,7 @@ SqlScript(
 
 ----
 
-Prior to USoft 10.1.1A, SqlScript() does not itself process the numbered placeholders, so you must cast them to global [named variables](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md). You can do that with ResourceFileUpdate():
+Prior to USoft 10.1.1A, SqlScript() does not itself process the numbered placeholders, so you must cast them to global [named variables](/Task_flow/Action_Language_reference/USoft_Action_Language.md). You can do that with ResourceFileUpdate():
 
 (Decision SQL:)
 

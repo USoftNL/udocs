@@ -9,14 +9,14 @@ id: Mark_up_text_file
 
 :::note
 
-This article is about the **Mark up text file**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Mark up text file**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
 
 :::warning
 
-**Mark up text file** is intended for use with [target variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not with [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md).
+**Mark up text file** is intended for use with [target variables](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not with [source variables](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md).
 
 :::
 
@@ -36,7 +36,7 @@ The required "String" must not contain variable placeholders.
 
 The required "Replacement" must be a string that consists of at least one variable placeholder, or contains at least one.
 
-The primary purpose of calling this action is to make released deliverable files configurable to specific target computers. See the "[Mark up XML attribute](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Mark_up_XML_attribute.md)” action for creating variable placeholders in deliverables that are XML data files rather than text files.
+The primary purpose of calling this action is to make released deliverable files configurable to specific target computers. See the "[Mark up XML attribute](/Continuous_delivery/Delivery_Manager_actions_by_name/Mark_up_XML_attribute.md)” action for creating variable placeholders in deliverables that are XML data files rather than text files.
 
 ### Parameters
 

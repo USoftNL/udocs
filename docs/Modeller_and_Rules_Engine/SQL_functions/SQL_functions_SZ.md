@@ -7,10 +7,10 @@ id: SQL_functions_SZ
 
 :::note
 
-[SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
-[SQL functions  D - H](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md)
-[SQL functions  I - M](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
-[SQL functions  N - R](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md)
+[SQL functions  A - C](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
+[SQL functions  D - H](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md)
+[SQL functions  I - M](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
+[SQL functions  N - R](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_NR.md)
 SQL functions  S - Z
 
 :::
@@ -33,7 +33,7 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**Name**|**USoft**|**Oracle**|**SQLServer**|**ODBC**|**JDBCY, Derby**|
 |--------|--------|--------|--------|--------|--------|
 |**SECOND**|-       |-       |-       |SECOND  |-       |
-|**SESSION_ID**|[SESSION_ID](/docs/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/docs/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/docs/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/docs/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/docs/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|
+|**SESSION_ID**|[SESSION_ID](/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|[SESSION_ID](/Modeller_and_Rules_Engine/SQL_functions/SESSION_ID.md)|
 |**SIGN**|SIGN    |SIGN    |SIGN    |SIGN    |SIGN    |
 |**SIN** |SIN     |SIN     |SIN     |SIN     |SIN     |
 |**SINH**|-       |-       |-       |-       |SINH    |
@@ -48,9 +48,9 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 
 |**Name**|**USoft**|**Oracle**|**SQLServer**|**ODBC**|**JDBC, Derby**|
 |--------|--------|--------|--------|--------|--------|
-|**SUBSTR**|[SUBSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|
+|**SUBSTR**|[SUBSTR](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|
 |**SUBSTRB**|-       |SUBSTRB |-       |-       |-       |
-|**SUBSTRING**|[SUBSTRING](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTRING](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTRING](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTRING](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/docs/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|
+|**SUBSTRING**|[SUBSTRING](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTRING](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTRING](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTRING](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|[SUBSTR](/Modeller_and_Rules_Engine/SQL_functions/SUBSTR.md)|
 |**SUM** |SUM     |SUM     |SUM     |SUM     |SUM     |
 |**SUSER_ID**|-       |-       |SUSER_ID|-       |-       |
 |**SUSER_NAME**|-       |-       |SUSER_NAME|-       |-       |
@@ -65,12 +65,12 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |--------|--------|--------|--------|--------|--------|
 |**TIMESTAMPADD**|-       |-       |TIMESTAMPADD|-       |-       |
 |**TIMESTAMPDIFF**|-       |-       |TIMESTAMPDIFF|-       |-       |
-|<p>**TIMESTAMP_**</p><p>**TO_DATE**</p>|<p>[TIMESTAMP_](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|<p>[TIMESTAMP_](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|<p>[TIMESTAMP_](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|<p>[TIMESTAMP_](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|-       |
-|**TOP** |[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[TOP](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|
-|**TO_CHAR(datetime)**|[DATE_TO_CHAR](/docs/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHAR(*datetime*)|CONVERT(*datetime*)|[DATE_TO_CHAR](/docs/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHARDATE|
+|<p>**TIMESTAMP_**</p><p>**TO_DATE**</p>|<p>[TIMESTAMP_](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|<p>[TIMESTAMP_](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|<p>[TIMESTAMP_](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|<p>[TIMESTAMP_](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p><p>[TO_DATE](/Modeller_and_Rules_Engine/SQL_functions/TIMESTAMP_TO_DATE.md)</p>|-       |
+|**TOP** |[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[TOP](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|
+|**TO_CHAR(datetime)**|[DATE_TO_CHAR](/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHAR(*datetime*)|CONVERT(*datetime*)|[DATE_TO_CHAR](/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHARDATE|
 |**TO_CHAR(number)**|NUMBERTOCHAR|TO_CHAR(*number*)|CONVERT(*number*)|NUMBERTOCHAR|NUMBERTOCHAR|
-|**TO_CHARDATE**|[DATE_TO_CHAR](/docs/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHAR(*datetime*)|CONVERT(*datetime*)|[DATE_TO_CHAR](/docs/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHARDATE|
-|**TO_CLOB**|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|CONVERT(*text*)|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|[TO_CLOB](/docs/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|
+|**TO_CHARDATE**|[DATE_TO_CHAR](/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHAR(*datetime*)|CONVERT(*datetime*)|[DATE_TO_CHAR](/Modeller_and_Rules_Engine/SQL_functions/DATE_TO_CHAR.md)|TO_CHARDATE|
+|**TO_CLOB**|[TO_CLOB](/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|[TO_CLOB](/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|CONVERT(*text*)|[TO_CLOB](/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|[TO_CLOB](/Modeller_and_Rules_Engine/SQL_functions/TO_CLOB.md)|
 |**TO_DATE**|CHAR_TO_DATE|TO_DATE |CONVERT(*text*)|CAST    |TO_DATE |
 |        |TO_DATE |TO_DATE |CONVERT(*text*)|-       |TO_DATE |
 |**TO_INTEGER**|TO_INTEGER|TO_NUMBER|CONVERT(*datetime*)|TO_NUMBER|TO_NUMBER|
@@ -84,10 +84,10 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**TO_NCLOB**|-       |TO_NCLOB|CONVERT(*ntext*)|-       |TO_NCLOB|
 |**TO_NUMBER**|TO_INTEGER|TO_NUMBER|CONVERT(*datetime*)|TO_NUMBER|TO_NUMBER|
 |**TO_NVARCHARMAX**|-       |-       |TO_NVARCHARMAX|-       |-       |
-|**TRANSACTION_DATE**|[TRANSACTION_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|
+|**TRANSACTION_DATE**|[TRANSACTION_DATE](/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|[TRANSACTION_DATE](/Modeller_and_Rules_Engine/SQL_functions/TRANSACTION_DATE.md)|
 |**TRANSLATE**|-       |TRANSLATE|TRANSLATE|-       |-       |
-|**TRUNC**|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[ROUND](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNCATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|
-|**TRUNCATE**|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[ROUND](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNCATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|
+|**TRUNC**|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[ROUND](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNCATE](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|
+|**TRUNCATE**|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[ROUND](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNCATE](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|
 |**UCASE**|UPPER   |UPPER   |UPPER   |UCASE   |UPPER   |
 |**UID** |-       |UID     |USER_ID |-       |-       |
 
@@ -98,7 +98,7 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**UPPER**|UPPER   |UPPER   |UPPER   |UCASE   |UPPER   |
 |**USER**|USER    |USER    |USER    |USER    |USER    |
 |**USERENV**|-       |USERENV |-       |-       |USERENV |
-|**USERGROUP**|[USERGROUP](/docs/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/docs/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/docs/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/docs/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/docs/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|
+|**USERGROUP**|[USERGROUP](/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|[USERGROUP](/Modeller_and_Rules_Engine/SQL_functions/USERGROUP.md)|
 |**USER_ID**|-       |UID     |USER_ID |-       |-       |
 |**USER_NAME**|-       |-       |USER_NAME|-       |-       |
 |**VARIANCE**|VARIANCE|VARIANCE|VARIANCE|VARIANCE|VARIANCE|

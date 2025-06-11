@@ -92,6 +92,6 @@ To deliver a nuget version to a Production environment where you do not run USof
 2. If you can see the nuget you want to deliver in the Installed Nugets tab, right-click that nuget version and choose .
 3. Otherwise, if you need help finding the nuget version you want to deliver, click the Find Nugets tab. Follow the instructions to find the nuget version you want to deliver. When you have found the nuget version you want to deliver, click on its Name, then in the Nuget Versions related box, right-click the version number you require and choose from the context menu.
 
-This gives you a [USoft Blend](/docs/Repositories/Blend_scripts_for_repository_management) snippet that you can either paste-to-clipboard or save as a file. You can deliver the nuget version to Production by including this snippet in your release deliverables. A most convenient way to do this is by releasing through [USoft Delivery Manager](/docs/Continuous_delivery) and declaring the script as a [deploy script](/docs/Continuous_delivery/Blend_deploy_scripts/Blend_deploy_scripts.md).
+This gives you a [USoft Blend](/Repositories/Blend_scripts_for_repository_management) snippet that you can either paste-to-clipboard or save as a file. You can deliver the nuget version to Production by including this snippet in your release deliverables. A most convenient way to do this is by releasing through [USoft Delivery Manager](/Continuous_delivery) and declaring the script as a [deploy script](/Continuous_delivery/Blend_deploy_scripts/Blend_deploy_scripts.md).
 
  

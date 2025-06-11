@@ -9,7 +9,7 @@ id: variableSet
 
 :::note
 
-This article is about the **variable:Set**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **variable:Set**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

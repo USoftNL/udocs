@@ -9,7 +9,7 @@ id: Export_all_appdata
 
 :::note
 
-This article is about the **Export all appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Export all appdata**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -42,4 +42,4 @@ Make sure you export appdata in such a way that you will not have problems re-im
 
 ### Other similar actions
 
-To limit the result to tables that are marked as "Deliverable = Yes", you can call "[Export deliverable appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_deliverable_appdata.md)" instead.
+To limit the result to tables that are marked as "Deliverable = Yes", you can call "[Export deliverable appdata](/Continuous_delivery/Delivery_Manager_actions_by_name/Export_deliverable_appdata.md)" instead.

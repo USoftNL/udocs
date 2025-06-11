@@ -14,7 +14,7 @@ Instead, start by identifying **core business events** that seem to be at the ce
 
 ## Core transactions
 
-Enterprise Ontology models a business area primarily in terms of core transactions. Here is a diagram that depicts such an analysis for the business area of car sales at a car dealer. An explanation of this technique is [here](/docs/Business_rules/Positioning_business_rules/Enterprise_Ontology.md).
+Enterprise Ontology models a business area primarily in terms of core transactions. Here is a diagram that depicts such an analysis for the business area of car sales at a car dealer. An explanation of this technique is [here](/Business_rules/Positioning_business_rules/Enterprise_Ontology.md).
 
  
 

@@ -9,7 +9,7 @@ id: USFormatIsXMLName
 
 :::note
 
-This article is about the **IsXMLName** method of the [USFormat internal component](/docs/Extensions/USFormat_internal_component).
+This article is about the **IsXMLName** method of the [USFormat internal component](/Extensions/USFormat_internal_component).
 
 :::
 

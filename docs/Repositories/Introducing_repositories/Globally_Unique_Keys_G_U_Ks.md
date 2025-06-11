@@ -20,7 +20,7 @@ G_U_Ks are random generated sequences of alphanumeric characters. They surface i
 
 :::note
 
-USoft has introduced G_U_Ks as a necessary element of [USoft version control](/docs/Repositories/Version_control/Versioncontrolled_repositories.md). As a developer, you do not need to know about the connection between the two.
+USoft has introduced G_U_Ks as a necessary element of [USoft version control](/Repositories/Version_control/Versioncontrolled_repositories.md). As a developer, you do not need to know about the connection between the two.
 
 :::
 

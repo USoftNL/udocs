@@ -9,7 +9,7 @@ id: Create_tables
 
 :::note
 
-This article is about the **Create tables**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Create tables**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -37,8 +37,8 @@ Tables information for the predefined USoft applications cannot be read from rep
 
 ### Notes
 
-If you want to write the result of this action to a script file, call "[Generate create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Generate_createtables_script.md)" instead.
+If you want to write the result of this action to a script file, call "[Generate create-tables script](/Continuous_delivery/Delivery_Manager_actions_by_name/Generate_createtables_script.md)" instead.
 
-This action is different from Delivery Manager's "[Release create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_createtables_script.md)" and "[Release scripts](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_scripts.md)" actions, which produce an output based on a comparison with the metadata as defined for the PREVIOUS release.
+This action is different from Delivery Manager's "[Release create-tables script](/Continuous_delivery/Delivery_Manager_actions_by_name/Release_createtables_script.md)" and "[Release scripts](/Continuous_delivery/Delivery_Manager_actions_by_name/Release_scripts.md)" actions, which produce an output based on a comparison with the metadata as defined for the PREVIOUS release.
 
 Executing this action is only appropriate if, for some reason, you do not know or do not care what is the state of a target repository, but you want to make sure that it is upgraded to a new situation prescribed by a new set of flatfiles, or if you have some reason to mimic USoft's "Create Tables" feature as it exists outside Delivery Manager. Otherwise, prefer calling "Release create-tables script" or "Release scripts".

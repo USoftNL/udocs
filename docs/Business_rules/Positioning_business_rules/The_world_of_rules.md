@@ -46,11 +46,11 @@ Ronald Ross and Graham Witt have been among those categorising types of rule and
 
 ### Semantics of Business Vocabulary and Rules (SBVR)
 
-The Object Management Group (OMG) published the [Semantics of Business Vocabulary and Rules](/docs/Business_rules/Positioning_business_rules/Semantics_of_Business_Vocabulary_and_Rules_SBVR.md) (SBVR) specification in 2008. This has been a major driver for USoft to put together its rule specification approach and supporting toolware. SBVR provides the sound theoretical basis that would otherwise be hard for an IT vendor to invent.
+The Object Management Group (OMG) published the [Semantics of Business Vocabulary and Rules](/Business_rules/Positioning_business_rules/Semantics_of_Business_Vocabulary_and_Rules_SBVR.md) (SBVR) specification in 2008. This has been a major driver for USoft to put together its rule specification approach and supporting toolware. SBVR provides the sound theoretical basis that would otherwise be hard for an IT vendor to invent.
 
 ### Enterprise Ontology
 
-[Enterprise Ontology](/docs/Business_rules/Positioning_business_rules/Enterprise_Ontology.md) is mostly associated with the academic work of Jan Dietz at the TU Delft in the Netherlands. It distinguishes 4 *aspect models:* transactions, fact models, business rules, and processes. This initiative clearly defines what business rules are and how they relate to the wider context in which they operate.
+[Enterprise Ontology](/Business_rules/Positioning_business_rules/Enterprise_Ontology.md) is mostly associated with the academic work of Jan Dietz at the TU Delft in the Netherlands. It distinguishes 4 *aspect models:* transactions, fact models, business rules, and processes. This initiative clearly defines what business rules are and how they relate to the wider context in which they operate.
 
 ## Business rules, a definition
 

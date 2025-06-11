@@ -6,7 +6,7 @@ id: Upgrading_to_USoft_101
 
 ## Development Environment
 
-To upgrade to USoft 10.1, make sure you first [upgrade to USoft 10.0](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_the_Development_environment_to_USoft_100.md).
+To upgrade to USoft 10.1, make sure you first [upgrade to USoft 10.0](/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_the_Development_environment_to_USoft_100.md).
 
 To upgrade your repository tables from USoft 10.0 to USoft 10.1, use the Upgrade tool provided in USoft Binder:
 
@@ -18,4 +18,4 @@ To upgrade your repository tables from USoft 10.0 to USoft 10.1, use the Upgrade
 
 ## Production Environment
 
-You do not need to perform upgrade procedures over and above those necessary for [upgrading to USoft 10.0](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_the_Production_environment_to_USoft_100.md).
+You do not need to perform upgrade procedures over and above those necessary for [upgrading to USoft 10.0](/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_the_Production_environment_to_USoft_100.md).

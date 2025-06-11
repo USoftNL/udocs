@@ -9,7 +9,7 @@ id: Run_SQL_command
 
 :::note
 
-This article is about the **Run SQL command**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Run SQL command**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

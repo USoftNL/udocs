@@ -13,9 +13,9 @@ This article is about the **upgrade script** concept in USoft Delivery Manager (
 
 **See also**
 
-- [Writing an upgrade script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Writing_an_upgrade_script.md)
-- [Archiving an upgrade script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Archiving_an_upgrade_script.md)
-- [Restoring an upgrade script](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Restoring_an_upgrade_script.md)
+- [Writing an upgrade script](/Continuous_delivery/Delivery_Manager_basic_procedures/Writing_an_upgrade_script.md)
+- [Archiving an upgrade script](/Continuous_delivery/Delivery_Manager_basic_procedures/Archiving_an_upgrade_script.md)
+- [Restoring an upgrade script](/Continuous_delivery/Delivery_Manager_basic_procedures/Restoring_an_upgrade_script.md)
 
 ## Upgrade scripts
 

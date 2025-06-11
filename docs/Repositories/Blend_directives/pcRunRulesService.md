@@ -9,7 +9,7 @@ id: pcRunRulesService
 
 :::note
 
-This article is about the **pc:RunRulesService**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:RunRulesService**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
@@ -85,11 +85,11 @@ There is no return value.
 
 :::tip
 
-The list of attributes of pc:RunRulesService corresponds to the list of Rules Service settings that you can set in USoft Binder's Rules Service Property Sheet and in the ure.config wizard. Details are in the "Manual configuration" section of [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md). For each optional attribute, if you omit the attribute, the indicated default will be applied.
+The list of attributes of pc:RunRulesService corresponds to the list of Rules Service settings that you can set in USoft Binder's Rules Service Property Sheet and in the ure.config wizard. Details are in the "Manual configuration" section of [pc:ConfigRulesService](/Repositories/Blend_directives/pcConfigRulesService.md). For each optional attribute, if you omit the attribute, the indicated default will be applied.
 
 :::
 
-The Rules Service will use a transient port number. For more information, read "Choosing a port number...” in [pc:ConfigRulesService](/docs/Repositories/Blend_directives/pcConfigRulesService.md).
+The Rules Service will use a transient port number. For more information, read "Choosing a port number...” in [pc:ConfigRulesService](/Repositories/Blend_directives/pcConfigRulesService.md).
 
 The Rules Service will log on to **application** in the database account specified by **user**, **pwd**, **rdbmstype**, **dbconnectstr**. The required **owner** is the database user who owns the application tables. This is typically the same database user as **user**.
 
@@ -121,7 +121,7 @@ If you omit **logdir**, the log directory will be set to the rules_engine subdir
 
 If you omit **logfilenameprefix**, the Logfile Name Prefix will be set to the value that you pass for the application attribute.
 
-The optional **options** attribute allows you to pass additional [command line switches known to the RulesService.exe command](/docs/USoft_for_administrators/USoft_command_line_syntax/rulesserviceexe.md). This allows you, for example, to specify multiple controlling hosts:
+The optional **options** attribute allows you to pass additional [command line switches known to the RulesService.exe command](/USoft_for_administrators/USoft_command_line_syntax/rulesserviceexe.md). This allows you, for example, to specify multiple controlling hosts:
 
 ```xml
 <pc:RunRulesService  options="-gc=*myhost1* -gc=*127.30.60.123*" ... />

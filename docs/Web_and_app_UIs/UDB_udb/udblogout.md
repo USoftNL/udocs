@@ -12,7 +12,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -23,7 +23,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **logout()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **logout()** function of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -31,7 +31,7 @@ This article is about the **logout()** function of the [udb object](/docs/Web_an
 
 Logs out.
 
-Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
+Returns a Promise object or the 'this' object. From USoft 10.0.1I, returns a [udbPromise](/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) instead of a Promise object.
 
 *Syntax*
  
@@ -77,8 +77,8 @@ $.udb.logout()
 
 |**Event**|**Applies to**|**Occurs when**|
 |--------|--------|--------|
-|[logout](/docs/Web_and_app_UIs/UDB_Events/logout.md)|Page objects|After each logout action|
-|[timeout](/docs/Web_and_app_UIs/UDB_Events/timeout.md)|`<body>` DOM element|User is idle for a longer period than the time-out period|
+|[logout](/Web_and_app_UIs/UDB_Events/logout.md)|Page objects|After each logout action|
+|[timeout](/Web_and_app_UIs/UDB_Events/timeout.md)|`<body>` DOM element|User is idle for a longer period than the time-out period|
 
 
 

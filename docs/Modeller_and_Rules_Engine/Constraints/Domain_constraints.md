@@ -24,7 +24,7 @@ A domain constraint belongs to a specific **domain**. The restriction is enforce
 
 :::note
 
-Use a [domain attribute](/docs/Modeller_and_Rules_Engine/Domains) if your restriction is in one of these categories. In these cases you don't need to write a domain constraint:
+Use a [domain attribute](/Modeller_and_Rules_Engine/Domains) if your restriction is in one of these categories. In these cases you don't need to write a domain constraint:
 
 :::
 

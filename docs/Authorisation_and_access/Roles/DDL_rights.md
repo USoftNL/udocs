@@ -16,7 +16,7 @@ You  grant or revoke DDL rights by setting the **DDL Scope** attribute.
 
 DDL rights are (for a given application) all-or-nothing, across-the-board rights. For an application, a role either has all DDL rights on all tables, or it does not have any DDL rights on any table. This makes “DDL Scope” an attribute of the role itself.
 
-If you run with [merged roles](/docs/Authorisation_and_access/Introducing_USoft_authorisation/Merged_roles.md), a user has DDL rights if-and-only-if he or she is assigned any role that has DDL Scope = Foreground-and-Background.
+If you run with [merged roles](/Authorisation_and_access/Introducing_USoft_authorisation/Merged_roles.md), a user has DDL rights if-and-only-if he or she is assigned any role that has DDL Scope = Foreground-and-Background.
 
 If you do not run with merged roles, a user has DDL rights if his or her current role has DDL Scope = Foreground-and-background.
 

@@ -9,7 +9,7 @@ id: pcCopyFile
 
 :::note
 
-This article is about the **pc:CopyFile**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:CopyFile**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

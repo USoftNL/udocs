@@ -9,13 +9,13 @@ id: WaitForLock
 
 :::note
 
-This article is about the **WaitForLock**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **WaitForLock**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **WaitForLock**
 
-The WaitForLock Rules Engine property can be used to override the [Wait_For_Lock](/docs/Authorisation_and_access/Deployment_configurations/Wait_for_Lock.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The WaitForLock Rules Engine property can be used to override the [Wait_For_Lock](/Authorisation_and_access/Deployment_configurations/Wait_for_Lock.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

@@ -9,7 +9,7 @@ id: pcLoadVariablesOverwrite
 
 :::note
 
-This article is about the **pc:LoadVariablesOverwrite**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:LoadVariablesOverwrite**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

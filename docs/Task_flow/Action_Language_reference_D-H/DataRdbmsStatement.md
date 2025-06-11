@@ -9,7 +9,7 @@ id: DataRdbmsStatement
 
 :::note
 
-This article is about the **DataRdbmsStatement** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about the **DataRdbmsStatement** action in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 
@@ -17,7 +17,7 @@ This article is about the **DataRdbmsStatement** action in the [USoft Action Lan
 
 Instructs the RDBMS to execute a SQL statement in Data Definition Language (CREATE, ALTER, DROP... ) or a stored procedure.
 
-Data manipulation SQL statements (INSERT, UPDATE, DELETE) are not allowed. Use [SqlScript()](/docs/Task_flow/Action_Language_Reference_S-Z/SqlScript.md) to execute these statements.
+Data manipulation SQL statements (INSERT, UPDATE, DELETE) are not allowed. Use [SqlScript()](/Task_flow/Action_Language_Reference_S-Z/SqlScript.md) to execute these statements.
 
 *Syntax*
 

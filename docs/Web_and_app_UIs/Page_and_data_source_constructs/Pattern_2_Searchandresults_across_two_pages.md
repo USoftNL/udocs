@@ -42,7 +42,7 @@ $.udb('TOUR').executeQuery().then(function(dsc){
 });
 ```
 
-This is an example of [page chaining](/docs/Web_and_app_UIs/Navigation_between_web_pages/Page_chaining.md), so perhaps you expected that Search column values would be carried over automatically to the second page. However, in page chaining, only Edit values and not Search values are carried over (this is to prevent problems with different Where Clauses in the different pages). For this reason, you need to loop over the Search values as shown if you want to reproduce these values in the second page.
+This is an example of [page chaining](/Web_and_app_UIs/Navigation_between_web_pages/Page_chaining.md), so perhaps you expected that Search column values would be carried over automatically to the second page. However, in page chaining, only Edit values and not Search values are carried over (this is to prevent problems with different Where Clauses in the different pages). For this reason, you need to loop over the Search values as shown if you want to reproduce these values in the second page.
 
 At some points in this code, **.then()** is used for the next action. **.then()** may be used when the call returns a Promise object. Promises are implemented for the executeQuery() call of the udb object, but not for the each() call of the dsc (DataSourceContainer) object.
 

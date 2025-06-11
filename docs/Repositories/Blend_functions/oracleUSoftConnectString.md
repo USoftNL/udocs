@@ -9,7 +9,7 @@ id: oracleUSoftConnectString
 
 :::note
 
-This article is about the **oracle:USoftConnectString**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **oracle:USoftConnectString**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

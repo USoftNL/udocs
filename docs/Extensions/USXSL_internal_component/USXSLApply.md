@@ -9,7 +9,7 @@ id: USXSLApply
 
 :::note
 
-This article is about the **Apply** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
+This article is about the **Apply** method of the [USXSL internal component](/Extensions/USXSL_internal_component).
 <!-- TODO: (where is this??)  See also the [Data transformation with XSLT]() section. -->
 
 :::

@@ -9,13 +9,13 @@ id: UpdateSupertypeOnInsert
 
 :::note
 
-This article is about the **UpdateSupertypeOnInsert**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **UpdateSupertypeOnInsert**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **UpdateSupertypeOnInsert**
 
-The **UpdateSupertypeOnInsert** Rules Engine property can be used to override the [UPDATE_SUPERTYPE_ON_INS ](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md)Rules Engine parameter setting for the current deployment context and for the duration of the current session.
+The **UpdateSupertypeOnInsert** Rules Engine property can be used to override the [UPDATE_SUPERTYPE_ON_INS ](/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md)Rules Engine parameter setting for the current deployment context and for the duration of the current session.
 
 This setting determines whether or not inserting a subtype for an existing supertype must be considered as an UPDATE on the whole constellation.
 

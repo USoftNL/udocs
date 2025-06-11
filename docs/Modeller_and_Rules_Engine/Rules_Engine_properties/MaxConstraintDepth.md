@@ -9,13 +9,13 @@ id: MaxConstraintDepth
 
 :::note
 
-This article is about the **MaxConstraintDepth**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **MaxConstraintDepth**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **MaxConstraintDepth**
 
-The **MaxConstraintDepth** Rules Engine property can be used to override the [Max_Constraint_Depth](/docs/Authorisation_and_access/Deployment_configurations/Max_Constraint_Depth.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **MaxConstraintDepth** Rules Engine property can be used to override the [Max_Constraint_Depth](/Authorisation_and_access/Deployment_configurations/Max_Constraint_Depth.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

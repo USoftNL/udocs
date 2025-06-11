@@ -202,7 +202,7 @@ $.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json", 'json.txt
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Retrieves the Web benchmark control its “Value type” property. More about the Value type property is found [here](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Editing_a_test.md).</p>|
+|**Description**|<p>Retrieves the Web benchmark control its “Value type” property. More about the Value type property is found [here](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Editing_a_test.md).</p>|
 
 
 
@@ -219,7 +219,7 @@ $.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json", 'json.txt
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Retrieves the Occurence rank of a control. More about the Occurence Rank property is found [here](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Editing_a_test.md).</p>|
+|**Description**|<p>Retrieves the Occurence rank of a control. More about the Occurence Rank property is found [here](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Editing_a_test.md).</p>|
 
 
 
@@ -237,7 +237,7 @@ $.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json", 'json.txt
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Retrieves the result of a script action. Called when recording a script action. More about recording scripts can be found [here](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/The_Web_Benchmark_control.md).</p>|
+|**Description**|<p>Retrieves the result of a script action. Called when recording a script action. More about recording scripts can be found [here](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/The_Web_Benchmark_control.md).</p>|
 
 
 
@@ -379,7 +379,7 @@ $.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json", 'json.txt
 
 |        |        |
 |--------|--------|
-|**Description**|<p>Opens up the Record variable dialog allowing you to define variables. This function is called when you press the [Variables button](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/The_Web_Benchmark_control.md) and then “Define variables”.</p>|
+|**Description**|<p>Opens up the Record variable dialog allowing you to define variables. This function is called when you press the [Variables button](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/The_Web_Benchmark_control.md) and then “Define variables”.</p>|
 
 
 

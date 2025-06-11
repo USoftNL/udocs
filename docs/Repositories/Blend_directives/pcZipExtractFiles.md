@@ -9,7 +9,7 @@ id: pcZipExtractFiles
 
 :::note
 
-This article is about the **pc:ZipExtractFiles**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:ZipExtractFiles**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

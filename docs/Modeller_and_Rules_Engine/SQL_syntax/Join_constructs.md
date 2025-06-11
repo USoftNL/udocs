@@ -6,7 +6,7 @@ id: Join_constructs
 
 :::note
 
-This article is about **Join constructs** as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+This article is about **Join constructs** as part of the [SQL syntax](/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
 
 :::
 

@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **rowSet()** function of the [DataSourceContainer object](/docs/Web_and_app_UIs/UDB_DataSourceContainer).
+This article is about the **rowSet()** function of the [DataSourceContainer object](/Web_and_app_UIs/UDB_DataSourceContainer).
 
 :::
 
@@ -34,7 +34,7 @@ This article is about the **rowSet()** function of the [DataSourceContainer obje
 
 Gets a row set of the data source for a specified parent key.
 
-Returns a [Rowset object](/docs/Web_and_app_UIs/UDB_Rowset). If parent-key refers to an existing Rowset object in the data source, then the details of this Rowset are returned in a Rowset object. Otherwise, the return value is undefined.
+Returns a [Rowset object](/Web_and_app_UIs/UDB_Rowset). If parent-key refers to an existing Rowset object in the data source, then the details of this Rowset are returned in a Rowset object. Otherwise, the return value is undefined.
 
 *Syntax*
 
@@ -52,7 +52,7 @@ $.udb( *ds* ).rowSet( *parent-key* )
 }
 ```
 
-The optional *ds* is a [data source selector](/docs/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
+The optional *ds* is a [data source selector](/Web_and_app_UIs/UDB_DataSourceMetaContainer/UDB_DataSourceMetaContainer_object.md).
 
 The required parent-key must be one of the following:
 

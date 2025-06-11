@@ -9,7 +9,7 @@ id: Release_deliverable_appdata
 
 :::note
 
-This article is about the **Release deliverable appdata**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Release deliverable appdata**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -71,6 +71,6 @@ If the current release frame has "Include Packing Slip" = Yes:
 
 ### Other similar actions
 
-To export deliverable appdata to a destination folder of your choice, instead of to the release folder, you can call "[Export deliverable appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_deliverable_appdata.md)".
+To export deliverable appdata to a destination folder of your choice, instead of to the release folder, you can call "[Export deliverable appdata](/Continuous_delivery/Delivery_Manager_actions_by_name/Export_deliverable_appdata.md)".
 
-To export all appdata for "Application" and "Database account" to a folder of your choice, you can call "[Export all appdata](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Export_all_appdata.md)".
+To export all appdata for "Application" and "Database account" to a folder of your choice, you can call "[Export all appdata](/Continuous_delivery/Delivery_Manager_actions_by_name/Export_all_appdata.md)".

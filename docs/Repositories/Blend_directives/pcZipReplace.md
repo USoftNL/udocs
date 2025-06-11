@@ -9,7 +9,7 @@ id: pcZipReplace
 
 :::note
 
-This article is about the **pc:ZipReplace**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:ZipReplace**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

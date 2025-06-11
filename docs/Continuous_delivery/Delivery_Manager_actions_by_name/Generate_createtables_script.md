@@ -9,7 +9,7 @@ id: Generate_createtables_script
 
 :::note
 
-This article is about the **Generate create-tables script**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Generate create-tables script**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 
@@ -33,6 +33,6 @@ This is the equivalent of running the standard Tools, Create Physical Tables opt
 
 ### Notes
 
-This action is different from Delivery Manager's "[Release create-tables script](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_createtables_script.md)" and "[Release scripts](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Release_scripts.md)" actions, which produce an output based on a comparison with the metadata as defined for the PREVIOUS release.
+This action is different from Delivery Manager's "[Release create-tables script](/Continuous_delivery/Delivery_Manager_actions_by_name/Release_createtables_script.md)" and "[Release scripts](/Continuous_delivery/Delivery_Manager_actions_by_name/Release_scripts.md)" actions, which produce an output based on a comparison with the metadata as defined for the PREVIOUS release.
 
-Executing this action is only appropriate if, for some reason, you do not know or do not care what is the state of a target repository, but you want to make sure that it is upgraded to a new situation prescribed by a new set of flatfiles, or if you have some reason to mimic USoft's "[Create Tables](/docs/Continuous_delivery/Delivery_Manager_actions_by_name/Create_tables.md)" feature as it exists outside Delivery Manager. Otherwise, prefer calling "Release create-tables script" or "Release scripts".
+Executing this action is only appropriate if, for some reason, you do not know or do not care what is the state of a target repository, but you want to make sure that it is upgraded to a new situation prescribed by a new set of flatfiles, or if you have some reason to mimic USoft's "[Create Tables](/Continuous_delivery/Delivery_Manager_actions_by_name/Create_tables.md)" feature as it exists outside Delivery Manager. Otherwise, prefer calling "Release create-tables script" or "Release scripts".

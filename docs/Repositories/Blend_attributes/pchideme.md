@@ -9,7 +9,7 @@ id: pchideme
 
 :::note
 
-This article is about the **pc:hideme**[](/docs/Repositories/Blend_directives)[Blend attribute](/docs/Repositories/Blend_attributes).
+This article is about the **pc:hideme**[](/Repositories/Blend_directives)[Blend attribute](/Repositories/Blend_attributes).
 
 :::
 

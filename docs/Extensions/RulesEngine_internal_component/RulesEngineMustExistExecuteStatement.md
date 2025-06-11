@@ -9,7 +9,7 @@ id: RulesEngineMustExistExecuteStatement
 
 :::note
 
-This article is about the **MustExistExecuteStatement** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+This article is about the **MustExistExecuteStatement** method of the [RulesEngine internal component](/Extensions/RulesEngine_internal_component).
 
 :::
 

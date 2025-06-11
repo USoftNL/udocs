@@ -9,7 +9,7 @@ id: RulesEngineSetUserGroup
 
 :::note
 
-This article is about the **SetUserGroup** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+This article is about the **SetUserGroup** method of the [RulesEngine internal component](/Extensions/RulesEngine_internal_component).
 
 :::
 
@@ -18,7 +18,7 @@ This article is about the **SetUserGroup** method of the [RulesEngine internal c
 
 :::danger
 
-This function has been deprecated in USoft 10.0. Use [RulesEngine.SetRole](/docs/Extensions/RulesEngine_internal_component/RulesEngineSetRole.md) instead.
+This function has been deprecated in USoft 10.0. Use [RulesEngine.SetRole](/Extensions/RulesEngine_internal_component/RulesEngineSetRole.md) instead.
 
 :::
 

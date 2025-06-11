@@ -9,7 +9,7 @@ id: Upgrading_to_USoft_110
 
 :::warning
 
-To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
+To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
 
 :::
 
@@ -33,7 +33,7 @@ Prior to upgrading, you must reinstall a License Server. Refer to the USoft Inst
 
 ### Step 4: Checklist (suggested)
 
-We suggest you make a checklist of known issues that need double-checking when you upgrade your application. A list of problem areas that teams often want to check can be found in the "Step 4” section of [this article](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_the_Development_environment_to_USoft_100.md).
+We suggest you make a checklist of known issues that need double-checking when you upgrade your application. A list of problem areas that teams often want to check can be found in the "Step 4” section of [this article](/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_the_Development_environment_to_USoft_100.md).
 
 ### Step 5: Upgrade
 
@@ -114,7 +114,7 @@ For detailed instructions on this step, read the help topic How to make violatio
 
 :::warning
 
-To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/docs/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
+To upgrade to USoft 11.0, first [upgrade to USoft 10.1](/USoft_for_administrators/Upgrading_to_USoft_10/Upgrading_to_USoft_101.md). Then, upgrade to USoft 11.0 as a separate action.
 
 :::
 

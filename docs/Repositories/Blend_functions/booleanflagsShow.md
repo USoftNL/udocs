@@ -9,7 +9,7 @@ id: booleanflagsShow
 
 :::note
 
-This article is about the **booleanflags:Show**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **booleanflags:Show**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

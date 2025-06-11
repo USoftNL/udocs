@@ -10,7 +10,7 @@ Concept structure and definitions are part of business vocabulary. The most orig
 
 ![](./assets/5375ac35-25f8-4e8f-b587-090f565e271a.png)
 
-The power of [combining rules and definitions](/docs/Business_rules/Positioning_business_rules/Rules_and_definitions_are_interrelated.md) is often underestimated. But it is easy to grasp. Most people readily accept that rules are clearer if you have a glossary of terms-and-definitions where the terms used in the rules are explained.
+The power of [combining rules and definitions](/Business_rules/Positioning_business_rules/Rules_and_definitions_are_interrelated.md) is often underestimated. But it is easy to grasp. Most people readily accept that rules are clearer if you have a glossary of terms-and-definitions where the terms used in the rules are explained.
 
 The idea that rules rely also on *concept structure* is a little harder to grasp. In SBVR, “Vocabulary” is not just a glossary of terms-and-definitions: meaning is hidden not only in definitions but also in interrelationships between concepts.
 

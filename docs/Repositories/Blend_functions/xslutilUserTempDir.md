@@ -9,7 +9,7 @@ id: xslutilUserTempDir
 
 :::note
 
-This article is about the **xslutil:UserTempDir**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **xslutil:UserTempDir**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

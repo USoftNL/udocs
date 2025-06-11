@@ -26,7 +26,7 @@ Here is a USoft near-default web page that has the TRAVELLER.FAMILY_NAME joined 
 
  
 
-The steps that have been taken to get the joined column into this web page are detailed in the [Pattern 7: Classic joined column](/docs/Web_and_app_UIs/Page_and_data_source_constructs/Pattern_7_Classic_joined_column.md) article. In general terms, these steps are:
+The steps that have been taken to get the joined column into this web page are detailed in the [Pattern 7: Classic joined column](/Web_and_app_UIs/Page_and_data_source_constructs/Pattern_7_Classic_joined_column.md) article. In general terms, these steps are:
 
 - In the TRAVELLER DataSource, embed a Lookup DataSource PERSON AS TRAVELLER based on the PERSON-TRAVELLER relationship from USoft Definer.
 - In the web page, add column displays that make use of the FAMILY_NAME data looked up by this embedded data source. In the picture, this has been done in the result grid, but also in the Search box at the top.
@@ -51,7 +51,7 @@ When you have this Logical View checked, you will see that USoft generates setti
 :::tip
 
 In service-oriented UIs such as REST APIs, it can be very useful to present many types of data *as if* they all came from the same table. This is where Logical Views come into their own.
-In this context, it is also frequently possible and desirable to have users manipulate data *as if* they were all stored in the same table. Use [rule-based Logical Views](/docs/Modeller_and_Rules_Engine/Logical_Views/Rulebased_logical_views.md) to let users submit data *as if* these were all stored in the same surface table structure, while you actually channel these data to different columns in related database tables in the background.
+In this context, it is also frequently possible and desirable to have users manipulate data *as if* they were all stored in the same table. Use [rule-based Logical Views](/Modeller_and_Rules_Engine/Logical_Views/Rulebased_logical_views.md) to let users submit data *as if* these were all stored in the same surface table structure, while you actually channel these data to different columns in related database tables in the background.
 
 :::
 
@@ -108,6 +108,6 @@ The Insert Joined Columns dialog appears. On the left, this dialog represents th
 
 The result is visible in the design tree (on the right of your screen) as an Extra Query object with a name such as "VIRTUAL_TYPE 1". To view the functionality, open the object in the Property Inspector. Inspect the values that USoft has generated for the Joined Columns, Relationships and Underlying Query properties.
 
-Using the Yes Action and No Action properties, you can define additional action that must be taken if a value for the Joined Column is, or is not found. For this technique, see the article on [Extra Queries](/docs/Desktop_UIs/Exploring_USoft_Windows_Designer/Extra_Queries.md).
+Using the Yes Action and No Action properties, you can define additional action that must be taken if a value for the Joined Column is, or is not found. For this technique, see the article on [Extra Queries](/Desktop_UIs/Exploring_USoft_Windows_Designer/Extra_Queries.md).
 
  

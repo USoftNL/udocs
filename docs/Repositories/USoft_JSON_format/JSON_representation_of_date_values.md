@@ -26,7 +26,7 @@ CCYY-MM-DDThh:mm:ss
 
 ## JSON Import IO Formats 
 
-When importing a JSON document, the [same date value IO formats are recognised as for XML imports](/docs/Repositories/USoft_XML_formats/XML_representation_of_date_values.md).
+When importing a JSON document, the [same date value IO formats are recognised as for XML imports](/Repositories/USoft_XML_formats/XML_representation_of_date_values.md).
 
 ## Unsupported date formats
 

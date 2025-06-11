@@ -9,7 +9,7 @@ id: stringsTitleCase
 
 :::note
 
-This article is about the **strings:TitleCase**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **strings:TitleCase**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

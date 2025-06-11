@@ -7,7 +7,7 @@ id: Dialog_controls
 
 :::tip
 
-For simple dialogs, call a dialog by scripting a [**$.udb.dialog()**](/docs/Web_and_app_UIs/UDB_udb/udbdialog.md) call.
+For simple dialogs, call a dialog by scripting a [**$.udb.dialog()**](/Web_and_app_UIs/UDB_udb/udbdialog.md) call.
 
 :::
 

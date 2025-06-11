@@ -6,7 +6,7 @@ id: Template_default_creating_and_reapplying_your_own_defaults
 
 ## USoft defaults and custom defaults
 
-Each USoft web application UI is based on a [template default](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md). USoft 11 ships with 2 [USoft template defaults](/docs/Web_and_app_UIs/USoft_template_defaults): usoft-zero and usoft-classic. Usoft-zero is the default. If you want usoft-classic, you need to [switch to it](/docs/Web_and_app_UIs/USoft_template_defaults/Template_default_Switching_to_usoftclassic.md).
+Each USoft web application UI is based on a [template default](/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md). USoft 11 ships with 2 [USoft template defaults](/Web_and_app_UIs/USoft_template_defaults): usoft-zero and usoft-classic. Usoft-zero is the default. If you want usoft-classic, you need to [switch to it](/Web_and_app_UIs/USoft_template_defaults/Template_default_Switching_to_usoftclassic.md).
 
 Instead of selecting a USoft template default, you can also have a template default of your own.
 
@@ -37,7 +37,7 @@ To define your own template default, you use a special extension script that all
 
 :::warning
 
-Defining a template default is *replacing* the factory default. Appreciate that choosing, or creating, or changing a template default is completely different from [applying paintings](/docs/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md) a template default.
+Defining a template default is *replacing* the factory default. Appreciate that choosing, or creating, or changing a template default is completely different from [applying paintings](/Web_and_app_UIs/USoft_template_defaults/Template_defaults_as_a_concept.md) a template default.
 
 :::
 
@@ -127,12 +127,12 @@ The directive *e-if* is used to conditionally render a block. The block will onl
 
 ## Template defaults: Reference Guide
 
-[Template default: Dictionary](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Dictionary.md)
+[Template default: Dictionary](/Web_and_app_UIs/Your_own_template_default/Template_default_Dictionary.md)
 
-[Template default: Domain Allowed Values](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Domain_allowed_values.md)
+[Template default: Domain Allowed Values](/Web_and_app_UIs/Your_own_template_default/Template_default_Domain_allowed_values.md)
 
-[Template default: Relationships, Relationship Columns](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Relationships.md)
+[Template default: Relationships, Relationship Columns](/Web_and_app_UIs/Your_own_template_default/Template_default_Relationships.md)
 
-[Template default: Roles](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Roles.md)
+[Template default: Roles](/Web_and_app_UIs/Your_own_template_default/Template_default_Roles.md)
 
-[Template default: Tables, Table Columns](/docs/Web_and_app_UIs/Your_own_template_default/Template_default_Tables.md)
+[Template default: Tables, Table Columns](/Web_and_app_UIs/Your_own_template_default/Template_default_Tables.md)

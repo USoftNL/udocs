@@ -29,7 +29,7 @@ The following table shows 3 different ways to set or switch the application lang
 
 At development time, USoft Definer allows you to declare *extension properties* for your application. At runtime, in USoft Authorizer, for each extension property, you can assign a user-specific value for each runtime user.
 
-For details, see [Schemas and extension properties](/docs/Authorisation_and_access/Roles/Schemas_and_extension_properties.md).
+For details, see [Schemas and extension properties](/Authorisation_and_access/Roles/Schemas_and_extension_properties.md).
 
 Here is a quick way to create an extension property called "language” in USoft Definer:
 

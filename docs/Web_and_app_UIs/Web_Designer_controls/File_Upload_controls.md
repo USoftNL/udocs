@@ -189,7 +189,7 @@ To offer a rectangular area where users can drag-and-drop the files they want to
 
 You can script file upload behaviour at the level of the client UI by calling **$.udb.upload()** from Web Designer properties that are open to scripting.
 
-For more detail, search **$.udb.upload()** in the [Developer Reference Guide](/docs/Web_and_app_UIs/UDB_udb/udbupload.md).
+For more detail, search **$.udb.upload()** in the [Developer Reference Guide](/Web_and_app_UIs/UDB_udb/udbupload.md).
 
 ## Job handling file-upload requests
 

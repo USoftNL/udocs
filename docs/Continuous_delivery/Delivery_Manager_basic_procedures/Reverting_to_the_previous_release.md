@@ -11,7 +11,7 @@ If you revert to the previous release, all deliverables of the current release a
 
 :::
 
-You can [revert to the previous release](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_trees.md):
+You can [revert to the previous release](/Continuous_delivery/Understanding_USoft_Delivery_Manager/Release_trees.md):
 
 - The current release folder is deleted from the file system. All the delivered contents in that folder are also deleted.
 - Upgrade scripts associated with the current version are deleted from Delivery Manager.

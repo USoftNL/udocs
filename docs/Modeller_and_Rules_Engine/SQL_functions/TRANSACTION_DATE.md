@@ -10,7 +10,7 @@ id: TRANSACTION_DATE
 :::note
 
 This article has additional information about the **TRANSACTION_DATE** SQL function.
-For convertibility of this function, go to [SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
+For convertibility of this function, go to [SQL functions  S - Z](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md).
 
 :::
 
@@ -36,7 +36,7 @@ Contrast with Oracle-specific SYSDATE. With SYSDATE, identical date and time wit
 
 :::warning
 
-Compare with [CURRENT_DATE()](/docs/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md).
+Compare with [CURRENT_DATE()](/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md).
 
 :::
 

@@ -22,7 +22,7 @@ In the property name, '@’ is a literal and *‘key*’**is one of the reserved
 
 *Example 1*
 
-In this example, the **@usoft-json** meta-instruction property is a top-level element that contains directives on how to treat the data in the remainder of the JSON document. For details on these directives, go to [usoft-xml processing instruction](/docs/Repositories/USoft_XML_formats/usoftxml_processing_instruction.md), which is the XML counterpart of the @usoft-json property.
+In this example, the **@usoft-json** meta-instruction property is a top-level element that contains directives on how to treat the data in the remainder of the JSON document. For details on these directives, go to [usoft-xml processing instruction](/Repositories/USoft_XML_formats/usoftxml_processing_instruction.md), which is the XML counterpart of the @usoft-json property.
 
 ```language-json
 {

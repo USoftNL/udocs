@@ -6,8 +6,8 @@ id: How_USoft_displays_web_menus
 
 This article helps you understand the general mechanism by which USoft displays menus in your web pages. If you want more immediately practical information:
 
-- Click [here](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md) for step-by-step instructions for creating a custom, **role-independent** initial web menu.
-- Click [here](/docs/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for step-by-step instructions for creating a custom, **role-based** initial web menu.
+- Click [here](/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md) for step-by-step instructions for creating a custom, **role-independent** initial web menu.
+- Click [here](/Web_and_app_UIs/Web_menus/Rolebased_web_menus.md) for step-by-step instructions for creating a custom, **role-based** initial web menu.
 
 Menus in your web pages are displayed by **MenuControls**. When the user browses a page that has one or more MenuControls, the properties of this (these) MenuControls are interpreted and this results in a menu (the menus) being displayed:
 
@@ -19,7 +19,7 @@ Menus in your web pages are displayed by **MenuControls**. When the user browses
 
 **Tying menus to pages: Easy drag-and-drop**
 Experienced users of Web Designer can easily tie menus to pages, and pages to menus:
-These easy-to-use options are for developers who understand the class hierarchies and object hierarchies they have been creating. Beginners should prefer the step-by-step instructions in [Web Menus: Quick Start](/docs/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md).
+These easy-to-use options are for developers who understand the class hierarchies and object hierarchies they have been creating. Beginners should prefer the step-by-step instructions in [Web Menus: Quick Start](/Web_and_app_UIs/Web_menus/Web_menus_Quick_Start.md).
 
 :::
 
@@ -60,6 +60,6 @@ Consider that if you run with merged roles, role merge will influence the initia
 
 :::note
 
-Click [here](/docs/Web_and_app_UIs/Web_menus/Menu_XML_files.md) for more explanation about menu XML files.
+Click [here](/Web_and_app_UIs/Web_menus/Menu_XML_files.md) for more explanation about menu XML files.
 
 :::

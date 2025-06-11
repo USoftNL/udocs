@@ -73,7 +73,7 @@ In the controls catalog there is a Related data source available for each child 
 
 ## SQLDataSources
 
-A [SQLDataSource ](/docs/Web_and_app_UIs/Data_sources/SQLDataSources.md)is essentially a SQL statement that defines some customised data interaction that you want in your web application.
+A [SQLDataSource ](/Web_and_app_UIs/Data_sources/SQLDataSources.md)is essentially a SQL statement that defines some customised data interaction that you want in your web application.
 
 Create a SQLData Source by creating a subclass of the SQLDataSource control class that you find in the Web Designer Controls catalog:
 
@@ -88,7 +88,7 @@ A Variable Set data source holds only one record if it is used for variables pro
 
 :::note
 
-VariableSetDataSources are becoming obsolete. The only reason to use them is to hold values that are not stored in the database but that you want to show to the user, for example, in TextColumnControls. But in USoft 10, the [UDB library](/docs/Web_and_app_UIs/UI_Library/USoft_controls_from_jQuery_udbControl.md) offers rich support for handling such values as well. Prior to USoft 9, VariableSetDataSources were essential to hold values during page navigation because the top-level document was replaced when you navigated to a different page.
+VariableSetDataSources are becoming obsolete. The only reason to use them is to hold values that are not stored in the database but that you want to show to the user, for example, in TextColumnControls. But in USoft 10, the [UDB library](/Web_and_app_UIs/UI_Library/USoft_controls_from_jQuery_udbControl.md) offers rich support for handling such values as well. Prior to USoft 9, VariableSetDataSources were essential to hold values during page navigation because the top-level document was replaced when you navigated to a different page.
 
 :::
 

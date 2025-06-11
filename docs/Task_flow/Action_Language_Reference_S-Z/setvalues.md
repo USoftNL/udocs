@@ -9,7 +9,7 @@ id: setvalues
 
 :::note
 
-This article is about the **set-values** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about the **set-values** action in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 
@@ -30,7 +30,7 @@ Sets the value of a property of the current object or a specified target object.
 set-values( *property*, *value* )
 ```
 
-*Property* names the property to be (re)set. Refer to the property by using its internal name. To find the property's internal name, please refer to [Property Reference](/docs/Task_flow/Action_Language_reference/Property_reference.md) section.
+*Property* names the property to be (re)set. Refer to the property by using its internal name. To find the property's internal name, please refer to [Property Reference](/Task_flow/Action_Language_reference/Property_reference.md) section.
 
 *Value* is the value that the property is to have.
 

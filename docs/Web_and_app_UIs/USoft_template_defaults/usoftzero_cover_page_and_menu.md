@@ -58,7 +58,7 @@ $.udb.navigateTo(
 );
 ```
 
-For details, go to [$.udb.navigateTo()](/docs/Web_and_app_UIs/UDB_udb/udbnavigateTo.md).
+For details, go to [$.udb.navigateTo()](/Web_and_app_UIs/UDB_udb/udbnavigateTo.md).
 
 In the example, four options are passed:
 

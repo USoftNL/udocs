@@ -9,7 +9,7 @@ id: USMetaTables
 
 :::note
 
-This article is about the **Tables** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+This article is about the **Tables** method of the [USMeta internal component](/Extensions/USMeta_internal_component).
 
 :::
 
@@ -142,11 +142,11 @@ SELECT USMeta.Tables(
 
 *Example 3*
 
-You can use `USMeta.Tables()` to determine exactly what type(s) of table you want to export with [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
+You can use `USMeta.Tables()` to determine exactly what type(s) of table you want to export with [XML.MultiExportTables](/Extensions/XML_internal_component/XMLMultiExportTables.md).
 
 
 :::note
 
-For example, you can export only database tables and not other types of table such as component tables and logical views. This is discussed in detail in *Example 3* of [XML.MultiExportTables](/docs/Extensions/XML_internal_component/XMLMultiExportTables.md).
+For example, you can export only database tables and not other types of table such as component tables and logical views. This is discussed in detail in *Example 3* of [XML.MultiExportTables](/Extensions/XML_internal_component/XMLMultiExportTables.md).
 
 :::

@@ -9,7 +9,7 @@ id: variableIsDefined
 
 :::note
 
-This article is about the **variable:IsDefined**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **variable:IsDefined**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

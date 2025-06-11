@@ -9,7 +9,7 @@ id: BatchRunnerStartJob
 
 :::note
 
-This article is about the **StartJob** method of the [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
+This article is about the **StartJob** method of the [BatchRunner internal component](/Extensions/BatchRunner_internal_component).
 
 :::
 

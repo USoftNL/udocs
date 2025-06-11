@@ -9,14 +9,14 @@ id: RulesEngineSetProperty
 
 :::note
 
-This article is about the **SetProperty** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
-See also [Rules Engine properties](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **SetProperty** method of the [RulesEngine internal component](/Extensions/RulesEngine_internal_component).
+See also [Rules Engine properties](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **RulesEngine.SetProperty**
 
-Sets or changes system information kept by the Rules Engine by (re)setting the value of a [Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties). To retrieve the existing value of a property, use the **GetProperty**method.
+Sets or changes system information kept by the Rules Engine by (re)setting the value of a [Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties). To retrieve the existing value of a property, use the **GetProperty**method.
 
 
 :::warning

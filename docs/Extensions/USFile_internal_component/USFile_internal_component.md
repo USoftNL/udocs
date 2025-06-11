@@ -10,7 +10,7 @@ id: USFile_internal_component
 :::note
 
 This article contains general information about the **USFile** internal component.
-For an alphabetic list of USFile methods, click [here](/docs/Extensions/USFile_internal_component).
+For an alphabetic list of USFile methods, click [here](/Extensions/USFile_internal_component).
 
 :::
 

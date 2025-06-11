@@ -4,7 +4,7 @@ id: How_to_define_a_Variable_Set_Data_Source
 
 # How to define a Variable Set Data Source
 
-To define a [VariableSetDataSource](/docs/Web_and_app_UIs/Data_sources/Data_sources.md):
+To define a [VariableSetDataSource](/Web_and_app_UIs/Data_sources/Data_sources.md):
 
 1. From the Web Designer catalog, open the page in which you want to define a variable set.
 

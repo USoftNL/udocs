@@ -9,7 +9,7 @@ id: pcXmlExport
 
 :::note
 
-This article is about the **pc:XmlExport**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:XmlExport**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

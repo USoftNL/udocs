@@ -15,7 +15,7 @@ The USoft Rule Language is not available in other contexts than constraint SQL.
 
 :::warning
 
-For this reason, the USoft Rules Language is not normally a good choice for professional applications. Developers cannot cut-and-paste constraint SQL to other contexts that expect SQL. Use [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) instead.
+For this reason, the USoft Rules Language is not normally a good choice for professional applications. Developers cannot cut-and-paste constraint SQL to other contexts that expect SQL. Use [SQL syntax](/Modeller_and_Rules_Engine/SQL_syntax) instead.
 
 :::
 

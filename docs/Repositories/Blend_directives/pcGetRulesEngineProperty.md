@@ -9,7 +9,7 @@ id: pcGetRulesEngineProperty
 
 :::note
 
-This article is about the **pc:GetRulesEngineProperty**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:GetRulesEngineProperty**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

@@ -9,13 +9,13 @@ id: CommandSystemForeground
 
 :::note
 
-This article is about the **CommandSystemForeground** action in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article is about the **CommandSystemForeground** action in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 
 ## **CommandSystemForeground()**
 
-Executes an operating system command on a Windows or Linux system. The command will be run in the foreground. Use [CommandWindows()](/docs/Task_flow/Action_Language_reference_A-C/CommandWindows.md) to run a system command in the background on Windows.
+Executes an operating system command on a Windows or Linux system. The command will be run in the foreground. Use [CommandWindows()](/Task_flow/Action_Language_reference_A-C/CommandWindows.md) to run a system command in the background on Windows.
 
 *Syntax*
 

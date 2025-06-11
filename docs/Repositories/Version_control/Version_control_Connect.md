@@ -8,10 +8,10 @@ tags: [USoft11]
 :::note
 
 **See also**
-[Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
-[Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
-[Version control: Create](/docs/Repositories/Version_control/Version_control_Create.md)
-[Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+[Version-controlled repositories](/Repositories/Version_control/Versioncontrolled_repositories.md)
+[Version-controlled local branches](/Repositories/Version_control/Versioncontrolled_local_branches.md)
+[Version control: Create](/Repositories/Version_control/Version_control_Create.md)
+[Version control: Synchronise, Temporarily Disable, Disconnect](/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
 
 :::
 
@@ -48,6 +48,6 @@ At this point, any contents of your USoft Definer tables will be deleted and rep
 
 :::
 
-Your local USoft Definer tables will now be populated for the first time with the development work stored in the file tree that you pulled. This may take some time. This operation is the equivalent of a [Synchronize](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md) operation for the whole of the repository.
+Your local USoft Definer tables will now be populated for the first time with the development work stored in the file tree that you pulled. This may take some time. This operation is the equivalent of a [Synchronize](/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md) operation for the whole of the repository.
 
-When this step is completed, you are ready to start [working with the version-controlled repository](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md).
+When this step is completed, you are ready to start [working with the version-controlled repository](/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md).

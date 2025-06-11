@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,8 +26,8 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article covers the **getLanguage()** function as part of the [UI Library](/docs/Web_and_app_UIs/UI_Library).
-The UI Library is a mixed bag of Javascript extensions for programming UI controls in USoft web pages. Do not confuse with the structured [UDB object model](/docs/Web_and_app_UIs/UDB_udb/UDB_udb_object.md) for data exchange between USoft web pages and a Rules Engine.
+This article covers the **getLanguage()** function as part of the [UI Library](/Web_and_app_UIs/UI_Library).
+The UI Library is a mixed bag of Javascript extensions for programming UI controls in USoft web pages. Do not confuse with the structured [UDB object model](/Web_and_app_UIs/UDB_udb/UDB_udb_object.md) for data exchange between USoft web pages and a Rules Engine.
 
 :::
 
@@ -51,4 +51,4 @@ A possible output of this example is:
 "en"
 ```
 
-See also [setLanguage()](/docs/Web_and_app_UIs/UI_Library/setLanguage.md) and [transform()](/docs/Web_and_app_UIs/UI_Library/transform.md).
+See also [setLanguage()](/Web_and_app_UIs/UI_Library/setLanguage.md) and [transform()](/Web_and_app_UIs/UI_Library/transform.md).

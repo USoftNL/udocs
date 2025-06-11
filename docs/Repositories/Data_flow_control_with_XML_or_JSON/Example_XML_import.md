@@ -39,7 +39,7 @@ A successful import can still be rolled back. To consolidate, you need to commit
 
 ## Example: XML import with DML instruction tags
 
-Here is an example of an XML import instruction with [DML instruction tags](/docs/Repositories/USoft_XML_formats/DML_instruction_tags.md).
+Here is an example of an XML import instruction with [DML instruction tags](/Repositories/USoft_XML_formats/DML_instruction_tags.md).
 
 If the import is successful, the FIRST_NAME value of one person is changed, and another person is DELETEd.
 

@@ -7,7 +7,7 @@ id: Constraints
 
 :::tip
 
-This article is specifically about **table constraints**. USoft also has something called [domain constraints](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md).
+This article is specifically about **table constraints**. USoft also has something called [domain constraints](/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md).
 When USoft developers talk of “constraints”, they usually mean “table constraints”. Many applications have a lot of table constraints and only a limited number of domain constraints.
 
 :::
@@ -39,7 +39,7 @@ Each constraint enforces a form of data integrity. The first constraint makes it
 
 :::note
 
-To enforce that 1 column value (as opposed to combinations of 2 or more column values) follows a certain pattern, you don’t need a table constraint. Use a [domain constraint](/docs/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md) or a [domain attribute](/docs/Modeller_and_Rules_Engine/Domains).
+To enforce that 1 column value (as opposed to combinations of 2 or more column values) follows a certain pattern, you don’t need a table constraint. Use a [domain constraint](/Modeller_and_Rules_Engine/Constraints/Domain_constraints.md) or a [domain attribute](/Modeller_and_Rules_Engine/Domains).
 
 :::
 
@@ -237,7 +237,7 @@ Like SQL-style constraints, INVOKE constraints ultimately guarantee some aspect 
 
 :::note
 
-For components in USoft Definer, go to the [Extensions](/docs/Extensions) page.
-For the INVOKE syntax, go to [INVOKE](/docs/Modeller_and_Rules_Engine/SQL_syntax/INVOKE.md) in the SQL syntax section.
+For components in USoft Definer, go to the [Extensions](/Extensions) page.
+For the INVOKE syntax, go to [INVOKE](/Modeller_and_Rules_Engine/SQL_syntax/INVOKE.md) in the SQL syntax section.
 
 :::

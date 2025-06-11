@@ -7,13 +7,13 @@ id: Configuration_by_variable_substitution
 
 :::warning
 
-This technique is about [target variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not [source variables](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md). In other words, it is about deploy-time and not release-time replacement of the variable placeholder by an actual value.
+This technique is about [target variables](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Target_variables_in_UDeliver.md) and not [source variables](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Source_variables_in_UDeliver.md). In other words, it is about deploy-time and not release-time replacement of the variable placeholder by an actual value.
 
 :::
 
 USoft Delivery Manager facilitates configuration by supporting *target variable settings.* This is an optional mechanism. You can choose to use all aspects of it, some aspects of it, or not use it at all.
 
-[Configuration example 2](/docs/Continuous_delivery/Understanding_USoft_Delivery_Manager/Configuration_example_2.md) is an example of configuration by variable substitution.
+[Configuration example 2](/Continuous_delivery/Understanding_USoft_Delivery_Manager/Configuration_example_2.md) is an example of configuration by variable substitution.
 
 Configuration by variable substitution is a 3-step process:
 
@@ -71,9 +71,9 @@ You can register name-value pairs called *target variable settings,* or *compute
 
 ```
 
-You can get Delivery Manager to generate these Setting elements for you by [setting target variables](/docs/Continuous_delivery/Delivery_Manager_basic_procedures/Setting_a_target_variable.md) in the tool.
+You can get Delivery Manager to generate these Setting elements for you by [setting target variables](/Continuous_delivery/Delivery_Manager_basic_procedures/Setting_a_target_variable.md) in the tool.
 
-If you don't like the standard way in which the settings are mixed into the XML, you can take control of this yourself, using [tags](/docs/Continuous_delivery/USoft_Delivery_Manager_by_concept/Tags_in_UDeliver.md).
+If you don't like the standard way in which the settings are mixed into the XML, you can take control of this yourself, using [tags](/Continuous_delivery/USoft_Delivery_Manager_by_concept/Tags_in_UDeliver.md).
 
 You can preview the result on the Added XSL tab of the Registries window. To actually *output* (release) this result, create the registry.
 

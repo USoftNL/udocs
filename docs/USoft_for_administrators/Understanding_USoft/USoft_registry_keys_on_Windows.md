@@ -16,7 +16,7 @@ where *version* is normally the USoft major release version without dot notation
 USoft91
 ```
 
-While it is customary and recommended to have only a single USoft installation on a server at any one time, it is possible to have several [different versions](/docs/USoft_for_administrators/Understanding_USoft/Versioning_of_USoft_Developer.md) concurrently. In this case you must ensure you are looking at the correct set of registry keys.
+While it is customary and recommended to have only a single USoft installation on a server at any one time, it is possible to have several [different versions](/USoft_for_administrators/Understanding_USoft/Versioning_of_USoft_Developer.md) concurrently. In this case you must ensure you are looking at the correct set of registry keys.
 
 For each major release version, USoft Setup stores registry information for the most recently (or the only) installed patch under the name of the major version. Here is an example of registry keys for USoft 10.0.BETA:
 

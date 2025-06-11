@@ -16,7 +16,7 @@ More specific tips are in the sections below.
 
 ## Human tasks can be delegated to software
 
-USoft Studio is based on concepts from [Enterprise Ontology](/docs/Business_rules/Positioning_business_rules/Enterprise_Ontology.md) and [SBVR](/docs/Business_rules/Positioning_business_rules/Semantics_of_Business_Vocabulary_and_Rules_SBVR.md). This is not a world where software behaviour takes centre stage, as it would in certain forms of Requirement Analysis. Instead, software is only considered a tool, a means to get things done. Rules answer the principal question of *what people must do* and who is responsible for doing what. The question of whether they use software, and to what extent, is considered only secondary. Tasks may be fully delegated to software, partly delegated to software, or not delegated to software at all. You can implement a business rule like:
+USoft Studio is based on concepts from [Enterprise Ontology](/Business_rules/Positioning_business_rules/Enterprise_Ontology.md) and [SBVR](/Business_rules/Positioning_business_rules/Semantics_of_Business_Vocabulary_and_Rules_SBVR.md). This is not a world where software behaviour takes centre stage, as it would in certain forms of Requirement Analysis. Instead, software is only considered a tool, a means to get things done. Rules answer the principal question of *what people must do* and who is responsible for doing what. The question of whether they use software, and to what extent, is considered only secondary. Tasks may be fully delegated to software, partly delegated to software, or not delegated to software at all. You can implement a business rule like:
 
 ![](./assets/55747b6e-0eaa-4d02-b335-75833baf4c37.png)
 

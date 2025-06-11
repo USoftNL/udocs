@@ -37,7 +37,7 @@ Here are the 9 template domains of USoft 11:
 
 :::tip
 
-You can also have **superdomain** settings and have these inherited by subdomains at lower levels. This is a different mechanism explained [here](/docs/Modeller_and_Rules_Engine/Domains/Superdomains_Inheritance_of_domain_properties.md). This mechanism only extends to selected domain attributes.
+You can also have **superdomain** settings and have these inherited by subdomains at lower levels. This is a different mechanism explained [here](/Modeller_and_Rules_Engine/Domains/Superdomains_Inheritance_of_domain_properties.md). This mechanism only extends to selected domain attributes.
 
 :::
 

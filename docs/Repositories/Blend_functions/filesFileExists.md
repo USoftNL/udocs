@@ -9,7 +9,7 @@ id: filesFileExists
 
 :::note
 
-This article is about the **files:FileExists**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **files:FileExists**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

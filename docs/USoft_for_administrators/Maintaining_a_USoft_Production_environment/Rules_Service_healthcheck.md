@@ -21,7 +21,7 @@ where *port* is the Windows Service port number of the Rules Service you want to
 
 :::note
 
-You can also run a [health check on a USoft Service Framework server](/docs/USoft_for_administrators/Maintaining_a_USoft_Production_environment/Service_Framework_server_healthcheck.md).
+You can also run a [health check on a USoft Service Framework server](/USoft_for_administrators/Maintaining_a_USoft_Production_environment/Service_Framework_server_healthcheck.md).
 
 :::
 

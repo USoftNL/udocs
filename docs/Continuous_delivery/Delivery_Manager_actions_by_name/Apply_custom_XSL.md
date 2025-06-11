@@ -9,7 +9,7 @@ id: Apply_custom_XSL
 
 :::note
 
-This article is about the **Apply custom XSL**[Delivery Manager action](/docs/Continuous_delivery/Delivery_Manager_actions_by_name).
+This article is about the **Apply custom XSL**[Delivery Manager action](/Continuous_delivery/Delivery_Manager_actions_by_name).
 
 :::
 

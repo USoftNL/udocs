@@ -18,7 +18,7 @@ The **$.udb.hostvars** object is for holding temporary host variables (ie., var
 
 :::note
 
-You can also set host variables on the [beforeexecutequery](/docs/Web_and_app_UIs/UDB_Events/beforeexecutequery.md) event of data sources.
+You can also set host variables on the [beforeexecutequery](/Web_and_app_UIs/UDB_Events/beforeexecutequery.md) event of data sources.
 
 :::
 

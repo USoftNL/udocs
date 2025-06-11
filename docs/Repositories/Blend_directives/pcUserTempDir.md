@@ -9,7 +9,7 @@ id: pcUserTempDir
 
 :::note
 
-This article is about the **pc:UserTempDir**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:UserTempDir**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
@@ -38,7 +38,7 @@ USoft writes to the "user temp dir" for technical purposes with a user-specific 
 
 :::warning
 
-Do not confuse with the "[USoft temp dir](/docs/Repositories/Blend_directives/pcUSoftTempDir.md)".
+Do not confuse with the "[USoft temp dir](/Repositories/Blend_directives/pcUSoftTempDir.md)".
 
 :::
 

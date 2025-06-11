@@ -22,7 +22,7 @@ Why would you wrap XSL transformations in your own components when you can also 
 - Constraints and other SQL contexts that need to apply the transformations become more compact. This is especially true if you apply a sequence of *multiple* transformations, because this would otherwise require multiple embedded calls to USXSL.
 - The transformations automatically participate in tool features that all RDMI components participate in: SQL Objects cross-referencing, Find In Repository, and Object Shopping.
 
-You can also use an XSL Stylesheets component as a [PDF or HTML report writer](/docs/Extensions/DotNet_components/XSL_Stylesheet_component_example_Creating_a_PDF_report.md).
+You can also use an XSL Stylesheets component as a [PDF or HTML report writer](/Extensions/DotNet_components/XSL_Stylesheet_component_example_Creating_a_PDF_report.md).
 
 ## Defining a component for applying a single XSLT transformation
 
@@ -54,7 +54,7 @@ To define a component for applying a single XSLT transformation:
 
 ![](./assets/979d8aa8-2f7c-49b5-9a21-08107c2c1de6.png)
 
-**TIP 2:** The built-in [USCSXSL](/docs/Extensions/USCSXSL_internal_component) component underlies this API:
+**TIP 2:** The built-in [USCSXSL](/Extensions/USCSXSL_internal_component) component underlies this API:
 
 ```sql
 SELECT   uscsxsl.apply( input-xml, xsl-stylesheet )

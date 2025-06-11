@@ -318,7 +318,7 @@ If you have difficulty upgrading existing code to promises, there are 3 things y
 
 From USoft 10.0.1I, instead of returning the standard Javascript Promise object, we return a USoft-specific object called **udbPromise.** This is just a thin wrapper around Promise that allows USoft to add some extra functionality to Promise. What it adds is that the *context* of execution of the asynchronous function is passed automatically to the **.then()**, **.catch()** and **.finally()** clauses.
 
-This is convenient when calls to functions such as $.udb(*ds*).rowCreate() or $.udb.checkData() must be followed by further calls that must execute in the same context. Prior to udbPromise, context was not automatically preserved, so that a USoft developer had to preserve it by calling [$.udb.executeInContext()](/docs/Web_and_app_UIs/UDB_udb/udbexecuteInContext.md).
+This is convenient when calls to functions such as $.udb(*ds*).rowCreate() or $.udb.checkData() must be followed by further calls that must execute in the same context. Prior to udbPromise, context was not automatically preserved, so that a USoft developer had to preserve it by calling [$.udb.executeInContext()](/Web_and_app_UIs/UDB_udb/udbexecuteInContext.md).
 
 The problem that **udbPromise** solves is illustrated by the different outcomes of the following 2 snippets. In this example, the promise body contains a call to **setTimeout()**, which is an asynchronous call defined in the context of the global object (the window**object, in the case of a browser), so that it causes context to switch away from ApplicationFrame. As you can see, udbPromise solves this by passing the execution context as a separate argument.
 

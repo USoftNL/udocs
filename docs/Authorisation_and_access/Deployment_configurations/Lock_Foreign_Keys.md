@@ -6,7 +6,7 @@ id: Lock_Foreign_Keys
 
 :::note
 
-This article is about the **Lock_Foreign_Keys**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
+This article is about the **Lock_Foreign_Keys**[deployment configuration parameter](/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
 
 :::
 

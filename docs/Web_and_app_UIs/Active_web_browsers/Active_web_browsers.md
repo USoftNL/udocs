@@ -15,7 +15,7 @@ This innovation has been made possible by the recent sophistication of web clien
 
 In the processing that USoft Web Designer 10 expects clients to perform, aspects of data interaction are carefully separated from user interface (UI) aspects. The latter are responsible not for content, but only for visual aspects and surface behaviour.
 
-Data-related elements all use the same UDB library. This library, with calls starting with $.udb, is implemented in the "usoft.db.js" file. This library is documented in the UDB sections at the end of the [Web & App UIs subject](/docs/Web_and_app_UIs).
+Data-related elements all use the same UDB library. This library, with calls starting with $.udb, is implemented in the "usoft.db.js" file. This library is documented in the UDB sections at the end of the [Web & App UIs subject](/Web_and_app_UIs).
 
 UI-related elements all use the same UI library implemented in files called "usoft.ui[.*].js". This library is documented as the USoft UI library.
 

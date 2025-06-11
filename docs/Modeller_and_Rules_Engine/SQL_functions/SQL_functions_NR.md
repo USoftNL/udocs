@@ -7,11 +7,11 @@ id: SQL_functions_NR
 
 :::note
 
-[SQL functions  A - C](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
-[SQL functions  D - H](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md)
-[SQL functions  I - M](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
+[SQL functions  A - C](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_AC.md)
+[SQL functions  D - H](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_DH.md)
+[SQL functions  I - M](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_IM.md)
 SQL functions  N - R
-[SQL functions  S - Z](/docs/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md)
+[SQL functions  S - Z](/Modeller_and_Rules_Engine/SQL_functions/SQL_functions_SZ.md)
 
 :::
 
@@ -40,7 +40,7 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**NLS_INITCAP**|-       |NLS_INITCAP|-       |-       |-       |
 |**NLS_LOWER**|-       |NLS_LOWER|-       |-       |NLS_LOWER|
 |**NLS_UPPER**|-       |NLS_UPPER|-       |-       |NLS_UPPER|
-|**NOW** |[CURRENT_DATE](/docs/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md)|SYSDATE |GETDATE |NOW     |SYSDATE |
+|**NOW** |[CURRENT_DATE](/Modeller_and_Rules_Engine/SQL_functions/CURRENT_DATE.md)|SYSDATE |GETDATE |NOW     |SYSDATE |
 |**NULLVAL_CHAR**|-       |-       |-       |NULLVAL_CHAR|-       |
 |**NULLVAL_INT**|-       |-       |-       |NULLVAL_INT|-       |
 |**NUMBERTOCHAR**|NUMBERTOCHAR|TO_CHAR(*number*)|CONVERT(*number*)|NUMBERTOCHAR|NUMBERTOCHAR|
@@ -53,7 +53,7 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |--------|--------|--------|--------|--------|--------|
 |**OBJECT_ID**|-       |-       |OBJECT_ID|-       |-       |
 |**OBJECT_NAME**|-       |-       |OBJECT_NAME|-       |-       |
-|**OLD** |[OLD](/docs/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/docs/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/docs/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/docs/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/docs/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|
+|**OLD** |[OLD](/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|[OLD](/Modeller_and_Rules_Engine/SQL_functions/OLD.md)|
 |**PATINDEX**|-       |-       |PATINDEX|-       |-       |
 |**PI**  |-       |-       |PI      |PI      |PI      |
 |**POWER**|POWER   |POWER   |POWER   |POWER   |POWER   |
@@ -67,7 +67,7 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**Name**|**USoft**|**Oracle**|**SQLServer**|**ODBC**|**JDBCY, Derby**|
 |--------|--------|--------|--------|--------|--------|
 |**RDBMSTYPE**|RDBMSTYPE|RDBMSTYPE|RDBMSTYPE|RDBMSTYPE|RDBMSTYPE|
-|**RECORDS**|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/docs/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|
+|**RECORDS**|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|[RECORDS](/Modeller_and_Rules_Engine/SQL_functions/RECORDS.md)|
 |**REGEXP_INSTR**|-       |REGEXP_INSTR|-       |-       |REGEXP_INSTR|
 |**REGEXP_REPLACE**|-       |REGEXP_REPLACE|-       |-       |REGEXP_REPLACE|
 |**REGEXP_SUBSTR**|-       |REGEXP_SUBSTR|-       |-       |REGEXP_SUBSTR|
@@ -76,9 +76,9 @@ The table refers to TOP and RECORDS even though these are technically in-line op
 |**REPLICATE**|-       |-       |REPLICATE|-       |-       |
 |**REVERSE**|-       |-       |REVERSE |-       |-       |
 |**RIGHT**|-       |-       |RIGHT   |RIGHT   |-       |
-|**ROLE**|[ROLE](/docs/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/docs/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/docs/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/docs/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/docs/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|
+|**ROLE**|[ROLE](/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|[ROLE](/Modeller_and_Rules_Engine/SQL_functions/ROLE.md)|
 |**ROUND**|ROUND   |ROUND   |ROUND   |ROUND   |ROUND   |
-|        |[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[ROUND](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNCATE](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/docs/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|
+|        |[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[ROUND](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNCATE](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|[TRUNC](/Modeller_and_Rules_Engine/SQL_functions/TRUNC_TRUNCATE.md)|
 |**ROWIDTOCHAR**|-       |ROWIDTOCHAR|-       |-       |ROWIDTOCHAR|
 |**ROWNUM**|ROWNUM  |ROWNUM  |ROWNUM  |-       |ROWNUM  |
 |**RPAD**|-       |RPAD    |-       |-       |RPAD    |

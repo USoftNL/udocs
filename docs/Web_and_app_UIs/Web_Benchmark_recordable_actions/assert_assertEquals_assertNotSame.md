@@ -6,7 +6,7 @@ id: assert_assertEquals_assertNotSame
 
 **See also**
 
-- [Web Benchmark recordable actions](/docs/Web_and_app_UIs/Web_Benchmark_recordable_actions)
+- [Web Benchmark recordable actions](/Web_and_app_UIs/Web_Benchmark_recordable_actions)
 
 ## **Assert**
 
@@ -23,7 +23,7 @@ In the Edit test screen, assert actions with Assertion type = Equals are notated
 
 ## Properties of the **assert** recordable action
 
-The following [generic target control properties](/docs/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_test_editing_Identifying_target_controls_and_their_properties.md) are in scope: Reference name, Source frame, Context reference name, Context occurrence rank, Record row index.
+The following [generic target control properties](/Web_and_app_UIs/Testing_your_web_application_with_USoft_Web_Benchmark/Web_Benchmark_test_editing_Identifying_target_controls_and_their_properties.md) are in scope: Reference name, Source frame, Context reference name, Context occurrence rank, Record row index.
 
 In addition, the following properties specific to this action are also in scope:
 

@@ -9,7 +9,7 @@ id: CurrencyGroupSeparator
 
 :::note
 
-This article is about the **CurrencyGroupSeparator**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **CurrencyGroupSeparator**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
@@ -17,7 +17,7 @@ This article is about the **CurrencyGroupSeparator**[Rules Engine property](/doc
 
 The **CurrencyGroupSeparator** Rules Engine property determines how decimal separators in money values are displayed.
 
-By default, this setting is taken from the setting as specified for the current language, but it is possible to overrule this temporarily by calling [RulesEngine.SetProperty()](/docs/Extensions/RulesEngine_internal_component/RulesEngineSetProperty.md) and specifying the requested separator.
+By default, this setting is taken from the setting as specified for the current language, but it is possible to overrule this temporarily by calling [RulesEngine.SetProperty()](/Extensions/RulesEngine_internal_component/RulesEngineSetProperty.md) and specifying the requested separator.
 
 The setting will stay active for the remainder of the session or until another call to RulesEngine.SetProperty(). A setting can be reset to the default value as specified with the current language by setting it to NULL.
 

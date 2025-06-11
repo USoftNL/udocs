@@ -158,4 +158,4 @@ This feature could be helpful when a component needs to be checked in a Windows 
 
 ### Having referenced nuget packages installed automatically
 
-You can [have referenced nuget packages installed automatically](/docs/Extensions/DotNet_components/Nugets.md).
+You can [have referenced nuget packages installed automatically](/Extensions/DotNet_components/Nugets.md).

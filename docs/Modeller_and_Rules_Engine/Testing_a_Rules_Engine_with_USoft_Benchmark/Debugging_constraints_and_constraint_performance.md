@@ -10,7 +10,7 @@ Profiler collects and stores diagnostic information in the background while you 
 
 Profiler begins to collect this information when you **start** it, and stops collecting when you **stop** it.
 
-This article tells you how to **start** and **stop** Profiler, and how to **view** the information it has collected. For more details on how to *interpret* the collected information, go to "[Interpreting Profiler information](/docs/Modeller_and_Rules_Engine/Testing_a_Rules_Engine_with_USoft_Benchmark/Interpreting_Profiler_information.md)”.
+This article tells you how to **start** and **stop** Profiler, and how to **view** the information it has collected. For more details on how to *interpret* the collected information, go to "[Interpreting Profiler information](/Modeller_and_Rules_Engine/Testing_a_Rules_Engine_with_USoft_Benchmark/Interpreting_Profiler_information.md)”.
 
 You can start and stop Profiler:
 

@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **dialog()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **dialog()** function of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -41,8 +41,8 @@ Returns a Promise object if *promise* is true (the default). Otherwise, returns 
 
 :::tip
 
-$.udb.dialog() is similar to [$.udb.input()](/docs/Web_and_app_UIs/UDB_udb/udbinput.md) but simpler:
-For more styling and control of dialog content, especially if using previously defined HTML code, prefer [.usdialog()](/docs/Web_and_app_UIs/UI_Library/usdialog.md).
+$.udb.dialog() is similar to [$.udb.input()](/Web_and_app_UIs/UDB_udb/udbinput.md) but simpler:
+For more styling and control of dialog content, especially if using previously defined HTML code, prefer [.usdialog()](/Web_and_app_UIs/UI_Library/usdialog.md).
 
 :::
 
@@ -95,7 +95,7 @@ This function is **deprecated.** Instead, set promise**= true and use the .then(
 
 :::
 
-If you call $.udb.dialog() with a 'fields' fields-array, this will result in the call being transferred to [$.udb.input() ](/docs/Web_and_app_UIs/UDB_udb/udbinput.md)instead, so that the input fields can be properly displayed.
+If you call $.udb.dialog() with a 'fields' fields-array, this will result in the call being transferred to [$.udb.input() ](/Web_and_app_UIs/UDB_udb/udbinput.md)instead, so that the input fields can be properly displayed.
 
 *Dialog-icon-cls* is a string which designates a CSS icon class used in the dialog. It specifies what kind of dialog is to be displayed. This option is only supported if the JQuery-UI framework is specified (by the Framework publication property). The default is ‘ui-icon-alert’.
 

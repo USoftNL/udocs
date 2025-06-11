@@ -9,7 +9,7 @@ id: pcassignbooleandefault
 
 :::note
 
-This article is about the **pc:assign-boolean-default**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:assign-boolean-default**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

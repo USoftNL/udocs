@@ -15,7 +15,7 @@ tags: [USoft11, USoft10]
 
 This article describes the USoft 10 product only.
 In USoft 11, the web UI API was revised and improved. For full details, go to:
-[Revised web UI API in USoft 11](/docs/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
+[Revised web UI API in USoft 11](/Web_and_app_UIs/UDB_udb/Revised_web_UI_API_in_USoft_11.md)
 
 :::
 
@@ -26,7 +26,7 @@ In USoft 11, the web UI API was revised and improved. For full details, go to:
 
 :::note
 
-This article is about the **executeInContext()** function of the [udb object](/docs/Web_and_app_UIs/UDB_udb).
+This article is about the **executeInContext()** function of the [udb object](/Web_and_app_UIs/UDB_udb).
 
 :::
 
@@ -34,7 +34,7 @@ This article is about the **executeInContext()** function of the [udb object](/d
 
 Switches the default context of a function call. Use this function if there is a need to cross the boundaries of context, so that you need to explicitly identify the target context. This occurs, for example, when a VariableSet data source on a page in one frame must be accessed by controls on a page in a different frame.
 
-Returns the result of executing the *func* function. This could be a result value, or a Promise object that yields a result value. From USoft 10.0.1I, instead of a Promise object, a [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) object is returned.
+Returns the result of executing the *func* function. This could be a result value, or a Promise object that yields a result value. From USoft 10.0.1I, instead of a Promise object, a [udbPromise](/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md) object is returned.
 
 *Syntax*
 
@@ -68,7 +68,7 @@ $.udb('TOUR').executeQuery().then(function(dsc){
 });
 ```
 
-From USoft 10.0.1I, with the advent of [udbPromise](/docs/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md), this is no longer necessary:
+From USoft 10.0.1I, with the advent of [udbPromise](/Web_and_app_UIs/JavaScript/Promises_for_asynchronous_Javascript.md), this is no longer necessary:
 
 ```js
 $.udb('TOUR').executeQuery().then(function(dsc){

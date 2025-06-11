@@ -9,13 +9,13 @@ id: ShowRdbmsErrors
 
 :::note
 
-This article is about the **ShowRdbmsErrors**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **ShowRdbmsErrors**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **ShowRdbmsErrors**
 
-The **ShowRdbmsErrors** Rules Engine property can be used to override the [Show_Rdbms_Errors](/docs/Authorisation_and_access/Deployment_configurations/Show_Rdbms_Errors.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
+The **ShowRdbmsErrors** Rules Engine property can be used to override the [Show_Rdbms_Errors](/Authorisation_and_access/Deployment_configurations/Show_Rdbms_Errors.md) deployment configuration parameter setting for the current deployment context and for the duration of the current session.
 
 
 :::tip

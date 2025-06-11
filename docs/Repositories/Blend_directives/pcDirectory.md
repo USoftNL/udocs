@@ -9,7 +9,7 @@ id: pcDirectory
 
 :::note
 
-This article is about the **pc:Directory**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:Directory**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 

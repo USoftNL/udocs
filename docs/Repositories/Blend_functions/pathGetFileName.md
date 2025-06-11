@@ -9,7 +9,7 @@ id: pathGetFileName
 
 :::note
 
-This article is about the **path:GetFileName**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **path:GetFileName**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

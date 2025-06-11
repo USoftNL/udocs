@@ -9,7 +9,7 @@ id: USFileReadLine
 
 :::note
 
-This article is about the **ReadLine** method of the [USFile internal component](/docs/Extensions/USFile_internal_component).
+This article is about the **ReadLine** method of the [USFile internal component](/Extensions/USFile_internal_component).
 
 :::
 

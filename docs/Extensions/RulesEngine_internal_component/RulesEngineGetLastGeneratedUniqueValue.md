@@ -9,7 +9,7 @@ id: RulesEngineGetLastGeneratedUniqueValue
 
 :::note
 
-This article is about the **GetLastGeneratedUniqueValue** method of the [RulesEngine internal component](/docs/Extensions/RulesEngine_internal_component).
+This article is about the **GetLastGeneratedUniqueValue** method of the [RulesEngine internal component](/Extensions/RulesEngine_internal_component).
 
 :::
 
@@ -33,4 +33,4 @@ If you are in client/server mode, you can see this new value directly after INSE
 
 But if you are using the Remote Rules Service API or the Rules Service, the underlying protocol (ODBC or JDBC) which allows you to communicate with the Rules Engine does not provide an "update-notify" mechanism, so that you cannot see the newly generated key value. This makes it difficult to retrieve the row that you have just inserted. The RulesEngine.GetLastGeneratedUniqueValue() method provides the solution for this problem.
 
-Only the session's MOST RECENTLY GENERATED value is available. For each table that has generated unique values, you can get the **next** generated value by calling [.GetNextGeneratedUniqueValue()](/docs/Extensions/Domain_and_table_internal_components/tableGetNextGeneratedUniqueValue.md).
+Only the session's MOST RECENTLY GENERATED value is available. For each table that has generated unique values, you can get the **next** generated value by calling [.GetNextGeneratedUniqueValue()](/Extensions/Domain_and_table_internal_components/tableGetNextGeneratedUniqueValue.md).

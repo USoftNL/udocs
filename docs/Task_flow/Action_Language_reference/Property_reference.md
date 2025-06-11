@@ -9,7 +9,7 @@ id: Property_reference
 
 :::note
 
-This article contains **Property Reference** information for making [property calls](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md) in the [USoft Action Language](/docs/Task_flow/Action_Language_reference/USoft_Action_Language.md).
+This article contains **Property Reference** information for making [property calls](/Task_flow/Action_Language_reference/USoft_Action_Language.md) in the [USoft Action Language](/Task_flow/Action_Language_reference/USoft_Action_Language.md).
 
 :::
 

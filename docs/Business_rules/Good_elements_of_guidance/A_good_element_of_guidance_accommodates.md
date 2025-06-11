@@ -8,7 +8,7 @@ id: A_good_element_of_guidance_accommodates
 :::note
 
 **Summary:** A rule or advice must accommodate other rules so that the entire body of rules is consistent.
-[More SBVR principles for good elements of guidance](/docs/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
+[More SBVR principles for good elements of guidance](/Business_rules/Good_elements_of_guidance/Good_elements_of_guidance.md)
 
 :::
 

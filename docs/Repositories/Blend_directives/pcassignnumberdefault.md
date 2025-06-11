@@ -9,13 +9,13 @@ id: pcassignnumberdefault
 
 :::note
 
-This article is about the **pc:assign-number-default**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:assign-number-default**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
 ## **pc:assign-number-default**
 
-This directive is the same as [pc:assign-number](/docs/Repositories/Blend_directives/pcassignnumber.md) for those variables that have not already been instantiated. For variables that have already been instantiated, their existing variable value is NOT overwritten, but it is still converted to a number.
+This directive is the same as [pc:assign-number](/Repositories/Blend_directives/pcassignnumber.md) for those variables that have not already been instantiated. For variables that have already been instantiated, their existing variable value is NOT overwritten, but it is still converted to a number.
 
 *Syntax*
 

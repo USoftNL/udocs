@@ -9,13 +9,13 @@ id: pcassignstringdefault
 
 :::note
 
-This article is about the **pc:assign-string-default**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:assign-string-default**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
 ## **pc:assign-string-default**
 
-This directive is the same as [pc:assign-string](/docs/Repositories/Blend_directives/pcassignstring.md) for those variables that have not already been instantiated. For variables that have already been instantiated, their existing variable value is NOT overwritten, but it is still converted to a string.
+This directive is the same as [pc:assign-string](/Repositories/Blend_directives/pcassignstring.md) for those variables that have not already been instantiated. For variables that have already been instantiated, their existing variable value is NOT overwritten, but it is still converted to a string.
 
 *Syntax*
 

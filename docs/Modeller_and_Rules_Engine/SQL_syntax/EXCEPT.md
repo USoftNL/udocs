@@ -9,7 +9,7 @@ id: EXCEPT
 
 :::note
 
-This article is about the EXCEPT set operator as part of the [SQL syntax](/docs/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
+This article is about the EXCEPT set operator as part of the [SQL syntax](/Modeller_and_Rules_Engine/SQL_syntax) that USoft supports.
 
 :::
 
@@ -22,7 +22,7 @@ With EXCEPT, the result is **different** depending on whether the first or the s
 
 :::tip
 
-In USoft SQL syntax, EXCEPT is a synonym of [MINUS](/docs/Modeller_and_Rules_Engine/SQL_syntax/MINUS.md).
+In USoft SQL syntax, EXCEPT is a synonym of [MINUS](/Modeller_and_Rules_Engine/SQL_syntax/MINUS.md).
 
 :::
 

@@ -8,10 +8,10 @@ tags: [USoft11]
 :::note
 
 **See also**
-[Version-controlled repositories](/docs/Repositories/Version_control/Versioncontrolled_repositories.md)
-[Version-controlled local branches](/docs/Repositories/Version_control/Versioncontrolled_local_branches.md)
-[Version control: Connect](/docs/Repositories/Version_control/Version_control_Connect.md)
-[Version control: Synchronise, Temporarily Disable, Disconnect](/docs/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
+[Version-controlled repositories](/Repositories/Version_control/Versioncontrolled_repositories.md)
+[Version-controlled local branches](/Repositories/Version_control/Versioncontrolled_local_branches.md)
+[Version control: Connect](/Repositories/Version_control/Version_control_Connect.md)
+[Version control: Synchronise, Temporarily Disable, Disconnect](/Repositories/Version_control/Version_control_Synchronize_Temporarily_Disable_Disconnect.md)
 
 :::
 
@@ -38,4 +38,4 @@ To create version control for a USoft application in Development:
 6. Instruct each team member to set up the local RDBMS and to set up the connection to the remote Git (or other) repository. These two steps are not specific to USoft.
 7. Point out to team members the location of the ".usv” file. They need this information when they Connect.
 
-Now, each team member needs to perform the [Connect](/docs/Repositories/Version_control/Version_control_Connect.md) operation initially as a one-time action. From that time onwards, your team is all set to develop against a version-controlled USoft repository, and version control is largely automatic. Team members pull files that contain changes made by others. USoft automatically notifies them that they need to synchronise their local working copy of the USoft repository (the RDBMS tables) if there are any changes that they have not synced yet. When a team member has finished work on a fix or request, this team member pushes this work to the remote tree so that it becomes available to the others.
+Now, each team member needs to perform the [Connect](/Repositories/Version_control/Version_control_Connect.md) operation initially as a one-time action. From that time onwards, your team is all set to develop against a version-controlled USoft repository, and version control is largely automatic. Team members pull files that contain changes made by others. USoft automatically notifies them that they need to synchronise their local working copy of the USoft repository (the RDBMS tables) if there are any changes that they have not synced yet. When a team member has finished work on a fix or request, this team member pushes this work to the remote tree so that it becomes available to the others.

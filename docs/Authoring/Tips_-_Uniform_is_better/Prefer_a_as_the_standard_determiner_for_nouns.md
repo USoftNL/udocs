@@ -4,7 +4,7 @@ id: Prefer_a_as_the_standard_determiner_for_nouns
 
 # Prefer -a- as the standard determiner for nouns
 
-In English (and this entire discussion applies pretty much to Dutch as well), there are many alternatives for expressing that a rule applies to all cases. Among these alternatives, it is convenient to choose a simple indefinite article (**a** or **an** - click [Good grammar and style](/docs/Authoring/Tips_-_Good_grammar_and_style_pay_off/A_or_An.md) for the difference).
+In English (and this entire discussion applies pretty much to Dutch as well), there are many alternatives for expressing that a rule applies to all cases. Among these alternatives, it is convenient to choose a simple indefinite article (**a** or **an** - click [Good grammar and style](/Authoring/Tips_-_Good_grammar_and_style_pay_off/A_or_An.md) for the difference).
 
 “A client ...” means: “Each time a client comes along who spends …”:
 

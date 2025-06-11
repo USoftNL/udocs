@@ -9,13 +9,13 @@ id: DeferRestrictiveRelationalChecks
 
 :::note
 
-This article is about the **DeferRestrictiveRelationalChecks**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **DeferRestrictiveRelationalChecks**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **DeferRestrictiveRelationalChecks**
 
-The **DeferRestrictiveRelationalChecks** Rules Engine property can be used to override the [DEFER_RESTR_REL_CHECKS](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter setting for the current deployment context and for the duration of the current session.
+The **DeferRestrictiveRelationalChecks** Rules Engine property can be used to override the [DEFER_RESTR_REL_CHECKS](/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter setting for the current deployment context and for the duration of the current session.
 
 This setting determines whether or not restrictive relational checks are deferred until commit time.
 

@@ -9,7 +9,7 @@ id: USXSLApply2File
 
 :::note
 
-This article is about the **Apply2File** method of the [USXSL internal component](/docs/Extensions/USXSL_internal_component).
+This article is about the **Apply2File** method of the [USXSL internal component](/Extensions/USXSL_internal_component).
 <!-- TODO: Where is this? -->
 <!-- See also the [Data transformation with XSLT]() section. -->
 
@@ -34,4 +34,4 @@ SELECT USXSL.Apply2File(
 
 where *xml-document*, *xsl-transformation*, and *output-file-name* are required.
 
-This syntax is identical to that of [USXSL.Apply](/docs/Extensions/USXSL_internal_component/USXSLApply.md), except for the added *output-file-name*, which indicates the name and (if a folderpath is used) the location of the output file.
+This syntax is identical to that of [USXSL.Apply](/Extensions/USXSL_internal_component/USXSLApply.md), except for the added *output-file-name*, which indicates the name and (if a folderpath is used) the location of the output file.

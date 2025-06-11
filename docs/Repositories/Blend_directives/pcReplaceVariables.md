@@ -9,7 +9,7 @@ id: pcReplaceVariables
 
 :::note
 
-This article is about the **pc:ReplaceVariables**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:ReplaceVariables**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
@@ -22,7 +22,7 @@ Returns the text after the replacements have been made. USoft Delivery Manager u
 
 :::tip
 
-If you simply want to replace a substring by another string, prefer [strings:Replace()](/docs/Repositories/Blend_functions/stringsReplace.md).
+If you simply want to replace a substring by another string, prefer [strings:Replace()](/Repositories/Blend_functions/stringsReplace.md).
 
 :::
 

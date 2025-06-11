@@ -9,13 +9,13 @@ id: pcGenerateKeySchema
 
 :::note
 
-This article is about the **pc:GenerateKeySchema**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:GenerateKeySchema**[ Blend directive](/Repositories/Blend_directives).
 
 :::
 
 ## **pc:GenerateKeySchema**
 
-Makes explicit the [key schema XML](/docs/Repositories/Blend_directives/pcCompare.md) that is used in a comparison.
+Makes explicit the [key schema XML](/Repositories/Blend_directives/pcCompare.md) that is used in a comparison.
 
 This XML is either returned as the return value or written to file.
 

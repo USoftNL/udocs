@@ -9,7 +9,7 @@ id: USoftTempDir
 
 :::note
 
-This article is about the **USoftTempDir**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **USoftTempDir**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 

@@ -9,7 +9,7 @@ id: USPowerShellExecuteScript
 
 :::note
 
-This article is about the **ExecuteScript** method of the [USPowerShell internal component](/docs/Extensions/USPowerShell_internal_component).
+This article is about the **ExecuteScript** method of the [USPowerShell internal component](/Extensions/USPowerShell_internal_component).
 
 :::
 

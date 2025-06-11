@@ -50,7 +50,7 @@ A successful import can still be rolled back. To consolidate, you need to commit
 
 ## Example: JSON import with JSON meta-instruction properties
 
-Here is an example of a JSON import instruction with [JSON meta-instruction properties](/docs/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md).
+Here is an example of a JSON import instruction with [JSON meta-instruction properties](/Repositories/USoft_JSON_format/Metainstruction_properties_in_JSON.md).
 
 If the import is successful, the FIRST_NAME value of one person is changed, and another person is DELETEd.
 

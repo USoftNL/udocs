@@ -9,13 +9,13 @@ id: UniqueKeyCheck
 
 :::note
 
-This article is about the **UniqueKeyCheck**[Rules Engine property](/docs/Modeller_and_Rules_Engine/Rules_Engine_properties).
+This article is about the **UniqueKeyCheck**[Rules Engine property](/Modeller_and_Rules_Engine/Rules_Engine_properties).
 
 :::
 
 ## **UniqueKeyCheck**
 
-The **UniqueKeyCheck** Rules Engine property can be used to override the [UNIQUE_KEY_CHECK](/docs/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter setting for the current deployment context and for the duration of the current session.
+The **UniqueKeyCheck** Rules Engine property can be used to override the [UNIQUE_KEY_CHECK](/Modeller_and_Rules_Engine/Introducing_USoft_Modeller_and_Rules_Engine/Rules_Engine_parameters.md) Rules Engine parameter setting for the current deployment context and for the duration of the current session.
 This setting determines whether or not the Rules Engine must perform unique key check in the case of non-manual data entry, for example, when a call to the SqlScript() action is executed.
 
 ## Setting this property

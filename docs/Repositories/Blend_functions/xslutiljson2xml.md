@@ -9,7 +9,7 @@ id: xslutiljson2xml
 
 :::note
 
-This article is about the **xslutil:json2xml**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **xslutil:json2xml**[ Blend function](/Repositories/Blend_functions).
 
 :::
 
@@ -43,7 +43,7 @@ Pass the required *json* input code:
 
 :::tip
 
-To convert JSON to XML, prefer the [pc:assign-nodeset-from-json](/docs/Repositories/Blend_directives/pcassignnodesetfromjson.md) directive, which stores the XML result in a nodeset variable for further processing.
+To convert JSON to XML, prefer the [pc:assign-nodeset-from-json](/Repositories/Blend_directives/pcassignnodesetfromjson.md) directive, which stores the XML result in a nodeset variable for further processing.
 
 :::
 

@@ -33,7 +33,7 @@ USoft recommends using **auto** (the default):
 
 |**Framework**|**Meaning**|
 |--------|--------|
-|auto    |<p>USoft selects the most suitable framework. This is a recent framework that USoft includes. For USoft 10.0 new installations, this is likely Bootstrap 5. You can optionally add resources of your own. Supply and reference these via the [Alternative Template Folder](/docs/Web_and_app_UIs/Publication_configurations/The_Alternative_Template_Folder.md).</p>|
+|auto    |<p>USoft selects the most suitable framework. This is a recent framework that USoft includes. For USoft 10.0 new installations, this is likely Bootstrap 5. You can optionally add resources of your own. Supply and reference these via the [Alternative Template Folder](/Web_and_app_UIs/Publication_configurations/The_Alternative_Template_Folder.md).</p>|
 |bootstrap|The Bootstrap framework is applied if available.|
 |bootstrap5|The Bootstrap 5 framework is applied if available.|
 |bootstrap4|The Bootstrap 4 framework is applied if available.|

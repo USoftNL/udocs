@@ -130,6 +130,6 @@ You can reset separator settings dynamically by calling the RDMI internal compon
 
 ## Next steps
 
-[Translating system messages and application strings](/docs/Modeller_and_Rules_Engine/Localising_your_application/Translating_system_messages_and_application_strings.md)
+[Translating system messages and application strings](/Modeller_and_Rules_Engine/Localising_your_application/Translating_system_messages_and_application_strings.md)
 
-[Providing localisation to end users](/docs/Modeller_and_Rules_Engine/Localising_your_application/Providing_localisation_to_end_users.md)
+[Providing localisation to end users](/Modeller_and_Rules_Engine/Localising_your_application/Providing_localisation_to_end_users.md)

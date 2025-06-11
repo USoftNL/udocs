@@ -9,7 +9,7 @@ id: rulesserviceReadConfig
 
 :::note
 
-This article is about the **rulesservice:ReadConfig**[ Blend function](/docs/Repositories/Blend_functions).
+This article is about the **rulesservice:ReadConfig**[ Blend function](/Repositories/Blend_functions).
 
 :::
 

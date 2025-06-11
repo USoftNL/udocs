@@ -9,7 +9,7 @@ id: USMetaDecisions
 
 :::note
 
-This article is about the **Decisions** method of the [USMeta internal component](/docs/Extensions/USMeta_internal_component).
+This article is about the **Decisions** method of the [USMeta internal component](/Extensions/USMeta_internal_component).
 
 :::
 
