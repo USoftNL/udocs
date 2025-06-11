@@ -16,9 +16,9 @@ Follow these steps to prepare stashing and reclaiming data on target machines du
 
 1. In the Computers window (choose Define, Computers from the menu), specify what is the stash location on each computer of interest.
 
-2. In a **Pre-upgrade** script, using a **${stash}** target variable to identify the stash location, include an XML.EXPORT statement that writes the data that you want to preserve to a stash file. The SQL will typically look like this:
+2. In a **Pre-upgrade** script, using a `${stash}` target variable to identify the stash location, include an XML.EXPORT statement that writes the data that you want to preserve to a stash file. The SQL will typically look like this:
 
-```
+```sql
 INVOKE XML.EXPORT WITH 
 SELECT     '${stash}\mystasheddata.xml' WriteOutputTo
 ,          query
@@ -27,7 +27,7 @@ SELECT     '${stash}\mystasheddata.xml' WriteOutputTo
 
 For example, to preserve the entire contents of a table called MYPARAMETERS, the SQL will look like this:
 
-```
+```sql
 INVOKE XML.EXPORT WITH 
 SELECT   '${stash}\Parameters.xml' WriteOutputTo
 ,        *
@@ -38,11 +38,11 @@ FROM MYPARAMETERS
 3. Implement the transformation:
 
 - Either by adding XSL to the XML.EXPORT statement, or
-- By inserting an explicit INVOKE USXSL.APPLY2FILE statement in your Pre-upgrade or Post-upgrade script, in which case you can use the **${stash}** source variable in some or all of the (3) arguments.
+- By inserting an explicit INVOKE USXSL.APPLY2FILE statement in your Pre-upgrade or Post-upgrade script, in which case you can use the `${stash}` source variable in some or all of the (3) arguments.
 
 4. In a **Post-upgrade** script, include an XML.IMPORT statement that picks up the transformed data after upgrade. The SQL will typically look like this:
 
-```
+```sql
 INVOKE XML.IMPPORT WITH
 SELECT     '${stash}\mytransformeddata.xml' 
 
@@ -50,7 +50,7 @@ SELECT     '${stash}\mytransformeddata.xml'
 
 For example, to pick up new Parameters, write:
 
-```
+```sql
 INVOKE XML.EXPORT WITH 
 SELECT   '${stash}\NewParameters.xml'
 

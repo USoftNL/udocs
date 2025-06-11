@@ -73,7 +73,7 @@ Follow these steps to do this:
 
 4. Add the following code as a second **\<xsl:template>** section to the "remove_timestamps" stylesheet:
 
-```
+```xsl
 <xsl:template match="@CREATED_ON" />
 <xsl:template match="@CREATED_BY" />
 <xsl:template match="@CHANGED_ON" />
@@ -107,15 +107,15 @@ To replace the super-user name 'ADMIN_DEV' in data coming from the T_AUTH_USER_U
 
 |**Sample prompt**|**Value**|
 |--------|--------|
-|MyElement|T_AUTH_USER_USERGROUP|
-|MyAttribute|USERNAME|
-|MyDestValue|${SUPER_USER}|
-|MyKeyName|USERNAME|
-|MyKeyValue|ADMIN_DEV|
+|MyElement|`T_AUTH_USER_USERGROU`P|
+|MyAttribute|`USERNAME`|
+|MyDestValue|`${SUPER_USER}`|
+|MyKeyName|`USERNAME`|
+|MyKeyValue|`ADMIN_DEV`|
 
 
 
-5. Add a template that suppresses T_AUTH_USER_USERGROUP records for development users other than ADMIN_DEV.
+5. Add a template that suppresses `T_AUTH_USER_USERGROUP` records for development users other than `ADMIN_DEV`.
 
 After stripping irrelevant code, your XSL could end up looking like this:
 

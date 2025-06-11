@@ -10,7 +10,7 @@ In USoft Binder property values, you can use predefined and user-defined variabl
 User Application {user}
 ```
 
-where '{user}' is the predefined 'user' variable that has the database user (specified on the Database tab of the Project Properties sheet) as its value. If the current database user is SALES_DEV, the item name will be displayed as
+where `{user}` is the predefined 'user' variable that has the database user (specified on the Database tab of the Project Properties sheet) as its value. If the current database user is SALES_DEV, the item name will be displayed as
 
 ```
 User Application SALES_DEV
@@ -18,7 +18,7 @@ User Application SALES_DEV
 
 in the USoft Binder main window and also as a title bar across the top of the User Application window.
 
-This makes the {user} variable very useful:
+This makes the `{user}` variable very useful:
 
 - Whenever a user opens an item, it remains visible at all times which database or database account is being accessed.
 - You can easily duplicate a USoft Binder file for use with a different database user: the only place where you need to adapt the username is in the Database tab of the Project Properties sheet (File, Project Properties from the menu).
@@ -28,7 +28,6 @@ Variables are also useful in the Startup Options property of Free Objects.
 You can also use variables in the Database property on the Database Tab of the Project Properties sheet.
 
 ### Referring to USoft Binder variables
-
 To refer to a USoft Binder variable, surround the variable name by curly brackets {} as in the example. Type the variable name using either the exact case spelling, or all-uppercase spelling. Any whitespace around the brackets will be ignored. The variable name must be either a predefined variable or a user-defined variable.
 
 ### Predefined USoft Binder variables
@@ -44,7 +43,6 @@ The following predefined variables can be referred to in all cases. Each corresp
 |bindir  |(none; the value is the USoft bin directory)|
 
 
-
 In addition, there are predefined variables for database properties. They depend on whether or not you have set up a separate user environment.
 
 ### Common Properties for Repository and Application
@@ -58,10 +56,6 @@ If you have selected "Common Properties for Repository and Application", then yo
 |rdbms   |RDBMS   |
 |db      |Database|
 |owner   |Owner   |
-
-
-
-###  
 
 ### Separate Properties for Repository and Application
 
@@ -82,10 +76,6 @@ Application property
 |reprdbms|RDBMS   |rdbms   |RDBMS   |
 |repdb   |Database|db      |Database|
 |repowner|Owner   |owner   |Owner   |
-
-
-
-###  
 
 ### User-defined USoft Binder variables
 

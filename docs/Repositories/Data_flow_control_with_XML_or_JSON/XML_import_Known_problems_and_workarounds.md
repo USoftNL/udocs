@@ -46,17 +46,17 @@ To suppress supertype records for instances that are also a subtype, you can cal
 
  
 
-### "Double insert" conflict with <Insert/> tags for subtypes
+### "Double insert" conflict with `<Insert/>` tags for subtypes
 
 * Problem*
 
-**<Insert/>** instruction tags for the import of a new subtype constellation can lead to a unique-key error if the engine is instructed to insert the same primary key twice, once for the supertype and once for the subtype.
+`<Insert/>` instruction tags for the import of a new subtype constellation can lead to a unique-key error if the engine is instructed to insert the same primary key twice, once for the supertype and once for the subtype.
 
 *Solution*
 
-Strip the <Insert/> tags. The record(s) where you removed the <Insert/> tag will still be inserted as per the default "UPSERT" behavior.
+Strip the `<Insert/>` tags. The record(s) where you removed the `<Insert/>` tag will still be inserted as per the default "UPSERT" behavior.
 
-You can strip <Insert/> tags by applying an XSLT transformation to the document that has the following template or a similar template. To make XSLT operations optimally traceable, use USoft Delivery Manager, for example its "Added XSL" feature.
+You can strip `<Insert/>` tags by applying an XSLT transformation to the document that has the following template or a similar template. To make XSLT operations optimally traceable, use USoft Delivery Manager, for example its "Added XSL" feature.
 
 ```xml
 <xsl:template match="Insert"/>
@@ -67,14 +67,13 @@ You can strip <Insert/> tags by applying an XSLT transformation to the document 
 
 ###  
 
-### "Double delete" conflict with <Delete/> tags for cascading deletes
+### "Double delete" conflict with `<Delete/>` tags for cascading deletes
 
 * Problem*
 
-A **<Delete/>** instruction tag can lead to an error if a parent delete with Delete Rule = Cascading appears earlier in XML document order than the corresponding child delete. When the child delete is processed, the error is that the child cannot be found.
+A `<Delete/>` instruction tag can lead to an error if a parent delete with Delete Rule = Cascading appears earlier in XML document order than the corresponding child delete. When the child delete is processed, the error is that the child cannot be found.
 
 *Solution*
-
 Make sure that the Rules Engine does not check whether the record to be deleted actually exists. One way to achieve this is to call XML.Import with the VerifyOriginalValues parameter set to NoCheckOnPk. Alternatively, make sure that your import document has the setting **verify-original-values="no-check-on-pk"** in its usoft-xml processing instruction.
 
 You can reset an usoft-xml processing instruction by applying an XSLT transformation that has the following template or a like template. To make XSLT operations optimally traceable, use USoft Delivery Manager, for example its "Added XSL" feature.
@@ -97,7 +96,7 @@ You can reset an usoft-xml processing instruction by applying an XSLT transforma
 
 *Problem*
 
-Importing a parent record and a new set of child records can cause existing children, so-called obsolete children, in the receiving repository to be automatically dropped if the relation has Type Of Relationship = Composition. This is especially confusing if the import document specifies **<Insert/>** instruction tags for the children, because this wrongly suggests that the new children will be *added* to the existing children.
+Importing a parent record and a new set of child records can cause existing children, so-called obsolete children, in the receiving repository to be automatically dropped if the relation has Type Of Relationship = Composition. This is especially confusing if the import document specifies `<Insert/>` instruction tags for the children, because this wrongly suggests that the new children will be *added* to the existing children.
 
 *Solution*
 

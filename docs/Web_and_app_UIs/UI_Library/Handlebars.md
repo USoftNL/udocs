@@ -119,9 +119,9 @@ The **attr="p.prop"** argument adds an attribute with the name 'attr' to the ele
 {{attr "*" rows="props.size"}}
 ```
 
-### attr="[c]:t[:f]" argument
+### `attr="[c]:t[:f]"` argument
 
-The **attr="[c]:t[:f]"** argument adds an attribute with the name 'attr' to the element. The value of the attribute depends on the outcome of condition c. When the outcome evaluates to true or when no c-part is present the t-part is used, otherwise the f-part.
+The **`attr="[c]:t[:f]"`** argument adds an attribute with the name 'attr' to the element. The value of the attribute depends on the outcome of condition c. When the outcome evaluates to true or when no c-part is present the t-part is used, otherwise the f-part.
 
 ```js
 {{attr "*" class=":tree-node props.childNodes:closed:empty"}}
@@ -135,7 +135,7 @@ When the c-part start with a '@' the value of an application setting is evaluate
 
 ### attr="v1 v2" argument
 
-The **attr="v1 v2"** argument adds an attribute with the name 'attr' to the element. The value of the attribute depends on the evaluation of the separate values. The values are each evaluated as [c]:t[:f].
+The **attr="v1 v2"** argument adds an attribute with the name 'attr' to the element. The value of the attribute depends on the evaluation of the separate values. The values are each evaluated as `[c]:t[:f]`.
 
 ```js
 {{attr class=":record :props.alias"}}
@@ -279,7 +279,6 @@ can be converted to:
 ```
 
 *Explanation*
-
 The added attributes are used for field validation. The construct iterates over all attributes of a JSON control definition and adds rule attributes depending on whether a rule has been defined for that attribute in the factory definition:
 
 ```js

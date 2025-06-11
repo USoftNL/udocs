@@ -39,7 +39,7 @@ For each application known to USoft Authorizer, all the super-users must be assi
 
 ### Step 2A: Mark up user-usergroup information
 
-This is a simple technique and an alternative to Step 2B. This step 2A only allows you to substitute the name "ADMIN_DEV" by the variable placeholder **${SUPER_USER}.** You cannot use it to remove the non-ADMIN_DEV records, although it is fairly easy to achieve this in a separate routine by adding XSL to the task step that delivers the authdata.
+This is a simple technique and an alternative to Step 2B. This step 2A only allows you to substitute the name "ADMIN_DEV" by the variable placeholder `${SUPER_USER}.` You cannot use it to remove the non-ADMIN_DEV records, although it is fairly easy to achieve this in a separate routine by adding XSL to the task step that delivers the authdata.
 
 For full control over mark-up and tweak, use the more complex approach of Step 2B instead.
 
@@ -47,11 +47,11 @@ For full control over mark-up and tweak, use the more complex approach of Step 2
 
 |**Parameter**|**Value**|
 |--------|--------|
-|Replacement file|${release}\\appdata\\USAUTH.diff.xml|
-|Target element|T_AUTH_USER_USERGROUP|
-|Target attribute|USERNAME|
-|Key name|USERNAME|
-|Key value|ADMIN_DEV|
+|Replacement file|`${release}\appdata\USAUTH.diff.xml`|
+|Target element|`T_AUTH_USER_USERGROUP`|
+|Target attribute|`USERNAME`|
+|Key name|`USERNAME`|
+|Key value|`ADMIN_DEV`|
 
 
 
@@ -76,7 +76,7 @@ This is an advanced technique and an alternative to Step 2A. If you only need to
 
 3. Edit your "super-users" XSL transformation so that:
 
-- For each of the T_AUTH_USER_USERGROUP records for the ADMIN_DEV user, the super-user name is turned into the **${SUPER_USER}** target variable placeholder.
+- For each of the T_AUTH_USER_USERGROUP records for the ADMIN_DEV user, the super-user name is turned into the `${SUPER_USER}` target variable placeholder.
 
 - Records for users other than ADMIN_DEV are skipped.
 
@@ -138,7 +138,7 @@ The result could look something like this:
 
 1. Choose Release, Computers and enter the computername of each of the computers. Save work.
 
-2. Choose Release, Target variables and create a target variable named **${SUPER_USER}.** Press the Populate button. For each computer, specify what the super user is called on that computer. Save work.
+2. Choose Release, Target variables and create a target variable named `${SUPER_USER}`. Press the Populate button. For each computer, specify what the super user is called on that computer. Save work.
 
 3. Re-run the release task. See that in the "release.xml" file, settings have been added describing super user names of different computers:
 
@@ -168,7 +168,7 @@ The result could look something like this:
 
 5. Open the "deploy.xml" deploy script. Find the line responsible for variable substitution (search for 'settings' or 'replace').
 
-6. See that when you run the "deploy.xml" script, the local super user name is substituted when the T_AUTH_USER_USERGROUP records are imported.
+6. See that when you run the "deploy.xml" script, the local super user name is substituted when the `T_AUTH_USER_USERGROUP` records are imported.
 
 
 :::tip
@@ -176,7 +176,3 @@ The result could look something like this:
 The first time you try to get this working, run the script but comment out the data import operation. That way, you can check that the substitution works correctly.
 
 :::
-
- 
-
- 

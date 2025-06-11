@@ -66,9 +66,9 @@ A USoft XML document is allowed to contain a mixture of elements with DML instru
 |**Element has ...**|**This means ...**|
 |--------|--------|
 |No DML instruction tag|<p>If no record exists with the primary key, the record must be inserted.</p><p>If a record already exists with the primary key, the record must be updated.</p>|
-|<Insert/>|<p>The record must be inserted.</p><p>If a record already exists with the primary key, it's an error.</p>|
-|<Update/>|<p>One or more values in the record must be updated. The columns and values to be updated are specified as attributes of the <Update/> element.</p><p>If no record exists with the primary key, it's an error.</p>|
-|<Delete/>|<p>The record must be deleted.</p><p>If no record exists with the primary key, it's an error.</p>|
+|`<Insert/>`|<p>The record must be inserted.</p><p>If a record already exists with the primary key, it's an error.</p>|
+|`<Update/>`|<p>One or more values in the record must be updated. The columns and values to be updated are specified as attributes of the `<Update/>` element.</p><p>If no record exists with the primary key, it's an error.</p>|
+|`<Delete/>`|<p>The record must be deleted.</p><p>If no record exists with the primary key, it's an error.</p>|
 
 
 

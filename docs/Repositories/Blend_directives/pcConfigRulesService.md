@@ -13,12 +13,12 @@ This article is about the **pc:ConfigRulesService**[ Blend directive](/docs/Repo
 
 :::
 
-- [pc:ConfigRulesService](#pc:configrulesservice)
+- [pc:ConfigRulesService](#pcconfigrulesservice)
 - [Choosing a port number for a Rules Service](#choosing-a-port-number-for-a-rules-service)
 - [Configuring a Rules Service on the basis of an existing file](#configuring-a-rules-service-on-the-basis-of-an-existing-file)
 - [Manual configuration of a Rules Service](#manual-configuration-of-a-rules-service)
 
-## **pc:ConfigRulesService**
+## `pc:ConfigRulesService`
 
 Configures a named Rules Service with an encrypted password and, optionally, installs and starts that Rules Service. Also, optionally, first stops and uninstalls a (differently configured) Rules Service previously running on the same port. To run an anynomous Rules Service, use pc:RunRulesService instead.
 

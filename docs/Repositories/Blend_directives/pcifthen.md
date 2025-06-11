@@ -9,7 +9,7 @@ id: pcifthen
 
 :::note
 
-This article is about the **pc:if-then**[ Blend directive](/docs/Repositories/Blend_directives).
+This article is about the **pc:if-then**[Blend directive](/docs/Repositories/Blend_directives).
 
 :::
 
@@ -34,7 +34,7 @@ If you want to specify not only a **then** clause but also an **else** clause, u
 
 *Examples*
 
-The element <PrintThis/> is written to standard output in:
+The element `<PrintThis/>` is written to standard output in:
 
 ```xml
 <pc:if-then test="1=1">
@@ -42,7 +42,7 @@ The element <PrintThis/> is written to standard output in:
 </pc:if-then>
 ```
 
-The element <PrintThis/> is NOT written to standard output in:
+The element `<PrintThis/>` is NOT written to standard output in:
 
 ```xml
 <pc:if-then test="1=2">

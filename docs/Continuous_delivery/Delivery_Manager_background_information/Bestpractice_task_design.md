@@ -11,7 +11,6 @@ Task design is especially important for the task or tasks that are going to be y
 This help topic contains tips for good task design.
 
 ### Signpost the release procedure
-
 While Delivery Manager is intended also for related tasks, in practice its primary purpose is to *release application deliverables.* All other functionality is in support of this goal.
 
 Make sure that it is absolutely clear to the entire team which task or tasks are the release procedure. There should be a single release procedure.
@@ -44,4 +43,4 @@ Delivery Manager has a section called "custom" that is exactly that: it is the l
 
 - Clearly signpost the delivery of custom deliverables. In your release operations, group the task steps for custom deliverables together by giving them neighbouring sequence numbers or by creating a separate task for them.
 
-- Be aware that Delivery Manager treats the "custom" section differently from other sections. It does not automatically drop folders from "custom" every time it writes to "custom". The best design, if it is acceptable in your situation, is to start by calling the "Drop custom folder" with **${release}\\custom** as the value of the Destination Folder Path parameter. Then, fill the now empty \\custom folder by successive actions, each of which adds an individual custom deliverable. By contrast, each of the non-"custom" sections is best delivered in 1 go. If you have additional deliverables, your first choice should be to declare these as attachments.
+- Be aware that Delivery Manager treats the "custom" section differently from other sections. It does not automatically drop folders from "custom" every time it writes to "custom". The best design, if it is acceptable in your situation, is to start by calling the "Drop custom folder" with `${release}\custom` as the value of the Destination Folder Path parameter. Then, fill the now empty \\custom folder by successive actions, each of which adds an individual custom deliverable. By contrast, each of the non-"custom" sections is best delivered in 1 go. If you have additional deliverables, your first choice should be to declare these as attachments.

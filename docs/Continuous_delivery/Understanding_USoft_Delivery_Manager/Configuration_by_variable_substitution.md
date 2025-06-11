@@ -35,7 +35,7 @@ How do you get mark-up in deliverables? This depends on the type of deliverable 
 
 **Method 1 - Manual edit**
 
-When writing upgrade scripts, something you do in Delivery Manager itself, you can type placeholders such as **${LOG_DIR}** directly into the SQL code.
+When writing upgrade scripts, something you do in Delivery Manager itself, you can type placeholders such as `${LOG_DIR}` directly into the SQL code.
 
 **Method 2 - "Mark up XML attribute" action**
 

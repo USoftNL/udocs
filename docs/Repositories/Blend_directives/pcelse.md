@@ -21,7 +21,7 @@ Identifies a script section that is executed only if a condition specified in th
 
 *Example*
 
-The element <PrintThat/> is written to standard output in:
+The element `<PrintThat/>` is written to standard output in:
 
 ```xml
 <pc:if test="1=2">

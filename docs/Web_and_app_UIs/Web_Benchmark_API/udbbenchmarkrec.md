@@ -51,15 +51,26 @@ The [$.udb.benchmark.playback](#) function exposes the Web Benchmark playback e
 |**Description**|<p>Function used to display tests in edit tests dialog.</p>|
 
 
-
 ### exportAsFile: *ƒ (file, obj, type, ext)*
 
-|        |        |
-|--------|--------|
-|**Description**|<p>Exports data to file. Can be in XML format, JSON or PDF (under development). The [`$.udb.benchmark.events.export`](#) event calls this function.</p>|
-|**Option**|<p>`file` : filename</p><p>`obj` : the data to export, the xml is normally created by [`$.udb.benchmark.rec.makeXML()`](#makexml) </p><p>`type` : the content-type, currently either `application/xml` ,</p><p> `application/json  `or ` application/pdf`</p><p>`ext` : the extension for the file , by default .xml</p>|
-|**Example**|<p>Export a dummy file named “TestRun” with {} as file content in json format with extension json.txt:</p><p>`$.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json",'json.txt');`</p>|
+#### Description
 
+Exports data to file. Can be in XML format, JSON, or PDF (under development). The `$.udb.benchmark.events.export` event calls this function.
+
+#### Options
+
+* `file`: filename
+* `obj`: the data to export (the XML is normally created by `$.udb.benchmark.rec.makeXML()` #makexml )
+* `type`: the content-type, currently either `application/xml`, `application/json`, or `application/pdf`
+* `ext`: the extension for the file, by default `.xml`
+
+#### Example
+
+Export a dummy file named “TestRun” with `{}` as file content in JSON format with extension `json.txt`:
+
+```js
+$.udb.benchmark.rec.exportAsFile("TestRun", '{}' , "application/json", 'json.txt');
+```
 
 
 ### findAllRunsOfTest: *ƒ (testName, options)*

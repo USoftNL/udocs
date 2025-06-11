@@ -6,15 +6,14 @@ id: The_applicationhtml_initial_document
 
 When a client connects to a USoft web application, it receives an *initial HTML document* that contains all the information needed to boot the application. This HTML document provides:
 
-- The \<html> and \<head> tags that provide the overall structure of the browsed HTML.
+- The `<html>` and `<head>` tags that provide the overall structure of the browsed HTML.
 - References to all the .js and .css files needed for the client to further interpret the delivered application and convert all the content to browsable HTML.
-- Substitution variables that have global (= application-wide) scope, such as **${Encoding}** and **${LogLevel}.** 
+- Substitution variables that have global (= application-wide) scope, such as **`${Encoding}`** and **`${LogLevel}.`** 
 
 ### Location
-
 The initial document is embodied by the file "application.html". This file can be found as a simple HTML text file in location:
 
-```
+```xml
 <installation-directory>\PageEngine\templates\WebSite\application.html
 ```
 
@@ -22,7 +21,7 @@ where *installation-directory* is the local USoft installation directory.
 
 Each time you publish the application, a flat copy of this source file is written to:
 
-```
+```xml
 <publication-directory>\WebSite\application.html
 ```
 
@@ -42,15 +41,15 @@ This may be altered if necessary by manually editing the content of the document
 
 The "application.html" source file:
 
-```
+```xml
 <installation-directory>\PageEngine\templates\WebSite\application.html
 ```
 
-contains placeholders for substitution variables that have global ( = application-wide) scope, for example, **${Encoding}** and **${LogLevel}**.  
+contains placeholders for substitution variables that have global ( = application-wide) scope, for example, `${Encoding}` and `${LogLevel}`.  
 
 Each time the application is published, these placeholders are replaced by values and the result is copied to:
 
-```
+```xml
 <publication-directory>\WebSite\application.html
 ```
 
@@ -66,19 +65,19 @@ To make other changes to "application.html" than setting values of substitution 
 
 1. Copy the source file:
 
-```
+```xml
 <installation-directory>\PageEngine\templates\WebSite\application.html
 ```
 
 to:
 
-```
+```xml
 <alternative-template-folder>\application.html
 ```
 
-and make sure that substitution variable placeholders such as **${LogLevel}** are preserved.
+and make sure that substitution variable placeholders such as `${LogLevel}` are preserved.
 
-The *alternative-template-folder* is your publication configuration' s Alternative Template Folder. By default, it is the **\\alt** subfolder of the parent folder of the publication directory.
+The *alternative-template-folder* is your publication configuration' s Alternative Template Folder. By default, it is the `\\alt` subfolder of the parent folder of the publication directory.
 
 2. Use a text editor to edit "application.html" in the alternative template folder, then save work.
 
@@ -86,6 +85,6 @@ The *alternative-template-folder* is your publication configuration' s Alternati
 
 4. Check that your edits are correctly published to:
 
-```
+```xml
 <publication-directory>\WebSite\application.html
 ```

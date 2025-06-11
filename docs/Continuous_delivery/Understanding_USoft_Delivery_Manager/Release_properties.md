@@ -20,7 +20,7 @@ A meaningless ID that serves to identify release versions uniquely and is genera
 
 The folder path that identifies the root folder as seen from the machine(s) that you deliver from.
 
-You can refer to this folder path by using the **${root}** source variable.
+You can refer to this folder path by using the `${root}` source variable.
 
 ### Release version
 
@@ -34,7 +34,7 @@ This property is used for comparison purposes. When you call an action that rele
 
 You can revert to the previous release version.
 
-You can refer to the subfolder of the root folder that has the previous release version name by using the **${previous}** source variable.
+You can refer to the subfolder of the root folder that has the previous release version name by using the `${previous}` source variable.
 
 ### Release folder
 
@@ -56,7 +56,7 @@ Then "Release folder" is :
 \\fs\Releases\TRAVEL\1.0
 ```
 
-You can refer to "Release folder" by using the **${release}** source variable.
+You can refer to "Release folder" by using the `${release}` source variable.
 
 ### Created
 

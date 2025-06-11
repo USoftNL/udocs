@@ -23,6 +23,8 @@ import {translate} from '@docusaurus/Translate';
 import useIsBrowser from '@docusaurus/useIsBrowser';
 import DocSidebarItems from '@theme/DocSidebarItems';
 import type {Props} from '@theme/DocSidebarItem/Category';
+import { sidebarIconMap, SidebarIconName } from '@site/src/icons/sidebarIconMap';
+
 
 // If we navigate to a category and it becomes active, it should automatically
 // expand itself
@@ -154,6 +156,8 @@ export default function DocSidebarItemCategory({
       setCollapsed(true);
     }
   }, [collapsible, expandedItem, index, setCollapsed, autoCollapseCategories]);
+  const iconName = item.customProps?.icon as SidebarIconName | undefined;
+const Icon = iconName ? sidebarIconMap[iconName] : undefined;
 
   return (
     <li
@@ -165,8 +169,7 @@ export default function DocSidebarItemCategory({
           'menu__list-item--collapsed': collapsed,
         },
         className,
-      )}
-      >
+      )}>
       <div
         className={clsx('menu__list-item-collapsible', {
           'menu__list-item-collapsible--active': isCurrentPage,
@@ -177,13 +180,16 @@ export default function DocSidebarItemCategory({
             'menu__link--sublist-caret': !href && collapsible,
             'menu__link--active': isActive,
           })}
-          data-category-id={item.customProps?.id}
           onClick={
             collapsible
               ? (e) => {
                   onItemClick?.(item);
                   if (href) {
-                    if (isActive) {
+                    // When already on the category's page, we collapse it
+                    // We don't use "isActive" because it would collapse the
+                    // category even when we browse a children element
+                    // See https://github.com/facebook/docusaurus/issues/11213
+                    if (isCurrentPage) {
                       e.preventDefault();
                       updateCollapsed();
                     } else {
@@ -205,6 +211,13 @@ export default function DocSidebarItemCategory({
           aria-expanded={collapsible && !href ? !collapsed : undefined}
           href={collapsible ? hrefWithSSRFallback ?? '#' : hrefWithSSRFallback}
           {...props}>
+            {Icon && (
+    <Icon
+      size={18}
+      style={{ marginRight: 8, verticalAlign: 'middle' }}
+      aria-label={label + ' icon'}
+    />
+  )}
           {label}
         </Link>
         {href && collapsible && (

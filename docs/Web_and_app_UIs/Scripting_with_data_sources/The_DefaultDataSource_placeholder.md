@@ -10,7 +10,7 @@ The **DefaultDataSource** placeholder refers to the current page's default data 
 
 *Syntax*
 
-```
+```javascript
 ${DefaultDataSource}
 ```
 
@@ -18,7 +18,7 @@ This placeholder allows you to re-use controls and routines in multiple pages wi
 
 You can combine this placeholder with elements from [data source path syntax](/docs/Web_and_app_UIs/Data_sources/Data_source_path_syntax.md). For example, you can write the following to refer to the default data source of the page from which the current page was called (see Example 1), or from the page in which the current page is embedded:
 
-```
+```javascript
 ../${DefaultDataSource}
 ```
 
@@ -42,7 +42,7 @@ Achieve this by changing the Synchronisation DataSource property of the Lookup o
 
 to:
 
-```
+```javascript
 ../${DefaultDataSource}
 ```
 
@@ -50,7 +50,7 @@ to:
 
 In the Controls catalog, you will find a DeleteButtonControl for which the onclick action has the following settings:
 
-```
+```javascript
 Action Name: DeleteRecord
 Data Source Name: ${DefaultDataSource}
 
@@ -58,15 +58,15 @@ Data Source Name: ${DefaultDataSource}
 
 These settings are equivalent to the following code snippet:
 
-```
+```javascript
 DeleteRecord(${DefaultDataSource}
 ```
 
-At runtime, when the button is pressed, the ${DefaultDataSource} placeholder is substituted by the name of the data source in the page that has Default Data Source = Yes. The result is that the current record is deleted from the recordset that maps to that data source.
+At runtime, when the button is pressed, the `${DefaultDataSource}` placeholder is substituted by the name of the data source in the page that has Default Data Source = Yes. The result is that the current record is deleted from the recordset that maps to that data source.
 
 
 :::warning
 
-Constructs with ${DefaultDataSource} are becoming obsolete. For example, DeleteRecord(${DefaultDataSouce}) is replaced by constructs using .rowDelete().
+Constructs with `${DefaultDataSource}` are becoming obsolete. For example, `DeleteRecord(${DefaultDataSouce})` is replaced by constructs using `.rowDelete()`.
 
 :::

@@ -13,7 +13,6 @@ Finally, in places, Delivery Manager allows you to specify files or folders that
 These folder management principles enable best-practice task design.
 
 ### Automatic folder refresh
-
 *Refreshing* a folder means that the folder is first cleared of any existing content before new content is written to it. For each section, Delivery Manager has a refresh policy that seems appropriate for that section:
 
 |**Section**|**Refresh policy**|
@@ -46,14 +45,13 @@ This happens if the specified folder does not already exist.
 
 *"Custom" release section:* If the output folder does not exist, it is automatically created when you call:
 
-- the "Release custom folder" action. This action must be called with a Destination Folder parameter value that starts with **${release}\\custom**.
+- the "Release custom folder" action. This action must be called with a Destination Folder parameter value that starts with `${release}\custom`.
 
-- the "Apply custom XSL", "Copy file" and "Export to TDF" actions with a Destination File parameter value that starts with **${release}\\custom**.
+- the "Apply custom XSL", "Copy file" and "Export to TDF" actions with a Destination File parameter value that starts with `${release}\custom`.
 
 *Attachments:* If the output folder does not exist, it is automatically created when you call:
 
 - an Attachment. Attachments by definition specify an output folder that is a subfolder (a section) of the current release folder.
-
 
 :::note
 

@@ -44,7 +44,7 @@ $.udb.lang.translate( *string-with-markers* )
 
 Each marker is represented by the following syntax:
 
-```
+```javascript
 {{*marker*}}
 ```
 
@@ -52,7 +52,7 @@ You need to have supplied this translation in the language tables of USoft Defin
 
 *Example*
 
-```
+```javascript
 $.udb.lang.translate('<div class="box">{{Hello World}}</div>')
 ```
 

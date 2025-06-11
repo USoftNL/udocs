@@ -16,33 +16,20 @@ const sidebars: SidebarsConfig = {
   // By default, Docusaurus generates a sidebar from the docs folder structure
   sidebar: [
     {
-      type: 'category',
+      type: 'doc',
+      id: 'Welcome_to_USoft_Knowledge_Base',
       label: 'Getting started',
-      link: { type: 'doc', id: 'Getting_started/index' },
       customProps: {
         id: 'getting-started-main',
+        icon: 'Rocket',
       },
-      items: [
-        {
-          type: 'category',
-          label: 'General information',
-          link: {
-            type: 'generated-index',
-            title: 'General information',
-            slug: '/General_information',
-          },
-          items: [
-            {
-              type: 'doc',
-              id: 'Getting_started/General_information/Welcome_to_USoft_Knowledge_Base',
-            },
-          ],
-        },
-      ],
     },
     {
       type: 'category',
       label: 'Business rules',
+      customProps: {
+        icon: 'GitBranch',
+      },
       link: {
         type: 'generated-index',
         title: 'Business rules',
@@ -295,6 +282,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Modeller and Rules Engine',
+      customProps: {
+        icon: 'Boxes',
+      },
       link: {
         type: 'generated-index',
         title: 'Modeller and Rules Engine',
@@ -1385,6 +1375,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Task flow',
+      customProps: {
+        icon: 'ListChecks',
+      },
       link: { type: 'generated-index', title: 'Task flow', slug: '/Task_flow' },
       items: [
         {
@@ -2437,6 +2430,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Authorisation and access',
+      customProps: {
+        icon: 'Fingerprint',
+      },
       link: {
         type: 'generated-index',
         title: 'Authorisation and access',
@@ -2753,6 +2749,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Collaboration',
+      customProps: {
+        icon: 'Handshake',
+      },
       link: {
         type: 'generated-index',
         title: 'Collaboration',
@@ -2958,6 +2957,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Desktop UIs',
+      customProps: {
+        icon: 'AppWindow',
+      },
       link: {
         type: 'generated-index',
         title: 'Desktop UIs',
@@ -3477,6 +3479,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Web and app UIs',
+      customProps: {
+        icon: 'Globe',
+      },
       link: {
         type: 'generated-index',
         title: 'Web and app UIs',
@@ -5517,6 +5522,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Services',
+      customProps: {
+        icon: 'SquareDashedBottomCode',
+      },
       link: { type: 'generated-index', title: 'Services', slug: '/Services' },
       items: [
         {
@@ -6110,6 +6118,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Extensions',
+      customProps: {
+        icon: 'Blocks',
+      },
       link: {
         type: 'generated-index',
         title: 'Extensions',
@@ -6864,6 +6875,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Repositories',
+      customProps: {
+        icon: 'FolderGit2',
+      },
       link: {
         type: 'generated-index',
         title: 'Repositories',
@@ -7885,6 +7899,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Continuous delivery',
+      customProps: {
+        icon: 'Infinity',
+      },
       link: {
         type: 'generated-index',
         title: 'Continuous delivery',
@@ -8448,6 +8465,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Authoring',
+      customProps: {
+        icon: 'BookCheck',
+      },
       link: { type: 'generated-index', title: 'Authoring', slug: '/Authoring' },
       items: [
         {
@@ -8655,6 +8675,9 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'USoft for administrators',
+      customProps: {
+        icon: 'UserCog',
+      },
       link: {
         type: 'generated-index',
         title: 'USoft for administrators',

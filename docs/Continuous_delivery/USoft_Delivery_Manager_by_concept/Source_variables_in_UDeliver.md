@@ -75,5 +75,5 @@ Source variables support *recursive substitution*. In the input value of a sourc
 
 |**Variable**|**Input value**|**Value**|
 |--------|--------|--------|
-|${product_version}|3.5     |3.5     |
-|${product_name}|XProduct ${product_version}|XProduct 3.5|
+|`${product_version}`|3.5     |3.5     |
+|`${product_name}`|XProduct `${product_version}`|XProduct 3.5|

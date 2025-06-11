@@ -173,7 +173,7 @@ With the following steps, you organise the passing of the person ID as part of t
 
 |        |        |
 |--------|--------|
-|Relative URI Path|/Person/{id}|
+|Relative URI Path|`/Person/{id}`|
 
 
 

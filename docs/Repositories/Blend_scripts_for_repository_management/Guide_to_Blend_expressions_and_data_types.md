@@ -19,8 +19,6 @@ A *literal expression* is an expression made up of Unicode characters and not sp
 |*string-literal*|<p>A simple alphanumeric string that is allowable as an identifier of an object. Subsets *text-literal*.</p>|<pre><code>myalias<br/>MyAlias<br/>MyAlias_4</code></pre><p> </p>|
 |*text-literal*|A string of Unicode characters including interpunction characters and whitespace|`Default-8090@C:\USoft\servers\Default\`<p> </p>|
 
-
-
 ### Date literals
 
 *Date literal* is a data type for string values susceptible of being interpreted as an indication of a date, or of a date and a time, for example:
@@ -79,8 +77,6 @@ In contexts where folders or files are expected, the USoft Blend framework proce
 |--------|--------|--------|
 |*path*  |An expression that points to a file or folder on the file system, or to a set of files or folders|<pre><code>c:\temp\MyFolder<br/><br/>temp\MyFolder\<br/><br/>\\fs\temp\MyExample.xml<br/><br/>..\MyExample.xml<br/><br/>temp\*.xml<br/><br/>c:/temp/MyFolder</code></pre><p> </p>|
 
-
-
 Many path expressions are a sequence of steps separated by backslashes that traverse the file system to point at the target file(s) or folder(s):
 
 ```
@@ -109,8 +105,6 @@ Each path is either an absolute path or a relative path:
 |--------|--------|--------|
 |*absolute-path*|A path that points at a file or folder, or set of files or folders, independently of the working context.|<pre><code>c:\temp\MyExample.xml<br/><br/>d:\temp\MySubDirectory<br/><br/>\\fs\temp\*.xml<br/><br/>\\fs.mycompany.com\temp$\MyExample.xml</code></pre><p> </p>|
 |*relative-path*|A path that points at a file or folder, or set of files or folders by taking the working folder as a starting point.|<pre><code>MyExample.xml<br/><br/>MySubDirectory\*.xml<br/><br/>..\MyExample.xml<br/><br/>.\MyExample.xml</code></pre><p> </p>|
-
-
 
 An absolute path is a path that starts with a letter indicating a local drive:
 
@@ -155,8 +149,6 @@ Each path is either a file path or a folder path:
 |*file-path*|A *path* in which the rightmost step is interpreted as the name of a file, or as an expression pointing to a set of files.|`c:\temp\MyExample.xml`|
 |*folder-path*|A *path* in which the rightmost step is interpreted as the name of a folder.|`c:\temp\MySubDirectory` `c:\temp\MySubDirectory\`|
 
-
-
 In a *file-path*, the rightmost step is interpreted as the name of a file, or as file pattern pointing at a set of files. In a folder path, the rightmost step is interpreted as the name of a folder.
 You can enforce that the rightmost step must be interpreted as a folder rather than a file by adding a trailing backslash:
 
@@ -200,11 +192,9 @@ The asterisk acts as a wildcard for both directory names and file names found in
 |**Directory name pattern**|**Matches**|
 |--------|--------|
 |`*`<p> </p>|The entire content of the current directory, including subdirectories (to any level deep).|
-|`*.xml`<p> </p>|All the files in the current directory that have the ".xml" extension.<br/>			All the subdirectories of which the name ends in .xml, including all their file contents and all subdirectories and their contents (to any level deep).|
+|`*.xml`<p> </p>|All the files in the current directory that have the ".xml" extension.<br/>   All the subdirectories of which the name ends in .xml, including all their file contents and all subdirectories and their contents (to any level deep).|
 |`asset*`<p> </p>|All the subdirectories and files of which the name starts with asset, including (in the case of the subdirectories) all file contents and all subdirectories and their contents (to any level deep).|
 |`asset*\resource*`<p> </p>|All the subdirectories A of which the name starts with asset and that have a subdirectory B or file B that starts with resource. For each subdirectory A, all the subdirectories B with all their content (to any level deep), and also, all the files B.|
-
-
 
 ## XML expressions
 
@@ -212,15 +202,102 @@ In contexts where XML is expected, the USoft Blend framework processes literal X
 USoft uses XML to describe data that must be exported, imported, compared, delivered, configured outside a USoft repository. The first examples in the table below are in this format.
 USoft Blend uses XML to facilitate composite input and output of directives. This is referred to as *embedded XML**:*
 
-|**Data type**|**Explanation**|**Examples**|
-|--------|--------|--------|
-|*xml-fragment*|An XML structure consisting of one or more XML nodes.|<pre><code class="language-language-xml"><T_AUTH_USER USERNAME="admin"/><br/><T_AUTH_USER USERNAME="admin2"/><br/><br/><Users><br/>   <T_AUTH_USER USERNAME="admin"/><br/>   <T_AUTH_USER USERNAME="admin2"/><br/></Users></code></pre><p> </p>|
-|*xml-fragment*|(Also:) An expression evaluating to such a structure.|<pre><code class="language-language-xml"><msg>Logging in: <br/>  <pc:value-of select="$logfile"/>...<br/>  <pc:newline/><br/></msg></code></pre><p> </p>|
-|*xml-document*|<p>An XML fragment that is a valid XML document, ie., that has a single top-level node (*document node*).</p><p>An expression evaluating to such a structure.</p><p>Subsets *xml-fragment*.</p>|<pre><code class="language-language-xml"><Users><br/>   <T_AUTH_USER USERNAME="admin"/><br/>   <T_AUTH_USER USERNAME="admin2"/><br/></Users><br/><br/><msg><br/>   Logging in: <pc:value-of select="$logfile"/>...<br/>   <pc:newline/><br/></msg></code></pre><p> </p>|
-|*xml-text*|<p>An XML fragment that is a valid XML text node.</p><p>An expression evaluating to a valid XML text node.</p><p>Subsets *xml-fragment*.</p>|<pre><code class="language-language-xml">admin2<br/><br/>Logging in: <pc:value-of select="$logfile"/>...<br/><pc:newline/></code></pre><p> </p>|
-|*embedded-xml*|An XML fragment (usually, an XML document) that is allowed to be a child node of a USoft Blend directive, or is returned by a USoft Blend directive, or both.|<pre><code class="language-language-xml"><pc:Dialog><br/>   <Form w="250"><br/>      <Title>USoft Blend dialog</Title><br/>      <Label dx="5" dy="10" w="40" ><br/>        This is a USoft Blend dialog.<br/>      </Label>      <br/>      <Button dy="20" newline="true"><br/>        <Result>OK</Result>OK<br/>      </Button><br/>   </Form><br/></pc:Dialog></code></pre><p> </p>|
 
+### xml-fragment
 
+#### Explanation
+
+An XML structure consisting of one or more XML nodes.
+
+#### Examples
+
+```xml
+<T_AUTH_USER USERNAME="admin"/>
+<T_AUTH_USER USERNAME="admin2"/>
+
+<Users>
+   <T_AUTH_USER USERNAME="admin"/>
+   <T_AUTH_USER USERNAME="admin2"/>
+</Users>
+```
+
+### xml-fragment
+
+(Also: an expression evaluating to such a structure.)
+
+#### Explanation
+
+An expression evaluating to an XML structure.
+
+#### Examples
+
+```xml
+<msg>Logging in: 
+  <pc:value-of select="$logfile"/>...
+  <pc:newline/>
+</msg>
+```
+
+### xml-document
+
+#### Explanation
+
+An XML fragment that is a valid XML document, i.e., that has a single top-level node (*document node*).
+An expression evaluating to such a structure.
+Subsets *xml-fragment*.
+
+#### Examples
+
+```xml
+<Users>
+   <T_AUTH_USER USERNAME="admin"/>
+   <T_AUTH_USER USERNAME="admin2"/>
+</Users>
+
+<msg>
+   Logging in: <pc:value-of select="$logfile"/>...
+   <pc:newline/>
+</msg>
+```
+
+### xml-text
+
+#### Explanation
+
+An XML fragment that is a valid XML text node.
+An expression evaluating to a valid XML text node.
+Subsets *xml-fragment*.
+
+#### Examples
+
+```xml
+admin2
+
+Logging in: <pc:value-of select="$logfile"/>...
+<pc:newline/>
+```
+
+### embedded-xml
+
+#### Explanation
+
+An XML fragment (usually, an XML document) that is allowed to be a child node of a USoft Blend directive, or is returned by a USoft Blend directive, or both.
+
+#### Examples
+
+```xml
+<pc:Dialog>
+   <Form w="250">
+      <Title>USoft Blend dialog</Title>
+      <Label dx="5" dy="10" w="40" >
+        This is a USoft Blend dialog.
+      </Label>      
+      <Button dy="20" newline="true">
+        <Result>OK</Result>OK
+      </Button>
+   </Form>
+</pc:Dialog>
+```
 
 ### Embedded XML
 
@@ -312,8 +389,6 @@ This type of SQL runs in a USoft context and is portable across database platfor
 |*select-statement*|<p>A SQL statement with a syntax supported by USoft that starts with the SELECT keyword.</p><p>Subsets *sql-statement*.</p>|`SELECT DESTINATION, TOUR_TYPE FROM TOUR`<p> </p>|
 |*dml-statement*|<p>A SQL statement with a syntax supported by USoft that starts with one of the keywords INSERT, UPDATE, DELETE.</p><p>Subsets *sql-statement*.</p>|<pre><code class="language-sql">UPDATE TOUR SET MAX_AGE = 80 <br/>WHERE DESTINATION = 'AUSTRALIA'</code></pre><p> </p>|
 
-
-
 ### RDBMS-supported SQL syntax
 
 This type of SQL is dependent on the database platform. See the database vendor's documentation for details of SQL syntax supported by the RDBMS.
@@ -324,8 +399,6 @@ This type of SQL is dependent on the database platform. See the database vendor'
 |*rdbms-ddl-dml-statement*|Either an *rdbms‑ddl‑statement* or an *rdbms‑dml‑statement*.|<pre><code class="language-sql">ALTER TABLE TOUR ...<br/>UPDATE TOUR ...</code></pre><p> </p>|
 |*rdbms-dml-statement*|A SQL statement with a syntax supported by the RDBMS that starts with one of the keywords INSERT, UPDATE, DELETE.|`UPDATE TOUR ...`<p> </p>|
 |*rdbms-query*|A SQL statement with a syntax supported by the RDBMS that starts with the SELECT keyword.|`SELECT ... FROM TOUR ...`<p> </p>|
-
-
 
 ## XPath expressions
 
@@ -345,8 +418,6 @@ All the XPath 1.0 types of expression and their data types apply:
 |*string*|String  |A sequence of Unicode characters.|<pre><code>'ABC110'<br/>"My variable value"</code></pre><p> </p>|
 |*number*|Number  |A floating-point number.|<pre><code>98<br/>24.7</code></pre><p> </p>|
 |*variable-reference*|(Any)   |A placeholder representing a variable.|`$myvar`<p> </p>|
-
-
 
 ### Node set expressions
 
@@ -576,8 +647,6 @@ In a USoft Blend context, in an XPath expression content, all the 27 XPath 1.0 f
 |        |substring-before()|        |        |
 |        |translate()|        |        |
 
-
-
 ### Variable references
 
 USoft Blend borrows from XPath its
@@ -676,7 +745,6 @@ Whenever a boolean is expected:
 - A non-empty node set evaluates to boolean **true()**. The empty node set evaluates to boolean **false()**.
 - A non-empty string value evaluates to boolean **true()**. The empty string evaluates to boolean **false()**.
 
-
 :::tip
 
 As an alternative to this, USoft Blend offers "flag-based" string-to-boolean conversion discussed earlier in this article.
@@ -706,7 +774,7 @@ USoft Blend automatically evaluates XPath expressions in attribute values in the
 - Values of attributes of the type **assign:variable**.
 
 *Example*
-This example outputs the value **c:\\temp\\temp**2. Curly braces are NOT called for.
+This example outputs the value `c:\\temp\\temp 2`. Curly braces are NOT called for.
 
 ```xml
 <pc:assign-string mysubdir="temp2">
@@ -715,9 +783,9 @@ This example outputs the value **c:\\temp\\temp**2. Curly braces are NOT called 
 
 ### Attribute Value Templates
 
-If USoft Blend does not automatically evaluate but you want evaluation, you must surround the expression by curly braces ( { } ), which turns it into an Attribute Value Template (AVT). A limitation, in comparison with XSLT, is that USoft Blend only supports AVT braces surrounding the entire expression of the attribute value.
+If USoft Blend does not automatically evaluate but you want evaluation, you must surround the expression by curly braces ( `{ }`), which turns it into an Attribute Value Template (AVT). A limitation, in comparison with XSLT, is that USoft Blend only supports AVT braces surrounding the entire expression of the attribute value.
 Example
-This example deletes directory **c:\\temp\\temp2**. Curly braces ARE called for.
+This example deletes directory `c:\\temp\\temp2`. Curly braces ARE called for.
 
 ```xml
 <pc:assign-string mysubdir="temp2">
@@ -728,7 +796,6 @@ This example deletes directory **c:\\temp\\temp2**. Curly braces ARE called for.
 ```
 
 **Preventing automatic evaluation**
-
 USoft Blend automatically interprets a select attribute value, as well as a value of an attribute of the assign:variable type, as an XPath location path representing a node set. For this reason, in these contexts, you must explicitly convert the expression if you mean to express not a node set but, for example, a string or a number.
 Contrast the following 2 examples.
 *Example 1*
@@ -744,5 +811,3 @@ This example returns the character string 'xy'.
 ```xml
 <pc:value-of select="'xy'" />
 ```
-
- 

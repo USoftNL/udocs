@@ -18,7 +18,6 @@ This article is about the **tag** concept in USoft Delivery Manager ("UDeliverâ€
 This is the only purpose of tags. As long as you do not want to control the place of variables in the registry, there is no point in creating tags.
 
 ### Creating tags
-
 To create a tag:
 
 1.Â Choose Release, Tags.
@@ -35,9 +34,9 @@ If you tag target variables with tags:
 
 |**Target variable**|**Tags**|
 |--------|--------|
-|${SUPER_USER}|admindb_users|
-|${PORT_NR}|        |
-|${LOG_DIR}|admin   |
+|`${SUPER_USER}`|admindb_users|
+|`${PORT_NR}`|        |
+|`${LOG_DIR}`|admin   |
 
 
 

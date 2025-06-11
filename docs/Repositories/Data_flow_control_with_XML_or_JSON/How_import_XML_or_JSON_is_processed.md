@@ -93,9 +93,9 @@ This applies to XML.Import as of USoft 9.1. JSON.Import was introduced in USoft 
 
 Obsolete children are child records that no longer exist in the import XML or JSON. You can instruct XML.Import and JSON.Import to drop obsolete children by setting Type Of Relationship = Composition for the relationship.
 
-If you are importing an XML document with DML instruction tags, then you must block the "drop obsolete children" behaviour by specifying relationship-behaviour="as-reference" in the **usoft-xml** processing instruction. Otherwise, an error is raised. With DML instruction tags, you can use the **<Delete/>** tag to manually determine exactly which records are to be dropped.
+If you are importing an XML document with DML instruction tags, then you must block the "drop obsolete children" behaviour by specifying relationship-behaviour="as-reference" in the **usoft-xml** processing instruction. Otherwise, an error is raised. With DML instruction tags, you can use the `<Delete/>` tag to manually determine exactly which records are to be dropped.
 
-If you are importing an JSON document with meta-instruction properties, then you must block the "drop obsolete children" behaviour by specifying relationship-behaviour="as-reference" in the **@usoft-json** meta-instruction property. Otherwise, an error is raised. With meta-instruction properties, you can use the **@Delete** property to manually determine exactly which records are to be dropped.
+If you are importing an JSON document with meta-instruction properties, then you must block the "drop obsolete children" behaviour by specifying relationship-behaviour="as-reference" in the `@usoft-json` meta-instruction property. Otherwise, an error is raised. With meta-instruction properties, you can use the `@Delete` property to manually determine exactly which records are to be dropped.
 
 USoft Delivery Manager performs standard comparisons of exported XML. In the outcome of each data comparison (as produced in a file with name "... .diff. ..."), it automatically adds relationship-behaviour="as-reference" to the usoft-xml processing instruction. This applies to metadata and application data alike. In summary, importing a Delivery Manager "... .diff. ..." file never causes obsolete children to be dropped automatically.
 

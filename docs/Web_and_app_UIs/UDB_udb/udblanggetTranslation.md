@@ -38,7 +38,7 @@ Returns a string.
 
 *Syntax*
 
-```
+```javascript
 $.udb.lang.getTranslation( *string*, *parameter-list*... )
 ```
 
@@ -46,7 +46,7 @@ The required *string* is the string to be translated.
 
 The optional *parameter-list* is an array of variable, non-translated string values that are placed in the translated string at positions indicated by the syntax
 
-```
+```javascript
 {{*n*}}
 ```
 
@@ -54,7 +54,7 @@ using a 1-based index.
 
 *Example*
 
-```js
+```javascript
 $.udb.lang.getTranslation( "{{1}} records committed", [ "2" ] );
 ```
 
@@ -70,7 +70,7 @@ This example could return this string if the current language is Dutch:
 2 rijen opgeslagen.
 ```
 
-You need to have supplied this translation in the language tables of USoft Definer, either as Application String or as Message. In the name of the translation item, you can use the **{{n}}** syntax featured above.
+You need to have supplied this translation in the language tables of USoft Definer, either as Application String or as Message. In the name of the translation item, you can use the `{{n}}` syntax featured above.
 
 If the translation is not found, the input *string* is returned.
 

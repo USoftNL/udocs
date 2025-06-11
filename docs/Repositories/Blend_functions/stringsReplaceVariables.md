@@ -13,7 +13,6 @@ This article is about the **strings:ReplaceVariables**[ Blend function](/docs/Re
 
 :::
 
-- [strings:ReplaceVariables](#strings:replacevariables)
 - [System-named attributes](#system-named-attributes)
 - [User-named attributes](#user-named-attributes)
 - [Pattern attributes for substitution based on regular expressions](#pattern-attributes-for-substitution-based-on-regular-expressions)

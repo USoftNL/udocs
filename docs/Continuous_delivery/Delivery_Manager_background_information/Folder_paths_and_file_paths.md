@@ -17,7 +17,7 @@ Delivery Manager has three *path types:*
 |--------|--------|--------|
 |Absolute path|A path starting with a drive letter followed by a backslash, or with a double backslash ('\\\\').|C:\\temp\\backupC:\\temp\\backup\\readme.txtc:\\\\\\fs.usoft.com\\app$\\Releases\\2.0.1\\scripts|
 |Relative path|A path starting with a single backslash ('\\').|\\custom\\initial\\data\\|
-|Variable path|A path starting with a source variable that has an absolute path as its value.|${release}\\2.0.1\\scripts${release}|
+|Variable path|A path starting with a source variable that has an absolute path as its value.|`${release}\2.0.1\\scripts${release}`|
 
 
 
@@ -63,5 +63,5 @@ Delivery Manager only runs on the Windows OS. On this OS, paths are case-insensi
 
 However, Delivery Manager replaces capitals in the following positions by lowercase characters:
 
-- Capitals in source variable names: '${RELEASE}' and '${Release}' are corrected to '${release}'.
-- Capitals in the first subfolder of ${release} and ${previous}: '${release}\\Custom\\MyFile' is corrected to '${release}\\custom\\MyFile'.
+- Capitals in source variable names: '`${RELEASE}`' and '`${Release}`' are corrected to '`${release}`'.
+- Capitals in the first subfolder of `${release}` and `${previous}: `'`${release}\Custom\MyFile`' is corrected to `${release}\custom\MyFile`.

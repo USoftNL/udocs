@@ -6,9 +6,6 @@ id: The_getValue_placeholder
 
 ![](./assets/c29894ef-9824-498a-9b23-e1cd94c27a76.png)
 
-
-
-
 :::danger
 
 This placeholder is no longer supported in USoft 11.
@@ -16,8 +13,6 @@ This placeholder is no longer supported in USoft 11.
 :::
 
 ![](./assets/22fff438-3acd-485b-90d0-d44868e85f2a.png)
-
-
 
 The **getValue** placeholder reads a value from the selected record in a web page. This can be a column value of the selected record, or the current value of a variable in a variable set.
 
@@ -45,21 +40,21 @@ SELECT   'MyJob' JobName
 
 ## Comparisons with NULL or empty strings
 
-In comparisons between NULL and ${getValue( )}, be sure to use the operators IS NULL (and IS NOT NULL for the opposite case):
+In comparisons between NULL and `${getValue( )}`, be sure to use the operators IS NULL (and IS NOT NULL for the opposite case):
 
-```
+```javascript
 ${getValue( PERSON, FAMILY_NAME )} IS NULL
 ```
 
-Do NOT compare ${getValue( )} with the empty string:
+Do NOT compare `${getValue( )}` with the empty string:
 
-```
+```javascript
 ${getValue( PERSON, FAMILY_NAME )} = ''
 ```
 
 In JavaScript, by contrast, you must write:
 
-```
+```javascript
 getValue( "PERSON", "FAMILY_NAME" ) == ""
 ```
 
@@ -69,6 +64,6 @@ When using the getValue placeholder in a SQL statement, by default single quotat
 
 You can change this default behavior by adding a third, optional argument (True or False) to the placeholder to enforce or skip the addition of single quotes:
 
-```
+```javascript
 ${getValue( data-source, data-source-item, { True | False } ) }
 ```

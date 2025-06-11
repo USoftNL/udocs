@@ -47,7 +47,7 @@ You are re-using the "CustomerDetails" Structure that you already have. This is 
 |        |        |
 |--------|--------|
 |Method Name|GetPersonNames|
-|Relative URI Path|/PersonNames/{id}|
+|Relative URI Path|`/PersonNames/{id}`|
 |REST HTTP Verb|GET     |
 |Produces|text/xml|
 |Return Structure Name|MyPersonNameStructure|
@@ -129,12 +129,7 @@ return result;
 |Return Parameter|Yes     |
 
 
-
- 
-
 6. Publish and Restart the server where you are publishing your REST service. Test that the REST call of the previous help topic:
-
-
 
 ```
 http://localhost:8090/mycustomservice/PersonNames/17
