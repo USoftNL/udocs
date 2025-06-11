@@ -8,6 +8,12 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+// --- ADDED REDIRECT LOGIC IMPORTS ---
+import React, { useEffect } from 'react';
+import { useLocation } from '@docusaurus/router';
+import { getRedirectUrl } from '../redirect';
+// ---
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -31,6 +37,18 @@ function HomepageHeader() {
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
+  const location = useLocation();
+
+  // --- REDIRECT LOGIC ---
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const url = getRedirectUrl(params);
+    if (url) {
+      window.location.href = url;
+    }
+  }, [location.search]);
+  // ---
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
