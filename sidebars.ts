@@ -18,6 +18,7 @@ const sidebars: SidebarsConfig = {
     {
     type: 'category',
     label: 'Getting started',
+    link: { type: 'doc', id: 'Getting_started/index'},
     customProps: {
       id: 'getting-started-main',
     },
@@ -37,10 +38,12 @@ const sidebars: SidebarsConfig = {
   {
     type: 'category',
     label: 'Business rules',
+    link: { type: 'generated-index', title: 'Business rules', slug: '/Business-rules', },
     items: [
       {
         type: 'category',
         label: 'Positioning business rules',
+        link: { type: 'generated-index', title: 'Positioning business rules', slug: '/Business-rules/Positioning_business_rules', },
         items: [
           {
             type: 'doc',

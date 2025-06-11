@@ -4,9 +4,6 @@ id: Lock_Foreign_Keys
 
 # Lock_Foreign_Keys
 
-
-
-
 :::note
 
 This article is about the **Lock_Foreign_Keys**[deployment configuration parameter](/docs/Authorisation_and_access/Deployment_configurations/Deployment_configuration_parameters.md).
@@ -16,7 +13,6 @@ This article is about the **Lock_Foreign_Keys**[deployment configuration paramet
 ## **Lock_Foreign_Keys**
 
 *Allowed values*
-
 `{ True \| False }`
 
 The underlined value is the USoft factory default. It applies if you have not set this deployment parameter to a different value.
