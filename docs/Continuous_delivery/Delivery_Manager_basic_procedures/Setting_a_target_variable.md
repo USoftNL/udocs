@@ -14,7 +14,7 @@ To **create** or **set** values for a target variable:
 
 2. In the "Target variable" field, type the name of your target variable, or query the variable if it already exists.
 
-The name must start with the symbols **${** and end with the symbol **}.** The name contained by the curly brackets must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
+The name must start with the symbols `${` and end with the symbol `}`. The name contained by the curly brackets must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
 
 Target variable names are case-sensitive.
 

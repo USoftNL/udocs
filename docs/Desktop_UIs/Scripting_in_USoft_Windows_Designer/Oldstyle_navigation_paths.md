@@ -10,16 +10,15 @@ Old-style navigation paths are an alternative way for traversing the object hier
 
 |**Symbol**|**Meaning**|
 |--------|--------|
-|<-      |(Arrow back, composed of a smaller-than symbols and a hyphen)Go to the topmost object within the current window|
-|<-<-    |Go to the topmost object within the window that called the current window|
-|<-<-... |(Etc.)  |
-|Parent  |Go to the parent box from where a child box was called|
-|.       |(full stop)Go one step down from the current position|
-|*       |(asterisk)Go any level down within the window until you find the next clue|
-
-
+|`<-`      |(Arrow back, composed of a smaller-than symbols and a hyphen)Go to the topmost object within the current window|
+|`<-<-`    |Go to the topmost object within the window that called the current window|
+|`<-<-...` |(Etc.)  |
+|`Parent`  |Go to the parent box from where a child box was called|
+|`.`       |(full stop)Go one step down from the current position|
+|`*`       |(asterisk)Go any level down within the window until you find the next clue|
 
 Object names in old-style navigation paths must be spelled with underscores instead of spaces. Address an object called "Tab 1" by:
+
 
 ```
 Tab_1

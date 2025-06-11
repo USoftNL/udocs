@@ -11,35 +11,10 @@ A **business rule** expresses a necessity or obligation. A business rule always 
 A business rule contains a *business rule keyword*. Here are business rule keywords that USoft prefers:
 
 
-<table>
-<thead>
-<tr>
-<td>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<thcolspan="3">Business rule keywords (preferred)</th>
-</tr>
-<tr>
-<td>
-<p>
-<strong>must</strong>
-</p>
-<p>
-<strong>must not</strong>
-</p>
-</td>
-<td>
-<strong>may not</strong>
-</td>
-<td>
-<strong>may … only</strong>
-</td>
-</tr>
-</tbody>
-</table>
+| **Business rule keywords (preferred)** |   |   |
+|:--------------------------------------:|---|---|
+| **must**  **must not**               | **may not** | **may … only** |
+
 
 **Must** is usually suitable. If you need a negation, combine it with **not** (**must not**).
 
@@ -67,33 +42,10 @@ An **advice** expresses a possibility or permission. It says that some course of
 An advice contains an *advice keyword.* Here are advice keywords that USoft prefers:
 
 
-<table>
-<thead>
-<tr>
-<td>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<thcolspan="2">Advice keywords (preferred)</th>
-</tr>
-<tr>
-<td>
-<p>
-<strong>may</strong>
-</p>
-<p>(without 
-<strong>not</strong> and</p>
-<p>without 
-<strong>only</strong>)</p>
-</td>
-<td>
-<strong>does not need to</strong>
-</td>
-</tr>
-</tbody>
-</table>
+| **Advice keywords (preferred)**      |   |
+|--------------------------------------|---|
+| **may**(without **not** and without **only**) | **does not need to** |
+
 
 Make sure that in combination with **may**, you do not also use **not** or **only**, or else the statement will turn into a business rule instead.
 
@@ -113,35 +65,11 @@ Natural language offers a wealth of alternatives to the preferred keywords in th
 
 The following keywords can be of service, and are also recognised by USoft Studio as business rules keywords:
 
+### Alternative keywords
 
-<table>
-<thead>
-<tr>
-<td>
-</td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<thcolspan="2">Alternative keywords</th>
-</tr>
-<tr>
-<td>it is necessary that</td>
-<td>it is not necessary that</td>
-</tr>
-<tr>
-<td>it is obligatory that</td>
-<td>it is not obligatory that</td>
-</tr>
-<tr>
-<td>it is possible that</td>
-<td>it is not possible that</td>
-</tr>
-<tr>
-<td>it is permitted that</td>
-<td>it is not permitted that</td>
-</tr>
-</tbody>
-</table>
-
- 
+|                          |                          |
+|--------------------------|--------------------------|
+| it is necessary that     | it is not necessary that |
+| it is obligatory that    | it is not obligatory that|
+| it is possible that      | it is not possible that  |
+| it is permitted that     | it is not permitted that |

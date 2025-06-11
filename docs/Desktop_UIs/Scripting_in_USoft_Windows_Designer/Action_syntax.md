@@ -43,7 +43,7 @@ RecordDelete()
 
 To specify the target object, you write an object path. An object path identifies an object as being the target of the action, and leads to this object. It may consist simply of the object name, or it may involve a sequence of one or more prefixed steps that lead to the object, much like a folder-and-file path leads to a file on the file system. Steps are separated by full stops. The Object Activator tool has been specially designed to help you write object paths.
 
-As an alternative object path syntax, USoft Windows Designer supports old-style navigation paths involving the **<-** (arrow back) and ***** (asterisk) symbols.
+As an alternative object path syntax, USoft Windows Designer supports old-style navigation paths involving the `<-` (arrow back) and ***** (asterisk) symbols.
 
 Object names in action statements cannot contain spaces. Use an underscore (_) instead of a space. If you use the Object Activator to compose action statements, this happens automatically.
 

@@ -27,7 +27,7 @@ These instructions assume a 32-bit Windows machine. If you are using a 64-bit ma
 
 **Openssl** 
 
-Followed by <Return> and check if you receive any error messages. If no messages display, quit OpenSSL  (type q followed by <return), or Ctrl-C). OpenSSL is now installed and ready for use.
+Followed by `<Return>` and check if you receive any error messages. If no messages display, quit OpenSSL  (type q followed by `<Return>`, or Ctrl-C). OpenSSL is now installed and ready for use.
 
  
 

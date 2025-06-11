@@ -4,7 +4,6 @@ id: Source_variables_in_UDeliver
 
 # Source variables in UDeliver
 
-
 :::note
 
 This article is about the **source variable** concept in USoft Delivery Manager (“UDeliver”).
@@ -26,7 +25,7 @@ You can use source variables in 4 contexts:
 - Custom XSL documents.
 - Registry XML documents.
 
-The name of a source variable must start with the symbols **${** and end with the symbol **}**.  The name contained by the curly braces must start with a letter (**a-z, A-Z**), and the rest of that name must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
+The name of a source variable must start with the symbols `${` and end with the symbol `}`.  The name contained by the curly braces must start with a letter (**a-z, A-Z**), and the rest of that name must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
 
 Names of source variables are case-sensitive. You cannot have overlapping source variable names, nor can you have names that overlap if it were not for the lowercase/uppercase distinction.
 
@@ -34,37 +33,13 @@ The value of a source variable is allowed to be any text string. Source variable
 
 After you initialise a release tree, Delivery Manager distinguishes a number of predefined source variables. These identify special folders on the file system:
 
-
-<table>
-<thead>
-<tr>
-<thcolspan="2">Predefined source variables</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>${previous}</td>
-<td>The folder where the deliverables of the previous version were released to.</td>
-</tr>
-<tr>
-<td>${release}</td>
-<td>The folder where the deliverables of the current version are released to.</td>
-</tr>
-<tr>
-<td>${root}</td>
-<td>The parent folder where deliverables of current and past releases are found.</td>
-</tr>
-<tr>
-<td>${prev_vs}</td>
-<td>The previous release version number (or name)</td>
-</tr>
-<tr>
-<td>${curr_vs}</td>
-<td>The current release version number (or name)</td>
-</tr>
-</tbody>
-</table>
-
+| Predefined source variables | Description |
+|----------------------------|-------------|
+| `${previous}`  | The folder where the deliverables of the previous version were released to. |
+| `${release}`   | The folder where the deliverables of the current version are released to. |
+| `${root}`      | The parent folder where deliverables of current and past releases are found. |
+| `${prev_vs}`   | The previous release version number (or name) |
+| `${curr_vs}`   | The current release version number (or name) |
 
 :::note
 
@@ -76,7 +51,7 @@ While source variables describe settings used on source machines for release, an
 
 This example shows a source variable in a SQL statement submitted as a task step parameter of type "SQL Command."
 
-```
+```sql
 INVOKE XML.EXPORT WITH
 SELECT    '${release}\custom\initdata\Catalogue.xml' WriteOutputTo
 ,         *

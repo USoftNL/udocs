@@ -22,7 +22,7 @@ To **create** or **set** a user-defined source variable:
 
 2. In the Name column, type the name of your source variable.
 
-The name must start with **${** and end with **}**. The name contained by the curly braces must start with a letter (**a-z, A-Z**), and the rest of that name must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
+The name must start with `${` and end with `}`. The name contained by the curly braces must start with a letter (**a-z, A-Z**), and the rest of that name must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
 
 Source variable names are case-sensitive. You are not allowed to create 2 source variable names that overlap, or that would overlap if it were not for the lowercase/uppercase distinction.
 

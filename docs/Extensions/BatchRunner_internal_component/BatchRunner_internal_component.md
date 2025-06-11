@@ -10,7 +10,7 @@ id: BatchRunner_internal_component
 :::note
 
 This article contains general information about the **BatchRunner** internal component.
-For an alphabetic list of BatchRunner methods, click [here](/docs/Extensions/BatchRunner_internal_component).
+For an alphabetic list of BatchRunner methods, see [BatchRunner internal component](/docs/Extensions/BatchRunner_internal_component).
 
 :::
 
@@ -51,7 +51,7 @@ The -quiet parameter is listed as:
 
 |**Parameter**|**Value**|
 |--------|--------|
-|`-quiet`|`{ true | false }`|
+|`-quiet`|``{ true  \| false }``|
 
 
 
@@ -110,7 +110,7 @@ INVOKE BatchRunner.MyJob WITH SELECT ..., '\n' "-colsep" )
 
 |**Parameter**|**Value**|
 |--------|--------|
-|<pre><code>-create_err<br/>-:create_err</code></pre>|`{ true | false `|
+| `-create_err  -:create_err`| `{ true \| false }`|
 
 
 
@@ -120,7 +120,7 @@ Specifies whether a .ERR file is created when an import task is processed (overw
 
 |**Parameter**|**Value**|
 |--------|--------|
-|<pre><code>-create_mes<br/>-:create_mes</code></pre>|`{ true | false`|
+|<pre><code>-create_mes<br/>-:create_mes</code></pre>|`{ true \| false }`|
 
 
 
@@ -131,7 +131,7 @@ If you specify *job-task*, the setting is only for that task. Otherwise, it is f
 
 |**Parameter**|**Value**|
 |--------|--------|
-|<pre><code>-create_suc<br/>-:create_suc</code></pre>|`{ true | false`|
+|`-create_suc`  `-:create_suc`|`{ true \| false }`|
 
 
 
@@ -215,7 +215,7 @@ If you *specify external-set*, the replacement is only for that external set. Ot
 
 |**Parameter**|**Value**|
 |--------|--------|
-|`-quiet`|`{ true | false }`|
+|`-quiet`|``{ true  \| false }``|
 
 
 
@@ -227,7 +227,7 @@ If this parameter is set to true (the default is false), all **information** and
 
 |**Parameter**|**Value**|
 |--------|--------|
-|`-returnstatus`|`{ true | false }`|
+|`-returnstatus`|``{ true  \| false }``|
 
 
 
@@ -315,8 +315,6 @@ INVOKE BatchRunner.MY_JOB WITH SELECT
 
 |**Parameter**|**Value**|
 |--------|--------|
-|`-wlogfile`|`{ true | false }`|
+|`-wlogfile`|`{ true  \| false }`|
 
-
-
-If this parameter is set to true, log information overwrites any existing information in the log file. If it is set to false (the default), log information is appended.  
+If this parameter is set to true, log information overwrites any existing information in the log file. If it is set to false (the default), log information is appended.

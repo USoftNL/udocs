@@ -21,7 +21,6 @@ This article is about the **table.GetInitialData** method of [table internal com
 
 Returns the initial data defined for table *table*.
 
-
 :::warning
 
 By default, a table does not have initial data. In practice, most tables do not have initial data.
@@ -47,5 +46,3 @@ This gets initial data for a table named EVP_PARAMETER:
 ```sql
 SELECT    evp_parameter.GetInitialData()
 ```
-
- 

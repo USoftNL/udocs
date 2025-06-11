@@ -17,7 +17,7 @@ This article is about the **Max_Driver_Conditions**[deployment configuration par
 
 *Allowed values*
 
-{ True \| False }
+`{ True \| False }`
 
 The underlined value is the USoft factory default. It applies if you have not set this deployment parameter to a different value.
 

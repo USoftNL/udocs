@@ -4,7 +4,6 @@ id: Target_variables_in_UDeliver
 
 # Target variables in UDeliver
 
-
 :::note
 
 This article is about the **target variable** concept in USoft Delivery Manager ("UDeliver”).
@@ -26,7 +25,7 @@ Target variables may occur :
 
 An occurrence of a target variable is expanded by running a deploy script away from the Delivery Manager client/server application.
 
-The name of a target variable must start with **${** and end with **}**. The name contained by the curly braces must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
+The name of a target variable must start with `${` and end with `}`. The name contained by the curly braces must be made up of alphanumeric characters. Full stops, hyphens and underscores are also allowed.
 
 Names of source variables are case-sensitive. You cannot have overlapping target variable names, nor can you have names that would overlap if it were not for the lowercase/uppercase distinction.
 
