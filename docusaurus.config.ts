@@ -5,8 +5,8 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "Usoft UDocs",
-  tagline: "Usoft documentation",
+  title: "USoft Knowledge Base",
+  tagline: "USoft documentation",
   favicon: "img/favicon.ico",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -76,49 +76,32 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/usoft-logo-color.png",
     navbar: {
-      title: "UDocs",
+      title: "USoft Knowledge Base",
       logo: {
-        alt: "Usoft",
+        alt: "USoft Knowledge Base",
         src: "img/usoft-logo.png",
         srcDark: "img/usoft-logo.png",
       },
       items: [],
     },
     footer: {
-      style: "dark",
+      style: "light",
       links: [
         {
-          title: "Community",
+          title: "Usoft resources",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "USoft.com",
+              href: "https://www.usoft.com",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "X",
-              href: "https://x.com/docusaurus",
-            },
-          ],
-        },
-        {
-          title: "More",
-          items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
-            {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "USoft Community",
+              href: "https://community.usoft.com",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} USoft Knowledge Base, Inc. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
