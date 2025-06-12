@@ -88,7 +88,7 @@ const config: Config = {
       style: "light",
       links: [
         {
-          title: "Usoft resources",
+          title: "USoft resources",
           items: [
             {
               label: "USoft.com",
