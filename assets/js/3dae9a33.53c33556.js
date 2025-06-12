@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkudocs=self.webpackChunkudocs||[]).push([[84560],{8052:s=>{s.exports=JSON.parse('{"tags":[{"label":"USoft10","permalink":"/udocs/tags/u-soft-10","count":197},{"label":"USoft11","permalink":"/udocs/tags/u-soft-11","count":204}]}')}}]);
